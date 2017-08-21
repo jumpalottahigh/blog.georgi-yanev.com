@@ -1,6 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Georgi Yanev's Blog`,
   },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `REDACTED`,
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+  ],
 }

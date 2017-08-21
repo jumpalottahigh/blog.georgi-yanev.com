@@ -6,6 +6,7 @@
   "dependencies": {
     "gatsby": "^1.8.10",
     "gatsby-link": "^1.6.5",
+    "gatsby-plugin-google-analytics": "^1.0.4",
     "gatsby-plugin-react-helmet": "^1.0.1"
   },
   "keywords": [
@@ -17,7 +18,8 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build && firebase deploy"
   },
   "devDependencies": {
     "prettier": "^1.5.2"
