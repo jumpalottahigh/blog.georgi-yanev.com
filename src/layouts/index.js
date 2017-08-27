@@ -61,97 +61,61 @@ const Header = () =>
 
 
       <ul
-        style={{
-          display: 'block',
-          listStyleType: 'none',
-          margin: 0,
-          padding: 0,
-        }}
+        className="nav"
       >
-        <li
-          style={{
-            display: 'inline-block',
-            margin: 0,
-          }}
-        >
-          <Link
-            to="/page-2"
-            style={{
-              color: '#000',
-              textDecoration: 'none',
-              textTransform: 'uppercase',
-              letterSpacing: '.03rem',
-              padding: '0 0.7rem',
-            }}
-          >
-            Link2
+        <li>
+          <Link to="/news">
+            News
           </Link>
         </li>
-        <li
-          style={{
-            display: 'inline-block',
-            margin: 0,
-          }}
-        >
-          <Link
-            to="/"
-            style={{
-              color: '#000',
-              textDecoration: 'none',
-              textTransform: 'uppercase',
-              letterSpacing: '.03rem',
-              padding: '0 0.7rem',
-            }}
-          >
-            Link3
+        <li>
+          <Link to="/eternal-archives">
+            Eternal Archives
           </Link>
         </li>
       </ul>
       <ul
-        style={{
-          display: 'block',
-          listStyleType: 'none',
-          marginLeft: 'auto',
-          marginBottom: 0,
-          padding: 0,
-        }}
+        className="nav social"
       >
-        <li
-          style={{
-            display: 'inline-block',
-            margin: 0,
-          }}
-        >
-          <a
-            href="https://github.com/jumpalottahigh"
-            style={{
-              color: '#0275d8',
-              textDecoration: 'none',
-              letterSpacing: '.03rem',
-              padding: '0 0.7rem',
-            }}
-          >
+        <li>
+          <a href="https://github.com/jumpalottahigh">
             Github
           </a>
         </li>
-        <li
-          style={{
-            display: 'inline-block',
-            margin: 0,
-          }}
-        >
-          <a
-            href="https://twitter.com/jumpalottahigh"
-            style={{
-              color: '#0275d8',
-              textDecoration: 'none',
-              letterSpacing: '.03rem',
-              padding: '0 0.7rem',
-            }}
-          >
+        <li>
+          <a href="https://twitter.com/jumpalottahigh">
             Twitter
           </a>
         </li>
+      </ul>
+    </div>
+  </div>
+
+const SideBar = () =>
+  <div
+    className="sidebar-wrapper"
+  >
+    <div
+      className="sidebar"
+    >
+      <h5>News</h5>
+      <ul className="sidenav">
+        <li>Coming soon...</li>
+        <li>Coming soon...</li>
+        <li>Coming soon...</li>
+      </ul>
+      <hr />
+      <h5>Eternal Archives</h5>
+      <ul className="sidenav">
+        <li>
+          <Link to="/eternal-archives/funny-win98-bugs">
+            Funny Windows 98 bugs
+          </Link>
+        </li>
+        <li>Coming soon...</li>
+        <li>Coming soon...</li>
+        <li>Coming soon...</li>
+        <li>Coming soon...</li>
       </ul>
     </div>
   </div>
@@ -169,14 +133,14 @@ const TemplateWrapper = ({ children }) =>
     <Header />
     
     <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: '3.5rem',
-      }}
+      className="main-wrapper"
     >
-      {children()}
+      <SideBar />
+      <div
+        className="main"
+      >
+        {children()}
+      </div>
     </div>
   </div>
 

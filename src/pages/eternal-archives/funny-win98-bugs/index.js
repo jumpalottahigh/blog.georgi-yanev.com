@@ -2,14 +2,14 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import Helmet from 'react-helmet'
-import winbug1 from '../images/winbug1.jpg'
-import winbug2 from '../images/winbug2.jpg'
-import winbug3 from '../images/winbug3.jpg'
-import winbug4 from '../images/winbug4.jpg'
-import winbug5 from '../images/winbug5.jpg'
-import winbug6 from '../images/winbug6.jpg'
+import winbug1 from '../../../images/winbug1.jpg'
+import winbug2 from '../../../images/winbug2.jpg'
+import winbug3 from '../../../images/winbug3.jpg'
+import winbug4 from '../../../images/winbug4.jpg'
+import winbug5 from '../../../images/winbug5.jpg'
+import winbug6 from '../../../images/winbug6.jpg'
 
-const SecondPage = () =>
+const FunnyWin98Bugs = () =>
   <div>
     <Helmet
       title="Windows 98 Fun"
@@ -57,4 +57,4 @@ const SecondPage = () =>
     <Link to="/">Go back to the homepage</Link>
   </div>
 
-export default SecondPage
+export default FunnyWin98Bugs
