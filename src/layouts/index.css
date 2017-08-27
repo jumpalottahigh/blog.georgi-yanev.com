@@ -637,6 +637,7 @@ pre tt:after {
 .sidebar {
   margin-bottom: 1.4rem;
   padding: 1.05rem;
+  font-size: 0.9rem;
 }
 
 @media (min-width: 750px) {
@@ -708,4 +709,13 @@ pre tt:after {
   text-decoration: none;
   letter-spacing: .03rem;
   padding: 0 0.7rem;
+}
+
+/* Helpers */
+pre {
+  white-space: pre-wrap;
+}
+
+.m-t-1 {
+  margin-top: 1rem;
 }

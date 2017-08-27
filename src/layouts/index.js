@@ -43,7 +43,7 @@ const Header = () =>
             display: 'flex',
             alignItems: 'center',
             margin: 0,
-            fontSize: '1.3rem',
+            fontSize: '1rem',
           }}
         >
         <img
@@ -101,8 +101,6 @@ const SideBar = () =>
       <h5>News</h5>
       <ul className="sidenav">
         <li>Coming soon...</li>
-        <li>Coming soon...</li>
-        <li>Coming soon...</li>
       </ul>
       <hr />
       <h5>Eternal Archives</h5>
@@ -110,6 +108,16 @@ const SideBar = () =>
         <li>
           <Link to="/eternal-archives/funny-win98-bugs">
             Funny Windows 98 bugs
+          </Link>
+        </li>
+        <li>
+          <Link to="/eternal-archives/batch-files">
+            Batch files
+          </Link>
+        </li>
+        <li>
+          <Link to="/eternal-archives/fiction/athene-d2-character-story">
+            Athene - D2 character story
           </Link>
         </li>
         <li>Coming soon...</li>
