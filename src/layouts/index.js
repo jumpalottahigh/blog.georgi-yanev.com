@@ -117,7 +117,8 @@ const SideBar = () =>
         </li>
         <li>
           <Link to="/eternal-archives/fiction/athene-d2-character-story">
-            Athene - D2 character story
+            Athine Palade:
+            <span className="font-smaller">Diablo 2 character story</span>
           </Link>
         </li>
         <li>Coming soon...</li>

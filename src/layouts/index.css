@@ -669,6 +669,24 @@ pre tt:after {
   padding: 0;
 }
 
+.sidenav a {
+  text-decoration: none;
+  color: #0175D8;
+}
+
+.sidenav a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #0175D8;
+  transition: width .15s;
+}
+
+.sidenav a:hover::after {
+  width: 100%;
+}
+
 .main-wrapper {
   padding-top: 3.5rem;
 }
@@ -714,6 +732,12 @@ pre tt:after {
 /* Helpers */
 pre {
   white-space: pre-wrap;
+}
+
+.font-smaller {
+  font-size: 0.7rem;
+  display: block;
+  line-height: 0.7rem;
 }
 
 .m-t-1 {
