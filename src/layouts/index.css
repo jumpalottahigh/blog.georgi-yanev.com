@@ -669,7 +669,12 @@ pre tt:after {
   padding: 0;
 }
 
+.sidenav li {
+  line-height: 0.9rem;
+}
+
 .sidenav a {
+  line-height: 0.8rem;
   text-decoration: none;
   color: #0175D8;
 }
@@ -687,12 +692,19 @@ pre tt:after {
   width: 100%;
 }
 
+.sidenav-info {
+  color: #548DBF;
+  font-size: 0.7rem;
+  display: block;
+  line-height: 0.7rem;
+}
+
 .main-wrapper {
   padding-top: 3.5rem;
 }
 
 .main {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   max-width: 960px;
   padding-left: 14rem;
   padding-top: 2rem;
@@ -734,10 +746,9 @@ pre {
   white-space: pre-wrap;
 }
 
-.font-smaller {
-  font-size: 0.7rem;
-  display: block;
-  line-height: 0.7rem;
+div > pre {
+  content: '';
+  clear: both;
 }
 
 .m-t-1 {

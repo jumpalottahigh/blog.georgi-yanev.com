@@ -11,13 +11,21 @@ const AtheneD2CharacterStoryPage = () =>
     />
     <h1>
       Athene - D2 Character Story
+    </h1>
+    <div>
       <span style={{
-          fontSize: '0.5rem',
+          fontSize: '0.7rem',
+          float: 'left',
+        }}>
+        ~ year: 2001 | ~ age: 16
+      </span>
+      <span style={{
+          fontSize: '0.7rem',
           float: 'right',
         }}>
         Uneditted things the way they were in the late 90s and early 2000s
       </span>
-    </h1>
+    </div>
 
     <div>
       <img src={storyCoverImage} alt="Athene story cover image" />

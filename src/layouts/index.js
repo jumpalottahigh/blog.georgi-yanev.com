@@ -118,7 +118,19 @@ const SideBar = () =>
         <li>
           <Link to="/eternal-archives/fiction/athene-d2-character-story">
             Athine Palade:
-            <span className="font-smaller">Diablo 2 character story</span>
+            <span className="sidenav-info">/Diablo 2 character story/</span>
+          </Link>
+        </li>
+        <li>
+          <Link to="/eternal-archives/fiction/leaders-of-the-great-dark-beyond">
+            Leaders of the Great Dark Beyond
+            <span className="sidenav-info">/a Warcraft story/</span>
+          </Link>
+        </li>
+        <li>
+          <Link to="/eternal-archives/fiction/log-of-gelus-life">
+            Log of Gelu's life
+            <span className="sidenav-info">/a Heroes of Might and Magic story/</span>
           </Link>
         </li>
         <li>Coming soon...</li>
