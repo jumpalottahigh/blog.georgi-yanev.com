@@ -9,17 +9,14 @@ import winbug4 from '../../../images/winbug4.jpg'
 import winbug5 from '../../../images/winbug5.jpg'
 import winbug6 from '../../../images/winbug6.jpg'
 
-const FunnyWin98Bugs = () =>
+const FunnyWin98BugsPage = () =>
   <div>
     <Helmet
       title="Windows 98 Fun"
     />
     <h1>
       Windows 98 fun
-      <span style={{
-          fontSize: '0.5rem',
-          float: 'right',
-        }}>
+      <span className="disclaimer">
         Uneditted things the way they were in the late 90s and early 2000s
       </span>
     </h1>
@@ -65,4 +62,4 @@ const FunnyWin98Bugs = () =>
     <Link to="/">Go back to the homepage</Link>
   </div>
 
-export default FunnyWin98Bugs
+export default FunnyWin98BugsPage

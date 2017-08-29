@@ -628,7 +628,6 @@ pre tt:after {
   background-color: rgb(252,250,255);
   float: left;
   width: 14rem;
-  display: none;
   position: fixed;
   overflow-y: auto;
   height: calc(100vh - 3.5rem);
@@ -638,12 +637,6 @@ pre tt:after {
   margin-bottom: 1.4rem;
   padding: 1.05rem;
   font-size: 0.9rem;
-}
-
-@media (min-width: 750px) {
-  .sidebar-wrapper {
-    display: block;
-  }
 }
 
 /* Scrollbar */
@@ -704,7 +697,7 @@ pre tt:after {
 }
 
 .main {
-  /* margin: 0 auto; */
+  margin: 0 auto;
   max-width: 960px;
   padding-left: 14rem;
   padding-top: 2rem;
@@ -753,4 +746,14 @@ div > pre {
 
 .m-t-1 {
   margin-top: 1rem;
+}
+
+.year {
+  font-size: 0.7rem;
+  float: left;
+}
+
+.disclaimer {
+  font-size: 0.7rem;
+  float: right;
 }

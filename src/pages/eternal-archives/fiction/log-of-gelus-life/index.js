@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-const LogOfGelusLife = () =>
+const LogOfGelusLifePage = () =>
   <div>
     <Helmet
       title="Log of Gelu's life - Heroes of Might and Magic Fiction"
@@ -12,16 +12,10 @@ const LogOfGelusLife = () =>
     </h1>
 
     <div>
-      <span style={{
-          fontSize: '0.7rem',
-          float: 'left',
-        }}>
+      <span className="year">
         ~ year: 2001 | ~ age: 16
       </span>
-      <span style={{
-          fontSize: '0.7rem',
-          float: 'right',
-        }}>
+      <span className="disclaimer">
         Uneditted things the way they were in the late 90s and early 2000s
       </span>
     </div>
@@ -133,4 +127,4 @@ const LogOfGelusLife = () =>
     <Link to="/">Go back to the homepage</Link>
   </div>
 
-export default LogOfGelusLife
+export default LogOfGelusLifePage

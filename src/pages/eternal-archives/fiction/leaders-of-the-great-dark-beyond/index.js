@@ -12,16 +12,10 @@ const LeadersOfTheGreatDarkBeyondPage = () =>
     </h1>
 
     <div>
-      <span style={{
-          fontSize: '0.7rem',
-          float: 'left',
-        }}>
+      <span className="year">
         ~ year: 2002 | ~ age: 17
       </span>
-      <span style={{
-          fontSize: '0.7rem',
-          float: 'right',
-        }}>
+      <span className="disclaimer">
         Uneditted things the way they were in the late 90s and early 2000s
       </span>
     </div>
