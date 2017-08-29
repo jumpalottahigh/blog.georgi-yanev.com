@@ -106,6 +106,9 @@ const SideBar = () =>
       <h5>Eternal Archives</h5>
       <ul className="sidenav">
         <li>
+          <em>Fan Fiction</em>
+        </li>
+        <li>
           <Link to="/eternal-archives/fiction/leaders-of-the-great-dark-beyond">
             Leaders of the Great Dark Beyond
             <span className="sidenav-info">/a Warcraft story/</span>
@@ -140,6 +143,17 @@ const SideBar = () =>
             Log of Gelu's life
             <span className="sidenav-info">/a Heroes of Might and Magic story/</span>
           </Link>
+        </li>
+        <li>
+          <em>Media</em>
+        </li>
+        <li>
+          <Link to="/eternal-archives/music-videos-and-mixtapes">
+            Videos and Mixtapes
+          </Link>
+        </li>
+        <li>
+          <em>Random</em>
         </li>
         <li>
           <Link to="/eternal-archives/funny-win98-bugs">

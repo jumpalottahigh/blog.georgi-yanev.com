@@ -662,6 +662,10 @@ pre tt:after {
   padding: 0;
 }
 
+.sidenav em {
+  border-bottom: 1px solid #000;
+}
+
 .sidenav li {
   line-height: 0.9rem;
 }
