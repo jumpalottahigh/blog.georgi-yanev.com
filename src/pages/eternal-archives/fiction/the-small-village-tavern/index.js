@@ -11,7 +11,7 @@ const TheSmallVillageTavernPage = () =>
       The small village tavern
     </h1>
 
-    <div>
+    <div className="disclaimer-container">
       <span className="year">
         ~ year: 2003 | ~ age: 18
       </span>

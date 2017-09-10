@@ -16,10 +16,16 @@ const FunnyWin98BugsPage = () =>
     />
     <h1>
       Windows 98 fun
+    </h1>
+
+    <div className="disclaimer-container">
+      <span className="year">
+        ~ year: 2000 | ~ age: 15
+      </span>
       <span className="disclaimer">
         Uneditted things the way they were in the late 90s and early 2000s
       </span>
-    </h1>
+    </div>
 
     <div>
       Most people have heard of the fabled <strong>BSOD</strong> (Blue Screen Of Death), or some just call it a blue screen.

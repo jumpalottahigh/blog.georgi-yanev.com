@@ -11,7 +11,7 @@ const LeadersOfTheGreatDarkBeyondPage = () =>
       Leaders of the Great Dark Beyond
     </h1>
 
-    <div>
+    <div className="disclaimer-container">
       <span className="year">
         ~ year: 2002 | ~ age: 17
       </span>

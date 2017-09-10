@@ -34,15 +34,16 @@ const BatchFiles = () =>
     />
     <h1>
       Batch files
-      <span style={{
-          fontSize: '0.5rem',
-          float: 'right',
-        }}>
-        Uneditted things the way they were in the late 90s and early 2000s
-      </span>
     </h1>
 
-    
+    <div className="disclaimer-container">
+      <span className="year">
+        ~ year: 2000 | ~ age: 15
+      </span>
+      <span className="disclaimer">
+        Uneditted things the way they were in the late 90s and early 2000s
+      </span>
+    </div>
 
     <div>
       Some of the first batch files I wrote.

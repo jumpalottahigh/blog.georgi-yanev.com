@@ -752,12 +752,21 @@ div > pre {
   margin-top: 1rem;
 }
 
+.m-b-1 {
+  margin-bottom: 1rem;
+}
+
 .year {
   font-size: 0.7rem;
-  float: left;
 }
 
 .disclaimer {
   font-size: 0.7rem;
-  float: right;
+}
+
+.disclaimer-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 }

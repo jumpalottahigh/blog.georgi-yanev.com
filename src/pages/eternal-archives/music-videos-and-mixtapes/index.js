@@ -11,7 +11,7 @@ const MusicVideosAndMixtapesPage = () =>
       Music Videos and Mixtapes
     </h1>
 
-    <div>
+    <div className="disclaimer-container">
       <span className="year">
         ~ year: 2003 - 2006 | ~ age: 18 - 21
       </span>

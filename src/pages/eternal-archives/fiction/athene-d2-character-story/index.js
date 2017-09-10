@@ -12,7 +12,7 @@ const AtheneD2CharacterStoryPage = () =>
     <h1>
       Athene - D2 Character Story
     </h1>
-    <div>
+    <div className="disclaimer-container">
       <span className="year">
         ~ year: 2001 | ~ age: 16
       </span>

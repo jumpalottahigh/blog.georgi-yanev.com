@@ -11,7 +11,7 @@ const TriumphOfTheOrcishHordesPage = () =>
       Triumph of the orcish hordes
     </h1>
 
-    <div>
+    <div className="disclaimer-container">
       <span className="year">
         ~ year: 2002 | ~ age: 17
       </span>

@@ -148,6 +148,11 @@ const SideBar = () =>
           <em>Media</em>
         </li>
         <li>
+          <Link to="/eternal-archives/music">
+            Music
+          </Link>
+        </li>
+        <li>
           <Link to="/eternal-archives/music-videos-and-mixtapes">
             Videos and Mixtapes
           </Link>

@@ -11,7 +11,7 @@ const LogOfGelusLifePage = () =>
       Log of Gelu's life
     </h1>
 
-    <div>
+    <div className="disclaimer-container">
       <span className="year">
         ~ year: 2001 | ~ age: 16
       </span>
