@@ -161,6 +161,16 @@ const SideBar = () =>
           <em>Random</em>
         </li>
         <li>
+          <Link to="/eternal-archives/starcraft-encyclopedia">
+            StarCraft Encyclopedia
+          </Link>
+        </li>
+        <li>
+          <Link to="/eternal-archives/starcraft-screenshots">
+            StarCraft Screenshots
+          </Link>
+        </li>
+        <li>
           <Link to="/eternal-archives/funny-win98-bugs">
             Funny Windows 98 bugs
           </Link>
@@ -168,6 +178,11 @@ const SideBar = () =>
         <li>
           <Link to="/eternal-archives/batch-files">
             Batch files
+          </Link>
+        </li>
+        <li>
+          <Link to="/eternal-archives/really-random">
+            Really random
           </Link>
         </li>
         <li>Coming soon...</li>

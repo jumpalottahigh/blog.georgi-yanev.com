@@ -55,18 +55,18 @@ const BatchFiles = () =>
 
     <pre>
       <code>
-        @ECHO OFF
-        echo This program is typical
-        echo Desktop Cleaner...
-        cd c:\windows\desktop
-        md oldlinks
-        pause
-        copy c:\windows\desktop\*.lnk c:\windows\desktop\oldlinks\*.lnk
-        pause
-        del c:\windows\desktop\*.lnk
-        echo DONE!
-        pause
-        cls
+        @ECHO OFF <br />
+        echo This program is typical <br />
+        echo Desktop Cleaner... <br />
+        cd c:\windows\desktop <br />
+        md oldlinks <br />
+        pause <br />
+        copy c:\windows\desktop\*.lnk c:\windows\desktop\oldlinks\*.lnk <br />
+        pause <br />
+        del c:\windows\desktop\*.lnk <br />
+        echo DONE! <br />
+        pause <br />
+        cls <br />
       </code>
     </pre>
 
@@ -76,11 +76,11 @@ const BatchFiles = () =>
 
     <pre>
       <code>
-      @ECHO OFF
-      echo This program helps you make your own text files,
-      echo it will save the file in your "c:\my documents" directory as "yourfile.txt"
-      echo To end the program press [Ctrl+Z] and then ENTER.
-      copy con c:\mydocu~1\yourfile.txt
+      @ECHO OFF <br />
+      echo This program helps you make your own text files, <br />
+      echo it will save the file in your "c:\my documents" directory as "yourfile.txt" <br />
+      echo To end the program press [Ctrl+Z] and then ENTER. <br />
+      copy con c:\mydocu~1\yourfile.txt <br />
       </code>
     </pre>
 
@@ -90,13 +90,13 @@ const BatchFiles = () =>
 
     <pre>
       <code>
-      @ECHO OFF
-      echo This program will back up files...
-      pause
-      cls
-      copy c:\mydocu~1\*.* d:\backup~1\*.*
-      echo /s
-      echo Ok, it's done now..      
+      @ECHO OFF <br />
+      echo This program will back up files... <br />
+      pause <br />
+      cls <br />
+      copy c:\mydocu~1\*.* d:\backup~1\*.* <br />
+      echo /s <br />
+      echo Ok, it's done now.. <br />
       </code>
     </pre>
 
