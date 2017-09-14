@@ -171,6 +171,11 @@ const SideBar = () =>
           </Link>
         </li>
         <li>
+          <Link to="/eternal-archives/diablo-unique-mobs">
+            Diablo Unique Mobs
+          </Link>
+        </li>
+        <li>
           <Link to="/eternal-archives/funny-win98-bugs">
             Funny Windows 98 bugs
           </Link>
