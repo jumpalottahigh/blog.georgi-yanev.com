@@ -158,6 +158,11 @@ const SideBar = () =>
           </Link>
         </li>
         <li>
+          <Link to="/eternal-archives/game-dev-videos">
+            Game Dev Videos
+          </Link>
+        </li>
+        <li>
           <em>Random</em>
         </li>
         <li>
