@@ -100,6 +100,14 @@ const SideBar = () =>
     >
       <h5>News</h5>
       <ul className="sidenav">
+        <li>
+          <em>FPV drones</em>
+        </li>
+        <li>
+          <Link to="/news/fpv-drones/">
+            Getting started with FPV
+          </Link>
+        </li>
         <li>Coming soon...</li>
       </ul>
       <hr />
@@ -200,10 +208,6 @@ const SideBar = () =>
             Really random
           </Link>
         </li>
-        <li>Coming soon...</li>
-        <li>Coming soon...</li>
-        <li>Coming soon...</li>
-        <li>Coming soon...</li>
       </ul>
     </div>
   </div>
