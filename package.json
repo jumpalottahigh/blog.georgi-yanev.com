@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.8.10",
-    "gatsby-link": "^1.6.5",
-    "gatsby-plugin-google-analytics": "^1.0.4",
-    "gatsby-plugin-react-helmet": "^1.0.1"
+    "gatsby": "^1.9.54",
+    "gatsby-link": "^1.6.20",
+    "gatsby-plugin-google-analytics": "^1.0.8",
+    "gatsby-plugin-react-helmet": "^1.0.6"
   },
   "keywords": [
     "gatsby"
@@ -22,6 +22,6 @@
     "deploy": "gatsby build && firebase deploy"
   },
   "devDependencies": {
-    "prettier": "^1.5.2"
+    "prettier": "^1.7.4"
   }
 }
