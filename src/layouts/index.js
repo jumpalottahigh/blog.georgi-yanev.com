@@ -108,6 +108,12 @@ const SideBar = () =>
             Getting started with FPV
           </Link>
         </li>
+        <li>
+          <Link to="/news/upgrading-your-wizard/">
+            Upgrading your Wizard x220
+            <span className="sidenav-info">/part 1/</span>
+          </Link>
+        </li>
         <li>Coming soon...</li>
       </ul>
       <hr />

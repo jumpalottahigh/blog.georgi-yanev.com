@@ -829,3 +829,8 @@ div > pre {
     position: initial;
   }
 }
+
+.offset-top-nav {
+  padding-top: 3.5rem;
+  margin-top: -3.5rem;
+}
