@@ -212,11 +212,11 @@ img {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  padding-bottom: 0;
+  margin-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  padding-bottom: 0;
 }
 h1 {
   margin-left: 0;
@@ -469,11 +469,11 @@ iframe {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  padding-bottom: 0;
+  margin-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  padding-bottom: 0;
 }
 hr {
   margin-left: 0;
@@ -820,6 +820,9 @@ div > pre {
   .main {
     order: 1;
     padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 2px 2px 2px rgb(45, 58, 59);
+    z-index: 1;
   }
 
   .sidebar-wrapper {
@@ -828,9 +831,17 @@ div > pre {
     height: 100%;
     position: initial;
   }
+
+  .nav li a {
+    font-size: .8rem;
+  }
 }
 
 .offset-top-nav {
   padding-top: 3.5rem;
   margin-top: -3.5rem;
+}
+
+iframe {
+  max-width: 100%;
 }

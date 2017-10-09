@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import fpvDronesGettingStarted1 from '../../../images/fpv/fpv-drones-getting-started-1.jpg'
@@ -33,12 +32,11 @@ const FPVDronesPage = () =>
     <div className="m-b-1">
       Before we get any further, I will assume you have at least a basic idea of what FPV drone racing is and what freestyle is. Here's what came in the mail about ~ 2 weeks after the order date:
       <img src={fpvDronesGettingStarted1} alt="Wizard x220 unboxed" />
-      The extra props are very well received, and even after only 2-3 flights I managed to break one already. I have even gone as far ahead to purchase even more extra props of roughly the same type as I read a lot of good reviews about the <a href="https://goo.gl/14JLmC" target="_blank" rel="noopener">Cyclone 5 inch 3 blade propeller</a>. They go for about 2.50 euro for a set of 4.
+      The extra props are very well received, and even after only 2-3 flights I managed to break one already. I have even gone as far ahead to purchase even more extra props of roughly the same type as I read a lot of good reviews about the <a href="https://goo.gl/14JLmC" target="_blank" rel="noopener">Cyclone 5 inch 3 blade propeller</a>. They go for about 2.50 euro for a set of 4.<br /><br />
       It is also pretty nice that the kit comes with some spare screws and zip ties. Partially because I did my first flight on gravel (!!!) instead of grass, I actually lost 1 screw and had to replace that, az well as one of the ESC zip ties broke.
       Suffice it to say I am never again (until I get good at flying) flying on anything else but grass.
       Here's quick and dirty mix of the first flight.
     </div>
-
 
     <div className="m-b-1">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/oumHGODwJ-s?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -46,8 +44,8 @@ const FPVDronesPage = () =>
 
     <div className="m-b-1">
       You also get this Flysky FS-i6 radio in the kit and from what I have gathered it seems to be a decent radio when you get into the hobby. The <a href="https://goo.gl/SpR395" target="_blank" rel="noopener">Taranis</a> radio seems to be killing it in terms of popularity among pros, but for our noob needs, the Flysky totally handles things. I assume the Taranis are great radios, they also cost a bit more, but I cannot recommend a specific model, since I haven't gotten my hands on one just yet, so stay tuned. If for whatever reason you only have a quad here's the link to the <a href="https://goo.gl/WSmu95" target="_blank" rel="noopener">Flysky FS-i6</a> radio.
-      <img src={fpvDronesGettingStarted2} alt="Flysky FS-i6 radio" />
     </div>
+    <img src={fpvDronesGettingStarted2} alt="Flysky FS-i6 radio" />
 
     <div className="m-b-1">
       As far as FPV goggles go, I am using the <a href="https://goo.gl/e1KqcS" target="_blank" rel="noopener">Eachine VR-007 Pro</a> (on top of the backpack in the picture). Those are super cheap (~ 35 euro), while Fatsharks or other more expensive and much higher quality brands can get up to 500 euro and beyond. I figured those are gonna be a perfect starting goggle for the price and I would never feel sorry about tossing them away in favor a better set in the future.
@@ -72,7 +70,7 @@ const FPVDronesPage = () =>
     <div className="m-b-1">
       The other worthy simulator in my opinion is <a href="http://rotorrush.com/" target="_blank" rel="noopener">Rotor Rush</a>. Definitely not a bad choice, feels close to the real thing and you can get a week trial to test it out.
       <br />
-      Last *and* least, although I don't mean to be a hater - Velocidrone. I don't know might have been a decent choice, but it kind of lost me. And I never looked back.
+      Last *and* least, although I don't mean to be a hater - Velocidrone. I don't know, might have been a decent choice, but it kind of lost me. And I never looked back.
     </div>
 
     <div className="m-b-1">
@@ -109,8 +107,6 @@ const FPVDronesPage = () =>
         </li>
       </ul>
     </div>
-
-    <Link to="/">Go back to the homepage</Link>
   </div>
 
 export default FPVDronesPage

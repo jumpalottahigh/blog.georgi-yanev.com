@@ -116,8 +116,9 @@ const UpgradingYourWizardPage = () =>
       </p>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/E-3FYff5RlY?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
-
-    <Link to="/">Go back to the homepage</Link>
+    <div className="m-b-1">
+      New to FPV drones? <Link to="/news/fpv-drones/">Read the getting started post</Link>.
+    </div>
   </div>
 
 export default UpgradingYourWizardPage

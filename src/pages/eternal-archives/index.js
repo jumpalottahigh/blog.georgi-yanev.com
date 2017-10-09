@@ -1,11 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import eternalArchivesMainImage from '../../images/eternal-archives-main.jpg'
 
 const EternalArchivesPage = ({data}) =>
   <div>
     <h1>Eternal Archives - home to the past...</h1>
     <p>This section hosts uneditted things the way they were in the late 90s and early 2000s.</p>
-    <p>List of all posts in this section:</p>
+    <p>For example, here's a snippet of the first site I wrote in 1999 :)</p>
+    <img src={eternalArchivesMainImage} alt="Snippet of the first site written by Georgi Yanev" />
+    <p className="m-t-1">List of all posts in this section:</p>
     <ul className="list-none">
       {data.allSitePage.edges.map(page =>
         (
@@ -15,7 +18,6 @@ const EternalArchivesPage = ({data}) =>
         )
       )}
     </ul>
-    <Link to="/">Go back to the homepage</Link>
   </div>
 
 export default EternalArchivesPage
