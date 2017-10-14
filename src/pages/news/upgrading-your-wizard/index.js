@@ -111,7 +111,7 @@ const UpgradingYourWizardPage = () =>
       <h4 className="m-b-1">Velcro straps and zip ties</h4>
       <p>
         There are many ways to mount and strap things on your quad. For example, you could take your receiver antennas out the back of the quad and strap them that way with zip ties. In my case, I went for straping them vertically for the 2 stand offs on the back. Just make sure everything is out and away from your propellers' way.
-        <img src={fpvUpgradeYourWizardPT19} alt="My Wizard x220 rear shot" />
+        <img className="m-t-1 m-b-1" src={fpvUpgradeYourWizardPT19} alt="My Wizard x220 rear shot" />
         Since at one point I used zip ties to hold my receiver and those would press against the battery, I decided to double sticky tape some soft foam padding to the bottom of the battery to soften hits and scratches. Not sure how much that helps but so far so good and I haven't had the battery fly off the quad just yet. I also added a second strap around the battery for extra safety. Below you can see how thick the soft foam piece is.
       </p>
       <img src={fpvUpgradeYourWizardPT17} alt="Soft foam padding added to battery" />
@@ -126,7 +126,10 @@ const UpgradingYourWizardPage = () =>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/E-3FYff5RlY?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
     <div className="m-b-1">
-      New to FPV drones? <Link to="/news/fpv-drones/">Read the getting started post</Link>.
+      New to FPV drones? <Link to="/news/fpv-drones/">Read the getting started post</Link> or check out my <Link to="/news/tools-and-backpack-setup/">backpack and tools setup</Link>.
+    </div>
+    <div className="affiliate-note">
+      Most links to Banggood in this article are affiliate links and would support the author if used. Thanks!
     </div>
   </div>
 

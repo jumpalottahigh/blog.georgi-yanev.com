@@ -115,7 +115,18 @@ const SideBar = () =>
             <span className="sidenav-info">/part 1/</span>
           </Link>
         </li>
+        <li>
+          <Link to="/news/tools-and-backpack-setup/">
+            Tools and backpack setup
+          </Link>
+        </li>
         <li>Coming soon...</li>
+        <li className="coming-soon">installing betaflight 3.2</li>
+        <li className="coming-soon">soldering a buzzer</li>
+        <li className="coming-soon">change to 4s batteries</li>
+        <li className="coming-soon">
+          Getting started with smart home automation
+        </li>
       </ul>
       <hr />
       <h5>Eternal Archives</h5>

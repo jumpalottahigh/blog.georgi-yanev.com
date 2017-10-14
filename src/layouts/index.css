@@ -382,7 +382,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 figure {
   margin-left: 0;
@@ -844,4 +844,15 @@ div > pre {
 
 iframe {
   max-width: 100%;
+}
+
+.affiliate-note {
+  border-top: 1px solid #cecece;
+  font-size: 0.7rem;
+}
+
+.coming-soon {
+  color: #b4b4b4;
+  font-size: 0.8rem;
+  font-style: italic;
 }
