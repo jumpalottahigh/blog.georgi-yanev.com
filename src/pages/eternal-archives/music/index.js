@@ -16,7 +16,7 @@ const MusicPage = () =>
         ~ year: 2002 - 2006 | ~ age: 17 - 21
       </span>
       <span className="disclaimer">
-        Uneditted things the way they were in the late 90s and early 2000s
+        Unedited things the way they were in the late 90s and early 2000s
       </span>
     </div>
 

@@ -6,6 +6,7 @@ import Helmet from 'react-helmet'
 import './index.css'
 
 import logo from '../images/logo.png'
+import ogImage from '../images/main-page.jpg'
 
 const Header = () =>
   <div
@@ -221,10 +222,15 @@ const SideBar = () =>
 const TemplateWrapper = ({ children }) =>
   <div>
     <Helmet
-      title="Georgi Yanev: Eternal Archive"
+      title="Georgi Yanev | Blog on Web OSS, FPV and Smart Home Automation"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'I\'m Georgi and I like to write code, tinker with Smart Home Automation projects and I am currently learning how to fly FPV racing drones. I work as a web developer and I see myself as a fairly technical person heavily invested in all things web with a great interest in AR, VR and AI. Also, <3 OSS.' },
+        { name: 'keywords', content: 'smart home automation, home assistant, open source software, OSS, FPV, racing drones, Wizard x220, code, DIY, projects' },
+        { property: 'og:image', content: ogImage },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://blog.georgi-yanev.com' },
+        { property: 'og:title', content: 'Georgi Yanev\'s blog on Web OSS, FPV and Smart Home Automation' },
+        { property: 'og:description', content: 'I\'m Georgi and I like to write code, tinker with Smart Home Automation projects and I am currently learning how to fly FPV racing drones. I work as a web developer and I see myself as a fairly technical person heavily invested in all things web with a great interest in AR, VR and AI. Also, <3 OSS.' },
       ]}
     />
     

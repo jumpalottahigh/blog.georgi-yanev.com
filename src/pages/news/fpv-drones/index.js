@@ -10,7 +10,16 @@ import fpvDronesGettingStarted5 from '../../../images/fpv/fpv-drones-getting-sta
 const FPVDronesPage = () =>
   <div>
     <Helmet
-      title="FPV Drones"
+      title="Georgi Yanev | FPV racing drones"
+      meta={[
+        { name: 'description', content: 'About a month ago I stumbled accross a YouTube video of FPV drone footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly drone set - namely the Wizard x220.' },
+        { name: 'keywords', content: 'FPV, racing drones, Wizard x220, quad, drone, getting started, learn to fly drones' },
+        { property: 'og:image', content: fpvDronesGettingStarted1 },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://blog.georgi-yanev.com/news/fpv-drones' },
+        { property: 'og:title', content: 'Getting started with FPV racing drones' },
+        { property: 'og:description', content: 'About a month ago I stumbled accross a YouTube video of FPV drone footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly drone set - namely the Wizard x220.' },
+      ]}
     />
     <h1>
       How to get started with FPV drones

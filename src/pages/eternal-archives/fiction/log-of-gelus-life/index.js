@@ -16,7 +16,7 @@ const LogOfGelusLifePage = () =>
         ~ year: 2001 | ~ age: 16
       </span>
       <span className="disclaimer">
-        Uneditted things the way they were in the late 90s and early 2000s
+        Unedited things the way they were in the late 90s and early 2000s
       </span>
     </div>
 
