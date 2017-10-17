@@ -10,19 +10,19 @@ import fpvDronesGettingStarted5 from '../../../images/fpv/fpv-drones-getting-sta
 const FPVDronesPage = () =>
   <div>
     <Helmet
-      title="Georgi Yanev | FPV racing drones"
+      title="Georgi Yanev | FPV racing quads"
       meta={[
-        { name: 'description', content: 'About a month ago I stumbled accross a YouTube video of FPV drone footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly drone set - namely the Wizard x220.' },
-        { name: 'keywords', content: 'FPV, racing drones, Wizard x220, quad, drone, getting started, learn to fly drones' },
+        { name: 'description', content: 'About a month ago I stumbled accross a YouTube video of FPV quad footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly drone set - namely the Wizard x220.' },
+        { name: 'keywords', content: 'FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads' },
         { property: 'og:image', content: fpvDronesGettingStarted1 },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://blog.georgi-yanev.com/news/fpv-drones' },
-        { property: 'og:title', content: 'Getting started with FPV racing drones' },
+        { property: 'og:title', content: 'Getting started with FPV racing quads' },
         { property: 'og:description', content: 'About a month ago I stumbled accross a YouTube video of FPV drone footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly drone set - namely the Wizard x220.' },
       ]}
     />
     <h1>
-      How to get started with FPV drones
+      How to get started with FPV quads
     </h1>
 
     <div className="disclaimer-container">
@@ -35,12 +35,12 @@ const FPVDronesPage = () =>
     </div>
 
     <div className="m-b-1">
-      About a month ago I stumbled accross a YouTube video of FPV drone footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly drone set - namely the <a href="https://goo.gl/YQP8T1" target="_blank" rel="noopener">Wizard x220</a>.
+      About a month ago I stumbled accross a YouTube video of FPV quad footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly quad set - namely the <a href="https://goo.gl/YQP8T1" target="_blank" rel="noopener">Wizard x220</a>.
     </div>
 
     <div className="m-b-1">
       Before we get any further, I will assume you have at least a basic idea of what FPV drone racing is and what freestyle is. Here's what came in the mail about ~ 2 weeks after the order date:
-      <img className="m-t-1 m-b-1" src={fpvDronesGettingStarted1} alt="Wizard x220 unboxed" />
+      <img className="m-t-1 m-b-1" src={fpvDronesGettingStarted1} alt="Wizard x220 unboxed" /><br />
       The extra props are very well received, and even after only 2-3 flights I managed to break one already. I have even gone as far ahead to purchase even more extra props of roughly the same type as I read a lot of good reviews about the <a href="https://goo.gl/14JLmC" target="_blank" rel="noopener">Cyclone 5 inch 3 blade propeller</a>. They go for about 2.50 euro for a set of 4.<br /><br />
       It is also pretty nice that the kit comes with some spare screws and zip ties. Partially because I did my first flight on gravel (!!!) instead of grass, I actually lost 1 screw and had to replace that, az well as one of the ESC zip ties broke.
       Suffice it to say I am never again (until I get good at flying) flying on anything else but grass.
@@ -64,7 +64,7 @@ const FPVDronesPage = () =>
       Now, I am still a VERY long way from being even a half decent pilot. But for about ~ 5 flights of ~ 10mins or less each, I can really say I see progress. One thing I really recommend is connecting your controller to your computer and spending some time in a simulator. Some of those are surprisingly close to the real thing and they will save you a lot of crashes in the beginning, at least till you get the basics. That would hopefully reduce the chance of ending up with the quad on a tree or a broken quad arm.
     </div>
     <div className="m-b-1">
-      <img src={fpvDronesGettingStarted4} alt="Wizard x220 assembled and flown a bit" />
+      <img src={fpvDronesGettingStarted4} alt="Wizard x220 assembled and flown a bit" /><br />
       After a few flights, still going strong.
     </div>
 
@@ -83,7 +83,7 @@ const FPVDronesPage = () =>
     </div>
 
     <div className="m-b-1">
-      Other channels I follow on YouTube include <a href="https://www.youtube.com/channel/UC3ioIOr3tH6Yz8qzr418R-g" target="_blank" rel="noopener">UAVfutures</a> (awesome vids with info and drone reviews as well as custom builds) and <a href="https://www.youtube.com/channel/UCQEqPV0AwJ6mQYLmSO0rcNA" target="_blank" rel="noopener">Mr Steele</a> (absolute beast of a pilot).
+      Other channels I follow on YouTube include <a href="https://www.youtube.com/channel/UC3ioIOr3tH6Yz8qzr418R-g" target="_blank" rel="noopener">UAVfutures</a> (awesome vids with info and quad reviews as well as custom builds) and <a href="https://www.youtube.com/channel/UCQEqPV0AwJ6mQYLmSO0rcNA" target="_blank" rel="noopener">Mr Steele</a> (absolute beast of a pilot).
     </div>
 
     <div className="m-b-1">
@@ -102,8 +102,8 @@ const FPVDronesPage = () =>
     </div>
 
     <div className="m-b-1">
-      <img src={fpvDronesGettingStarted3} alt="Wizard x220 on a wall mount" />
-      If you would like to support the blog and I managed to convince you that FPV drones are an awesome hobby, you can use the affiliate links in the article when making a purchase.
+      <img src={fpvDronesGettingStarted3} alt="Wizard x220 on a wall mount" /><br />
+      If you would like to support the blog and I managed to convince you that FPV quads are an awesome hobby, you can use the affiliate links in the article when making a purchase.
       <ul className="list-none m-t-1">
         <li>
           <a href="https://goo.gl/YQP8T1" target="_blank" rel="noopener">Wizard x220, Flysky FS-i6 Radio (ready to fly set)</a>
@@ -112,7 +112,7 @@ const FPVDronesPage = () =>
           <a href="https://goo.gl/e1KqcS" target="_blank" rel="noopener">Eachine VR-007 Pro</a>
         </li>
         <li>
-          <a href="https://goo.gl/T6JQBv" target="_blank" rel="noopener">Wizard x220 (only drone)</a>
+          <a href="https://goo.gl/T6JQBv" target="_blank" rel="noopener">Wizard x220 (quad only)</a>
         </li>
       </ul>
     </div>

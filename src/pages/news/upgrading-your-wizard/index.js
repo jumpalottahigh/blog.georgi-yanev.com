@@ -18,7 +18,7 @@ const UpgradingYourWizardPage = () =>
       title="Georgi Yanev | Upgrading your Wizard /part 1/"
       meta={[
         { name: 'description', content: 'If you are new to FPV, the Wizard x220 provides a decent flight experience out of the box. That being said, there are a number of small, cheap and easy to do upgrades that will dramatically improve your overall experience. In this part 1 of the upgrade guide, we\'re gonna cover: props, antennas, low voltage buzzer, chargers and velcro straps.' },
-        { name: 'keywords', content: 'FPV, racing drones, Wizard x220, quad, drone, getting started, learn to fly drones, cheap upgrades, antennas, props, voltage buzzer, velcro straps' },
+        { name: 'keywords', content: 'FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads, cheap upgrades, antennas, props, voltage buzzer, velcro straps' },
         { property: 'og:image', content: fpvUpgradeYourWizardPT11 },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://blog.georgi-yanev.com/news/upgrading-your-wizard' },
@@ -126,7 +126,7 @@ const UpgradingYourWizardPage = () =>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/E-3FYff5RlY?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
     <div className="m-b-1">
-      New to FPV drones? <Link to="/news/fpv-drones/">Read the getting started post</Link> or check out my <Link to="/news/tools-and-backpack-setup/">backpack and tools setup</Link>.
+      New to FPV quads? <Link to="/news/fpv-drones/">Read the getting started post</Link> or check out my <Link to="/news/tools-and-backpack-setup/">backpack and tools setup</Link>.
     </div>
     <div className="affiliate-note">
       Most links to Banggood in this article are affiliate links and would support the author if used. Thanks!
