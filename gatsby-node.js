@@ -5,10 +5,12 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
   const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
 
+  // TODO: add filter on draft ne: true
   return graphql(`{
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000
+      filter: { frontmatter: { draft: { ne: true }}}
     ) {
       edges {
         node {
