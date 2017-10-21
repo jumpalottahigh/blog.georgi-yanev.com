@@ -14,7 +14,7 @@ const FPVDronesPage = () =>
       meta={[
         { name: 'description', content: 'About a month ago I stumbled accross a YouTube video of FPV quad footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly drone set - namely the Wizard x220.' },
         { name: 'keywords', content: 'FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads' },
-        { property: 'og:image', content: fpvDronesGettingStarted1 },
+        { property: 'og:image', content: `https://blog.georgi-yanev.com${fpvDronesGettingStarted1}` },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://blog.georgi-yanev.com/news/fpv-drones' },
         { property: 'og:title', content: 'Getting started with FPV racing quads' },

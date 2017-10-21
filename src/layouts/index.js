@@ -237,10 +237,10 @@ const TemplateWrapper = ({ children }) =>
       meta={[
         { name: 'description', content: 'I\'m Georgi and I like to write code, tinker with Smart Home Automation projects and I am currently learning how to fly FPV racing quads. I work as a web developer and I see myself as a fairly technical person heavily invested in all things web with a great interest in AR, VR and AI. Also, <3 OSS.' },
         { name: 'keywords', content: 'smart home automation, home assistant, open source software, OSS, FPV, racing quads, Wizard x220, code, DIY, projects' },
-        { property: 'og:image', content: ogImage },
+        { property: 'og:image', content: `https://blog.georgi-yanev.com${ogImage}` },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://blog.georgi-yanev.com' },
-        { property: 'og:title', content: 'Georgi Yanev\'s blog on Web OSS, FPV and Smart Home Automation' },
+        { property: 'og:title', content: 'Georgi Yanev - Blog on Web OSS, FPV and Smart Home Automation' },
         { property: 'og:description', content: 'I\'m Georgi and I like to write code, tinker with Smart Home Automation projects and I am currently learning how to fly FPV racing quads. I work as a web developer and I see myself as a fairly technical person heavily invested in all things web with a great interest in AR, VR and AI. Also, <3 OSS.' },
       ]}
     />

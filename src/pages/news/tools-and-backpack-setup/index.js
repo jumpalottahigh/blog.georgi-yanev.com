@@ -11,7 +11,7 @@ const ToolsAndBackpackSetupPage = () =>
       meta={[
         { name: 'description', content: 'Sometimes when you fly you will crash. And sometimes when you crash things will break. It would make for a very unpleasant experience if you break a prop and have to go home cause you can\'t replace it in the field. Hence, the need for a backpack and some tools.' },
         { name: 'keywords', content: 'FPV, racing quads, Wizard x220, quad, drone, getting started, tools, m5 nut wrench, hex driver, pliers, tweezers, hot glue gun, hot air gun, soldering iron, flux, solder, wire cutters' },
-        { property: 'og:image', content: toolsAndBackpackSetup1 },
+        { property: 'og:image', content: `https://blog.georgi-yanev.com${toolsAndBackpackSetup1}` },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://blog.georgi-yanev.com/news/tools-and-backpack-setup' },
         { property: 'og:title', content: 'Georgi Yanev | Tools and backpack setup' },

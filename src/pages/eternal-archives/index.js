@@ -13,7 +13,7 @@ const EternalArchivesPage = ({data}) =>
         { property: 'og:image', content: eternalArchivesMainImage },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://blog.georgi-yanev.com/eternal-archives' },
-        { property: 'og:title', content: 'Georgi Yanev\'s blog Eternal Archives section contains unedited things the way they were in the late 90s and early 2000s.' },
+        { property: 'og:title', content: 'Georgi Yanev - The Eternal Archives blog section contains unedited things the way they were in the late 90s and early 2000s.' },
         { property: 'og:description', content: 'The Eternal Archives section of the blog is home to the past and hosts unedited things the way they were in the late 90s and early 2000s.' },
       ]}
     />
