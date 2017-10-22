@@ -21,6 +21,11 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             date
             path
             title
+            author
+            affiliate
+            ogKeywords
+            ogDescription
+            ogImage
           }
         }
       }

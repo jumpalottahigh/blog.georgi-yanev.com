@@ -120,6 +120,11 @@ const SideBar = () =>
             Tools and backpack setup
           </Link>
         </li>
+        <li>
+          <Link to="/fpv/how-to-direct-solder-vtx-antenna/">
+            How to direct solder vtx antenna
+          </Link>
+        </li>
         <li>Coming soon...</li>
         <li className="coming-soon">installing betaflight 3.2</li>
         <li className="coming-soon">soldering a buzzer</li>
