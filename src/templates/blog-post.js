@@ -15,7 +15,7 @@ export default function Template({
           { property: 'og:type', content: 'website' },
           { property: 'og:url', content: `https://blog.georgi-yanev.com${post.frontmatter.path}` },
           { property: 'og:image', content: `https://blog.georgi-yanev.com${post.frontmatter.ogImage}` },
-          { property: 'og:title', content: `Georgi Yanev - ${post.frontmatter.title}` },
+          { property: 'og:title', content: `Georgi Yanev | ${post.frontmatter.title}` },
           { property: 'og:description', content: `${post.frontmatter.ogDescription}` },
           { name: 'description', content: `${post.frontmatter.ogDescription}` },
           { name: 'keywords', content: `${post.frontmatter.ogKeywords}` },
