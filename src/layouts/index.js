@@ -125,6 +125,11 @@ const SideBar = () =>
             How to direct solder vtx antenna
           </Link>
         </li>
+        <li>
+          <Link to="/fpv/setup-flysky-fs-i6-ibus/">
+            How to setup iBUS on Flysky FS-i6
+          </Link>
+        </li>
         <li>Coming soon...</li>
         <li className="coming-soon">installing betaflight 3.2</li>
         <li className="coming-soon">soldering a buzzer</li>
