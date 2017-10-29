@@ -18,18 +18,18 @@ Even if you are a beginner and trying not to get lost, chances are every once in
 |   |   |
 |---|---|
 | ![Direct solder buzzer](add-buzzer-to-wizard-1.jpg) | ![Solderless buzzer](add-buzzer-to-wizard-2.jpg) |
-| Direct solder buzzer and 28 AWG silicon wire | Solderless buzzer |
+| Direct solder buzzer and 28 AWG silicone wire | Solderless buzzer |
 
 In this mini guide I have decided to go for the option requiring soldering, as it is actually quite simple - you need to run 2 or 4 wires, depending on which setup you go for. Let's get to it.
 
-First things first, take off props, top plate and the m3 nylon nuts from the flight controller.
+First things first, take off the props, the top plate, side plates and the m3 nylon nuts from the flight controller.
 
 |   |   |
 |---|---|
 | ![Remove top frame plate](add-buzzer-to-wizard-3.jpg) | ![Remove flight controller nuts](add-buzzer-to-wizard-4.jpg) |
-| Remove top frame plate | Remove flight controller nuts |
+| Remove the top frame plate | Remove the flight controller nuts |
 
-Take out your soldering gear, plug in your iron and set it to about 400 C (750 F). I cut 2 5cm (2 inch) pieces of 28 AWG silicon black and red wire. You want to strip both ends on both wires, dip them flux and then tin them up.
+Take out your soldering gear, plug in your iron and set it to about 400 C (750 F). I cut 2 5cm (2 inch) pieces of 28 AWG silicone black and red wire. You want to strip both ends on both wires, dip them in flux and then tin them up.
 
 ![Flux, solder and 2 5 inch 28 AWG wires](add-buzzer-to-wizard-5.jpg)
 
@@ -54,24 +54,24 @@ The flight controller has now access to the battery voltage. Next up, let's get 
 
 ![Buzzer and wires](add-buzzer-to-wizard-9.jpg)
 
-All that is left is to solder the wires in place to connect the negative to negative(using black wire) and positive to positive(using red wire) on the buzzer with the same terminals on the flight controller.
+All that is left is to solder the wires in place to connect the negative to negative(using the black wire) and positive to positive(using the red wire) on the buzzer with the same terminals on the flight controller.
 
 ![Buzzer soldered to flight controller](add-buzzer-to-wizard-10.jpg)
 
-That's it! You are all set. You should here extra beeps from your buzzer on most important quad events out of the box - on arming, on failsafe, etc. The only thing I set up extra was set lost model alarm on my 3 level switch. You can set that up anyway you like, however in my case I have it set like so:
+That's it! You are all set. You should now hear extra beeps from your buzzer on battery plug in, arming the quad, transmitter connection lost (failsafe) or battery voltage low. The only thing I set up extra was to set lost model alarm on my 3 level switch. You can set that up anyway you like, however in my case I have it set like so:
 
-> AUX1
+> AUX 1
 > - state 1: arm off
 > - state 2: arm on
 
-> AUX2
-> - state 1: acro
-> - state 2: horizon
+> AUX 2
+> - state 1: acro mode
+> - state 2: horizon mode
 > - state 3: lost model alarm
 
 ![Buzzer soldered to flight controller](add-buzzer-to-wizard-11.jpg)
 
-I really like this quick and dirty mod myself and I hope that helps you too. If you have any questions, hit me up on <a href="https://twitter.com/jumpalottahigh" target="_blank" rel="noopener">twitter</a>. Happy flying!
+I really like this quick and dirty mod, I believe it is a must have and I hope this helps you to set it up too. If you have any questions, hit me up on <a href="https://twitter.com/jumpalottahigh" target="_blank" rel="noopener">twitter</a>. Happy flying!
 
 [0]: Linkslist
 [1]: https://goo.gl/socvNb
