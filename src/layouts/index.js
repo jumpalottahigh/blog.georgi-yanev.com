@@ -130,9 +130,13 @@ const SideBar = () =>
             How to setup iBUS on Flysky FS-i6
           </Link>
         </li>
+        <li>
+          <Link to="/fpv/add-buzzer-to-wizard-x220/">
+            How to add a buzzer to the Wizard x220
+          </Link>
+        </li>
         <li>Coming soon...</li>
         <li className="coming-soon">installing betaflight 3.2</li>
-        <li className="coming-soon">soldering a buzzer</li>
         <li className="coming-soon">change to 4s batteries</li>
         <li className="coming-soon">
           Getting started with smart home automation
