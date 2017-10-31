@@ -17,8 +17,8 @@ If you are lucky and your angle antenna socket snaps in the 'right place', you c
 
 |   |   |
 |---|---|
-| ![Soldered angle bracket](direct-solder-vtx-0.jpg) | ![Snapped sodler joint and a missing pin](direct-solder-vtx-1.jpg)  |
-| Soldered broken angle bracket       |    Snapped sodler joint and a missing pin |
+| ![Soldered angle bracket](direct-solder-vtx-0.jpg) | ![Snapped solder joint and a missing pin](direct-solder-vtx-1.jpg)  |
+| Soldered broken angle bracket       |    Snapped solder joint and a missing pin |
 
 First things first, let's carefully strip the antenna coaxial cable. Go for the shortest possible cut past the SMA connector. I think I could have done a bit better job here by ~ 0.5 cm or so.
 

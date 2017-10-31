@@ -2,9 +2,13 @@ module.exports = {
   pathPrefix: `/`,
   siteMetadata: {
     title: `Georgi Yanev's Blog`,
+    siteUrl: `https://blog.georgi-yanev.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-sitemap`
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
