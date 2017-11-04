@@ -5,6 +5,7 @@ title: "How to add a buzzer to the Eachine Wizard x220"
 author: "Georgi Yanev"
 affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
 draft: false
+tags: "fpv"
 ogKeywords: "low, voltage buzzer, solder, solderless, wizard x220, how to add buzzer, lost model buzzer, betaflight buzzer config"
 ogDescription: "Having a low voltage buzzer could be very beneficial, but having a lost model buzzer could be even more beneficial. We'
 re gonna look at how to set it up on the Wizard x220."

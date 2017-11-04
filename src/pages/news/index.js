@@ -1,32 +1,51 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const NewsPage = ({data}) =>
+const NewsPage = ({ data }) => (
   <div>
-    <h1>News and articles</h1>
-    <p>All newest articles end up in this section. You can expect content on JavaScript and Web Dev, FPV drones, Smart Home Automation with Home Assistant and more.</p>
-    <p>List of all posts in this section:</p>
+    <h1>Latest posts:</h1>
     <ul className="list-none">
-      {data.allSitePage.edges.map(page =>
-        (
-          <li>
-            <Link key={page.node.id} to={page.node.path} rel="noopener">{page.node.path}</Link>
-          </li>
-        )
-      )}
+      {data.allMarkdownRemark.edges.map(page => (
+        <li key={page.node.id} className="post-preview">
+          <Link key={page.node.id} to={page.node.frontmatter.path}>
+            <h4>{page.node.frontmatter.title}</h4>
+            <p>{page.node.excerpt}</p>
+            <p className="post-preview-note">
+              <strong>{page.node.timeToRead} min</strong> read by{' '}
+              {page.node.frontmatter.author} on{' '}
+              <strong>{page.node.frontmatter.date}</strong> in{' '}
+              <strong className="post-preview-tags">
+                {page.node.frontmatter.tags}
+              </strong>
+            </p>
+          </Link>
+        </li>
+      ))}
     </ul>
   </div>
+)
 
 export default NewsPage
 
-// Export dynamic list of all pages
-export const pageQuery2 = graphql`
-  query IndexQuery2 {
-    allSitePage(limit: 1000, filter: {path: {regex: "\/news\/./"}}) {
+export const NewsPageQuery = graphql`
+  query NewsPageQuery {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      limit: 10
+      filter: { frontmatter: { draft: { ne: true } } }
+    ) {
       edges {
         node {
+          excerpt(pruneLength: 140)
           id
-          path
+          timeToRead
+          frontmatter {
+            date(formatString: "MMM DD, YYYY")
+            path
+            title
+            author
+            tags
+          }
         }
       }
     }

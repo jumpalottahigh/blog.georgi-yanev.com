@@ -8,7 +8,7 @@ import './index.css'
 import logo from '../images/logo.png'
 import ogImage from '../images/main-page.jpg'
 
-const Header = () =>
+const Header = () => (
   <div
     style={{
       position: 'fixed',
@@ -17,7 +17,7 @@ const Header = () =>
       height: '3.5rem',
       zIndex: '2',
       left: '0',
-      right: '0',
+      right: '0'
     }}
   >
     <div
@@ -28,84 +28,80 @@ const Header = () =>
         display: 'flex',
         alignItems: 'center',
         width: '100%',
-        height: '100%',
+        height: '100%'
       }}
     >
       <Link
-          to="/"
-          style={{
-            color: '#0275d8',
-            textDecoration: 'none',
-            marginRight: '.7rem',
-          }}
-        >
+        to="/"
+        style={{
+          color: '#0275d8',
+          textDecoration: 'none',
+          marginRight: '.7rem'
+        }}
+      >
         <h1
           style={{
             display: 'flex',
             alignItems: 'center',
             margin: 0,
-            fontSize: '1rem',
+            fontSize: '1rem'
           }}
         >
-        <img
-          src={logo}
-          alt="Georgi Yanev's blog"
-          style={{
-            height: '2.25rem',
-            marginBottom: '0',
-            marginRight: '.5rem',
-          }}
-        />
-        Georgi Yanev
+          <img
+            src={logo}
+            alt="Georgi Yanev's blog"
+            style={{
+              height: '2.25rem',
+              marginBottom: '0',
+              marginRight: '.5rem'
+            }}
+          />
+          Georgi Yanev
         </h1>
       </Link>
 
-
-      <ul
-        className="nav"
-      >
+      <ul className="nav">
         <li>
-          <Link to="/news">
-            News
-          </Link>
+          <Link to="/news">News</Link>
         </li>
         <li>
-          <Link to="/eternal-archives">
-            Eternal Archives
-          </Link>
+          <Link to="/eternal-archives">Eternal Archives</Link>
         </li>
       </ul>
-      <ul
-        className="nav social"
-      >
+      <ul className="nav social">
         <li>
-          <a href="https://github.com/jumpalottahigh">
-            Github
-          </a>
+          <a href="https://github.com/jumpalottahigh">Github</a>
         </li>
         <li>
-          <a href="https://twitter.com/jumpalottahigh">
-            Twitter
-          </a>
+          <a href="https://twitter.com/jumpalottahigh">Twitter</a>
         </li>
       </ul>
     </div>
   </div>
+)
 
-const SideBar = () =>
-  <div
-    className="sidebar-wrapper"
-  >
-    <div
-      className="sidebar"
-    >
+const SideBar = () => (
+  <div className="sidebar-wrapper">
+    <div className="sidebar">
       <h5>News</h5>
       <ul className="sidenav">
+        <li>
+          <em>Smart home automation</em>
+        </li>
+        <li>
+          <Link to="/smart-home/living-with-smart-home-automation">
+            Living with smart home automation
+          </Link>
+        </li>
+        <li>Coming soon...</li>
+        <li className="coming-soon">
+          Using Home Assistant as your home automation system
+        </li>
         <li>
           <em>FPV quads</em>
         </li>
         <li>
-          <Link to="/news/fpv-drones/">
+          <Link to="/fpv/getting-started-with-fpv-drones/">
             Getting started with FPV
           </Link>
         </li>
@@ -136,11 +132,8 @@ const SideBar = () =>
           </Link>
         </li>
         <li>Coming soon...</li>
-        <li className="coming-soon">installing betaflight 3.2</li>
-        <li className="coming-soon">change to 4s batteries</li>
-        <li className="coming-soon">
-          Getting started with smart home automation
-        </li>
+        <li className="coming-soon">how to install betaflight 3.2</li>
+        <li className="coming-soon">upgrade to 4S batteries</li>
       </ul>
       <hr />
       <h5>Eternal Archives</h5>
@@ -181,16 +174,16 @@ const SideBar = () =>
         <li>
           <Link to="/eternal-archives/fiction/log-of-gelus-life">
             Log of Gelu's life
-            <span className="sidenav-info">/a Heroes of Might and Magic story/</span>
+            <span className="sidenav-info">
+              /a Heroes of Might and Magic story/
+            </span>
           </Link>
         </li>
         <li>
           <em>Media</em>
         </li>
         <li>
-          <Link to="/eternal-archives/music">
-            Music
-          </Link>
+          <Link to="/eternal-archives/music">Music</Link>
         </li>
         <li>
           <Link to="/eternal-archives/music-videos-and-mixtapes">
@@ -198,9 +191,7 @@ const SideBar = () =>
           </Link>
         </li>
         <li>
-          <Link to="/eternal-archives/game-dev-videos">
-            Game Dev Videos
-          </Link>
+          <Link to="/eternal-archives/game-dev-videos">Game Dev Videos</Link>
         </li>
         <li>
           <em>Random</em>
@@ -221,9 +212,7 @@ const SideBar = () =>
           </Link>
         </li>
         <li>
-          <Link to="/eternal-archives/warcraft-units">
-            WarCraft Units
-          </Link>
+          <Link to="/eternal-archives/warcraft-units">WarCraft Units</Link>
         </li>
         <li>
           <Link to="/eternal-archives/funny-win98-bugs">
@@ -231,50 +220,61 @@ const SideBar = () =>
           </Link>
         </li>
         <li>
-          <Link to="/eternal-archives/batch-files">
-            Batch files
-          </Link>
+          <Link to="/eternal-archives/batch-files">Batch files</Link>
         </li>
         <li>
-          <Link to="/eternal-archives/really-random">
-            Really random
-          </Link>
+          <Link to="/eternal-archives/really-random">Really random</Link>
         </li>
       </ul>
     </div>
   </div>
+)
 
-const TemplateWrapper = ({ children }) =>
+const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
       title="Georgi Yanev | Blog on Web OSS, FPV and Smart Home Automation"
       meta={[
-        { name: 'description', content: 'I\'m Georgi and I like to write code, tinker with Smart Home Automation projects and I am currently learning how to fly FPV racing quads. I work as a web developer and I see myself as a fairly technical person heavily invested in all things web with a great interest in AR, VR and AI. Also, <3 OSS.' },
-        { name: 'keywords', content: 'smart home automation, home assistant, open source software, OSS, FPV, racing quads, Wizard x220, code, DIY, projects' },
-        { property: 'og:image', content: `https://blog.georgi-yanev.com${ogImage}` },
+        {
+          name: 'description',
+          content:
+            "I'm Georgi and I like to write code, tinker with Smart Home Automation projects and I am currently learning how to fly FPV racing quads. I work as a web developer and I see myself as a fairly technical person heavily invested in all things web with a great interest in AR, VR and AI. Also, <3 OSS."
+        },
+        {
+          name: 'keywords',
+          content:
+            'smart home automation, home assistant, open source software, OSS, FPV, racing quads, Wizard x220, code, DIY, projects'
+        },
+        {
+          property: 'og:image',
+          content: `https://blog.georgi-yanev.com${ogImage}`
+        },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://blog.georgi-yanev.com' },
-        { property: 'og:title', content: 'Georgi Yanev - Blog on Web OSS, FPV and Smart Home Automation' },
-        { property: 'og:description', content: 'I\'m Georgi and I like to write code, tinker with Smart Home Automation projects and I am currently learning how to fly FPV racing quads. I work as a web developer and I see myself as a fairly technical person heavily invested in all things web with a great interest in AR, VR and AI. Also, <3 OSS.' },
+        {
+          property: 'og:title',
+          content:
+            'Georgi Yanev - Blog on Web OSS, FPV and Smart Home Automation'
+        },
+        {
+          property: 'og:description',
+          content:
+            "I'm Georgi and I like to write code, tinker with Smart Home Automation projects and I am currently learning how to fly FPV racing quads. I work as a web developer and I see myself as a fairly technical person heavily invested in all things web with a great interest in AR, VR and AI. Also, <3 OSS."
+        }
       ]}
     />
-    
+
     <Header />
-    
-    <div
-      className="main-wrapper"
-    >
+
+    <div className="main-wrapper">
       <SideBar />
-      <div
-        className="main"
-      >
-        {children()}
-      </div>
+      <div className="main">{children()}</div>
     </div>
   </div>
+)
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.func
 }
 
 export default TemplateWrapper
