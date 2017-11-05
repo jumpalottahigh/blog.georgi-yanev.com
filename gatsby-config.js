@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: `/`,
   siteMetadata: {
     title: `Georgi Yanev's Blog`,
-    siteUrl: `https://blog.georgi-yanev.com`,
+    siteUrl: `https://blog.georgi-yanev.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -12,15 +12,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-43588334-6`,
-      },
+        trackingId: `UA-43588334-6`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages',
-      },
+        name: 'pages'
+      }
     },
     {
       resolve: 'gatsby-transformer-remark',
@@ -35,11 +35,40 @@ module.exports = {
               maxWidth: 590,
               // Remove the default behavior of adding a link to each
               // image.
-              linkImagesToOriginal: false,
+              linkImagesToOriginal: false
             }
           }
         ]
       }
     },
-  ],
+    {
+      // If you’re using this plugin together with gatsby-plugin-offline (recommended),
+      // this plugin should be listed before the offline plugin so that it can cache the created manifest.json.
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'Georgi Yanev Blog',
+        short_name: 'GY Blog',
+        start_url: '/',
+        background_color: '#f7f0eb',
+        theme_color: '#0275d8',
+        display: 'minimal-ui',
+        icons: [
+          {
+            // Everything in /static will be copied to an equivalent
+            // directory in /public during development and build, so
+            // assuming your favicons are in /static/favicons,
+            // you can reference them here
+            src: `/favicons/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`
+          },
+          {
+            src: `/favicons/android-chrome-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`
+          }
+        ]
+      }
+    }
+  ]
 }
