@@ -106,13 +106,12 @@ const SideBar = () => (
           </Link>
         </li>
         <li>
-          <Link to="/news/upgrading-your-wizard/">
+          <Link to="/fpv/upgrading-your-wizard/">
             Upgrading your Wizard x220
-            <span className="sidenav-info">/part 1/</span>
           </Link>
         </li>
         <li>
-          <Link to="/news/tools-and-backpack-setup/">
+          <Link to="/fpv/tools-and-backpack-setup/">
             Tools and backpack setup
           </Link>
         </li>
