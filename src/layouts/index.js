@@ -8,6 +8,10 @@ import './index.css'
 import logo from '../images/logo.png'
 import ogImage from '../images/main-page.jpg'
 
+// PrismJS dependency
+// import 'prismjs/themes/prism-solarizedlight.css'
+import 'prismjs/themes/prism-okaidia.css'
+
 const Header = () => (
   <div
     style={{

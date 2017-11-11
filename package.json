@@ -12,8 +12,9 @@
     "gatsby-plugin-sharp": "^1.6.10",
     "gatsby-plugin-sitemap": "^1.2.5",
     "gatsby-remark-images": "^1.5.20",
+    "gatsby-remark-prismjs": "^1.2.9",
     "gatsby-source-filesystem": "^1.5.5",
-    "gatsby-transformer-remark": "^1.7.16"
+    "gatsby-transformer-remark": "^1.7.20"
   },
   "keywords": [
     "gatsby"
