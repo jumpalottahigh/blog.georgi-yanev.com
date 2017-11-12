@@ -7,6 +7,8 @@ import './index.css'
 
 import logo from '../images/logo.png'
 import ogImage from '../images/main-page.jpg'
+import github from '../../static/github.svg'
+import twitter from '../../static/twitter.svg'
 
 // PrismJS dependency
 // import 'prismjs/themes/prism-solarizedlight.css'
@@ -74,10 +76,14 @@ const Header = () => (
       </ul>
       <ul className="nav social">
         <li>
-          <a href="https://github.com/jumpalottahigh">Github</a>
+          <a href="https://github.com/jumpalottahigh">
+            <img style={{ marginRight: '0.4rem' }} src={github} alt="Github" />
+          </a>
         </li>
         <li>
-          <a href="https://twitter.com/jumpalottahigh">Twitter</a>
+          <a href="https://twitter.com/jumpalottahigh">
+            <img src={twitter} alt="Twitter" />
+          </a>
         </li>
       </ul>
     </div>
