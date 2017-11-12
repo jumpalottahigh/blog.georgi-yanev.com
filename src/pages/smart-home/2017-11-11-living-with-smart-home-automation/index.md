@@ -57,7 +57,7 @@ Here are a couple of light automations I'm running:
     - service: tts.google_say
       entity_id: media_player.living_room_home
       data:
-        message: "Sunset in half an hour. Turning on all lights."
+        message: "Turning on all lights."
 
 # Turn off lights at 23:45
 - alias: "Lights off at 23:45 (sun-thu)"
