@@ -68,11 +68,14 @@ const Header = () => (
 
       <ul className="nav">
         <li>
-          <Link to="/news">News</Link>
+          <Link to="/news">Posts</Link>
+        </li>
+        {/* <li>
+          <Link to="/news?tag=smarthome">Smart Home</Link>
         </li>
         <li>
-          <Link to="/eternal-archives">Eternal Archives</Link>
-        </li>
+          <Link to="/news?tag=fpv">FPV</Link>
+        </li> */}
       </ul>
       <ul className="nav social">
         <li>
@@ -102,10 +105,6 @@ const SideBar = () => (
           <Link to="/smart-home/living-with-smart-home-automation">
             Living with smart home automation
           </Link>
-        </li>
-        <li>Coming soon...</li>
-        <li className="coming-soon">
-          Using Home Assistant as your home automation system
         </li>
         <li>
           <em>FPV quads</em>
@@ -142,7 +141,6 @@ const SideBar = () => (
         </li>
         <li>Coming soon...</li>
         <li className="coming-soon">how to install betaflight 3.2</li>
-        <li className="coming-soon">upgrade to 4S batteries</li>
       </ul>
       <hr />
       <h5>Eternal Archives</h5>

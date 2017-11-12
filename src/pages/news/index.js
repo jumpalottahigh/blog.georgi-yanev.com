@@ -25,6 +25,20 @@ const NewsPage = ({ data }) => (
   </div>
 )
 
+// TODO: Filter tags preferably with GraphQL
+// function filter() {
+//   const tag = location.href.split('tag=')[1]
+//   const posts = document.querySelectorAll('.post-preview')
+
+//   posts.forEach(post => {
+//     if (post.querySelector('.post-preview-tags').textContent != tag) {
+//       post.style.display = 'none'
+//     } else {
+//       post.style.display = 'block'
+//     }
+//   })
+// }
+
 export default NewsPage
 
 export const NewsPageQuery = graphql`
