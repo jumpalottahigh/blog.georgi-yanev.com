@@ -7,7 +7,7 @@ affiliate: "This article contains affiliate links to Banggood or Amazon that wou
 draft: false
 tags: "smart home"
 ogKeywords: "smart home automation, Home Assistant, smart, home automation, esp8266, mqtt, 433 MHz, Alexa, Amazon Echo, Google Home, Google Assistant, Philips Hue, Ikea Tradfri, Xiaomi Yeelight, Raspberry Pi"
-ogDescription: "..."
+ogDescription: "I first got interested in smart homes and home automation technologies roughly about 2 years ago (early 2016) and for the duration of the first year, that was it, just interest. Reading articles, exploring software. Then I found Home Assistant."
 ogImage: ""
 ---
 
