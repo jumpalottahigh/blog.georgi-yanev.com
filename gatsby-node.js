@@ -26,7 +26,9 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               tags
               ogKeywords
               ogDescription
-              ogImage
+              ogImage {
+                relativePath
+              }
             }
           }
         }

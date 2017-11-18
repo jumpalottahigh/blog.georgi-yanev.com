@@ -9,26 +9,26 @@ tags: "fpv"
 ogKeywords: "low, voltage buzzer, solder, solderless, wizard x220, how to add buzzer, lost model buzzer, betaflight buzzer config"
 ogDescription: "Having a low voltage buzzer could be very beneficial, but having a lost model buzzer could be even more beneficial. We'
 re gonna look at how to set it up on the Wizard x220."
-ogImage: ""
+ogImage: "./add-buzzer-to-wizard-3.jpg"
 ---
 
 Since the Wizard x220 doesn't come with a buzzer already set up, this is many times a very useful and not too hard upgrade to do. Of course, if your main concern is just getting a voltage buzzer for your battery, you can opt-in for one of [those little things][1] and call it a day. However you would be missing out on one very interesting option - the 'lost model' signal.
 
 Even if you are a beginner and trying not to get lost, chances are every once in a while you will still crash, drop or trigger failsafe and if you are in FPV you might have a hard time finding your drone. The solution - adding a buzzer to your quad and setting up your 3 position switch to sound your buzzer on demand. Here's a couple of examples of such buzzers: [direct solder][2] and [solderless][3].
 
-|   |   |
-|---|---|
+|                                                     |                                                  |
+| --------------------------------------------------- | ------------------------------------------------ |
 | ![Direct solder buzzer](add-buzzer-to-wizard-1.jpg) | ![Solderless buzzer](add-buzzer-to-wizard-2.jpg) |
-| Direct solder buzzer and 28 AWG silicone wire | Solderless buzzer |
+| Direct solder buzzer and 28 AWG silicone wire       | Solderless buzzer                                |
 
 In this mini guide I have decided to go for the option requiring soldering, as it is actually quite simple - you need to run 2 or 4 wires, depending on which setup you go for. Let's get to it.
 
 First things first, take off the props, the top plate, side plates and the m3 nylon nuts from the flight controller.
 
-|   |   |
-|---|---|
+|                                                       |                                                              |
+| ----------------------------------------------------- | ------------------------------------------------------------ |
 | ![Remove top frame plate](add-buzzer-to-wizard-3.jpg) | ![Remove flight controller nuts](add-buzzer-to-wizard-4.jpg) |
-| Remove the top frame plate | Remove the flight controller nuts |
+| Remove the top frame plate                            | Remove the flight controller nuts                            |
 
 Take out your soldering gear, plug in your iron and set it to about 400 C (750 F). I cut 2 5cm (2 inch) pieces of 28 AWG silicone black and red wire. You want to strip both ends on both wires, dip them in flux and then tin them up.
 

@@ -10,15 +10,28 @@ export default function Template({
   return (
     <div className="blog-post-container">
       <Helmet
-        title={`Georgi Yanev - ${post.frontmatter.title}`} 
+        title={`Georgi Yanev - ${post.frontmatter.title}`}
         meta={[
           { property: 'og:type', content: 'website' },
-          { property: 'og:url', content: `https://blog.georgi-yanev.com${post.frontmatter.path}` },
-          { property: 'og:image', content: `https://blog.georgi-yanev.com${post.frontmatter.ogImage}` },
-          { property: 'og:title', content: `Georgi Yanev | ${post.frontmatter.title}` },
-          { property: 'og:description', content: `${post.frontmatter.ogDescription}` },
+          {
+            property: 'og:url',
+            content: `https://blog.georgi-yanev.com${post.frontmatter.path}`
+          },
+          {
+            property: 'og:image',
+            content: `https://blog.georgi-yanev.com${post.frontmatter.ogImage
+              .relativePath}`
+          },
+          {
+            property: 'og:title',
+            content: `Georgi Yanev | ${post.frontmatter.title}`
+          },
+          {
+            property: 'og:description',
+            content: `${post.frontmatter.ogDescription}`
+          },
           { name: 'description', content: `${post.frontmatter.ogDescription}` },
-          { name: 'keywords', content: `${post.frontmatter.ogKeywords}` },
+          { name: 'keywords', content: `${post.frontmatter.ogKeywords}` }
         ]}
       />
       <div className="blog-post">
@@ -27,7 +40,10 @@ export default function Template({
           <span className="year">{post.frontmatter.date}</span>
           <span className="disclaimer">{post.frontmatter.author}</span>
         </div>
-        <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div
+          className="blog-post-content"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
         <div className="affiliate-note">{post.frontmatter.affiliate}</div>
       </div>
     </div>
@@ -35,19 +51,21 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-query BlogPostByPath($path: String!) {
-  markdownRemark(frontmatter: { path: { eq: $path } }) {
-    html
-    frontmatter {
-      date(formatString: "MMMM DD, YYYY")
-      path
-      title
-      author
-      affiliate
-      ogKeywords
-      ogDescription
-      ogImage
+  query BlogPostByPath($path: String!) {
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        path
+        title
+        author
+        affiliate
+        ogKeywords
+        ogDescription
+        ogImage {
+          relativePath
+        }
+      }
     }
   }
-}
 `

@@ -8,7 +8,7 @@ draft: false
 tags: "fpv"
 ogKeywords: "wizard x220, how to setup Flysky FS-i6 in iBUS, iBus, Flysky, FS-i6"
 ogDescription: "Here's a quick guide on how to change the default PPM on your Flysky FS-i6 receiver to the much faster iBUS. No soldering required."
-ogImage: ""
+ogImage: "./setup-ibus-on-flysky-2.jpg"
 ---
 
 The [Eachine Wizard x220][1] comes with a Flysky receiver plugged in and set to PPM mode. You can easily switch to the much faster iBUS mode following the steps bellow.

@@ -8,7 +8,7 @@ draft: false
 tags: "fpv"
 ogKeywords: "FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads"
 ogDescription: "About a month ago I stumbled accross a YouTube video of FPV drone footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly drone set - namely the Wizard x220."
-ogImage: ""
+ogImage: "./fpv-drones-getting-started-1.jpg"
 ---
 
 About a month ago I stumbled accross a YouTube video of FPV quad footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly quad set - namely the [Wizard x220][1].
