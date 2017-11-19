@@ -11,7 +11,7 @@ ogDescription: "If you are lucky and your angle antenna socket snaps in the 'rig
 ogImage: "./direct-solder-vtx-11.jpg"
 ---
 
-The Wizard x220 comes with this antenna angle socket on its vtx and while you can certainly upgrade the vtx and opt-in for [one that comes straight out of the back][1] and add a forwarded tilted [Aomway antenna][2], sometimes you might need to go for a quick fix.
+The Wizard x220 comes with this antenna angle socket on its vtx and while you can certainly upgrade the vtx and opt-in for [one that comes straight out of the back][1] and add a forward tilted [Aomway antenna][2], sometimes you might need to go for a quick fix.
 
 If you are lucky and your angle antenna socket snaps in the 'right place', you can get away with just soldering it shut where it snapped. That's gonna do it for some time. However if you are unlucky and you break the pin inside the socket or lose one of the pieces, the only remaining option would be to direct solder an antenna to the vtx (or solder a new antenna socket to your vtx, which we won't cover here as it is rather straight forward).
 

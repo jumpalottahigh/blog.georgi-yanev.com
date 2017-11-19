@@ -19,8 +19,7 @@ export default function Template({
           },
           {
             property: 'og:image',
-            content: `https://blog.georgi-yanev.com${post.frontmatter.ogImage
-              .relativePath}`
+            content: `https://blog.georgi-yanev.com/static/default-ogimage.jpg`
           },
           {
             property: 'og:title',
