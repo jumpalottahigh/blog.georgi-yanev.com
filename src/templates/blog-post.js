@@ -19,7 +19,7 @@ export default function Template({
           },
           {
             property: 'og:image',
-            content: `https://blog.georgi-yanev.com/static/default-ogimage.jpg`
+            content: `https://blog.georgi-yanev.com/default-ogimage.jpg`
           },
           {
             property: 'og:title',
