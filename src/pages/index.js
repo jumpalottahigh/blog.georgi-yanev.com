@@ -10,17 +10,20 @@ const IndexPage = ({ data }) => (
     </p>
     <p>
       Currently I work as a web developer. If you are interested in my skills
-      here's a <a href="https://www.georgi-yanev.com">quick summary</a>
+      here's a <a href="https://www.georgi-yanev.com">quick summary</a>.
     </p>
     <p>
-      I'm really interested in all things web, in particular performance,
-      efficiency and build systems. On the side I'm also interested in AR, VR,
-      AI and OSS.
+      I love all things web and frequently dig around performance topics. I love
+      open source projects and enjoy reading code on Github. I think we live in
+      exciting times for the web where we have a choice of advanced tools and
+      frameworks and a huge potential for Web Components and Mobile first and
+      Offline first web to become a reality.
     </p>
     <p>
       I hope you find interesting articles around here. If you have any
-      questions, you can always find me on Twitter at{' '}
-      <a href="https://twitter.com/jumpalottahigh">@jumpalottahigh</a>.
+      questions, you can always find me as{' '}
+      <a href="https://twitter.com/jumpalottahigh">@jumpalottahigh</a> on
+      Twitter or on <a href="https://github.com/jumpalottahigh">Github</a>.
     </p>
     <h4>Latest posts:</h4>
     <ul className="list-none">
