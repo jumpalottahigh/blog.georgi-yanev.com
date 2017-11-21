@@ -8,7 +8,7 @@ draft: false
 tags: "smart home"
 ogKeywords: "smart home automation, Home Assistant, smart, home automation, esp8266, mqtt, 433 MHz, Alexa, Amazon Echo, Google Home, Google Assistant, Philips Hue, Ikea Tradfri, Xiaomi Yeelight, Raspberry Pi"
 ogDescription: "I first got interested in smart homes and home automation technologies roughly about 2 years ago (early 2016) and for the duration of the first year, that was it, just interest. Reading articles, exploring software. Then I found Home Assistant."
-ogImage: "./living-in-a-smart-home.jpg"
+ogImage: "./living-in-a-smart-home.png"
 ---
 
 In this blog post I will share my experience and learnings from living in a smart home for a year. Before we get started, however, let's get some things out of the way in the form of a disclaimer list:
