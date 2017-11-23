@@ -31,6 +31,12 @@ These topics are in no particular order, because at the end of the day you might
 
 [[TOPICS list from Trello]]
 
+### Create accounts
+
+**Github**. You definitely want a Github account. That's where open source and a lot of cool projects happen. You also probably want to have your repositories mostly public as that is a good starting point to collaborate with others, to receive feedback, issues and pull requests. This is easily one of the most important accounts to have...
+
+**LinkedIn**. Definitely a must have. Whether you like LinkedIn or notI for one never managed to get an interesting feed out of it, but you might be luckier.
+
 [[CONCLUSION]]
 Never forget that "every good programmer is only there because they did work they were not qualified for and learnt along the way".
 
