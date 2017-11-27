@@ -15,6 +15,14 @@ const SideBar = () => (
           </Link>
         </li>
         <li>
+          <em>Software development</em>
+        </li>
+        <li>
+          <Link to="/software/how-to-become-a-good-developer">
+            How to become a good software developer
+          </Link>
+        </li>
+        <li>
           <em>FPV quads</em>
         </li>
         <li>
