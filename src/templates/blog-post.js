@@ -1,12 +1,12 @@
-import React from 'react'
-import Helmet from 'react-helmet'
+import React from 'react';
+import Helmet from 'react-helmet';
 
 // import '../css/blog-post.css' // make it pretty!
 
 export default function Template({
   data // this prop will be injected by the GraphQL query
 }) {
-  const { markdownRemark: post } = data // data.markdownRemark holds our post data
+  const { markdownRemark: post } = data; // data.markdownRemark holds our post data
   return (
     <div className="blog-post-container">
       <Helmet
@@ -19,7 +19,7 @@ export default function Template({
           },
           {
             property: 'og:image',
-            content: `https://blog.georgi-yanev.com/default-ogimage.jpg`
+            content: `https://blog.georgi-yanev.com/default-ogimage.png`
           },
           {
             property: 'og:title',
@@ -46,7 +46,7 @@ export default function Template({
         <div className="affiliate-note">{post.frontmatter.affiliate}</div>
       </div>
     </div>
-  )
+  );
 }
 
 export const pageQuery = graphql`
@@ -67,4 +67,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
