@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const SideBar = () => (
   <div className="sidebar-wrapper">
     <div className="sidebar">
-      <h5>News</h5>
+      <h5>Blog posts</h5>
       <ul className="sidenav">
         <li>
           <em>Smart home automation</em>

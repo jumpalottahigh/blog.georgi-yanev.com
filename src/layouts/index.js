@@ -69,7 +69,10 @@ const Header = () => (
 
       <ul className="nav">
         <li>
-          <Link to="/news">Posts</Link>
+          <Link to="/news">Blog posts</Link>
+        </li>
+        <li>
+          <a href="https://www.georgi-yanev.com">About</a>
         </li>
         {/* <li>
           <Link to="/news?tag=smarthome">Smart Home</Link>
