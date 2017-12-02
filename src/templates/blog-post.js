@@ -1,12 +1,11 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-
-// import '../css/blog-post.css' // make it pretty!
+import React from 'react'
+import Helmet from 'react-helmet'
+import FeedbackSection from '../components/FeedbackSection.js'
 
 export default function Template({
   data // this prop will be injected by the GraphQL query
 }) {
-  const { markdownRemark: post } = data; // data.markdownRemark holds our post data
+  const { markdownRemark: post } = data // data.markdownRemark holds our post data
   return (
     <div className="blog-post-container">
       <Helmet
@@ -43,10 +42,32 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
-        <div className="affiliate-note">{post.frontmatter.affiliate}</div>
+        <div className="affiliate-note m-t-1">{post.frontmatter.affiliate}</div>
+        <FeedbackSection />
+        {/* <div className="feedback">
+          <div>
+            <h4>How was it? Rate it:</h4>
+            <p>Your feedback is greatly appreciated!</p>
+          </div>
+          <div>
+            <FeedbackLink text="Good" value="good" />
+            <a className="m-r-1" href="#" data-feedback="good">
+              Good
+            </a>
+            <a className="m-r-1" href="#" data-feedback="long">
+              Too long
+            </a>
+            <a className="m-r-1" href="#" data-feedback="short">
+              Too short
+            </a>
+            <a className="m-r-1" href="#" data-feedback="bad">
+              Bad
+            </a>
+          </div>
+        </div> */}
       </div>
     </div>
-  );
+  )
 }
 
 export const pageQuery = graphql`
@@ -67,4 +88,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`
