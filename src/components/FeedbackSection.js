@@ -29,25 +29,25 @@ class FeedbackSection extends React.Component {
           <div>
             <FeedbackLink
               className="m-r-1"
-              text="Good"
+              text="Good 👌"
               value="good"
               onClick={this.handleClick}
             />
             <FeedbackLink
               className="m-r-1"
-              text="Too long"
+              text="Too long 📘"
               value="long"
               onClick={this.handleClick}
             />
             <FeedbackLink
               className="m-r-1"
-              text="Too short"
+              text="Too short 📝"
               value="short"
               onClick={this.handleClick}
             />
             <FeedbackLink
               className="m-r-1"
-              text="Bad"
+              text="Bad 👎"
               value="bad"
               onClick={this.handleClick}
             />

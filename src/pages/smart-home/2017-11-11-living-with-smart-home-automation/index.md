@@ -21,7 +21,7 @@ In this blog post I will share my experience and learnings from living in a smar
 
 ![Living in a smart home for a year](living-in-a-smart-home.png)
 
-### Use case 1: lights
+### 💡 Use case 1: lights
 
 I first got interested in smart homes and home automation technologies roughly about 2 years ago (early 2016) and for the duration of the first year, that was it, just interest. Reading articles, exploring software.
 
@@ -98,7 +98,7 @@ The other automation turns off the lights on Sunday through Thursday at 11:45 pm
 
 I am also very pleasantly surpised with both the Xiaomi light bulbs and the Ikea ones. I have used the Xiaomi bulbs since February 2017 and the Ikea ones since March 2017 with absolutely no complains and no fails. It is worth mentioning that the Ikea Tradfri has probably the best implementation securty wise (using Coap) and have been praised rightfully a lot for that. They also use a gateway like the Philips Hue. I think soon enough I would actually be able to ditch one of the gateways as support for controlling both Ikea and Philips bulbs is coming to the Ikea gateway. On the otherhand the Xiaomi light bulbs don't need a gateway, since they connect directly to Wi-Fi.
 
-### Use case 2: outlets
+### 🔌 Use case 2: outlets
 
 As a rule of thumb, it is good to approach your next home automation project with the following questions:
 
@@ -140,7 +140,7 @@ It is quite straight forward and there are plenty of other examples online as we
 
 At the end of the day there are other ways to implement this project. Go the way that fits your lifestyle. For me it was important to seemlessly retrofit the coffee maker while not messing with mains voltage and that was a resounding success. **Now I can have coffee every day :)**
 
-### Use case 3: voice control and tying it all together
+### 💬 Use case 3: voice control and tying it all together
 
 One of the biggest enablers for the home automation project was [Google Home][15] and the [Amazon Echo][16]. Using the `emulated hue` component you can expose any device and sensor from within Home Assistant to those voice assistant. Then you can control things that would otherwise not have a direct app for Google Home. I don't have a favorite, I use both. For somethings I prefer Alexa with her simple response `OK` after she executes a command. For most other things and non home automation things, music, casting to TV using a [Chromecast][17], informative answers, reminders, timers I use exclusively Google Home.
 
@@ -148,7 +148,7 @@ Using voice control with home assistant scenes is when smart home automation fee
 
 We have really gotten used to use those for quick control and definitely bonus points go to Google Home for being able to entertain my son by counting to 10, saying the alphabet, singing lullabies and playing animal sounds on cue.
 
-### Conclusion and results
+### ✨ Conclusion and results
 
 It is still very much early days for both the systems and the devices. Things will change and evolve with time, so if you are an enthusist that wants to get in it now, you have to bear with some of the issues and be willing to learn and adapt along the way.
 

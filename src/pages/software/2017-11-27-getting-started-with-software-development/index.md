@@ -55,7 +55,7 @@ If all else fails - start your own open source project. If you are passionate ab
 
 **"Never forget that every good programmer is only there because they once did work they were unqualified for"**.
 
-Good luck and have fun building things!
+Good luck and have fun building things 🚀
 
 [0]: Linkslist
 [1]: https://github.com/jumpalottahigh
