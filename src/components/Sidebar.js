@@ -7,7 +7,7 @@ const SideBar = () => (
       <h5>Blog posts</h5>
       <ul className="sidenav">
         <li>
-          <em>Smart home automation</em> 🏠
+          🏠 <em>Smart home automation</em>
         </li>
         <li>
           <Link to="/smart-home/living-with-smart-home-automation">
@@ -15,7 +15,7 @@ const SideBar = () => (
           </Link>
         </li>
         <li>
-          <em>Software development</em> 💻
+          💻 <em>Software development</em>
         </li>
         <li>
           <Link to="/software/how-to-become-a-good-developer">
@@ -23,7 +23,7 @@ const SideBar = () => (
           </Link>
         </li>
         <li>
-          <em>FPV quads</em> 🚁
+          🚁 <em>FPV quads</em>
         </li>
         <li>
           <Link to="/fpv/getting-started-with-fpv-drones/">

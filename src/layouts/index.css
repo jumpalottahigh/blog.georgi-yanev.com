@@ -917,7 +917,7 @@ button {
   font: inherit;
   line-height: normal;
   overflow: visible;
-  padding: 0;
+  border-radius: 0;
   -webkit-user-select: none; /* for button */
   -moz-user-select: none;
   -ms-user-select: none;
