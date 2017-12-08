@@ -611,7 +611,7 @@ code:after,
 tt:before,
 tt:after {
   letter-spacing: -0.2em;
-  content: ' ';
+  content: '';
 }
 pre code:before,
 pre code:after,
@@ -725,6 +725,12 @@ pre tt:after {
   color: #000;
   text-decoration: none;
   padding: 0 0.7rem;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #0175d8;
+  transition: color 0.1s ease-in-out, opacity 0.2s ease, margin 0.5s ease;
 }
 
 .social {
