@@ -11,6 +11,8 @@ export default function Template({
       <Helmet
         title={`Georgi Yanev - ${post.frontmatter.title}`}
         meta={[
+          { name: 'description', content: `${post.frontmatter.ogDescription}` },
+          { name: 'keywords', content: `${post.frontmatter.ogKeywords}` },
           { property: 'og:type', content: 'website' },
           {
             property: 'og:url',
@@ -28,8 +30,30 @@ export default function Template({
             property: 'og:description',
             content: `${post.frontmatter.ogDescription}`
           },
-          { name: 'description', content: `${post.frontmatter.ogDescription}` },
-          { name: 'keywords', content: `${post.frontmatter.ogKeywords}` }
+          {
+            name: 'twitter:card',
+            content: 'summary'
+          },
+          {
+            name: 'twitter:site',
+            content: '@jumpalottahigh'
+          },
+          {
+            name: 'twitter:image',
+            content: `https://blog.georgi-yanev.com/default-ogimage.png`
+          },
+          {
+            name: 'twitter:creator',
+            content: '@jumpalottahigh'
+          },
+          {
+            name: 'twitter:title',
+            content: `Georgi Yanev | ${post.frontmatter.title}`
+          },
+          {
+            name: 'twitter:description',
+            content: `${post.frontmatter.ogDescription}`
+          }
         ]}
       />
       <div className="blog-post">
@@ -44,27 +68,6 @@ export default function Template({
         />
         <div className="affiliate-note m-t-1">{post.frontmatter.affiliate}</div>
         <FeedbackSection />
-        {/* <div className="feedback">
-          <div>
-            <h4>How was it? Rate it:</h4>
-            <p>Your feedback is greatly appreciated!</p>
-          </div>
-          <div>
-            <FeedbackLink text="Good" value="good" />
-            <a className="m-r-1" href="#" data-feedback="good">
-              Good
-            </a>
-            <a className="m-r-1" href="#" data-feedback="long">
-              Too long
-            </a>
-            <a className="m-r-1" href="#" data-feedback="short">
-              Too short
-            </a>
-            <a className="m-r-1" href="#" data-feedback="bad">
-              Bad
-            </a>
-          </div>
-        </div> */}
       </div>
     </div>
   )
