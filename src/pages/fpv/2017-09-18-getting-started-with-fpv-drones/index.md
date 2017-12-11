@@ -29,7 +29,7 @@ You also get this Flysky FS-i6 radio in the kit and from what I have gathered it
 
 ![Flysky FS-i6 radio](fpv-drones-getting-started-2.jpg)
 
-As far as FPV goggles go, I am using the [Eachine VR-007 Pro][5] (on top of the backpack in the picture). Those are super cheap (~ 35 euro), while Fatsharks or other more expensive and much higher quality brands can get up to 500 euro and beyond. I figured those are gonna be a perfect starting goggle for the price and I would never feel sorry about tossing them away in favor a better set in the future.
+As far as FPV goggles go, I am using the [Eachine VR-007 Pro][5] (on top of the backpack in the picture). Those are super cheap (~ 35 euro), while Fatsharks or other more expensive and much higher quality brands can get up to 500 euro and beyond. I figured those are gonna be a perfect starting goggle for the price and I would never feel sorry about tossing them away in favor of a better set in the future.
 
 Now, I am still a VERY long way from being even a half decent pilot. But for about ~ 5 flights of ~ 10mins or less each, I can really say I see progress. One thing I really recommend is connecting your controller to your computer and spending some time in a simulator. Some of those are surprisingly close to the real thing and they will save you a lot of crashes in the beginning, at least till you get the basics. That would hopefully reduce the chance of ending up with the quad on a tree or a broken quad arm.
 
