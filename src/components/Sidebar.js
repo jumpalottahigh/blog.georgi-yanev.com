@@ -26,23 +26,8 @@ const SideBar = () => (
           🚁 <em>FPV quads</em>
         </li>
         <li>
-          <Link to="/fpv/getting-started-with-fpv-drones/">
-            Getting started with FPV
-          </Link>
-        </li>
-        <li>
-          <Link to="/fpv/upgrading-your-wizard/">
-            Upgrading your Wizard x220
-          </Link>
-        </li>
-        <li>
-          <Link to="/fpv/tools-and-backpack-setup/">
-            Tools and backpack setup
-          </Link>
-        </li>
-        <li>
-          <Link to="/fpv/how-to-direct-solder-vtx-antenna/">
-            How to direct solder vtx antenna
+          <Link to="/fpv/add-buzzer-to-wizard-x220/">
+            How to add a buzzer to the Wizard x220
           </Link>
         </li>
         <li>
@@ -51,11 +36,27 @@ const SideBar = () => (
           </Link>
         </li>
         <li>
-          <Link to="/fpv/add-buzzer-to-wizard-x220/">
-            How to add a buzzer to the Wizard x220
+          <Link to="/fpv/how-to-direct-solder-vtx-antenna/">
+            How to direct solder vtx antenna
+          </Link>
+        </li>
+        <li>
+          <Link to="/fpv/tools-and-backpack-setup/">
+            Tools and backpack setup
+          </Link>
+        </li>
+        <li>
+          <Link to="/fpv/upgrading-your-wizard/">
+            Upgrading your Wizard x220
+          </Link>
+        </li>
+        <li>
+          <Link to="/fpv/getting-started-with-fpv-drones/">
+            Getting started with FPV
           </Link>
         </li>
         <li>Coming soon...</li>
+        <li className="coming-soon">How to add DVR to Eachine VR 007 Pro</li>
         <li className="coming-soon">Getting started with micro fpv drones</li>
         <li className="coming-soon">how to install betaflight 3.2</li>
       </ul>
