@@ -61,7 +61,6 @@ const SideBar = () => (
           </Link>
         </li>
         <li>Coming soon...</li>
-        <li className="coming-soon">How to add DVR to Eachine VR 007 Pro</li>
         <li className="coming-soon">Getting started with micro fpv drones</li>
         <li className="coming-soon">how to install betaflight 3.2</li>
       </ul>
