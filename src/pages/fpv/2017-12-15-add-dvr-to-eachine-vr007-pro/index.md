@@ -82,7 +82,9 @@ You may now reconnect the DVR on the outside. Close the goggles off. Push back D
 
 ![Goggles modded with DVR](add-dvr-to-eachine-vr007-21.jpg)
 
-▶️ Insert a formatted micro sd card and press the *play* button (right hand side) to start recording. If all is well the red led should start blinking slowly. When done recording press the same button again. Enjoy! I know I do, here's some bonus footage to give you an idea.
+▶️ Insert a formatted micro sd card and press the *play* button (right hand side) to start recording. If all is well the red led should start blinking slowly. When done recording press the same button again. Enjoy! I know I do, here's some bonus footage to give you an idea of how the footage looks as coming from [Eachine e010s][4].
+
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/S8PR-br194c?rel=0" frameborder="0" allowfullscreen></iframe>
 
 [0]: Linkslist
 [1]: https://goo.gl/JKZ8X1
