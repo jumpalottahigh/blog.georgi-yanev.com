@@ -26,6 +26,11 @@ const SideBar = () => (
           🚁 <em>FPV quads</em>
         </li>
         <li>
+          <Link to="/fpv/add-dvr-to-eachine-vr-007-pro/">
+            How to add DVR to Eachine VR 007 Pro
+          </Link>
+        </li>
+        <li>
           <Link to="/fpv/add-buzzer-to-wizard-x220/">
             How to add a buzzer to the Wizard x220
           </Link>

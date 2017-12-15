@@ -20,7 +20,7 @@ export default function Template({
           },
           {
             property: 'og:image',
-            content: `https://blog.georgi-yanev.com/default-ogimage.png`
+            content: `https://blog.georgi-yanev.com/default-ogimage.jpg`
           },
           {
             property: 'og:title',
@@ -40,7 +40,7 @@ export default function Template({
           },
           {
             name: 'twitter:image',
-            content: `https://blog.georgi-yanev.com/default-ogimage.png`
+            content: `https://blog.georgi-yanev.com/default-ogimage.jpg`
           },
           {
             name: 'twitter:creator',
