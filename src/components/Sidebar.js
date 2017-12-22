@@ -7,6 +7,14 @@ const SideBar = () => (
       <h5>Blog posts</h5>
       <ul className="sidenav">
         <li>
+          📝 <em>General</em>
+        </li>
+        <li>
+          <Link to="/general/recap-of-2017-and-goals-for-2018">
+            2017 Recap and 2018 Goals
+          </Link>
+        </li>
+        <li>
           🏠 <em>Smart home automation</em>
         </li>
         <li>
