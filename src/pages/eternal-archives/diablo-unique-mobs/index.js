@@ -50,19 +50,13 @@ import uniqueEnemies45 from '../../../images/diablo-screenshots/unique-enemies45
 import uniqueEnemies46 from '../../../images/diablo-screenshots/unique-enemies46.png'
 import uniqueEnemies47 from '../../../images/diablo-screenshots/unique-enemies47.png'
 
-const DiabloUniqueMobsPage = () =>
+const DiabloUniqueMobsPage = () => (
   <div>
-    <Helmet
-      title="Diablo Unique Mobs"
-    />
-    <h1>
-      Diablo Unique Mobs
-    </h1>
+    <Helmet title="Diablo Unique Mobs" />
+    <h1>Diablo Unique Mobs</h1>
 
     <div className="disclaimer-container">
-      <span className="year">
-        ~ year: 2001 | ~ age: 16
-      </span>
+      <span className="year">~ year: 2001 | Georgi's age: 16</span>
       <span className="disclaimer">
         Unedited things the way they were in the late 90s and early 2000s
       </span>
@@ -120,5 +114,6 @@ const DiabloUniqueMobsPage = () =>
 
     <Link to="/">Go back to the homepage</Link>
   </div>
+)
 
 export default DiabloUniqueMobsPage

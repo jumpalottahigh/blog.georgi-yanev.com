@@ -12,19 +12,13 @@ import starcraftBug8 from '../../../images/starcraft-bug8.png'
 import starcraftBug9 from '../../../images/starcraft-bug9.png'
 import starcraftBug10 from '../../../images/starcraft-bug10.png'
 
-const StarCraftScreenShotsPage = () =>
+const StarCraftScreenShotsPage = () => (
   <div>
-    <Helmet
-      title="StarCraft Screenshots"
-    />
-    <h1>
-      StarCraft Screenshots
-    </h1>
+    <Helmet title="StarCraft Screenshots" />
+    <h1>StarCraft Screenshots</h1>
 
     <div className="disclaimer-container">
-      <span className="year">
-        ~ year: 2000 | ~ age: 15
-      </span>
+      <span className="year">~ year: 2000 | Georgi's age: 15</span>
       <span className="disclaimer">
         Unedited things the way they were in the late 90s and early 2000s
       </span>
@@ -43,7 +37,10 @@ const StarCraftScreenShotsPage = () =>
       <p>Invisible minerals moving</p>
     </div>
     <div className="m-b-1">
-      <img src={starcraftBug5} alt="A Creep Colony builds another Creep Colony?" />
+      <img
+        src={starcraftBug5}
+        alt="A Creep Colony builds another Creep Colony?"
+      />
       <p>A Creep Colony builds another Creep Colony?</p>
     </div>
     <div className="m-b-1">
@@ -51,7 +48,10 @@ const StarCraftScreenShotsPage = () =>
       <p>Showing through the stones</p>
     </div>
     <div className="m-b-1">
-      <img src={starcraftBug7} alt="Reavers' ammo holds still since it can't quite make it" />
+      <img
+        src={starcraftBug7}
+        alt="Reavers' ammo holds still since it can't quite make it"
+      />
       <p>Reavers' ammo holds still since it can't quite make it</p>
     </div>
     <div className="m-b-1">
@@ -63,11 +63,15 @@ const StarCraftScreenShotsPage = () =>
       <p>Zergling in the middle of a Hatchery</p>
     </div>
     <div className="m-b-1">
-      <img src={starcraftBug10} alt="That exact moment when the Bunker is destroyed" />
+      <img
+        src={starcraftBug10}
+        alt="That exact moment when the Bunker is destroyed"
+      />
       <p>That exact moment when the Bunker is destroyed</p>
     </div>
 
     <Link to="/">Go back to the homepage</Link>
   </div>
+)
 
 export default StarCraftScreenShotsPage
