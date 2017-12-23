@@ -8,10 +8,9 @@ class FeedbackSection extends React.Component {
       rateMessage: 'How was it? Rate it:',
       showButtons: true
     }
-    this.handleClick = this.handleClick.bind(this)
   }
 
-  handleClick() {
+  handleClick = () => {
     this.setState({
       rateMessage: 'Thanks!',
       showButtons: false
@@ -52,9 +51,7 @@ class FeedbackSection extends React.Component {
               onClick={this.handleClick}
             />
           </div>
-        ) : (
-          <div />
-        )}
+        ) : null}
       </div>
     )
   }
