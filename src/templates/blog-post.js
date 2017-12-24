@@ -55,7 +55,43 @@ export default function Template({
             content: `${post.frontmatter.ogDescription}`
           }
         ]}
-      />
+      >
+        {/* Google Structured Data */}
+        <script type="application/ld+json">{`
+          {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://blog.georgi-yanev.com${post.frontmatter.path}"
+            },
+            "headline": "${post.frontmatter.title}",
+            "name": "${post.frontmatter.title}",
+            "author": {
+              "@type": "Person",
+              "name": "${post.frontmatter.author}"
+            },
+            "datePublished": "${post.frontmatter.dateUnformatted}",
+            "dateModified": "${post.frontmatter.dateUnformatted}",
+            "image": [
+              "https://blog.georgi-yanev.com/default-ogimage-code.jpg",
+              "https://blog.georgi-yanev.com/default-ogimage-code.jpg",
+              "https://blog.georgi-yanev.com/default-ogimage-code.jpg"
+            ],
+            "publisher": {
+              "@type": "Organization",
+              "name": "Georgi's Blog",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://blog.georgi-yanev.com/default-ogimage-generic.png"
+              }
+            },
+            "description": "${post.excerpt}",
+            "articleSection": "${post.excerpt}",
+            "url": "https://blog.georgi-yanev.com${post.frontmatter.path}"
+          }
+        `}</script>
+      </Helmet>
       <div className="blog-post">
         <h1>{post.frontmatter.title}</h1>
         <div className="disclaimer-container">
@@ -77,8 +113,10 @@ export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
+      excerpt
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
+        dateUnformatted: date
         path
         title
         author
