@@ -24,7 +24,7 @@ const NewsPage = ({ data }) => (
     <ul className="list-none">
       {data.allMarkdownRemark.edges.map(page => (
         <li key={page.node.id} className="post-preview">
-          <Link key={page.node.id} to={page.node.frontmatter.path}>
+          <Link key={page.node.id} to={page.node.frontmatter.path + '/'}>
             <h4>
               {currentMonth === page.node.frontmatter.date.split(' ')[0]
                 ? '🔥 '

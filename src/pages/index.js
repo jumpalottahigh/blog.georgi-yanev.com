@@ -29,7 +29,7 @@ const IndexPage = ({ data }) => (
     <ul className="list-none">
       {data.allMarkdownRemark.edges.map(page => (
         <li key={page.node.id} className="post-preview">
-          <a key={page.node.id} href={page.node.frontmatter.path}>
+          <a key={page.node.id} href={page.node.frontmatter.path + '/'}>
             <h4>{page.node.frontmatter.title}</h4>
             <p>{page.node.excerpt}</p>
             <p className="post-preview-note">

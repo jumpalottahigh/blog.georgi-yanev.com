@@ -10,7 +10,7 @@ const SideBar = () => (
           📝 <em>General</em>
         </li>
         <li>
-          <Link to="/general/recap-of-2017-and-goals-for-2018">
+          <Link to="/general/recap-of-2017-and-goals-for-2018/">
             2017 Recap and 2018 Goals
           </Link>
         </li>
@@ -18,7 +18,7 @@ const SideBar = () => (
           🏠 <em>Smart home automation</em>
         </li>
         <li>
-          <Link to="/smart-home/living-with-smart-home-automation">
+          <Link to="/smart-home/living-with-smart-home-automation/">
             Living with smart home automation
           </Link>
         </li>
@@ -26,7 +26,7 @@ const SideBar = () => (
           💻 <em>Software development</em>
         </li>
         <li>
-          <Link to="/software/how-to-become-a-good-developer">
+          <Link to="/software/how-to-become-a-good-developer/">
             How to become a good software developer
           </Link>
         </li>
@@ -81,37 +81,37 @@ const SideBar = () => (
           <em>Fan Fiction</em>
         </li>
         <li>
-          <Link to="/eternal-archives/fiction/leaders-of-the-great-dark-beyond">
+          <Link to="/eternal-archives/fiction/leaders-of-the-great-dark-beyond/">
             Leaders of the Great Dark Beyond
             <span className="sidenav-info">/a Warcraft story/</span>
           </Link>
         </li>
         <li>
-          <Link to="/eternal-archives/fiction/sargeras-tomb">
+          <Link to="/eternal-archives/fiction/sargeras-tomb/">
             Sargeras' tomb
             <span className="sidenav-info">/a Warcraft story/</span>
           </Link>
         </li>
         <li>
-          <Link to="/eternal-archives/fiction/triumph-of-the-orcish-hordes">
+          <Link to="/eternal-archives/fiction/triumph-of-the-orcish-hordes/">
             Triumph of the orcish hordes
             <span className="sidenav-info">/a Warcraft story/</span>
           </Link>
         </li>
         <li>
-          <Link to="/eternal-archives/fiction/the-small-village-tavern">
+          <Link to="/eternal-archives/fiction/the-small-village-tavern/">
             The small village tavern
             <span className="sidenav-info">/a Warcraft story/</span>
           </Link>
         </li>
         <li>
-          <Link to="/eternal-archives/fiction/athene-d2-character-story">
+          <Link to="/eternal-archives/fiction/athene-d2-character-story/">
             Athine Palade:
             <span className="sidenav-info">/Diablo 2 character story/</span>
           </Link>
         </li>
         <li>
-          <Link to="/eternal-archives/fiction/log-of-gelus-life">
+          <Link to="/eternal-archives/fiction/log-of-gelus-life/">
             Log of Gelu's life
             <span className="sidenav-info">
               /a Heroes of Might and Magic story/
@@ -122,47 +122,47 @@ const SideBar = () => (
           <em>Media</em>
         </li>
         <li>
-          <Link to="/eternal-archives/music">Music</Link>
+          <Link to="/eternal-archives/music/">Music</Link>
         </li>
         <li>
-          <Link to="/eternal-archives/music-videos-and-mixtapes">
+          <Link to="/eternal-archives/music-videos-and-mixtapes/">
             Videos and Mixtapes
           </Link>
         </li>
         <li>
-          <Link to="/eternal-archives/game-dev-videos">Game Dev Videos</Link>
+          <Link to="/eternal-archives/game-dev-videos/">Game Dev Videos</Link>
         </li>
         <li>
           <em>Random</em>
         </li>
         <li>
-          <Link to="/eternal-archives/starcraft-encyclopedia">
+          <Link to="/eternal-archives/starcraft-encyclopedia/">
             StarCraft Encyclopedia
           </Link>
         </li>
         <li>
-          <Link to="/eternal-archives/starcraft-screenshots">
+          <Link to="/eternal-archives/starcraft-screenshots/">
             StarCraft Screenshots
           </Link>
         </li>
         <li>
-          <Link to="/eternal-archives/diablo-unique-mobs">
+          <Link to="/eternal-archives/diablo-unique-mobs/">
             Diablo Unique Mobs
           </Link>
         </li>
         <li>
-          <Link to="/eternal-archives/warcraft-units">WarCraft Units</Link>
+          <Link to="/eternal-archives/warcraft-units/">WarCraft Units</Link>
         </li>
         <li>
-          <Link to="/eternal-archives/funny-win98-bugs">
+          <Link to="/eternal-archives/funny-win98-bugs/">
             Funny Windows 98 bugs
           </Link>
         </li>
         <li>
-          <Link to="/eternal-archives/batch-files">Batch files</Link>
+          <Link to="/eternal-archives/batch-files/">Batch files</Link>
         </li>
         <li>
-          <Link to="/eternal-archives/my-first-site-and-programs">
+          <Link to="/eternal-archives/my-first-site-and-programs/">
             My first site and programs
           </Link>
         </li>
