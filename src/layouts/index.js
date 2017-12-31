@@ -10,6 +10,7 @@ import logo from '../images/logo.png'
 import ogImage from '../images/main-page.jpg'
 import github from '../../static/github.svg'
 import twitter from '../../static/twitter.svg'
+import rss from '../../static/rss.svg'
 
 // PrismJS dependency
 // import 'prismjs/themes/prism-solarizedlight.css'
@@ -84,12 +85,17 @@ const Header = () => (
       <ul className="nav social">
         <li>
           <a href="https://github.com/jumpalottahigh">
-            <img style={{ marginRight: '0.4rem' }} src={github} alt="Github" />
+            <img src={github} alt="Github" />
           </a>
         </li>
         <li>
           <a href="https://twitter.com/jumpalottahigh">
             <img src={twitter} alt="Twitter" />
+          </a>
+        </li>
+        <li>
+          <a href="/feed.xml">
+            <img src={rss} alt="Subscribe to RSS feed" />
           </a>
         </li>
       </ul>

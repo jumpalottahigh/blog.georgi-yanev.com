@@ -738,16 +738,30 @@ pre tt:after {
 }
 
 .social {
+  display: flex;
   margin-left: auto;
   margin-bottom: 0;
   padding: 0;
+  justify-content: center;
+  align-content: center;
 }
 
-.nav.social a {
+.social li {
+  display: flex;
+  margin-left: 0.4rem;
+}
+
+.social li a {
+  display: flex;
   color: #0275d8;
   text-decoration: none;
   letter-spacing: 0.03rem;
-  padding: 0 0.7rem;
+  padding: 0;
+}
+
+.social li a img {
+  width: 24px;
+  height: 24px;
 }
 
 /* Helpers */
