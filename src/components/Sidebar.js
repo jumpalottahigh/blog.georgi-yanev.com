@@ -73,7 +73,9 @@ const SideBar = () => (
         <li className="coming-soon">how to install betaflight 3.2</li>
       </ul>
       <hr />
-      <h5>Eternal Archives</h5>
+      <h5>
+        Eternal Archives <span>/1999-2003/</span>
+      </h5>
       <ul className="sidenav">
         <li>
           <em>Fan Fiction</em>
@@ -160,7 +162,9 @@ const SideBar = () => (
           <Link to="/eternal-archives/batch-files">Batch files</Link>
         </li>
         <li>
-          <Link to="/eternal-archives/really-random">Really random</Link>
+          <Link to="/eternal-archives/my-first-site-and-programs">
+            My first site and programs
+          </Link>
         </li>
       </ul>
     </div>

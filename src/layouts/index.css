@@ -641,6 +641,10 @@ pre tt:after {
   font-size: 0.9rem;
 }
 
+.sidebar h5 span {
+  font-size: 0.6rem;
+}
+
 /* Scrollbar */
 .sidebar-wrapper::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(1, 117, 216, 0.3);

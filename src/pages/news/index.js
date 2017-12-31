@@ -1,6 +1,23 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+const months = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec'
+]
+
+const currentMonth = months[new Date().getMonth()]
+
 const NewsPage = ({ data }) => (
   <div>
     <h1>Latest posts:</h1>
@@ -8,7 +25,12 @@ const NewsPage = ({ data }) => (
       {data.allMarkdownRemark.edges.map(page => (
         <li key={page.node.id} className="post-preview">
           <Link key={page.node.id} to={page.node.frontmatter.path}>
-            <h4>{page.node.frontmatter.title}</h4>
+            <h4>
+              {currentMonth === page.node.frontmatter.date.split(' ')[0]
+                ? '🔥 '
+                : null}
+              {page.node.frontmatter.title}
+            </h4>
             <p>{page.node.excerpt}</p>
             <p className="post-preview-note">
               <strong>{page.node.timeToRead} min</strong> read by{' '}
