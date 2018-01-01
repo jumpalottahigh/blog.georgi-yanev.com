@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "blog-georgi-yanev",
+  "description": "Georgi Yanev's Blog",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Georgi Yanev <georgiyanev.gy@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.149",
     "gatsby-link": "^1.6.32",
@@ -16,19 +16,20 @@
     "gatsby-remark-images": "^1.5.36",
     "gatsby-remark-prismjs": "^1.2.11",
     "gatsby-source-filesystem": "^1.5.11",
-    "gatsby-transformer-remark": "^1.7.26"
+    "gatsby-transformer-remark": "^1.7.26",
+    "react-disqus-comments": "^1.1.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["Georgi Yanev Blog"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "format":
+      "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && firebase deploy"
+    "deploy": "gatsby build && firebase deploy",
+    "clean": "rm -rf ./public"
   },
   "devDependencies": {
     "prettier": "^1.9.2"

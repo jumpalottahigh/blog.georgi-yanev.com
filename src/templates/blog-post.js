@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Disqus from '../components/Disqus.js'
 import FeedbackSection from '../components/FeedbackSection.js'
 
 export default function Template({
@@ -104,6 +105,7 @@ export default function Template({
         />
         <div className="affiliate-note m-t-1">{post.frontmatter.affiliate}</div>
         <FeedbackSection />
+        <Disqus postNode={post} />
       </div>
     </div>
   )
@@ -119,6 +121,8 @@ export const pageQuery = graphql`
         dateUnformatted: date
         path
         title
+        tags
+        disqus_identifier
         author
         affiliate
         ogKeywords

@@ -5,6 +5,7 @@ title: "How to setup iBUS on Flysky FS-i6"
 author: "Georgi Yanev"
 affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
 draft: false
+disqus_identifier: "setup-flysky-fs-i6-ibus"
 tags: "fpv"
 ogKeywords: "wizard x220, how to setup Flysky FS-i6 in iBUS, iBus, Flysky, FS-i6"
 ogDescription: "Here's a quick guide on how to change the default PPM on your Flysky FS-i6 receiver to the much faster iBUS. No soldering required."
@@ -35,7 +36,7 @@ On the Ports tab, set Serial RX for UART3.
 
 ![Receiver plugged in the back facing port](setup-ibus-on-flysky-7.jpg)
 
-On the Configuration tab scroll down to the receiver settings and select *Serial-based receiver* and then IBUS from the other dropdown. Save and reboot.
+On the Configuration tab scroll down to the receiver settings and select _Serial-based receiver_ and then IBUS from the other dropdown. Save and reboot.
 
 ![Receiver plugged in the back facing port](setup-ibus-on-flysky-6.jpg)
 
