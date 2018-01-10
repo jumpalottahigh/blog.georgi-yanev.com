@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+// TODO: Break this into static eternal archives component and graphql generated article list
 const SideBar = () => (
   <div className="sidebar-wrapper">
     <div className="sidebar">

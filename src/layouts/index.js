@@ -5,7 +5,8 @@ import Helmet from 'react-helmet'
 
 import './index.css'
 
-import SideBar from '../components/sidebar.js'
+import SideBar from '../components/Sidebar'
+import MenuFAB from '../components/MenuFAB'
 import logo from '../images/logo.png'
 import ogImage from '../images/main-page.jpg'
 import github from '../../static/github.svg'
@@ -141,6 +142,7 @@ const TemplateWrapper = ({ children }) => (
 
     <div className="main-wrapper">
       <SideBar />
+      <MenuFAB />
       <div className="main">{children()}</div>
     </div>
   </div>

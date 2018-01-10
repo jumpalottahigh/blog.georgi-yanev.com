@@ -1,5 +1,5 @@
 import React from 'react'
-import FeedbackLink from '../components/FeedbackLink.js'
+import FeedbackLink from './FeedbackLink.js'
 
 class FeedbackSection extends React.Component {
   constructor(props) {
