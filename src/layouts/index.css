@@ -667,22 +667,18 @@ pre tt:after {
   align-items: center;
   width: 60px;
   height: 60px;
-  background-color: #20232a;
+  line-height: 1rem;
+  /* background-color: #20232a; */
+  /* color: rgb(6, 116, 216); */
+  background-color: rgb(2, 117, 216);
+  color: #fff;
   bottom: 35px;
-  color: rgb(6, 116, 216);
   cursor: pointer;
   user-select: none;
   position: fixed;
   right: 35px;
-  z-index: 999;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-}
-
-.menu-fab:hover {
-  transition: 475ms;
-  transform: rotate(90deg);
+  box-shadow: 2px 2px 20px 4px rgba(0, 0, 0, 0.3);
 }
 
 .sidenav {
@@ -865,6 +861,10 @@ div > pre {
   }
 }
 
+.menu-wrapper {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .main {
     padding-left: 15rem;
@@ -893,8 +893,19 @@ div > pre {
     position: initial;
   }
 
+  .menu-wrapper {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
   .menu-fab {
     display: flex;
+    z-index: 2;
   }
 
   .nav li a {

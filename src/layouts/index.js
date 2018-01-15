@@ -6,7 +6,7 @@ import Helmet from 'react-helmet'
 import './index.css'
 
 import SideBar from '../components/Sidebar'
-import MenuFAB from '../components/MenuFAB'
+import MenuFAB from '../components/MenuFAB/MenuFAB'
 import logo from '../images/logo.png'
 import ogImage from '../images/main-page.jpg'
 import github from '../../static/github.svg'
@@ -104,7 +104,7 @@ const Header = () => (
   </div>
 )
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({ children, data }) => (
   <div>
     <Helmet
       title="Georgi Yanev | Blog on Web OSS, FPV and Smart Home Automation"
@@ -141,8 +141,8 @@ const TemplateWrapper = ({ children }) => (
     <Header />
 
     <div className="main-wrapper">
-      <SideBar />
-      <MenuFAB />
+      <SideBar pageList={data} />
+      <MenuFAB data={data} />
       <div className="main">{children()}</div>
     </div>
   </div>
@@ -153,3 +153,24 @@ TemplateWrapper.propTypes = {
 }
 
 export default TemplateWrapper
+
+export const sidebarPageListQuery = graphql`
+  query sidebarPageListQuery {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { draft: { ne: true } } }
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            date(formatString: "MMM DD, YYYY")
+            path
+            title
+            tags
+          }
+        }
+      }
+    }
+  }
+`

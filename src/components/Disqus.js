@@ -30,6 +30,13 @@ class Disqus extends Component {
     const post = postNode.frontmatter
     const url = `https://blog.georgi-yanev.com${post.path}/`
     const identifier = post.disqus_identifier
+
+    // console.log(
+    //   `Shortname: ${disqusShortname}\nIdentifier: ${identifier}\nTitle: ${
+    //     post.title
+    //   }\nURL: ${url}\nCategory_Id: ${post.tags}\n`
+    // )
+
     return (
       <ReactDisqusComments
         shortname={disqusShortname}
