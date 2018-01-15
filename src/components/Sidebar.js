@@ -21,7 +21,6 @@ export default class SideBar extends React.Component {
 
     // Filter the data
     pages.map(page => {
-      console.log(page.node.frontmatter.tags)
       switch (page.node.frontmatter.tags) {
         case 'general':
           general.push(page)

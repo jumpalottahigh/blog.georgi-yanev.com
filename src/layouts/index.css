@@ -901,6 +901,7 @@ div > pre {
     top: 0;
     left: 0;
     z-index: 2;
+    padding-top: 3.5rem;
   }
 
   .menu-fab {
