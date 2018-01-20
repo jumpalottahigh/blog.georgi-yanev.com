@@ -25,7 +25,6 @@ export default class MenuFAB extends React.Component {
   }
 
   handleClick = e => {
-    console.log(e.target)
     this.setState(prev => ({ visible: !prev.visible }))
   }
 
