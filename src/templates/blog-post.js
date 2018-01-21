@@ -21,7 +21,7 @@ export default function Template({
           },
           {
             property: 'og:image',
-            content: `https://blog.georgi-yanev.com/default-ogimage-code.jpg`
+            content: `https://blog.georgi-yanev.com/default-ogimage-github.jpg`
           },
           {
             property: 'og:title',
@@ -41,7 +41,7 @@ export default function Template({
           },
           {
             name: 'twitter:image',
-            content: `https://blog.georgi-yanev.com/default-ogimage-code.jpg`
+            content: `https://blog.georgi-yanev.com/default-ogimage-github.jpg`
           },
           {
             name: 'twitter:creator',
@@ -75,9 +75,9 @@ export default function Template({
             "datePublished": "${post.frontmatter.dateUnformatted}",
             "dateModified": "${post.frontmatter.dateUnformatted}",
             "image": [
-              "https://blog.georgi-yanev.com/default-ogimage-code.jpg",
-              "https://blog.georgi-yanev.com/default-ogimage-code.jpg",
-              "https://blog.georgi-yanev.com/default-ogimage-code.jpg"
+              "https://blog.georgi-yanev.com/default-ogimage-github.jpg",
+              "https://blog.georgi-yanev.com/default-ogimage-github.jpg",
+              "https://blog.georgi-yanev.com/default-ogimage-github.jpg"
             ],
             "publisher": {
               "@type": "Organization",
