@@ -7,6 +7,13 @@ export default function Template({
   data // this prop will be injected by the GraphQL query
 }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
+
+  // If post doesn't have a defined og image, fall back to default defined here
+  const ogImage =
+    post.frontmatter.ogImage !== null
+      ? `https://blog.georgi-yanev.com${post.frontmatter.ogImage.publicURL}`
+      : `https://blog.georgi-yanev.com/default-ogimage-github.jpg`
+
   return (
     <div className="blog-post-container">
       <Helmet
@@ -21,7 +28,7 @@ export default function Template({
           },
           {
             property: 'og:image',
-            content: `https://blog.georgi-yanev.com/default-ogimage-github.jpg`
+            content: ogImage
           },
           {
             property: 'og:title',
@@ -41,7 +48,7 @@ export default function Template({
           },
           {
             name: 'twitter:image',
-            content: `https://blog.georgi-yanev.com/default-ogimage-github.jpg`
+            content: ogImage
           },
           {
             name: 'twitter:creator',
@@ -75,9 +82,9 @@ export default function Template({
             "datePublished": "${post.frontmatter.dateUnformatted}",
             "dateModified": "${post.frontmatter.dateUnformatted}",
             "image": [
-              "https://blog.georgi-yanev.com/default-ogimage-github.jpg",
-              "https://blog.georgi-yanev.com/default-ogimage-github.jpg",
-              "https://blog.georgi-yanev.com/default-ogimage-github.jpg"
+              "${ogImage}",
+              "${ogImage}",
+              "${ogImage}"
             ],
             "publisher": {
               "@type": "Organization",
@@ -128,7 +135,7 @@ export const pageQuery = graphql`
         ogKeywords
         ogDescription
         ogImage {
-          relativePath
+          publicURL
         }
       }
     }
