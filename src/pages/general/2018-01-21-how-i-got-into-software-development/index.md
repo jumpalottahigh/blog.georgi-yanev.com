@@ -12,8 +12,6 @@ ogDescription: "My high school graduation choice to apply for a degree in econom
 ogImage: "./how-i-got-into-software-development-1.png"
 ---
 
-### Intro
-
 There's this funny thing about life, you never know where it's gonna take you. Whatever the ups and downs, in the end always remember that:
 
 > **Life is a journey, not a destination**
