@@ -893,20 +893,9 @@ div > pre {
     position: initial;
   }
 
-  .menu-wrapper {
-    display: block;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    padding-top: 3.5rem;
-  }
-
   .menu-fab {
     display: flex;
-    z-index: 2;
+    z-index: 3;
   }
 
   .nav li a {
