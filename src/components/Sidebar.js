@@ -59,9 +59,12 @@ export default class SideBar extends React.Component {
             <li>
               📝 <em>General</em>
             </li>
-            {this.state.general.map(page => (
+            {this.state.general.map((page, index) => (
               <li key={page.node.id}>
-                <Link to={page.node.frontmatter.path}>
+                <Link
+                  className={index === 0 ? 'latest' : null}
+                  to={page.node.frontmatter.path}
+                >
                   {page.node.frontmatter.title}
                 </Link>
               </li>
@@ -69,9 +72,12 @@ export default class SideBar extends React.Component {
             <li>
               🏠 <em>Smart home automation</em>
             </li>
-            {this.state.smarthome.map(page => (
+            {this.state.smarthome.map((page, index) => (
               <li key={page.node.id}>
-                <Link to={page.node.frontmatter.path}>
+                <Link
+                  className={index === 0 ? 'latest' : null}
+                  to={page.node.frontmatter.path}
+                >
                   {page.node.frontmatter.title}
                 </Link>
               </li>
@@ -79,9 +85,12 @@ export default class SideBar extends React.Component {
             <li>
               💻 <em>Software development</em>
             </li>
-            {this.state.software.map(page => (
+            {this.state.software.map((page, index) => (
               <li key={page.node.id}>
-                <Link to={page.node.frontmatter.path}>
+                <Link
+                  className={index === 0 ? 'latest' : null}
+                  to={page.node.frontmatter.path}
+                >
                   {page.node.frontmatter.title}
                 </Link>
               </li>
@@ -89,9 +98,12 @@ export default class SideBar extends React.Component {
             <li>
               🚁 <em>FPV quads</em>
             </li>
-            {this.state.fpv.map(page => (
+            {this.state.fpv.map((page, index) => (
               <li key={page.node.id}>
-                <Link to={page.node.frontmatter.path}>
+                <Link
+                  className={index === 0 ? 'latest' : null}
+                  to={page.node.frontmatter.path}
+                >
                   {page.node.frontmatter.title}
                 </Link>
               </li>

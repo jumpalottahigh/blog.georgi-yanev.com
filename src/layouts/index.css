@@ -702,6 +702,15 @@ pre tt:after {
   color: #0175d8;
 }
 
+/* TODO: Find a nice way to highlight latest articles in the sidenav */
+.sidenav a.latest {
+  font-weight: 600;
+}
+
+.sidenav a.latest::before {
+  content: '> ';
+}
+
 .sidenav a::after {
   content: '';
   display: block;
