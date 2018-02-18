@@ -1,6 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+const activeStyle = {
+  color: '#0057e7',
+  fontWeight: 600,
+  fontSize: '0.95rem'
+}
 // TODO: Break this into static eternal archives component and graphql generated article list
 export default class SideBar extends React.Component {
   constructor(props) {
@@ -61,10 +66,7 @@ export default class SideBar extends React.Component {
             </li>
             {this.state.general.map((page, index) => (
               <li key={page.node.id}>
-                <Link
-                  className={index === 0 ? 'latest' : null}
-                  to={page.node.frontmatter.path}
-                >
+                <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
                   {page.node.frontmatter.title}
                 </Link>
               </li>
@@ -74,10 +76,7 @@ export default class SideBar extends React.Component {
             </li>
             {this.state.smarthome.map((page, index) => (
               <li key={page.node.id}>
-                <Link
-                  className={index === 0 ? 'latest' : null}
-                  to={page.node.frontmatter.path}
-                >
+                <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
                   {page.node.frontmatter.title}
                 </Link>
               </li>
@@ -87,10 +86,7 @@ export default class SideBar extends React.Component {
             </li>
             {this.state.software.map((page, index) => (
               <li key={page.node.id}>
-                <Link
-                  className={index === 0 ? 'latest' : null}
-                  to={page.node.frontmatter.path}
-                >
+                <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
                   {page.node.frontmatter.title}
                 </Link>
               </li>
@@ -100,10 +96,7 @@ export default class SideBar extends React.Component {
             </li>
             {this.state.fpv.map((page, index) => (
               <li key={page.node.id}>
-                <Link
-                  className={index === 0 ? 'latest' : null}
-                  to={page.node.frontmatter.path}
-                >
+                <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
                   {page.node.frontmatter.title}
                 </Link>
               </li>
