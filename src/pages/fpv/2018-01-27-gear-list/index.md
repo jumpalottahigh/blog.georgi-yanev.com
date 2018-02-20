@@ -18,6 +18,7 @@ Here's a list of the gear I use. This is a live document that gets updated regul
 * [Aomway Commander][3] 🔥
 * [Eachine VR 007 Pro][1] (modded with [Eachine ProDVR][2])
 * [Aomway 5.8GHz FPV 4 Leaf Clover Antenna][9] 🔥
+* [Pagoda 60mm 5.8G 2dBi FPV Antenna][13] 🔥
 
 ### 📡 Transmitters
 
@@ -31,7 +32,9 @@ Here's a list of the gear I use. This is a live document that gets updated regul
 
 ### 🔩 Parts
 
-* [FrSky X4R-SB 2.4G 16CH Receiver][12] 🔥
+* [Frsky XM+ Micro D16 SBUS Full Range Receiver 16CH][12] 🔥
+* [BrotherHobby Returner R2 2205 2600KV Brushless Motor][14] 🔥
+* [Eachine VTX03 Super Mini 5.8G 72CH Switchable FPV Transmitter][15] 🔥
 * _Coming soon: currently working on a new build for spring 2018_
 
 ### 🔋 Batteries & chargers
@@ -55,4 +58,7 @@ Here's a list of the gear I use. This is a live document that gets updated regul
 [9]: https://goo.gl/UVLXqt
 [10]: https://goo.gl/bFokvG
 [11]: https://goo.gl/U8hK4U
-[12]: https://goo.gl/sAQYr9
+[12]: https://goo.gl/LuqFSk
+[13]: https://goo.gl/G1td53
+[14]: https://goo.gl/x9B9xp
+[15]: https://goo.gl/GqUJxc
