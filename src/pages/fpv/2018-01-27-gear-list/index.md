@@ -35,6 +35,9 @@ Here's a list of the gear I use. This is a live document that gets updated regul
 * [Frsky XM+ Micro D16 SBUS Full Range Receiver 16CH][12] 🔥
 * [BrotherHobby Returner R2 2205 2600KV Brushless Motor][14] 🔥
 * [Eachine VTX03 Super Mini 5.8G 72CH Switchable FPV Transmitter][15] 🔥
+* [RunCam Split Mini 1080P/60fps FPV Camera][16] 🔥
+* [Realacc Furious 220mm Carbon Fiber Racing Frame][17] 🔥
+* [Racerstar StarF4S 30A Blheli_S Dshot 4 in 1 ESC OSD Flight Controller][18] 🔥
 * _Coming soon: currently working on a new build for spring 2018_
 
 ### 🔋 Batteries & chargers
@@ -62,3 +65,6 @@ Here's a list of the gear I use. This is a live document that gets updated regul
 [13]: https://goo.gl/G1td53
 [14]: https://goo.gl/x9B9xp
 [15]: https://goo.gl/GqUJxc
+[16]: https://goo.gl/S6xjnQ
+[17]: https://goo.gl/NwhhDm
+[18]: https://goo.gl/GYrvjk
