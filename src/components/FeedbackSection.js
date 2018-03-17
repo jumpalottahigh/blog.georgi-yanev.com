@@ -6,14 +6,33 @@ class FeedbackSection extends React.Component {
     super(props)
     this.state = {
       rateMessage: 'How was it? Rate it:',
-      showButtons: true
+      showButtons: true,
+      showCustom: false
     }
   }
 
   handleClick = () => {
     this.setState({
       rateMessage: 'Thanks!',
-      showButtons: false
+      showButtons: false,
+      showCustom: true
+    })
+  }
+
+  handleCustomFeedbackSubmit = e => {
+    e.preventDefault()
+    let feedback = e.target.elements.customFeedback.value
+
+    if (feedback === '') {
+      return
+    }
+
+    window.dataLayer.push({
+      event: 'customFeedback',
+      customFeedbackValue: feedback
+    })
+    this.setState({
+      showCustom: false
     })
   }
 
@@ -34,24 +53,29 @@ class FeedbackSection extends React.Component {
             />
             <FeedbackLink
               className="m-r-1"
-              text="Too long 📘"
-              value="long"
-              onClick={this.handleClick}
-            />
-            <FeedbackLink
-              className="m-r-1"
-              text="Too short 📝"
-              value="short"
-              onClick={this.handleClick}
-            />
-            <FeedbackLink
-              className="m-r-1"
               text="Bad 👎"
               value="bad"
               onClick={this.handleClick}
             />
           </div>
         ) : null}
+        {this.state.showCustom && (
+          <form
+            style={{ margin: 0 }}
+            onSubmit={this.handleCustomFeedbackSubmit}
+          >
+            <textarea
+              className="feedback-input"
+              name="customFeedback"
+              placeholder="Anything else you'd like to add?"
+              maxLength="150"
+            />
+            <br />
+            <button className="feedback-submit" type="submit">
+              Send
+            </button>
+          </form>
+        )}
       </div>
     )
   }

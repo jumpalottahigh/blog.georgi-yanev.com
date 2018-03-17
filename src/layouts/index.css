@@ -1002,44 +1002,37 @@ button {
   font-size: 0.8rem;
 }
 
+.feedback-input {
+  min-width: 20rem;
+}
+
+.feedback-submit {
+  color: #fff;
+  border-radius: 2px;
+  padding: 0.2rem 0.6rem;
+  background-color: rgb(2, 117, 216);
+}
+
 .feedback [data-feedback='good'] {
+  min-width: 5rem;
   color: #008744;
-  box-shadow: inset 0 -2px 0px 0px #008744;
+  border: 2px solid #008744;
 }
 
 .feedback [data-feedback='good']:hover {
   color: #fff;
-  box-shadow: inset 0 -20px 0px 0px #008744;
-}
-
-.feedback [data-feedback='long'] {
-  color: #0057e7;
-  box-shadow: inset 0 -2px 0px 0px #0057e7;
-}
-
-.feedback [data-feedback='long']:hover {
-  color: #fff;
-  box-shadow: inset 0 -20px 0px 0px #0057e7;
-}
-
-.feedback [data-feedback='short'] {
-  color: #ffa700;
-  box-shadow: inset 0 -2px 0px 0px #ffa700;
-}
-
-.feedback [data-feedback='short']:hover {
-  color: #fff;
-  box-shadow: inset 0 -20px 0px 0px #ffa700;
+  background-color: #008744;
 }
 
 .feedback [data-feedback='bad'] {
+  min-width: 5rem;
   color: #d62d20;
-  box-shadow: inset 0 -2px 0px 0px #d62d20;
+  border: 2px solid #d62d20;
 }
 
 .feedback [data-feedback='bad']:hover {
   color: #fff;
-  box-shadow: inset 0 -20px 0px 0px #d62d20;
+  background-color: #d62d20;
 }
 
 @media (max-width: 768px) {
