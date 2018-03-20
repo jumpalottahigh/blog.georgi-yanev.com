@@ -14,9 +14,9 @@ ogImage: "./build-a-quad-3.jpg"
 
 This is a living document and an ongoing project. More pictures and information will come as I progress with the build. This build is heavily inspired by [UAVfutures' 110MPH build][1] with some changes.
 
-### Dry assembly
+### Initial test assembly
 
-As some of the parts arrived I decided to do a "dry" assembly of the frame to have a look at components and potential pitfalls and I did indeed find one. The screws that came with the [BrotherHobby Returner motors][2] were too short for the thick 6mm arms of the [Realacc Furious frame][3]. Luckily I had also ordered an assortment of screws and hope to find a fitting match there.
+As some of the parts arrived I decided to do an initial test assembly of the frame to have a look at components and potential pitfalls and I did indeed find one. The screws that came with the [BrotherHobby Returner motors][2] were too short for the thick 6mm arms of the [Realacc Furious frame][3]. Luckily I had also ordered an assortment of screws and hope to find a fitting match there.
 
 ![Assemble drone frame](build-a-quad-1.jpg)
 
@@ -24,7 +24,13 @@ As some of the parts arrived I decided to do a "dry" assembly of the frame to ha
 
 ![Full drone frame build](build-a-quad-3.jpg)
 
-I guess the soldering and motor mounting will have to wait until the correct length screws arrive.
+### Mount the motors
+
+It seemed that 10mm was the perfect length screw I needed to get through the frame arm and just enough into the motor. Additionally I used some loctite threadlocker and tightened the screws properly. Here's the frame with the motors mounted.
+
+![Motors mounted](build-a-quad-4.jpg)
+
+Next up: soldering the motors...
 
 [0]: Linkslist
 [1]: https://www.youtube.com/watch?v=evVP9_FpNSE
