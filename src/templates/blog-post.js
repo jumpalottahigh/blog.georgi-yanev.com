@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 // import Disqus from '../components/Disqus.js'
 import FeedbackSection from '../components/FeedbackSection.js'
+import RelatedArticles from '../components/RelatedArticles.js'
 
 export default function Template({
   data // this prop will be injected by the GraphQL query
@@ -110,6 +111,7 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
+        <RelatedArticles articles={post.frontmatter.relatedArticles} />
         <div className="affiliate-note m-t-1">{post.frontmatter.affiliate}</div>
         <FeedbackSection />
         {/* <Disqus postNode={post} /> */}
@@ -129,6 +131,7 @@ export const pageQuery = graphql`
         path
         title
         tags
+        relatedArticles
         disqus_identifier
         author
         affiliate

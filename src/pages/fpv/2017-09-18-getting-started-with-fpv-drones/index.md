@@ -7,6 +7,11 @@ affiliate: "Links to Banggood in this article are affiliate links and would supp
 draft: false
 disqus_identifier: "getting-started-with-fpv-drones"
 tags: "fpv"
+relatedArticles:
+  - "upgrading-your-wizard"
+  - "setup-flysky-fs-i6-ibus"
+  - "add-buzzer-to-wizard-x220"
+  - "add-frsky-xm-plus-to-wizard-x220"
 ogKeywords: "FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads"
 ogDescription: "About a month ago I stumbled accross a YouTube video of FPV drone footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly drone set - namely the Wizard x220."
 ogImage: "./fpv-drones-getting-started-1.jpg"

@@ -7,6 +7,11 @@ affiliate: "Links to Banggood in this article are affiliate links and would supp
 draft: false
 disqus_identifier: "upgrading-your-wizard"
 tags: "fpv"
+relatedArticles:
+  - "how-to-direct-solder-vtx-antenna"
+  - "setup-flysky-fs-i6-ibus"
+  - "add-buzzer-to-wizard-x220"
+  - "add-frsky-xm-plus-to-wizard-x220"
 ogKeywords: "FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads, cheap upgrades, antennas, props, voltage buzzer, velcro straps"
 ogDescription: "If you are new to FPV, the Wizard x220 provides a decent flight experience out of the box. That being said, there are a number of small, cheap and easy to do upgrades that will dramatically improve your overall experience. In this part 1 of the upgrade guide, we're gonna cover: props, antennas, low voltage buzzer, chargers and velcro straps."
 ogImage: "./upgrade-your-wizard-1.jpg"
@@ -85,15 +90,6 @@ I hope this was somewhat helpful. Don't get discouraged if sometimes it feels li
 Happy flying!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E-3FYff5RlY?rel=0" frameborder="0" allowfullscreen></iframe>
-
-<br><br>
-
-### More Wizard x220 articles and upgrades:
-
-* [Direct solder antenna to stock vtx on Wizard x220](how-to-direct-solder-vtx-antenna/)
-* [Setup iBUS on Flysky FS-i6 on Wizard x220](setup-flysky-fs-i6-ibus/)
-* [Add buzzer to Wizard x220](add-buzzer-to-wizard-x220/)
-* [Add FrSky XM+ receiver to Wizard x220](add-frsky-xm-plus-to-wizard-x220/)
 
 [0]: Linkslist
 [1]: https://goo.gl/14JLmC

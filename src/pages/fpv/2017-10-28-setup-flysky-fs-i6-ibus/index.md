@@ -7,6 +7,11 @@ affiliate: "Links to Banggood in this article are affiliate links and would supp
 draft: false
 disqus_identifier: "setup-flysky-fs-i6-ibus"
 tags: "fpv"
+relatedArticles:
+  - "how-to-direct-solder-vtx-antenna"
+  - "upgrading-your-wizard"
+  - "add-buzzer-to-wizard-x220"
+  - "add-frsky-xm-plus-to-wizard-x220"
 ogKeywords: "wizard x220, how to setup Flysky FS-i6 in iBUS, iBus, Flysky, FS-i6"
 ogDescription: "Here's a quick guide on how to change the default PPM on your Flysky FS-i6 receiver to the much faster iBUS. No soldering required."
 ogImage: "./setup-ibus-on-flysky-2.jpg"

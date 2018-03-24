@@ -6,6 +6,9 @@ author: "Georgi Yanev"
 draft: false
 disqus_identifier: "add-frsky-xm-plus-to-wizard-x220"
 tags: "fpv"
+relatedArticles:
+  - "setup-taranis-qx7"
+  - "upgrading-your-wizard"
 affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
 ogKeywords: "frsky receiver, xm+, xm plus, xm+ receiver, taranis, taranis qx7, setup, transmitter, drone, quad, wizard x220, how to add frsky receiver, betaflight receiver configuration, "
 ogDescription: "The Frsky XM+ receiver is an awesome little thing. Coming in at only $14 it is a tiny, but full featured receiver for Taranis radios. This article describes how to add it to your Eachine Wizard x220"
