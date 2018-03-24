@@ -12,7 +12,7 @@ ogDescription: "If you are new to FPV, the Wizard x220 provides a decent flight 
 ogImage: "./upgrade-your-wizard-1.jpg"
 ---
 
-### 5 cheap and easy upgrades worth doing to your quad
+## 5 cheap and easy upgrades worth doing to your quad
 
 If you are new to FPV, the Wizard x220 provides a decent flight experience out of the box. That being said, there are a number of small, cheap and easy to do upgrades that will dramatically improve your overall experience. In this part 1 of the upgrade guide, we're gonna cover:
 
@@ -80,9 +80,20 @@ And here are the [velcro straps][8] I'm using.
 
 And while at it, I purchased some extra zip ties, screws and [propeller nuts][9], just in case. It would be quite sad to not be able to fly just because you are missing a nut or a screw.
 
-I hope this was somewhat helpful. Don't get discouraged if sometimes it feels like you are doing repair work every time you come home from the field. I promise, it gets better. Also, starting to finally fly FPV in Acro is really awesome. Here is a bonus very low quality DVR footage. Don't let the quality fool you, it looks and feels better when you fly, and at the end of the day this is the lower end of FPV gear that I'm using at the moment, but definitely looking into recording some crisp HD footage soon :) Happy flying!
+I hope this was somewhat helpful. Don't get discouraged if sometimes it feels like you are doing repair work every time you come home from the field. I promise, it gets better. Also, starting to finally fly FPV in Acro is really awesome. Here is a bonus very low quality DVR footage. Don't let the quality fool you, it looks and feels better when you fly, and at the end of the day this is the lower end of FPV gear that I'm using at the moment, but definitely looking into recording some crisp HD footage soon :)
+
+Happy flying!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E-3FYff5RlY?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<br><br>
+
+### More Wizard x220 articles and upgrades:
+
+* [Direct solder antenna to stock vtx on Wizard x220](how-to-direct-solder-vtx-antenna/)
+* [Setup iBUS on Flysky FS-i6 on Wizard x220](setup-flysky-fs-i6-ibus/)
+* [Add buzzer to Wizard x220](add-buzzer-to-wizard-x220/)
+* [Add FrSky XM+ receiver to Wizard x220](add-frsky-xm-plus-to-wizard-x220/)
 
 [0]: Linkslist
 [1]: https://goo.gl/14JLmC
