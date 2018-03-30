@@ -1,5 +1,7 @@
 import React from 'react'
 import introImage from '../images/main-page.jpg'
+import PostList from '../components/PostsList'
+import Link from 'gatsby-link'
 
 const IndexPage = ({ data }) => (
   <div>
@@ -25,25 +27,11 @@ const IndexPage = ({ data }) => (
       <a href="https://twitter.com/jumpalottahigh">@jumpalottahigh</a> on
       Twitter or on <a href="https://github.com/jumpalottahigh">Github</a>.
     </p>
-    <h4>Latest posts:</h4>
-    <ul className="list-none">
-      {data.allMarkdownRemark.edges.map(page => (
-        <li key={page.node.id} className="post-preview">
-          <a key={page.node.id} href={page.node.frontmatter.path + '/'}>
-            <h4>{page.node.frontmatter.title}</h4>
-            <p>{page.node.excerpt}</p>
-            <p className="post-preview-note">
-              <strong>{page.node.timeToRead} min</strong> read by{' '}
-              {page.node.frontmatter.author} on{' '}
-              <strong>{page.node.frontmatter.date}</strong> in{' '}
-              <strong className="post-preview-tags">
-                {page.node.frontmatter.tags}
-              </strong>
-            </p>
-          </a>
-        </li>
-      ))}
-    </ul>
+    <h4>Last 5 posts:</h4>
+    <PostList posts={data.allMarkdownRemark.edges} />
+    <Link to="/news/" className="button">
+      All posts
+    </Link>
     <p className="m-t-1">
       Additionally, the Eternal Archives section of the blog hosts a bunch of
       unedited content (fan fiction, music and programming) from the early 2000s
@@ -59,7 +47,7 @@ export const HomePageQuery = graphql`
   query HomePageQuery {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      limit: 3
+      limit: 5
       filter: { frontmatter: { draft: { ne: true } } }
     ) {
       edges {
