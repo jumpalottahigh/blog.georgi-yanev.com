@@ -46,7 +46,7 @@ module.exports = {
               maxWidth: 590,
               // Remove the default behavior of adding a link to each
               // image.
-              linkImagesToOriginal: false,
+              linkImagesToOriginal: true,
               sizeByPixelDensity: true
             }
           },

@@ -1083,3 +1083,8 @@ button {
 .button:hover {
   background-color: #0175d8;
 }
+
+.gatsby-resp-image-link,
+.gatsby-resp-image-link:hover {
+  box-shadow: none !important;
+}

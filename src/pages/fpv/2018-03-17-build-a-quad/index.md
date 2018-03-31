@@ -14,7 +14,7 @@ ogImage: "./build-a-quad-3.jpg"
 
 This is a living document and an ongoing project. More pictures and information will come as I progress with the build. This build is heavily inspired by [UAVfutures' 110MPH build][1] with some changes.
 
-### Initial test assembly
+### 1. Initial test assembly
 
 As some of the parts arrived I decided to do an initial test assembly of the frame to have a look at components and potential pitfalls and I did indeed find one. The screws that came with the [BrotherHobby Returner motors][2] were too short for the thick 6mm arms of the [Realacc Furious frame][3]. Luckily I had also ordered an assortment of screws and hope to find a fitting match there.
 
@@ -24,13 +24,13 @@ As some of the parts arrived I decided to do an initial test assembly of the fra
 
 ![Full drone frame build](build-a-quad-3.jpg)
 
-### Mount the motors
+### 2. Mount the motors
 
 It seemed that 10mm was the perfect length screw I needed to get through the frame arm and just enough into the motor. Additionally I used some loctite threadlocker and tightened the screws properly. Here's the frame with the motors mounted.
 
 ![Motors mounted](build-a-quad-4.jpg)
 
-### Solder the motors to the ESC
+### 3. Solder the motors to the ESC
 
 This step was rather straight-forward and consists of the following steps (repeated for each motor):
 
@@ -53,10 +53,65 @@ While at it, I also soldered an XT-60 connector to the battery leads. You do nee
 
 ![XT-60 connector for battery leads](build-a-quad-6.jpg)
 
-Next up: soldering the VTX...
+### 4. Solder and bind the receiver
+
+Since the next item to arrive was the [Frsky XM+ receiver][5], I worked on that next.
+
+![Packaged Frsky XM+ receiver](build-a-quad-7.jpg)
+
+First solder some wires to the receiver as seen on the picture below:
+
+* Black = Ground
+* White = 5V
+* Yellow = Signal
+
+![Wires soldered on the Frsky XM+ receiver](build-a-quad-8.jpg)
+
+The other end of those wires go into the flight controller's front right hand solder pads as seen on this picture.
+
+![Frsky XM+ soldered to flight controller](build-a-quad-9.jpg)
+
+Basically look for SBUS, ground and 5V pads close to each other.
+With the receiver soldered the next step is to bind it to the receiver.
+
+* Create a new model in your transmitter
+* Press `BND` and the transmitter will start chirping
+* While holding the bind button on the receiver, connect the quad to a battery (PROPS OFF!!!)
+* In a few seconds the bind is complete
+* Exit the bind on the radio and turn it off
+* Unplug the battery from the quad
+* Turn on the radio and plug in the battery to the quad
+* If your receiver's led is solid green, it's all good and your radio is bound
+
+On the radio's Mixers page I mapped channels 5 and 6 to a couple of switches. I will use those later in Betaflight as AUX1 and AUX2 for arming and flight modes/beeper.
+
+### 5. Motor test and setup in BLHELI configurator
+
+With the receiver and radio all set up it's finally time for a motor test to see if everything works correctly (although 2 of the motors' direction still needs to be reversed with software).
+
+![Quad powered on for the first time](build-a-quad-10.jpg)
+
+Again, can't stress that enough, **never have propellers on when working on your quad and / or the motors**.
+In Betaflight I setup up and arming switch and chaned the receiver channel mode to `TAER` to match the mode in the transmitter. At that point the channels were mapped correctly and seemed to work fine.
+
+Then I armed it for the first time and **all but one motor** worked. The front-right motor does not start up at all. As a first test I desoldered and resoldered it back but it still does not start up. To be continued...
+
+Either way, here's how to setup the motor rotation in the [BLHELI configurator][6]. The first picture shows the default setup when I first plugged the quad in. The second picture is the end result.
+
+![BLHELI configurator starting point](build-a-quad-11.png)
+
+As you can tell, the only difference was setting motors 2 and 3 to be in reverse direction. That does the trick.
+
+![BLHELI configurator end result](build-a-quad-12.png)
+
+To top it all off, when I was trying to connect a micro USB cable to the flight controller the **micro USB connector fell off the board**...
+
+Next up: figure out why 1 motor won't start up, what to do with the board's micro USB port...
 
 [0]: Linkslist
 [1]: https://www.youtube.com/watch?v=evVP9_FpNSE
 [2]: https://goo.gl/x9B9xp
 [3]: https://goo.gl/NwhhDm
 [4]: https://goo.gl/y2QSCv
+[5]: https://goo.gl/LuqFSk
+[6]: https://github.com/blheli-configurator/blheli-configurator/releases
