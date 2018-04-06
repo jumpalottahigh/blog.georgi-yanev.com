@@ -933,7 +933,9 @@ iframe {
 
 .affiliate-note {
   border-top: 1px solid #cecece;
+  padding-top: 0.5rem;
   font-size: 0.7rem;
+  line-height: 1rem;
 }
 
 .coming-soon {
@@ -951,6 +953,9 @@ iframe {
 
 .post-preview-note {
   font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .post-preview-tags {
@@ -962,7 +967,7 @@ iframe {
 
 .category {
   margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
 }
 
 .category.active {
@@ -1071,17 +1076,6 @@ button {
     align-items: left;
     margin-bottom: 1rem;
   }
-}
-
-.button {
-  border-radius: 4px;
-  border: 1px solid #0175d8;
-  padding: 0.25rem 0.5rem;
-  box-shadow: none !important;
-}
-
-.button:hover {
-  background-color: #0175d8;
 }
 
 .gatsby-resp-image-link,

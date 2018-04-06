@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
+import svgRightArrow from '../images/right-arrow.svg'
 
 const months = [
   'Jan',
@@ -139,18 +140,24 @@ export default class PostsList extends Component {
                       {post.node.frontmatter.title}
                     </h4>
                     <p>{post.node.excerpt}</p>
-                    <p className="post-preview-note">
-                      <strong>{post.node.timeToRead} min</strong> read by{' '}
-                      {post.node.frontmatter.author} on{' '}
-                      <strong>{post.node.frontmatter.date}</strong> in{' '}
-                      <strong
-                        className={`post-preview-tags category ${
-                          post.node.frontmatter.tags
-                        }`}
-                      >
-                        {post.node.frontmatter.tags}
-                      </strong>
-                    </p>
+                    <div className="post-preview-note">
+                      <div>
+                        <strong>{post.node.timeToRead} min</strong> read by{' '}
+                        {post.node.frontmatter.author} on{' '}
+                        <strong>{post.node.frontmatter.date}</strong> in{' '}
+                        <strong
+                          className={`post-preview-tags category ${
+                            post.node.frontmatter.tags
+                          }`}
+                        >
+                          {post.node.frontmatter.tags}
+                        </strong>
+                      </div>
+                      <img
+                        src={svgRightArrow}
+                        style={{ height: '24px', justifySelf: 'flex-end' }}
+                      />
+                    </div>
                   </Link>
                 </li>
               ))
@@ -167,18 +174,24 @@ export default class PostsList extends Component {
                       {post.node.frontmatter.title}
                     </h4>
                     <p>{post.node.excerpt}</p>
-                    <p className="post-preview-note">
-                      <strong>{post.node.timeToRead} min</strong> read by{' '}
-                      {post.node.frontmatter.author} on{' '}
-                      <strong>{post.node.frontmatter.date}</strong> in{' '}
-                      <strong
-                        className={`post-preview-tags category ${
-                          post.node.frontmatter.tags
-                        }`}
-                      >
-                        {post.node.frontmatter.tags}
-                      </strong>
-                    </p>
+                    <div className="post-preview-note">
+                      <div>
+                        <strong>{post.node.timeToRead} min</strong> read by{' '}
+                        {post.node.frontmatter.author} on{' '}
+                        <strong>{post.node.frontmatter.date}</strong> in{' '}
+                        <strong
+                          className={`post-preview-tags category ${
+                            post.node.frontmatter.tags
+                          }`}
+                        >
+                          {post.node.frontmatter.tags}
+                        </strong>
+                      </div>
+                      <img
+                        src={svgRightArrow}
+                        style={{ height: '24px', justifySelf: 'flex-end' }}
+                      />
+                    </div>
                   </Link>
                 </li>
               ))}

@@ -2,6 +2,7 @@ import React from 'react'
 import introImage from '../images/main-page.jpg'
 import PostList from '../components/PostsList'
 import Link from 'gatsby-link'
+import Button from '../components/Button'
 
 const IndexPage = ({ data }) => (
   <div>
@@ -29,9 +30,7 @@ const IndexPage = ({ data }) => (
     </p>
     <h4>Last 5 posts:</h4>
     <PostList posts={data.allMarkdownRemark.edges} />
-    <Link to="/news/" className="button">
-      All posts
-    </Link>
+    <Button to="/news/">All posts</Button>
     <p className="m-t-1">
       Additionally, the Eternal Archives section of the blog hosts a bunch of
       unedited content (fan fiction, music and programming) from the early 2000s
@@ -61,6 +60,9 @@ export const HomePageQuery = graphql`
             title
             author
             tags
+            ogImage {
+              publicURL
+            }
           }
         }
       }
