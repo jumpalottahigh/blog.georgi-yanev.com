@@ -73,6 +73,27 @@ Then to update the splash image we actually need to flash the software so head t
 
 Aaaand, that's it, enjoy your custom splash screen!
 
+### Bonus II: install a 2s lipo
+
+Get your hands on [one of these 2S batteries][9] (or similar).
+
+![2S battery for Taranis Q X7](setup-taranis-qx7-8.jpg)
+
+Pull out the AA battery tray carefully and disconnect it from the cable.
+
+![Taranis Q X7 battery tray out](setup-taranis-qx7-9.jpg)
+
+Connect your 2S battery...
+
+![Connect 2S battery to Taranis Q X7](setup-taranis-qx7-10.jpg)
+
+And place it inside.
+
+![Taranis Q X7 with 2S battery installed](setup-taranis-qx7-11.jpg)
+
+Go to the radio configuration and make sure you set **Battery range** to **6.8-8.4** and **Battery low** to **6.6V**.
+Voila! Enjoy not having to buy any more AA batteries.
+
 [0]: Linkslist
 [1]: http://www.open-tx.org
 [2]: http://www.open-tx.org/2017/12/16/opentx-2.2.1
@@ -82,3 +103,4 @@ Aaaand, that's it, enjoy your custom splash screen!
 [6]: http://open-txu.org/v2-2-resources-2/
 [7]: https://goo.gl/EAwr36
 [8]: https://www.youtube.com/watch?v=SJM8G0VCFqM&list=PLiYYhnH4BhI-ot9OQ9djvRaacFHboFqC2
+[9]: https://goo.gl/5Yw1Ag
