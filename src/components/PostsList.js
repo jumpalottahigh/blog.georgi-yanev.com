@@ -139,7 +139,28 @@ export default class PostsList extends Component {
                         : null}
                       {post.node.frontmatter.title}
                     </h4>
-                    <p>{post.node.excerpt}</p>
+                    <div className="post-preview-content">
+                      {this.props.showImage === 'yes' && (
+                        <div className="post-preview-image">
+                          {post.node.frontmatter.ogImage !== null ? (
+                            <img
+                              src={post.node.frontmatter.ogImage.publicURL}
+                            />
+                          ) : (
+                            <img src="/default-ogimage.jpg" />
+                          )}
+                        </div>
+                      )}
+                      <p
+                        className={
+                          this.props.showImage === 'yes'
+                            ? 'post-preview-excerpt'
+                            : ''
+                        }
+                      >
+                        {post.node.excerpt}
+                      </p>
+                    </div>
                     <div className="post-preview-note">
                       <div>
                         <strong>{post.node.timeToRead} min</strong> read by{' '}
@@ -153,10 +174,12 @@ export default class PostsList extends Component {
                           {post.node.frontmatter.tags}
                         </strong>
                       </div>
-                      <img
-                        src={svgRightArrow}
-                        style={{ height: '24px', justifySelf: 'flex-end' }}
-                      />
+                      {this.props.showChevron === 'yes' && (
+                        <img
+                          src={svgRightArrow}
+                          style={{ height: '24px', justifySelf: 'flex-end' }}
+                        />
+                      )}
                     </div>
                   </Link>
                 </li>
@@ -173,7 +196,28 @@ export default class PostsList extends Component {
                         : null}
                       {post.node.frontmatter.title}
                     </h4>
-                    <p>{post.node.excerpt}</p>
+                    <div className="post-preview-content">
+                      {this.props.showImage === 'yes' && (
+                        <div className="post-preview-image">
+                          {post.node.frontmatter.ogImage !== null ? (
+                            <img
+                              src={post.node.frontmatter.ogImage.publicURL}
+                            />
+                          ) : (
+                            <img src="/default-ogimage.jpg" />
+                          )}
+                        </div>
+                      )}
+                      <p
+                        className={
+                          this.props.showImage === 'yes'
+                            ? 'post-preview-excerpt'
+                            : ''
+                        }
+                      >
+                        {post.node.excerpt}
+                      </p>
+                    </div>
                     <div className="post-preview-note">
                       <div>
                         <strong>{post.node.timeToRead} min</strong> read by{' '}
@@ -187,10 +231,23 @@ export default class PostsList extends Component {
                           {post.node.frontmatter.tags}
                         </strong>
                       </div>
-                      <img
-                        src={svgRightArrow}
-                        style={{ height: '24px', justifySelf: 'flex-end' }}
-                      />
+                      {this.props.showImage === 'yes' && (
+                        <span>
+                          {post.node.frontmatter.ogImage !== null ? (
+                            <img
+                              src={post.node.frontmatter.ogImage.publicURL}
+                            />
+                          ) : (
+                            'nope'
+                          )}
+                        </span>
+                      )}
+                      {this.props.showChevron === 'yes' && (
+                        <img
+                          src={svgRightArrow}
+                          style={{ height: '24px', justifySelf: 'flex-end' }}
+                        />
+                      )}
                     </div>
                   </Link>
                 </li>

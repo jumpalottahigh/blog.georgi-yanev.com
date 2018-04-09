@@ -2,7 +2,11 @@ import React from 'react'
 import PostsList from '../../components/PostsList'
 
 const NewsPage = ({ data }) => (
-  <PostsList posts={data.allMarkdownRemark.edges} />
+  <PostsList
+    showChevron="yes"
+    showImage="no"
+    posts={data.allMarkdownRemark.edges}
+  />
 )
 
 export default NewsPage
@@ -24,6 +28,9 @@ export const NewsPageQuery = graphql`
             title
             author
             tags
+            ogImage {
+              publicURL
+            }
           }
         }
       }

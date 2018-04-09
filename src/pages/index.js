@@ -29,7 +29,11 @@ const IndexPage = ({ data }) => (
       Twitter or on <a href="https://github.com/jumpalottahigh">Github</a>.
     </p>
     <h4>Last 5 posts:</h4>
-    <PostList posts={data.allMarkdownRemark.edges} />
+    <PostList
+      showChevron="yes"
+      showImage="yes"
+      posts={data.allMarkdownRemark.edges}
+    />
     <Button to="/news/">All posts</Button>
     <p className="m-t-1">
       Additionally, the Eternal Archives section of the blog hosts a bunch of
@@ -51,7 +55,7 @@ export const HomePageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 140)
+          excerpt(pruneLength: 390)
           id
           timeToRead
           frontmatter {

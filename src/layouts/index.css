@@ -965,6 +965,23 @@ iframe {
   color: #fff;
 }
 
+@media (min-width: 1280px) {
+  .post-preview-content {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .post-preview-image {
+    width: 40%;
+  }
+
+  .post-preview-excerpt {
+    width: 60%;
+    padding: 1rem;
+  }
+}
+
 .category {
   margin-right: 0.5rem;
   /* margin-bottom: 0.5rem; */
