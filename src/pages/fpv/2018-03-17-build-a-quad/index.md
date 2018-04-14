@@ -7,8 +7,8 @@ draft: false
 disqus_identifier: "build-a-quad"
 tags: "fpv"
 affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
-ogKeywords: "..."
-ogDescription: "..."
+ogKeywords: "FPV, racing quads, quad, drone, frsky taranis, lipo batteries, quad build, drone build, brotherhobby returner motors, realacc furious frame, DIY, Racerstar StarF4S 30A Blheli_S Dshot 4 in 1 ESC OSD Flight Controller"
+ogDescription: "I took on the challenge to build my first quad. This is how it went."
 ogImage: "./build-a-quad-3.jpg"
 ---
 
@@ -106,7 +106,15 @@ As you can tell, the only difference was setting motors 2 and 3 to be in reverse
 
 To top it all off, when I was trying to connect a micro USB cable to the flight controller the **micro USB connector fell off the board**...
 
-Next up: figure out why 1 motor won't start up, what to do with the board's micro USB port...
+### 6. Throubleshooting
+
+Building and repairing quads certainly requires a lot of learning and investigation. It's one of the best parts of the hobby and also sometimes one of the most frustrating ones. When seriously stuck, taking a break always helps (works also with programming).
+
+Having concluded that a dead ESC fried one of my motors, I purchased a new motor and requested a refund for the 4-in-1 board. While waiting for those to arrive I decided to also get my hands on a [multimeter][7] and make a [smoke stopped][8].
+
+I can't stress it enough how much I recommend making your own smoke stopper. So much so, I decided to make a super quick guide, so if you are interested (and you should be) go here to read more about [how to make your own smoke stopper][8].
+
+Next up: Wait for new motor and new board to arrive...
 
 [0]: Linkslist
 [1]: https://www.youtube.com/watch?v=evVP9_FpNSE
@@ -115,3 +123,5 @@ Next up: figure out why 1 motor won't start up, what to do with the board's micr
 [4]: https://goo.gl/y2QSCv
 [5]: https://goo.gl/LuqFSk
 [6]: https://github.com/blheli-configurator/blheli-configurator/releases
+[7]: https://goo.gl/xhRiiz
+[8]: /fpv/make-a-smoke-stopper
