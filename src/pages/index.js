@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => (
     </p>
     <p>
       Currently I work as a web developer. If you are interested in my skills
-      here's a <a href="https://www.georgi-yanev.com">quick summary</a>.
+      here's a <a href="https://www.georgi-yanev.com">brief overview</a>.
     </p>
     <p>
       I love all things web and frequently dig around performance topics. I love
