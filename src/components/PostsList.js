@@ -135,7 +135,7 @@ export default class PostsList extends Component {
                   >
                     <h4>
                       {currentMonth === post.node.frontmatter.date.split(' ')[0]
-                        ? '🔥 '
+                        ? '🆕 '
                         : null}
                       {post.node.frontmatter.title}
                     </h4>
@@ -192,7 +192,7 @@ export default class PostsList extends Component {
                   >
                     <h4>
                       {currentMonth === post.node.frontmatter.date.split(' ')[0]
-                        ? '🔥 '
+                        ? '🆕 '
                         : null}
                       {post.node.frontmatter.title}
                     </h4>
