@@ -77,13 +77,13 @@ export default class PostsList extends Component {
 
     return (
       <div>
-        <div>
+        <div className="category-container">
           <button
             className={`category all ${currentFilter === 'all' && 'active'}`}
             data-filter="all"
             onClick={this.handleFilterClick}
           >
-            All categories
+            All posts
           </button>
           {this.state.fpv.length > 0 && (
             <button
