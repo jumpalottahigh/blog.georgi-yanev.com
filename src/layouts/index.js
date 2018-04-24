@@ -74,6 +74,9 @@ const Header = () => (
           <Link to="/news/">Blog posts</Link>
         </li>
         <li>
+          <Link to="/extras/fpv-videos/">Videos</Link>
+        </li>
+        <li>
           <a href="https://www.georgi-yanev.com">About</a>
         </li>
       </ul>

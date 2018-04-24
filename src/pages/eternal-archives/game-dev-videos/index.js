@@ -18,8 +18,8 @@ const GameDevVideosPage = () => (
         width="560"
         height="315"
         src="https://www.youtube.com/embed/lxTmMm6aDF8?rel=0"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       />
       <p>MazeCrawler character showcase</p>
     </div>
@@ -29,8 +29,8 @@ const GameDevVideosPage = () => (
         width="560"
         height="315"
         src="https://www.youtube.com/embed/5JfdqkkoVbs?rel=0"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       />
       <p>MazeCrawler Intro Cinematic</p>
     </div>
@@ -40,8 +40,8 @@ const GameDevVideosPage = () => (
         width="560"
         height="315"
         src="https://www.youtube.com/embed/4UAwHKGwKuc?rel=0"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       />
       <p>MazeCrawler Gameplay</p>
     </div>
@@ -51,8 +51,8 @@ const GameDevVideosPage = () => (
         width="560"
         height="315"
         src="https://www.youtube.com/embed/MLw_mVCMOs0?rel=0"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       />
       <p>Rollin' Shark hackathon demo</p>
     </div>
