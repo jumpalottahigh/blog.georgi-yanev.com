@@ -231,17 +231,6 @@ export default class PostsList extends Component {
                           {post.node.frontmatter.tags}
                         </strong>
                       </div>
-                      {this.props.showImage === 'yes' && (
-                        <span>
-                          {post.node.frontmatter.ogImage !== null ? (
-                            <img
-                              src={post.node.frontmatter.ogImage.publicURL}
-                            />
-                          ) : (
-                            'nope'
-                          )}
-                        </span>
-                      )}
                       {this.props.showChevron === 'yes' && (
                         <img
                           src={svgRightArrow}
