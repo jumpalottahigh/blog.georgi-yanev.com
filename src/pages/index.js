@@ -6,41 +6,68 @@ import Button from '../components/Button'
 
 const IndexPage = ({ data }) => (
   <div>
-    <h1>Hi!</h1>
+    <h1 style={{ fontSize: '1.4rem' }}>
+      Hi, I'm Georgi and I build things on the web with JavaScript, React and
+      Vue.
+    </h1>
     <p>
-      I'm Georgi and I love to solve problems with code, tinker with smart home
-      automation projects and fly FPV racing drones.
+      <br />
+      I believe that however we build apps on the web, they always end up in the{' '}
+      <strong>hands of humans</strong> and it's crucial that we address{' '}
+      <strong>web performance and page load times</strong>.
     </p>
     <p>
-      Currently I work as a web developer. If you are interested in my skills
-      here's a <a href="https://www.georgi-yanev.com">brief overview</a>.
+      I write articles about <strong>🚁 FPV quads</strong> (building and
+      flying), <strong>💻 web development</strong>,{' '}
+      <strong>🏠 smart home automation</strong>,{' '}
+      <strong>👨‍🎓️ life-long learning</strong> and other topics from my personal
+      experience.
     </p>
+
     <p>
-      I love all things web and frequently dig around performance topics. I love
-      open source projects and enjoy reading code on Github. I think we live in
-      exciting times for the web where we have a choice of advanced tools and
-      frameworks and a huge potential for Web Components and Mobile first and
-      Offline first web to become a reality.
+      By day{' '}
+      <a
+        href="https://www.linkedin.com/in/yanevgeorgi/"
+        target="_blank"
+        rel="noopener"
+      >
+        I work as a web developer
+      </a>{' '}
+      and by night I learn and experiment with web tech. If you are interested
+      in my skills here's{' '}
+      <a href="https://www.georgi-yanev.com/skills">
+        what I have come across along the years
+      </a>.
     </p>
     <p>
       I hope you find interesting articles around here. If you have any
       questions, you can always find me as{' '}
       <a href="https://twitter.com/jumpalottahigh">@jumpalottahigh</a> on
-      Twitter or on <a href="https://github.com/jumpalottahigh">Github</a>.
+      Twitter and on <a href="https://github.com/jumpalottahigh">Github</a>.
     </p>
-    <h4>Last 5 posts:</h4>
+    <p>
+      This blog was a joy to build using <strong>Gatsby 💜</strong> (a React
+      based static site generator) and is hosted on <strong>Firebase 🔥</strong>.
+    </p>
+    <h4>Last 5 recent posts:</h4>
     <PostList
       showChevron="yes"
       showImage="yes"
       posts={data.allMarkdownRemark.edges}
     />
-    <Button to="/news/">All posts</Button>
-    <p className="m-t-1">
+    <Button style={{ fontSize: '1.4rem' }} to="/news/">
+      All blog posts
+    </Button>
+    <p style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
       Additionally, the Eternal Archives section of the blog hosts a bunch of
       unedited content (fan fiction, music and programming) from the early 2000s
       when I was only 15 - 17.
     </p>
-    <img className="m-b-1" src={introImage} alt="YAR cover image" />
+    <img
+      style={{ marginBottom: '1rem' }}
+      src={introImage}
+      alt="YAR cover image"
+    />
   </div>
 )
 
