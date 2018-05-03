@@ -1,5 +1,8 @@
 import React from 'react'
 import introImage from '../images/main-page.jpg'
+import svgVue from '../../static/vue.svg'
+import svgReact from '../../static/react.svg'
+import svgJS from '../../static/javascript.svg'
 import PostList from '../components/PostsList'
 import Link from 'gatsby-link'
 import Button from '../components/Button'
@@ -7,8 +10,12 @@ import Button from '../components/Button'
 const IndexPage = ({ data }) => (
   <div>
     <h1 style={{ fontSize: '1.4rem' }}>
-      Hi, I'm Georgi and I build things on the web with JavaScript, React and
-      Vue.
+      Hi, I'm Georgi and I build things on the web with{' '}
+      <img className="framework-logo" src={svgJS} alt="JavaScript logo" />{' '}
+      JavaScript,{' '}
+      <img className="framework-logo" src={svgReact} alt="React.js logo" />{' '}
+      React and{' '}
+      <img className="framework-logo" src={svgVue} alt="Vue.js logo" /> Vue.
     </h1>
     <p>
       <br />

@@ -11,6 +11,7 @@ import logo from '../images/logo.png'
 import ogImage from '../images/main-page.jpg'
 import github from '../../static/github.svg'
 import twitter from '../../static/twitter.svg'
+import linkedin from '../../static/linkedin.svg'
 import rss from '../../static/rss.svg'
 
 // PrismJS dependency
@@ -82,13 +83,30 @@ const Header = () => (
       </ul>
       <ul className="nav social">
         <li>
-          <a href="https://github.com/jumpalottahigh">
+          <a
+            href="https://github.com/jumpalottahigh"
+            target="_blank"
+            rel="noopener"
+          >
             <img src={github} alt="Github" />
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/jumpalottahigh">
+          <a
+            href="https://twitter.com/jumpalottahigh"
+            target="_blank"
+            rel="noopener"
+          >
             <img src={twitter} alt="Twitter" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/yanevgeorgi/"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src={linkedin} alt="LinkedIn" />
           </a>
         </li>
         <li>
@@ -109,12 +127,12 @@ const TemplateWrapper = ({ children, data }) => (
         {
           name: 'description',
           content:
-            "I'm Georgi and I like to write code, tinker with Smart Home Automation projects and I am currently learning how to fly FPV racing quads. I work as a web developer and I see myself as a fairly technical person heavily invested in all things web with a great interest in AR, VR and AI. Also, <3 OSS."
+            "I'm Georgi and I build things on the web with JavaScript, React and Vue. I believe that however we build apps on the web, they always end up in the hands of humans and it's crucial that we address web performance and page load times."
         },
         {
           name: 'keywords',
           content:
-            'smart home automation, home assistant, open source software, OSS, FPV, racing quads, Wizard x220, code, DIY, projects'
+            'smart home automation, home assistant, open source software, OSS, FPV, racing quads, Wizard x220, code, DIY, projects, life-long learning, learning, teaching, education, web development'
         },
         {
           property: 'og:image',
@@ -130,7 +148,7 @@ const TemplateWrapper = ({ children, data }) => (
         {
           property: 'og:description',
           content:
-            "I'm Georgi and I like to write code, tinker with Smart Home Automation projects and I am currently learning how to fly FPV racing quads. I work as a web developer and I see myself as a fairly technical person heavily invested in all things web with a great interest in AR, VR and AI. Also, <3 OSS."
+            "I'm Georgi and I build things on the web with JavaScript, React and Vue. I believe that however we build apps on the web, they always end up in the hands of humans and it's crucial that we address web performance and page load times."
         }
       ]}
     />
