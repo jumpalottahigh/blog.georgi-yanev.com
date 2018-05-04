@@ -16,7 +16,7 @@ Here's a list of the gear I use. This is a live document that gets updated regul
 
 ### 🤓 Goggles & antennas
 
-* [Aomway Commander][3] 🔥
+* [AOMWAY Commander V2][3] 🔥
 * [Eachine VR 007 Pro][1] (modded with [Eachine ProDVR][2])
 * [Aomway 5.8GHz FPV 4 Leaf Clover Antenna][9] 🔥
 * [Pagoda 60mm 5.8G 2dBi FPV Antenna][13] 🔥
@@ -56,7 +56,7 @@ Here's a list of the gear I use. This is a live document that gets updated regul
 [0]: Linkslist
 [1]: https://goo.gl/Jhs3Qp
 [2]: https://goo.gl/8m2vtT
-[3]: https://goo.gl/uQxsGR
+[3]: https://goo.gl/VZYKcb
 [4]: https://goo.gl/Xam6f1
 [5]: https://goo.gl/EAwr36
 [6]: https://goo.gl/psoz6j
