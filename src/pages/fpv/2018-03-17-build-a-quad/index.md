@@ -114,7 +114,17 @@ Having concluded that a dead ESC fried one of my motors, I purchased a new motor
 
 I can't stress it enough how much I recommend making your own smoke stopper. So much so, I decided to make a super quick guide, so if you are interested (and you should be) go here to read more about [how to make your own smoke stopper][8].
 
+// TODO:
 Next up: Wait for new motor and new board to arrive...
+![build13](build-a-quad-13.jpg)
+![build14](build-a-quad-14.jpg)
+![build15](build-a-quad-15.jpg)
+![build16](build-a-quad-16.jpg)
+![build17](build-a-quad-17.jpg)
+![build18](build-a-quad-18.jpg)
+![build19](build-a-quad-19.jpg)
+![build20](build-a-quad-20.jpg)
+![build21](build-a-quad-21.jpg)
 
 [0]: Linkslist
 [1]: https://www.youtube.com/watch?v=evVP9_FpNSE
