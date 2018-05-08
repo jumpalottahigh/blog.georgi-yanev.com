@@ -114,11 +114,34 @@ Having concluded that a dead ESC fried one of my motors, I purchased a new motor
 
 I can't stress it enough how much I recommend making your own smoke stopper. So much so, I decided to make a super quick guide, so if you are interested (and you should be) go here to read more about [how to make your own smoke stopper][8].
 
-// TODO:
-Next up: Wait for new motor and new board to arrive...
-![build13](build-a-quad-13.jpg)
-![build14](build-a-quad-14.jpg)
-![build15](build-a-quad-15.jpg)
+### 7. Recovery
+
+Once the new motor and flight controller were here, it was time to resume the build. Once again, I quickly soldered in the motors to the ESCs, and the receiver to the SBUS.
+
+I tested everything for continuity with the multimeter and plugged in the smoke stopper. It was finally time to plug in the battery and test the build.
+
+The quad booted up and when I armed it, **all 4 motors started** 🎉!
+
+### 8. Moving on
+
+It was finally time to continue the build as all the rest of the components had arrived already.
+
+![camera and vtx have arrived](build-a-quad-13.jpg)
+
+I decided to use a [Runcam Split 2][9] camera that I could just mount on the stack.
+
+![Runcam Split 2 fpv camera](build-a-quad-14.jpg)
+
+So I decided to first go for a test fit to see how things would go. It's nice to consider what length cables you would need and how things would really be in the end.
+
+![test fit the build with the Runcam Split 2](build-a-quad-15.jpg)
+
+### 9. Soldering the VTX
+
+The next easy step was to solder the [Eachine VTX03][10]. The black and red wire were soldered to the ground and 5V pads on the FC. The cluster with 3 wires, however required some work. The yellow wire would...
+
+// TODO: continue
+
 ![build16](build-a-quad-16.jpg)
 ![build17](build-a-quad-17.jpg)
 ![build18](build-a-quad-18.jpg)
@@ -135,3 +158,5 @@ Next up: Wait for new motor and new board to arrive...
 [6]: https://github.com/blheli-configurator/blheli-configurator/releases
 [7]: https://goo.gl/xhRiiz
 [8]: /fpv/make-a-smoke-stopper
+[9]: https://goo.gl/7eGP4X
+[10]: https://goo.gl/GqUJxc
