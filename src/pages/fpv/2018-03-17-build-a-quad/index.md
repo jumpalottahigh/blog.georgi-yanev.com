@@ -1,7 +1,7 @@
 ---
 path: "/fpv/build-a-quad"
 date: "2018-03-17"
-title: "Quad build 2018 (WIP)"
+title: "Quad build 2018"
 author: "Georgi Yanev"
 draft: false
 disqus_identifier: "build-a-quad"
@@ -138,16 +138,39 @@ So I decided to first go for a test fit to see how things would go. It's nice to
 
 ### 9. Soldering the VTX
 
-The next easy step was to solder the [Eachine VTX03][10]. The black and red wire were soldered to the ground and 5V pads on the FC. The cluster with 3 wires, however required some work. The yellow wire would...
+The next easy step was to solder the [Eachine VTX03][10]. The black and red wire were soldered to the ground and 5V pads on the FC. The cluster with 3 wires, however required some work. The yellow wire was soldered to VO (Video Out). The other 2 wires from that cluster were obsolete and were cut at different lengths and shrink-wrapped to prevent shorts.
 
-// TODO: continue
+![VTX soldered](build-a-quad-16.jpg)
 
-![build16](build-a-quad-16.jpg)
-![build17](build-a-quad-17.jpg)
-![build18](build-a-quad-18.jpg)
-![build19](build-a-quad-19.jpg)
-![build20](build-a-quad-20.jpg)
-![build21](build-a-quad-21.jpg)
+### 10. Soldering the camera
+
+Next up, I prepared the [Runcam Split 2][9]. I had to solder 3 wires to the back solder pads: red to 5v, black to ground and yellow to video signal (not audio!).
+
+![Runcam Split 2 with wires soldered to its pads](build-a-quad-19.jpg)
+
+Then the yellow wire from the Runcam went into VI (Video In) on the flight controller. The black wire had to share the ground pad with the previously installed VTX ground. The red wire had to share the 5V pad with the VTX's red wire. A bit tricky but doable.
+
+![all soldered up flight controller](build-a-quad-18.jpg)
+
+And a bit closer.
+
+![all soldered up flight controller close up](build-a-quad-20.jpg)
+
+#### If you followed along, congrats! You just build a quad!
+
+This was my first quad build and while there certainly were some setbacks and unpleasant moments, I learnt a lot and can't wait to have even less painful builds in the future as I get better at this.
+
+For now let's take this quad for a maiden flight and ... realise that the motors are messed up. **Always verify the motor directions on a new build**. I trusted solely BLHELI and although motor 2 and 3 were indeed correctly reversed, I had to reverse 1 and 4 also (?!). Something with the wiring I guess. Whatever the case, make sure you test the rotation of the motors and make sure they are correctly setup.
+
+Lastly, I'll upload a video of the maiden flight as soon as I have completed it! Happy flying!
+
+![furious quad build on deck ready to fly](build-a-quad-21.jpg)
+
+Here is some 1080p 60fps footage from the maiden flight:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/398BDc5mvuA?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 [0]: Linkslist
 [1]: https://www.youtube.com/watch?v=evVP9_FpNSE
