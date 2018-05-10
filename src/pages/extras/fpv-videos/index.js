@@ -12,7 +12,12 @@ const Grid = styled.div`
 `
 
 const FPVVideos = () => {
-  const videoURLs = [
+  const videoURLsHD = [
+    'https://www.youtube.com/embed/398BDc5mvuA',
+    'https://www.youtube.com/embed/ZiZW9Rzals4'
+  ]
+
+  const videoURLsDVR = [
     'https://www.youtube.com/embed/pr6C5gm8jNI',
     'https://www.youtube.com/embed/TlBxVzvS8js',
     'https://www.youtube.com/embed/pIYyGyrdoH8',
@@ -23,9 +28,23 @@ const FPVVideos = () => {
 
   return (
     <div>
-      <h1>FPV DVR footage</h1>
+      <h2>FPV 1080p 60fps footage</h2>
       <Grid>
-        {videoURLs.map(url => (
+        {videoURLsHD.map(url => (
+          <div key={url.split('/').pop()} className="video-wrapper">
+            <iframe
+              width="560"
+              height="315"
+              src={`${url}?rel=0`}
+              frameBorder="0"
+              allowFullScreen
+            />
+          </div>
+        ))}
+      </Grid>
+      <h2 style={{ marginTop: '2rem' }}>FPV DVR footage</h2>
+      <Grid>
+        {videoURLsDVR.map(url => (
           <div key={url.split('/').pop()} className="video-wrapper">
             <iframe
               width="560"
