@@ -9,10 +9,10 @@ tags: "fpv"
 affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
 ogKeywords: "FPV, racing quads, quad, drone, frsky taranis, lipo batteries, quad build, drone build, brotherhobby returner motors, realacc furious frame, DIY, Racerstar StarF4S 30A Blheli_S Dshot 4 in 1 ESC OSD Flight Controller"
 ogDescription: "I took on the challenge to build my first quad. This is how it went."
-ogImage: "./build-a-quad-3.jpg"
+ogImage: "./build-a-quad-21.jpg"
 ---
 
-This is a living document and an ongoing project. More pictures and information will come as I progress with the build. This build is heavily inspired by [UAVfutures' 110MPH build][1] with some changes.
+This build is heavily inspired by [UAVfutures' 110MPH build][1] with some changes.
 
 ### 1. Initial test assembly
 

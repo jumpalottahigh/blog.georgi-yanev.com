@@ -89,7 +89,9 @@ I hope this was somewhat helpful. Don't get discouraged if sometimes it feels li
 
 Happy flying!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E-3FYff5RlY?rel=0" frameborder="0" allowfullscreen></iframe>
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pr6C5gm8jNI?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 [0]: Linkslist
 [1]: https://goo.gl/14JLmC

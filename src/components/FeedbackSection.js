@@ -42,15 +42,6 @@ class FeedbackSection extends React.Component {
         <div>
           <h4>{this.state.rateMessage}</h4>
           <p>Your feedback is greatly appreciated!</p>
-          <p>
-            <a
-              target="_blank"
-              rel="noopener"
-              href="https://paypal.me/jumpalottahigh/20"
-            >
-              Support the blog
-            </a>
-          </p>
         </div>
         {this.state.showButtons ? (
           <div>

@@ -1,8 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-// import Disqus from '../components/Disqus.js'
 import FeedbackSection from '../components/FeedbackSection.js'
 import RelatedArticles from '../components/RelatedArticles.js'
+import SupportSection from '../components/SupportSection.js'
 
 export default function Template({
   data // this prop will be injected by the GraphQL query
@@ -114,7 +114,7 @@ export default function Template({
         <RelatedArticles articles={post.frontmatter.relatedArticles} />
         <div className="affiliate-note m-t-1">{post.frontmatter.affiliate}</div>
         <FeedbackSection />
-        {/* <Disqus postNode={post} /> */}
+        <SupportSection />
       </div>
     </div>
   )
