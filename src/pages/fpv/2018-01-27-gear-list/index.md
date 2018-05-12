@@ -31,7 +31,7 @@ Here's a list of the gear I use. This is a live document that gets updated regul
 * [Eachine Wizard X220][6] 🔥 (mini quad)
 * [Eachine E010S][7] 🔥 (micro quad)
 
-### 🔩 Parts
+### 🔩 Custom Build Parts (Furious)
 
 * [Frsky XM+ Micro D16 SBUS Full Range Receiver 16CH][12] 🔥
 * [BrotherHobby Returner R2 2205 2600KV Brushless Motor][14] 🔥
@@ -39,7 +39,6 @@ Here's a list of the gear I use. This is a live document that gets updated regul
 * [RunCam Split 2 1080P/60fps FPV Camera][16] 🔥
 * [Realacc Furious 220mm Carbon Fiber Racing Frame][17] 🔥
 * [Racerstar StarF4S 30A Blheli_S Dshot 4 in 1 ESC OSD Flight Controller][18] 🔥
-* _Coming soon: currently working on a new build for spring 2018_
 
 ### 🔋 Batteries & chargers
 

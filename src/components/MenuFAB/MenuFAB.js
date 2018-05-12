@@ -33,13 +33,36 @@ class NavigationBar extends React.Component {
               this.setState({ visible: false })
             }}
           >
-            <h4>{page.node.frontmatter.title}</h4>
-            <p className="menu-quickinfo">
-              <strong>{page.node.frontmatter.date}</strong>
-              <strong className="post-preview-tags">
-                {page.node.frontmatter.tags}
-              </strong>
-            </p>
+            <div style={{ display: 'flex' }}>
+              <div style={{ width: '25%' }}>
+                {page.node.frontmatter.ogImage !== null ? (
+                  <img src={page.node.frontmatter.ogImage.publicURL} />
+                ) : (
+                  <img src="/default-ogimage.jpg" />
+                )}
+              </div>
+              <div
+                style={{
+                  width: '75%',
+                  display: 'flex',
+                  flexFlow: 'column wrap',
+                  paddingLeft: '1rem',
+                  justifyContent: 'space-around'
+                }}
+              >
+                <h4>{page.node.frontmatter.title}</h4>
+                <p className="menu-quickinfo">
+                  <strong
+                    className={`post-preview-tags category ${
+                      page.node.frontmatter.tags
+                    }`}
+                  >
+                    {page.node.frontmatter.tags}
+                  </strong>
+                  <strong>{page.node.frontmatter.date}</strong>
+                </p>
+              </div>
+            </div>
           </Link>
         ))}
       </div>

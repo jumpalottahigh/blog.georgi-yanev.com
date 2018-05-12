@@ -183,6 +183,9 @@ export const sidebarPageListQuery = graphql`
             path
             title
             tags
+            ogImage {
+              publicURL
+            }
           }
         }
       }
