@@ -5,6 +5,8 @@ const NewsPage = ({ data }) => (
   <PostsList
     showChevron="yes"
     showImage="no"
+    showCategories="yes"
+    showSearch="yes"
     posts={data.allMarkdownRemark.edges}
   />
 )

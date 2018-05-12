@@ -21,6 +21,7 @@ const currentMonth = months[new Date().getMonth()]
 
 export default class PostsList extends Component {
   state = {
+    search: '',
     currentFilter: 'all',
     allPosts: [...this.props.posts],
     general: [],
@@ -67,9 +68,43 @@ export default class PostsList extends Component {
     })
   }
 
+  handleSearch = e => {
+    let { value } = e.target
+    let { posts } = this.props
+
+    const searchResults = posts.filter(post => {
+      if (
+        post.node.frontmatter.title
+          .toLowerCase()
+          .includes(value.toLowerCase()) ||
+        post.node.excerpt.toLowerCase().includes(value.toLowerCase())
+      ) {
+        return post
+      }
+    })
+
+    this.setState({
+      search: value,
+      allPosts: searchResults
+    })
+  }
+
   componentWillMount() {
     // Filter pages into categories
     this.filter(this.props.posts)
+  }
+
+  componentDidMount() {
+    // Setup ESC listener
+    document.addEventListener(
+      'keydown',
+      e => {
+        e.code === 'Escape'
+          ? this.setState({ search: '' }, () => this.handleSearch(e))
+          : null
+      },
+      false
+    )
   }
 
   render() {
@@ -77,54 +112,70 @@ export default class PostsList extends Component {
 
     return (
       <div>
-        <div className="category-container">
-          <button
-            className={`category all ${currentFilter === 'all' && 'active'}`}
-            data-filter="all"
-            onClick={this.handleFilterClick}
-          >
-            All posts
-          </button>
-          {this.state.fpv.length > 0 && (
+        {this.props.showCategories === 'yes' && (
+          <div className="category-container">
             <button
-              className={`category fpv ${currentFilter === 'fpv' && 'active'}`}
-              data-filter="fpv"
+              className={`category all ${currentFilter === 'all' && 'active'}`}
+              data-filter="all"
               onClick={this.handleFilterClick}
             >
-              FPV
+              All posts
             </button>
-          )}
-          {this.state.general.length > 0 && (
-            <button
-              className={`category general ${currentFilter === 'general' &&
-                'active'}`}
-              data-filter="general"
-              onClick={this.handleFilterClick}
-            >
-              General
-            </button>
-          )}
-          {this.state.smarthome.length > 0 && (
-            <button
-              className={`category smart home ${currentFilter === 'smarthome' &&
-                'active'}`}
-              data-filter="smarthome"
-              onClick={this.handleFilterClick}
-            >
-              Smarthome
-            </button>
-          )}
-          {this.state.software.length > 0 && (
-            <button
-              className={`category software ${currentFilter === 'software' &&
-                'active'}`}
-              data-filter="software"
-              onClick={this.handleFilterClick}
-            >
-              Software
-            </button>
-          )}
-        </div>
+            {this.state.fpv.length > 0 && (
+              <button
+                className={`category fpv ${currentFilter === 'fpv' &&
+                  'active'}`}
+                data-filter="fpv"
+                onClick={this.handleFilterClick}
+              >
+                FPV
+              </button>
+            )}
+            {this.state.general.length > 0 && (
+              <button
+                className={`category general ${currentFilter === 'general' &&
+                  'active'}`}
+                data-filter="general"
+                onClick={this.handleFilterClick}
+              >
+                General
+              </button>
+            )}
+            {this.state.smarthome.length > 0 && (
+              <button
+                className={`category smart home ${currentFilter ===
+                  'smarthome' && 'active'}`}
+                data-filter="smarthome"
+                onClick={this.handleFilterClick}
+              >
+                Smarthome
+              </button>
+            )}
+            {this.state.software.length > 0 && (
+              <button
+                className={`category software ${currentFilter === 'software' &&
+                  'active'}`}
+                data-filter="software"
+                onClick={this.handleFilterClick}
+              >
+                Software
+              </button>
+            )}
+          </div>
+        )}
+        {this.props.showSearch === 'yes' && (
+          <div style={{ marginTop: '1rem', marginBottom: '1rem' }}>
+            <input
+              type="text"
+              onChange={this.handleSearch}
+              value={this.state.search}
+              autoFocus
+              placeholder="Search..."
+              style={{ width: '100%', maxWidth: '300px' }}
+            />
+          </div>
+        )}
+        <hr />
         <ul className="list-none m-t-1">
           {currentFilter === 'all' && allPosts
             ? allPosts.map(post => (

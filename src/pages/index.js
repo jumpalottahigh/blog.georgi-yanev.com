@@ -56,10 +56,12 @@ const IndexPage = ({ data }) => (
       This blog was a joy to build using <strong>Gatsby 💜</strong> (a React
       based static site generator) and is hosted on <strong>Firebase 🔥</strong>.
     </p>
-    <h4>Last 5 recent posts:</h4>
+    <h4 style={{ marginTop: '2rem' }}>Last 5 recent posts:</h4>
     <PostList
       showChevron="yes"
       showImage="yes"
+      showCategories="no"
+      showSearch="no"
       posts={data.allMarkdownRemark.edges}
     />
     <Button style={{ fontSize: '1.2rem', marginRight: '1rem' }} to="/news/">
