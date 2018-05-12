@@ -85,7 +85,8 @@ export default class PostsList extends Component {
 
     this.setState({
       search: value,
-      allPosts: searchResults
+      allPosts: searchResults,
+      currentFilter: 'all'
     })
   }
 
