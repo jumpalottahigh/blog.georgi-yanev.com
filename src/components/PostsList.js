@@ -169,7 +169,6 @@ export default class PostsList extends Component {
               type="text"
               onChange={this.handleSearch}
               value={this.state.search}
-              autoFocus
               placeholder="Search..."
               style={{ width: '100%', maxWidth: '300px' }}
             />
