@@ -15,7 +15,7 @@ ogDescription: "Sometimes you might need to flash new firmware on the XM+ receiv
 ogImage: "./flash-xm-plus-and-setup-rssi-5.jpg"
 ---
 
-Sometimes you might need to flash new firmware on the XM+ receiver. The two main reasons as to why you may want to do that are usually:
+Sometimes you might need to flash new firmware on the [XM+ receiver][3]. The two main reasons as to why you may want to do that are usually:
 
 * You have purchased **LBT (EU)** version of the receiver and need to flash the **FCC (US)** firmware (or the other way around)
 * You want to **enable RSSI** on channel 16 (requires latest firmware)
@@ -35,7 +35,7 @@ Go to FrSky's site, look for the XM+ receiver, go to the downloads section for i
 
 #### 📋 Copy the firmware to the Taranis Q X7
 
-Copy the whole folder with all 6 files in it to the Taranis Q X7. You should place the files under the **FIRMWARE** directory on your Taranis SD card. If you haven't set that up, you can [read here how to do it][2].
+Copy the whole folder with all 6 files in it to the [Taranis Q X7][4]. You should place the files under the **FIRMWARE** directory on your Taranis SD card. If you haven't set that up, you can [read here how to do it][2].
 
 #### 🔌 Prepare cables and solder the receiver
 
@@ -90,3 +90,5 @@ Lastly, go to the **Setup** tab and verify that you see a value for RSSI. The va
 [0]: Linkslist
 [1]: https://www.frsky-rc.com/xm-plus-mini-sbus-non-telemetry-full-range/
 [2]: /fpv/setup-taranis-qx7
+[3]: https://goo.gl/LuqFSk
+[4]: https://goo.gl/EAwr36
