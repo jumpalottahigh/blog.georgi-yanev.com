@@ -60,8 +60,17 @@ export default class SideBar extends React.Component {
     return (
       <div className="sidebar-wrapper">
         <div className="sidebar">
-          <h5>Blog posts</h5>
           <ul className="sidenav">
+            <li>
+              🚁 <em>FPV quads</em>
+            </li>
+            {this.state.fpv.map((page, index) => (
+              <li key={page.node.id}>
+                <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
+                  {page.node.frontmatter.title}
+                </Link>
+              </li>
+            ))}
             <li>
               📝 <em>General</em>
             </li>
@@ -92,21 +101,6 @@ export default class SideBar extends React.Component {
                 </Link>
               </li>
             ))}
-            <li>
-              🚁 <em>FPV quads</em>
-            </li>
-            {this.state.fpv.map((page, index) => (
-              <li key={page.node.id}>
-                <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
-                  {page.node.frontmatter.title}
-                </Link>
-              </li>
-            ))}
-            <li>Coming soon...</li>
-            <li className="coming-soon">
-              Getting started with micro fpv drones
-            </li>
-            <li className="coming-soon">how to install betaflight 3.2</li>
           </ul>
           <hr />
           <EternalArchives />
