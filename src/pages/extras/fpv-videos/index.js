@@ -13,6 +13,8 @@ const Grid = styled.div`
 
 const FPVVideos = () => {
   const videoURLsHD = [
+    'https://www.youtube.com/embed/wNNG2Iwh46U',
+    'https://www.youtube.com/embed/qRN9jqY8jv0',
     'https://www.youtube.com/embed/37F2ckku7uU',
     'https://www.youtube.com/embed/uyWB6Cu0klc',
     'https://www.youtube.com/embed/398BDc5mvuA',
