@@ -10,10 +10,8 @@ class RelatedArticles extends React.Component {
       <div style={{ borderTop: '1px solid #cecece', paddingTop: '1rem' }}>
         <h4 style={{ margin: 0 }}>Related articles:</h4>
         {articles.map((article, id) => (
-          <div>
-            <Link key={id} to={article}>
-              {article}
-            </Link>
+          <div key={id}>
+            <Link to={article}>{article}</Link>
           </div>
         ))}
       </div>

@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import FeedbackSection from '../components/FeedbackSection.js'
 import RelatedArticles from '../components/RelatedArticles.js'
 import SupportSection from '../components/SupportSection.js'
+import ReadProgressLine from '../components/ReadProgressLine.js'
 
 export default function Template({
   data // this prop will be injected by the GraphQL query
@@ -102,6 +103,7 @@ export default function Template({
         `}</script>
       </Helmet>
       <div className="blog-post">
+        <ReadProgressLine />
         <h1>{post.frontmatter.title}</h1>
         <div className="disclaimer-container">
           <span className="year">{post.frontmatter.date}</span>
