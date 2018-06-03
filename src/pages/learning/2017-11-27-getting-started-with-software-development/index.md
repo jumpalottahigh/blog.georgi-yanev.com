@@ -1,13 +1,17 @@
 ---
-path: "/software/how-to-become-a-good-developer"
+path: "/learning/how-to-become-a-good-developer"
 date: "2017-11-27"
 title: "How to become a semi decent software developer in 5 years"
 author: "Georgi Yanev"
 draft: false
 disqus_identifier: "how-to-become-a-good-developer"
-tags: "software"
+tags: "learning"
+relatedArticles:
+  - "recap-of-2017-and-goals-for-2018"
+  - "how-i-got-into-software-development"
 ogKeywords: "software developer, software engineer, learn to code, learn to program, how to become a good developer, how to become a good programmer, learning techniques, growth mindset, learn to learn, developer, engineer, web developer, power user, tools, IDE, software, conference, hackathon, community, open source, open source software, github, vs code, atom"
 ogDescription: "This article aims to touch ground on a few topics which don't necessarily get mentioned when it comes down to how to start a software development career, but are just as important as learning your next programming language."
+ogImage: "./getting-started-with-software-development-1.png"
 ---
 
 First of all, let's start with this - you probably won't become a very good software developer in 5 years and that's OK! If you are very lucky and depending on your background you might become a semi-decent one. Of course that's a bold statement, highly opinionated and insanely subjective but bare with me here. This article does not aim to tell you what you can and cannot achieve, rather inspire and highlight a few topics that maybe don't get mentioned as often when people are talking about taking up a career in software engineering. I believe these topics just as important if not even more so that the programming language course you are taking right now.

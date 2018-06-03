@@ -12,30 +12,25 @@ export default class SideBar extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      general: [],
+      learning: [],
       fpv: [],
-      software: [],
       smarthome: []
     }
   }
 
   filter(pages) {
-    let general = []
+    let learning = []
     let fpv = []
-    let software = []
     let smarthome = []
 
     // Filter the data
     pages.map(page => {
       switch (page.node.frontmatter.tags) {
-        case 'general':
-          general.push(page)
+        case 'learning':
+          learning.push(page)
           break
         case 'smart-home':
           smarthome.push(page)
-          break
-        case 'software':
-          software.push(page)
           break
         case 'fpv':
           fpv.push(page)
@@ -44,9 +39,8 @@ export default class SideBar extends React.Component {
     })
 
     this.setState({
-      general,
+      learning,
       fpv,
-      software,
       smarthome
     })
   }
@@ -72,9 +66,9 @@ export default class SideBar extends React.Component {
               </li>
             ))}
             <li>
-              📝 <em>General</em>
+              👨‍🎓️ <em>Life-long learning</em>
             </li>
-            {this.state.general.map((page, index) => (
+            {this.state.learning.map((page, index) => (
               <li key={page.node.id}>
                 <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
                   {page.node.frontmatter.title}
@@ -85,16 +79,6 @@ export default class SideBar extends React.Component {
               🏠 <em>Smart home automation</em>
             </li>
             {this.state.smarthome.map((page, index) => (
-              <li key={page.node.id}>
-                <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
-                  {page.node.frontmatter.title}
-                </Link>
-              </li>
-            ))}
-            <li>
-              💻 <em>Software development</em>
-            </li>
-            {this.state.software.map((page, index) => (
               <li key={page.node.id}>
                 <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
                   {page.node.frontmatter.title}

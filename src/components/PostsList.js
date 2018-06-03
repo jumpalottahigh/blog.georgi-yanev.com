@@ -24,29 +24,24 @@ export default class PostsList extends Component {
     search: '',
     currentFilter: 'all',
     allPosts: [...this.props.posts],
-    general: [],
+    learning: [],
     fpv: [],
-    software: [],
     smarthome: []
   }
 
   filter(pages) {
-    let general = []
+    let learning = []
     let fpv = []
-    let software = []
     let smarthome = []
 
     // Filter the data
     pages.map(page => {
       switch (page.node.frontmatter.tags) {
-        case 'general':
-          general.push(page)
+        case 'learning':
+          learning.push(page)
           break
         case 'smart-home':
           smarthome.push(page)
-          break
-        case 'software':
-          software.push(page)
           break
         case 'fpv':
           fpv.push(page)
@@ -55,9 +50,8 @@ export default class PostsList extends Component {
     })
 
     this.setState({
-      general,
+      learning,
       fpv,
-      software,
       smarthome
     })
   }
@@ -132,34 +126,24 @@ export default class PostsList extends Component {
                 FPV
               </button>
             )}
-            {this.state.general.length > 0 && (
+            {this.state.learning.length > 0 && (
               <button
-                className={`category general ${currentFilter === 'general' &&
+                className={`category learning ${currentFilter === 'learning' &&
                   'active'}`}
-                data-filter="general"
+                data-filter="learning"
                 onClick={this.handleFilterClick}
               >
-                General
+                Life-long learning
               </button>
             )}
             {this.state.smarthome.length > 0 && (
               <button
-                className={`category smart home ${currentFilter ===
+                className={`category smart-home ${currentFilter ===
                   'smarthome' && 'active'}`}
                 data-filter="smarthome"
                 onClick={this.handleFilterClick}
               >
                 Smarthome
-              </button>
-            )}
-            {this.state.software.length > 0 && (
-              <button
-                className={`category software ${currentFilter === 'software' &&
-                  'active'}`}
-                data-filter="software"
-                onClick={this.handleFilterClick}
-              >
-                Software
               </button>
             )}
           </div>

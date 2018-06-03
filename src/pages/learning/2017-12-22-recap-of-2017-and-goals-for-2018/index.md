@@ -1,11 +1,14 @@
 ---
-path: "/general/recap-of-2017-and-goals-for-2018"
+path: "/learning/recap-of-2017-and-goals-for-2018"
 date: "2017-12-22"
 title: "Recap of 2017 and Goals for 2018 🎉"
 author: "Georgi Yanev"
 draft: false
 disqus_identifier: "recap-of-2017-and-goals-for-2018"
-tags: "general"
+tags: "learning"
+relatedArticles:
+  - "how-to-become-a-good-developer"
+  - "how-i-got-into-software-development"
 affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
 ogKeywords: "growth mindset, learning, evolving, developing, studying, improvement, goal list, progress, taking a look back, looking ahead, 2017, 2018, fly fpv, contribute to open source, google developer challenge scholarship, web dev, smart home automation, blog, passion, grow, twitter, public speaking, gatsby, react, home assistant, graphql, github, firebase, constant learning, life-long learning, junction hackathon, pwa, css grid, twitch, home automation, DIY"
 ogDescription: "It's that time of the year again. The best time to recap and consider how the year has passed. For one I really like making a goal list each year and then checking against it how I'd done. How I have accomplished certain goals and moved past others that I deem no longer high priority and worthy of the time investment."
