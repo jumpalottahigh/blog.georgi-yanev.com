@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 class RelatedArticles extends React.Component {
   render() {
-    const { articles } = this.props
+    const { articles, currentCategory } = this.props
 
     // Return null if no related articles are passed
     return articles ? (
@@ -11,7 +11,7 @@ class RelatedArticles extends React.Component {
         <h4 style={{ margin: 0 }}>Related articles:</h4>
         {articles.map((article, id) => (
           <div key={id}>
-            <Link to={article}>{article}</Link>
+            <Link to={'/' + currentCategory + '/' + article}>{article}</Link>
           </div>
         ))}
       </div>

@@ -42,7 +42,7 @@ export default class PostsList extends Component {
         case 'general':
           general.push(page)
           break
-        case 'smart home':
+        case 'smart-home':
           smarthome.push(page)
           break
         case 'software':

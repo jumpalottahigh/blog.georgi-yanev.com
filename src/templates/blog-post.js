@@ -113,7 +113,10 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
-        <RelatedArticles articles={post.frontmatter.relatedArticles} />
+        <RelatedArticles
+          articles={post.frontmatter.relatedArticles}
+          currentCategory={post.frontmatter.tags}
+        />
         <div className="affiliate-note m-t-1">{post.frontmatter.affiliate}</div>
         <FeedbackSection />
         <SupportSection />

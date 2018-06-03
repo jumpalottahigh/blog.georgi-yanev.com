@@ -31,7 +31,7 @@ export default class SideBar extends React.Component {
         case 'general':
           general.push(page)
           break
-        case 'smart home':
+        case 'smart-home':
           smarthome.push(page)
           break
         case 'software':

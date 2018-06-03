@@ -5,7 +5,7 @@ title: "Mitigating and investigating a hacked smart home"
 author: "Georgi Yanev"
 draft: false
 disqus_identifier: "mitigating-a-smart-home-breach"
-tags: "smart home"
+tags: "smart-home"
 relatedArticles:
   - "living-with-smart-home-automation"
 ogKeywords: "smart home automation, Home Assistant, smart, home automation, Philips Hue, Raspberry Pi, router, hacked, hacker, hacked smart home, kali, linux, resinos, docker, hassio"

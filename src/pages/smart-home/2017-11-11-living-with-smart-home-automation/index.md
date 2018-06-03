@@ -6,7 +6,7 @@ author: "Georgi Yanev"
 affiliate: "This article contains affiliate links to Banggood or Amazon that would support the blog if used to make a purchase."
 draft: false
 disqus_identifier: "living-with-smart-home-automation"
-tags: "smart home"
+tags: "smart-home"
 relatedArticles:
   - "mitigating-a-smart-home-breach"
 ogKeywords: "smart home automation, Home Assistant, smart, home automation, esp8266, mqtt, 433 MHz, Alexa, Amazon Echo, Google Home, Google Assistant, Philips Hue, Ikea Tradfri, Xiaomi Yeelight, Raspberry Pi"
