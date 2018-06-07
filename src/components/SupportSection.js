@@ -16,10 +16,12 @@ const SupportSection = () => {
         className="button"
         style={{ fontSize: '1rem' }}
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
         href="https://paypal.me/jumpalottahigh/20"
       >
-        💳&nbsp;Support&nbsp;the&nbsp;blog
+        <span role="img" aria-label="card">
+          💳
+        </span>&nbsp;Support&nbsp;the&nbsp;blog
       </a>
     </div>
   )

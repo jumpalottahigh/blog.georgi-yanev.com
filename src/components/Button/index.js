@@ -1,6 +1,5 @@
-import React from 'react'
 import styled from 'styled-components'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 
 const Button = styled(Link)`
   align-self: flex-end;

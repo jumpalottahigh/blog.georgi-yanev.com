@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 
 import svgRightArrow from '../images/right-arrow.svg'
 
@@ -39,6 +39,7 @@ export default class EternalArchives extends React.Component {
               transition: '475ms',
               transform: `rotate(${this.state.isOpen ? 90 : 0}deg)`
             }}
+            alt="right arrow"
           />
         </div>
         {this.state.isOpen && (

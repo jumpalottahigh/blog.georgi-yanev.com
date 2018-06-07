@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
 const GameDevVideosPage = () => (
@@ -20,6 +20,7 @@ const GameDevVideosPage = () => (
         src="https://www.youtube.com/embed/lxTmMm6aDF8?rel=0"
         frameBorder="0"
         allowFullScreen
+        title="game dev video 1"
       />
       <p>MazeCrawler character showcase</p>
     </div>
@@ -31,6 +32,7 @@ const GameDevVideosPage = () => (
         src="https://www.youtube.com/embed/5JfdqkkoVbs?rel=0"
         frameBorder="0"
         allowFullScreen
+        title="game dev video 1"
       />
       <p>MazeCrawler Intro Cinematic</p>
     </div>
@@ -42,6 +44,7 @@ const GameDevVideosPage = () => (
         src="https://www.youtube.com/embed/4UAwHKGwKuc?rel=0"
         frameBorder="0"
         allowFullScreen
+        title="game dev video 1"
       />
       <p>MazeCrawler Gameplay</p>
     </div>
@@ -53,6 +56,7 @@ const GameDevVideosPage = () => (
         src="https://www.youtube.com/embed/MLw_mVCMOs0?rel=0"
         frameBorder="0"
         allowFullScreen
+        title="game dev video 1"
       />
       <p>Rollin' Shark hackathon demo</p>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import { Link } from 'gatsby'
 
 const StarCraftEncyclopediaPage = () => (
   <div>
@@ -23,19 +23,19 @@ const StarCraftEncyclopediaPage = () => (
       </p>
       <p>
         The StarCraft Interactive Encyclopedia (SIE) also came as a website and
-        an executable for Windows, coded in C++ -{' '}
-        <a href={__PATH_PREFIX__ + '/SIE.exe'}>SIE.</a>
+        an executable for Windows, coded in C++ - <a href={'/SIE.exe'}>SIE.</a>
       </p>
       <p>
         Also, here's a bonus custom campaign I made:{' '}
-        <a href={__PATH_PREFIX__ + '/DarkRevenge--byZasz.rar'}>Dark Revenge</a>
+        <a href={'/DarkRevenge--byZasz.rar'}>Dark Revenge</a>
       </p>
     </div>
 
     <iframe
-      src={__PATH_PREFIX__ + '/starcraft-encyclopedia-by-georgi.pdf'}
+      src={'/starcraft-encyclopedia-by-georgi.pdf'}
       width="800px"
       height="2100px"
+      title="starcraft encyclopedia by georgi"
     />
 
     <Link to="/">Go back to the homepage</Link>

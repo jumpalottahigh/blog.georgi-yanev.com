@@ -45,6 +45,7 @@ const FPVVideos = () => {
               src={`${url}?rel=0`}
               frameBorder="0"
               allowFullScreen
+              title="FPV HD video"
             />
           </div>
         ))}
@@ -59,6 +60,7 @@ const FPVVideos = () => {
               src={`${url}?rel=0`}
               frameBorder="0"
               allowFullScreen
+              title="FPV DVR video"
             />
           </div>
         ))}

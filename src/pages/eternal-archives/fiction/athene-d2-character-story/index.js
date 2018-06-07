@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import storyCoverImage from '../../../../images/athene-d2-character-story.png'
@@ -16,7 +16,7 @@ const AtheneD2CharacterStoryPage = () => (
     </div>
 
     <div>
-      <img src={storyCoverImage} alt="Athene story cover image" />
+      <img src={storyCoverImage} alt="Athene story cover" />
     </div>
 
     <div>

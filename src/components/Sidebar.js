@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import EternalArchives from '../components/EternalArchives'
 
 const activeStyle = {
@@ -35,6 +35,8 @@ export default class SideBar extends React.Component {
         case 'fpv':
           fpv.push(page)
           break
+        default:
+          break
       }
     })
 
@@ -45,7 +47,7 @@ export default class SideBar extends React.Component {
     })
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     // Filter pages into categories
     this.filter(this.props.pageList.allMarkdownRemark.edges)
   }
@@ -56,7 +58,10 @@ export default class SideBar extends React.Component {
         <div className="sidebar">
           <ul className="sidenav">
             <li>
-              🚁 <em>FPV quads</em>
+              <span role="img" aria-label="helicopter">
+                🚁
+              </span>{' '}
+              <em>FPV quads</em>
             </li>
             {this.state.fpv.map((page, index) => (
               <li key={page.node.id}>
@@ -66,7 +71,10 @@ export default class SideBar extends React.Component {
               </li>
             ))}
             <li>
-              👨‍🎓️ <em>Life-long learning</em>
+              <span role="img" aria-label="student">
+                👨‍🎓️
+              </span>{' '}
+              <em>Life-long learning</em>
             </li>
             {this.state.learning.map((page, index) => (
               <li key={page.node.id}>
@@ -76,7 +84,10 @@ export default class SideBar extends React.Component {
               </li>
             ))}
             <li>
-              🏠 <em>Smart home automation</em>
+              <span role="img" aria-label="house">
+                🏠
+              </span>{' '}
+              <em>Smart home automation</em>
             </li>
             {this.state.smarthome.map((page, index) => (
               <li key={page.node.id}>

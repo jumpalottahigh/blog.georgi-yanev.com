@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import uniqueEnemies1 from '../../../images/diablo-screenshots/unique-enemies1.png'
