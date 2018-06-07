@@ -42,7 +42,7 @@ const IndexPage = ({ data }) => (
       </a>{' '}
       and by night I learn and experiment with web tech. If you are interested
       in my skills here's{' '}
-      <a href="https://www.georgi-yanev.com/skills">
+      <a href="https://www.georgi-yanev.com/about">
         what I have come across along the years
       </a>.
     </p>
