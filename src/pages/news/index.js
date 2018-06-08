@@ -1,7 +1,9 @@
 import React from 'react'
+import Layout from '../../components/Layout'
 import PostsList from '../../components/PostsList'
 
 const NewsPage = ({ data }) => (
+  // TODO: Inject layout
   <PostsList
     showChevron="yes"
     showImage="no"

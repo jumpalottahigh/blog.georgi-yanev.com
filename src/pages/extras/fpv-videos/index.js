@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Layout from '../../../components/Layout'
 
 const Grid = styled.div`
   display: grid;
@@ -34,7 +35,7 @@ const FPVVideos = () => {
   ]
 
   return (
-    <div>
+    <Layout>
       <h2>FPV 1080p 60fps footage</h2>
       <Grid>
         {videoURLsHD.map(url => (
@@ -65,7 +66,7 @@ const FPVVideos = () => {
           </div>
         ))}
       </Grid>
-    </div>
+    </Layout>
   )
 }
 

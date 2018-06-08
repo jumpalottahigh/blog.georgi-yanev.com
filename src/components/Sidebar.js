@@ -24,7 +24,7 @@ export default class SideBar extends React.Component {
     let smarthome = []
 
     // Filter the data
-    pages.map(page => {
+    pages.forEach(page => {
       switch (page.node.frontmatter.tags) {
         case 'learning':
           learning.push(page)
