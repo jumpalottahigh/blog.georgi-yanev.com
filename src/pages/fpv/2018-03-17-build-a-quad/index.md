@@ -12,7 +12,7 @@ ogDescription: "I took on the challenge to build my first quad. This is how it w
 ogImage: "./build-a-quad-21.jpg"
 ---
 
-This build is heavily inspired by [UAVfutures' 110MPH build][1] with some changes.
+This build is heavily inspired by [UAVfutures' 110MPH build][1] with some changes. Building this quad had its ups and downs as you can tell from the rest of the article. While I don't give up easily in the face of challenge, I'd like to point out that after having issues with 2 of those Racerstar StarF4S boards, I **DO NOT RECOMMEND** them for your build and am myself looking for an alternative. The board was ok while it worked and <a href="#maiden-flight">I had a ton of fun flying my quad for a month and a half</a>, but having 2 of those boards fail within ~ 2 months is the threshold of my patience.
 
 ### 1. Initial test assembly
 
@@ -168,7 +168,7 @@ Lastly, I'll upload a video of the maiden flight as soon as I have completed it!
 
 Here is some 1080p 60fps footage from the maiden flight:
 
-<div style="text-align: center">
+<div id="maiden-flight" style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/398BDc5mvuA?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
