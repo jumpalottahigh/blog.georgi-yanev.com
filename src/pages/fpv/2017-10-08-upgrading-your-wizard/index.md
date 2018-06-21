@@ -94,11 +94,11 @@ Happy flying!
 </div>
 
 [0]: Linkslist
-[1]: https://goo.gl/14JLmC
-[2]: https://goo.gl/kPDXhp
-[3]: https://goo.gl/ieZ7Gm
-[5]: https://goo.gl/e1KqcS
-[6]: https://goo.gl/socvNb
-[7]: https://goo.gl/HbwRFL
-[8]: https://goo.gl/aY9JGV
-[9]: https://goo.gl/oVyxrv
+[1]: https://bit.ly/dal-prop
+[2]: https://bit.ly/bullnose-props
+[3]: https://bit.ly/aomway-antenna
+[5]: https://bit.ly/eachine-vr007
+[6]: https://bit.ly/battery-voltage-tester
+[7]: https://bit.ly/lipo-charger
+[8]: https://bit.ly/battery-straps
+[9]: https://bit.ly/motor-nut

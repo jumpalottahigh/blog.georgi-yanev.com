@@ -130,11 +130,11 @@ I strongly doubt that's the complete list and to be fair things always deviate a
 [1]: https://twitter.com/jumpalottahigh
 [2]: https://home-assistant.io
 [3]: https://mqtt.org/
-[4]: https://goo.gl/BPtq7C
-[5]: https://goo.gl/Qn8ZjX
-[6]: https://goo.gl/umSZQ4
+[4]: https://bit.ly/2IbRatc
+[5]: https://bit.ly/2KdC4s0
+[6]: https://bit.ly/2tk3Lpx
 [7]: https://twitter.com/jumpalottahigh/status/939207097941725184
-[8]: https://goo.gl/7JVNZa
+[8]: https://bit.ly/2K8DfJr
 [9]: https://github.com/jumpalottahigh/YAR-Home-Assistant-Configuration
 [10]: https://www.gatsbyjs.org/
 [11]: https://stenciljs.com/

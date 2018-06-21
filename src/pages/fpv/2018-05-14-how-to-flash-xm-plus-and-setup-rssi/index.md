@@ -90,5 +90,5 @@ Lastly, go to the **Setup** tab and verify that you see a value for RSSI. The va
 [0]: Linkslist
 [1]: https://www.frsky-rc.com/xm-plus-mini-sbus-non-telemetry-full-range/
 [2]: /fpv/setup-taranis-qx7
-[3]: https://goo.gl/LuqFSk
-[4]: https://goo.gl/EAwr36
+[3]: https://bit.ly/xm-plus
+[4]: https://bit.ly/taranis-qx7

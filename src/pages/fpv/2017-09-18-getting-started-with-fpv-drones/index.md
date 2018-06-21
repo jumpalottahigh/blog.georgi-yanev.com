@@ -75,14 +75,14 @@ If you would like to support the blog and I managed to convince you that FPV qua
 * [Wizard x220 (quad only)][11]
 
 [0]: Linkslist
-[1]: https://goo.gl/YQP8T1
-[2]: https://goo.gl/14JLmC
-[3]: https://goo.gl/SpR395
-[4]: https://goo.gl/WSmu95
-[5]: https://goo.gl/e1KqcS
+[1]: https://bit.ly/eachine-wizardx220
+[2]: https://bit.ly/dal-prop
+[3]: https://bit.ly/taranis-x9d
+[4]: https://bit.ly/flysky-fs-i6
+[5]: https://bit.ly/eachine-vr007
 [6]: https://fpv-freerider.itch.io/fpv-freerider
 [7]: https://www.youtube.com/watch?v=391D5dX7LKg&list=PLwoDb7WF6c8kjYXam4m3msvRbkORU41GY
 [8]: http://rotorrush.com/
 [9]: https://www.youtube.com/channel/UC3ioIOr3tH6Yz8qzr418R-g
 [10]: https://www.youtube.com/channel/UCQEqPV0AwJ6mQYLmSO0rcNA
-[11]: https://goo.gl/T6JQBv
+[11]: https://bit.ly/only-wizard

@@ -100,8 +100,8 @@ Voila! Enjoy not having to buy any more AA batteries.
 [2]: http://www.open-tx.org/2017/12/16/opentx-2.2.1
 [3]: http://www.open-tx.org/downloads
 [4]: https://downloads.open-tx.org/2.2/sdcard/
-[5]: https://goo.gl/6kGzu9
+[5]: https://bit.ly/sd-card-16
 [6]: http://open-txu.org/v2-2-resources-2/
-[7]: https://goo.gl/EAwr36
+[7]: https://bit.ly/taranis-qx7
 [8]: https://www.youtube.com/watch?v=SJM8G0VCFqM&list=PLiYYhnH4BhI-ot9OQ9djvRaacFHboFqC2
-[9]: https://goo.gl/5Yw1Ag
+[9]: https://bit.ly/taranis-lipo

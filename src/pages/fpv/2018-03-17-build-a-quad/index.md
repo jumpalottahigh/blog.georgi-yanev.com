@@ -174,12 +174,12 @@ Here is some 1080p 60fps footage from the maiden flight:
 
 [0]: Linkslist
 [1]: https://www.youtube.com/watch?v=evVP9_FpNSE
-[2]: https://goo.gl/x9B9xp
-[3]: https://goo.gl/NwhhDm
-[4]: https://goo.gl/y2QSCv
-[5]: https://goo.gl/LuqFSk
+[2]: https://bit.ly/bh-returner
+[3]: https://bit.ly/realacc-furious
+[4]: https://bit.ly/solder-resin-core
+[5]: https://bit.ly/xm-plus
 [6]: https://github.com/blheli-configurator/blheli-configurator/releases
-[7]: https://goo.gl/xhRiiz
+[7]: https://bit.ly/budget-multimeter
 [8]: /fpv/make-a-smoke-stopper
-[9]: https://goo.gl/7eGP4X
-[10]: https://goo.gl/GqUJxc
+[9]: https://bit.ly/runcam-split-2
+[10]: https://bit.ly/eachine-vtx-03

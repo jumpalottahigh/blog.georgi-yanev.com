@@ -88,7 +88,7 @@ You may now reconnect the DVR on the outside. Close the goggles off. Push back D
 <iframe width="100%" height="415" src="https://www.youtube.com/embed/S8PR-br194c?rel=0" frameborder="0" allowfullscreen></iframe>
 
 [0]: Linkslist
-[1]: https://goo.gl/JKZ8X1
-[2]: https://goo.gl/xWxRp6
-[3]: https://goo.gl/5F1ezJ
-[4]: https://goo.gl/QDeZmM
+[1]: https://bit.ly/eachine-vr007
+[2]: https://bit.ly/eachine-prodvr
+[3]: https://bit.ly/2K0Max2
+[4]: https://bit.ly/eachine-e010s

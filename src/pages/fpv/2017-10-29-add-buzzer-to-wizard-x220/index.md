@@ -82,6 +82,6 @@ That's it! You are all set. You should now hear extra beeps from your buzzer on 
 I really like this quick and dirty mod, I believe it is a must have and I hope this helps you to set it up too. If you have any questions, hit me up on <a href="https://twitter.com/jumpalottahigh" target="_blank" rel="noopener">twitter</a>. Happy flying!
 
 [0]: Linkslist
-[1]: https://goo.gl/socvNb
-[2]: https://goo.gl/1zvDn7
-[3]: https://goo.gl/gUps7e
+[1]: https://bit.ly/battery-voltage-tester
+[2]: https://bit.ly/2lrKgak
+[3]: https://bit.ly/2tpr8gF
