@@ -51,9 +51,13 @@ Here's a list of the gear I use. This is a live document that gets updated regul
 * [ANENG AN8008 Digital Multimeter][20]
 * [Drillpro 4pcs 1.5/2.0/2.5/3.0mm Hex Screwdriver Set][21]
 
-### Backpack
+### 🎒 Backpack
 
-* 🎒 [Realacc FPV Racing Backpack][22]
+* [Realacc FPV Racing Backpack][22]
+
+### 🌀 Props
+
+* [DALPROP T5045C Cyclone][23]
 
 [0]: Linkslist
 [1]: https://bit.ly/eachine-vr007
@@ -77,3 +81,4 @@ Here's a list of the gear I use. This is a live document that gets updated regul
 [20]: https://bit.ly/budget-multimeter
 [21]: https://bit.ly/drillpro-set
 [22]: https://bit.ly/realacc-backpack
+[23]: https://bit.ly/dal-prop
