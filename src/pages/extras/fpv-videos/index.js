@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Layout from '../../../components/Layout'
+import Layout from '../../../components/structure/layout'
 
 const Grid = styled.div`
   display: grid;
@@ -22,7 +22,7 @@ const FPVVideos = () => {
     'https://www.youtube.com/embed/37F2ckku7uU',
     'https://www.youtube.com/embed/uyWB6Cu0klc',
     'https://www.youtube.com/embed/398BDc5mvuA',
-    'https://www.youtube.com/embed/ZiZW9Rzals4'
+    'https://www.youtube.com/embed/ZiZW9Rzals4',
   ]
 
   const videoURLsDVR = [
@@ -31,7 +31,7 @@ const FPVVideos = () => {
     'https://www.youtube.com/embed/pIYyGyrdoH8',
     'https://www.youtube.com/embed/qqBJc0__ulY',
     'https://www.youtube.com/embed/9oKEyDSOQOM',
-    'https://www.youtube.com/embed/pIBymaAYaJA'
+    'https://www.youtube.com/embed/pIBymaAYaJA',
   ]
 
   return (

@@ -7,12 +7,12 @@ import svgRightArrow from '../images/right-arrow.svg'
 
 export default class EternalArchives extends React.Component {
   state = {
-    isOpen: false
+    isOpen: false,
   }
 
   toggleOpen = () => {
     this.setState(prevState => ({
-      isOpen: !prevState.isOpen
+      isOpen: !prevState.isOpen,
     }))
   }
 
@@ -23,7 +23,7 @@ export default class EternalArchives extends React.Component {
           style={{
             display: 'flex',
             justifyContent: 'space-between',
-            cursor: 'pointer'
+            cursor: 'pointer',
           }}
           onClick={this.toggleOpen}
         >
@@ -37,7 +37,7 @@ export default class EternalArchives extends React.Component {
             style={{
               height: '30px',
               transition: '475ms',
-              transform: `rotate(${this.state.isOpen ? 90 : 0}deg)`
+              transform: `rotate(${this.state.isOpen ? 90 : 0}deg)`,
             }}
             alt="right arrow"
           />

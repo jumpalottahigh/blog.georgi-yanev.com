@@ -1,16 +1,18 @@
 import React from 'react'
-import Layout from '../../components/Layout'
+import { graphql } from 'gatsby'
+import Layout from '../../components/structure/layout'
 import PostsList from '../../components/PostsList'
 
 const NewsPage = ({ data }) => (
-  // TODO: Inject layout
-  <PostsList
-    showChevron="yes"
-    showImage="no"
-    showCategories="yes"
-    showSearch="yes"
-    posts={data.allMarkdownRemark.edges}
-  />
+  <Layout>
+    <PostsList
+      showChevron="yes"
+      showImage="no"
+      showCategories="yes"
+      showSearch="yes"
+      posts={data.allMarkdownRemark.edges}
+    />
+  </Layout>
 )
 
 export default NewsPage

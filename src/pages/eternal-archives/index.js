@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import eternalArchivesMainImage from '../../images/eternal-archives-main.jpg'
 import Helmet from 'react-helmet'
 

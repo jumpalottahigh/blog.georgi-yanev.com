@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, StaticQuery, graphql } from 'gatsby'
 import './MenuFAB.css'
 
 class NavigationBar extends React.Component {
@@ -50,7 +50,7 @@ class NavigationBar extends React.Component {
                   display: 'flex',
                   flexFlow: 'column wrap',
                   paddingLeft: '1rem',
-                  justifyContent: 'space-around'
+                  justifyContent: 'space-around',
                 }}
               >
                 <h4>{page.node.frontmatter.title}</h4>
