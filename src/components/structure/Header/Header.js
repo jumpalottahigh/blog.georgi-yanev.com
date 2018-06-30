@@ -10,7 +10,7 @@ import rss from '../../../../static/rss.svg'
 export default class Header extends Component {
   render() {
     return (
-      <div
+      <header
         style={{
           position: 'fixed',
           borderBottom: '1px solid #0275d8',
@@ -107,7 +107,7 @@ export default class Header extends Component {
             </li>
           </ul>
         </div>
-      </div>
+      </header>
     )
   }
 }

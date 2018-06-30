@@ -1,14 +1,15 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/structure/layout'
+import Footer from '../components/structure/Footer/Footer'
 
 import introImage from '../images/main-page.jpg'
 import svgVue from '../../static/vue.svg'
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
 import PostList from '../components/PostsList'
-import Button from '../components/Button'
+import Button from '../components/Button/Button'
 
 class BlogIndex extends React.Component {
   render() {
@@ -137,6 +138,7 @@ class BlogIndex extends React.Component {
             alt="YAR cover"
           />
         </div>
+        <Footer />
       </Layout>
     )
   }
