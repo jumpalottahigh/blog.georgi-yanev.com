@@ -2,10 +2,12 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import Layout from '../../../../components/structure/layout'
+
 import storyCoverImage from '../../../../images/athene-d2-character-story.png'
 
 const AtheneD2CharacterStoryPage = () => (
-  <div>
+  <Layout>
     <Helmet title="Athene - D2 Character Story" />
     <h1>Athene - D2 Character Story</h1>
     <div className="disclaimer-container">
@@ -126,7 +128,7 @@ const AtheneD2CharacterStoryPage = () => (
     </div>
 
     <Link to="/">Go back to the homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default AtheneD2CharacterStoryPage

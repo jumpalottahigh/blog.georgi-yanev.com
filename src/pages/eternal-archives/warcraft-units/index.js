@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import Layout from '../../../components/structure/layout'
+
 import warcraft1HumanUnits from '../../../images/warcraft-units/warcraft-1-human-units.png'
 import warcraft1OrcUnits from '../../../images/warcraft-units/warcraft-1-orc-units.png'
 import warcraft2HumanLandUnits from '../../../images/warcraft-units/warcraft-2-human-land-units.png'
@@ -11,7 +13,7 @@ import warcraft2OrcWaterUnits from '../../../images/warcraft-units/warcraft-2-or
 import warcraft2SpecialUnits from '../../../images/warcraft-units/warcraft-2-special-units.png'
 
 const WarCraftUnitsPage = () => (
-  <div>
+  <Layout>
     <Helmet title="WarCraft Units" />
     <h1>WarCraft Units</h1>
 
@@ -58,7 +60,7 @@ const WarCraftUnitsPage = () => (
     </div>
 
     <Link to="/">Go back to the homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default WarCraftUnitsPage

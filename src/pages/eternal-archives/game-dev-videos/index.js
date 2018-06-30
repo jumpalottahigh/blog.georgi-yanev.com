@@ -1,9 +1,27 @@
 import React from 'react'
+import styled from 'styled-components'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import Layout from '../../../components/structure/layout'
+import Video from '../../../components/Video/Video'
+
+const Grid = styled.div`
+  display: grid;
+  grid-gap: 30px;
+  min-width: 380px;
+
+  @media (min-width: 800px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+`
+
 const GameDevVideosPage = () => (
-  <div>
+  <Layout>
     <Helmet title="Game Dev Videos" />
     <h1>Game Dev Videos</h1>
 
@@ -13,56 +31,46 @@ const GameDevVideosPage = () => (
 
     <div className="m-b-1">Game Dev Videos of school and hackathon works.</div>
 
-    <div className="m-b-1">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/lxTmMm6aDF8?rel=0"
-        frameBorder="0"
-        allowFullScreen
-        title="game dev video 1"
-      />
-      <p>MazeCrawler character showcase</p>
-    </div>
-
-    <div className="m-b-1">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/5JfdqkkoVbs?rel=0"
-        frameBorder="0"
-        allowFullScreen
-        title="game dev video 1"
-      />
-      <p>MazeCrawler Intro Cinematic</p>
-    </div>
-
-    <div className="m-b-1">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/4UAwHKGwKuc?rel=0"
-        frameBorder="0"
-        allowFullScreen
-        title="game dev video 1"
-      />
-      <p>MazeCrawler Gameplay</p>
-    </div>
-
-    <div className="m-b-1">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/MLw_mVCMOs0?rel=0"
-        frameBorder="0"
-        allowFullScreen
-        title="game dev video 1"
-      />
-      <p>Rollin' Shark hackathon demo</p>
-    </div>
-
+    <Grid>
+      <div className="m-b-1">
+        <Video
+          src="lxTmMm6aDF8"
+          width="560"
+          height="315"
+          title="game dev video 1"
+        />
+        <p>MazeCrawler character showcase</p>
+      </div>
+      <div className="m-b-1">
+        <Video
+          src="5JfdqkkoVbs"
+          width="560"
+          height="315"
+          title="game dev video 1"
+        />
+        <p>MazeCrawler Intro Cinematic</p>
+      </div>
+      <div className="m-b-1">
+        <Video
+          width="560"
+          height="315"
+          src="4UAwHKGwKuc"
+          title="game dev video 1"
+        />
+        <p>MazeCrawler Gameplay</p>
+      </div>
+      <div className="m-b-1">
+        <Video
+          width="560"
+          height="315"
+          src="MLw_mVCMOs0"
+          title="game dev video 1"
+        />
+        <p>Rollin' Shark hackathon demo</p>
+      </div>
+    </Grid>
     <Link to="/">Go back to the homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default GameDevVideosPage

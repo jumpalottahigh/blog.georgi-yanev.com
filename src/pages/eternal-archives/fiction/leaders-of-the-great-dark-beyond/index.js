@@ -2,8 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import Layout from '../../../../components/structure/layout'
+
 const LeadersOfTheGreatDarkBeyondPage = () => (
-  <div>
+  <Layout>
     <Helmet title="Leaders of the Great Dark Beyond - Warcraft Fiction" />
     <h1>Leaders of the Great Dark Beyond</h1>
 
@@ -94,7 +96,7 @@ const LeadersOfTheGreatDarkBeyondPage = () => (
       </pre>
     </div>
     <Link to="/">Go back to the homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default LeadersOfTheGreatDarkBeyondPage

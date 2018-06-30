@@ -2,8 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import Layout from '../../../../components/structure/layout'
+
 const TheSmallVillageTavernPage = () => (
-  <div>
+  <Layout>
     <Helmet title="The small village tavern - Warcraft Fiction" />
     <h1>The small village tavern</h1>
 
@@ -97,8 +99,7 @@ const TheSmallVillageTavernPage = () => (
         wide opened his eyes, showing their bright and dark side alike.<br />
         “I’m beginning to have second thoughts about that old man. He could be
         one of those crazed necromancers, do you think?” a farmer asked his
-        wife. She didn’t say a word, though, still staring at the ‘prophet’.<br
-        />
+        wife. She didn’t say a word, though, still staring at the ‘prophet’.<br />
         “So my word was about Sargeras. We entomb him west of here, not so far
         from the shores of Sunken Kalimdor. No matter that ‘great’ success I was
         banned from my homeland and send into exile. The small group of the
@@ -115,8 +116,7 @@ const TheSmallVillageTavernPage = () => (
         Kalimdor, Hyjal shouted from the top of the front mast. Everyone trusted
         him, as I did for he was my very best friend, so we all looked at the
         far northeast. Those were some white-colored shores. It was strange, for
-        we all had never seen such brightly colored land … or was that land?<br
-        />
+        we all had never seen such brightly colored land … or was that land?<br />
         “It’s weird! Our priestess of the Moon has never told us of this land.
         It is not shown on any map. But I guess our people need to rest a bit
         from rowing all day and night for the last months. What do you think?”
@@ -352,8 +352,7 @@ const TheSmallVillageTavernPage = () => (
         creatures as a whole. We will afterwards meet at our destination.
         Whatever our destination is” I hadn’t seen Hyjal in this form of
         speaking for years!<br />
-        “This is a sound plan Hyjal” I was still amazed when I began my answer.<br
-        />
+        “This is a sound plan Hyjal” I was still amazed when I began my answer.<br />
         “I don’t know about anyone else but as for me Hyjal’s plan is perfect.
         As a matter of fact we will need a forest to inhabit, right? But even
         our ancients don’t know a thing about this continent we are about to
@@ -378,7 +377,7 @@ const TheSmallVillageTavernPage = () => (
       </pre>
     </div>
     <Link to="/">Go back to the homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default TheSmallVillageTavernPage

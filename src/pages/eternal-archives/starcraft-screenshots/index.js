@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import Layout from '../../../components/structure/layout'
+
 import starcraftBug2 from '../../../images/starcraft-bug2.png'
 import starcraftBug3 from '../../../images/starcraft-bug3.png'
 import starcraftBug4 from '../../../images/starcraft-bug4.png'
@@ -13,7 +15,7 @@ import starcraftBug9 from '../../../images/starcraft-bug9.png'
 import starcraftBug10 from '../../../images/starcraft-bug10.png'
 
 const StarCraftScreenShotsPage = () => (
-  <div>
+  <Layout>
     <Helmet title="StarCraft Screenshots" />
     <h1>StarCraft Screenshots</h1>
 
@@ -71,7 +73,7 @@ const StarCraftScreenShotsPage = () => (
     </div>
 
     <Link to="/">Go back to the homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default StarCraftScreenShotsPage

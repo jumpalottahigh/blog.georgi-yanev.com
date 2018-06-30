@@ -2,12 +2,14 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import Layout from '../../../components/structure/layout'
+
 import myFirstWebsite from '../../../images/my-first-website.png'
 import myFirstWebsiteSource from '../../../images/eternal-archives-main.jpg'
 import programsWrittenByMe from '../../../images/programs-written-by-me.png'
 
 const MyFirstSiteAndPrograms = () => (
-  <div>
+  <Layout>
     <Helmet title="Really Random" />
     <h1>My first site and programs</h1>
 
@@ -25,7 +27,7 @@ const MyFirstSiteAndPrograms = () => (
     </div>
 
     <Link to="/">Go back to the homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default MyFirstSiteAndPrograms

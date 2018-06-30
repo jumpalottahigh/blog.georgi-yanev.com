@@ -2,8 +2,10 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link } from 'gatsby'
 
+import Layout from '../../../components/structure/layout'
+
 const StarCraftEncyclopediaPage = () => (
-  <div>
+  <Layout>
     <Helmet title="StarCraft Encyclopedia" />
     <h1>StarCraft Encyclopedia</h1>
 
@@ -39,7 +41,7 @@ const StarCraftEncyclopediaPage = () => (
     />
 
     <Link to="/">Go back to the homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default StarCraftEncyclopediaPage
