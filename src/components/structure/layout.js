@@ -56,8 +56,7 @@ class Template extends Component {
 
         <div className="main-wrapper">
           <SideBar />
-          {/* TODO: Rewrite like SideBar */}
-          {/* <MenuFAB /> */}
+          <MenuFAB />
           <div className="main">{children}</div>
         </div>
       </Fragment>

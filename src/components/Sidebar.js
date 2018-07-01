@@ -66,7 +66,7 @@ const SideBar = () => (
                 </span>{' '}
                 <em>FPV quads</em>
               </li>
-              {fpv.map((page, index) => (
+              {fpv.map((page) => (
                 <li key={page.node.id}>
                   <Link
                     to={page.node.frontmatter.path}
@@ -82,7 +82,7 @@ const SideBar = () => (
                 </span>{' '}
                 <em>Life-long learning</em>
               </li>
-              {learning.map((page, index) => (
+              {learning.map((page) => (
                 <li key={page.node.id}>
                   <Link
                     to={page.node.frontmatter.path}
@@ -98,7 +98,7 @@ const SideBar = () => (
                 </span>{' '}
                 <em>Smart home automation</em>
               </li>
-              {smarthome.map((page, index) => (
+              {smarthome.map((page) => (
                 <li key={page.node.id}>
                   <Link
                     to={page.node.frontmatter.path}

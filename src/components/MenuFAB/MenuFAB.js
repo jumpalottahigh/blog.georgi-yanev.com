@@ -85,12 +85,45 @@ export default class MenuFAB extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="menu-fab" role="button" onClick={this.handleClick}>
-          {this.state.visible ? '{ ... }' : '{  }'}
-        </div>
-        <NavigationBar data={this.props.data} visible={this.state.visible} />
-      </div>
+      <StaticQuery
+        query={graphql`
+          query menuFABQuery {
+            allMarkdownRemark(
+              sort: { order: DESC, fields: [frontmatter___date] }
+              filter: { frontmatter: { draft: { ne: true } } }
+            ) {
+              edges {
+                node {
+                  id
+                  frontmatter {
+                    date(formatString: "MMM DD, YYYY")
+                    path
+                    title
+                    tags
+                    ogImage {
+                      publicURL
+                    }
+                  }
+                }
+              }
+            }
+          }
+        `}
+        render={data => {
+          return (
+            <div>
+              <div
+                className="menu-fab"
+                role="button"
+                onClick={this.handleClick}
+              >
+                {this.state.visible ? '{ ... }' : '{  }'}
+              </div>
+              <NavigationBar data={data} visible={this.state.visible} />
+            </div>
+          )
+        }}
+      />
     )
   }
 }
