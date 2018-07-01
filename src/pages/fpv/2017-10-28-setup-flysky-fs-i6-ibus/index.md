@@ -56,4 +56,4 @@ If for whatever reason you need to bind again the transmitter and the receiver, 
 With your quad's props off (and vtx antenna on!) plug in the battery. With the transmitter off, hold the bind button on it and THEN TURN IT ON. The Flysky radio should bind and you should be set. Happy flying!
 
 [0]: Linkslist
-[1]: https://goo.gl/jh6R41
+[1]: https://bit.ly/wizardx220

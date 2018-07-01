@@ -60,6 +60,6 @@ That's about it. Don't forget to check all your other settings and make sure you
 Happy flying!
 
 [0]: Linkslist
-[1]: https://goo.gl/LuqFSk
-[2]: https://goo.gl/psoz6j
-[3]: https://goo.gl/EAwr36
+[1]: https://bit.ly/xm-plus
+[2]: https://bit.ly/wizardx220
+[3]: https://bit.ly/taranis-qx7

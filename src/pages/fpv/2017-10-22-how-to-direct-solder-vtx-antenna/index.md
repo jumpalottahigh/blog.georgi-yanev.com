@@ -78,5 +78,5 @@ In conclusion, there are a number of different ways to do this repair. Were I no
 On the other hand, in some ways this fix is better than the stock setup as the vtx antenna will now come out the back and hopefully participate in crashes and direct hits much less frequently. Either way, happy flying!
 
 [0]: Linkslist
-[1]: https://goo.gl/ifEgZg
-[2]: https://goo.gl/ieZ7Gm
+[1]: https://bit.ly/eachine-vtx
+[2]: https://bit.ly/aomway-antenna
