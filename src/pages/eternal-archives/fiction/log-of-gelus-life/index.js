@@ -1,9 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import Layout from '../../../../components/structure/layout'
+
 const LogOfGelusLifePage = () => (
-  <div>
+  <Layout>
     <Helmet title="Log of Gelu's life - Heroes of Might and Magic Fiction" />
     <h1>Log of Gelu's life</h1>
 
@@ -151,7 +153,7 @@ const LogOfGelusLifePage = () => (
       </pre>
     </div>
     <Link to="/">Go back to the homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default LogOfGelusLifePage

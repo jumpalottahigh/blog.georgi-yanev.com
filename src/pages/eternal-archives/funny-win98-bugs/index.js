@@ -1,6 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
+
+import Layout from '../../../components/structure/layout'
 
 import winbug1 from '../../../images/winbug1.jpg'
 import winbug2 from '../../../images/winbug2.jpg'
@@ -10,7 +12,7 @@ import winbug5 from '../../../images/winbug5.jpg'
 import winbug6 from '../../../images/winbug6.jpg'
 
 const FunnyWin98BugsPage = () => (
-  <div>
+  <Layout>
     <Helmet title="Windows 98 Fun" />
     <h1>Windows 98 fun</h1>
 
@@ -67,7 +69,7 @@ const FunnyWin98BugsPage = () => (
       experiences for those games. And occasionally create a C++ program.
     </div>
     <Link to="/">Go back to the homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default FunnyWin98BugsPage

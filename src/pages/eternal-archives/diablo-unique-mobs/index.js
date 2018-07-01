@@ -1,6 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
+
+import Layout from '../../../components/structure/layout'
 
 import uniqueEnemies1 from '../../../images/diablo-screenshots/unique-enemies1.png'
 import uniqueEnemies2 from '../../../images/diablo-screenshots/unique-enemies2.png'
@@ -51,7 +53,7 @@ import uniqueEnemies46 from '../../../images/diablo-screenshots/unique-enemies46
 import uniqueEnemies47 from '../../../images/diablo-screenshots/unique-enemies47.png'
 
 const DiabloUniqueMobsPage = () => (
-  <div>
+  <Layout>
     <Helmet title="Diablo Unique Mobs" />
     <h1>Diablo Unique Mobs</h1>
 
@@ -113,7 +115,7 @@ const DiabloUniqueMobsPage = () => (
     </div>
 
     <Link to="/">Go back to the homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default DiabloUniqueMobsPage

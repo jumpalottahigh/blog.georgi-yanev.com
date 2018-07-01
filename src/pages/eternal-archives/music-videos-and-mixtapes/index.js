@@ -1,9 +1,27 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import styled from 'styled-components'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import Layout from '../../../components/structure/layout'
+import Video from '../../../components/Video/Video'
+
+const Grid = styled.div`
+  display: grid;
+  grid-gap: 30px;
+  min-width: 380px;
+
+  @media (min-width: 800px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+`
+
 const MusicVideosAndMixtapesPage = () => (
-  <div>
+  <Layout>
     <Helmet title="Music Videos and Mixtapes" />
     <h1>Music Videos and Mixtapes</h1>
 
@@ -16,51 +34,17 @@ const MusicVideosAndMixtapesPage = () => (
 
     <div>Music videos of some of Jumpalottahigh and Blink E's music.</div>
 
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/oGm_qu_eHnU?rel=0"
-      frameborder="0"
-      allowfullscreen
-    />
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/b9ODFpJFFLk?rel=0"
-      frameborder="0"
-      allowfullscreen
-    />
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/oUtx0i-p3Og?rel=0"
-      frameborder="0"
-      allowfullscreen
-    />
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/zV4KASgWwjs?rel=0"
-      frameborder="0"
-      allowfullscreen
-    />
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/qs8ZZNA_Oso?rel=0"
-      frameborder="0"
-      allowfullscreen
-    />
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/oYB4gvGNyC4?rel=0"
-      frameborder="0"
-      allowfullscreen
-    />
+    <Grid>
+      <Video src="oGm_qu_eHnU" title="youtube video clip 1" />
+      <Video src="b9ODFpJFFLk" title="youtube video clip 1" />
+      <Video src="oUtx0i-p3Og" title="youtube video clip 1" />
+      <Video src="zV4KASgWwjs" title="youtube video clip 1" />
+      <Video src="qs8ZZNA_Oso" title="youtube video clip 1" />
+      <Video src="oYB4gvGNyC4" title="youtube video clip 1" />
+    </Grid>
 
     <Link to="/">Go back to the homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default MusicVideosAndMixtapesPage

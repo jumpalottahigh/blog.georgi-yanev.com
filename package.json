@@ -1,42 +1,59 @@
 {
   "name": "blog-georgi-yanev",
   "description": "Georgi Yanev's Blog",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Georgi Yanev <georgiyanev.gy@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.1",
-    "gatsby": "^1.9.169",
-    "gatsby-link": "^1.6.34",
-    "gatsby-plugin-feed": "^1.3.16",
-    "gatsby-plugin-google-analytics": "^1.0.16",
-    "gatsby-plugin-google-tagmanager": "^1.0.13",
-    "gatsby-plugin-manifest": "^1.0.13",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-sharp": "^1.6.27",
-    "gatsby-plugin-sitemap": "^1.2.11",
-    "gatsby-plugin-styled-components": "^2.0.11",
-    "gatsby-remark-images": "^1.5.41",
-    "gatsby-remark-prismjs": "^1.2.12",
-    "gatsby-source-filesystem": "^1.5.15",
-    "gatsby-transformer-remark": "^1.7.29",
-    "react-disqus-comments": "^1.1.1",
+    "gatsby": "next",
+    "gatsby-image": "next",
+    "gatsby-plugin-feed": "next",
+    "gatsby-plugin-google-analytics": "next",
+    "gatsby-plugin-google-tagmanager": "next",
+    "gatsby-plugin-manifest": "next",
+    "gatsby-plugin-offline": "next",
+    "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-sharp": "next",
+    "gatsby-plugin-sitemap": "next",
+    "gatsby-plugin-styled-components": "next",
+    "gatsby-remark-copy-linked-files": "next",
+    "gatsby-remark-images": "next",
+    "gatsby-remark-prismjs": "next",
+    "gatsby-remark-responsive-iframe": "next",
+    "gatsby-remark-smartypants": "next",
+    "gatsby-source-filesystem": "next",
+    "gatsby-transformer-remark": "next",
+    "gatsby-transformer-sharp": "next",
+    "prismjs": "^1.15.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-helmet": "^5.2.0",
     "scrollprogress": "^3.0.2",
-    "styled-components": "^3.2.5"
+    "styled-components": "^3.3.3"
   },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0",
+    "prettier": "^1.12.0"
+  },
+  "homepage": "https://github.com/jumpalottahigh/blog.georgi-yanev.com#readme",
   "keywords": [
     "Georgi Yanev Blog"
   ],
   "license": "MIT",
   "main": "n/a",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && firebase deploy",
-    "clean": "rm -rf ./public"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jumpalottahigh/blog.georgi-yanev.com.git"
   },
-  "devDependencies": {
-    "prettier": "^1.10.2"
+  "scripts": {
+    "dev": "gatsby develop",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && firebase deploy",
+    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }

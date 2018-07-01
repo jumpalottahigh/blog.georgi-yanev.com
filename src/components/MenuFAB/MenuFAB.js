@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link, StaticQuery, graphql } from 'gatsby'
 import './MenuFAB.css'
 
 class NavigationBar extends React.Component {
@@ -8,12 +8,12 @@ class NavigationBar extends React.Component {
     this.state = { visible: false }
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     const { data, visible } = this.props
     this.setState({ data, visible })
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     if (nextProps.visible !== this.state.visible) {
       this.setState({ visible: nextProps.visible })
     }
@@ -36,9 +36,12 @@ class NavigationBar extends React.Component {
             <div style={{ display: 'flex' }}>
               <div style={{ width: '25%' }}>
                 {page.node.frontmatter.ogImage !== null ? (
-                  <img src={page.node.frontmatter.ogImage.publicURL} />
+                  <img
+                    src={page.node.frontmatter.ogImage.publicURL}
+                    alt="article preview"
+                  />
                 ) : (
-                  <img src="/default-ogimage.jpg" />
+                  <img src="/default-ogimage.jpg" alt="article preview" />
                 )}
               </div>
               <div
@@ -47,7 +50,7 @@ class NavigationBar extends React.Component {
                   display: 'flex',
                   flexFlow: 'column wrap',
                   paddingLeft: '1rem',
-                  justifyContent: 'space-around'
+                  justifyContent: 'space-around',
                 }}
               >
                 <h4>{page.node.frontmatter.title}</h4>
@@ -82,12 +85,45 @@ export default class MenuFAB extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="menu-fab" role="button" onClick={this.handleClick}>
-          {this.state.visible ? '{ ... }' : '{  }'}
-        </div>
-        <NavigationBar data={this.props.data} visible={this.state.visible} />
-      </div>
+      <StaticQuery
+        query={graphql`
+          query menuFABQuery {
+            allMarkdownRemark(
+              sort: { order: DESC, fields: [frontmatter___date] }
+              filter: { frontmatter: { draft: { ne: true } } }
+            ) {
+              edges {
+                node {
+                  id
+                  frontmatter {
+                    date(formatString: "MMM DD, YYYY")
+                    path
+                    title
+                    tags
+                    ogImage {
+                      publicURL
+                    }
+                  }
+                }
+              }
+            }
+          }
+        `}
+        render={data => {
+          return (
+            <div>
+              <div
+                className="menu-fab"
+                role="button"
+                onClick={this.handleClick}
+              >
+                {this.state.visible ? '{ ... }' : '{  }'}
+              </div>
+              <NavigationBar data={data} visible={this.state.visible} />
+            </div>
+          )
+        }}
+      />
     )
   }
 }

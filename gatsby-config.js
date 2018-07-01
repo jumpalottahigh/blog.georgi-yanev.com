@@ -4,19 +4,54 @@ module.exports = {
     title: `Georgi Yanev's Blog`,
     siteUrl: `https://blog.georgi-yanev.com`,
     author: `Georgi Yanev`,
-    description: `Georgi Yanev's Blog`
+    description: `Georgi Yanev's Blog`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {
-      resolve: `gatsby-plugin-sitemap`
+      resolve: `gatsby-plugin-sitemap`,
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: 'pages',
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+              // Remove the default behavior of adding a link to each
+              // image.
+              linkImagesToOriginal: true,
+              sizeByPixelDensity: true,
+            },
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+          'gatsby-remark-prismjs',
+          'gatsby-remark-copy-linked-files',
+          'gatsby-remark-smartypants',
+        ],
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-43588334-6`
-      }
+        trackingId: `UA-43588334-6`,
+      },
     },
     {
       resolve: `gatsby-plugin-google-tagmanager`,
@@ -24,50 +59,9 @@ module.exports = {
         id: 'GTM-TVTZWR6',
         // Include GTM in development.
         // Defaults to false meaning GTM will only be loaded in production.
-        includeInDevelopment: true
-      }
+        includeInDevelopment: true,
+      },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/pages`,
-        name: 'pages'
-      }
-    },
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              maxWidth: 590,
-              // Remove the default behavior of adding a link to each
-              // image.
-              linkImagesToOriginal: true,
-              sizeByPixelDensity: true
-            }
-          },
-          {
-            resolve: `gatsby-remark-prismjs`,
-            options: {
-              // Class prefix for <pre> tags containing syntax highlighting;
-              // defaults to 'language-' (eg <pre class="language-js">).
-              // If your site loads Prism into the browser at runtime,
-              // (eg for use with libraries like react-live),
-              // you may use this to prevent Prism from re-processing syntax.
-              // This is an uncommon use-case though;
-              // If you're unsure, it's best to use the default value.
-              classPrefix: 'language-'
-            }
-          }
-        ]
-      }
-    },
-
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -85,7 +79,7 @@ module.exports = {
                     site.siteMetadata.siteUrl +
                     edge.node.frontmatter.path +
                     '/',
-                  custom_elements: [{ 'content:encoded': edge.node.html }]
+                  custom_elements: [{ 'content:encoded': edge.node.html }],
                 })
               })
             },
@@ -109,12 +103,11 @@ module.exports = {
               }
             }
             `,
-            output: '/feed.xml'
-          }
-        ]
-      }
+            output: '/feed.xml',
+          },
+        ],
+      },
     },
-
     {
       // If you’re using this plugin together with gatsby-plugin-offline (recommended),
       // this plugin should be listed before the offline plugin so that it can cache the created manifest.json.
@@ -134,15 +127,16 @@ module.exports = {
             // you can reference them here
             src: `/favicons/android-chrome-192x192.png`,
             sizes: `192x192`,
-            type: `image/png`
+            type: `image/png`,
           },
           {
             src: `/favicons/android-chrome-512x512.png`,
             sizes: `512x512`,
-            type: `image/png`
-          }
-        ]
-      }
-    }
-  ]
+            type: `image/png`,
+          },
+        ],
+      },
+    },
+    // `gatsby-plugin-offline`,
+  ],
 }

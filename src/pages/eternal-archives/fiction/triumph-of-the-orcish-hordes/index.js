@@ -1,9 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import Layout from '../../../../components/structure/layout'
+
 const TriumphOfTheOrcishHordesPage = () => (
-  <div>
+  <Layout>
     <Helmet title="Triumph of the orcish hordes - Warcraft Fiction" />
     <h1>Triumph of the orcish hordes</h1>
 
@@ -56,8 +58,7 @@ const TriumphOfTheOrcishHordesPage = () => (
         the effects of the portal travel, and in the same time manage to solve a
         serious task. Grom must not only travel successfully, but also seek the
         human traitor-mage Medivh. Only by killing him we could be sure of a
-        safe travel. Otherwise we cannot risk the life of our shaman warchief.<br
-        />
+        safe travel. Otherwise we cannot risk the life of our shaman warchief.<br />
         This is it! Grom has just gone through the portal. Now the only thing we
         could do is to wait and pray that he succeeds in his mission. Ner'zhul
         said that Hellscream will have no more that 3 days. After that the dark
@@ -85,8 +86,7 @@ const TriumphOfTheOrcishHordesPage = () => (
         perfect blue, with a giant orange-yellow ball that was extremely
         powerful. Perhaps that was the Day Moon of this world? What kind of
         world is this place anyway?! Everything is shiny, lightful and ...
-        green. Damn, I didn't think this quest was going to be so difficult...<br
-        />
+        green. Damn, I didn't think this quest was going to be so difficult...<br />
         My first, but unwanted stop was a small village on my way to the human
         tower-town of Stromgarde, where I was supposed to meet Nielas Aran -
         royal conjurer who is told to know the location of Medivh's mage tower.
@@ -210,7 +210,7 @@ const TriumphOfTheOrcishHordesPage = () => (
       </pre>
     </div>
     <Link to="/">Go back to the homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default TriumphOfTheOrcishHordesPage

@@ -1,34 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
-
-// TODO: Consider different way of Sidebar inclusion
-// const SideBar = ({ children }) =>
-//   <div
-//     className="sidebar-wrapper"
-//   >
-//     <div
-//     className="sidebar"
-//     >
-//     <h5>Eternal Archives</h5>
-//     <ul className="sidenav">
-//         <li>
-//         <Link to="/eternal-archives/funny-win98-bugs">
-//             Funny Windows 98 bugs
-//         </Link>
-//         </li>
-//         <li>
-//         <Link to="/eternal-archives/batch-files">
-//             Batch files
-//         </Link>
-//         </li>
-//         {children}
-//     </ul>
-//     </div>
-//   </div>
+import Layout from '../../../components/structure/layout'
 
 const BatchFiles = () => (
-  <div>
+  <Layout>
     <Helmet title="Batch files" />
     <h1>Batch files</h1>
 
@@ -95,7 +71,7 @@ const BatchFiles = () => (
     </pre>
 
     <Link to="/">Go back to the homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default BatchFiles

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import svgRightArrow from '../images/right-arrow.svg'
 
 const months = [
@@ -35,7 +35,7 @@ export default class PostsList extends Component {
     let smarthome = []
 
     // Filter the data
-    pages.map(page => {
+    pages.forEach(page => {
       switch (page.node.frontmatter.tags) {
         case 'learning':
           learning.push(page)
@@ -45,6 +45,8 @@ export default class PostsList extends Component {
           break
         case 'fpv':
           fpv.push(page)
+          break
+        default:
           break
       }
     })
@@ -84,22 +86,22 @@ export default class PostsList extends Component {
     })
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     // Filter pages into categories
     this.filter(this.props.posts)
   }
 
   componentDidMount() {
     // Setup ESC listener
-    document.addEventListener(
-      'keydown',
-      e => {
-        e.code === 'Escape'
-          ? this.setState({ search: '' }, () => this.handleSearch(e))
-          : null
-      },
-      false
-    )
+    // document.addEventListener(
+    //   'keydown',
+    //   e => {
+    //     e.code === 'Escape'
+    //       ? this.setState({ search: '' }, () => this.handleSearch(e))
+    //       : null
+    //   },
+    //   false
+    // )
   }
 
   render() {
@@ -180,9 +182,13 @@ export default class PostsList extends Component {
                           {post.node.frontmatter.ogImage !== null ? (
                             <img
                               src={post.node.frontmatter.ogImage.publicURL}
+                              alt="article preview"
                             />
                           ) : (
-                            <img src="/default-ogimage.jpg" />
+                            <img
+                              src="/default-ogimage.jpg"
+                              alt="article preview"
+                            />
                           )}
                         </div>
                       )}
@@ -213,6 +219,7 @@ export default class PostsList extends Component {
                         <img
                           src={svgRightArrow}
                           style={{ height: '24px', justifySelf: 'flex-end' }}
+                          alt="article preview"
                         />
                       )}
                     </div>
@@ -237,9 +244,13 @@ export default class PostsList extends Component {
                           {post.node.frontmatter.ogImage !== null ? (
                             <img
                               src={post.node.frontmatter.ogImage.publicURL}
+                              alt="article preview"
                             />
                           ) : (
-                            <img src="/default-ogimage.jpg" />
+                            <img
+                              src="/default-ogimage.jpg"
+                              alt="article preview"
+                            />
                           )}
                         </div>
                       )}
@@ -270,6 +281,7 @@ export default class PostsList extends Component {
                         <img
                           src={svgRightArrow}
                           style={{ height: '24px', justifySelf: 'flex-end' }}
+                          alt="article preview"
                         />
                       )}
                     </div>
