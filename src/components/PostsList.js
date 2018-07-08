@@ -167,7 +167,6 @@ export default class PostsList extends Component {
             ? allPosts.map(post => (
                 <li key={post.node.id} className="post-preview">
                   <Link
-                    key={post.node.id}
                     to={post.node.frontmatter.path + '/'}
                   >
                     <h4>
@@ -229,7 +228,6 @@ export default class PostsList extends Component {
             : this.state[currentFilter].map(post => (
                 <li key={post.node.id} className="post-preview">
                   <Link
-                    key={post.node.id}
                     to={post.node.frontmatter.path + '/'}
                   >
                     <h4>

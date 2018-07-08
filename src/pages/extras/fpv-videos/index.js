@@ -16,6 +16,11 @@ const Grid = styled.div`
 
 const FPVVideos = () => {
   const videoIDsHD = [
+    'TkdUIZi9ay8',
+    'jzdjaeVbcAk',
+    '9zFRK-8Jrw0',
+    'UJuaf9KDCik',
+    'aASDUpVy3zM',
     'XWO7LK16cw4',
     'jo69e-78OJQ',
     'ue2gsEnMBrk',
@@ -30,6 +35,8 @@ const FPVVideos = () => {
   ]
 
   const videoIDsDVR = [
+    'VELKmHQtIbo',
+    'oyW7KkBpQBw',
     'pr6C5gm8jNI',
     'TlBxVzvS8js',
     'pIYyGyrdoH8',
