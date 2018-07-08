@@ -12,6 +12,7 @@ relatedArticles:
   - "upgrading-your-wizard"
   - "add-buzzer-to-wizard-x220"
   - "add-frsky-xm-plus-to-wizard-x220"
+  - "wizard-x220-vtx-upgrade"
 ogKeywords: "wizard x220, how to setup Flysky FS-i6 in iBUS, iBus, Flysky, FS-i6"
 ogDescription: "Here's a quick guide on how to change the default PPM on your Flysky FS-i6 receiver to the much faster iBUS. No soldering required."
 ogImage: "./setup-ibus-on-flysky-2.jpg"

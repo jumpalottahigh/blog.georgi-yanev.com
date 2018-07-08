@@ -7,6 +7,8 @@ affiliate: "Links to Banggood in this article are affiliate links and would supp
 draft: false
 disqus_identifier: "tools-and-backpack-setup"
 tags: "fpv"
+relatedArticles:
+  - "backpack-upgrade"
 ogKeywords: "FPV, racing quads, Wizard x220, quad, drone, getting started, tools, m5 nut wrench, hex driver, pliers, tweezers, hot glue gun, hot air gun, soldering iron, flux, solder, wire cutters"
 ogDescription: "Sometimes when you fly you will crash. And sometimes when you crash things will break. It would make for a very unpleasant experience if you break a prop and have to go home cause you can't replace it in the field. Hence, the need for a backpack and some tools."
 ogImage: "./tools-and-backpack-setup-1.jpg"
@@ -24,13 +26,13 @@ In addition to the above mentioned I already keep in my backpack the battery cha
 
 As far as tools go, I make sure I have:
 
-* M5 nut wrench (to make quick work of swapping broken props) [option 1][1] [option 2][2] [option 3][3]
+- M5 nut wrench (to make quick work of swapping broken props) [option 1][1] [option 2][2] [option 3][3]
 
-* hex head screw driver for the screws [option 1][4]
+- hex head screw driver for the screws [option 1][4]
 
-* pliers for when props break in weird ways and are very hard to remove [option 1][5]
+- pliers for when props break in weird ways and are very hard to remove [option 1][5]
 
-* tweezers to remove things from tight places [option 1][6]
+- tweezers to remove things from tight places [option 1][6]
 
 That's the bare minimum that should really make for a pleasant stay while you are out there ripping around!
 
@@ -38,9 +40,9 @@ That's the bare minimum that should really make for a pleasant stay while you ar
 
 <strong>Soldering iron</strong>. If you are somewhat serious about getting into the hobby sooner or later it's going to come up to soldering something. Whether you build a custom quad from scratch or just need to fix your broken vtx antenna angle socket, having a soldering iron could be benefitial. Some of the most important things to consider when choosing a soldering iron:
 
-* have at least one fine (small) tip
-* be able to set temperature
-* on-the-go (using Lipo battery)
+- have at least one fine (small) tip
+- be able to set temperature
+- on-the-go (using Lipo battery)
 
 Depending on your use case and what you value more, your choice could be different and there are plenty of options out there, but here are a couple worth looking at: [option 1][7] [option 2][8]
 

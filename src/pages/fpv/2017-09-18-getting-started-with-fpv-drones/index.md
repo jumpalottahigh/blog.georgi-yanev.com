@@ -12,6 +12,7 @@ relatedArticles:
   - "setup-flysky-fs-i6-ibus"
   - "add-buzzer-to-wizard-x220"
   - "add-frsky-xm-plus-to-wizard-x220"
+  - "wizard-x220-vtx-upgrade"
 ogKeywords: "FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads"
 ogDescription: "About a month ago I stumbled accross a YouTube video of FPV drone footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly drone set - namely the Wizard x220."
 ogImage: "./fpv-drones-getting-started-1.jpg"
@@ -59,10 +60,10 @@ In the end it is maybe worth mentioning I have already ordered a few upgrades bu
 
 In the end, the best things you can do to get up and running with FPV are:
 
-* Get out there and fly
-* Fly over grassy areas
-* Practice on a simulator
-* Have fun
+- Get out there and fly
+- Fly over grassy areas
+- Practice on a simulator
+- Have fun
 
 ![Big green field and a nice bonus launching post](fpv-drones-getting-started-5.jpg)
 
@@ -70,9 +71,9 @@ In the end, the best things you can do to get up and running with FPV are:
 
 If you would like to support the blog and I managed to convince you that FPV quads are an awesome hobby, you can use the affiliate links in the article when making a purchase.
 
-* [Wizard x220, Flysky FS-i6 Radio (ready to fly set)][1]
-* [Eachine VR-007 Pro][5]
-* [Wizard x220 (quad only)][11]
+- [Wizard x220, Flysky FS-i6 Radio (ready to fly set)][1]
+- [Eachine VR-007 Pro][5]
+- [Wizard x220 (quad only)][11]
 
 [0]: Linkslist
 [1]: https://bit.ly/eachine-wizardx220

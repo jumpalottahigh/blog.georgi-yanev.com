@@ -12,6 +12,7 @@ relatedArticles:
   - "setup-flysky-fs-i6-ibus"
   - "add-buzzer-to-wizard-x220"
   - "add-frsky-xm-plus-to-wizard-x220"
+  - "wizard-x220-vtx-upgrade"
 ogKeywords: "FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads, cheap upgrades, antennas, props, voltage buzzer, velcro straps"
 ogDescription: "If you are new to FPV, the Wizard x220 provides a decent flight experience out of the box. That being said, there are a number of small, cheap and easy to do upgrades that will dramatically improve your overall experience. In this part 1 of the upgrade guide, we're gonna cover: props, antennas, low voltage buzzer, chargers and velcro straps."
 ogImage: "./upgrade-your-wizard-1.jpg"
@@ -21,11 +22,11 @@ ogImage: "./upgrade-your-wizard-1.jpg"
 
 If you are new to FPV, the Wizard x220 provides a decent flight experience out of the box. That being said, there are a number of small, cheap and easy to do upgrades that will dramatically improve your overall experience. In this part 1 of the upgrade guide, we're gonna cover:
 
-* [Props](#props)
-* [Omni directional antennas for vtx and fpv goggles](#antennas)
-* [Low voltage buzzer + lcd](#buzzer)
-* [3s and 4s battery charger](#charger)
-* [Mounting improvements](#mounting)
+- [Props](#props)
+- [Omni directional antennas for vtx and fpv goggles](#antennas)
+- [Low voltage buzzer + lcd](#buzzer)
+- [3s and 4s battery charger](#charger)
+- [Mounting improvements](#mounting)
 
 ### Let's get to it!
 

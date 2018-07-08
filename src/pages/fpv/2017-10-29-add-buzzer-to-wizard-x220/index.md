@@ -12,6 +12,7 @@ relatedArticles:
   - "setup-flysky-fs-i6-ibus"
   - "upgrading-your-wizard"
   - "add-frsky-xm-plus-to-wizard-x220"
+  - "wizard-x220-vtx-upgrade"
 ogKeywords: "low, voltage buzzer, solder, solderless, wizard x220, how to add buzzer, lost model buzzer, betaflight buzzer config"
 ogDescription: "Having a low voltage buzzer could be very beneficial, but having a lost model buzzer could be even more beneficial. We're gonna look at how to set it up on the Wizard x220."
 ogImage: "./add-buzzer-to-wizard-3.jpg"
@@ -41,8 +42,8 @@ Take out your soldering gear, plug in your iron and set it to about 400 C (750 F
 
 Now locate where the battery leads end up on the PDB. You want to solder your wires on the same joint. There are two things to keep in mind:
 
-* black wire goes to black (ground to ground) and red to red (positive to positive)
-* you do not have to reflow the entire solder joint
+- black wire goes to black (ground to ground) and red to red (positive to positive)
+- you do not have to reflow the entire solder joint
 
 ![Battery leads connection on PDB](add-buzzer-to-wizard-6.jpg)
 
@@ -68,14 +69,14 @@ That's it! You are all set. You should now hear extra beeps from your buzzer on 
 
 > AUX 1
 >
-> * state 1: arm off
-> * state 2: arm on
+> - state 1: arm off
+> - state 2: arm on
 
 > AUX 2
 >
-> * state 1: acro mode
-> * state 2: horizon mode
-> * state 3: lost model alarm
+> - state 1: acro mode
+> - state 2: horizon mode
+> - state 3: lost model alarm
 
 ![Buzzer soldered to flight controller](add-buzzer-to-wizard-11.jpg)
 
