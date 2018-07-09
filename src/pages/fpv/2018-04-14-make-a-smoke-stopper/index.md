@@ -4,7 +4,6 @@ date: "2018-04-14"
 title: "How to make a smoke stopper"
 author: "Georgi Yanev"
 draft: false
-disqus_identifier: "make-a-smoke-stopper"
 tags: "fpv"
 relatedArticles:
   - "tools"

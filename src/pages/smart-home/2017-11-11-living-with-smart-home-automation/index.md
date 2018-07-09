@@ -5,10 +5,10 @@ title: "Living with smart home automation for a year"
 author: "Georgi Yanev"
 affiliate: "This article contains affiliate links to Banggood or Amazon that would support the blog if used to make a purchase."
 draft: false
-disqus_identifier: "living-with-smart-home-automation"
 tags: "smart-home"
 relatedArticles:
-  - "mitigating-a-smart-home-breach"
+  - "smarthome"
+  - "homeassistant"
 ogKeywords: "smart home automation, Home Assistant, smart, home automation, esp8266, mqtt, 433 MHz, Alexa, Amazon Echo, Google Home, Google Assistant, Philips Hue, Ikea Tradfri, Xiaomi Yeelight, Raspberry Pi"
 ogDescription: "I first got interested in smart homes and home automation technologies roughly about 2 years ago (early 2016) and for the duration of the first year, that was it, just interest. Reading articles, exploring software. Then I found Home Assistant."
 ogImage: "./living-in-a-smart-home.png"
@@ -16,11 +16,11 @@ ogImage: "./living-in-a-smart-home.png"
 
 In this blog post I will share my experience and learnings from living in a smart home for a year. Before we get started, however, let's get some things out of the way in the form of a disclaimer list:
 
-* this is not going to be a guide
-* this article probably conveys plenty of intentional Home Assistant bias <3
-* this was not a full out smart home revamp but rather retro fitting and incrementally implementing components
-* I will assume you know at least a bit about the whole smart home automation concept on a general level
-* I will cover 3 of my main use cases, because I think those to be more relatable to people considering to join the club
+- this is not going to be a guide
+- this article probably conveys plenty of intentional Home Assistant bias <3
+- this was not a full out smart home revamp but rather retro fitting and incrementally implementing components
+- I will assume you know at least a bit about the whole smart home automation concept on a general level
+- I will cover 3 of my main use cases, because I think those to be more relatable to people considering to join the club
 
 ![Living in a smart home for a year](living-in-a-smart-home.png)
 
@@ -105,9 +105,9 @@ I am also very pleasantly surpised with both the Xiaomi light bulbs and the Ikea
 
 As a rule of thumb, it is good to approach your next home automation project with the following questions:
 
-* What problem am I solving?
-* How will this automation improve my quality of life?
-* Will it save me time?
+- What problem am I solving?
+- How will this automation improve my quality of life?
+- Will it save me time?
 
 Anything that you consider a quality of life improvement and a time-saver is probably a good project and worth automating. I enjoy reducing pointless everyday decision making on smaller tasks and prefer to save cognitive resources for where it matters.
 
@@ -157,10 +157,10 @@ It is still very much early days for both the systems and the devices. Things wi
 
 My advice:
 
-* go for **small projects that improve your life** to see the real value
-* **start simple** and fine tune projects later on
-* **give it time** to get used to the various technologies
-* many projects are an effort to set up but then **you don't have to touch them for months or years** while getting the benefits
+- go for **small projects that improve your life** to see the real value
+- **start simple** and fine tune projects later on
+- **give it time** to get used to the various technologies
+- many projects are an effort to set up but then **you don't have to touch them for months or years** while getting the benefits
 
 So if I managed to sparkle your interest go get a copy of [Home Assistant][1] set it up and start experimenting. Here is [my configuration repository][13] on GitHub and here's another one with even more examples by [ccostan][14].
 
@@ -172,14 +172,14 @@ Lastly I'd like to leave you with a currated list of resources. This is not mean
 
 **Resources list:**
 
-* [Home Assistant - site][1]
-* [Great videos by Ben on getting started with Home Assistant][5]
-* [Home Assistant Podcast][6]
-* [Home Assistant Discord channel][7]
-* [Home Assistant Forums][8]
-* [Georgi's Home Assistant config repository][13]
-* [Ben's Home Assistant config repository][24]
-* [CCOSTAN's Home Assistant config repository][14]
+- [Home Assistant - site][1]
+- [Great videos by Ben on getting started with Home Assistant][5]
+- [Home Assistant Podcast][6]
+- [Home Assistant Discord channel][7]
+- [Home Assistant Forums][8]
+- [Georgi's Home Assistant config repository][13]
+- [Ben's Home Assistant config repository][24]
+- [CCOSTAN's Home Assistant config repository][14]
 
 Have fun and enjoy automating!
 

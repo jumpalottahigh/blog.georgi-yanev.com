@@ -4,11 +4,10 @@ date: "2018-01-21"
 title: "How I got into software development"
 author: "Georgi Yanev"
 draft: false
-disqus_identifier: "how-i-got-into-software-development"
 tags: "learning"
 relatedArticles:
-  - "how-to-become-a-good-developer"
-  - "recap-of-2017-and-goals-for-2018"
+  - "story"
+  - "learning"
 affiliate: ""
 ogKeywords: "growth mindset, learning, evolving, developing, studying, improvement, goal list, progress, taking a look back, looking ahead, 2018, contribute to open source, google developer challenge scholarship, web dev, smart home automation, passion, grow, github, constant learning, life-long learning, story, journey, life, experience"
 ogDescription: "My high school graduation choice to apply for a degree in economics in university would send me on a small 10 year long trip going through different experiences, countries and jobs and ultimately leading me back to programming."
@@ -21,11 +20,11 @@ There's this funny thing about life, you never know where it's gonna take you. W
 
 When I was growing up I was fiddling a lot with computers and not just to play StarCraft, Warcraft and Diablo but I also **really enjoyed building things**. Among some of the ones "worth" mentioning are:
 
-* [StarCraft Encyclopedia][2]
-* [First site][1]
-* [Programming][1]
-* [Writing Warcraft fan fiction][3]
-* [Making hip hop music][4]
+- [StarCraft Encyclopedia][2]
+- [First site][1]
+- [Programming][1]
+- [Writing Warcraft fan fiction][3]
+- [Making hip hop music][4]
 
 My high school graduation choice to apply for a degree in economics in university would send me on a small 10 year long trip going through different experiences, countries and jobs and **ultimately leading me back to programming**.
 
@@ -112,10 +111,10 @@ In 2018 I'm looking forward to keep on learning and doing the things I love.
 
 If you take anything from this story, consider this:
 
-* You can do anything you set your mind to
-* Consistency is everything
-* Put in the work
-* Adopt a growth mindset and create strong habits
+- You can do anything you set your mind to
+- Consistency is everything
+- Put in the work
+- Adopt a growth mindset and create strong habits
 
 **You can do anything you set your mind to. You just gotta put in the work.**
 

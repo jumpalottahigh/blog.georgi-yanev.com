@@ -5,7 +5,6 @@ title: "How to get started with FPV quads"
 author: "Georgi Yanev"
 affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
 draft: false
-disqus_identifier: "getting-started-with-fpv-drones"
 tags: "fpv"
 relatedArticles:
   - "upgrade"

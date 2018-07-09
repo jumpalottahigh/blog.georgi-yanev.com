@@ -148,7 +148,6 @@ export const pageQuery = graphql`
         title
         tags
         relatedArticles
-        disqus_identifier
         author
         affiliate
         ogKeywords

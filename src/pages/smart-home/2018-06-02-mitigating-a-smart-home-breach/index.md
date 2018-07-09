@@ -4,10 +4,10 @@ date: "2018-06-02"
 title: "Mitigating and investigating a hacked smart home"
 author: "Georgi Yanev"
 draft: false
-disqus_identifier: "mitigating-a-smart-home-breach"
 tags: "smart-home"
 relatedArticles:
-  - "living-with-smart-home-automation"
+  - "smarthome"
+  - "homeassistant"
 ogKeywords: "smart home automation, Home Assistant, smart, home automation, Philips Hue, Raspberry Pi, router, hacked, hacker, hacked smart home, kali, linux, resinos, docker, hassio"
 ogDescription: "A few days ago (27th May) roughly between 22:00-23:00 I was visited by a \"white hat\" hacker. Although the guy could not do any real damage and he was \"good\" enough to rename my Philips Hue bulbs to **hacked!**, the experience was not pleasant and of course had to be mitigated..."
 ogImage: "./mitigating-a-smart-home-breach-1.png"
@@ -29,9 +29,9 @@ I noticed the hacker had deleted the Home Assistant database covering his trace.
 
 I had at least 3 options left to investigate further:
 
-* Modem firewall logs
-* ISP logs
-* Internal Home Assistant / Docker container / ResinOS logs
+- Modem firewall logs
+- ISP logs
+- Internal Home Assistant / Docker container / ResinOS logs
 
 That being said I dumped the contents of the SD card into a file using Win32 DiskImager for later investigation. **Formatted the sd card, reinstalled a fresh clean install of Home Assistant and booted that up locally only on the home network for the time being**. Because of my config being backed up before hand, I was up and running in ~ 1 hour.
 

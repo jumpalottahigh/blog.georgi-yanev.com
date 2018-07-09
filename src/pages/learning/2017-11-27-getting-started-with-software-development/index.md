@@ -4,11 +4,10 @@ date: "2017-11-27"
 title: "How to become a semi decent software developer in 5 years"
 author: "Georgi Yanev"
 draft: false
-disqus_identifier: "how-to-become-a-good-developer"
 tags: "learning"
 relatedArticles:
-  - "recap-of-2017-and-goals-for-2018"
-  - "how-i-got-into-software-development"
+  - "goals"
+  - "learning"
 ogKeywords: "software developer, software engineer, learn to code, learn to program, how to become a good developer, how to become a good programmer, learning techniques, growth mindset, learn to learn, developer, engineer, web developer, power user, tools, IDE, software, conference, hackathon, community, open source, open source software, github, vs code, atom"
 ogDescription: "This article aims to touch ground on a few topics which don't necessarily get mentioned when it comes down to how to start a software development career, but are just as important as learning your next programming language."
 ogImage: "./getting-started-with-software-development-1.png"

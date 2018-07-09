@@ -4,7 +4,6 @@ date: "2018-01-27"
 title: "Gear list /2018/"
 author: "Georgi Yanev"
 draft: false
-disqus_identifier: "gear-list"
 tags: "fpv"
 relatedArticles:
   - "gear"

@@ -5,7 +5,6 @@ title: "How to add DVR to Eachine VR 007 Pro fpv goggles"
 author: "Georgi Yanev"
 affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
 draft: false
-disqus_identifier: "add-dvr-to-eachine-vr-007-pro"
 tags: "fpv"
 relatedArticles:
   - "dvr"

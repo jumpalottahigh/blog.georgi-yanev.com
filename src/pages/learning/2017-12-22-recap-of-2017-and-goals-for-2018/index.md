@@ -4,11 +4,10 @@ date: "2017-12-22"
 title: "Recap of 2017 and Goals for 2018 🎉"
 author: "Georgi Yanev"
 draft: false
-disqus_identifier: "recap-of-2017-and-goals-for-2018"
 tags: "learning"
 relatedArticles:
-  - "how-to-become-a-good-developer"
-  - "how-i-got-into-software-development"
+  - "recap"
+  - "goals"
 affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
 ogKeywords: "growth mindset, learning, evolving, developing, studying, improvement, goal list, progress, taking a look back, looking ahead, 2017, 2018, fly fpv, contribute to open source, google developer challenge scholarship, web dev, smart home automation, blog, passion, grow, twitter, public speaking, gatsby, react, home assistant, graphql, github, firebase, constant learning, life-long learning, junction hackathon, pwa, css grid, twitch, home automation, DIY"
 ogDescription: "It's that time of the year again. The best time to recap and consider how the year has passed. For one I really like making a goal list each year and then checking against it how I'd done. How I have accomplished certain goals and moved past others that I deem no longer high priority and worthy of the time investment."
@@ -105,22 +104,22 @@ Some of the things I'm looking forward the most to:
 
 #### Majors:
 
-* 😍 **Contribute** to open source software
-* 🚁 **Fly** FPV drones; Build my first custom model
-* 👨‍🎓️ **Advance** to phase 2 (and beyond) in the Google Developer Challenge
-* ✨ **Learn** a ton more and work on interesting projects
+- 😍 **Contribute** to open source software
+- 🚁 **Fly** FPV drones; Build my first custom model
+- 👨‍🎓️ **Advance** to phase 2 (and beyond) in the Google Developer Challenge
+- ✨ **Learn** a ton more and work on interesting projects
 
 ##### Minors:
 
-* Publish interesting articles on GY Blog and improve the layout
-* Publish relevant content and grow Twitter account
-* Record 1 Jumpalottahigh remastered song
-* Present and practice conference speaking
-* Grow plants more successfully this season
-* Work on home automation and DIY electronics projects
-* Revamp www.georgi-yanev.com with CSS Grid and as a PWA
-* Listen to more Web Dev podcasts
-* Stream on Twitch
+- Publish interesting articles on GY Blog and improve the layout
+- Publish relevant content and grow Twitter account
+- Record 1 Jumpalottahigh remastered song
+- Present and practice conference speaking
+- Grow plants more successfully this season
+- Work on home automation and DIY electronics projects
+- Revamp www.georgi-yanev.com with CSS Grid and as a PWA
+- Listen to more Web Dev podcasts
+- Stream on Twitch
 
 I strongly doubt that's the complete list and to be fair things always deviate a bit for me, but that's the best part, isn't it?
 

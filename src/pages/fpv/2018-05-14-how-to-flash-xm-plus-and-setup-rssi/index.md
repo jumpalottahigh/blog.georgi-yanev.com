@@ -4,7 +4,6 @@ date: "2018-05-14"
 title: "How to flash XM+ and setup RSSI"
 author: "Georgi Yanev"
 draft: false
-disqus_identifier: "flash-xm-plus-and-setup-rssi"
 tags: "fpv"
 relatedArticles:
   - "frsky"
