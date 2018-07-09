@@ -6,6 +6,9 @@ author: "Georgi Yanev"
 draft: false
 disqus_identifier: "build-a-quad"
 tags: "fpv"
+relatedArticles:
+  - "build"
+  - "gear"
 affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
 ogKeywords: "FPV, racing quads, quad, drone, frsky taranis, lipo batteries, quad build, drone build, brotherhobby returner motors, realacc furious frame, DIY, Racerstar StarF4S 30A Blheli_S Dshot 4 in 1 ESC OSD Flight Controller"
 ogDescription: "I took on the challenge to build my first quad. This is how it went."
@@ -34,16 +37,16 @@ It seemed that 10mm was the perfect length screw I needed to get through the fra
 
 This step was rather straight-forward and consists of the following steps (repeated for each motor):
 
-1. Tin up the ESC pads.
-2. Cut wires to length, strip silicone and tin the ends.
-3. Solder to the ESC.
+1.  Tin up the ESC pads.
+2.  Cut wires to length, strip silicone and tin the ends.
+3.  Solder to the ESC.
 
 Caveats and things to look out for:
 
-* Do a quick solder job
-* Use well heated iron (I used 400C-450C [750F - 840F] with a 48 watt station)
-* Use extra flux if your solder oxidizes too quickly to avoid cold solder joints
-* Motor rotation will be adjusted with software.
+- Do a quick solder job
+- Use well heated iron (I used 400C-450C [750F - 840F] with a 48 watt station)
+- Use extra flux if your solder oxidizes too quickly to avoid cold solder joints
+- Motor rotation will be adjusted with software.
 
 The solder I used and have seen recommended widely is [63/37 tin lead rosin core 0.8mm 2% flux solder][4].
 
@@ -61,9 +64,9 @@ Since the next item to arrive was the [Frsky XM+ receiver][5], I worked on that 
 
 First solder some wires to the receiver as seen on the picture below:
 
-* Black = Ground
-* White = 5V
-* Yellow = Signal
+- Black = Ground
+- White = 5V
+- Yellow = Signal
 
 ![Wires soldered on the Frsky XM+ receiver](build-a-quad-8.jpg)
 
@@ -74,14 +77,14 @@ The other end of those wires go into the flight controller's front right hand so
 Basically look for SBUS, ground and 5V pads close to each other.
 With the receiver soldered the next step is to bind it to the receiver.
 
-* Create a new model in your transmitter
-* Press `BND` and the transmitter will start chirping
-* While holding the bind button on the receiver, connect the quad to a battery (PROPS OFF!!!)
-* In a few seconds the bind is complete
-* Exit the bind on the radio and turn it off
-* Unplug the battery from the quad
-* Turn on the radio and plug in the battery to the quad
-* If your receiver's led is solid green, it's all good and your radio is bound
+- Create a new model in your transmitter
+- Press `BND` and the transmitter will start chirping
+- While holding the bind button on the receiver, connect the quad to a battery (PROPS OFF!!!)
+- In a few seconds the bind is complete
+- Exit the bind on the radio and turn it off
+- Unplug the battery from the quad
+- Turn on the radio and plug in the battery to the quad
+- If your receiver's led is solid green, it's all good and your radio is bound
 
 On the radio's Mixers page I mapped channels 5 and 6 to a couple of switches. I will use those later in Betaflight as AUX1 and AUX2 for arming and flight modes/beeper.
 

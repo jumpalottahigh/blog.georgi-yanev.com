@@ -7,6 +7,10 @@ affiliate: "Links to Banggood in this article are affiliate links and would supp
 draft: false
 disqus_identifier: "add-dvr-to-eachine-vr-007-pro"
 tags: "fpv"
+relatedArticles:
+  - "dvr"
+  - "goggles"
+  - "vr007"
 ogKeywords: "Eachine VR 007 Pro, Eachine ProDVR, Eachine e010s, DVR, add dvr to goggles, mod eachine goggles with dvr, connect ProDVR to Eachine VR 007 Pro, micro quad, micro drone footage, DIY, cheap DVR, cheap FPV goggles with DVR, how to mod fpv goggles with dvr"
 ogDescription: "If you have a pair of Eachine VR 007 Pro fpv goggles and want to mod it with DVR then this one is for you."
 ogImage: "./add-dvr-to-eachine-vr007-1.jpg"

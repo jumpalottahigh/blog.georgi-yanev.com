@@ -1,20 +1,77 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, StaticQuery, graphql } from 'gatsby'
 
 class RelatedArticles extends React.Component {
   render() {
-    const { articles, currentCategory } = this.props
+    const { relatedArticles, currentPagePath } = this.props
 
     // Return null if no related articles are passed
-    return articles ? (
-      <div style={{ borderTop: '1px solid #cecece', paddingTop: '1rem' }}>
-        <h4 style={{ margin: 0 }}>Related articles:</h4>
-        {articles.map((article, id) => (
-          <div key={id}>
-            <Link to={'/' + currentCategory + '/' + article}>{article}</Link>
-          </div>
-        ))}
-      </div>
+    return relatedArticles ? (
+      <StaticQuery
+        query={graphql`
+          query relatedArticlesQuery {
+            allMarkdownRemark(
+              sort: { order: DESC, fields: [frontmatter___date] }
+            ) {
+              edges {
+                node {
+                  id
+                  frontmatter {
+                    path
+                    title
+                    relatedArticles
+                  }
+                }
+              }
+            }
+          }
+        `}
+        render={data => {
+          // Work on the queried data to return a matching array
+          const relatedPages = data.allMarkdownRemark.edges.filter(page => {
+            // Filter out current page from the related pages results
+            if (currentPagePath === page.node.frontmatter.path) return
+
+            const otherPageRelatedArticles =
+              page.node.frontmatter.relatedArticles
+
+            // Calculate matching score
+            let matchingScore = 0
+
+            for (let keyword of otherPageRelatedArticles) {
+              if (relatedArticles.includes(keyword)) {
+                matchingScore++
+              }
+            }
+
+            // debugger
+            let result = {
+              score: matchingScore,
+              ...page,
+            }
+
+            // Reset the matching score counter
+            matchingScore = 0
+
+            return result.score > 0 ? result : null
+          })
+
+          // TODO: implement a scoring scale of how relevant a link is, or simply order links by matching score
+          // put highest score on top
+          return (
+            <div style={{ borderTop: '1px solid #cecece', paddingTop: '1rem' }}>
+              <h4 style={{ margin: 0 }}>Related articles:</h4>
+              {relatedPages.map(page => (
+                <div key={page.node.id}>
+                  <Link to={page.node.frontmatter.path + '/'}>
+                    {page.node.frontmatter.title}
+                  </Link>
+                </div>
+              ))}
+            </div>
+          )
+        }}
+      />
     ) : null
   }
 }

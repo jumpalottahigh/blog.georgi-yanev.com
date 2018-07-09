@@ -119,8 +119,8 @@ class BlogPostTemplate extends React.Component {
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             <RelatedArticles
-              articles={post.frontmatter.relatedArticles}
-              currentCategory={post.frontmatter.tags}
+              currentPagePath={post.frontmatter.path}
+              relatedArticles={post.frontmatter.relatedArticles}
             />
             <div className="affiliate-note m-t-1">
               {post.frontmatter.affiliate}

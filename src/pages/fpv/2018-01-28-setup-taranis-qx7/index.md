@@ -7,8 +7,9 @@ draft: false
 disqus_identifier: "setup-taranis-qx7"
 tags: "fpv"
 relatedArticles:
-  - "add-frsky-xm-plus-to-wizard-x220"
-  - "flash-xm-plus-and-setup-rssi"
+  - "frsky"
+  - "wizard"
+  - "gear"
 affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
 ogKeywords: "taranis, taranis qx7, setup, transmitter, drone, quad, set up Taranis, setup Taranis x7, set up Taranis q x7, custom splash screen, custom sounds for Taranis, basic Taranis setup, how to set up taranis, update taranis firmware, how to use opentx, how to setup taranis using opentx, opentx"
 ogDescription: "I recently upgraded to a Taranis Q X7 and after doing the initial setup I decided to sum up some of the main points in a helpful post. I hope this write up helps you breeze through the configuration and gets you flying in no time!"
@@ -59,9 +60,9 @@ Plug the card back into your Taranis or exit bootloader mode and restart the Tar
 
 This next part is not mandatory but definitely fun. Feel free to skip if you don't want a custom start screen for your radio. Making one is actually not that complicated. Use any image creation software, you can even use Paint. There are 3 restrictions when creating your images: size, colors and filename.
 
-* The **width of the image should be 212px and the height 64 px**
-* Save the image as **monochrome BMP** file (black and white)
-* The filename should be **AAA.bmp**
+- The **width of the image should be 212px and the height 64 px**
+- Save the image as **monochrome BMP** file (black and white)
+- The filename should be **AAA.bmp**
 
 Once you have prepared your image, add the path to it in the settings of OpenTX under `Splash Screen`.
 Still in the settings menu under SD Structure path select the path to the SD card mounted in the Taranis.

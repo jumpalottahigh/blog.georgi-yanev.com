@@ -7,8 +7,7 @@ draft: false
 disqus_identifier: "flash-xm-plus-and-setup-rssi"
 tags: "fpv"
 relatedArticles:
-  - "setup-taranis-qx7"
-  - "add-frsky-xm-plus-to-wizard-x220"
+  - "frsky"
 affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
 ogKeywords: "FPV, racing quads, quad, drone, drone build, DIY, RSSI, FrSky, FrSky XM+, XM+, XM plus, Taranis Q X7, RSSI, telemetry signal, flash xm+, flash xm plus, enable rssi on xm+"
 ogDescription: "Sometimes you might need to flash new firmware on the XM+ receiver. Here's how to do that with the Taranis Q X7"
@@ -17,8 +16,8 @@ ogImage: "./flash-xm-plus-and-setup-rssi-5.jpg"
 
 Sometimes you might need to flash new firmware on the [XM+ receiver][3]. The two main reasons as to why you may want to do that are usually:
 
-* You have purchased **LBT (EU)** version of the receiver and need to flash the **FCC (US)** firmware (or the other way around)
-* You want to **enable RSSI** on channel 16 (requires latest firmware)
+- You have purchased **LBT (EU)** version of the receiver and need to flash the **FCC (US)** firmware (or the other way around)
+- You want to **enable RSSI** on channel 16 (requires latest firmware)
 
 If these sound familiar, look no further, let's get this done.
 
@@ -26,12 +25,12 @@ If these sound familiar, look no further, let's get this done.
 
 Go to FrSky's site, look for the XM+ receiver, go to the downloads section for it. [Or click here][1]. Expand the firmware tab and download the latest firmware. At the time of this writing this is the firmware version **170313** from 2017-03-28. When you unzip the downloaded file you should get a folder (named XM+ 170313) with 6 files in it. These different versions of the firmware are:
 
-* FCC
-* FCC + RSSI on channel 8
-* FCC + RSSI on channel 16
-* LBT
-* LBT + RSSI on channel 8
-* LBT + RSSI on channel 16
+- FCC
+- FCC + RSSI on channel 8
+- FCC + RSSI on channel 16
+- LBT
+- LBT + RSSI on channel 8
+- LBT + RSSI on channel 16
 
 #### 📋 Copy the firmware to the Taranis Q X7
 
@@ -45,9 +44,9 @@ You can use many different cable types, but a servo cable or a dupont cable will
 
 Solder the other ends of the cables to the XM+ receiver as seen below. In this case I'm using:
 
-* Blue for Ground
-* White for 5V
-* Yellow for Signal
+- Blue for Ground
+- White for 5V
+- Yellow for Signal
 
 ![Solder cable for flashing to the XM+](flash-xm-plus-and-setup-rssi-2.jpg)
 
