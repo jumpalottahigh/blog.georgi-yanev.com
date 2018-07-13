@@ -37,6 +37,7 @@ const SideBar = () => (
       let pages = data.allMarkdownRemark.edges
       let fpv = []
       let learning = []
+      let projects = []
       let smarthome = []
 
       // Filter the data
@@ -50,6 +51,9 @@ const SideBar = () => (
             break
           case 'fpv':
             fpv.push(page)
+            break
+          case 'projects':
+            projects.push(page)
             break
           default:
             break
@@ -66,7 +70,23 @@ const SideBar = () => (
                 </span>{' '}
                 <em>FPV quads</em>
               </li>
-              {fpv.map((page) => (
+              {fpv.map(page => (
+                <li key={page.node.id}>
+                  <Link
+                    to={page.node.frontmatter.path}
+                    activeStyle={activeStyle}
+                  >
+                    {page.node.frontmatter.title}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <span role="img" aria-label="project">
+                  📑
+                </span>{' '}
+                <em>Projects</em>
+              </li>
+              {projects.map(page => (
                 <li key={page.node.id}>
                   <Link
                     to={page.node.frontmatter.path}
@@ -82,7 +102,7 @@ const SideBar = () => (
                 </span>{' '}
                 <em>Life-long learning</em>
               </li>
-              {learning.map((page) => (
+              {learning.map(page => (
                 <li key={page.node.id}>
                   <Link
                     to={page.node.frontmatter.path}
@@ -98,7 +118,7 @@ const SideBar = () => (
                 </span>{' '}
                 <em>Smart home automation</em>
               </li>
-              {smarthome.map((page) => (
+              {smarthome.map(page => (
                 <li key={page.node.id}>
                   <Link
                     to={page.node.frontmatter.path}

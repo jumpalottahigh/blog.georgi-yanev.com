@@ -14,7 +14,7 @@ const months = [
   'Sep',
   'Oct',
   'Nov',
-  'Dec'
+  'Dec',
 ]
 
 const currentMonth = months[new Date().getMonth()]
@@ -26,12 +26,14 @@ export default class PostsList extends Component {
     allPosts: [...this.props.posts],
     learning: [],
     fpv: [],
-    smarthome: []
+    projects: [],
+    smarthome: [],
   }
 
   filter(pages) {
     let learning = []
     let fpv = []
+    let projects = []
     let smarthome = []
 
     // Filter the data
@@ -46,6 +48,9 @@ export default class PostsList extends Component {
         case 'fpv':
           fpv.push(page)
           break
+        case 'projects':
+          projects.push(page)
+          break
         default:
           break
       }
@@ -54,13 +59,14 @@ export default class PostsList extends Component {
     this.setState({
       learning,
       fpv,
-      smarthome
+      projects,
+      smarthome,
     })
   }
 
   handleFilterClick = e => {
     this.setState({
-      currentFilter: e.target.dataset.filter
+      currentFilter: e.target.dataset.filter,
     })
   }
 
@@ -82,7 +88,7 @@ export default class PostsList extends Component {
     this.setState({
       search: value,
       allPosts: searchResults,
-      currentFilter: 'all'
+      currentFilter: 'all',
     })
   }
 
@@ -128,6 +134,16 @@ export default class PostsList extends Component {
                 FPV
               </button>
             )}
+            {this.state.projects.length > 0 && (
+              <button
+                className={`category projects ${currentFilter === 'projects' &&
+                  'active'}`}
+                data-filter="projects"
+                onClick={this.handleFilterClick}
+              >
+                Projects
+              </button>
+            )}
             {this.state.learning.length > 0 && (
               <button
                 className={`category learning ${currentFilter === 'learning' &&
@@ -166,9 +182,7 @@ export default class PostsList extends Component {
           {currentFilter === 'all' && allPosts
             ? allPosts.map(post => (
                 <li key={post.node.id} className="post-preview">
-                  <Link
-                    to={post.node.frontmatter.path + '/'}
-                  >
+                  <Link to={post.node.frontmatter.path + '/'}>
                     <h4>
                       {currentMonth === post.node.frontmatter.date.split(' ')[0]
                         ? '🆕 '
@@ -227,9 +241,7 @@ export default class PostsList extends Component {
               ))
             : this.state[currentFilter].map(post => (
                 <li key={post.node.id} className="post-preview">
-                  <Link
-                    to={post.node.frontmatter.path + '/'}
-                  >
+                  <Link to={post.node.frontmatter.path + '/'}>
                     <h4>
                       {currentMonth === post.node.frontmatter.date.split(' ')[0]
                         ? '🆕 '

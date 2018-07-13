@@ -16,6 +16,8 @@ const Grid = styled.div`
 
 const FPVVideos = () => {
   const videoIDsHD = [
+    'GdYGpLpiSrE',
+    '70tXXAfs-ks',
     'TkdUIZi9ay8',
     'jzdjaeVbcAk',
     '9zFRK-8Jrw0',
