@@ -26,6 +26,8 @@ If you are new to FPV, the Wizard x220 provides a decent flight experience out o
 - [3s and 4s battery charger](#charger)
 - [Mounting improvements](#mounting)
 
+<div class="article-update-notification"><strong>UPDATE: 14 July 2018.</strong> Since the release of this article, I have published a number of other articles with detailed upgrade descriptions, also worth doing. Check the <a href="#related">related articles section</a> at the end of this article.</div>
+
 ### Let's get to it!
 
 ![Tuned up Wizard x220](upgrade-your-wizard-1.jpg)
@@ -91,6 +93,12 @@ Happy flying!
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/pr6C5gm8jNI?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/70tXXAfs-ks?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<span id="related"></span>
 
 [0]: Linkslist
 [1]: https://bit.ly/dal-prop
