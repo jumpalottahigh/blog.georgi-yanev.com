@@ -23,7 +23,7 @@ But that does not scale well and does not support me in the future. I don't want
 
 ### Searching for available solutions
 
-First I had a look at the YouTube API. From having previously written this [video component][2] I knew I could accessed the video thumbnails straight from the API. I hoped there would be a way to get a screenshot at any time of the video in the same fashion. For example by using the time query parameter: `t=23m19s`. But that was not the case.
+First I had a look at the YouTube API. From having previously written this [video component][2] I knew I could access video thumbnails straight from the API. I hoped there would be a way to get a screenshot at any time of the video in the same fashion. For example by using the time query parameter: `t=23m19s`. But that was not the case.
 
 Then I thought it would be quite possible someone had already solved that problem. I was wrong (unless I missed it in which case feel free to let me know how bad I am at googling at [@jumpalottahigh][1]).
 
@@ -50,7 +50,12 @@ The initial algorithm was the following:
 I came across `.html5-video-player` for the video player as the node I wanted to take a screenshot of.
 
 ```html
-<video tabindex="-1" class="video-stream html5-main-video" controlslist="nodownload" style="width: 640px; height: 360px; left: 0px; top: 0px;" src="blob:https://www.youtube.com/d631f977-4993-41f2-990d-d1374d8918e9"></video>
+<video
+  tabindex="-1"
+  class="video-stream html5-main-video"
+  controlslist="nodownload"
+  style="width: 640px; height: 360px; left: 0px; top: 0px;" src="blob:https://www.youtube.com/d631f977-4993-41f2-990d-d1374d8918e9">
+</video>
 ```
 
 I also noticed that to get a clean screenshot I'd probably have to hide the video player controls. And so I looked for an appropriate identifier for that too. Turns out `.ytp-chrome-bottom` is one.
@@ -59,7 +64,7 @@ I also noticed that to get a clean screenshot I'd probably have to hide the vide
 
 So I started playing around with what could be done and after half an hour ended up with something along the lines of:
 
-```JavaScript
+```javascript
 const page = await browser.newPage()
 await page.goto(urlToScreenshot + '&t=' + req.query.t)
 await page.setViewport({ width: 1920, height: 1080 })
@@ -83,6 +88,8 @@ Full YouTube page for the sake of illustration,
 
 and no video player controls DOM node screenshot:
 ![No video player controls DOM node screenshot using Puppeteer](youtube-timestamp-screenshot-2.png)
+
+Pretty neat!
 
 4.  Deploy project
 
