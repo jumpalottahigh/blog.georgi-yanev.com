@@ -33,13 +33,13 @@ I found a few YouTube thumbnail extractor sites, which didn't really solve the i
 
 So finally I started thinking how I could do that and since for a while now I wished I had a good idea for a [Puppeteer][3] project, things just clicked.
 
-I had one last idea to solve this easier. I knew in the chrome dev tools you could press `CMD + SHIFT + P` to get the command palette, type in `screnshot` and select to take a screenshot of a DOM node (entire page was not needed for me and a specific node would be the perfect shot). Unfortunately there was no way (to the extent of my knowledge) to call that programatically. Oh, well, Puppeteer it is then.
+I had one last idea to solve this easier. I knew in the chrome dev tools you could press `CMD + SHIFT + P` to get the command palette, type in `screenshot` and select to take a screenshot of a DOM node (entire page was not needed for me and a specific node would be the perfect shot). Unfortunately there was no way (to the extent of my knowledge) to call that programatically. Oh, well, Puppeteer it is then.
 
 > Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. [Read more][3].
 
 The initial algorithm was the following:
 
-1.  Go to https://youtube.com/watch?v=${videoID}&t=${time}
+1.  Go to `https://youtube.com/watch?v=${videoID}&t=${time}`
 
 > Where `videoID` is what is the unique YouTube video id and `time` is a string that looks like `11m29s` that moves the video player to that point
 
@@ -54,7 +54,8 @@ I came across `.html5-video-player` for the video player as the node I wanted to
   tabindex="-1"
   class="video-stream html5-main-video"
   controlslist="nodownload"
-  style="width: 640px; height: 360px; left: 0px; top: 0px;" src="blob:https://www.youtube.com/d631f977-4993-41f2-990d-d1374d8918e9">
+  style="width: 640px; height: 360px; left: 0px; top: 0px;"
+  src="blob:https://www.youtube.com/d631f977-4993-41f2-990d-d1374d8918e9">
 </video>
 ```
 
