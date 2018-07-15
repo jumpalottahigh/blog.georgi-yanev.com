@@ -44,7 +44,6 @@ class RelatedArticles extends React.Component {
               }
             }
 
-            // debugger
             let result = {
               score: matchingScore,
               ...page,
@@ -59,16 +58,22 @@ class RelatedArticles extends React.Component {
           // TODO: implement a scoring scale of how relevant a link is, or simply order links by matching score
           // put highest score on top
           return (
-            <div style={{ borderTop: '1px solid #cecece', paddingTop: '1rem' }}>
-              <h4 style={{ margin: 0 }}>Related articles:</h4>
-              {relatedPages.map(page => (
-                <div key={page.node.id}>
-                  <Link to={page.node.frontmatter.path + '/'}>
-                    {page.node.frontmatter.title}
-                  </Link>
+            <React.Fragment>
+              {relatedPages.length !== 0 ? (
+                <div
+                  style={{ borderTop: '1px solid #cecece', paddingTop: '1rem' }}
+                >
+                  <h4 style={{ margin: 0 }}>Related articles:</h4>
+                  {relatedPages.map(page => (
+                    <div key={page.node.id}>
+                      <Link to={page.node.frontmatter.path + '/'}>
+                        {page.node.frontmatter.title}
+                      </Link>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+              ) : null}
+            </React.Fragment>
           )
         }}
       />
