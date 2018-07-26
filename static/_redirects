@@ -1,0 +1,5 @@
+# Redirect domain aliases to primary domain
+https://www.fpvtips.com/* https://blog.georgi-yanev.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://blog-georgi.netlify.com/* https://blog.georgi-yanev.com/:splat 301!
