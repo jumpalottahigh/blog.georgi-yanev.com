@@ -118,7 +118,9 @@ export default class PostsList extends Component {
         {this.props.showCategories === 'yes' && (
           <div className="category-container">
             <button
-              className={`category all ${currentFilter === 'all' && 'active'}`}
+              className={`category all ${
+                currentFilter === 'all' ? 'active' : ''
+              }`}
               data-filter="all"
               onClick={this.handleFilterClick}
             >
@@ -126,8 +128,9 @@ export default class PostsList extends Component {
             </button>
             {this.state.fpv.length > 0 && (
               <button
-                className={`category fpv ${currentFilter === 'fpv' &&
-                  'active'}`}
+                className={`category fpv ${
+                  currentFilter === 'fpv' ? 'active' : ''
+                }`}
                 data-filter="fpv"
                 onClick={this.handleFilterClick}
               >
@@ -136,8 +139,9 @@ export default class PostsList extends Component {
             )}
             {this.state.projects.length > 0 && (
               <button
-                className={`category projects ${currentFilter === 'projects' &&
-                  'active'}`}
+                className={`category projects ${
+                  currentFilter === 'projects' ? 'active' : ''
+                }`}
                 data-filter="projects"
                 onClick={this.handleFilterClick}
               >
@@ -146,8 +150,9 @@ export default class PostsList extends Component {
             )}
             {this.state.learning.length > 0 && (
               <button
-                className={`category learning ${currentFilter === 'learning' &&
-                  'active'}`}
+                className={`category learning ${
+                  currentFilter === 'learning' ? 'active' : ''
+                }`}
                 data-filter="learning"
                 onClick={this.handleFilterClick}
               >
@@ -156,8 +161,9 @@ export default class PostsList extends Component {
             )}
             {this.state.smarthome.length > 0 && (
               <button
-                className={`category smart-home ${currentFilter ===
-                  'smarthome' && 'active'}`}
+                className={`category smart-home ${
+                  currentFilter === 'smarthome' ? 'active' : ''
+                }`}
                 data-filter="smarthome"
                 onClick={this.handleFilterClick}
               >
@@ -174,6 +180,7 @@ export default class PostsList extends Component {
               value={this.state.search}
               placeholder="Search..."
               style={{ width: '100%', maxWidth: '300px' }}
+              aria-label="Search"
             />
           </div>
         )}

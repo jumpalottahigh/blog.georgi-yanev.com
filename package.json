@@ -47,6 +47,7 @@
     "url": "git+https://github.com/jumpalottahigh/blog.georgi-yanev.com.git"
   },
   "scripts": {
+    "clean": "rm -rf .cache && rm -rf public/",
     "dev": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",

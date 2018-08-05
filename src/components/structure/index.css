@@ -638,7 +638,13 @@ pre tt:after {
 .sidebar {
   margin-bottom: 1.4rem;
   padding: 1.05rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 600px) {
+  .sidebar {
+    font-size: 0.9rem;
+  }
 }
 
 .sidebar h5 span {
@@ -994,22 +1000,27 @@ iframe {
 }
 
 .category.all {
-  background-color: #86777b;
+  color: #fff;
+  background-color: #5e5455;
 }
 
 .category.fpv {
+  color: #fff;
   background-color: #0057e7;
 }
 
 .category.smart-home {
+  color: #000;
   background-color: #ffa700;
 }
 
 .category.projects {
+  color: #fff;
   background-color: #d62d20;
 }
 
 .category.learning {
+  color: #fff;
   background-color: #008744;
 }
 
