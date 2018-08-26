@@ -1,6 +1,6 @@
 # blog.georgi-yanev.com
 
-### :orange_book: Gatsby (React) based blog. Hosted on Firebase.
+### :orange_book: Blog built with Gatsby and hosted on Netlify.
 
 This blog uses Gatsby as a React based static site generator. I write articles about FPV quads, web dev, life-long learning and other topics from my personal experience.
 
@@ -14,11 +14,7 @@ $ npm install
 
 To run locally in dev mode:
 
-`$ npm run develop`
-
-To deploy to Firebase:
-
-`$ npm run deploy`
+`$ npm run dev`
 
 <img src="blog.georgi-yanev.com-preview.png">
 
