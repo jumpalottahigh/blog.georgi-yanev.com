@@ -1,21 +1,30 @@
 ---
-path: "/fpv/getting-started-with-fpv-drones"
-date: "2017-09-18"
-title: "How to get started with FPV quads"
-author: "Georgi Yanev"
-affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
+path: '/fpv/getting-started-with-fpv-drones'
+date: '2017-09-18'
+title: 'How to get started with FPV quads'
+author: 'Georgi Yanev'
+affiliate:
+  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
-tags: "fpv"
+tags: 'fpv'
 relatedArticles:
-  - "upgrade"
-  - "wizard"
-  - "flysky"
-  - "frsky"
-  - "vtx"
-ogKeywords: "FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads"
-ogDescription: "About a month ago I stumbled accross a YouTube video of FPV drone footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly drone set - namely the Wizard x220."
-ogImage: "./fpv-drones-getting-started-1.jpg"
+  - 'upgrade'
+  - 'wizard'
+  - 'flysky'
+  - 'frsky'
+  - 'vtx'
+ogKeywords:
+  'FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads'
+ogDescription:
+  'About a month ago I stumbled accross a YouTube video of FPV drone footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly drone set - namely the Wizard x220.'
+ogImage: './fpv-drones-getting-started-1.jpg'
 ---
+
+<div class="article-update-notification">
+  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
+  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
+  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+</div>
 
 About a month ago I stumbled accross a YouTube video of FPV quad footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly quad set - namely the [Wizard x220][1].
 

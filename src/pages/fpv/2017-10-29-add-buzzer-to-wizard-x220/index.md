@@ -1,20 +1,29 @@
 ---
-path: "/fpv/add-buzzer-to-wizard-x220"
-date: "2017-10-29"
-title: "How to add a buzzer to the Eachine Wizard x220"
-author: "Georgi Yanev"
-affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
+path: '/fpv/add-buzzer-to-wizard-x220'
+date: '2017-10-29'
+title: 'How to add a buzzer to the Eachine Wizard x220'
+author: 'Georgi Yanev'
+affiliate:
+  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
-tags: "fpv"
+tags: 'fpv'
 relatedArticles:
-  - "vtx"
-  - "flysky"
-  - "upgrade"
-  - "wizard"
-ogKeywords: "low, voltage buzzer, solder, solderless, wizard x220, how to add buzzer, lost model buzzer, betaflight buzzer config"
-ogDescription: "Having a low voltage buzzer could be very beneficial, but having a lost model buzzer could be even more beneficial. We're gonna look at how to set it up on the Wizard x220."
-ogImage: "./add-buzzer-to-wizard-3.jpg"
+  - 'vtx'
+  - 'flysky'
+  - 'upgrade'
+  - 'wizard'
+ogKeywords:
+  'low, voltage buzzer, solder, solderless, wizard x220, how to add buzzer, lost model buzzer, betaflight buzzer config'
+ogDescription:
+  "Having a low voltage buzzer could be very beneficial, but having a lost model buzzer could be even more beneficial. We're gonna look at how to set it up on the Wizard x220."
+ogImage: './add-buzzer-to-wizard-3.jpg'
 ---
+
+<div class="article-update-notification">
+  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
+  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
+  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+</div>
 
 Since the Wizard x220 doesn't come with a buzzer already set up, this is many times a very useful and not too hard upgrade to do. Of course, if your main concern is just getting a voltage buzzer for your battery, you can opt-in for one of [those little things][1] and call it a day. However you would be missing out on one very interesting option - the 'lost model' signal.
 

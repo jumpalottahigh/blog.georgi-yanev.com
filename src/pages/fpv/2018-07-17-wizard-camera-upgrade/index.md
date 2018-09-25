@@ -1,19 +1,28 @@
 ---
-path: "/fpv/wizard-x220-camera-upgrade"
-date: "2018-07-17"
-title: "Wizard x220 camera upgrade"
-author: "Georgi Yanev"
+path: '/fpv/wizard-x220-camera-upgrade'
+date: '2018-07-17'
+title: 'Wizard x220 camera upgrade'
+author: 'Georgi Yanev'
 draft: false
-tags: "fpv"
+tags: 'fpv'
 relatedArticles:
-  - "upgrade"
-  - "wizard"
-  - "camera"
-affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
-ogKeywords: "camera, vtx, solder, wizard x220 camera, upgrade wizard camera, upgrade wizard x220 camera, how to fix wizard x220 camera, runcam, runcam split 2"
-ogDescription: "One of the best upgrades you can do to your Wizard x220 is definitely changing the stock camera. It is pretty much widely agreed upon that that camera is an underperformer. Here's my experience of upgrading to the Runcam Split 2."
-ogImage: "./wizard-camera-upgrade-1.jpg"
+  - 'upgrade'
+  - 'wizard'
+  - 'camera'
+affiliate:
+  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+ogKeywords:
+  'camera, vtx, solder, wizard x220 camera, upgrade wizard camera, upgrade wizard x220 camera, how to fix wizard x220 camera, runcam, runcam split 2'
+ogDescription:
+  "One of the best upgrades you can do to your Wizard x220 is definitely changing the stock camera. It is pretty much widely agreed upon that that camera is an underperformer. Here's my experience of upgrading to the Runcam Split 2."
+ogImage: './wizard-camera-upgrade-1.jpg'
 ---
+
+<div class="article-update-notification">
+  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
+  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
+  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+</div>
 
 One of the best upgrades you can do to your [Wizard x220][1] is definitely changing the stock camera. It is pretty much widely agreed upon that that camera is an underperformer. Here's my experience of upgrading to the [Runcam Split 2][2].
 

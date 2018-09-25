@@ -1,18 +1,27 @@
 ---
-path: "/fpv/tools-and-backpack-setup"
-date: "2017-10-14"
-title: "Tools and backpack setup"
-author: "Georgi Yanev"
-affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
+path: '/fpv/tools-and-backpack-setup'
+date: '2017-10-14'
+title: 'Tools and backpack setup'
+author: 'Georgi Yanev'
+affiliate:
+  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
-tags: "fpv"
+tags: 'fpv'
 relatedArticles:
-  - "backpack"
-  - "tools"
-ogKeywords: "FPV, racing quads, Wizard x220, quad, drone, getting started, tools, m5 nut wrench, hex driver, pliers, tweezers, hot glue gun, hot air gun, soldering iron, flux, solder, wire cutters"
-ogDescription: "Sometimes when you fly you will crash. And sometimes when you crash things will break. It would make for a very unpleasant experience if you break a prop and have to go home cause you can't replace it in the field. Hence, the need for a backpack and some tools."
-ogImage: "./tools-and-backpack-setup-1.jpg"
+  - 'backpack'
+  - 'tools'
+ogKeywords:
+  'FPV, racing quads, Wizard x220, quad, drone, getting started, tools, m5 nut wrench, hex driver, pliers, tweezers, hot glue gun, hot air gun, soldering iron, flux, solder, wire cutters'
+ogDescription:
+  "Sometimes when you fly you will crash. And sometimes when you crash things will break. It would make for a very unpleasant experience if you break a prop and have to go home cause you can't replace it in the field. Hence, the need for a backpack and some tools."
+ogImage: './tools-and-backpack-setup-1.jpg'
 ---
+
+<div class="article-update-notification">
+  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
+  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
+  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+</div>
 
 ### Backpack and on-the-go repair
 

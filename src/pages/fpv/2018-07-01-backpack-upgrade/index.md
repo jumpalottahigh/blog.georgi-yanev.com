@@ -1,19 +1,28 @@
 ---
-path: "/fpv/backpack-upgrade"
-date: "2018-07-01"
-title: "Backpack upgrade"
-author: "Georgi Yanev"
+path: '/fpv/backpack-upgrade'
+date: '2018-07-01'
+title: 'Backpack upgrade'
+author: 'Georgi Yanev'
 draft: false
-tags: "fpv"
+tags: 'fpv'
 relatedArticles:
-  - "tools"
-  - "backpack"
-  - "upgrade"
-affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
-ogKeywords: "FPV, backpack, racing quads, drone, quad, gear, radio, googles backpack"
-ogDescription: "A couple of weeks ago I switched to the new Realacc backpack and now the time has come to drop a few words on it. Spoiler: It's pretty awesome!"
-ogImage: "./backpack-upgrade-1.jpg"
+  - 'tools'
+  - 'backpack'
+  - 'upgrade'
+affiliate:
+  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+ogKeywords:
+  'FPV, backpack, racing quads, drone, quad, gear, radio, googles backpack'
+ogDescription:
+  "A couple of weeks ago I switched to the new Realacc backpack and now the time has come to drop a few words on it. Spoiler: It's pretty awesome!"
+ogImage: './backpack-upgrade-1.jpg'
 ---
+
+<div class="article-update-notification">
+  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
+  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
+  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+</div>
 
 A couple of weeks ago I switched to the new [Realacc backpack][1] and now the time has come to drop a few words on it.
 Spoiler: It's pretty awesome!

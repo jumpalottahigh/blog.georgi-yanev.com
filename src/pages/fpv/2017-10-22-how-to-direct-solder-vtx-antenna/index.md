@@ -1,19 +1,28 @@
 ---
-path: "/fpv/how-to-direct-solder-vtx-antenna"
-date: "2017-10-22"
-title: "How to direct solder an antenna to your vtx"
-author: "Georgi Yanev"
-affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
+path: '/fpv/how-to-direct-solder-vtx-antenna'
+date: '2017-10-22'
+title: 'How to direct solder an antenna to your vtx'
+author: 'Georgi Yanev'
+affiliate:
+  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
-tags: "fpv"
+tags: 'fpv'
 relatedArticles:
-  - "upgrade"
-  - "wizard"
-  - "vtx"
-ogKeywords: "vtx, antenna, solder, wizard x220 vtx, antenna angle socket broken, how to fix wizard x220 vtx antenna, SMA connector, RP-SMA connector"
-ogDescription: "If you are lucky and your angle antenna socket snaps in the 'right place', you can get away with just soldering it shut where it snapped. However if you are unlucky and you break the pin inside the socket or lose one of the pieces, the only remaining option would be to direct solder an antenna to the vtx."
-ogImage: "./direct-solder-vtx-11.jpg"
+  - 'upgrade'
+  - 'wizard'
+  - 'vtx'
+ogKeywords:
+  'vtx, antenna, solder, wizard x220 vtx, antenna angle socket broken, how to fix wizard x220 vtx antenna, SMA connector, RP-SMA connector'
+ogDescription:
+  "If you are lucky and your angle antenna socket snaps in the 'right place', you can get away with just soldering it shut where it snapped. However if you are unlucky and you break the pin inside the socket or lose one of the pieces, the only remaining option would be to direct solder an antenna to the vtx."
+ogImage: './direct-solder-vtx-11.jpg'
 ---
+
+<div class="article-update-notification">
+  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
+  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
+  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+</div>
 
 The Wizard x220 comes with this antenna angle socket on its vtx and while you can certainly upgrade the vtx and opt-in for [one that comes straight out of the back][1] and add a forward tilted [Aomway antenna][2], sometimes you might need to go for a quick fix.
 

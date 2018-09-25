@@ -1,18 +1,27 @@
 ---
-path: "/fpv/build-a-quad"
-date: "2018-03-17"
-title: "Quad build 2018"
-author: "Georgi Yanev"
+path: '/fpv/build-a-quad'
+date: '2018-03-17'
+title: 'Quad build 2018'
+author: 'Georgi Yanev'
 draft: false
-tags: "fpv"
+tags: 'fpv'
 relatedArticles:
-  - "build"
-  - "gear"
-affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
-ogKeywords: "FPV, racing quads, quad, drone, frsky taranis, lipo batteries, quad build, drone build, brotherhobby returner motors, realacc furious frame, DIY, Racerstar StarF4S 30A Blheli_S Dshot 4 in 1 ESC OSD Flight Controller"
-ogDescription: "I took on the challenge to build my first quad. This is how it went."
-ogImage: "./build-a-quad-21.jpg"
+  - 'build'
+  - 'gear'
+affiliate:
+  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+ogKeywords:
+  'FPV, racing quads, quad, drone, frsky taranis, lipo batteries, quad build, drone build, brotherhobby returner motors, realacc furious frame, DIY, Racerstar StarF4S 30A Blheli_S Dshot 4 in 1 ESC OSD Flight Controller'
+ogDescription:
+  'I took on the challenge to build my first quad. This is how it went.'
+ogImage: './build-a-quad-21.jpg'
 ---
+
+<div class="article-update-notification">
+  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
+  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
+  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+</div>
 
 This build is heavily inspired by [UAVfutures' 110MPH build][1] with some changes. Building this quad had its ups and downs as you can tell from the rest of the article. While I don't give up easily in the face of challenge, I'd like to point out that after having issues with 2 of those Racerstar StarF4S boards, I **DO NOT RECOMMEND** them for your build and am myself looking for an alternative. The board was ok while it worked and <a href="#maiden-flight">I had a ton of fun flying my quad for a month and a half</a>, but having 2 of those boards fail within ~ 2 months is the threshold of my patience.
 

@@ -1,20 +1,29 @@
 ---
-path: "/fpv/upgrading-your-wizard"
-date: "2017-10-08"
-title: "Upgrading your Wizard x220"
-author: "Georgi Yanev"
-affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
+path: '/fpv/upgrading-your-wizard'
+date: '2017-10-08'
+title: 'Upgrading your Wizard x220'
+author: 'Georgi Yanev'
+affiliate:
+  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
-tags: "fpv"
+tags: 'fpv'
 relatedArticles:
-  - "wizard"
-  - "vtx"
-  - "flysky"
-  - "upgrade"
-ogKeywords: "FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads, cheap upgrades, antennas, props, voltage buzzer, velcro straps"
-ogDescription: "If you are new to FPV, the Wizard x220 provides a decent flight experience out of the box. That being said, there are a number of small, cheap and easy to do upgrades that will dramatically improve your overall experience. In this part 1 of the upgrade guide, we're gonna cover: props, antennas, low voltage buzzer, chargers and velcro straps."
-ogImage: "./upgrade-your-wizard-1.jpg"
+  - 'wizard'
+  - 'vtx'
+  - 'flysky'
+  - 'upgrade'
+ogKeywords:
+  'FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads, cheap upgrades, antennas, props, voltage buzzer, velcro straps'
+ogDescription:
+  "If you are new to FPV, the Wizard x220 provides a decent flight experience out of the box. That being said, there are a number of small, cheap and easy to do upgrades that will dramatically improve your overall experience. In this part 1 of the upgrade guide, we're gonna cover: props, antennas, low voltage buzzer, chargers and velcro straps."
+ogImage: './upgrade-your-wizard-1.jpg'
 ---
+
+<div class="article-update-notification">
+  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
+  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
+  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+</div>
 
 ## 5 cheap and easy upgrades worth doing to your quad
 

@@ -1,17 +1,26 @@
 ---
-path: "/fpv/flash-xm-plus-and-setup-rssi"
-date: "2018-05-14"
-title: "How to flash XM+ and setup RSSI"
-author: "Georgi Yanev"
+path: '/fpv/flash-xm-plus-and-setup-rssi'
+date: '2018-05-14'
+title: 'How to flash XM+ and setup RSSI'
+author: 'Georgi Yanev'
 draft: false
-tags: "fpv"
+tags: 'fpv'
 relatedArticles:
-  - "frsky"
-affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
-ogKeywords: "FPV, racing quads, quad, drone, drone build, DIY, RSSI, FrSky, FrSky XM+, XM+, XM plus, Taranis Q X7, RSSI, telemetry signal, flash xm+, flash xm plus, enable rssi on xm+"
-ogDescription: "Sometimes you might need to flash new firmware on the XM+ receiver. Here's how to do that with the Taranis Q X7"
-ogImage: "./flash-xm-plus-and-setup-rssi-5.jpg"
+  - 'frsky'
+affiliate:
+  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+ogKeywords:
+  'FPV, racing quads, quad, drone, drone build, DIY, RSSI, FrSky, FrSky XM+, XM+, XM plus, Taranis Q X7, RSSI, telemetry signal, flash xm+, flash xm plus, enable rssi on xm+'
+ogDescription:
+  "Sometimes you might need to flash new firmware on the XM+ receiver. Here's how to do that with the Taranis Q X7"
+ogImage: './flash-xm-plus-and-setup-rssi-5.jpg'
 ---
+
+<div class="article-update-notification">
+  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
+  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
+  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+</div>
 
 Sometimes you might need to flash new firmware on the [XM+ receiver][3]. The two main reasons as to why you may want to do that are usually:
 

@@ -1,19 +1,28 @@
 ---
-path: "/fpv/setup-taranis-qx7"
-date: "2018-01-28"
-title: "Setup the Taranis Q X7 using OpenTX"
-author: "Georgi Yanev"
+path: '/fpv/setup-taranis-qx7'
+date: '2018-01-28'
+title: 'Setup the Taranis Q X7 using OpenTX'
+author: 'Georgi Yanev'
 draft: false
-tags: "fpv"
+tags: 'fpv'
 relatedArticles:
-  - "frsky"
-  - "wizard"
-  - "gear"
-affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
-ogKeywords: "taranis, taranis qx7, setup, transmitter, drone, quad, set up Taranis, setup Taranis x7, set up Taranis q x7, custom splash screen, custom sounds for Taranis, basic Taranis setup, how to set up taranis, update taranis firmware, how to use opentx, how to setup taranis using opentx, opentx"
-ogDescription: "I recently upgraded to a Taranis Q X7 and after doing the initial setup I decided to sum up some of the main points in a helpful post. I hope this write up helps you breeze through the configuration and gets you flying in no time!"
-ogImage: "./setup-taranis-qx7-0.jpg"
+  - 'frsky'
+  - 'wizard'
+  - 'gear'
+affiliate:
+  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+ogKeywords:
+  'taranis, taranis qx7, setup, transmitter, drone, quad, set up Taranis, setup Taranis x7, set up Taranis q x7, custom splash screen, custom sounds for Taranis, basic Taranis setup, how to set up taranis, update taranis firmware, how to use opentx, how to setup taranis using opentx, opentx'
+ogDescription:
+  'I recently upgraded to a Taranis Q X7 and after doing the initial setup I decided to sum up some of the main points in a helpful post. I hope this write up helps you breeze through the configuration and gets you flying in no time!'
+ogImage: './setup-taranis-qx7-0.jpg'
 ---
+
+<div class="article-update-notification">
+  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
+  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
+  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+</div>
 
 I recently upgraded to a [Taranis Q X7][7] and after doing the initial setup I decided to sum up some of the main points in a helpful post. Much of the information gathered here was heavily influenced from Project Blue Falcon's [excellent video series on YouTube][8]. I hope this write up helps you breeze through the configuration and gets you flying in no time!
 

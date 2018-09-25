@@ -1,17 +1,26 @@
 ---
-path: "/fpv/make-a-smoke-stopper"
-date: "2018-04-14"
-title: "How to make a smoke stopper"
-author: "Georgi Yanev"
+path: '/fpv/make-a-smoke-stopper'
+date: '2018-04-14'
+title: 'How to make a smoke stopper'
+author: 'Georgi Yanev'
 draft: false
-tags: "fpv"
+tags: 'fpv'
 relatedArticles:
-  - "tools"
-affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
-ogKeywords: "FPV, racing quads, quad, drone, drone build, DIY, smoke stopper, build your own smoke stopper, make a smoke stopper"
-ogDescription: "A smoke stopper can save your quad many times. In a nutshell what it does is it acts as a load between your battery and your quad. In the case of a short, the light bulb goes on and your board, escs and motors are safe. Nifty!"
-ogImage: "./make-a-smoke-stopper-9.jpg"
+  - 'tools'
+affiliate:
+  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+ogKeywords:
+  'FPV, racing quads, quad, drone, drone build, DIY, smoke stopper, build your own smoke stopper, make a smoke stopper'
+ogDescription:
+  'A smoke stopper can save your quad many times. In a nutshell what it does is it acts as a load between your battery and your quad. In the case of a short, the light bulb goes on and your board, escs and motors are safe. Nifty!'
+ogImage: './make-a-smoke-stopper-9.jpg'
 ---
+
+<div class="article-update-notification">
+  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
+  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
+  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+</div>
 
 A smoke stopper can save your quad many times. In a nutshell what it does is it acts as a load between your battery and your quad. In the case of a short, the light bulb goes on and your board, escs and motors are safe. Nifty!
 

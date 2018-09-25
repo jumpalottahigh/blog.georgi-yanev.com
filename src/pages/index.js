@@ -32,10 +32,9 @@ class BlogIndex extends React.Component {
             Vue.
           </h1>
           <p>
-            <br />
-            I believe that however we build apps on the web, they always end up
-            in the <strong>hands of humans</strong> and it's crucial that we
-            address <strong>web performance and page load times</strong>.
+            <br />I believe that however we build apps on the web, they always
+            end up in the <strong>hands of humans</strong> and it's crucial that
+            we address <strong>web performance and page load times</strong>.
           </p>
           <p>
             I write articles about{' '}
@@ -51,13 +50,15 @@ class BlogIndex extends React.Component {
                 💻
               </span>{' '}
               web development
-            </strong>,{' '}
+            </strong>
+            ,{' '}
             <strong>
               <span role="img" aria-label="house">
                 🏠
               </span>{' '}
               smart home automation
-            </strong>,{' '}
+            </strong>
+            ,{' '}
             <strong>
               <span role="img" aria-label="student">
                 👨‍🎓️
@@ -80,7 +81,8 @@ class BlogIndex extends React.Component {
             interested in my skills here's{' '}
             <a href="https://www.georgi-yanev.com/about">
               what I have come across along the years
-            </a>.
+            </a>
+            .
           </p>
           <p>
             I hope you find interesting articles around here. If you have any
@@ -103,8 +105,22 @@ class BlogIndex extends React.Component {
               <span role="img" aria-label="fire">
                 🔥
               </span>
-            </strong>.
+            </strong>
+            .
           </p>
+          <div class="article-update-notification">
+            <strong>ANNOUNCEMENT:</strong> After writing this blog for a year
+            and the sheer amount of people I have helped out throughout that
+            time has lead me to want to{' '}
+            <strong>
+              create something more, something new, something for our FPV
+              community 💜
+            </strong>
+            ! Hence, <a href="https://www.fpvtips.com">Fpvtips.com</a> is now in
+            the works! There's plenty of features coming and you can get
+            involved!{' '}
+            <a href="https://www.fpvtips.com">Check out the early beta</a> 👈🏽
+          </div>
           <h4 style={{ marginTop: '2rem' }}>Last 5 recent posts:</h4>
           <PostList
             showChevron="yes"

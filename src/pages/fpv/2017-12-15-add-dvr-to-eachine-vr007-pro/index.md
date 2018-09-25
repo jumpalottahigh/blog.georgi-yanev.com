@@ -1,19 +1,28 @@
 ---
-path: "/fpv/add-dvr-to-eachine-vr-007-pro"
-date: "2017-12-15"
-title: "How to add DVR to Eachine VR 007 Pro fpv goggles"
-author: "Georgi Yanev"
-affiliate: "Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase."
+path: '/fpv/add-dvr-to-eachine-vr-007-pro'
+date: '2017-12-15'
+title: 'How to add DVR to Eachine VR 007 Pro fpv goggles'
+author: 'Georgi Yanev'
+affiliate:
+  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
-tags: "fpv"
+tags: 'fpv'
 relatedArticles:
-  - "dvr"
-  - "goggles"
-  - "vr007"
-ogKeywords: "Eachine VR 007 Pro, Eachine ProDVR, Eachine e010s, DVR, add dvr to goggles, mod eachine goggles with dvr, connect ProDVR to Eachine VR 007 Pro, micro quad, micro drone footage, DIY, cheap DVR, cheap FPV goggles with DVR, how to mod fpv goggles with dvr"
-ogDescription: "If you have a pair of Eachine VR 007 Pro fpv goggles and want to mod it with DVR then this one is for you."
-ogImage: "./add-dvr-to-eachine-vr007-1.jpg"
+  - 'dvr'
+  - 'goggles'
+  - 'vr007'
+ogKeywords:
+  'Eachine VR 007 Pro, Eachine ProDVR, Eachine e010s, DVR, add dvr to goggles, mod eachine goggles with dvr, connect ProDVR to Eachine VR 007 Pro, micro quad, micro drone footage, DIY, cheap DVR, cheap FPV goggles with DVR, how to mod fpv goggles with dvr'
+ogDescription:
+  'If you have a pair of Eachine VR 007 Pro fpv goggles and want to mod it with DVR then this one is for you.'
+ogImage: './add-dvr-to-eachine-vr007-1.jpg'
 ---
+
+<div class="article-update-notification">
+  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
+  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
+  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+</div>
 
 If you are like me and have grabbed a pair of cheap FPV goggles that don't have any digital video recording (DVR) capability read on and I'll show you how to add one.
 
