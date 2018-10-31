@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/structure/layout'
 import Footer from '../components/structure/Footer/Footer'
 
-import introImage from '../images/main-page.jpg'
+import introImage from '../images/main-page.png'
 import svgVue from '../../static/vue.svg'
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
@@ -108,7 +108,7 @@ class BlogIndex extends React.Component {
             </strong>
             .
           </p>
-          <div class="article-update-notification">
+          <div className="article-update-notification">
             <strong>ANNOUNCEMENT:</strong> After writing this blog for a year
             and the sheer amount of people I have helped out throughout that
             time has lead me to want to{' '}
