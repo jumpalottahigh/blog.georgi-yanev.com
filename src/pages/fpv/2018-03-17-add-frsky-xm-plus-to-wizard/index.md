@@ -20,9 +20,8 @@ ogImage: './add-frsky-xm-plus-to-wizard-1.jpg'
 ---
 
 <div class="article-update-notification">
-  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
-  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
-  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+  I released 
+  <strong><a href="https://www.fpvtips.com">Fpvtips.com</a></strong> in November 2018. Make sure you check it out for more FPV related goodness!
 </div>
 
 The [Frsky XM+][1] receiver is an awesome little thing. Coming in at only $14 it is a tiny, but full featured receiver for Taranis radios. Since I originally bought my [first drone][2] with a Flysky receiver, but lately transitioned to the [Taranis Q X7][3] radio, it only made sense to mod the Wizard x220 so I can fly it with my new favorite radio.

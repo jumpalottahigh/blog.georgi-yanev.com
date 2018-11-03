@@ -109,17 +109,11 @@ class BlogIndex extends React.Component {
             .
           </p>
           <div className="article-update-notification">
-            <strong>ANNOUNCEMENT:</strong> After writing this blog for a year
-            and the sheer amount of people I have helped out throughout that
-            time has lead me to want to{' '}
+            For more FPV related goodness, make sure you checkout{' '}
             <strong>
-              create something more, something new, something for our FPV
-              community 💜
-            </strong>
-            ! Hence, <a href="https://www.fpvtips.com">Fpvtips.com</a> is now in
-            the works! There's plenty of features coming and you can get
-            involved!{' '}
-            <a href="https://www.fpvtips.com">Check out the early beta</a> 👈🏽
+              <a href="https://www.fpvtips.com">Fpvtips.com</a>
+            </strong>{' '}
+            which I recently launched!
           </div>
           <h4 style={{ marginTop: '2rem' }}>Last 5 recent posts:</h4>
           <PostList

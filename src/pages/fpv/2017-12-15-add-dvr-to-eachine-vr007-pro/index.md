@@ -19,9 +19,8 @@ ogImage: './add-dvr-to-eachine-vr007-1.jpg'
 ---
 
 <div class="article-update-notification">
-  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
-  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
-  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+  I released 
+  <strong><a href="https://www.fpvtips.com">Fpvtips.com</a></strong> in November 2018. Make sure you check it out for more FPV related goodness!
 </div>
 
 If you are like me and have grabbed a pair of cheap FPV goggles that don't have any digital video recording (DVR) capability read on and I'll show you how to add one.

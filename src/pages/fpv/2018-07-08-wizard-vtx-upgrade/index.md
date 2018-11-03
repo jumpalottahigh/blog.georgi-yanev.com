@@ -19,9 +19,8 @@ ogImage: './wizard-vtx-upgrade-1.jpg'
 ---
 
 <div class="article-update-notification">
-  <strong>ANNOUNCING: ⚠️ <a href="https://www.fpvtips.com">Fpvtips.com</a> ⚠️</strong><br>
-  Writing this blog for a year and helping so many people in that time, has thought me a lot and has lead me to want to
-  <strong>create something more, something new, something for our FPV community 💜</strong>. <strong>Fpvtips.com</strong> is in very early beta and being actively worked on. <a href="https://www.fpvtips.com">Check it out</a>!
+  I released 
+  <strong><a href="https://www.fpvtips.com">Fpvtips.com</a></strong> in November 2018. Make sure you check it out for more FPV related goodness!
 </div>
 
 The stock VTX on the [Wizard x220][1] is sometimes not the best option to keep around for the long run. From the SMA connector breaking off the board, to frying the vtx if plugged in with no antenna attached, it's a component that makes for a good candidate to be upgraded.
