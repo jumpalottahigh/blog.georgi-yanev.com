@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: georgi-yanev.com
+Token: 3376771ab1260f5f2ff7b60b95239f86bb783f44c131339c8d0c6c7f7de297a2
