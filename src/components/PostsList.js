@@ -18,6 +18,7 @@ const months = [
 ]
 
 const currentMonth = months[new Date().getMonth()]
+const currentYear = new Date().getFullYear()
 
 export default class PostsList extends Component {
   state = {
@@ -191,7 +192,10 @@ export default class PostsList extends Component {
                 <li key={post.node.id} className="post-preview">
                   <Link to={post.node.frontmatter.path + '/'}>
                     <h4>
-                      {currentMonth === post.node.frontmatter.date.split(' ')[0]
+                      {currentMonth ===
+                        post.node.frontmatter.date.split(' ')[0] &&
+                      currentYear ===
+                        parseInt(post.node.frontmatter.date.split(' ')[2])
                         ? '🆕 '
                         : null}
                       {post.node.frontmatter.title}
@@ -250,7 +254,10 @@ export default class PostsList extends Component {
                 <li key={post.node.id} className="post-preview">
                   <Link to={post.node.frontmatter.path + '/'}>
                     <h4>
-                      {currentMonth === post.node.frontmatter.date.split(' ')[0]
+                      {currentMonth ===
+                        post.node.frontmatter.date.split(' ')[0] &&
+                      currentYear ===
+                        parseInt(post.node.frontmatter.date.split(' ')[2])
                         ? '🆕 '
                         : null}
                       {post.node.frontmatter.title}
