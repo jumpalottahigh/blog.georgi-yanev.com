@@ -1,5 +1,5 @@
 ---
-path: '/fpv/add-frsky-xm-plus-to-wizard-x220'
+path: '/fpv/add-frsky-xm-plus-to-wizard-x220/'
 date: '2018-03-17'
 title: 'How to add Frsky XM+ receiver to the Eachine Wizard x220'
 author: 'Georgi Yanev'

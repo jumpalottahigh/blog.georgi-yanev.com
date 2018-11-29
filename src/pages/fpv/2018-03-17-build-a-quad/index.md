@@ -1,5 +1,5 @@
 ---
-path: '/fpv/build-a-quad'
+path: '/fpv/build-a-quad/'
 date: '2018-03-17'
 title: 'Quad build 2018'
 author: 'Georgi Yanev'

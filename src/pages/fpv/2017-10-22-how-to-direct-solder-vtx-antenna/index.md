@@ -1,5 +1,5 @@
 ---
-path: '/fpv/how-to-direct-solder-vtx-antenna'
+path: '/fpv/how-to-direct-solder-vtx-antenna/'
 date: '2017-10-22'
 title: 'How to direct solder an antenna to your vtx'
 author: 'Georgi Yanev'

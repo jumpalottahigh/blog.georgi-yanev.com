@@ -1,5 +1,5 @@
 ---
-path: '/fpv/wizard-x220-vtx-upgrade'
+path: '/fpv/wizard-x220-vtx-upgrade/'
 date: '2018-07-08'
 title: 'Wizard x220 VTX upgrade'
 author: 'Georgi Yanev'

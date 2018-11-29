@@ -1,5 +1,5 @@
 ---
-path: '/fpv/flash-xm-plus-and-setup-rssi'
+path: '/fpv/flash-xm-plus-and-setup-rssi/'
 date: '2018-05-14'
 title: 'How to flash XM+ and setup RSSI'
 author: 'Georgi Yanev'

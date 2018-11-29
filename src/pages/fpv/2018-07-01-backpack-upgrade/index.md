@@ -1,5 +1,5 @@
 ---
-path: '/fpv/backpack-upgrade'
+path: '/fpv/backpack-upgrade/'
 date: '2018-07-01'
 title: 'Backpack upgrade'
 author: 'Georgi Yanev'

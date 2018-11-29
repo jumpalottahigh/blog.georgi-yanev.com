@@ -1,16 +1,18 @@
 ---
-path: "/projects/youtube-timestamp-screenshot"
-date: "2018-07-14"
-title: "Making a youtube timestamp screenshot app"
-author: "Georgi Yanev"
+path: '/projects/youtube-timestamp-screenshot/'
+date: '2018-07-14'
+title: 'Making a youtube timestamp screenshot app'
+author: 'Georgi Yanev'
 draft: false
-tags: "projects"
+tags: 'projects'
 relatedArticles:
-  - ""
-affiliate: ""
-ogKeywords: "YouTube, Puppeteer, Heroku, Netlify, GitHub, screenshot, timestamp, scrape, learning, developing, making open source, web dev, dev ops, life-long learning, node.js, javascript, es6"
-ogDescription: "I recently wanted to extract a screenshot from a YouTube video of one of my racing drone flights. Sounds easy enough, doesn't it? Turned out much harder than I thought, so I decided to make an app to solve it."
-ogImage: "./youtube-timestamp-screenshot-1.png"
+  - ''
+affiliate: ''
+ogKeywords:
+  'YouTube, Puppeteer, Heroku, Netlify, GitHub, screenshot, timestamp, scrape, learning, developing, making open source, web dev, dev ops, life-long learning, node.js, javascript, es6'
+ogDescription:
+  "I recently wanted to extract a screenshot from a YouTube video of one of my racing drone flights. Sounds easy enough, doesn't it? Turned out much harder than I thought, so I decided to make an app to solve it."
+ogImage: './youtube-timestamp-screenshot-1.png'
 ---
 
 I recently wanted to **extract a screenshot from a YouTube video** of one of my racing drone flights. Sounds easy enough, doesn't it? Turned out much harder than I thought, so I decided to make an app to solve it for me.

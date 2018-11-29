@@ -1,5 +1,5 @@
 ---
-path: '/fpv/setup-flysky-fs-i6-ibus'
+path: '/fpv/setup-flysky-fs-i6-ibus/'
 date: '2017-10-28'
 title: 'How to setup iBUS on Flysky FS-i6'
 author: 'Georgi Yanev'

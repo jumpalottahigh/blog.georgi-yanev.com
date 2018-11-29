@@ -1,5 +1,5 @@
 ---
-path: '/fpv/tools-and-backpack-setup'
+path: '/fpv/tools-and-backpack-setup/'
 date: '2017-10-14'
 title: 'Tools and backpack setup'
 author: 'Georgi Yanev'

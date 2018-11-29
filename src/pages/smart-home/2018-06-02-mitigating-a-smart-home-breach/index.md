@@ -1,16 +1,18 @@
 ---
-path: "/smart-home/mitigating-a-smart-home-breach"
-date: "2018-06-02"
-title: "Mitigating and investigating a hacked smart home"
-author: "Georgi Yanev"
+path: '/smart-home/mitigating-a-smart-home-breach/'
+date: '2018-06-02'
+title: 'Mitigating and investigating a hacked smart home'
+author: 'Georgi Yanev'
 draft: false
-tags: "smart-home"
+tags: 'smart-home'
 relatedArticles:
-  - "smarthome"
-  - "homeassistant"
-ogKeywords: "smart home automation, Home Assistant, smart, home automation, Philips Hue, Raspberry Pi, router, hacked, hacker, hacked smart home, kali, linux, resinos, docker, hassio"
-ogDescription: "A few days ago (27th May) roughly between 22:00-23:00 I was visited by a \"white hat\" hacker. Although the guy could not do any real damage and he was \"good\" enough to rename my Philips Hue bulbs to **hacked!**, the experience was not pleasant and of course had to be mitigated..."
-ogImage: "./mitigating-a-smart-home-breach-1.png"
+  - 'smarthome'
+  - 'homeassistant'
+ogKeywords:
+  'smart home automation, Home Assistant, smart, home automation, Philips Hue, Raspberry Pi, router, hacked, hacker, hacked smart home, kali, linux, resinos, docker, hassio'
+ogDescription:
+  'A few days ago (27th May) roughly between 22:00-23:00 I was visited by a "white hat" hacker. Although the guy could not do any real damage and he was "good" enough to rename my Philips Hue bulbs to **hacked!**, the experience was not pleasant and of course had to be mitigated...'
+ogImage: './mitigating-a-smart-home-breach-1.png'
 ---
 
 A few days ago (27th May) roughly between 22:00-23:00 I was visited by a "white hat" hacker. Although the guy could not do any real damage and he was "good" enough to rename my Philips Hue bulbs to **hacked!** (to attract my attention?), the experience was not pleasant and of course had to be mitigated.

@@ -1,5 +1,5 @@
 ---
-path: '/projects/solving-problems-using-3d-printing'
+path: '/projects/solving-problems-using-3d-printing/'
 date: '2018-10-20'
 title: 'Solving problems using 3D printing'
 author: 'Georgi Yanev'

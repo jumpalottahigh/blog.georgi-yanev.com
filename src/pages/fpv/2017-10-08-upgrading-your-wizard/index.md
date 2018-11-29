@@ -1,5 +1,5 @@
 ---
-path: '/fpv/upgrading-your-wizard'
+path: '/fpv/upgrading-your-wizard/'
 date: '2017-10-08'
 title: 'Upgrading your Wizard x220'
 author: 'Georgi Yanev'

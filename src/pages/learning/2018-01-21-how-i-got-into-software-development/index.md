@@ -1,17 +1,19 @@
 ---
-path: "/learning/how-i-got-into-software-development"
-date: "2018-01-21"
-title: "How I got into software development"
-author: "Georgi Yanev"
+path: '/learning/how-i-got-into-software-development/'
+date: '2018-01-21'
+title: 'How I got into software development'
+author: 'Georgi Yanev'
 draft: false
-tags: "learning"
+tags: 'learning'
 relatedArticles:
-  - "story"
-  - "learning"
-affiliate: ""
-ogKeywords: "growth mindset, learning, evolving, developing, studying, improvement, goal list, progress, taking a look back, looking ahead, 2018, contribute to open source, google developer challenge scholarship, web dev, smart home automation, passion, grow, github, constant learning, life-long learning, story, journey, life, experience"
-ogDescription: "My high school graduation choice to apply for a degree in economics in university would send me on a small 10 year long trip going through different experiences, countries and jobs and ultimately leading me back to programming."
-ogImage: "./how-i-got-into-software-development-1.png"
+  - 'story'
+  - 'learning'
+affiliate: ''
+ogKeywords:
+  'growth mindset, learning, evolving, developing, studying, improvement, goal list, progress, taking a look back, looking ahead, 2018, contribute to open source, google developer challenge scholarship, web dev, smart home automation, passion, grow, github, constant learning, life-long learning, story, journey, life, experience'
+ogDescription:
+  'My high school graduation choice to apply for a degree in economics in university would send me on a small 10 year long trip going through different experiences, countries and jobs and ultimately leading me back to programming.'
+ogImage: './how-i-got-into-software-development-1.png'
 ---
 
 There's this funny thing about life, you never know where it's gonna take you. Whatever the ups and downs, in the end always remember that:

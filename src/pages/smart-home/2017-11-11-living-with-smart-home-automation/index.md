@@ -1,17 +1,20 @@
 ---
-path: "/smart-home/living-with-smart-home-automation"
-date: "2017-11-11"
-title: "Living with smart home automation for a year"
-author: "Georgi Yanev"
-affiliate: "This article contains affiliate links to Banggood or Amazon that would support the blog if used to make a purchase."
+path: '/smart-home/living-with-smart-home-automation/'
+date: '2017-11-11'
+title: 'Living with smart home automation for a year'
+author: 'Georgi Yanev'
+affiliate:
+  'This article contains affiliate links to Banggood or Amazon that would support the blog if used to make a purchase.'
 draft: false
-tags: "smart-home"
+tags: 'smart-home'
 relatedArticles:
-  - "smarthome"
-  - "homeassistant"
-ogKeywords: "smart home automation, Home Assistant, smart, home automation, esp8266, mqtt, 433 MHz, Alexa, Amazon Echo, Google Home, Google Assistant, Philips Hue, Ikea Tradfri, Xiaomi Yeelight, Raspberry Pi"
-ogDescription: "I first got interested in smart homes and home automation technologies roughly about 2 years ago (early 2016) and for the duration of the first year, that was it, just interest. Reading articles, exploring software. Then I found Home Assistant."
-ogImage: "./living-in-a-smart-home.png"
+  - 'smarthome'
+  - 'homeassistant'
+ogKeywords:
+  'smart home automation, Home Assistant, smart, home automation, esp8266, mqtt, 433 MHz, Alexa, Amazon Echo, Google Home, Google Assistant, Philips Hue, Ikea Tradfri, Xiaomi Yeelight, Raspberry Pi'
+ogDescription:
+  'I first got interested in smart homes and home automation technologies roughly about 2 years ago (early 2016) and for the duration of the first year, that was it, just interest. Reading articles, exploring software. Then I found Home Assistant.'
+ogImage: './living-in-a-smart-home.png'
 ---
 
 In this blog post I will share my experience and learnings from living in a smart home for a year. Before we get started, however, let's get some things out of the way in the form of a disclaimer list:
@@ -44,11 +47,11 @@ Here are a couple of light automations I'm running:
 
 ```yaml
 # Turn on lights at sunset
-- alias: "Lights on 30 mins before sunset"
+- alias: 'Lights on 30 mins before sunset'
   trigger:
     platform: sun
     event: sunset
-    offset: "-00:30:00"
+    offset: '-00:30:00'
   action:
     - service: light.turn_on
       data:
@@ -62,13 +65,13 @@ Here are a couple of light automations I'm running:
     - service: tts.google_say
       entity_id: media_player.living_room_home
       data:
-        message: "Turning on all lights."
+        message: 'Turning on all lights.'
 
 # Turn off lights at 23:45
-- alias: "Lights off at 23:45 (sun-thu)"
+- alias: 'Lights off at 23:45 (sun-thu)'
   trigger:
     - platform: time
-      at: "23:45"
+      at: '23:45'
   condition:
     - condition: time
       weekday:

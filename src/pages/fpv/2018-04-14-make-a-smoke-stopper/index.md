@@ -1,5 +1,5 @@
 ---
-path: '/fpv/make-a-smoke-stopper'
+path: '/fpv/make-a-smoke-stopper/'
 date: '2018-04-14'
 title: 'How to make a smoke stopper'
 author: 'Georgi Yanev'

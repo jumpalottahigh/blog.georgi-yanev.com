@@ -1,5 +1,5 @@
 ---
-path: '/fpv/wizard-x220-camera-upgrade'
+path: '/fpv/wizard-x220-camera-upgrade/'
 date: '2018-07-17'
 title: 'Wizard x220 camera upgrade'
 author: 'Georgi Yanev'

@@ -1,5 +1,5 @@
 ---
-path: '/fpv/setup-taranis-qx7'
+path: '/fpv/setup-taranis-qx7/'
 date: '2018-01-28'
 title: 'Setup the Taranis Q X7 using OpenTX'
 author: 'Georgi Yanev'

@@ -1,5 +1,5 @@
 ---
-path: '/fpv/getting-started-with-fpv-drones'
+path: '/fpv/getting-started-with-fpv-drones/'
 date: '2017-09-18'
 title: 'How to get started with FPV quads'
 author: 'Georgi Yanev'

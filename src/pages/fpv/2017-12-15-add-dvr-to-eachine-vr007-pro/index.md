@@ -1,5 +1,5 @@
 ---
-path: '/fpv/add-dvr-to-eachine-vr-007-pro'
+path: '/fpv/add-dvr-to-eachine-vr-007-pro/'
 date: '2017-12-15'
 title: 'How to add DVR to Eachine VR 007 Pro fpv goggles'
 author: 'Georgi Yanev'
