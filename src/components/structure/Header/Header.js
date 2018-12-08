@@ -34,8 +34,9 @@ export default class Header extends Component {
       <header
         style={{
           position: 'fixed',
-          borderBottom: '1px solid #0275d8',
           backgroundColor: 'rgba(255,255,255,0.925)',
+          boxShadow:
+            '0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12)',
           height: '3.5rem',
           zIndex: '3',
           left: '0',
