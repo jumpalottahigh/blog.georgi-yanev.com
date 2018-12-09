@@ -8,11 +8,9 @@ tags: 'projects'
 relatedArticles:
   - ''
 affiliate: ''
-ogKeywords:
-  'YouTube, Puppeteer, Heroku, Netlify, GitHub, screenshot, timestamp, scrape, learning, developing, making open source, web dev, dev ops, life-long learning, node.js, javascript, es6'
-ogDescription:
-  "I recently wanted to extract a screenshot from a YouTube video of one of my racing drone flights. Sounds easy enough, doesn't it? Turned out much harder than I thought, so I decided to make an app to solve it."
-ogImage: './youtube-timestamp-screenshot-1.png'
+ogKeywords: 'YouTube, Puppeteer, Heroku, Netlify, GitHub, screenshot, timestamp, scrape, learning, developing, making open source, web dev, dev ops, life-long learning, node.js, javascript, es6'
+ogDescription: "I recently wanted to extract a screenshot from a YouTube video of one of my racing drone flights. Sounds easy enough, doesn't it? Turned out much harder than I thought, so I decided to make an app to solve it."
+ogImage: './youtube-timestamp-screenshot-1.jpg'
 ---
 
 I recently wanted to **extract a screenshot from a YouTube video** of one of my racing drone flights. Sounds easy enough, doesn't it? Turned out much harder than I thought, so I decided to make an app to solve it for me.
@@ -57,8 +55,8 @@ I came across `.html5-video-player` for the video player as the node I wanted to
   class="video-stream html5-main-video"
   controlslist="nodownload"
   style="width: 640px; height: 360px; left: 0px; top: 0px;"
-  src="blob:https://www.youtube.com/d631f977-4993-41f2-990d-d1374d8918e9">
-</video>
+  src="blob:https://www.youtube.com/d631f977-4993-41f2-990d-d1374d8918e9"
+></video>
 ```
 
 I also noticed that to get a clean screenshot I'd probably have to hide the video player controls. And so I looked for an appropriate identifier for that too. Turns out `.ytp-chrome-bottom` is one.
@@ -87,10 +85,10 @@ The [complete source code][9] is here, in case you are interested.
 And here's an example of what could be scraped.
 
 Full YouTube page for the sake of illustration,
-![Full page YouTube Puppeteer screenshot](youtube-timestamp-screenshot-1.png)
+![Full page YouTube Puppeteer screenshot](youtube-timestamp-screenshot-1.jpg)
 
 and no video player controls DOM node screenshot:
-![No video player controls DOM node screenshot using Puppeteer](youtube-timestamp-screenshot-2.png)
+![No video player controls DOM node screenshot using Puppeteer](youtube-timestamp-screenshot-2.jpg)
 
 Pretty neat!
 

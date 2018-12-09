@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/structure/layout'
 import Footer from '../components/structure/Footer/Footer'
 
-import introImage from '../images/main-page.png'
+import introImage from '../images/main-page.jpg'
 import svgVue from '../../static/vue.svg'
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'

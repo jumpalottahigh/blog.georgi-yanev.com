@@ -9,7 +9,7 @@ import './index.css'
 // PrismJS dependency
 import 'prismjs/themes/prism-okaidia.css'
 
-import ogImage from '../../images/main-og.png'
+import ogImage from '../../images/main-og.jpg'
 
 class Template extends Component {
   render() {
