@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
+import Img from 'gatsby-image'
 import svgRightArrow from '../images/right-arrow.svg'
 
 const months = [
@@ -204,14 +205,17 @@ export default class PostsList extends Component {
                       {this.props.showImage === 'yes' && (
                         <div className="post-preview-image">
                           {post.node.frontmatter.ogImage !== null ? (
-                            <img
-                              src={post.node.frontmatter.ogImage.publicURL}
-                              alt="article preview"
+                            <Img
+                              fluid={
+                                post.node.frontmatter.ogImage.childImageSharp
+                                  .fluid
+                              }
+                              alt={post.node.frontmatter.title}
                             />
                           ) : (
                             <img
                               src="/default-ogimage.jpg"
-                              alt="article preview"
+                              alt={post.node.frontmatter.title}
                             />
                           )}
                         </div>
@@ -243,7 +247,7 @@ export default class PostsList extends Component {
                         <img
                           src={svgRightArrow}
                           style={{ height: '24px', justifySelf: 'flex-end' }}
-                          alt="article preview"
+                          alt="Arrow pointing right"
                         />
                       )}
                     </div>
@@ -266,14 +270,17 @@ export default class PostsList extends Component {
                       {this.props.showImage === 'yes' && (
                         <div className="post-preview-image">
                           {post.node.frontmatter.ogImage !== null ? (
-                            <img
-                              src={post.node.frontmatter.ogImage.publicURL}
-                              alt="article preview"
+                            <Img
+                              fluid={
+                                post.node.frontmatter.ogImage.childImageSharp
+                                  .fluid
+                              }
+                              alt={post.node.frontmatter.title}
                             />
                           ) : (
                             <img
                               src="/default-ogimage.jpg"
-                              alt="article preview"
+                              alt={post.node.frontmatter.title}
                             />
                           )}
                         </div>
@@ -305,7 +312,7 @@ export default class PostsList extends Component {
                         <img
                           src={svgRightArrow}
                           style={{ height: '24px', justifySelf: 'flex-end' }}
-                          alt="article preview"
+                          alt="Arrow pointing right"
                         />
                       )}
                     </div>

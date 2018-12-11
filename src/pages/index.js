@@ -176,6 +176,11 @@ export const HomePageQuery = graphql`
             tags
             ogImage {
               publicURL
+              childImageSharp {
+                fluid(maxWidth: 672) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
             }
           }
         }

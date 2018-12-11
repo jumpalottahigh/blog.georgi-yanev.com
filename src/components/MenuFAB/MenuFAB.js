@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import './MenuFAB.css'
 
 class NavigationBar extends React.Component {
@@ -36,9 +37,9 @@ class NavigationBar extends React.Component {
             <div style={{ display: 'flex' }}>
               <div style={{ width: '25%' }}>
                 {page.node.frontmatter.ogImage !== null ? (
-                  <img
-                    src={page.node.frontmatter.ogImage.publicURL}
-                    alt="article preview"
+                  <Img
+                    fluid={page.node.frontmatter.ogImage.childImageSharp.fluid}
+                    alt={page.node.frontmatter.title}
                   />
                 ) : (
                   <img src="/default-ogimage.jpg" alt="article preview" />
@@ -102,6 +103,11 @@ export default class MenuFAB extends React.Component {
                     tags
                     ogImage {
                       publicURL
+                      childImageSharp {
+                        fluid(maxWidth: 200) {
+                          ...GatsbyImageSharpFluid_withWebp
+                        }
+                      }
                     }
                   }
                 }

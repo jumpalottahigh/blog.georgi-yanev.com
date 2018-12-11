@@ -36,6 +36,11 @@ export const NewsPageQuery = graphql`
             tags
             ogImage {
               publicURL
+              childImageSharp {
+                fluid(maxWidth: 672) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
             }
           }
         }
