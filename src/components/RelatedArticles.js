@@ -55,8 +55,6 @@ class RelatedArticles extends React.Component {
             return result.score > 0 ? result : null
           })
 
-          // TODO: implement a scoring scale of how relevant a link is, or simply order links by matching score
-          // put highest score on top
           return (
             <React.Fragment>
               {relatedPages.length !== 0 ? (

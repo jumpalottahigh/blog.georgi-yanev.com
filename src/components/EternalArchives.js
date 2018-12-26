@@ -3,8 +3,6 @@ import { Link } from 'gatsby'
 
 import svgRightArrow from '../images/right-arrow.svg'
 
-// TODO: Pass real data as props to this component from a GraphQL query
-
 export default class EternalArchives extends React.Component {
   state = {
     isOpen: false,

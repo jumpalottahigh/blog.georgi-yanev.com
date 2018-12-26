@@ -1,50 +1,86 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/structure/layout'
 import Footer from '../components/structure/Footer/Footer'
 
 import introImage from '../images/main-page.jpg'
-import svgVue from '../../static/vue.svg'
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
 import PostList from '../components/PostsList'
 import Button from '../components/Button/Button'
 
 class BlogIndex extends React.Component {
+  handleVideoClick = e => {
+    e.target.pause()
+    e.target.currentTime = 0
+    e.target.load()
+  }
+
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
 
     return (
       <Layout location={this.props.location}>
         <div>
-          <h1 style={{ fontSize: '1.4rem' }}>
-            Hi, I'm Georgi and I build things on the web with{' '}
-            <img className="framework-logo" src={svgJS} alt="JavaScript logo" />{' '}
-            JavaScript,{' '}
-            <img
-              className="framework-logo"
-              src={svgReact}
-              alt="React.js logo"
-            />{' '}
-            React and{' '}
-            <img className="framework-logo" src={svgVue} alt="Vue.js logo" />{' '}
-            Vue.
-          </h1>
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              marginBottom: '1rem',
+            }}
+          >
+            <div style={{ width: '20%' }}>
+              <img
+                src="https://avatars2.githubusercontent.com/u/4155121?s=460&amp;v=4"
+                alt="Georgi Yanev photo"
+                style={{ width: '100px' }}
+              />
+            </div>
+            <h1 style={{ fontSize: '1.4rem', width: '80%', margin: 0 }}>
+              Hi, I'm Georgi and I build things on the web with{` `}
+              <img
+                className="framework-logo"
+                src={svgJS}
+                alt="JavaScript logo"
+              />
+              {` `}
+              JavaScript and{` `}
+              <img
+                className="framework-logo"
+                src={svgReact}
+                alt="React.js logo"
+              />
+              {` `}
+              React
+            </h1>
+          </div>
           <p>
-            <br />I believe that however we build apps on the web, they always
-            end up in the <strong>hands of humans</strong> and it's crucial that
-            we address <strong>web performance and page load times</strong>.
+            I work as a {` `}
+            <Link to="/learning/how-i-got-into-software-development/">
+              web developer
+            </Link>
+            {` `}
+            at{` `}
+            <a href="https://www.f-secure.com/en/web/home_global/">F-Secure</a>.
+            You can find me on{' '}
+            <a href="https://twitter.com/jumpalottahigh">twitter</a>,{' '}
+            <a href="https://github.com/jumpalottahigh">github</a>,{' '}
+            <a href="https://twitch.tv/jumpalottahigh">twitch</a> and{' '}
+            <a href="https://www.linkedin.com/in/yanevgeorgi">linkedin</a>
+            .
+            <br />
           </p>
           <p>
-            I write articles about{' '}
+            In this blog you will find posts about{' '}
             <strong>
               <span role="img" aria-label="helicopter">
                 🚁
               </span>{' '}
-              FPV quads
+              FPV racing drones
             </strong>{' '}
-            (building and flying),{' '}
+            (building, repairing and flying),{' '}
             <strong>
               <span role="img" aria-label="computer">
                 💻
@@ -63,45 +99,53 @@ class BlogIndex extends React.Component {
               <span role="img" aria-label="student">
                 👨‍🎓️
               </span>{' '}
-              life-long learning
+              life-long learning, goals and stories
             </strong>{' '}
-            and other topics from my personal experience.
+            as well as who knows what else in the future.
           </p>
 
           <p>
-            By day{' '}
-            <a
-              href="https://www.linkedin.com/in/yanevgeorgi/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              I work as a web developer
-            </a>{' '}
-            and by night I learn and experiment with web tech. If you are
-            interested in my skills here's{' '}
-            <a href="https://www.georgi-yanev.com/about">
-              what I have come across along the years
-            </a>
-            .
+            I <strong>write code</strong>, solve problems and sometimes stream
+            on twitch. I <strong>love flying FPV drones</strong>, 3D printing,
+            contributing to open source, and working on fpvtips.com.
           </p>
+          <div className="video-container">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              onClick={this.handleVideoClick}
+            >
+              <source
+                src="https://www.georgi-yanev.com/static/landing-a-quad-1-a959ba1dfed1d6abe2e8052b61bfb0b4.mp4"
+                type="video/mp4"
+              />
+              Tap to play video
+            </video>
+          </div>
           <p>
-            I hope you find interesting articles around here. If you have any
-            questions, you can always find me as{' '}
-            <a href="https://twitter.com/jumpalottahigh">@jumpalottahigh</a> on
-            Twitter and on{' '}
-            <a href="https://github.com/jumpalottahigh">Github</a>.
+            Most of my projects are open source and{' '}
+            <a href="https://github.com/jumpalottahigh?tab=repositories">
+              available on GitHub
+            </a>
+            . You can also{' '}
+            <a href="https://twitter.com/jumpalottahigh">
+              follow me or poke me
+            </a>{' '}
+            on twitter.
           </p>
           <p>
             This blog was a joy to build using{' '}
             <strong>
-              Gatsby{' '}
+              <a href="https://www.gatsbyjs.org">Gatsby</a>
               <span role="img" aria-label="heart">
                 💜
               </span>
             </strong>{' '}
             (a React based static site generator) and is hosted on{' '}
             <strong>
-              Firebase{' '}
+              <a href="https://www.netlify.com">Netlify</a>
               <span role="img" aria-label="fire">
                 🔥
               </span>

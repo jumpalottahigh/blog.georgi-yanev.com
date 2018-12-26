@@ -95,7 +95,7 @@ export default class Header extends Component {
                 <Link to="/extras/fpv-videos/">Videos</Link>
               </li>
               <li>
-                <a href="https://www.georgi-yanev.com">About</a>
+                <a href="https://www.georgi-yanev.com/about">About</a>
               </li>
             </ul>
             <ul className="nav social">
