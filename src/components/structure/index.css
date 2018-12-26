@@ -198,7 +198,6 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  /* font-family: Roboto, Segoe UI, georgia, serif; */
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: normal;
@@ -833,13 +832,11 @@ div > pre {
 
 .disclaimer-container {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
+  flex-direction: column;
   margin-bottom: 1rem;
 }
 
 .image-tile {
-  /* width: 50%; */
   margin: 0.1rem;
 }
 
@@ -934,13 +931,6 @@ div > pre {
 
 iframe {
   max-width: 100%;
-}
-
-.affiliate-note {
-  border-top: 1px solid #cecece;
-  padding-top: 0.5rem;
-  font-size: 0.7rem;
-  line-height: 1rem;
 }
 
 .coming-soon {
@@ -1053,7 +1043,8 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1rem;
+  padding: 1rem 0;
+  border-top: 1px solid #cecece;
 }
 
 .feedback h4,
@@ -1072,7 +1063,7 @@ button {
   color: #fff;
   border-radius: 2px;
   padding: 0.2rem 0.6rem;
-  background-color: rgb(2, 117, 216);
+  background-color: #0275d8;
 }
 
 .feedback [data-feedback='good'] {
@@ -1141,4 +1132,56 @@ button {
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+}
+
+.blog-post {
+  padding-bottom: 3rem;
+}
+
+.blog-post-content {
+  padding-bottom: 1rem;
+}
+
+.related-articles {
+  border-top: 1px solid #cecece;
+  padding: 1rem 0;
+}
+
+.support-section {
+  padding: 1rem 0;
+  border-top: 1px solid #cecece;
+}
+
+.support-section a {
+  display: flex;
+  width: 11rem;
+  justify-content: center;
+  padding: 0 0.5rem;
+  transition: none;
+  box-shadow: none !important;
+  margin: 0.5rem 0;
+}
+
+.support-section a.banggood {
+  color: #d62d20;
+  border: 2px solid #d62d20;
+}
+.support-section a.banggood:hover {
+  color: #fff;
+  background-color: #d62d20;
+}
+
+.support-section a.paypal {
+  color: #0275d8;
+  border: 2px solid #0275d8;
+}
+.support-section a.paypal:hover {
+  color: #fff;
+  background-color: #0275d8;
+}
+
+.support-section-affiliate-note {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
 }

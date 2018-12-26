@@ -60,9 +60,7 @@ class RelatedArticles extends React.Component {
           return (
             <React.Fragment>
               {relatedPages.length !== 0 ? (
-                <div
-                  style={{ borderTop: '1px solid #cecece', paddingTop: '1rem' }}
-                >
+                <div className="related-articles">
                   <h4 style={{ margin: 0 }}>Related articles:</h4>
                   {relatedPages.map(page => (
                     <div key={page.node.id}>

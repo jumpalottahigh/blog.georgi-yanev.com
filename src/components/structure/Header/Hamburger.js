@@ -39,6 +39,15 @@ export default class Hamburger extends React.Component {
           <img src={rss} alt="Subscribe to RSS feed" />
           RSS
         </a>
+        <a href="https://dev.to/jumpalottahigh">
+          <img
+            src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+            alt="Georgi Yanev's DEV Profile"
+            height="30"
+            width="30"
+          />
+          Dev.to
+        </a>
       </Menu>
     )
   }

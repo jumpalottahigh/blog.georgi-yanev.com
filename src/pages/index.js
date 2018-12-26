@@ -127,16 +127,8 @@ class BlogIndex extends React.Component {
             style={{ fontSize: '1.2rem', marginRight: '1rem' }}
             to="/news/"
           >
-            All blog posts
+            Show all blog posts
           </Button>
-          <a
-            className="button"
-            href="https://paypal.me/jumpalottahigh/20"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Support the blog
-          </a>
           <p style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
             Additionally, the Eternal Archives section of the blog hosts a bunch
             of unedited content (fan fiction, music and programming) from the

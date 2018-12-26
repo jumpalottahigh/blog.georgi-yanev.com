@@ -111,22 +111,27 @@ class BlogPostTemplate extends React.Component {
             <ReadProgressLine />
             <h1>{post.frontmatter.title}</h1>
             <div className="disclaimer-container">
+              <span className="disclaimer">
+                <a
+                  href="https://twitter.com/jumpalottahigh"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {post.frontmatter.author}
+                </a>
+              </span>
               <span className="year">{post.frontmatter.date}</span>
-              <span className="disclaimer">{post.frontmatter.author}</span>
             </div>
             <div
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
+            <FeedbackSection />
             <RelatedArticles
               currentPagePath={post.frontmatter.path}
               relatedArticles={post.frontmatter.relatedArticles}
             />
-            <div className="affiliate-note m-t-1">
-              {post.frontmatter.affiliate}
-            </div>
-            <FeedbackSection />
-            <SupportSection />
+            <SupportSection affiliateNote={post.frontmatter.affiliate} />
           </div>
         </div>
       </Layout>

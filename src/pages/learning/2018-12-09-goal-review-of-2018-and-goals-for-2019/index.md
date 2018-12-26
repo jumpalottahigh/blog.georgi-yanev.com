@@ -103,8 +103,8 @@ I also worked on a number of other small and big projects and collabs. Here are 
 
 And a couple of smaller projects I built for fun while streaming:
 
-- [youtube-screenshot.netlify.com/][18]
-- [streamer-screen.netlify.com/][19]
+- [youtube-screenshot.netlify.com][18]
+- [streamer-screen.netlify.com][19]
 
 And speaking of streaming, a couple of months ago I [started streaming web development on Twitch][20].
 
@@ -114,7 +114,7 @@ I don't have a lot of active followers yet and as such I am **mostly talking to 
 
 ## Looking ahead into 2019
 
-One thing I'd like to try for the 2019 goal list is to add quantizable items to make it easier to measure the progress. Those are gonna be minimum values and anything extra achieved is very welcomed but not required.
+One thing I'd like to try for the 2019 goal list is to add quantifiable items to make it easier to measure the progress. Those are gonna be minimum values and anything extra achieved is very welcomed but not required.
 
 ### ⬜ Major goals:
 
