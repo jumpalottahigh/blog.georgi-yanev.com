@@ -116,6 +116,7 @@ class BlogIndex extends React.Component {
               muted
               playsInline
               onClick={this.handleVideoClick}
+              oncanplay="this.muted=true"
             >
               <source
                 src="https://www.georgi-yanev.com/static/landing-a-quad-1-a959ba1dfed1d6abe2e8052b61bfb0b4.mp4"
