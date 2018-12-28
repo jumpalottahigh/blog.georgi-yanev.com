@@ -18,6 +18,12 @@ class BlogIndex extends React.Component {
     e.target.play()
   }
 
+  componentDidMount() {
+    if (this.introVideo) {
+      setTimeout(() => (this.introVideo.className = 'fade-in'), 200)
+    }
+  }
+
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
 
@@ -117,10 +123,7 @@ class BlogIndex extends React.Component {
               muted
               playsInline
               onClick={this.handleVideoClick}
-              onCanPlay={() => {
-                console.log('hi')
-                this.muted = true
-              }}
+              ref={elem => (this.introVideo = elem)}
             >
               <source
                 src="https://www.georgi-yanev.com/static/landing-a-quad-1-a959ba1dfed1d6abe2e8052b61bfb0b4.mp4"

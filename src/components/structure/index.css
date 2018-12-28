@@ -1202,4 +1202,10 @@ video {
   z-index: -100;
   max-width: 70ch;
   cursor: pointer;
+  opacity: 0;
+}
+
+video.fade-in {
+  opacity: 1;
+  transition: opacity 275ms ease-in-out;
 }
