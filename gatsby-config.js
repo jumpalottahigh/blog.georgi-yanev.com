@@ -137,6 +137,17 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-netlify`,
+    {
+      resolve: 'gatsby-plugin-netlify',
+      options: {
+        headers: {
+          '/*.pdf': [
+            "Content-Security-Policy: frame-ancestors 'self' https://*.georgi-yanev.com/",
+            'X-Frame-Options: ALLOW-FROM https://blog.georgi-yanev.com/',
+          ],
+        },
+        mergeSecurityHeaders: false,
+      },
+    },
   ],
 }
