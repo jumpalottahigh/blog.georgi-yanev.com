@@ -104,7 +104,7 @@ class TinyLetterSignup extends React.Component {
   render() {
     return (
       <TinyLetter>
-        <h3>📰 Subscribe to the news letter</h3>
+        <h3>📰 Subscribe to the newsletter</h3>
         <p className="one">
           Get the latest content updates on{' '}
           <strong>interesting tech topics</strong>. Emails are{' '}
