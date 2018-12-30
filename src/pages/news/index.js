@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../../components/structure/layout'
 import PostsList from '../../components/PostsList'
+import TinyLetterSignup from '../../components/TinyLetterSignUp'
 
 const NewsPage = ({ data }) => (
   <Layout>
@@ -12,6 +13,7 @@ const NewsPage = ({ data }) => (
       showSearch="yes"
       posts={data.allMarkdownRemark.edges}
     />
+    <TinyLetterSignup />
   </Layout>
 )
 

@@ -6,6 +6,7 @@ import FeedbackSection from '../components/FeedbackSection.js'
 import RelatedArticles from '../components/RelatedArticles.js'
 import SupportSection from '../components/SupportSection.js'
 import ReadProgressLine from '../components/ReadProgressLine.js'
+import TinyLetterSignup from '../components/TinyLetterSignUp'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -132,6 +133,7 @@ class BlogPostTemplate extends React.Component {
               relatedArticles={post.frontmatter.relatedArticles}
             />
             <SupportSection affiliateNote={post.frontmatter.affiliate} />
+            <TinyLetterSignup />
           </div>
         </div>
       </Layout>

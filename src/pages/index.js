@@ -9,6 +9,7 @@ import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
 import PostList from '../components/PostsList'
 import Button from '../components/Button/Button'
+import TinyLetterSignup from '../components/TinyLetterSignUp'
 
 class BlogIndex extends React.Component {
   handleVideoClick = e => {
@@ -20,7 +21,11 @@ class BlogIndex extends React.Component {
 
   componentDidMount() {
     if (this.introVideo) {
-      setTimeout(() => (this.introVideo.className = 'fade-in'), 200)
+      setTimeout(
+        () =>
+          this.introVideo ? (this.introVideo.className = 'fade-in') : null,
+        200
+      )
     }
   }
 
@@ -186,6 +191,7 @@ class BlogIndex extends React.Component {
             of unedited content (fan fiction, music and programming) from the
             early 2000s when I was only 15 - 17.
           </p>
+          <TinyLetterSignup />
           <img
             style={{ marginBottom: '1rem' }}
             src={introImage}
