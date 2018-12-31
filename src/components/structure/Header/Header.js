@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 import Hamburger from './Hamburger'
 
-import logo from '../../../images/logo.png'
+import logo from '../../../../static/android-chrome-512x512.png'
 import github from '../../../../static/github.svg'
 import twitter from '../../../../static/twitter.svg'
 import linkedin from '../../../../static/linkedin.svg'
@@ -21,12 +21,16 @@ const AppBarWrapper = styled.div`
     display: inline-block;
   }
 
-  @media (min-width: 670px) {
+  @media (min-width: 700px) {
     ul li {
       display: inline-block;
     }
   }
 `
+
+const activeStyle = {
+  color: '#0175d8',
+}
 
 export default class Header extends Component {
   render() {
@@ -74,25 +78,34 @@ export default class Header extends Component {
                 src={logo}
                 alt="Georgi Yanev's blog"
                 style={{
-                  height: '2.25rem',
+                  height: '56px',
+                  width: '56px',
                   marginBottom: '0',
                   marginRight: '.5rem',
                 }}
               />
-              Georgi Yanev
             </h1>
           </Link>
 
           <AppBarWrapper>
             <ul className="nav">
+              <li>
+                <Link exact="true" to="/" activeStyle={activeStyle}>
+                  Home
+                </Link>
+              </li>
               <li className="visible-xs">
-                <Link to="/news/">Blog posts</Link>
+                <Link to="/news/" activeStyle={activeStyle}>
+                  Blog posts
+                </Link>
               </li>
               <li className="visible-xs">
                 <a href="https://www.fpvtips.com">FPVtips</a>
               </li>
               <li>
-                <Link to="/extras/fpv-videos/">Videos</Link>
+                <Link to="/extras/fpv-videos/" activeStyle={activeStyle}>
+                  Videos
+                </Link>
               </li>
               <li>
                 <a href="https://www.georgi-yanev.com/about">About</a>
