@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
+import { Link, StaticQuery } from 'gatsby'
+import Img from 'gatsby-image'
 import Hamburger from './Hamburger'
 
-import logo from '../../../../static/android-chrome-512x512.png'
 import github from '../../../../static/github.svg'
 import twitter from '../../../../static/twitter.svg'
 import linkedin from '../../../../static/linkedin.svg'
@@ -32,9 +32,25 @@ const activeStyle = {
   color: '#0175d8',
 }
 
-export default class Header extends Component {
-  render() {
-    return (
+const Header = () => (
+  <StaticQuery
+    query={graphql`
+      query Header {
+        logo: allFile(filter: { relativePath: { regex: "/^logo/" } }) {
+          edges {
+            node {
+              name
+              childImageSharp {
+                fluid(maxWidth: 56, quality: 75) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={data => (
       <header
         style={{
           position: 'fixed',
@@ -74,9 +90,9 @@ export default class Header extends Component {
                 fontSize: '1rem',
               }}
             >
-              <img
-                src={logo}
-                alt="Georgi Yanev's blog"
+              <Img
+                fluid={data.logo.edges[0].node.childImageSharp.fluid}
+                alt="Georgi's Blog"
                 style={{
                   height: '56px',
                   width: '56px',
@@ -149,6 +165,8 @@ export default class Header extends Component {
           </AppBarWrapper>
         </div>
       </header>
-    )
-  }
-}
+    )}
+  />
+)
+
+export default Header

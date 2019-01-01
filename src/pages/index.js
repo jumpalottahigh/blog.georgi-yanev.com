@@ -1,10 +1,10 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
+import Img from 'gatsby-image'
 
 import Layout from '../components/structure/layout'
 import Footer from '../components/structure/Footer/Footer'
 
-import introImage from '../images/home/main-page.jpg'
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
 import PostList from '../components/PostsList'
@@ -44,11 +44,14 @@ class BlogIndex extends React.Component {
             }}
           >
             <div style={{ width: '20%' }}>
-              <img
-                src="https://avatars2.githubusercontent.com/u/4155121?s=460&amp;v=4"
-                alt="Georgi Yanev photo"
-                style={{ width: '100px' }}
-              />
+              <div style={{ maxWidth: '100px' }}>
+                <Img
+                  fluid={
+                    this.props.data.georgi.edges[0].node.childImageSharp.fluid
+                  }
+                  alt="Georgi Yanev portrait"
+                />
+              </div>
             </div>
             <h1 style={{ fontSize: '1.4rem', width: '80%', margin: 0 }}>
               Hi, I'm Georgi and I build things on the web with{` `}
@@ -192,10 +195,12 @@ class BlogIndex extends React.Component {
             early 2000s when I was only 15 - 17.
           </p>
           <TinyLetterSignup />
-          <img
+          <Img
             style={{ marginBottom: '1rem' }}
-            src={introImage}
-            alt="YAR cover"
+            fluid={
+              this.props.data.homeBottom.edges[0].node.childImageSharp.fluid
+            }
+            alt="Drone, Georgi flying FPV and coding work station"
           />
         </div>
         <Footer />
@@ -231,6 +236,36 @@ export const HomePageQuery = graphql`
                   ...GatsbyImageSharpFluid_withWebp
                 }
               }
+            }
+          }
+        }
+      }
+    }
+
+    georgi: allFile(
+      filter: { relativePath: { regex: "/^home/georgi-face/" } }
+    ) {
+      edges {
+        node {
+          name
+          childImageSharp {
+            fluid(maxWidth: 100, quality: 75) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+      }
+    }
+
+    homeBottom: allFile(
+      filter: { relativePath: { regex: "/^home/home-bottom/" } }
+    ) {
+      edges {
+        node {
+          name
+          childImageSharp {
+            fluid(maxWidth: 928, quality: 75) {
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
