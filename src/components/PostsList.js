@@ -214,7 +214,7 @@ export default class PostsList extends Component {
                             />
                           ) : (
                             <img
-                              src="/default-ogimage.jpg"
+                              src="/default-ogimage.png"
                               alt={post.node.frontmatter.title}
                             />
                           )}
@@ -279,7 +279,7 @@ export default class PostsList extends Component {
                             />
                           ) : (
                             <img
-                              src="/default-ogimage.jpg"
+                              src="/default-ogimage.png"
                               alt={post.node.frontmatter.title}
                             />
                           )}

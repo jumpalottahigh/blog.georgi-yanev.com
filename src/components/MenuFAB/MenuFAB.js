@@ -42,7 +42,7 @@ class NavigationBar extends React.Component {
                     alt={page.node.frontmatter.title}
                   />
                 ) : (
-                  <img src="/default-ogimage.jpg" alt="article preview" />
+                  <img src="/default-ogimage.png" alt="article preview" />
                 )}
               </div>
               <div

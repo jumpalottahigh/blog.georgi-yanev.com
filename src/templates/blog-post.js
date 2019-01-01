@@ -16,7 +16,7 @@ class BlogPostTemplate extends React.Component {
     const ogImage =
       post.frontmatter.ogImage !== null
         ? `https://blog.georgi-yanev.com${post.frontmatter.ogImage.publicURL}`
-        : `https://blog.georgi-yanev.com/default-ogimage-github.jpg`
+        : `https://blog.georgi-yanev.com/default-ogimage.png`
 
     return (
       <Layout location={this.props.location}>
@@ -98,7 +98,7 @@ class BlogPostTemplate extends React.Component {
               "name": "Georgi's Blog",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://blog.georgi-yanev.com/default-ogimage-generic.png"
+                "url": "https://blog.georgi-yanev.com/default-ogimage.png"
               }
             },
             "description": "${post.excerpt}",

@@ -4,7 +4,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/structure/layout'
 import Footer from '../components/structure/Footer/Footer'
 
-import introImage from '../images/main-page.jpg'
+import introImage from '../images/home/main-page.jpg'
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
 import PostList from '../components/PostsList'
