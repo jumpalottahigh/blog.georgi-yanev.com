@@ -7,7 +7,7 @@ import Footer from '../components/structure/Footer/Footer'
 
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
-import PostList from '../components/PostsList'
+import PostsList from '../components/PostsList'
 import Button from '../components/Button/Button'
 import TinyLetterSignup from '../components/TinyLetterSignUp'
 
@@ -176,7 +176,7 @@ class BlogIndex extends React.Component {
             which I recently launched!
           </div>
           <h4 style={{ marginTop: '2rem' }}>Last 5 recent posts:</h4>
-          <PostList
+          <PostsList
             showChevron="yes"
             showImage="yes"
             showCategories="no"

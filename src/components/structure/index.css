@@ -666,24 +666,6 @@ pre tt:after {
   background-color: #0175d8;
 }
 
-.menu-fab {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  width: 60px;
-  height: 60px;
-  line-height: 1rem;
-  background-color: rgb(2, 117, 216);
-  color: #fff;
-  bottom: 35px;
-  cursor: pointer;
-  user-select: none;
-  position: fixed;
-  right: 35px;
-  border-radius: 50%;
-  box-shadow: 2px 2px 20px 4px rgba(0, 0, 0, 0.3);
-}
-
 .sidenav {
   display: block;
   list-style-type: none;
@@ -891,11 +873,6 @@ div > pre {
     width: 100%;
     height: 100%;
     position: initial;
-  }
-
-  .menu-fab {
-    display: flex;
-    z-index: 3;
   }
 
   .nav li a {

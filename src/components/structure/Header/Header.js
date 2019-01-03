@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link, StaticQuery } from 'gatsby'
+import { graphql, Link, StaticQuery } from 'gatsby'
 import Img from 'gatsby-image'
 import Hamburger from './Hamburger'
 

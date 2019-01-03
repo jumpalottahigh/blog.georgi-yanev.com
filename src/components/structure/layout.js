@@ -11,9 +11,9 @@ import 'prismjs/themes/prism-okaidia.css'
 
 import ogImage from '../../../static/default-ogimage.png'
 
-class Template extends Component {
+class Layout extends Component {
   render() {
-    const { location, children } = this.props
+    const { children } = this.props
 
     return (
       <Fragment>
@@ -64,4 +64,4 @@ class Template extends Component {
   }
 }
 
-export default Template
+export default Layout
