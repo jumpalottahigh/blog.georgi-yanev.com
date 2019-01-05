@@ -1,7 +1,6 @@
 import React from 'react'
-import { Link, StaticQuery, graphql } from 'gatsby'
-// import PostsList from '../PostsList'
-import Img from 'gatsby-image'
+import { StaticQuery, graphql } from 'gatsby'
+import PostsList from '../PostsList'
 import './MenuFAB.css'
 
 const query = graphql`
@@ -13,15 +12,18 @@ const query = graphql`
       edges {
         node {
           id
+          excerpt(pruneLength: 120)
+          timeToRead
           frontmatter {
             date(formatString: "MMM DD, YYYY")
             path
             title
+            author
             category
             ogImage {
               publicURL
               childImageSharp {
-                fluid(maxWidth: 200) {
+                fluid(maxWidth: 670) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
               }
@@ -57,63 +59,17 @@ class NavigationBar extends React.Component {
       <StaticQuery
         query={query}
         render={data => {
-          // const posts = data.allMarkdownRemark.edges
+          const posts = data.allMarkdownRemark.edges
 
           return (
             <div className={`menu-sidebar ${visible ? 'slideIn' : 'slideOut'}`}>
-              {/* TODO: Will improve visuals and publish after that */}
-              {/* <PostsList
+              <PostsList
                 showChevron="yes"
-                showImage="no"
+                showImage="yes"
                 showCategories="yes"
                 showSearch="yes"
                 posts={posts}
-              /> */}
-              {data.allMarkdownRemark.edges.map(page => (
-                <Link
-                  key={page.node.id}
-                  to={page.node.frontmatter.path + '/'}
-                  onClick={() => {
-                    this.setState({ visible: false })
-                  }}
-                >
-                  <div style={{ display: 'flex' }}>
-                    <div style={{ width: '25%' }}>
-                      {page.node.frontmatter.ogImage !== null ? (
-                        <Img
-                          fluid={
-                            page.node.frontmatter.ogImage.childImageSharp.fluid
-                          }
-                          alt={page.node.frontmatter.title}
-                        />
-                      ) : (
-                        <img src="/default-ogimage.png" alt="article preview" />
-                      )}
-                    </div>
-                    <div
-                      style={{
-                        width: '75%',
-                        display: 'flex',
-                        flexFlow: 'column wrap',
-                        paddingLeft: '1rem',
-                        justifyContent: 'space-around',
-                      }}
-                    >
-                      <h4>{page.node.frontmatter.title}</h4>
-                      <p className="menu-quickinfo">
-                        <strong
-                          className={`post-preview-category category ${
-                            page.node.frontmatter.category
-                          }`}
-                        >
-                          {page.node.frontmatter.category}
-                        </strong>
-                        <strong>{page.node.frontmatter.date}</strong>
-                      </p>
-                    </div>
-                  </div>
-                </Link>
-              ))}
+              />
             </div>
           )
         }}
