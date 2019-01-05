@@ -33,7 +33,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 920,
+              withWebp: true,
+              quality: 75,
               // Remove the default behavior of adding a link to each
               // image.
               linkImagesToOriginal: true,
@@ -66,7 +68,7 @@ module.exports = {
         id: 'GTM-TVTZWR6',
         // Include GTM in development.
         // Defaults to false meaning GTM will only be loaded in production.
-        includeInDevelopment: true,
+        includeInDevelopment: false,
       },
     },
     {
