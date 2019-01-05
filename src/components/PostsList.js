@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import svgRightArrow from '../images/right-arrow.svg'
@@ -21,7 +21,7 @@ const months = [
 const currentMonth = months[new Date().getMonth()]
 const currentYear = new Date().getFullYear()
 
-export default class PostsList extends Component {
+export default class PostsList extends React.Component {
   state = {
     search: '',
     currentFilter: 'all',
@@ -30,6 +30,7 @@ export default class PostsList extends Component {
     fpv: [],
     projects: [],
     smarthome: [],
+    stories: [],
   }
 
   filter(pages) {
@@ -37,6 +38,7 @@ export default class PostsList extends Component {
     let fpv = []
     let projects = []
     let smarthome = []
+    let stories = []
 
     // Filter the data
     pages.forEach(page => {
@@ -53,6 +55,9 @@ export default class PostsList extends Component {
         case 'projects':
           projects.push(page)
           break
+        case 'stories':
+          stories.push(page)
+          break
         default:
           break
       }
@@ -63,6 +68,7 @@ export default class PostsList extends Component {
       fpv,
       projects,
       smarthome,
+      stories,
     })
   }
 
@@ -158,7 +164,7 @@ export default class PostsList extends Component {
                 data-filter="learning"
                 onClick={this.handleFilterClick}
               >
-                Life-long learning
+                Learnings
               </button>
             )}
             {this.state.smarthome.length > 0 && (
@@ -170,6 +176,17 @@ export default class PostsList extends Component {
                 onClick={this.handleFilterClick}
               >
                 Smarthome
+              </button>
+            )}
+            {this.state.stories.length > 0 && (
+              <button
+                className={`category stories ${
+                  currentFilter === 'stories' ? 'active' : ''
+                }`}
+                data-filter="stories"
+                onClick={this.handleFilterClick}
+              >
+                Stories
               </button>
             )}
           </div>

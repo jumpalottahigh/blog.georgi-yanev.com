@@ -39,6 +39,7 @@ const SideBar = () => (
       let learning = []
       let projects = []
       let smarthome = []
+      let stories = []
 
       // Filter the data
       pages.forEach(page => {
@@ -54,6 +55,9 @@ const SideBar = () => (
             break
           case 'projects':
             projects.push(page)
+            break
+          case 'stories':
+            stories.push(page)
             break
           default:
             break
@@ -119,6 +123,22 @@ const SideBar = () => (
                 <em>Smart home automation</em>
               </li>
               {smarthome.map(page => (
+                <li key={page.node.id}>
+                  <Link
+                    to={page.node.frontmatter.path}
+                    activeStyle={activeStyle}
+                  >
+                    {page.node.frontmatter.title}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <span role="img" aria-label="hand writing">
+                  ✍
+                </span>{' '}
+                <em>Writing</em>
+              </li>
+              {stories.map(page => (
                 <li key={page.node.id}>
                   <Link
                     to={page.node.frontmatter.path}

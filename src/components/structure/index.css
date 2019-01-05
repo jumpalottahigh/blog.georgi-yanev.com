@@ -931,7 +931,6 @@ iframe {
 @media (min-width: 1280px) {
   .post-preview-content {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
   }
 
@@ -951,10 +950,21 @@ iframe {
   grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
 }
 
+.category {
+  border-radius: 2px;
+  height: 36px;
+  line-height: 16px;
+}
+
+.category:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 2px;
+}
+
 .category.active {
   color: #fff;
   box-shadow: inset 0 -2px 0px 0px #000;
-  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 2px, inset 0 -2px 0px 0px #000;
+  transition: all 125ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .category.all {
@@ -970,6 +980,11 @@ iframe {
 .category.smart-home {
   color: #000;
   background-color: #ffa700;
+}
+
+.category.stories {
+  color: #fff;
+  background-color: #752cc9;
 }
 
 .category.projects {
