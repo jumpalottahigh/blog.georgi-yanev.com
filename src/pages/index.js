@@ -216,7 +216,7 @@ export const HomePageQuery = graphql`
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 5
-      filter: { frontmatter: { draft: { ne: true } } }
+      filter: { frontmatter: { draft: { ne: true }, tags: { ne: "stories" } } }
     ) {
       edges {
         node {
