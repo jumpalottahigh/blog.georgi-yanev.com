@@ -4,8 +4,8 @@ date: '2018-01-27'
 title: 'Gear list /2018/'
 author: 'Georgi Yanev'
 draft: false
-tags: 'fpv'
-relatedArticles:
+category: 'fpv'
+tags:
   - 'gear'
 affiliate:
   'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'

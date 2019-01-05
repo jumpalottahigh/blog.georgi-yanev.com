@@ -4,8 +4,8 @@ date: '2018-12-09'
 title: 'Goal review for 2018 and a look into 2019 🎉'
 author: 'Georgi Yanev'
 draft: false
-tags: 'learning'
-relatedArticles:
+category: 'learning'
+tags:
   - 'review'
   - 'goals'
 affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'

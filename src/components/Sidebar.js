@@ -23,7 +23,7 @@ const SideBar = () => (
                 date(formatString: "MMM DD, YYYY")
                 path
                 title
-                tags
+                category
                 ogImage {
                   publicURL
                 }
@@ -43,7 +43,7 @@ const SideBar = () => (
 
       // Filter the data
       pages.forEach(page => {
-        switch (page.node.frontmatter.tags) {
+        switch (page.node.frontmatter.category) {
           case 'learning':
             learning.push(page)
             break

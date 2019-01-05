@@ -4,8 +4,8 @@ date: '2017-12-22'
 title: 'Recap of 2017 and Goals for 2018'
 author: 'Georgi Yanev'
 draft: false
-tags: 'learning'
-relatedArticles:
+category: 'learning'
+tags:
   - 'recap'
   - 'goals'
 affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'

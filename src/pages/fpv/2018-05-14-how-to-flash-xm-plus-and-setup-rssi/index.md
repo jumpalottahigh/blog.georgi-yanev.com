@@ -4,8 +4,8 @@ date: '2018-05-14'
 title: 'How to flash XM+ and setup RSSI'
 author: 'Georgi Yanev'
 draft: false
-tags: 'fpv'
-relatedArticles:
+category: 'fpv'
+tags:
   - 'frsky'
 affiliate:
   'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'

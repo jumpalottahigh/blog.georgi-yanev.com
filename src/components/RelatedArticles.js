@@ -19,7 +19,7 @@ class RelatedArticles extends React.Component {
                   frontmatter {
                     path
                     title
-                    relatedArticles
+                    tags
                   }
                 }
               }
@@ -32,8 +32,7 @@ class RelatedArticles extends React.Component {
             // Filter out current page from the related pages results
             if (currentPagePath === page.node.frontmatter.path) return
 
-            const otherPageRelatedArticles =
-              page.node.frontmatter.relatedArticles
+            const otherPageRelatedArticles = page.node.frontmatter.tags
 
             // Calculate matching score
             let matchingScore = 0

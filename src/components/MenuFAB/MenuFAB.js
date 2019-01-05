@@ -17,7 +17,7 @@ const query = graphql`
             date(formatString: "MMM DD, YYYY")
             path
             title
-            tags
+            category
             ogImage {
               publicURL
               childImageSharp {
@@ -102,11 +102,11 @@ class NavigationBar extends React.Component {
                       <h4>{page.node.frontmatter.title}</h4>
                       <p className="menu-quickinfo">
                         <strong
-                          className={`post-preview-tags category ${
-                            page.node.frontmatter.tags
+                          className={`post-preview-category category ${
+                            page.node.frontmatter.category
                           }`}
                         >
-                          {page.node.frontmatter.tags}
+                          {page.node.frontmatter.category}
                         </strong>
                         <strong>{page.node.frontmatter.date}</strong>
                       </p>

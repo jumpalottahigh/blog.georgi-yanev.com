@@ -4,8 +4,8 @@ date: '2018-07-14'
 title: 'Making a youtube timestamp screenshot app'
 author: 'Georgi Yanev'
 draft: false
-tags: 'projects'
-relatedArticles:
+category: 'projects'
+tags:
   - ''
 affiliate: ''
 ogKeywords: 'YouTube, Puppeteer, Heroku, Netlify, GitHub, screenshot, timestamp, scrape, learning, developing, making open source, web dev, dev ops, life-long learning, node.js, javascript, es6'

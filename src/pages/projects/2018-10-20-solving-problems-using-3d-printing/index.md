@@ -4,8 +4,8 @@ date: '2018-10-20'
 title: 'Solving problems using 3D printing'
 author: 'Georgi Yanev'
 draft: false
-tags: 'projects'
-relatedArticles:
+category: 'projects'
+tags:
   - ''
 affiliate: ''
 ogKeywords:

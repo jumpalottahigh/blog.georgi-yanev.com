@@ -4,8 +4,8 @@ date: '2019-01-05'
 title: 'A smile in the Paddlewheel'
 author: 'Georgi Yanev'
 draft: false
-tags: 'stories'
-relatedArticles:
+category: 'stories'
+tags:
   - ' '
 affiliate: ''
 ogKeywords: 'writing, real story, life stories, journal, story telling, storytelling, learning story, colorado belle, laughlin, nevada, usa, 2005, 2006, student exchange, work and travel, bulgaria, university students, travelling experience, customer service, busser, bus person, waiter, paddlewheel, restaurant'

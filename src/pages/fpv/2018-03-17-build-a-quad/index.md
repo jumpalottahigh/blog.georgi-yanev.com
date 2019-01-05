@@ -4,8 +4,8 @@ date: '2018-03-17'
 title: 'Quad build 2018'
 author: 'Georgi Yanev'
 draft: false
-tags: 'fpv'
-relatedArticles:
+category: 'fpv'
+tags:
   - 'build'
   - 'gear'
 affiliate:

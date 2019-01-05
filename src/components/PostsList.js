@@ -42,7 +42,7 @@ export default class PostsList extends React.Component {
 
     // Filter the data
     pages.forEach(page => {
-      switch (page.node.frontmatter.tags) {
+      switch (page.node.frontmatter.category) {
         case 'learning':
           learning.push(page)
           break
@@ -253,11 +253,11 @@ export default class PostsList extends React.Component {
                         {post.node.frontmatter.author} on{' '}
                         <strong>{post.node.frontmatter.date}</strong> in{' '}
                         <strong
-                          className={`post-preview-tags category ${
-                            post.node.frontmatter.tags
+                          className={`post-preview-category category ${
+                            post.node.frontmatter.category
                           }`}
                         >
-                          {post.node.frontmatter.tags}
+                          {post.node.frontmatter.category}
                         </strong>
                       </div>
                       {this.props.showChevron === 'yes' && (
@@ -318,11 +318,11 @@ export default class PostsList extends React.Component {
                         {post.node.frontmatter.author} on{' '}
                         <strong>{post.node.frontmatter.date}</strong> in{' '}
                         <strong
-                          className={`post-preview-tags category ${
-                            post.node.frontmatter.tags
+                          className={`post-preview-category category ${
+                            post.node.frontmatter.category
                           }`}
                         >
-                          {post.node.frontmatter.tags}
+                          {post.node.frontmatter.category}
                         </strong>
                       </div>
                       {this.props.showChevron === 'yes' && (

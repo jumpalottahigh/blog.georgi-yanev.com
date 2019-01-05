@@ -4,8 +4,8 @@ date: '2017-11-27'
 title: 'How to become a semi decent software developer in 5 years'
 author: 'Georgi Yanev'
 draft: false
-tags: 'learning'
-relatedArticles:
+category: 'learning'
+tags:
   - 'goals'
   - 'learning'
 ogKeywords:

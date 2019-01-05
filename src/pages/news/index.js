@@ -35,7 +35,7 @@ export const NewsPageQuery = graphql`
             path
             title
             author
-            tags
+            category
             ogImage {
               publicURL
               childImageSharp {

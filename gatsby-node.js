@@ -26,7 +26,7 @@ exports.createPages = ({ graphql, actions }) => {
                     title
                     author
                     affiliate
-                    tags
+                    category
                     ogKeywords
                     ogDescription
                     ogImage {

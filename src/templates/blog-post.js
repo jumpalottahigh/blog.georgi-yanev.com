@@ -130,7 +130,7 @@ class BlogPostTemplate extends React.Component {
             <FeedbackSection />
             <RelatedArticles
               currentPagePath={post.frontmatter.path}
-              relatedArticles={post.frontmatter.relatedArticles}
+              relatedArticles={post.frontmatter.tags}
             />
             <SupportSection affiliateNote={post.frontmatter.affiliate} />
             <TinyLetterSignup />
@@ -153,8 +153,8 @@ export const pageQuery = graphql`
         dateUnformatted: date
         path
         title
+        category
         tags
-        relatedArticles
         author
         affiliate
         ogKeywords

@@ -4,8 +4,8 @@ date: '2018-01-21'
 title: 'How I got into software development'
 author: 'Georgi Yanev'
 draft: false
-tags: 'learning'
-relatedArticles:
+category: 'learning'
+tags:
   - 'story'
   - 'learning'
 affiliate: ''

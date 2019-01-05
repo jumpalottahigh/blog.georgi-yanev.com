@@ -6,8 +6,8 @@ author: 'Georgi Yanev'
 affiliate:
   'This article contains affiliate links to Banggood or Amazon that would support the blog if used to make a purchase.'
 draft: false
-tags: 'smart-home'
-relatedArticles:
+category: 'smart-home'
+tags:
   - 'smarthome'
   - 'homeassistant'
 ogKeywords:

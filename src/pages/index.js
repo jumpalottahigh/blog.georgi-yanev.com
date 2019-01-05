@@ -220,7 +220,9 @@ export const HomePageQuery = graphql`
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 5
-      filter: { frontmatter: { draft: { ne: true }, tags: { ne: "stories" } } }
+      filter: {
+        frontmatter: { draft: { ne: true }, category: { ne: "stories" } }
+      }
     ) {
       edges {
         node {
@@ -232,7 +234,7 @@ export const HomePageQuery = graphql`
             path
             title
             author
-            tags
+            category
             ogImage {
               publicURL
               childImageSharp {
