@@ -219,7 +219,7 @@ export default class PostsList extends React.Component {
             ? allPosts.map(post => (
                 <li key={post.node.id} className="post-preview">
                   <Link to={post.node.frontmatter.path + '/'}>
-                    <h4>
+                    <h4 style={{ margin: 0 }}>
                       {currentMonth ===
                         post.node.frontmatter.date.split(' ')[0] &&
                       currentYear ===
@@ -272,6 +272,20 @@ export default class PostsList extends React.Component {
                         >
                           {post.node.frontmatter.category}
                         </strong>
+                        {post.node.frontmatter.tags &&
+                          post.node.frontmatter.tags.length > 1 && (
+                            <p style={{ margin: 0, fontSize: '0.8rem' }}>
+                              {post.node.frontmatter.tags.map(tag => (
+                                <React.Fragment
+                                  key={post.node.frontmatter.id + tag}
+                                >
+                                  <span className="post-preview-tag">
+                                    {`#${tag}`}
+                                  </span>
+                                </React.Fragment>
+                              ))}
+                            </p>
+                          )}
                       </div>
                       {showChevron === 'yes' && (
                         <img
@@ -340,6 +354,20 @@ export default class PostsList extends React.Component {
                         >
                           {post.node.frontmatter.category}
                         </strong>
+                        {post.node.frontmatter.tags &&
+                          post.node.frontmatter.tags.length > 1 && (
+                            <p style={{ margin: 0, fontSize: '0.8rem' }}>
+                              {post.node.frontmatter.tags.map(tag => (
+                                <React.Fragment
+                                  key={post.node.frontmatter.id + tag}
+                                >
+                                  <span className="post-preview-tag">
+                                    {`#${tag}`}
+                                  </span>
+                                </React.Fragment>
+                              ))}
+                            </p>
+                          )}
                       </div>
                       {showChevron === 'yes' && (
                         <img

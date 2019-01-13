@@ -8,7 +8,7 @@ const NewsPage = ({ data }) => (
   <Layout>
     <PostsList
       showChevron="yes"
-      showImage="hover"
+      showImage="yes"
       showCategories="yes"
       showSearch="yes"
       posts={data.allMarkdownRemark.edges}
@@ -36,6 +36,7 @@ export const NewsPageQuery = graphql`
             title
             author
             category
+            tags
             ogImage {
               publicURL
               childImageSharp {

@@ -928,6 +928,17 @@ iframe {
   color: #fff;
 }
 
+.post-preview-content {
+  margin-top: 1.45rem;
+}
+
+.post-preview-tag {
+  background: #dedede;
+  border-radius: 2px;
+  margin-right: 0.25rem;
+  padding: 0 0.2rem;
+}
+
 @media (min-width: 1280px) {
   .post-preview-content {
     display: flex;
