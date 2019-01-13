@@ -399,3 +399,14 @@ export default class PostsList extends React.Component {
     )
   }
 }
+
+// Example usage:
+{
+  /* <PostsList
+  showChevron="yes|no"
+  showImage="yes|hover|no"
+  showCategories="yes|no"
+  showSearch="yes|no"
+  posts={posts}
+/> */
+}

@@ -930,12 +930,16 @@ iframe {
 
 .post-preview-content {
   margin-top: 1.45rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #dedede;
 }
 
 .post-preview-tag {
   background: #dedede;
   border-radius: 2px;
   margin-right: 0.25rem;
+  margin-top: 0.25rem;
   padding: 0 0.2rem;
 }
 
