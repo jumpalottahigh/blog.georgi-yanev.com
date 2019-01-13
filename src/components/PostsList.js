@@ -119,11 +119,21 @@ export default class PostsList extends React.Component {
   }
 
   render() {
-    const { allPosts, currentFilter } = this.state
+    const {
+      allPosts,
+      currentFilter,
+      fpv,
+      projects,
+      learning,
+      smarthome,
+      stories,
+      search,
+    } = this.state
+    const { showCategories, showChevron, showImage, showSearch } = this.props
 
     return (
       <div>
-        {this.props.showCategories === 'yes' && (
+        {showCategories === 'yes' && (
           <div className="category-container">
             <button
               className={`category all ${
@@ -134,7 +144,7 @@ export default class PostsList extends React.Component {
             >
               All posts
             </button>
-            {this.state.fpv.length > 0 && (
+            {fpv.length > 0 && (
               <button
                 className={`category fpv ${
                   currentFilter === 'fpv' ? 'active' : ''
@@ -145,7 +155,7 @@ export default class PostsList extends React.Component {
                 FPV
               </button>
             )}
-            {this.state.projects.length > 0 && (
+            {projects.length > 0 && (
               <button
                 className={`category projects ${
                   currentFilter === 'projects' ? 'active' : ''
@@ -156,7 +166,7 @@ export default class PostsList extends React.Component {
                 Projects
               </button>
             )}
-            {this.state.learning.length > 0 && (
+            {learning.length > 0 && (
               <button
                 className={`category learning ${
                   currentFilter === 'learning' ? 'active' : ''
@@ -167,7 +177,7 @@ export default class PostsList extends React.Component {
                 Learnings
               </button>
             )}
-            {this.state.smarthome.length > 0 && (
+            {smarthome.length > 0 && (
               <button
                 className={`category smart-home ${
                   currentFilter === 'smarthome' ? 'active' : ''
@@ -178,7 +188,7 @@ export default class PostsList extends React.Component {
                 Smarthome
               </button>
             )}
-            {this.state.stories.length > 0 && (
+            {stories.length > 0 && (
               <button
                 className={`category stories ${
                   currentFilter === 'stories' ? 'active' : ''
@@ -191,12 +201,12 @@ export default class PostsList extends React.Component {
             )}
           </div>
         )}
-        {this.props.showSearch === 'yes' && (
+        {showSearch === 'yes' && (
           <div style={{ marginTop: '1rem', marginBottom: '1rem' }}>
             <input
               type="text"
               onChange={this.handleSearch}
-              value={this.state.search}
+              value={search}
               placeholder="Search..."
               style={{ width: '100%', maxWidth: '300px' }}
               aria-label="Search"
@@ -219,8 +229,11 @@ export default class PostsList extends React.Component {
                       {post.node.frontmatter.title}
                     </h4>
                     <div className="post-preview-content">
-                      {this.props.showImage === 'yes' && (
-                        <div className="post-preview-image">
+                      {showImage === 'yes' || showImage === 'hover' ? (
+                        <div
+                          className={`post-preview-image ${showImage ===
+                            'hover' && 'hover'}`}
+                        >
                           {post.node.frontmatter.ogImage !== null ? (
                             <Img
                               fluid={
@@ -236,10 +249,10 @@ export default class PostsList extends React.Component {
                             />
                           )}
                         </div>
-                      )}
+                      ) : null}
                       <p
                         className={
-                          this.props.showImage === 'yes'
+                          showImage === 'yes' || showImage === 'hover'
                             ? 'post-preview-excerpt'
                             : ''
                         }
@@ -260,7 +273,7 @@ export default class PostsList extends React.Component {
                           {post.node.frontmatter.category}
                         </strong>
                       </div>
-                      {this.props.showChevron === 'yes' && (
+                      {showChevron === 'yes' && (
                         <img
                           src={svgRightArrow}
                           style={{ height: '24px', justifySelf: 'flex-end' }}
@@ -284,8 +297,11 @@ export default class PostsList extends React.Component {
                       {post.node.frontmatter.title}
                     </h4>
                     <div className="post-preview-content">
-                      {this.props.showImage === 'yes' && (
-                        <div className="post-preview-image">
+                      {showImage === 'yes' || showImage === 'hover' ? (
+                        <div
+                          className={`post-preview-image ${showImage ===
+                            'hover' && 'hover'}`}
+                        >
                           {post.node.frontmatter.ogImage !== null ? (
                             <Img
                               fluid={
@@ -301,10 +317,10 @@ export default class PostsList extends React.Component {
                             />
                           )}
                         </div>
-                      )}
+                      ) : null}
                       <p
                         className={
-                          this.props.showImage === 'yes'
+                          showImage === 'yes' || showImage === 'hover'
                             ? 'post-preview-excerpt'
                             : ''
                         }
@@ -325,7 +341,7 @@ export default class PostsList extends React.Component {
                           {post.node.frontmatter.category}
                         </strong>
                       </div>
-                      {this.props.showChevron === 'yes' && (
+                      {showChevron === 'yes' && (
                         <img
                           src={svgRightArrow}
                           style={{ height: '24px', justifySelf: 'flex-end' }}

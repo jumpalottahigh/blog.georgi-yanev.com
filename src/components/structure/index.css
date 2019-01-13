@@ -942,6 +942,14 @@ iframe {
     width: 60%;
     padding: 1rem;
   }
+
+  .post-preview-image.hover {
+    display: none;
+  }
+
+  .post-preview:hover .post-preview-image.hover {
+    display: block;
+  }
 }
 
 .category-container {

@@ -8,7 +8,7 @@ const NewsPage = ({ data }) => (
   <Layout>
     <PostsList
       showChevron="yes"
-      showImage="no"
+      showImage="hover"
       showCategories="yes"
       showSearch="yes"
       posts={data.allMarkdownRemark.edges}
