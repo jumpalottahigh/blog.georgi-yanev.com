@@ -7,11 +7,10 @@ draft: false
 category: 'learning'
 tags:
   - 'goals'
-  - 'learning'
-ogKeywords:
-  'software developer, software engineer, learn to code, learn to program, how to become a good developer, how to become a good programmer, learning techniques, growth mindset, learn to learn, developer, engineer, web developer, power user, tools, IDE, software, conference, hackathon, community, open source, open source software, github, vs code, atom'
-ogDescription:
-  "This article aims to touch ground on a few topics which don't necessarily get mentioned when it comes down to how to start a software development career, but are just as important as learning your next programming language."
+  - 'story'
+  - 'tips'
+ogKeywords: 'software developer, software engineer, learn to code, learn to program, how to become a good developer, how to become a good programmer, learning techniques, growth mindset, learn to learn, developer, engineer, web developer, power user, tools, IDE, software, conference, hackathon, community, open source, open source software, github, vs code, atom'
+ogDescription: "This article aims to touch ground on a few topics which don't necessarily get mentioned when it comes down to how to start a software development career, but are just as important as learning your next programming language."
 ogImage: './getting-started-with-software-development-1.png'
 ---
 

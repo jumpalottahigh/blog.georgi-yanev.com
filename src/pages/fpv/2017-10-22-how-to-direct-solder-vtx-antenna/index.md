@@ -3,18 +3,16 @@ path: '/fpv/how-to-direct-solder-vtx-antenna/'
 date: '2017-10-22'
 title: 'How to direct solder an antenna to your vtx'
 author: 'Georgi Yanev'
-affiliate:
-  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
 category: 'fpv'
 tags:
   - 'upgrade'
   - 'wizard'
   - 'vtx'
-ogKeywords:
-  'vtx, antenna, solder, wizard x220 vtx, antenna angle socket broken, how to fix wizard x220 vtx antenna, SMA connector, RP-SMA connector'
-ogDescription:
-  "If you are lucky and your angle antenna socket snaps in the 'right place', you can get away with just soldering it shut where it snapped. However if you are unlucky and you break the pin inside the socket or lose one of the pieces, the only remaining option would be to direct solder an antenna to the vtx."
+  - 'diy'
+ogKeywords: 'vtx, antenna, solder, wizard x220 vtx, antenna angle socket broken, how to fix wizard x220 vtx antenna, SMA connector, RP-SMA connector'
+ogDescription: "If you are lucky and your angle antenna socket snaps in the 'right place', you can get away with just soldering it shut where it snapped. However if you are unlucky and you break the pin inside the socket or lose one of the pieces, the only remaining option would be to direct solder an antenna to the vtx."
 ogImage: './direct-solder-vtx-11.jpg'
 ---
 

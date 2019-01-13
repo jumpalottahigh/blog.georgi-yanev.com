@@ -3,17 +3,17 @@ path: '/smart-home/living-with-smart-home-automation/'
 date: '2017-11-11'
 title: 'Living with smart home automation for a year'
 author: 'Georgi Yanev'
-affiliate:
-  'This article contains affiliate links to Banggood or Amazon that would support the blog if used to make a purchase.'
+affiliate: 'This article contains affiliate links to Banggood or Amazon that would support the blog if used to make a purchase.'
 draft: false
 category: 'smart-home'
 tags:
-  - 'smarthome'
   - 'homeassistant'
-ogKeywords:
-  'smart home automation, Home Assistant, smart, home automation, esp8266, mqtt, 433 MHz, Alexa, Amazon Echo, Google Home, Google Assistant, Philips Hue, Ikea Tradfri, Xiaomi Yeelight, Raspberry Pi'
-ogDescription:
-  'I first got interested in smart homes and home automation technologies roughly about 2 years ago (early 2016) and for the duration of the first year, that was it, just interest. Reading articles, exploring software. Then I found Home Assistant.'
+  - 'googleassistant'
+  - 'alexa'
+  - 'philipshue'
+  - 'story'
+ogKeywords: 'smart home automation, Home Assistant, smart, home automation, esp8266, mqtt, 433 MHz, Alexa, Amazon Echo, Google Home, Google Assistant, Philips Hue, Ikea Tradfri, Xiaomi Yeelight, Raspberry Pi'
+ogDescription: 'I first got interested in smart homes and home automation technologies roughly about 2 years ago (early 2016) and for the duration of the first year, that was it, just interest. Reading articles, exploring software. Then I found Home Assistant.'
 ogImage: './living-in-a-smart-home.png'
 ---
 

@@ -127,7 +127,6 @@ class BlogIndex extends React.Component {
           <div className="video-container">
             <video
               autoPlay
-              loop
               muted
               playsInline
               onClick={this.handleVideoClick}

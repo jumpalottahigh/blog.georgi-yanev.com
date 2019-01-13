@@ -274,7 +274,14 @@ export default class PostsList extends React.Component {
                         </strong>
                         {post.node.frontmatter.tags &&
                           post.node.frontmatter.tags.length > 1 && (
-                            <p style={{ margin: 0, fontSize: '0.8rem' }}>
+                            <p
+                              style={{
+                                margin: 0,
+                                fontSize: '0.8rem',
+                                display: 'flex',
+                                flexFlow: 'row wrap',
+                              }}
+                            >
                               {post.node.frontmatter.tags.map(tag => (
                                 <React.Fragment
                                   key={post.node.frontmatter.id + tag}
@@ -356,7 +363,14 @@ export default class PostsList extends React.Component {
                         </strong>
                         {post.node.frontmatter.tags &&
                           post.node.frontmatter.tags.length > 1 && (
-                            <p style={{ margin: 0, fontSize: '0.8rem' }}>
+                            <p
+                              style={{
+                                margin: 0,
+                                fontSize: '0.8rem',
+                                display: 'flex',
+                                flexFlow: 'row wrap',
+                              }}
+                            >
                               {post.node.frontmatter.tags.map(tag => (
                                 <React.Fragment
                                   key={post.node.frontmatter.id + tag}

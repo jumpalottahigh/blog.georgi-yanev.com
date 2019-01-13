@@ -6,7 +6,9 @@ author: 'Georgi Yanev'
 draft: false
 category: 'stories'
 tags:
-  - ' '
+  - 'life'
+  - 'learning'
+  - 'tips'
 affiliate: ''
 ogKeywords: 'writing, real story, life stories, journal, story telling, storytelling, learning story, colorado belle, laughlin, nevada, usa, 2005, 2006, student exchange, work and travel, bulgaria, university students, travelling experience, customer service, busser, bus person, waiter, paddlewheel, restaurant'
 ogDescription: 'The summer of 2005 was the first time I lived and worked in the USA. It was a student exchange program, that allowed us students from Bulgaria to live, work and travel the states. It was an amazing experience. One of the biggest of my life, huge eye-opener and very inspirational. In this post I’m not gonna go in detail about the trip itself, but I would like to tell a very short story that thought me something.'

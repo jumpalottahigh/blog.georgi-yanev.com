@@ -10,12 +10,10 @@ tags:
   - 'upgrade'
   - 'wizard'
   - 'vtx'
-affiliate:
-  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
-ogKeywords:
-  'frsky receiver, xm+, xm plus, xm+ receiver, taranis, taranis qx7, setup, transmitter, drone, quad, wizard x220, how to add frsky receiver, betaflight receiver configuration, '
-ogDescription:
-  'The Frsky XM+ receiver is an awesome little thing. Coming in at only $14 it is a tiny, but full featured receiver for Taranis radios. This article describes how to add it to your Eachine Wizard x220'
+  - 'xm+'
+affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+ogKeywords: 'frsky receiver, xm+, xm plus, xm+ receiver, taranis, taranis qx7, setup, transmitter, drone, quad, wizard x220, how to add frsky receiver, betaflight receiver configuration, '
+ogDescription: 'The Frsky XM+ receiver is an awesome little thing. Coming in at only $14 it is a tiny, but full featured receiver for Taranis radios. This article describes how to add it to your Eachine Wizard x220'
 ogImage: './add-frsky-xm-plus-to-wizard-1.jpg'
 ---
 
@@ -24,7 +22,7 @@ ogImage: './add-frsky-xm-plus-to-wizard-1.jpg'
   <strong><a href="https://www.fpvtips.com">Fpvtips.com</a></strong> in November 2018. Make sure you check it out for more FPV related goodness!
 </div>
 
-The [Frsky XM+][1] receiver is an awesome little thing. Coming in at only $14 it is a tiny, but full featured receiver for Taranis radios. Since I originally bought my [first drone][2] with a Flysky receiver, but lately transitioned to the [Taranis Q X7][3] radio, it only made sense to mod the Wizard x220 so I can fly it with my new favorite radio.
+The [Frsky XM+][1] receiver is an awesome little thing. Coming in at only \$14 it is a tiny, but full featured receiver for Taranis radios. Since I originally bought my [first drone][2] with a Flysky receiver, but lately transitioned to the [Taranis Q X7][3] radio, it only made sense to mod the Wizard x220 so I can fly it with my new favorite radio.
 
 Here's the final product.
 

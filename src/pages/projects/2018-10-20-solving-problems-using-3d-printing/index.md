@@ -6,12 +6,12 @@ author: 'Georgi Yanev'
 draft: false
 category: 'projects'
 tags:
-  - ''
+  - '3dprinting'
+  - '3dmodeling'
+  - 'diy'
 affiliate: ''
-ogKeywords:
-  'Blender, 3d modelling, 3d, printing, 3d printing, solving problems, diy, practical, learning, developing, life-long learning, Cura, Anycubic, Prusa I3 mega'
-ogDescription:
-  "Recently I had a very minor issue, however perfect candidate to be solved using 3D printing. I'm fairly new to 3D printing, only got my printer a couple of weeks ago and I do have some 3D modelling experience (mainly from working on hobby / school game projects, such as Maze Crawler or Rollin' Shark from a few years ago). I use the awesome open source software Blender for my 3D modelling."
+ogKeywords: 'Blender, 3d modelling, 3d, printing, 3d printing, solving problems, diy, practical, learning, developing, life-long learning, Cura, Anycubic, Prusa I3 mega'
+ogDescription: "Recently I had a very minor issue, however perfect candidate to be solved using 3D printing. I'm fairly new to 3D printing, only got my printer a couple of weeks ago and I do have some 3D modelling experience (mainly from working on hobby / school game projects, such as Maze Crawler or Rollin' Shark from a few years ago). I use the awesome open source software Blender for my 3D modelling."
 ogImage: './solving-problems-using-3d-printing-16.jpg'
 ---
 
