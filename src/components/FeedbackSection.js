@@ -7,15 +7,23 @@ class FeedbackSection extends React.Component {
     this.state = {
       rateMessage: 'How was it? Rate it:',
       showButtons: true,
-      showCustom: false
+      showCustom: false,
     }
   }
 
-  handleClick = () => {
+  handleClick = e => {
+    // Send feedback to Google Analytics
+    window.ga(`send`, `event`, {
+      eventCategory: `Feedback`,
+      eventAction: `Click`,
+      eventLabel: `${window.location.pathname} - ${e.target.dataset.feedback}`,
+      eventValue: 0,
+    })
+
     this.setState({
       rateMessage: 'Thanks!',
       showButtons: false,
-      showCustom: true
+      showCustom: true,
     })
   }
 
@@ -27,12 +35,16 @@ class FeedbackSection extends React.Component {
       return
     }
 
-    window.dataLayer.push({
-      event: 'customFeedback',
-      customFeedbackValue: feedback
+    // Send custom feedback to Google Analytics
+    window.ga(`send`, `event`, {
+      eventCategory: `Feedback`,
+      eventAction: `Submit`,
+      eventLabel: `${window.location.pathname} - ${feedback}`,
+      eventValue: 0,
     })
+
     this.setState({
-      showCustom: false
+      showCustom: false,
     })
   }
 
