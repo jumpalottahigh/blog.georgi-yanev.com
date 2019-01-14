@@ -5,6 +5,7 @@ import github from '../../../../static/github.svg'
 import twitter from '../../../../static/twitter.svg'
 import linkedin from '../../../../static/linkedin.svg'
 import rss from '../../../../static/rss.svg'
+import devBadge from '../../../../static/dev-badge.svg'
 import './Hamburger.css'
 
 export default class Hamburger extends React.Component {
@@ -41,7 +42,7 @@ export default class Hamburger extends React.Component {
         </a>
         <a href="https://dev.to/jumpalottahigh">
           <img
-            src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+            src={devBadge}
             alt="Georgi Yanev's DEV Profile"
             height="30"
             width="30"
