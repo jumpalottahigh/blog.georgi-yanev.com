@@ -59,7 +59,7 @@ I came across `.html5-video-player` for the video player as the node I wanted to
   class="video-stream html5-main-video"
   controlslist="nodownload"
   style="width: 640px; height: 360px; left: 0px; top: 0px;"
-  src="blob:https://www.youtube.com/d631f977-4993-41f2-990d-d1374d8918e9"
+  src="blob:https://www.youtube.com/d631f977-4993-41f2-990d-..."
 ></video>
 ```
 

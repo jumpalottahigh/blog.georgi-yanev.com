@@ -114,7 +114,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Georgi Yanev Blog',
-        short_name: "Georgi's Blog",
+        short_name: 'Georgi Blog',
         start_url: '/',
         background_color: '#f7f0eb',
         theme_color: '#0275d8',
