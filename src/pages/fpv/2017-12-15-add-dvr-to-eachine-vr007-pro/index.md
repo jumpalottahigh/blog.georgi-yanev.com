@@ -17,8 +17,8 @@ ogImage: './add-dvr-to-eachine-vr007-1.jpg'
 ---
 
 <div class="article-update-notification">
-  I released 
-  <strong><a href="https://www.fpvtips.com">Fpvtips.com</a></strong> in November 2018. Make sure you check it out for more FPV related goodness!
+  <strong>Add to the map and share your fpv flying spots</strong> with the community at
+  <strong><a href="https://www.fpvtips.com/fpv-map">Fpvtips.com</a></strong>. It takes a second to <strong>add a spot to the map</strong> and you can also <strong>add a link to YouTube video or Instagram photo</strong> from that spot for fame and glory.
 </div>
 
 If you are like me and have grabbed a pair of cheap FPV goggles that don't have any digital video recording (DVR) capability read on and I'll show you how to add one.

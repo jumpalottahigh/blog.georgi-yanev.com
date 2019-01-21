@@ -3,24 +3,21 @@ path: '/fpv/setup-flysky-fs-i6-ibus/'
 date: '2017-10-28'
 title: 'How to setup iBUS on Flysky FS-i6'
 author: 'Georgi Yanev'
-affiliate:
-  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
 category: 'fpv'
 tags:
   - 'flysky'
   - 'upgrade'
   - 'wizard'
-ogKeywords:
-  'wizard x220, how to setup Flysky FS-i6 in iBUS, iBus, Flysky, FS-i6'
-ogDescription:
-  "Here's a quick guide on how to change the default PPM on your Flysky FS-i6 receiver to the much faster iBUS. No soldering required."
+ogKeywords: 'wizard x220, how to setup Flysky FS-i6 in iBUS, iBus, Flysky, FS-i6'
+ogDescription: "Here's a quick guide on how to change the default PPM on your Flysky FS-i6 receiver to the much faster iBUS. No soldering required."
 ogImage: './setup-ibus-on-flysky-2.jpg'
 ---
 
 <div class="article-update-notification">
-  I released 
-  <strong><a href="https://www.fpvtips.com">Fpvtips.com</a></strong> in November 2018. Make sure you check it out for more FPV related goodness!
+  <strong>Add to the map and share your fpv flying spots</strong> with the community at
+  <strong><a href="https://www.fpvtips.com/fpv-map">Fpvtips.com</a></strong>. It takes a second to <strong>add a spot to the map</strong> and you can also <strong>add a link to YouTube video or Instagram photo</strong> from that spot for fame and glory.
 </div>
 
 The [Eachine Wizard x220][1] comes with a Flysky receiver plugged in and set to PPM mode. You can easily switch to the much faster iBUS mode following the steps bellow.

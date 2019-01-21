@@ -16,8 +16,8 @@ ogImage: './flash-xm-plus-and-setup-rssi-5.jpg'
 ---
 
 <div class="article-update-notification">
-  I released 
-  <strong><a href="https://www.fpvtips.com">Fpvtips.com</a></strong> in November 2018. Make sure you check it out for more FPV related goodness!
+  <strong>Add to the map and share your fpv flying spots</strong> with the community at
+  <strong><a href="https://www.fpvtips.com/fpv-map">Fpvtips.com</a></strong>. It takes a second to <strong>add a spot to the map</strong> and you can also <strong>add a link to YouTube video or Instagram photo</strong> from that spot for fame and glory.
 </div>
 
 Sometimes you might need to flash new firmware on the [XM+ receiver][3]. The two main reasons as to why you may want to do that are usually:

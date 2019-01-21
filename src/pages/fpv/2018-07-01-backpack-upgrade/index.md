@@ -9,18 +9,15 @@ tags:
   - 'tools'
   - 'backpack'
   - 'upgrade'
-affiliate:
-  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
-ogKeywords:
-  'FPV, backpack, racing quads, drone, quad, gear, radio, googles backpack'
-ogDescription:
-  "A couple of weeks ago I switched to the new Realacc backpack and now the time has come to drop a few words on it. Spoiler: It's pretty awesome!"
+affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+ogKeywords: 'FPV, backpack, racing quads, drone, quad, gear, radio, googles backpack'
+ogDescription: "A couple of weeks ago I switched to the new Realacc backpack and now the time has come to drop a few words on it. Spoiler: It's pretty awesome!"
 ogImage: './backpack-upgrade-1.jpg'
 ---
 
 <div class="article-update-notification">
-  I released 
-  <strong><a href="https://www.fpvtips.com">Fpvtips.com</a></strong> in November 2018. Make sure you check it out for more FPV related goodness!
+  <strong>Add to the map and share your fpv flying spots</strong> with the community at
+  <strong><a href="https://www.fpvtips.com/fpv-map">Fpvtips.com</a></strong>. It takes a second to <strong>add a spot to the map</strong> and you can also <strong>add a link to YouTube video or Instagram photo</strong> from that spot for fame and glory.
 </div>
 
 A couple of weeks ago I switched to the new [Realacc backpack][1] and now the time has come to drop a few words on it.
@@ -40,7 +37,7 @@ Additionally in the front pocket there is a tool holder sheet, and here is how I
 
 ![Realacc tool holder sheet](backpack-upgrade-4.jpg)
 
-Overall very happy with the backpack. It's surprisingly spacious, I'm not using even 80% of the space. For $50 it's a good investment for your drone gear. Recommmend 10/10! And no, this is not a paid review, just my own experience with a pretty good product. You can [grab it here][1].
+Overall very happy with the backpack. It's surprisingly spacious, I'm not using even 80% of the space. For \$50 it's a good investment for your drone gear. Recommmend 10/10! And no, this is not a paid review, just my own experience with a pretty good product. You can [grab it here][1].
 
 [0]: Linkslist
 [1]: https://bit.ly/realacc-backpack

@@ -3,8 +3,7 @@ path: '/fpv/upgrading-your-wizard/'
 date: '2017-10-08'
 title: 'Upgrading your Wizard x220'
 author: 'Georgi Yanev'
-affiliate:
-  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
 category: 'fpv'
 tags:
@@ -12,16 +11,14 @@ tags:
   - 'vtx'
   - 'flysky'
   - 'upgrade'
-ogKeywords:
-  'FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads, cheap upgrades, antennas, props, voltage buzzer, velcro straps'
-ogDescription:
-  "If you are new to FPV, the Wizard x220 provides a decent flight experience out of the box. That being said, there are a number of small, cheap and easy to do upgrades that will dramatically improve your overall experience. In this part 1 of the upgrade guide, we're gonna cover: props, antennas, low voltage buzzer, chargers and velcro straps."
+ogKeywords: 'FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads, cheap upgrades, antennas, props, voltage buzzer, velcro straps'
+ogDescription: "If you are new to FPV, the Wizard x220 provides a decent flight experience out of the box. That being said, there are a number of small, cheap and easy to do upgrades that will dramatically improve your overall experience. In this part 1 of the upgrade guide, we're gonna cover: props, antennas, low voltage buzzer, chargers and velcro straps."
 ogImage: './upgrade-your-wizard-1.jpg'
 ---
 
 <div class="article-update-notification">
-  I released 
-  <strong><a href="https://www.fpvtips.com">Fpvtips.com</a></strong> in November 2018. Make sure you check it out for more FPV related goodness!
+  <strong>Add to the map and share your fpv flying spots</strong> with the community at
+  <strong><a href="https://www.fpvtips.com/fpv-map">Fpvtips.com</a></strong>. It takes a second to <strong>add a spot to the map</strong> and you can also <strong>add a link to YouTube video or Instagram photo</strong> from that spot for fame and glory.
 </div>
 
 ## 5 cheap and easy upgrades worth doing to your quad
