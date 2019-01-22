@@ -11,6 +11,7 @@ const NewsPage = ({ data }) => (
       showImage="yes"
       showCategories="yes"
       showSearch="yes"
+      filterCategoriesFromURLParam="yes"
       posts={data.allMarkdownRemark.edges}
     />
     <TinyLetterSignup />

@@ -1,4 +1,5 @@
 import React from 'react'
+import { navigate } from 'gatsby'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import svgRightArrow from '../images/right-arrow.svg'
@@ -22,18 +23,22 @@ const currentMonth = months[new Date().getMonth()]
 const currentYear = new Date().getFullYear()
 
 export default class PostsList extends React.Component {
-  state = {
-    search: '',
-    currentFilter: 'all',
-    allPosts: [...this.props.posts],
-    learning: [],
-    fpv: [],
-    projects: [],
-    smarthome: [],
-    stories: [],
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      search: '',
+      currentFilter: 'all',
+      allPosts: [...this.props.posts],
+      learning: [],
+      fpv: [],
+      projects: [],
+      smarthome: [],
+      stories: [],
+    }
   }
 
-  filter(pages) {
+  filter = pages => {
     let learning = []
     let fpv = []
     let projects = []
@@ -73,9 +78,18 @@ export default class PostsList extends React.Component {
   }
 
   handleFilterClick = e => {
+    // Filter the posts
     this.setState({
       currentFilter: e.target.dataset.filter,
     })
+
+    if (this.props.filterCategoriesFromURLParam == 'yes') {
+      // Update the URL to reflect the filtred posts
+      let searchParams = new URLSearchParams(
+        `category=${e.target.dataset.filter}`
+      )
+      navigate(`${location.pathname}?${searchParams.toString()}`)
+    }
   }
 
   handleSearch = e => {
@@ -100,6 +114,20 @@ export default class PostsList extends React.Component {
     })
   }
 
+  handleURLParamCategory = () => {
+    // Grab search params from the URL
+    let searchParams = new URLSearchParams(window.location.search)
+    // Get category param value
+    let category = searchParams.get('category')
+
+    if (!category) return
+
+    // Update the state filter with the value of the URL param
+    this.setState({
+      currentFilter: category,
+    })
+  }
+
   UNSAFE_componentWillMount() {
     // Filter pages into categories
     this.filter(this.props.posts)
@@ -107,15 +135,20 @@ export default class PostsList extends React.Component {
 
   componentDidMount() {
     // Setup ESC listener
-    // document.addEventListener(
-    //   'keydown',
-    //   e => {
-    //     e.code === 'Escape'
-    //       ? this.setState({ search: '' }, () => this.handleSearch(e))
-    //       : null
-    //   },
-    //   false
-    // )
+    document.addEventListener(
+      'keydown',
+      e => {
+        e.code === 'Escape'
+          ? this.setState({ search: '' }, () => this.handleSearch(e))
+          : null
+      },
+      false
+    )
+
+    if (this.props.filterCategoriesFromURLParam == 'yes') {
+      // Read categories from URL params
+      this.handleURLParamCategory()
+    }
   }
 
   render() {
@@ -407,6 +440,7 @@ export default class PostsList extends React.Component {
   showImage="yes|hover|no"
   showCategories="yes|no"
   showSearch="yes|no"
+  filterCategoriesFromURLParam="yes|no"
   posts={posts}
 /> */
 }
