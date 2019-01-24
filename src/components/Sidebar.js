@@ -47,7 +47,7 @@ const SideBar = () => (
           case 'learning':
             learning.push(page)
             break
-          case 'smart-home':
+          case 'smarthome':
             smarthome.push(page)
             break
           case 'fpv':

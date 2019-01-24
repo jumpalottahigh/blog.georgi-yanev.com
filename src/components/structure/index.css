@@ -923,6 +923,7 @@ iframe {
 }
 
 .post-preview-category {
+  cursor: pointer;
   border-radius: 4px;
   padding: 1px 3px;
   background-color: #0275d8;
@@ -1006,7 +1007,7 @@ iframe {
   background-color: #0057e7;
 }
 
-.category.smart-home {
+.category.smarthome {
   color: #000;
   background-color: #ffa700;
 }

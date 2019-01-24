@@ -5,7 +5,7 @@ title: 'Living with smart home automation for a year'
 author: 'Georgi Yanev'
 affiliate: 'This article contains affiliate links to Banggood or Amazon that would support the blog if used to make a purchase.'
 draft: false
-category: 'smart-home'
+category: 'smarthome'
 tags:
   - 'homeassistant'
   - 'googleassistant'

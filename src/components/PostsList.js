@@ -22,7 +22,13 @@ const months = [
 const currentMonth = months[new Date().getMonth()]
 const currentYear = new Date().getFullYear()
 
-const Post = ({ post, showChevron, showImage, handleTagClick }) => {
+const Post = ({
+  post,
+  showChevron,
+  showImage,
+  handleTagClick,
+  handleCategoryClick,
+}) => {
   return (
     <li className="post-preview">
       <Link to={post.node.frontmatter.path + '/'}>
@@ -72,6 +78,8 @@ const Post = ({ post, showChevron, showImage, handleTagClick }) => {
             className={`post-preview-category category ${
               post.node.frontmatter.category
             }`}
+            data-filter={post.node.frontmatter.category}
+            onClick={handleCategoryClick}
           >
             {post.node.frontmatter.category}
           </strong>
@@ -142,7 +150,7 @@ export default class PostsList extends React.Component {
         case 'learning':
           learning.push(page)
           break
-        case 'smart-home':
+        case 'smarthome':
           smarthome.push(page)
           break
         case 'fpv':
@@ -168,13 +176,26 @@ export default class PostsList extends React.Component {
     })
   }
 
-  handleFilterClick = e => {
+  filterByTag = tag => {
+    let results = []
+
+    results = this.state.allPosts.filter(post => {
+      if (post.node.frontmatter.tags.includes(tag)) {
+        return post
+      }
+    })
+
+    return results
+  }
+
+  handleCategoryFilterClick = e => {
     // Filter the posts
     this.setState({
       currentFilter: e.target.dataset.filter,
     })
 
-    if (this.props.filterCategoriesFromURLParam == 'yes') {
+    // Update the URL params
+    if (this.props.filterCategoriesAndTagsFromURLParams == 'yes') {
       // Update the URL to reflect the filtred posts
       let searchParams = new URLSearchParams(
         `category=${e.target.dataset.filter}`
@@ -186,19 +207,20 @@ export default class PostsList extends React.Component {
   handleTagClick = e => {
     // Searched for
     let searched = e.target.dataset.filter
-    let results = []
-
-    results = this.state.allPosts.filter(post => {
-      if (post.node.frontmatter.tags.includes(searched)) {
-        return post
-      }
-    })
+    let postsFilteredByTag = this.filterByTag(searched)
 
     // Filter the posts
     this.setState({
-      postsFilteredByTag: [...results],
+      postsFilteredByTag,
       currentFilter: 'byTag',
     })
+
+    // Update the URL params
+    if (this.props.filterCategoriesAndTagsFromURLParams == 'yes') {
+      // Update the URL to reflect the filtred posts
+      let searchParams = new URLSearchParams(`tag=${e.target.dataset.filter}`)
+      navigate(`${location.pathname}?${searchParams.toString()}`)
+    }
   }
 
   handleSearch = e => {
@@ -223,26 +245,33 @@ export default class PostsList extends React.Component {
     })
   }
 
-  handleURLParamCategory = () => {
+  handleURLParamsCategoryAndTag = () => {
     // Grab search params from the URL
     let searchParams = new URLSearchParams(window.location.search)
     // Get category param value
     let category = searchParams.get('category')
-
-    if (!category) return
+    // Get tag param value
+    let tag = searchParams.get('tag')
 
     // Update the state filter with the value of the URL param
-    this.setState({
-      currentFilter: category,
-    })
-  }
-
-  UNSAFE_componentWillMount() {
-    // Filter pages into categories
-    this.filter(this.props.posts)
+    if (category) {
+      this.setState({
+        currentFilter: category,
+      })
+    } else if (tag) {
+      let postsFilteredByTag = this.filterByTag(tag)
+      this.setState({
+        currentFilter: 'byTag',
+        postsFilteredByTag,
+      })
+    } else {
+      return
+    }
   }
 
   componentDidMount() {
+    // Filter pages into categories
+    this.filter(this.props.posts)
     // Setup ESC listener
     document.addEventListener(
       'keydown',
@@ -254,9 +283,9 @@ export default class PostsList extends React.Component {
       false
     )
 
-    if (this.props.filterCategoriesFromURLParam == 'yes') {
+    if (this.props.filterCategoriesAndTagsFromURLParams == 'yes') {
       // Read categories from URL params
-      this.handleURLParamCategory()
+      this.handleURLParamsCategoryAndTag()
     }
   }
 
@@ -283,7 +312,7 @@ export default class PostsList extends React.Component {
                 currentFilter === 'all' ? 'active' : ''
               }`}
               data-filter="all"
-              onClick={this.handleFilterClick}
+              onClick={this.handleCategoryFilterClick}
             >
               All posts
             </button>
@@ -293,7 +322,7 @@ export default class PostsList extends React.Component {
                   currentFilter === 'fpv' ? 'active' : ''
                 }`}
                 data-filter="fpv"
-                onClick={this.handleFilterClick}
+                onClick={this.handleCategoryFilterClick}
               >
                 FPV
               </button>
@@ -304,7 +333,7 @@ export default class PostsList extends React.Component {
                   currentFilter === 'projects' ? 'active' : ''
                 }`}
                 data-filter="projects"
-                onClick={this.handleFilterClick}
+                onClick={this.handleCategoryFilterClick}
               >
                 Projects
               </button>
@@ -315,18 +344,18 @@ export default class PostsList extends React.Component {
                   currentFilter === 'learning' ? 'active' : ''
                 }`}
                 data-filter="learning"
-                onClick={this.handleFilterClick}
+                onClick={this.handleCategoryFilterClick}
               >
                 Learnings
               </button>
             )}
             {smarthome.length > 0 && (
               <button
-                className={`category smart-home ${
+                className={`category smarthome ${
                   currentFilter === 'smarthome' ? 'active' : ''
                 }`}
                 data-filter="smarthome"
-                onClick={this.handleFilterClick}
+                onClick={this.handleCategoryFilterClick}
               >
                 Smarthome
               </button>
@@ -337,7 +366,7 @@ export default class PostsList extends React.Component {
                   currentFilter === 'stories' ? 'active' : ''
                 }`}
                 data-filter="stories"
-                onClick={this.handleFilterClick}
+                onClick={this.handleCategoryFilterClick}
               >
                 Stories
               </button>
@@ -366,6 +395,7 @@ export default class PostsList extends React.Component {
                   showChevron={showChevron}
                   showImage={showImage}
                   handleTagClick={this.handleTagClick}
+                  handleCategoryClick={this.handleCategoryFilterClick}
                 />
               ))
             : currentFilter === 'byTag'
@@ -376,6 +406,7 @@ export default class PostsList extends React.Component {
                   showChevron={showChevron}
                   showImage={showImage}
                   handleTagClick={this.handleTagClick}
+                  handleCategoryClick={this.handleCategoryFilterClick}
                 />
               ))
             : this.state[currentFilter].map(post => (
@@ -385,6 +416,7 @@ export default class PostsList extends React.Component {
                   showChevron={showChevron}
                   showImage={showImage}
                   handleTagClick={this.handleTagClick}
+                  handleCategoryClick={this.handleCategoryFilterClick}
                 />
               ))}
         </ul>
@@ -400,7 +432,7 @@ export default class PostsList extends React.Component {
   showImage="yes|hover|no"
   showCategories="yes|no"
   showSearch="yes|no"
-  filterCategoriesFromURLParam="yes|no"
+  filterCategoriesAndTagsFromURLParams="yes|no"
   posts={posts}
 /> */
 }
