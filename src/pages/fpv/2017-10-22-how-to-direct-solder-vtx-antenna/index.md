@@ -17,8 +17,8 @@ ogImage: './direct-solder-vtx-11.jpg'
 ---
 
 <div class="article-update-notification">
-  <strong>Add to the map and share your fpv flying spots</strong> with the community at
-  <strong><a href="https://www.fpvtips.com/fpv-map">Fpvtips.com</a></strong>. It takes a second to <strong>add a spot to the map</strong> and you can also <strong>add a link to YouTube video or Instagram photo</strong> from that spot for fame and glory.
+  Add <strong>your FPV spots</strong> on the map over at 
+  <strong><a href="https://www.fpvtips.com/fpv-map">fpvtips.com/fpv-map</a></strong>.
 </div>
 
 The Wizard x220 comes with this antenna angle socket on its vtx and while you can certainly upgrade the vtx and opt-in for [one that comes straight out of the back][1] and add a forward tilted [Aomway antenna][2], sometimes you might need to go for a quick fix.

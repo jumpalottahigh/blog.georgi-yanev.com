@@ -16,8 +16,8 @@ ogImage: './add-buzzer-to-wizard-3.jpg'
 ---
 
 <div class="article-update-notification">
-  <strong>Add to the map and share your fpv flying spots</strong> with the community at
-  <strong><a href="https://www.fpvtips.com/fpv-map">Fpvtips.com</a></strong>. It takes a second to <strong>add a spot to the map</strong> and you can also <strong>add a link to YouTube video or Instagram photo</strong> from that spot for fame and glory.
+  Add <strong>your FPV spots</strong> on the map over at 
+  <strong><a href="https://www.fpvtips.com/fpv-map">fpvtips.com/fpv-map</a></strong>.
 </div>
 
 Since the Wizard x220 doesn't come with a buzzer already set up, this is many times a very useful and not too hard upgrade to do. Of course, if your main concern is just getting a voltage buzzer for your battery, you can opt-in for one of [those little things][1] and call it a day. However you would be missing out on one very interesting option - the 'lost model' signal.

@@ -16,8 +16,8 @@ ogImage: './tools-and-backpack-setup-1.jpg'
 ---
 
 <div class="article-update-notification">
-  <strong>Add to the map and share your fpv flying spots</strong> with the community at
-  <strong><a href="https://www.fpvtips.com/fpv-map">Fpvtips.com</a></strong>. It takes a second to <strong>add a spot to the map</strong> and you can also <strong>add a link to YouTube video or Instagram photo</strong> from that spot for fame and glory.
+  Add <strong>your FPV spots</strong> on the map over at 
+  <strong><a href="https://www.fpvtips.com/fpv-map">fpvtips.com/fpv-map</a></strong>.
 </div>
 
 ### Backpack and on-the-go repair

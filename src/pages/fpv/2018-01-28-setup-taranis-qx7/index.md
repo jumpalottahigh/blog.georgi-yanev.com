@@ -16,8 +16,8 @@ ogImage: './setup-taranis-qx7-0.jpg'
 ---
 
 <div class="article-update-notification">
-  <strong>Add to the map and share your fpv flying spots</strong> with the community at
-  <strong><a href="https://www.fpvtips.com/fpv-map">Fpvtips.com</a></strong>. It takes a second to <strong>add a spot to the map</strong> and you can also <strong>add a link to YouTube video or Instagram photo</strong> from that spot for fame and glory.
+  Add <strong>your FPV spots</strong> on the map over at 
+  <strong><a href="https://www.fpvtips.com/fpv-map">fpvtips.com/fpv-map</a></strong>.
 </div>
 
 I recently upgraded to a [Taranis Q X7][7] and after doing the initial setup I decided to sum up some of the main points in a helpful post. Much of the information gathered here was heavily influenced from Project Blue Falcon's [excellent video series on YouTube][8]. I hope this write up helps you breeze through the configuration and gets you flying in no time!
