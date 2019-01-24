@@ -805,7 +805,8 @@ div > pre {
 
 .disclaimer-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 1rem;
 }
 
@@ -936,11 +937,16 @@ iframe {
 }
 
 .post-preview-tag {
+  cursor: pointer;
   background: #dedede;
   border-radius: 2px;
   margin-right: 0.25rem;
   margin-top: 0.25rem;
   padding: 0 0.2rem;
+}
+
+.post-preview-tag:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 2px;
 }
 
 @media (min-width: 1280px) {
@@ -1223,4 +1229,11 @@ video {
 video.fade-in {
   opacity: 1;
   transition: opacity 275ms ease-in-out;
+}
+
+/* Dark Mode */
+/* TODO: Implement styles */
+.dark-mode .main-wrapper {
+  background-color: #504d4d;
+  color: #fff;
 }

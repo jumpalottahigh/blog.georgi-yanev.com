@@ -22,6 +22,96 @@ const months = [
 const currentMonth = months[new Date().getMonth()]
 const currentYear = new Date().getFullYear()
 
+const Post = ({ post, showChevron, showImage, handleTagClick }) => {
+  return (
+    <li className="post-preview">
+      <Link to={post.node.frontmatter.path + '/'}>
+        <h4>
+          {currentMonth === post.node.frontmatter.date.split(' ')[0] &&
+          currentYear === parseInt(post.node.frontmatter.date.split(' ')[2])
+            ? '🆕 '
+            : null}
+          {post.node.frontmatter.title}
+        </h4>
+        <div className="post-preview-content">
+          {showImage === 'yes' || showImage === 'hover' ? (
+            <div
+              className={`post-preview-image ${showImage === 'hover' &&
+                'hover'}`}
+            >
+              {post.node.frontmatter.ogImage !== null ? (
+                <Img
+                  fluid={post.node.frontmatter.ogImage.childImageSharp.fluid}
+                  alt={post.node.frontmatter.title}
+                />
+              ) : (
+                <img
+                  src="/default-ogimage.png"
+                  alt={post.node.frontmatter.title}
+                />
+              )}
+            </div>
+          ) : null}
+          <p
+            className={
+              showImage === 'yes' || showImage === 'hover'
+                ? 'post-preview-excerpt'
+                : ''
+            }
+          >
+            {post.node.excerpt}
+          </p>
+        </div>
+      </Link>
+      <div className="post-preview-note">
+        <div>
+          <strong>{post.node.timeToRead} min</strong> read by{' '}
+          {post.node.frontmatter.author} on{' '}
+          <strong>{post.node.frontmatter.date}</strong> in{' '}
+          <strong
+            className={`post-preview-category category ${
+              post.node.frontmatter.category
+            }`}
+          >
+            {post.node.frontmatter.category}
+          </strong>
+          {post.node.frontmatter.tags && post.node.frontmatter.tags.length > 1 && (
+            <p
+              style={{
+                margin: 0,
+                fontSize: '0.8rem',
+                display: 'flex',
+                flexFlow: 'row wrap',
+              }}
+            >
+              {post.node.frontmatter.tags.map(tag => (
+                <React.Fragment key={post.node.frontmatter.id + tag}>
+                  <span
+                    onClick={handleTagClick}
+                    data-filter={tag}
+                    className="post-preview-tag"
+                  >
+                    {`#${tag}`}
+                  </span>
+                </React.Fragment>
+              ))}
+            </p>
+          )}
+        </div>
+        {showChevron === 'yes' && (
+          <Link to={post.node.frontmatter.path + '/'}>
+            <img
+              src={svgRightArrow}
+              style={{ height: '24px', justifySelf: 'flex-end' }}
+              alt="Arrow pointing right"
+            />
+          </Link>
+        )}
+      </div>
+    </li>
+  )
+}
+
 export default class PostsList extends React.Component {
   constructor(props) {
     super(props)
@@ -35,6 +125,7 @@ export default class PostsList extends React.Component {
       projects: [],
       smarthome: [],
       stories: [],
+      postsFilteredByTag: [],
     }
   }
 
@@ -90,6 +181,24 @@ export default class PostsList extends React.Component {
       )
       navigate(`${location.pathname}?${searchParams.toString()}`)
     }
+  }
+
+  handleTagClick = e => {
+    // Searched for
+    let searched = e.target.dataset.filter
+    let results = []
+
+    results = this.state.allPosts.filter(post => {
+      if (post.node.frontmatter.tags.includes(searched)) {
+        return post
+      }
+    })
+
+    // Filter the posts
+    this.setState({
+      postsFilteredByTag: [...results],
+      currentFilter: 'byTag',
+    })
   }
 
   handleSearch = e => {
@@ -155,6 +264,7 @@ export default class PostsList extends React.Component {
     const {
       allPosts,
       currentFilter,
+      postsFilteredByTag,
       fpv,
       projects,
       learning,
@@ -250,182 +360,32 @@ export default class PostsList extends React.Component {
         <ul className="list-none m-t-1">
           {currentFilter === 'all' && allPosts
             ? allPosts.map(post => (
-                <li key={post.node.id} className="post-preview">
-                  <Link to={post.node.frontmatter.path + '/'}>
-                    <h4 style={{ margin: 0 }}>
-                      {currentMonth ===
-                        post.node.frontmatter.date.split(' ')[0] &&
-                      currentYear ===
-                        parseInt(post.node.frontmatter.date.split(' ')[2])
-                        ? '🆕 '
-                        : null}
-                      {post.node.frontmatter.title}
-                    </h4>
-                    <div className="post-preview-content">
-                      {showImage === 'yes' || showImage === 'hover' ? (
-                        <div
-                          className={`post-preview-image ${showImage ===
-                            'hover' && 'hover'}`}
-                        >
-                          {post.node.frontmatter.ogImage !== null ? (
-                            <Img
-                              fluid={
-                                post.node.frontmatter.ogImage.childImageSharp
-                                  .fluid
-                              }
-                              alt={post.node.frontmatter.title}
-                            />
-                          ) : (
-                            <img
-                              src="/default-ogimage.png"
-                              alt={post.node.frontmatter.title}
-                            />
-                          )}
-                        </div>
-                      ) : null}
-                      <p
-                        className={
-                          showImage === 'yes' || showImage === 'hover'
-                            ? 'post-preview-excerpt'
-                            : ''
-                        }
-                      >
-                        {post.node.excerpt}
-                      </p>
-                    </div>
-                    <div className="post-preview-note">
-                      <div>
-                        <strong>{post.node.timeToRead} min</strong> read by{' '}
-                        {post.node.frontmatter.author} on{' '}
-                        <strong>{post.node.frontmatter.date}</strong> in{' '}
-                        <strong
-                          className={`post-preview-category category ${
-                            post.node.frontmatter.category
-                          }`}
-                        >
-                          {post.node.frontmatter.category}
-                        </strong>
-                        {post.node.frontmatter.tags &&
-                          post.node.frontmatter.tags.length > 1 && (
-                            <p
-                              style={{
-                                margin: 0,
-                                fontSize: '0.8rem',
-                                display: 'flex',
-                                flexFlow: 'row wrap',
-                              }}
-                            >
-                              {post.node.frontmatter.tags.map(tag => (
-                                <React.Fragment
-                                  key={post.node.frontmatter.id + tag}
-                                >
-                                  <span className="post-preview-tag">
-                                    {`#${tag}`}
-                                  </span>
-                                </React.Fragment>
-                              ))}
-                            </p>
-                          )}
-                      </div>
-                      {showChevron === 'yes' && (
-                        <img
-                          src={svgRightArrow}
-                          style={{ height: '24px', justifySelf: 'flex-end' }}
-                          alt="Arrow pointing right"
-                        />
-                      )}
-                    </div>
-                  </Link>
-                </li>
+                <Post
+                  key={post.node.id}
+                  post={post}
+                  showChevron={showChevron}
+                  showImage={showImage}
+                  handleTagClick={this.handleTagClick}
+                />
+              ))
+            : currentFilter === 'byTag'
+            ? postsFilteredByTag.map(post => (
+                <Post
+                  key={post.node.id}
+                  post={post}
+                  showChevron={showChevron}
+                  showImage={showImage}
+                  handleTagClick={this.handleTagClick}
+                />
               ))
             : this.state[currentFilter].map(post => (
-                <li key={post.node.id} className="post-preview">
-                  <Link to={post.node.frontmatter.path + '/'}>
-                    <h4>
-                      {currentMonth ===
-                        post.node.frontmatter.date.split(' ')[0] &&
-                      currentYear ===
-                        parseInt(post.node.frontmatter.date.split(' ')[2])
-                        ? '🆕 '
-                        : null}
-                      {post.node.frontmatter.title}
-                    </h4>
-                    <div className="post-preview-content">
-                      {showImage === 'yes' || showImage === 'hover' ? (
-                        <div
-                          className={`post-preview-image ${showImage ===
-                            'hover' && 'hover'}`}
-                        >
-                          {post.node.frontmatter.ogImage !== null ? (
-                            <Img
-                              fluid={
-                                post.node.frontmatter.ogImage.childImageSharp
-                                  .fluid
-                              }
-                              alt={post.node.frontmatter.title}
-                            />
-                          ) : (
-                            <img
-                              src="/default-ogimage.png"
-                              alt={post.node.frontmatter.title}
-                            />
-                          )}
-                        </div>
-                      ) : null}
-                      <p
-                        className={
-                          showImage === 'yes' || showImage === 'hover'
-                            ? 'post-preview-excerpt'
-                            : ''
-                        }
-                      >
-                        {post.node.excerpt}
-                      </p>
-                    </div>
-                    <div className="post-preview-note">
-                      <div>
-                        <strong>{post.node.timeToRead} min</strong> read by{' '}
-                        {post.node.frontmatter.author} on{' '}
-                        <strong>{post.node.frontmatter.date}</strong> in{' '}
-                        <strong
-                          className={`post-preview-category category ${
-                            post.node.frontmatter.category
-                          }`}
-                        >
-                          {post.node.frontmatter.category}
-                        </strong>
-                        {post.node.frontmatter.tags &&
-                          post.node.frontmatter.tags.length > 1 && (
-                            <p
-                              style={{
-                                margin: 0,
-                                fontSize: '0.8rem',
-                                display: 'flex',
-                                flexFlow: 'row wrap',
-                              }}
-                            >
-                              {post.node.frontmatter.tags.map(tag => (
-                                <React.Fragment
-                                  key={post.node.frontmatter.id + tag}
-                                >
-                                  <span className="post-preview-tag">
-                                    {`#${tag}`}
-                                  </span>
-                                </React.Fragment>
-                              ))}
-                            </p>
-                          )}
-                      </div>
-                      {showChevron === 'yes' && (
-                        <img
-                          src={svgRightArrow}
-                          style={{ height: '24px', justifySelf: 'flex-end' }}
-                          alt="Arrow pointing right"
-                        />
-                      )}
-                    </div>
-                  </Link>
-                </li>
+                <Post
+                  key={post.node.id}
+                  post={post}
+                  showChevron={showChevron}
+                  showImage={showImage}
+                  handleTagClick={this.handleTagClick}
+                />
               ))}
         </ul>
       </div>
