@@ -178,7 +178,28 @@ class BlogIndex extends React.Component {
             </strong>{' '}
             which I recently launched!
           </div>
-          <h4 style={{ marginTop: '2rem' }}>Last 5 recent posts:</h4>
+          <h3 style={{ marginTop: '2rem' }}>Last 5 recent posts:</h3>
+          <Link style={{ marginRight: '0.5rem' }} to="/news/">
+            <button className="category all">All blog posts</button>
+          </Link>
+          <Link style={{ marginRight: '0.5rem' }} to="/news/?category=fpv">
+            <button className="category fpv">FPV</button>
+          </Link>
+          <Link style={{ marginRight: '0.5rem' }} to="/news/?category=projects">
+            <button className="category projects">Projects</button>
+          </Link>
+          <Link style={{ marginRight: '0.5rem' }} to="/news/?category=learning">
+            <button className="category learning">Learnings</button>
+          </Link>
+          <Link
+            style={{ marginRight: '0.5rem' }}
+            to="/news/?category=smarthome"
+          >
+            <button className="category smarthome">Smarthome</button>
+          </Link>
+          <Link to="/news/?category=stories">
+            <button className="category stories">Stories</button>
+          </Link>
           <PostsList
             showChevron="yes"
             showImage="yes"
@@ -186,18 +207,15 @@ class BlogIndex extends React.Component {
             showSearch="no"
             posts={posts}
           />
-          <Button
-            style={{ fontSize: '1.2rem', marginRight: '1rem' }}
-            to="/news/"
-          >
-            Show all blog posts
-          </Button>
+          <Link style={{ marginRight: '0.5rem' }} to="/news/">
+            <button className="category fpv">More blog posts</button>
+          </Link>
+          <TinyLetterSignup />
           <p style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
             Additionally, the Eternal Archives section of the blog hosts a bunch
             of unedited content (fan fiction, music and programming) from the
             early 2000s when I was only 15 - 17.
           </p>
-          <TinyLetterSignup />
           <Img
             style={{ marginBottom: '1rem' }}
             fluid={

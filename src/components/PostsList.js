@@ -385,7 +385,7 @@ export default class PostsList extends React.Component {
             />
           </div>
         )}
-        <hr />
+        {showCategories === 'yes' || showSearch === 'yes' ? <hr /> : null}
         <ul className="list-none m-t-1">
           {currentFilter === 'all' && allPosts
             ? allPosts.map(post => (
