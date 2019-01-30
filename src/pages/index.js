@@ -178,7 +178,7 @@ class BlogIndex extends React.Component {
             </strong>{' '}
             which I recently launched!
           </div>
-          <h3 style={{ marginTop: '2rem' }}>Last 5 recent posts:</h3>
+          <h4 style={{ marginTop: '2rem' }}>Categories:</h4>
           <Link style={{ marginRight: '0.5rem' }} to="/news/">
             <button className="category all">All blog posts</button>
           </Link>
@@ -200,6 +200,7 @@ class BlogIndex extends React.Component {
           <Link to="/news/?category=stories">
             <button className="category stories">Stories</button>
           </Link>
+          <h3 style={{ marginTop: '2rem' }}>Last 5 recent posts:</h3>
           <PostsList
             showChevron="yes"
             showImage="yes"
