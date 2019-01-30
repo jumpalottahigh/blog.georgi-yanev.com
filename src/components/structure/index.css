@@ -1165,6 +1165,12 @@ button {
   padding-bottom: 1rem;
 }
 
+.blog-post-content h2,
+.blog-post-content h3,
+.blog-post-content h4 {
+  margin-top: 2.5rem;
+}
+
 .related-articles {
   border-top: 1px solid #cecece;
   padding: 1rem 0;

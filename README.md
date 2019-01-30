@@ -1,6 +1,9 @@
 # blog.georgi-yanev.com
 
-### :orange_book: Blog built with Gatsby and hosted on Netlify.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1a0f6f67-8add-4437-88ba-2789b1049778/deploy-status)](https://app.netlify.com/sites/blog-georgi/deploys)
+[![Lighthouse score: 98/100](https://lighthouse-badge.appspot.com/?score=98)](https://github.com/ebidel/lighthouse-badge)
+
+### 📘 Blog built with Gatsby and hosted on Netlify.
 
 This blog uses Gatsby as a React based static site generator. I write articles about FPV quads, web dev, life-long learning and other topics from my personal experience.
 
