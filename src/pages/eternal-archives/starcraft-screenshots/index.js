@@ -1,20 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import Img from 'gatsby-image'
+import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import Layout from '../../../components/structure/layout'
 
-import starcraftBug2 from '../../../images/starcraft-bug2.png'
-import starcraftBug3 from '../../../images/starcraft-bug3.png'
-import starcraftBug4 from '../../../images/starcraft-bug4.png'
-import starcraftBug5 from '../../../images/starcraft-bug5.png'
-import starcraftBug6 from '../../../images/starcraft-bug6.png'
-import starcraftBug7 from '../../../images/starcraft-bug7.png'
-import starcraftBug8 from '../../../images/starcraft-bug8.png'
-import starcraftBug9 from '../../../images/starcraft-bug9.png'
-import starcraftBug10 from '../../../images/starcraft-bug10.png'
-
-const StarCraftScreenShotsPage = () => (
+const StarCraftScreenShotsPage = ({ data }) => (
   <Layout>
     <Helmet title="StarCraft Screenshots" />
     <h1>StarCraft Screenshots</h1>
@@ -26,54 +17,38 @@ const StarCraftScreenShotsPage = () => (
       </span>
     </div>
 
-    <div className="m-b-1">
-      <img src={starcraftBug2} alt="Nexus with a Nuclear Silo" />
-      <p>Nexus with a Nuclear Silo</p>
+    <div>
+      {data.starCraftBugs.edges.map(({ node: img }) => (
+        <div key={img.id} style={{ margin: '1rem', maxWidth: '640px' }}>
+          <Img fluid={img.childImageSharp.fluid} alt={img.name} />
+        </div>
+      ))}
     </div>
-    <div className="m-b-1">
-      <img src={starcraftBug3} alt="Infested Spore Colony" />
-      <p>Infested Spore Colony</p>
-    </div>
-    <div className="m-b-1">
-      <img src={starcraftBug4} alt="Invisible minerals moving" />
-      <p>Invisible minerals moving</p>
-    </div>
-    <div className="m-b-1">
-      <img
-        src={starcraftBug5}
-        alt="A Creep Colony builds another Creep Colony?"
-      />
-      <p>A Creep Colony builds another Creep Colony?</p>
-    </div>
-    <div className="m-b-1">
-      <img src={starcraftBug6} alt="Showing through the stones" />
-      <p>Showing through the stones</p>
-    </div>
-    <div className="m-b-1">
-      <img
-        src={starcraftBug7}
-        alt="Reavers' ammo holds still since it can't quite make it"
-      />
-      <p>Reavers' ammo holds still since it can't quite make it</p>
-    </div>
-    <div className="m-b-1">
-      <img src={starcraftBug8} alt="Infested Spore Colony" />
-      <p>Infested Spore Colony</p>
-    </div>
-    <div className="m-b-1">
-      <img src={starcraftBug9} alt="Zergling in the middle of a Hatchery" />
-      <p>Zergling in the middle of a Hatchery</p>
-    </div>
-    <div className="m-b-1">
-      <img
-        src={starcraftBug10}
-        alt="That exact moment when the Bunker is destroyed"
-      />
-      <p>That exact moment when the Bunker is destroyed</p>
-    </div>
-
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
 export default StarCraftScreenShotsPage
+
+export const StarCraftScreenShotsPageQuery = graphql`
+  query StarCraftScreenShotsPageQuery {
+    starCraftBugs: allFile(
+      filter: {
+        relativePath: {
+          regex: "/^eternal-archives/starcraft-bugs/starcraft-bug/"
+        }
+      }
+    ) {
+      edges {
+        node {
+          id
+          name
+          childImageSharp {
+            fluid(maxWidth: 640, quality: 75) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+    }
+  }
+`

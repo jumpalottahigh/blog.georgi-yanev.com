@@ -179,20 +179,52 @@ class BlogIndex extends React.Component {
             which I recently launched!
           </div>
           <h4 style={{ marginTop: '2rem' }}>Categories:</h4>
-          <Link style={{ marginRight: '0.5rem' }} to="/news/">
+          <Link
+            style={{
+              marginRight: '0.5rem',
+              marginBottom: '0.5rem',
+              display: 'inline-block',
+            }}
+            to="/news/"
+          >
             <button className="category all">All blog posts</button>
           </Link>
-          <Link style={{ marginRight: '0.5rem' }} to="/news/?category=fpv">
+          <Link
+            style={{
+              marginRight: '0.5rem',
+              marginBottom: '0.5rem',
+              display: 'inline-block',
+            }}
+            to="/news/?category=fpv"
+          >
             <button className="category fpv">FPV</button>
           </Link>
-          <Link style={{ marginRight: '0.5rem' }} to="/news/?category=projects">
+          <Link
+            style={{
+              marginRight: '0.5rem',
+              marginBottom: '0.5rem',
+              display: 'inline-block',
+            }}
+            to="/news/?category=projects"
+          >
             <button className="category projects">Projects</button>
           </Link>
-          <Link style={{ marginRight: '0.5rem' }} to="/news/?category=learning">
+          <Link
+            style={{
+              marginRight: '0.5rem',
+              marginBottom: '0.5rem',
+              display: 'inline-block',
+            }}
+            to="/news/?category=learning"
+          >
             <button className="category learning">Learnings</button>
           </Link>
           <Link
-            style={{ marginRight: '0.5rem' }}
+            style={{
+              marginRight: '0.5rem',
+              marginBottom: '0.5rem',
+              display: 'inline-block',
+            }}
             to="/news/?category=smarthome"
           >
             <button className="category smarthome">Smarthome</button>

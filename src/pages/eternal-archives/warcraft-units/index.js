@@ -1,18 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import Img from 'gatsby-image'
+import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import Layout from '../../../components/structure/layout'
 
-import warcraft1HumanUnits from '../../../images/warcraft-units/warcraft-1-human-units.png'
-import warcraft1OrcUnits from '../../../images/warcraft-units/warcraft-1-orc-units.png'
-import warcraft2HumanLandUnits from '../../../images/warcraft-units/warcraft-2-human-land-units.png'
-import warcraft2OrcLandUnits from '../../../images/warcraft-units/warcraft-2-orc-land-units.png'
-import warcraft2HumanWaterUnits from '../../../images/warcraft-units/warcraft-2-human-water-units.png'
-import warcraft2OrcWaterUnits from '../../../images/warcraft-units/warcraft-2-orc-water-units.png'
-import warcraft2SpecialUnits from '../../../images/warcraft-units/warcraft-2-special-units.png'
-
-const WarCraftUnitsPage = () => (
+const WarCraftUnitsPage = ({ data }) => (
   <Layout>
     <Helmet title="WarCraft Units" />
     <h1>WarCraft Units</h1>
@@ -24,43 +17,61 @@ const WarCraftUnitsPage = () => (
       </span>
     </div>
 
-    <div className="m-b-1">
-      <img
-        src={warcraft1HumanUnits}
-        alt="WarCraft 1 Human Units"
-        className="m-r-1"
-      />
-      <img src={warcraft1OrcUnits} alt="WarCraft 1 Orc Units" />
-      <p>WarCraft 1 Human and Orc Units</p>
+    <div>
+      {data.warcraft1.edges.map(({ node: img }) => (
+        <div key={img.id} style={{ margin: '1rem', maxWidth: '360px' }}>
+          <Img fluid={img.childImageSharp.fluid} alt={img.name} />
+        </div>
+      ))}
     </div>
 
-    <div className="m-b-1">
-      <img
-        src={warcraft2HumanLandUnits}
-        alt="WarCraft 2 Human Land Units"
-        className="m-r"
-      />
-      <img src={warcraft2OrcLandUnits} alt="WarCraft 2 Orc Land Units" />
-      <p>WarCraft 2 Human and Orc Land Units</p>
+    <div>
+      {data.warcraft2.edges.map(({ node: img }) => (
+        <div key={img.id} style={{ margin: '1rem', maxWidth: '360px' }}>
+          <Img fluid={img.childImageSharp.fluid} alt={img.name} />
+        </div>
+      ))}
     </div>
-
-    <div className="m-b-1">
-      <img
-        src={warcraft2HumanWaterUnits}
-        alt="WarCraft 2 Human Water Units"
-        className="m-r-1"
-      />
-      <img src={warcraft2OrcWaterUnits} alt="WarCraft 2 Orc Water Units" />
-      <p>WarCraft 2 Human and Orc Water Units</p>
-    </div>
-
-    <div className="m-b-1">
-      <img src={warcraft2SpecialUnits} alt="WarCraft 2 Special Units" />
-      <p>WarCraft 2 Special Units</p>
-    </div>
-
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
 export default WarCraftUnitsPage
+
+export const WarCraftUnitsPageQuery = graphql`
+  query WarCraftUnitsPageQuery {
+    warcraft1: allFile(
+      filter: {
+        relativePath: { regex: "/^eternal-archives/warcraft-units/warcraft-1/" }
+      }
+    ) {
+      edges {
+        node {
+          id
+          name
+          childImageSharp {
+            fluid(maxWidth: 360, quality: 75) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+    }
+    warcraft2: allFile(
+      filter: {
+        relativePath: { regex: "/^eternal-archives/warcraft-units/warcraft-2/" }
+      }
+    ) {
+      edges {
+        node {
+          id
+          name
+          childImageSharp {
+            fluid(maxWidth: 360, quality: 75) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+    }
+  }
+`
