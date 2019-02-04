@@ -3,11 +3,7 @@ import styled from 'styled-components'
 import { graphql, Link, StaticQuery } from 'gatsby'
 import Img from 'gatsby-image'
 import Hamburger from './Hamburger'
-
-import github from '../../../../static/github.svg'
-import twitter from '../../../../static/twitter.svg'
-import linkedin from '../../../../static/linkedin.svg'
-import rss from '../../../../static/rss.svg'
+import SocialIcons from './SocialIcons'
 
 const AppBarWrapper = styled.div`
   display: flex;
@@ -127,40 +123,7 @@ const Header = () => (
                 <a href="https://www.georgi-yanev.com/about">About</a>
               </li>
             </ul>
-            <ul className="nav social">
-              <li>
-                <a
-                  href="https://github.com/jumpalottahigh"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={github} alt="Github" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/jumpalottahigh"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={twitter} alt="Twitter" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/yanevgeorgi/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={linkedin} alt="LinkedIn" />
-                </a>
-              </li>
-              <li>
-                <a href="/feed.xml">
-                  <img src={rss} alt="Subscribe to RSS feed" />
-                </a>
-              </li>
-            </ul>
+            <SocialIcons />
             <Hamburger className="hamburger" />
           </AppBarWrapper>
         </div>

@@ -6,6 +6,7 @@ import SideBar from '../Sidebar'
 import MenuFAB from '../MenuFAB/MenuFAB'
 
 import './index.css'
+import './darkmode.css'
 // PrismJS dependency
 import 'prismjs/themes/prism-okaidia.css'
 

@@ -1233,10 +1233,3 @@ video.fade-in {
   opacity: 1;
   transition: opacity 275ms ease-in-out;
 }
-
-/* Dark Mode */
-/* TODO: Implement styles */
-.dark-mode .main-wrapper {
-  background-color: #504d4d;
-  color: #fff;
-}

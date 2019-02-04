@@ -7,6 +7,7 @@ import RelatedArticles from '../components/RelatedArticles.js'
 import SupportSection from '../components/SupportSection.js'
 import ReadProgressLine from '../components/ReadProgressLine.js'
 import TinyLetterSignup from '../components/TinyLetterSignUp'
+import Mode from '../components/Mode'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -112,16 +113,25 @@ class BlogPostTemplate extends React.Component {
             <ReadProgressLine />
             <h1>{post.frontmatter.title}</h1>
             <div className="disclaimer-container">
-              <span className="disclaimer">
-                <a
-                  href="https://twitter.com/jumpalottahigh"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {post.frontmatter.author}
-                </a>
-              </span>
-              <span className="year">{post.frontmatter.date}</span>
+              <div>
+                <div className="disclaimer">
+                  <a
+                    href="https://twitter.com/jumpalottahigh"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {post.frontmatter.author}
+                  </a>
+                </div>
+                <div className="year">{post.frontmatter.date}</div>
+              </div>
+              <div>
+                {/* TODO: Pick one of the SVG emoji for the buttons
+                Implement rotating animation on click */}
+                {/* TODO: implement save theme to LS */}
+                {/* <Mode lightModeEmoji="🌑💡☀🌞🔆🌙🔅🔆🔅🔆" darkModeEmoji="🌕" /> */}
+                <Mode lightModeEmoji="🔅" darkModeEmoji="🔆" />
+              </div>
             </div>
             <div
               className="blog-post-content"
