@@ -764,7 +764,7 @@ pre tt:after {
   padding: 0;
 }
 
-.social li a img {
+.social li a svg {
   width: 24px;
   height: 24px;
 }

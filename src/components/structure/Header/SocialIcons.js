@@ -1,73 +1,58 @@
 import React from 'react'
-import github from '../../../../static/github.svg'
-import twitter from '../../../../static/twitter.svg'
-import linkedin from '../../../../static/linkedin.svg'
-import rss from '../../../../static/rss.svg'
 
-// TODO: Bring in the icons as svg and to be able to style them for dark mode easily
-const LS_KEY_GY_BLOG_DARK_MODE = 'gy-blog-dark-mode'
+const SocialIcons = () => (
+  <ul className="nav social">
+    <li>
+      <a
+        href="https://github.com/jumpalottahigh"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg
+          aria-labelledby="simpleicons-github-icon"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://twitter.com/jumpalottahigh"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg
+          aria-labelledby="simpleicons-twitter-icon"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M23.954 4.569a10 10 0 0 1-2.825.775 4.958 4.958 0 0 0 2.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 0 0-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 0 0-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 0 1-2.228-.616v.061a4.923 4.923 0 0 0 3.946 4.827 4.996 4.996 0 0 1-2.212.085 4.937 4.937 0 0 0 4.604 3.417 9.868 9.868 0 0 1-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0 0 7.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 0 0 2.46-2.548l-.047-.02z" />
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.linkedin.com/in/yanevgeorgi/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M19 0H5a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h14a5 5 0 0 0 5-5V5a5 5 0 0 0-5-5zM8 19H5V8h3v11zM6.5 6.732c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zM20 19h-3v-5.604c0-3.368-4-3.113-4 0V19h-3V8h3v1.765c1.396-2.586 7-2.777 7 2.476V19z" />
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="/feed.xml">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+          <path d="M136.8 736.4C66.9 736.4 10 793.2 10 863.2 10 933.1 66.9 990 136.8 990s126.8-56.9 126.8-126.8c0-70-56.9-126.8-126.8-126.8z" />
+          <path d="M31.1 375.1c-5.5-.1-10.7 1.8-14.6 5.6-3.9 3.8-6.1 9-6.1 14.4v162.7c0 10.7 8.4 19.5 19.2 20 214.1 9.8 382.9 178.6 392.6 392.6.5 10.7 9.3 19.1 20 19.1h162.7c5.4 0 10.7-2.2 14.4-6.1 3.8-3.9 5.8-9.2 5.6-14.6-5.2-156-69.1-303-180-413.9C334.1 444.2 187.1 380.3 31.1 375.1z" />
+          <path d="M702.9 297.2C522.9 117.2 284.3 15.3 30.8 10c-5.4-.3-10.6 1.9-14.4 5.7-3.9 3.8-6 8.9-6 14.3v162.6c0 10.9 8.7 19.8 19.6 20.1C437.3 223 777 562.8 787.2 970.1c.3 10.9 9.2 19.5 20.1 19.5h162.6c5.4 0 10.6-2.2 14.3-6 3.8-3.9 5.8-9.1 5.7-14.5-5.1-253.4-107.1-492-287-671.9z" />
+        </svg>
+      </a>
+    </li>
+  </ul>
+)
 
-export default class SocialIcons extends React.Component {
-  state = {
-    darkMode: false,
-  }
-
-  componentDidMount = () => {
-    // Check if dark mode has been set
-    let darkModeFromLS = JSON.parse(
-      self.localStorage.getItem(LS_KEY_GY_BLOG_DARK_MODE)
-    )
-
-    if (darkModeFromLS) {
-      this.setState({
-        darkMode: darkModeFromLS,
-      })
-    }
-  }
-
-  render() {
-    const { darkMode } = this.state
-
-    return (
-      <ul className="nav social">
-        <li>
-          <a
-            href="https://github.com/jumpalottahigh"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {/* {darkMode ? (
-              <img src={twitter} alt="Twitter" />
-            ) : (
-              <img src={github} alt="Github" />
-              )} */}
-            <img src={github} alt="Github" />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://twitter.com/jumpalottahigh"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={twitter} alt="Twitter" />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/yanevgeorgi/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={linkedin} alt="LinkedIn" />
-          </a>
-        </li>
-        <li>
-          <a href="/feed.xml">
-            <img src={rss} alt="Subscribe to RSS feed" />
-          </a>
-        </li>
-      </ul>
-    )
-  }
-}
+export default SocialIcons

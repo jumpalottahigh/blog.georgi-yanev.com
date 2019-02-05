@@ -7,7 +7,7 @@ import RelatedArticles from '../components/RelatedArticles.js'
 import SupportSection from '../components/SupportSection.js'
 import ReadProgressLine from '../components/ReadProgressLine.js'
 import TinyLetterSignup from '../components/TinyLetterSignUp'
-import Mode from '../components/Mode'
+import ModeSwitch from '../components/Mode'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -126,11 +126,7 @@ class BlogPostTemplate extends React.Component {
                 <div className="year">{post.frontmatter.date}</div>
               </div>
               <div>
-                {/* TODO: Pick one of the SVG emoji for the buttons
-                Implement rotating animation on click */}
-                {/* TODO: implement save theme to LS */}
-                {/* <Mode lightModeEmoji="🌑💡☀🌞🔆🌙🔅🔆🔅🔆" darkModeEmoji="🌕" /> */}
-                <Mode lightModeEmoji="🔅" darkModeEmoji="🔆" />
+                <ModeSwitch />
               </div>
             </div>
             <div

@@ -48,6 +48,7 @@
   background-color: var(--dark-mode-link-color);
 }
 
+.dark-mode header .nav a[aria-current],
 .dark-mode .sidebar-wrapper a[aria-current] {
   color: var(--dark-mode-link-color-hover) !important;
 }
@@ -147,6 +148,24 @@
   border-bottom: none;
 }
 
-/* TODO:
-- Top nav social icons (styled svgs)
-*/
+.dark-mode .social li a svg {
+  filter: invert(85%);
+}
+
+.dark-mode .bm-burger-bars {
+  background-color: var(--dark-mode-color);
+}
+
+.dark-mode .bm-menu {
+  background-color: var(--dark-mode-bg-color-secondary);
+}
+
+.dark-mode .menu-sidebar {
+  background-color: var(--dark-mode-bg-color);
+}
+
+.dark-mode .menu-sidebar .post-preview,
+.dark-mode .main .post-preview {
+  color: var(--dark-mode-black);
+  background-color: var(--dark-mode-bg-color-secondary);
+}
