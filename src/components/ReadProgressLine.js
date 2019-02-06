@@ -1,35 +1,34 @@
 import React from 'react'
 import ScrollProgress from 'scrollprogress'
 
-export default class ReadProgressLine extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      progress: 0
-    }
+function ReadProgressLine() {
+  const [progress, setProgress] = React.useState(0)
+
+  const initialStyle = {
+    backgroundColor: '#0175d8',
+    height: '5px',
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    zIndex: 9,
   }
 
-  componentDidMount() {
-    this.progressObserver = new ScrollProgress((x, y) => {
-      this.setState({ progress: y * 100 })
+  React.useEffect(() => {
+    const progressObserver = new ScrollProgress((x, y) => {
+      setProgress(y * 100)
     })
-  }
 
-  componentWillUnmount() {
-    this.progressObserver.destroy()
-  }
-
-  render() {
-    const style = {
-      backgroundColor: '#0175d8',
-      height: '5px',
-      position: 'fixed',
-      top: 0,
-      left: 0,
-      zIndex: 9,
-      width: `${this.state.progress}%`
+    return () => {
+      progressObserver.destroy()
     }
+  })
 
-    return <div className="progress-bar" style={style} />
-  }
+  return (
+    <div
+      className="progress-bar"
+      style={{ ...initialStyle, width: `${progress}%` }}
+    />
+  )
 }
+
+export default ReadProgressLine

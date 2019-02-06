@@ -12,12 +12,18 @@
   --dark-mode-black: #212121;
   --dark-mode-blue-2: #56b6c2;
   --dark-mode-blue-2-hover: #50adb9;
-
-  /* --dark-mode-color: #e5c07b;
-  --dark-mode-color: #98c379;
-  --dark-mode-color: #7f848e;
-  --dark-mode-color: #d19a66; */
 }
+
+.dark-mode header,
+.dark-mode .main-wrapper,
+.dark-mode .sidebar-wrapper {
+  transition: all 175ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.dark-mode .main {
+  transition: all 275ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 .dark-mode header {
   background-color: var(--dark-mode-bg-color) !important;
   color: var(--dark-mode-color) !important;

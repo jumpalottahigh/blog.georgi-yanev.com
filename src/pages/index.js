@@ -8,7 +8,6 @@ import Footer from '../components/structure/Footer/Footer'
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
 import PostsList from '../components/PostsList'
-import Button from '../components/Button/Button'
 import TinyLetterSignup from '../components/TinyLetterSignUp'
 
 class BlogIndex extends React.Component {

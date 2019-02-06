@@ -11,7 +11,10 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  plugins: ['prettier', 'react'],
+  plugins: ['prettier', 'react', 'react-hooks'],
+  rules: {
+    'react-hooks/rules-of-hooks': 'error',
+  },
   globals: {
     graphql: false,
   },
