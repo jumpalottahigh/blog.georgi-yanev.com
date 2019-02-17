@@ -3,18 +3,14 @@ path: '/fpv/upgrading-your-wizard-part-2/'
 date: '2018-08-11'
 title: 'Upgrading your Wizard x220 Part 2'
 author: 'Georgi Yanev'
-affiliate:
-  'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
 category: 'fpv'
 tags:
   - 'wizard'
   - 'upgrade'
-ogKeywords:
-  'FPV, racing quads, Wizard x220, quad, drone, getting started, upgrade wizard, cheap upgrades, soft mount, motor guards, threadlock, thread lock, remove leds'
-ogDescription:
-  "Over time I have done a number of upgrades to my Wizard x220. So many in fact, it's nowadays more of a custom build than a wizard and that's half the fun.
-Here's a few upgrades regarding soft mounting motors, thread locking the motor screws, removing motor guards and leds."
+ogKeywords: 'FPV, racing quads, Wizard x220, quad, drone, getting started, upgrade wizard, cheap upgrades, soft mount, motor guards, threadlock, thread lock, remove leds'
+ogDescription: "Over time I have done a number of upgrades to my Wizard x220. So many in fact, it's nowadays more of a custom build than a wizard and that's half the fun. Here's a few upgrades regarding soft mounting motors, thread locking the motor screws, removing motor guards and leds."
 ogImage: './upgrading-your-wizard-part-2-3.jpg'
 ---
 

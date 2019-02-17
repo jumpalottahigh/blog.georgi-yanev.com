@@ -101,9 +101,9 @@ Go to the radio configuration and make sure you set **Battery range** to **6.8-8
 Voila! Enjoy not having to buy any more AA batteries.
 
 [0]: Linkslist
-[1]: http://www.open-tx.org
-[2]: http://www.open-tx.org/2017/12/16/opentx-2.2.1
-[3]: http://www.open-tx.org/downloads
+[1]: https://www.open-tx.org
+[2]: https://www.open-tx.org/2017/12/16/opentx-2.2.1
+[3]: https://www.open-tx.org/downloads
 [4]: https://downloads.open-tx.org/2.2/sdcard/
 [5]: https://bit.ly/sd-card-16
 [6]: http://open-txu.org/v2-2-resources-2/

@@ -118,7 +118,7 @@ class BlogPostTemplate extends React.Component {
                   <a
                     href="https://twitter.com/jumpalottahigh"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     {post.frontmatter.author}
                   </a>
