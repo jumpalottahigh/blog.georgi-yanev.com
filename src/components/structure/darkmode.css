@@ -9,6 +9,7 @@
   --dark-mode-green: #98c379;
   --dark-mode-red: #e06c75;
   --dark-mode-blue: #61afef;
+  --dark-mode-blue-hover: #67b4f4;
   --dark-mode-black: #212121;
   --dark-mode-blue-2: #56b6c2;
   --dark-mode-blue-2-hover: #50adb9;
@@ -137,13 +138,13 @@
 }
 
 .dark-mode [class|='TinyLetterSignUp__TinyLetter'] input[type='submit'] {
-  background-color: var(--dark-mode-blue-2);
-  border-color: var(--dark-mode-blue-2);
+  background-color: var(--dark-mode-blue);
+  border-color: var(--dark-mode-blue);
 }
 
 .dark-mode [class|='TinyLetterSignUp__TinyLetter'] input[type='submit']:hover {
-  background-color: var(--dark-mode-blue-2-hover);
-  border-color: var(--dark-mode-blue-2-hover);
+  background-color: var(--dark-mode-blue-hover);
+  border-color: var(--dark-mode-blue-hover);
 }
 
 .dark-mode .tinyletter-link {

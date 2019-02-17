@@ -33,17 +33,18 @@ const TinyLetter = styled.div`
   }
 
   input[type='submit'] {
-    background-color: #d41248;
+    background-color: #0275d8;
     border-radius: 4px;
     padding: 12px;
     color: #fff;
     font-weight: 700;
-    border: 1px solid #d41248;
+    border: 1px solid #0275d8;
     cursor: pointer;
   }
 
   input[type='submit']:hover {
-    background-color: rgba(212, 18, 72, 0.8);
+    background-color: #1885e2;
+    border-color: #1885e2;
   }
 
   .tinyletter-link {
@@ -91,8 +92,8 @@ const TinyLetter = styled.div`
   }
 `
 
-class TinyLetterSignup extends React.Component {
-  handleTinyLetterFormSubmit = () => {
+const TinyLetterSignup = () => {
+  const handleTinyLetterFormSubmit = () => {
     window.open(
       'https://tinyletter.com/jumpalottahigh',
       'popupwindow',
@@ -101,47 +102,45 @@ class TinyLetterSignup extends React.Component {
     return true
   }
 
-  render() {
-    return (
-      <TinyLetter>
-        <h3>📰 Subscribe to the newsletter</h3>
-        <p className="one">
-          Get the latest content updates on{' '}
-          <strong>interesting tech topics</strong>. Emails are{' '}
-          <strong>rare and high quality</strong>.
-        </p>
-        <form
-          action="https://tinyletter.com/jumpalottahigh"
-          method="post"
-          target="popupwindow"
-          onSubmit={this.handleTinyLetterFormSubmit}
-        >
-          <div>
-            <label htmlFor="tlemail">Enter your email address</label>
-          </div>
-          <div>
-            <input type="text" name="email" id="tlemail" placeholder="Email" />
-          </div>
-          <input type="hidden" value="1" name="embed" />
-          <input type="submit" value="Subscribe" />
-        </form>
-        <p className="two">
-          I will <strong>never spam</strong> you, I promise, and you can
-          unsubscribe at any time.
-        </p>
-        <div className="tinyletter">
-          <a
-            className="tinyletter-link"
-            href="https://tinyletter.com"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            powered by TinyLetter
-          </a>
+  return (
+    <TinyLetter>
+      <h3>📰 Subscribe to the newsletter</h3>
+      <p className="one">
+        Get the latest content updates on{' '}
+        <strong>interesting tech topics</strong>. Emails are{' '}
+        <strong>rare and high quality</strong>.
+      </p>
+      <form
+        action="https://tinyletter.com/jumpalottahigh"
+        method="post"
+        target="popupwindow"
+        onSubmit={handleTinyLetterFormSubmit}
+      >
+        <div>
+          <label htmlFor="tlemail">Enter your email address</label>
         </div>
-      </TinyLetter>
-    )
-  }
+        <div>
+          <input type="text" name="email" id="tlemail" placeholder="Email" />
+        </div>
+        <input type="hidden" value="1" name="embed" />
+        <input type="submit" value="Subscribe" />
+      </form>
+      <p className="two">
+        I will <strong>never spam</strong> you, I promise, and you can
+        unsubscribe at any time.
+      </p>
+      <div className="tinyletter">
+        <a
+          className="tinyletter-link"
+          href="https://tinyletter.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          powered by TinyLetter
+        </a>
+      </div>
+    </TinyLetter>
+  )
 }
 
 export default TinyLetterSignup
