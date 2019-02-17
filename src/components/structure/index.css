@@ -700,6 +700,20 @@ pre tt:after {
   width: 100%;
 }
 
+.sidenav-category {
+  color: #000 !important;
+}
+
+.sidenav-category:hover::after {
+  width: 0 !important;
+}
+
+.sidenav-category::after {
+  height: 0;
+  width: 0;
+  transition: none;
+}
+
 .sidenav-info {
   color: #548dbf;
   font-size: 0.7rem;
