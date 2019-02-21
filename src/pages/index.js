@@ -149,7 +149,7 @@ class BlogIndex extends React.Component {
             </a>
             . You can also{' '}
             <a href="https://twitter.com/jumpalottahigh">
-              follow me or poke me
+              follow me
             </a>{' '}
             on twitter.
           </p>

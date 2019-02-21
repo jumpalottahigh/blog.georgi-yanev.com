@@ -22,6 +22,8 @@ const months = [
 const currentMonth = months[new Date().getMonth()]
 const currentYear = new Date().getFullYear()
 
+const ALL_CATEGORIES = ['fpv', 'projects', 'learning', 'stories', 'smarthome']
+
 const Post = ({
   post,
   showChevron,
@@ -108,9 +110,17 @@ const Post = ({
         </div>
         {showChevron === 'yes' && (
           <Link to={post.node.frontmatter.path + '/'}>
-            <img
-              src={svgRightArrow}
+            {/* <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="306"
+              height="306"
               style={{ height: '24px', justifySelf: 'flex-end' }}
+              >
+              <path d="M94.35 0l-35.7 35.7L175.95 153 58.65 270.3l35.7 35.7 153-153z" />
+            </svg> */}
+            <img
+              style={{ height: '24px', justifySelf: 'flex-end' }}
+              src={svgRightArrow}
               alt="Arrow pointing right"
             />
           </Link>
@@ -254,7 +264,7 @@ export default class PostsList extends React.Component {
     let tag = searchParams.get('tag')
 
     // Update the state filter with the value of the URL param
-    if (category) {
+    if (category && ALL_CATEGORIES.includes(category)) {
       this.setState({
         currentFilter: category,
       })
@@ -398,7 +408,7 @@ export default class PostsList extends React.Component {
                   handleCategoryClick={this.handleCategoryFilterClick}
                 />
               ))
-            : currentFilter === 'byTag'
+            : currentFilter === 'byTag' && postsFilteredByTag
             ? postsFilteredByTag.map(post => (
                 <Post
                   key={post.node.id}

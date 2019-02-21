@@ -45,12 +45,12 @@ const SideBar = () => {
       <div className="sidebar">
         <ul className="sidenav">
           <li>
-            <a href="/news/?category=fpv" className="sidenav-category">
+            <Link to="/news/?category=fpv" className="sidenav-category">
               <span role="img" aria-label="helicopter">
                 🚁
               </span>{' '}
               <em>FPV quads</em>
-            </a>
+            </Link>
           </li>
           {fpv.map(page => (
             <li key={page.node.id}>
@@ -60,12 +60,12 @@ const SideBar = () => {
             </li>
           ))}
           <li>
-            <a href="/news/?category=projects" className="sidenav-category">
+            <Link to="/news/?category=projects" className="sidenav-category">
               <span role="img" aria-label="project">
                 📑
               </span>{' '}
               <em>Projects</em>
-            </a>
+            </Link>
           </li>
           {projects.map(page => (
             <li key={page.node.id}>
@@ -75,12 +75,12 @@ const SideBar = () => {
             </li>
           ))}
           <li>
-            <a href="/news/?category=learning" className="sidenav-category">
+            <Link to="/news/?category=learning" className="sidenav-category">
               <span role="img" aria-label="student">
                 👨‍🎓️
               </span>{' '}
               <em>Life-long learning</em>
-            </a>
+            </Link>
           </li>
           {learning.map(page => (
             <li key={page.node.id}>
@@ -90,12 +90,12 @@ const SideBar = () => {
             </li>
           ))}
           <li>
-            <a href="/news/?category=smarthome" className="sidenav-category">
+            <Link to="/news/?category=smarthome" className="sidenav-category">
               <span role="img" aria-label="house">
                 🏠
               </span>{' '}
               <em>Smart home automation</em>
-            </a>
+            </Link>
           </li>
           {smarthome.map(page => (
             <li key={page.node.id}>
@@ -105,12 +105,12 @@ const SideBar = () => {
             </li>
           ))}
           <li>
-            <a href="/news/?category=stories" className="sidenav-category">
+            <Link to="/news/?category=stories" className="sidenav-category">
               <span role="img" aria-label="hand writing">
                 ✍
               </span>{' '}
               <em>Writing</em>
-            </a>
+            </Link>
           </li>
           {stories.map(page => (
             <li key={page.node.id}>

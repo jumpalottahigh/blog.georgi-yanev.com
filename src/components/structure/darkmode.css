@@ -34,6 +34,10 @@
   color: var(--dark-mode-color);
 }
 
+.dark-mode .sidenav-category {
+  color: var(--dark-mode-color) !important;
+}
+
 .dark-mode .sidebar-wrapper {
   background-color: var(--dark-mode-bg-color);
   color: var(--dark-mode-color);
