@@ -22,7 +22,7 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location}>
         <Helmet
-          title={`Georgi Yanev - ${post.frontmatter.title}`}
+          title={`${post.frontmatter.title} - Georgi Yanev`}
           meta={[
             {
               name: 'description',
@@ -40,7 +40,7 @@ class BlogPostTemplate extends React.Component {
             },
             {
               property: 'og:title',
-              content: `Georgi Yanev | ${post.frontmatter.title}`,
+              content: `${post.frontmatter.title} | Georgi Yanev`,
             },
             {
               property: 'og:description',
@@ -64,7 +64,7 @@ class BlogPostTemplate extends React.Component {
             },
             {
               name: 'twitter:title',
-              content: `Georgi Yanev | ${post.frontmatter.title}`,
+              content: `${post.frontmatter.title} | Georgi Yanev`,
             },
             {
               name: 'twitter:description',
