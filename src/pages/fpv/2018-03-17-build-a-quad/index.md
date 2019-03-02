@@ -6,8 +6,8 @@ author: 'Georgi Yanev'
 draft: false
 category: 'fpv'
 tags:
+  - 'drone'
   - 'build'
-  - 'gear'
   - 'diy'
   - 'project'
 affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'

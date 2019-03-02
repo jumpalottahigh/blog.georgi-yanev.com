@@ -9,7 +9,7 @@ category: 'fpv'
 tags:
   - 'simulator'
   - 'taranis'
-ogKeywords: 'FPV, racing quads, quad, drone, getting started, simulator, fpv simulator, fpv drone simulator, quad simulator, liftoff, velocidrone, drl, the drone racing league simulator, fpv freerider, taranis qx7 simulator, taranis qx 7 trainer, practice fpv, practice in simulator, quadcopter simulator'
+ogKeywords: 'FPV, racing quads, quad, drone, getting started, simulator, fpv simulator, fpv drone simulator, quad simulator, liftoff, velocidrone, drl, the drone racing league simulator, fpv freerider, taranis qx7 simulator, taranis q x7 trainer, practice fpv, practice in simulator, quadcopter simulator'
 ogDescription: 'Whether you are a seasoned fpv drone pilot or a person just getting started with this hobby, there always is a reason to fly in a quadcopter simulator. At the very least, if you are practicing a new trick or just practicing flying in general, it just might save you many crashes, money, and frustration while walking to get your quad after your 10th crash for the day.'
 ogImage: './set-up-fpv-drone-simulator-6.jpg'
 ---
@@ -50,7 +50,7 @@ As far as Velocidrone is concerned it seems like it's the simulator that [Mr.Ste
 
 ### 📡 Transmitter
 
-I'm using a [Taranis QX 7][4] transmitter and to set it up all you need to do is to connect it to your computer via a [Mini USB B to USB cable][5].
+I'm using a [Taranis Q X7][4] transmitter and to set it up all you need to do is to connect it to your computer via a [Mini USB B to USB cable][5].
 
 ![Mini USB B to USB cable](set-up-fpv-drone-simulator-4.jpg)
 
@@ -60,13 +60,13 @@ Do note that depending on how far your computer is you might need a bit longer c
 
 In the case of the Taranis, the only thing you have to do when you plug it in is to select **"USB Joystick (HID)"** from the prompt that pops up when you plug the cable in. Then you are off to the races. Literally :)
 
-![Taranis QX 7 USB popup](set-up-fpv-drone-simulator-5.jpg)
+![Taranis Q X7 USB popup](set-up-fpv-drone-simulator-5.jpg)
 
-If you don't see this exact popup screen it could be that you are running an older version of OpenTX and if so, read this article where I cover [how to upgrade the firmware on the Taranis QX 7][6].
+If you don't see this exact popup screen it could be that you are running an older version of OpenTX and if so, read this article where I cover [how to upgrade the firmware on the Taranis Q X7][6].
 
 Additionally, you can go into the settings for your sim profile (or create one if you haven't yet) and also disable the internal RF as it's not required when you use the radio as a joystick in simulations. That's going to extend the transmitter's battery life as well. See image below and how Internal RF Mode is set to OFF.
 
-![Taranis QX 7 Internal RF mode set to OFF](set-up-fpv-drone-simulator-8.jpg)
+![Taranis Q X7 Internal RF mode set to OFF](set-up-fpv-drone-simulator-8.jpg)
 
 I have also previously set up a [FlySky FS i6][7] radio and the setup is largely the same. Especially if you get [the correct cable][8]. In my case I bought the wrong cable - the one for data transfer, not for training - and I had to do some shenanigans with creating my own trainer cable out of a headphone cable with a 3.5mm plug, and using the [SmartPropoPlus][9] software to get it to work.
 
@@ -82,7 +82,7 @@ I am using the [Aomway Commander][10] goggles. To connect them, use the mini HDM
 
 Enjoy your simulator set up and practice those inverted yaw spins, trippy spins and what-nots! Happy flying!
 
-![Taranis QX 7 and Aomway Commander v1 goggles](set-up-fpv-drone-simulator-6.jpg)
+![Taranis Q X7 and Aomway Commander v1 goggles](set-up-fpv-drone-simulator-6.jpg)
 
 ![Flying the Liftoff FPV simulator](set-up-fpv-drone-simulator-3.jpg)
 
