@@ -20,9 +20,9 @@ ogImage: './unbox-review-setup-eachine-trashcan-3.jpg'
 This is a sponsored review. Be that as it may, I still stand by every word and this is my objective and honest review of the drone. I'd never write a misleading article or point anyone in the wrong direction.
 </div>
 
-I was very excited when the [Eachine Trashcan][1] finally arrived, and not only because it's winter in the nortern hemisphere and micro drone flying happens more often. There has been a lot of hype about the Trashcan and rightfully so. Overall, in the micro drone (a tad bigger than a Tiny whoop type of drone) world interesting things have happened over the past year.
+I was very excited when the [Eachine Trashcan][1] finally arrived, and not only because it's winter in the northern hemisphere and micro drone flying happens more often. There has been a lot of hype about the Trashcan and rightfully so. Overall, in the microdrone (a tad bigger than a Tiny whoop type of drone) world interesting things have happened over the past year.
 
-I bought a [Snapper7][2] in August 2018 and that was an awesome little fellow. But more importantly it started a race. A few months later, the [Mobula7][3] came out and it was immediatelly crowned the best. Moreover, it could also sport 2S batteries and that was a game changer!
+I bought a [Snapper7][2] in August 2018 and that was an awesome little fellow. But more importantly, it started a race. A few months later, the [Mobula7][3] came out and it was immediately crowned the best. Moreover, it could also sport 2S batteries and that was a game changer!
 
 > **Then, a few months ago the [Trashcan][1] came out and knocked it out of the park.**
 
@@ -57,11 +57,11 @@ And a couple of close-up shots of the [Trashcan][1]
 
 ![Trashcan 3](unbox-review-setup-eachine-trashcan-3.jpg)
 
-Bonus points for the "backplate" decoration! 🎉 Yay! It's a trashcan 🎉 It trully gives the little guy so much spirit.
+Bonus points for the "backplate" decoration! 🎉 Yay! It's a trashcan 🎉 It truly gives the little guy so much spirit.
 
 ![Trashcan 4](unbox-review-setup-eachine-trashcan-4.jpg)
 
-As you can tell, the quad comes with a small USB charger that can charge 1 battery at a time. If you still haven't, definitely consider grabbing a [parallel charging board][6], in order to simultaneously charge multiple batteries at the same time, as well as to charge your smaller batteries off of a bigger battery, for example a 4S, on the go.
+As you can tell, the quad comes with a small USB charger that can charge 1 battery at a time. If you still haven't, definitely consider grabbing a [parallel charging board][6], in order to simultaneously charge multiple batteries at the same time, as well as to charge your smaller batteries off of a bigger battery, for example, a 4S, on the go.
 
 The Trashcan comes with 4 batteries, which is plenty to get you started, but you might find yourself outgrowing them soon and needing more, in which case, [grab yourself some more batteries][7].
 
@@ -69,7 +69,7 @@ The Trashcan comes also with a bunch of spare parts and tools.
 
 ![Trashcan spare parts](unbox-review-setup-eachine-trashcan-16.jpg)
 
-In the bag you will find: a prop prying tool, 4 spare props, a philips head screwdriver, a hex head tool, a small plug to enable you to fly 1S and an XT-30 connector in case you decide to make the switch to full time 2S batteries. Pretty neat!
+In the bag you will find: a prop prying tool, 4 spare props, a Philips head screwdriver, a hex head tool, a small plug to enable you to fly 1S and an XT-30 connector in case you decide to make the switch to full-time 2S batteries. Pretty neat!
 
 ### ⚙ <span id="parts-overview" class="offset-top-nav">Parts overview</span>
 
@@ -83,37 +83,37 @@ Here's an example screenshot so you can also get a sense of the default OSD.
 
 The VTX is up to 200mW which makes for decent range and penetration if you are legally allowed to run it at that power.
 
-The flight controller is an F4 with 2 UARTs. Nice! Another "small" but very appreciated feature is the canopy that allows for adjustable camera! So good! Now you can easily adjust he angle at which you prefer flying.
+The flight controller is an F4 with 2 UARTs. Nice! Another "small" but very appreciated feature is the canopy that allows you to adjust the camera! So good! Now you can easily adjust the angle at which you prefer flying.
 
 ![Trashcan side shot, showing camera adjustable tilt](unbox-review-setup-eachine-trashcan-9.jpg)
 
 ### 🛠 <span id="betaflight-configuration" class="offset-top-nav">Eachine Trashcan Betaflight configuration</span>
 
-As far as Betaflight configuration goes, I didn't have to make too many changes. Because of personal preference I switched off `MOTOR_STOP` as you can see below, to enable motor spinning when the quad is on, regardless of throttle value. I like it that way as it always indicates quite prominently that the drone is armed.
+As far as Betaflight configuration goes, I didn't have to make too many changes. Because of personal preference, I switched off `MOTOR_STOP` as you can see below, to enable motor spinning when the quad is on, regardless of throttle value. I like it that way as it always indicates quite prominently that the drone is armed.
 
 ![Betaflight configuration tab 1](unbox-review-setup-eachine-trashcan-11.png)
 
-Additionally on the same configuration tab you have to pay attention to the receiver settings, but I'm not gonna go over those here, just follow the instructions you got with the quad and you will be fine.
+Additionally, on the same configuration tab, you have to pay attention to the receiver settings, but I'm not gonna go over those here, just follow the instructions you got with the quad and you will be fine.
 
 In the screenshot below are my settings for a FrSky receiver and US firmware on the internal module.
 
 ![Betaflight configuration tab 2](unbox-review-setup-eachine-trashcan-12.png)
 
-On the `PID Tuning` tab I again touched nothing in the beginning until I decided to limit the throttle a litte on 2S. More on that later in the article. The screenshot depicts the default options.
+On the `PID Tuning` tab, I again touched nothing in the beginning until I decided to limit the throttle a little on 2S. More on that later in the article. The screenshot depicts the default options.
 
 ![Betaflight PID tuning tab](unbox-review-setup-eachine-trashcan-13.png)
 
-Finally in the `Modes` tab the preset configuration was also just fine, I think I just tweaked the position of the switch to my liking. Making it so that I had only two modes: **acro** and **angle**.
+Finally, in the `Modes` tab, the present configuration was also just fine, I think I just tweaked the position of the switch to my liking. Making it so that I had only two modes: **acro** and **angle**.
 
 ![Betaflight Modes tab](unbox-review-setup-eachine-trashcan-14.png)
 
 ### 🔗 <span id="binding" class="offset-top-nav">Binding to the radio</span>
 
-Binding the Trashcan is fairly straight-forward. Matter of fact, it's pretty easy. There is **no need** to hold the bind button while powering up the quad. Just plug the battery in and press the bind button to put the receiver in bind mode. This is explained nicely in the instruction that come with the drone. And here is a picture of the bind button that you need to locate and press.
+Binding the Trashcan is fairly straight-forward. Matter of fact, it's pretty easy. There is **no need** to hold the bind button while powering up the quad. Just plug the battery in and press the bind button to put the receiver in bind mode. This is explained nicely in the instructions that come with the drone. And here is a picture of the bind button that you need to locate and press.
 
 ![Trashcan bind button](unbox-review-setup-eachine-trashcan-6.jpg)
 
-Then your radio create a new model and go to your binding function. I'm using a [Taranis Q X7][4] and this is how my set up looks in the radio.
+Then in your radio create a new model and go to your binding function. I'm using a [Taranis Q X7][4] and this is how my set up looks in the radio.
 
 ![Taranis Q X7 bind setup screen](unbox-review-setup-eachine-trashcan-10.jpg)
 
@@ -123,7 +123,7 @@ It is important to note that if you bought the drone with US (FCC) receiver, you
 
 #### 🔋 1S
 
-When I first took off (without any throttle limits, on 1s, indoors) I was surprised how timid the little craft was. Comparing it to the [Snapper7][2] which was pretty unflyable in my relatively small home, the [Eachine Trashcan][1] behaved really nice. It was snappy to my instructions, which made for much easier control, however even on only 1S it packed a punch. Overall, I'm happy with the performance out of the box on 1S. The best thing about it, is that the Trashcan comes with this small plug that makes it very easy to fly 1S.
+When I first took off (without any throttle limits, on 1s, indoors) I was surprised how timid the little craft was. Comparing it to the [Snapper7][2] which was pretty unflyable in my relatively small home, the [Eachine Trashcan][1] behaved really nice. It was snappy to my instructions, which made for much easier control, however, even on just 1S, it packed a punch. Overall, I'm happy with the performance out of the box on 1S. The best thing about it is that the Trashcan comes with this small plug that makes it very easy to fly 1S.
 
 ![Trashcan 7](unbox-review-setup-eachine-trashcan-7.jpg)
 
@@ -135,11 +135,11 @@ Just plug in the small bit into one of the battery connectors and plug in your b
 
 The story is quite different on 2S. Here we get a lot of extra power, and it might be a bit challenging to navigate indoors if your premises are smaller, like in my case. What still did surprise me, was that it was still manageable. I was still able to fly even 2S indoors. Kudos, good job Eachine, I think the handling on the Trashcan is great and it would be an awesome quad even for beginners for that reason.
 
-Additionally the best part about flying 2S in doors, is that you get much longer flight times, and much less voltage sags (if any at all). If you prefer this, go for it.
+Additionally, the best part about flying 2S indoors is that you get much longer flight times, and much fewer voltage sags (if any at all). If you prefer this, go for it.
 
 #### 🔝 Throttle limits
 
-Lastly I'd like to mention throttle limits. If you feel like you need to turn down the power just a bit in favor of increasing handling, you can easily do that in Betaflight. First, go to the PID tab and set `Throttle MID` to **0.30**, and `Throttle EXPO` to **0.70**. Finally, go to the `CLI` tab and paste in this command:
+Lastly, I'd like to mention throttle limits. If you feel like you need to turn down the power just a bit in favor of increasing handling, you can easily do that in Betaflight. First, go to the PID tab and set `Throttle MID` to **0.30**, and `Throttle EXPO` to **0.70**. Finally, go to the `CLI` tab and paste in this command:
 
 ```
 set throttle_limit_percent = 70
@@ -155,15 +155,15 @@ If you have applied any throttle limiting to your craft, remember to take it off
 set throttle_limit_percent = 100
 ```
 
-Once you are up to the full potential of the Trashcan, rip some packs! For me, I have yet to try it out outside, unfortunatelly it had been way too low temperatures in Finland, but I am absolutely looking forward to flying it outdoors and will upload some DVR footage as soon as I do so.
+Once you are up to the full potential of the Trashcan, rip some packs! For me, I have yet to try it out outside, unfortunately, it had been way too low temperatures in Finland, but I am absolutely looking forward to flying it outdoors and will upload some DVR footage as soon as I do so.
 
-However from what I have seen out there, from the settings in Betaflight, from the components it has and from the performance indoors, I have to admit I expect a lot from it and I have a feeling it will deliver. I mean even flying a Snapper7 outdoors was a hell of a lot of fun and I can imagine that the [Eachine Trashcan][1] will be at least twice as much fun if not more!
+However, from what I have seen out there, from the settings in Betaflight, from the components it has and from the performance indoors, I have to admit I expect a lot from it and I have a feeling it will deliver. I mean even flying a Snapper7 outdoors was a hell of a lot of fun and I can imagine that the [Eachine Trashcan][1] will be at least twice as much fun if not more!
 
 ### 📝 Conclusion
 
 **Should you get the Trashcan? Absolutely!** If you are in the market for a micro drone or if you are a beginner that wants to buy something that can scale with your skill as you get better, buy the [Trashcan][1].
 
-If you want to fly in city parks or other more populated areas, but don't want to be a menace to society, get the Trashcan. You still need to be careful, but you probably cannot do any damage to anyone with this micro drone, compared to a full-fledged 5 inch quad.
+If you want to fly in city parks or other more populated areas, but don't want to be a menace to society, get the Trashcan. You still need to be careful, but you probably cannot do any damage to anyone with this microdrone, compared to a full-fledged 5-inch quad.
 
 Overall, it comes at a great price, it ticks all the checkboxes and get you some extra performance, it flies really well, it's easy to handle and get used to so if you have any of the use cases outlined above (or some other one), **I definitely recommend the [Eachine Trashcan][1] as your first or next micro drone**, and am personally looking forward to ripping around a lot with it this summer!
 
