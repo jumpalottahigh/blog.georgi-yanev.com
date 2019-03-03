@@ -104,7 +104,7 @@ Somewhere in the middle of this I also stumbled upon [this gem][11]. I actually 
 
 I used that example to deploy to [Heroku][7]. Perfect.
 
-The heroku 'backend' of the project is live at: [https://youtube-timestamp-screenshot.herokuapp.com][https://youtube-timestamp-screenshot.herokuapp.com].
+The heroku 'backend' of the project is live at: [https://youtube-timestamp-screenshot.herokuapp.com](https://youtube-timestamp-screenshot.herokuapp.com).
 To use it you need to append a youtube URL including a timestamp to the `url` parameter after the app's url.
 
 For example:
