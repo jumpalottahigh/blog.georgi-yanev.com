@@ -1247,3 +1247,7 @@ video.fade-in {
   opacity: 1;
   transition: opacity 275ms ease-in-out;
 }
+
+.progress-bar {
+  background-color: #0175d8;
+}

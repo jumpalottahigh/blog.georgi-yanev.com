@@ -180,3 +180,11 @@
   color: var(--dark-mode-black);
   background-color: var(--dark-mode-bg-color-secondary);
 }
+
+.dark-mode .sidebar img {
+  filter: invert(85%);
+}
+
+.dark-mode .progress-bar {
+  background-color: var(--dark-mode-link-color);
+}

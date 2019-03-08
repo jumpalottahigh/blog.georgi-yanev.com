@@ -5,7 +5,6 @@ function ReadProgressLine() {
   const [progress, setProgress] = React.useState(0)
 
   const initialStyle = {
-    backgroundColor: '#0175d8',
     height: '5px',
     position: 'fixed',
     top: 0,
