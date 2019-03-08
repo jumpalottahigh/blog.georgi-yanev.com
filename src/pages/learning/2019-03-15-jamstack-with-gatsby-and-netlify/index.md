@@ -10,7 +10,7 @@ tags:
   - 'learning'
   - 'projects'
   - 'web dev'
-  - 'talk''
+  - 'talk'
   - 'gatsby'
   - 'netlify'
   - 'jamstack'
