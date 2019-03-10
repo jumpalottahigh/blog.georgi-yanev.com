@@ -12,7 +12,7 @@ tags:
   - 'learning'
 ogKeywords: 'writing, amwriting, writing a book, fiction, sci-fi, becoming a writer, fan fiction, universe, stories, short stories, learning to write, how to become a writer, my writing experience, enjoying to write, NaNoWriMo, Kent C Dodds, writing a book for nanowrimo, national novel writing month, preparing to write a book, outlining scenes, outline a novel, planners vs pantsers, how to write, how to write fiction'
 ogDescription: "I've always wanted to write a book. In fact, when I was a kid (~8-10), I wrote a couple of small encyclopedias and a bunch of fictional short stories. I guess I outgrew this phase and for a while did other things, but thanks primarily to my English language teacher in high school - Milena Grudeva and in some portion thanks to Blizzard for creating the Warcraft universe, this writing passion resurfaced again during my teenage years (~15-17)."
-ogImage: './my-journey-to-writing-a-book-1.png'
+ogImage: './writing-a-book-1.png'
 ---
 
 I've always wanted to write a book! This posts uncovers the events that ultimately brought me here and now. I hope it also servers as a story you could draw inspiration from. I hope it would motivate you to jump into whatever it may be that you would like to accomplish and just start going at it slowly and steadily, step by step. You can do it!
