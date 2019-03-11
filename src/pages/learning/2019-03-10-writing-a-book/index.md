@@ -15,7 +15,7 @@ ogDescription: "I've always wanted to write a book. In fact, when I was a kid (~
 ogImage: './writing-a-book-1.png'
 ---
 
-I've always wanted to write a book! This posts uncovers the events that ultimately brought me here and now. I hope it also servers as a story you could draw inspiration from. I hope it would motivate you to jump into whatever it may be that you would like to accomplish and just start going at it slowly and steadily, step by step. You can do it!
+I've always wanted to write a book! This post uncovers the events that ultimately brought me here and now. I hope it also serves as a story you could draw inspiration from. I hope it would motivate you to jump into whatever it may be that you would like to accomplish and just start going at it slowly and steadily, step by step. You can do it!
 
 ## 📚 Story and why
 
