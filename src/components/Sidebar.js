@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import EternalArchives from '../components/EternalArchives'
-import useAllMarkdownRemark from '../hooks/use-allmarkdown'
+import useAllMdx from '../hooks/use-allmarkdown'
 
 const activeStyle = {
   color: '#0057e7',
@@ -10,7 +10,7 @@ const activeStyle = {
 }
 
 const SideBar = () => {
-  let pages = useAllMarkdownRemark()
+  let pages = useAllMdx()
   let fpv = []
   let learning = []
   let projects = []

@@ -10,28 +10,16 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           {
-            allMarkdownRemark(
+            allMdx(
               sort: { order: DESC, fields: [frontmatter___date] }
               limit: 1000
               filter: { frontmatter: { draft: { ne: true } } }
             ) {
               edges {
                 node {
-                  excerpt(pruneLength: 250)
-                  html
                   id
                   frontmatter {
-                    date
                     path
-                    title
-                    author
-                    affiliate
-                    category
-                    ogKeywords
-                    ogDescription
-                    ogImage {
-                      relativePath
-                    }
                   }
                 }
               }
@@ -45,7 +33,7 @@ exports.createPages = ({ graphql, actions }) => {
         }
 
         // Create blog posts pages.
-        result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        result.data.allMdx.edges.forEach(({ node }) => {
           createPage({
             path: node.frontmatter.path,
             component: blogPost,

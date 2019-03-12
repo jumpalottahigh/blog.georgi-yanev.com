@@ -10,9 +10,7 @@ class RelatedArticles extends React.Component {
       <StaticQuery
         query={graphql`
           query relatedArticlesQuery {
-            allMarkdownRemark(
-              sort: { order: DESC, fields: [frontmatter___date] }
-            ) {
+            allMdx(sort: { order: DESC, fields: [frontmatter___date] }) {
               edges {
                 node {
                   id
@@ -28,7 +26,7 @@ class RelatedArticles extends React.Component {
         `}
         render={data => {
           // Work on the queried data to return a matching array
-          const relatedPages = data.allMarkdownRemark.edges.filter(page => {
+          const relatedPages = data.allMdx.edges.filter(page => {
             // Filter out current page from the related pages results
             if (currentPagePath === page.node.frontmatter.path) return
 

@@ -8,10 +8,11 @@ import SupportSection from '../components/SupportSection.js'
 import ReadProgressLine from '../components/ReadProgressLine.js'
 import TinyLetterSignup from '../components/TinyLetterSignUp'
 import ModeSwitch from '../components/Mode'
+import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
+    const post = this.props.data.mdx
 
     // If post doesn't have a defined og image, fall back to default defined here
     const ogImage =
@@ -129,10 +130,9 @@ class BlogPostTemplate extends React.Component {
                 <ModeSwitch />
               </div>
             </div>
-            <div
-              className="blog-post-content"
-              dangerouslySetInnerHTML={{ __html: post.html }}
-            />
+            <MDXRenderer className="blog-post-content">
+              {post.code.body}
+            </MDXRenderer>
             <FeedbackSection />
             <RelatedArticles
               currentPagePath={post.frontmatter.path}
@@ -151,8 +151,10 @@ export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
+    mdx(frontmatter: { path: { eq: $path } }) {
+      code {
+        body
+      }
       excerpt
       frontmatter {
         date(formatString: "MMMM DD, YYYY")

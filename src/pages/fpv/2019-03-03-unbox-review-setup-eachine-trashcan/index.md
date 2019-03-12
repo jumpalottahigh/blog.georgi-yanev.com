@@ -170,15 +170,15 @@ Overall, it comes at a great price, it ticks all the checkboxes and get you some
 P.S.: My poor flying here did not take away from the fun had :)
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Sf2iE1L4sa4?rel=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Sf2iE1L4sa4?rel=0" frameBorder="0" allowFullScreen></iframe>
 </div>
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/8Ax4gJNcXnI?rel=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8Ax4gJNcXnI?rel=0" frameBorder="0" allowFullScreen></iframe>
 </div>
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/PDUrXlOS5ZA?rel=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PDUrXlOS5ZA?rel=0" frameBorder="0" allowFullScreen></iframe>
 </div>
 
 [0]: Linkslist

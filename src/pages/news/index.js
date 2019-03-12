@@ -12,7 +12,7 @@ const NewsPage = ({ data }) => (
       showCategories="yes"
       showSearch="yes"
       filterCategoriesAndTagsFromURLParams="yes"
-      posts={data.allMarkdownRemark.edges}
+      posts={data.allMdx.edges}
     />
     <TinyLetterSignup />
   </Layout>
@@ -22,7 +22,7 @@ export default NewsPage
 
 export const NewsPageQuery = graphql`
   query NewsPageQuery {
-    allMarkdownRemark(
+    allMdx(
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { draft: { ne: true } } }
     ) {

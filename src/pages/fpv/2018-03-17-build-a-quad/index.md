@@ -178,7 +178,7 @@ Lastly, I'll upload a video of the maiden flight as soon as I have completed it!
 Here is some 1080p 60fps footage from the maiden flight:
 
 <div id="maiden-flight" style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/398BDc5mvuA?rel=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/398BDc5mvuA?rel=0" frameBorder="0" allowFullScreen></iframe>
 </div>
 
 [0]: Linkslist

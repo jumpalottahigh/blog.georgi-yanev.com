@@ -29,7 +29,7 @@ class BlogIndex extends React.Component {
   }
 
   render() {
-    const posts = this.props.data.allMarkdownRemark.edges
+    const posts = this.props.data.allMdx.edges
 
     return (
       <Layout location={this.props.location}>
@@ -148,10 +148,8 @@ class BlogIndex extends React.Component {
               available on GitHub
             </a>
             . You can also{' '}
-            <a href="https://twitter.com/jumpalottahigh">
-              follow me
-            </a>{' '}
-            on twitter.
+            <a href="https://twitter.com/jumpalottahigh">follow me</a> on
+            twitter.
           </p>
           <p>
             This blog was a joy to build using{' '}
@@ -266,7 +264,7 @@ export default BlogIndex
 
 export const HomePageQuery = graphql`
   query HomePageQuery {
-    allMarkdownRemark(
+    allMdx(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 5
       filter: {
