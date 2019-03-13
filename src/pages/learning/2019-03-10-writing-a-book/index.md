@@ -73,11 +73,15 @@ The goal is by the time I have to announce the novel I'll be working on (Septemb
 
 Write up coming soon...
 
+![Georgi's January writing update](writing-a-book-2.png)
+
 https://twitter.com/jumpalottahigh/status/1091091275003187200
 
 #### 2️⃣ February 2019
 
 Write up coming soon...
+
+![Georgi's February writing update](writing-a-book-3.png)
 
 https://twitter.com/jumpalottahigh/status/1101153060204802049
 
