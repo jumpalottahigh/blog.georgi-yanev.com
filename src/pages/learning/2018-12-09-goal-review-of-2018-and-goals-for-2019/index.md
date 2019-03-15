@@ -69,7 +69,7 @@ I am very pleased with the result as this was one of the goals I set for myself 
 Another goal I had set for myself last year that I'm happy to have achieved was to do a lot more flying of FPV drones in 2018 and I am happy to report that I landed this goal.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/hgxJ_WPceZU?rel=0" frameBorder="0" allowFullScreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/hgxJ_WPceZU?rel=0" frameBorder="0" allowFullScreen title="flying a wizard x220 on a sunny day in september"></iframe>
 </div>
 
 Moreover, I started [uploading HD footage][9] on YouTube. And while the previous link contains a list of videos with music, most of the

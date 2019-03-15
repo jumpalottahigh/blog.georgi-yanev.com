@@ -94,7 +94,7 @@ You may now reconnect the DVR on the outside. Close the goggles off. Push back D
 
 ▶️ Insert a formatted micro sd card and press the _play_ button (right hand side) to start recording. If all is well the red led should start blinking slowly. When done recording press the same button again. Enjoy! I know I do, here's some bonus footage to give you an idea of how the footage looks as coming from [Eachine e010s][4].
 
-<iframe width="100%" height="415" src="https://www.youtube.com/embed/S8PR-br194c?rel=0" frameBorder="0" allowFullScreen></iframe>
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/S8PR-br194c?rel=0" frameBorder="0" allowFullScreen title="first recorded dvr flight with the modded eachine vr007 goggles"></iframe>
 
 [0]: Linkslist
 [1]: https://bit.ly/eachine-vr007

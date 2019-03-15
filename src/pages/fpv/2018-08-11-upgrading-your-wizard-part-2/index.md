@@ -80,7 +80,7 @@ Alternatively you can use wire cutter to carefully cut the wire at the base with
 And that's all of it, put your quad back together and enjoy the upgrades! Happy flying!
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/wZchH_Ccly8?rel=0" frameBorder="0" allowFullScreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wZchH_Ccly8?rel=0" frameBorder="0" allowFullScreen title="upgraded eachine wizard x220 flight"></iframe>
 </div>
 
 [0]: Linkslist

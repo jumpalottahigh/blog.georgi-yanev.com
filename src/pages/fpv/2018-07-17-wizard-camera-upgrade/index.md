@@ -56,13 +56,13 @@ And go out and rip some packs! Enjoy the visual difference of the upgrade.
 Here's how DVR recording looks on the Runcam Split 2:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/gQ9qFVvzhms?rel=0" frameBorder="0" allowFullScreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/gQ9qFVvzhms?rel=0" frameBorder="0" allowFullScreen title="Eachine Wizard x220 DVR footage from Runcam Split 2"></iframe>
 </div>
 
 And here's how the 1080p HD 60fps footage looks:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/70tXXAfs-ks?rel=0" frameBorder="0" allowFullScreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/70tXXAfs-ks?rel=0" frameBorder="0" allowFullScreen title="Eachine Wizard x220 HD footage from Runcam Split 2"></iframe>
 </div>
 
 [0]: Linkslist

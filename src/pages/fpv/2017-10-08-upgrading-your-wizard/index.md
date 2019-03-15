@@ -96,11 +96,11 @@ I hope this was somewhat helpful. Don't get discouraged if sometimes it feels li
 Happy flying!
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/pr6C5gm8jNI?rel=0" frameBorder="0" allowFullScreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pr6C5gm8jNI?rel=0" frameBorder="0" allowFullScreen title="Eachine Wizard x220 DVR"></iframe>
 </div>
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/70tXXAfs-ks?rel=0" frameBorder="0" allowFullScreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/70tXXAfs-ks?rel=0" frameBorder="0" allowFullScreen title="Eachine Wizard x220 with a Runcam Split 2"></iframe>
 </div>
 
 <span id="related"></span>
