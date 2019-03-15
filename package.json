@@ -29,6 +29,7 @@
     "react-burger-menu": "^2.6.5",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
+    "react-reveal": "^1.2.2",
     "scrollprogress": "^3.0.2",
     "styled-components": "^4.1.3"
   },

@@ -115,7 +115,7 @@ const Header = () => (
                 <a href="https://www.fpvtips.com">FPVtips</a>
               </li>
               <li>
-                <Link to="/extras/fpv-videos/" activeStyle={activeStyle}>
+                <Link to="/videos/" activeStyle={activeStyle}>
                   Videos
                 </Link>
               </li>

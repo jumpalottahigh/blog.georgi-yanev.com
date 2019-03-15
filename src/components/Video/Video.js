@@ -76,7 +76,7 @@ export default class Video extends Component {
           </Fragment>
         ) : (
           <VideoIFrame
-            src={`https://www.youtube.com/embed/${src}?rel=0&showinfo=0&autoplay=1&enablejsapi=1&origin=https://www.f-secure.com`}
+            src={`https://www.youtube.com/embed/${src}?rel=0&showinfo=0&autoplay=1&enablejsapi=1&origin=https://blog.georgi-yanev.com`}
             allowFullScreen
             allow="autoplay"
             frameBorder="0"

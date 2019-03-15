@@ -110,14 +110,6 @@ const Post = ({
         </div>
         {showChevron === 'yes' && (
           <Link to={post.node.frontmatter.path + '/'}>
-            {/* <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="306"
-              height="306"
-              style={{ height: '24px', justifySelf: 'flex-end' }}
-              >
-              <path d="M94.35 0l-35.7 35.7L175.95 153 58.65 270.3l35.7 35.7 153-153z" />
-            </svg> */}
             <img
               style={{ height: '24px', justifySelf: 'flex-end' }}
               src={svgRightArrow}
