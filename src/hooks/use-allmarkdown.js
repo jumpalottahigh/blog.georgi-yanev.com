@@ -1,9 +1,9 @@
 import { graphql, useStaticQuery } from 'gatsby'
 
-const useAllMdx = () => {
+const useAllMarkdownRemark = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMdx(
+      allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
         filter: { frontmatter: { draft: { ne: true } } }
       ) {
@@ -33,7 +33,7 @@ const useAllMdx = () => {
     }
   `)
 
-  return data.allMdx.edges
+  return data.allMarkdownRemark.edges
 }
 
-export default useAllMdx
+export default useAllMarkdownRemark

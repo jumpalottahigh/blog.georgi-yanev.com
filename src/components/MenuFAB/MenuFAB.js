@@ -1,11 +1,11 @@
 import React from 'react'
 import PostsList from '../PostsList'
-import useAllMdx from '../../hooks/use-allmarkdown'
+import useAllMarkdownRemark from '../../hooks/use-allmarkdown'
 import './MenuFAB.css'
 
 const MenuFAB = () => {
   const [visible, setVisible] = React.useState(false)
-  const posts = useAllMdx()
+  const posts = useAllMarkdownRemark()
 
   const handleClick = () => {
     setVisible(!visible)

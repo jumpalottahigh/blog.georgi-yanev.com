@@ -10,7 +10,7 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           {
-            allMdx(
+            allMarkdownRemark(
               sort: { order: DESC, fields: [frontmatter___date] }
               limit: 1000
               filter: { frontmatter: { draft: { ne: true } } }
@@ -33,7 +33,7 @@ exports.createPages = ({ graphql, actions }) => {
         }
 
         // Create blog posts pages.
-        result.data.allMdx.edges.forEach(({ node }) => {
+        result.data.allMarkdownRemark.edges.forEach(({ node }) => {
           createPage({
             path: node.frontmatter.path,
             component: blogPost,

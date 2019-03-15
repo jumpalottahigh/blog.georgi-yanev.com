@@ -29,7 +29,7 @@ class BlogIndex extends React.Component {
   }
 
   render() {
-    const posts = this.props.data.allMdx.edges
+    const posts = this.props.data.allMarkdownRemark.edges
 
     return (
       <Layout location={this.props.location}>
@@ -264,7 +264,7 @@ export default BlogIndex
 
 export const HomePageQuery = graphql`
   query HomePageQuery {
-    allMdx(
+    allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 5
       filter: {
