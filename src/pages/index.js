@@ -123,25 +123,6 @@ class BlogIndex extends React.Component {
             on twitch. I <strong>love flying FPV drones</strong>, 3D printing,
             contributing to open source, and working on fpvtips.com.
           </p>
-          <div className="video-container">
-            <video
-              autoPlay
-              muted
-              playsInline
-              onClick={this.handleVideoClick}
-              ref={elem => (this.introVideo = elem)}
-            >
-              <source
-                src="https://www.georgi-yanev.com/static/landing-a-quad-1-d1a878f7ef756c703ebeeecdb529e63e.webm"
-                type="video/webm"
-              />
-              <source
-                src="https://www.georgi-yanev.com/static/landing-a-quad-1-a959ba1dfed1d6abe2e8052b61bfb0b4.mp4"
-                type="video/mp4"
-              />
-              Tap to play video
-            </video>
-          </div>
           <p>
             Most of my projects are open source and{' '}
             <a href="https://github.com/jumpalottahigh?tab=repositories">
@@ -168,14 +149,7 @@ class BlogIndex extends React.Component {
             </strong>
             .
           </p>
-          <div className="article-update-notification">
-            For more FPV related goodness, make sure you checkout{' '}
-            <strong>
-              <a href="https://www.fpvtips.com">Fpvtips.com</a>
-            </strong>{' '}
-            which I recently launched!
-          </div>
-          <h4 style={{ marginTop: '2rem' }}>Categories:</h4>
+          <h4 style={{ marginTop: '2rem' }}>Post categories:</h4>
           <Link
             style={{
               marginRight: '0.5rem',
@@ -241,6 +215,35 @@ class BlogIndex extends React.Component {
             <button className="category fpv">More blog posts</button>
           </Link>
           <TinyLetterSignup />
+          <div
+            className="article-update-notification"
+            style={{ marginTop: '2rem' }}
+          >
+            For more FPV related goodness, make sure you checkout{' '}
+            <strong>
+              <a href="https://www.fpvtips.com">Fpvtips.com</a>
+            </strong>{' '}
+            which I launched a while back!
+          </div>
+          <div className="video-container">
+            <video
+              autoPlay
+              muted
+              playsInline
+              onClick={this.handleVideoClick}
+              ref={elem => (this.introVideo = elem)}
+            >
+              <source
+                src="https://www.georgi-yanev.com/static/landing-a-quad-1-d1a878f7ef756c703ebeeecdb529e63e.webm"
+                type="video/webm"
+              />
+              <source
+                src="https://www.georgi-yanev.com/static/landing-a-quad-1-a959ba1dfed1d6abe2e8052b61bfb0b4.mp4"
+                type="video/mp4"
+              />
+              Tap to play video
+            </video>
+          </div>
           <p style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
             Additionally, the Eternal Archives section of the blog hosts a bunch
             of unedited content (fan fiction, music and programming) from the
@@ -273,7 +276,7 @@ export const HomePageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 390)
+          excerpt(pruneLength: 350)
           id
           timeToRead
           frontmatter {
