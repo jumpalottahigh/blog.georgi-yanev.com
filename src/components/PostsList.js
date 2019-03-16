@@ -226,17 +226,30 @@ export default class PostsList extends React.Component {
   }
 
   handleSearch = e => {
-    let { value } = e.target
+    let value = e && e.target ? e.target.value : this.state.search
     let { posts } = this.props
 
+    if (typeof value === 'undefined') return
+
     const searchResults = posts.filter(post => {
+      // Match search in title, excerpt, tags, category or path
       if (
         post.node.frontmatter.title
           .toLowerCase()
           .includes(value.toLowerCase()) ||
-        post.node.excerpt.toLowerCase().includes(value.toLowerCase())
+        post.node.excerpt.toLowerCase().includes(value.toLowerCase()) ||
+        post.node.frontmatter.tags
+          .toString()
+          .toLowerCase()
+          .includes(value.toLowerCase()) ||
+        post.node.frontmatter.category
+          .toLowerCase()
+          .includes(value.toLowerCase()) ||
+        post.node.frontmatter.path.toLowerCase().includes(value.toLowerCase())
       ) {
         return post
+      } else {
+        return null
       }
     })
 
@@ -274,16 +287,6 @@ export default class PostsList extends React.Component {
   componentDidMount() {
     // Filter pages into categories
     this.filter(this.props.posts)
-    // Setup ESC listener
-    document.addEventListener(
-      'keydown',
-      e => {
-        e.code === 'Escape'
-          ? this.setState({ search: '' }, () => this.handleSearch(e))
-          : null
-      },
-      false
-    )
 
     if (this.props.filterCategoriesAndTagsFromURLParams == 'yes') {
       // Read categories from URL params
@@ -379,6 +382,13 @@ export default class PostsList extends React.Component {
           <div style={{ marginTop: '1rem', marginBottom: '1rem' }}>
             <input
               type="text"
+              onKeyDown={e => {
+                if (e.keyCode === 27) {
+                  this.setState({ search: '' }, e => this.handleSearch(e))
+                  // reset any query params from the page url
+                  navigate(`${location.pathname}`)
+                }
+              }}
               onChange={this.handleSearch}
               value={search}
               placeholder="Search..."

@@ -10,7 +10,7 @@ const useAllMarkdownRemark = () => {
         edges {
           node {
             id
-            excerpt(pruneLength: 120)
+            excerpt(pruneLength: 140)
             timeToRead
             frontmatter {
               date(formatString: "MMM DD, YYYY")
@@ -18,6 +18,7 @@ const useAllMarkdownRemark = () => {
               title
               author
               category
+              tags
               ogImage {
                 publicURL
                 childImageSharp {
