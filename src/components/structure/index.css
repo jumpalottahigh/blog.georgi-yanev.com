@@ -733,7 +733,7 @@ pre tt:after {
 }
 
 .main > *:first-child {
-  min-height: 75vh;
+  min-height: 73vh;
 }
 
 .nav {
