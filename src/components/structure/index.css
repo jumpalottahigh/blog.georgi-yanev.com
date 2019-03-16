@@ -1251,3 +1251,7 @@ video.fade-in {
 .progress-bar {
   background-color: #0175d8;
 }
+
+.twitter-tweet {
+  margin: 2rem auto !important;
+}

@@ -4,6 +4,7 @@
   "version": "2.2.1",
   "author": "Georgi Yanev <georgiyanev.gy@gmail.com>",
   "dependencies": {
+    "@weknow/gatsby-remark-twitter": "^0.2.0",
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.1.35",
     "gatsby-image": "^2.0.34",
@@ -15,7 +16,6 @@
     "gatsby-plugin-sharp": "^2.0.29",
     "gatsby-plugin-sitemap": "^2.0.9",
     "gatsby-plugin-styled-components": "3.0.7",
-    "gatsby-plugin-twitter": "^2.0.12",
     "gatsby-remark-copy-linked-files": "^2.0.11",
     "gatsby-remark-images": "^3.0.10",
     "gatsby-remark-prismjs": "^3.2.5",

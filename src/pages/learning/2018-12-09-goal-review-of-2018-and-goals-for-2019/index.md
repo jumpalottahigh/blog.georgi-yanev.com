@@ -93,7 +93,7 @@ My worth a mention plug here is for a **project I launched on my 33rd birthday**
 
 > **[fpvtips.com][15]** - a project that aims to help FPV pilots share their flying spots with the rest of the community and ultimately help people fly together.
 
-![tweet launching fpvtips.com](goal-review-of-2018-and-goals-for-2019-6.png)
+https://twitter.com/jumpalottahigh/status/1059492682840576000
 
 While I am not abandoning this blog in any form or way, I definitely feel like I'm deep enough into the hobby and I can share so much more, however I also wanted to create a modern platform that helps people get into the hobby, learn more and share experiences. I am **hyped to have worked hard on fpvtips and shipped the core functionality within about 2 months of development** and can't wait to add more information and get more people on the platform during this winter season as well as in 2019!
 
