@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
+import { Fade } from 'react-reveal'
 
 import Layout from '../components/structure/layout'
 import Footer from '../components/structure/Footer/Footer'
@@ -11,6 +12,10 @@ import PostsList from '../components/PostsList'
 import TinyLetterSignup from '../components/TinyLetterSignUp'
 
 class BlogIndex extends React.Component {
+  state = {
+    loadVideo: true,
+  }
+
   handleVideoClick = e => {
     e.target.pause()
     e.target.currentTime = 0
@@ -19,17 +24,17 @@ class BlogIndex extends React.Component {
   }
 
   componentDidMount() {
-    if (this.introVideo) {
-      setTimeout(
-        () =>
-          this.introVideo ? (this.introVideo.className = 'fade-in') : null,
-        200
-      )
+    // If user is on a dodgy connection, don't load the video at all
+    if ('connection' in navigator) {
+      if (navigator.connection.downlink < 5) {
+        this.setState({ loadVideo: false })
+      }
     }
   }
 
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
+    const { loadVideo } = this.state
 
     return (
       <Layout location={this.props.location}>
@@ -225,25 +230,28 @@ class BlogIndex extends React.Component {
             </strong>{' '}
             which I launched a while back!
           </div>
-          <div className="video-container">
-            <video
-              autoPlay
-              muted
-              playsInline
-              onClick={this.handleVideoClick}
-              ref={elem => (this.introVideo = elem)}
-            >
-              <source
-                src="https://www.georgi-yanev.com/static/landing-a-quad-1-d1a878f7ef756c703ebeeecdb529e63e.webm"
-                type="video/webm"
-              />
-              <source
-                src="https://www.georgi-yanev.com/static/landing-a-quad-1-a959ba1dfed1d6abe2e8052b61bfb0b4.mp4"
-                type="video/mp4"
-              />
-              Tap to play video
-            </video>
-          </div>
+          {loadVideo && (
+            <div className="video-container">
+              <Fade>
+                <video
+                  autoPlay
+                  muted
+                  playsInline
+                  onClick={this.handleVideoClick}
+                >
+                  <source
+                    src="https://www.georgi-yanev.com/static/landing-a-quad-1-d1a878f7ef756c703ebeeecdb529e63e.webm"
+                    type="video/webm"
+                  />
+                  <source
+                    src="https://www.georgi-yanev.com/static/landing-a-quad-1-a959ba1dfed1d6abe2e8052b61bfb0b4.mp4"
+                    type="video/mp4"
+                  />
+                  Tap to play video
+                </video>
+              </Fade>
+            </div>
+          )}
           <p style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
             Additionally, the Eternal Archives section of the blog hosts a bunch
             of unedited content (fan fiction, music and programming) from the
