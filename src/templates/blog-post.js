@@ -5,6 +5,7 @@ import Layout from '../components/structure/layout'
 import FeedbackSection from '../components/FeedbackSection.js'
 import RelatedArticles from '../components/RelatedArticles.js'
 import SupportSection from '../components/SupportSection.js'
+import Share from '../components/Share.js'
 import ReadProgressLine from '../components/ReadProgressLine.js'
 import TinyLetterSignup from '../components/TinyLetterSignUp'
 import ModeSwitch from '../components/Mode'
@@ -133,6 +134,7 @@ class BlogPostTemplate extends React.Component {
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
+            <Share url={post.frontmatter.path} />
             <FeedbackSection />
             <RelatedArticles
               currentPagePath={post.frontmatter.path}
