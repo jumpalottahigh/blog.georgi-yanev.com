@@ -33,7 +33,7 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <div>
+        <div className="home-page">
           <div
             style={{
               display: 'flex',
@@ -158,7 +158,7 @@ class BlogIndex extends React.Component {
             }}
             to="/news/"
           >
-            <button className="category all">All blog posts</button>
+            <button className="category all">All posts</button>
           </Link>
           <Link
             style={{
@@ -285,6 +285,7 @@ export const HomePageQuery = graphql`
             title
             author
             category
+            tags
             ogImage {
               publicURL
               childImageSharp {

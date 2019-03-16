@@ -1255,3 +1255,7 @@ video.fade-in {
 .twitter-tweet {
   margin: 2rem auto !important;
 }
+
+.home-page button.category {
+  min-width: 104px;
+}
