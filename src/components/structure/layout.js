@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react'
 import Helmet from 'react-helmet'
 
 import Header from './Header/Header'
+import Footer from './Footer/Footer'
 import SideBar from '../Sidebar'
 import MenuFAB from '../MenuFAB/MenuFAB'
 
@@ -59,6 +60,7 @@ class Layout extends Component {
           <SideBar />
           <MenuFAB />
           <div className="main">{children}</div>
+          <Footer />
         </div>
       </Fragment>
     )

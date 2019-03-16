@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import Layout from '../../components/structure/layout'
-import svgRightArrow from '../../images/right-arrow.svg'
 
 const Section = styled.section`
   h2 {

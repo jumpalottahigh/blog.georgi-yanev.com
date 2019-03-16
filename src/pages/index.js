@@ -4,7 +4,6 @@ import Img from 'gatsby-image'
 import { Fade } from 'react-reveal'
 
 import Layout from '../components/structure/layout'
-import Footer from '../components/structure/Footer/Footer'
 
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
@@ -258,14 +257,13 @@ class BlogIndex extends React.Component {
             early 2000s when I was only 15 - 17.
           </p>
           <Img
-            style={{ marginBottom: '1rem' }}
+            style={{ marginBottom: '2rem' }}
             fluid={
               this.props.data.homeBottom.edges[0].node.childImageSharp.fluid
             }
             alt="Drone, Georgi flying FPV and coding work station"
           />
         </div>
-        <Footer />
       </Layout>
     )
   }
