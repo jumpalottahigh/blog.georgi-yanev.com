@@ -69,15 +69,24 @@ The goal is by the time I have to announce the novel I'll be working on (Septemb
 
 ### Monthly updates
 
+I embarked on writing those monthly updates and posting them on Twitter. It keeps me accountable and it actually motivates me further because it highlights what I had done during that 30 day period.
+
 #### 1️⃣ January 2019
 
-Write up coming soon...
+During January I mostly started immersing myself into the `how` of writing. I **listened to ~ 30 episodes** of the [Writing Excuses][10] podcast from 13.1 to 13.29. I started reading [The Mysterious Island][16], [The Elements of Style][14] and a bunch of Grimm brothers and Andersen's fairytales. The latter to my son and I. I also wrote a [short story based on real event from my life][17] just to dip my toes into the waters of prose writing.
 
 https://twitter.com/jumpalottahigh/status/1091091275003187200
 
 #### 2️⃣ February 2019
 
-Write up coming soon...
+In February I watched those five awesome [StoryGrid videos][9] that really helped me understand a lot about genres and the inner workings and failings of a book. Although the book is more about editing, I think it's beneficial for authors as well. I'm also considering buying the book and reading it in the months ahead. I started using [WorkFlowy][18] for quickly putting down plot, character and world ideas, as well as to structure some of the decisions I had already made. I also started using [Grammarly][19] which I learnt about from [Ali Spittel][20]. It is a very useful app to help you check your texts for errors and so much more. This month I also continued listening to the Writing Excuses podcast and went through episodes `13.29` - `13.46`.
+
+Finally, I read these books:
+
+- Finished reading Foundation by Isaac Asimov
+- Read Twenty Thousand Leagues Under the Sea, Jules Verne
+- Read Alice in Wonderland, Lewis Carroll
+- Started reading The Way of Kings by Brandon Sanderson!
 
 https://twitter.com/jumpalottahigh/status/1101153060204802049
 
@@ -90,7 +99,7 @@ Write up coming soon...
 [2]: #link-to-my-first-fiction
 [3]: /eternal-archives/
 [4]: https://worldofwarcraft.com/en-us/story/timeline/chapter-03
-[5]: /learning/how-i-got-into-software-development
+[5]: /learning/how-i-got-into-software-development/
 [6]: https://twitter.com/kentcdodds
 [7]: https://twitter.com/jevakallio
 [8]: https://nanowrimo.org
@@ -101,3 +110,8 @@ Write up coming soon...
 [13]: https://www.gutenberg.org/ebooks/16452
 [14]: https://www.gutenberg.org/ebooks/37134
 [15]: https://www.goodreads.com/user/show/92223343-georgi
+[16]: https://www.gutenberg.org/ebooks/1268
+[17]: /stories/a-smile-in-the-paddlewheel/
+[18]: https://workflowy.com/invite/6a2fe7e5.lnx
+[19]: https://app.grammarly.com/
+[20]: https://twitter.com/ASpittel
