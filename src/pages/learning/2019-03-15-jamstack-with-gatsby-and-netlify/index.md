@@ -162,6 +162,112 @@ But as I mentioned the true power of Netlify comes from connecting it straight t
 
 ## Gatsby
 
+[gatsby logo image]
+
+[Gatsby] is many times introduced as a React based static site generator (which it is) but it also doesn't do it justice, because maybe some people miss the fact that Gatsby also rehydrates into a full-fledged React app during runtime.
+
+#### 🔥 Blazing fast
+
+One of the most important points is that Gatsby is engineered for performance from the ground up. A default project setup with Gatsby starts off with Lighthouse scores of 100 across Performance, Accessibility, Best Practices and SEO and can be configured in seconds to deploy as a Progressive Web App (PWA).
+
+#### 🛠 Tooling
+
+Gatsby comes with all the modern tools configured and setup for you. You get Webpack, Babel, ES Lint, Prettier, GraphiQL and so much more.
+
+#### 📀 Your data from any source
+
+Gatsby creates GraphQL types of your data from any source so that you can query it in a similar way across your app. The data can be sourced from headless CMS's, third party APIs, local file system and more. Some headless CMS options worth mentioning and trying out are: [Contentful], [Sanity.io], [DatoCMS].
+
+#### 📦 Deploy anywhere
+
+Because Gatsby compiles your project into static files (HTML, CSS, JS, JSON) you can deploy the output anywhere you could deploy static assets. For example: [Netlify], [AWS S3], [Now], [GitHub Pages] and more.
+
+#### 🅿W🅰
+
+You can create a PWA in seconds by running:
+
+```sh
+$ npx gatsby new my-pwa
+```
+
+and then enabling the `gatsby-plugin-offline` in `gatsby-config.js` by uncommenting it.
+
+#### 👩‍💻 DX
+
+The developer experience is pretty solid. There many helpful warning and error messages with actionable information available right in your terminal should any issues arise while you are developing.
+
+Because Gatsby uses Webpack under the hood, you get Hot Module Replacement (HMR) and previewing changes while developing is nearly instant as soon as you save the file.
+
+Except for booting up your project on `localhost:8000`, Gatsby also gives you a graphiQL instance at `localhost:8000/___graphql` where you can live query your data and prototype GraphQL queries, as well as just explore the shape of your data. Very useful!
+
+#### 🔄 Rich ecosystem
+
+There are plenty of resources to get you started. More than 700 plugins and plenty of starters that are just a `npx gatsby new [GITHUB REPO URL]` away.
+
+#### 💜 Amazing community
+
+The community around Gatsby is comprised of many people passionate about the future of the project, willing to help each other out. There are a LOT of articles out there on complete stacks, solving a particular problem, or just using a specific data source. That makes it easy to find an example when you need one.
+
+There is a [Discord] channel, [Spectrum] community and following [Gatsby] on Twitter is probably a good idea, as the main account tweets and retweets many useful resources.
+
+In fact, some people might be so passionate, as to have claimed that a Gatsby project can get a Lighthouse performance score of 70+ while running at CDN edge on a _TOASTER_.
+
+[link to tweet embed]
+
+Here's how the Lighthouse scores of the default Gatsby starter look, for illustration purposes.
+
+[image of Gatsby default starter]
+
+### #Perfmatters
+
+Here's where I take a small tangent on a topic I care deeply about - web performance.
+
+There are many reasons to care about performance, but at the end of the day, it's Your users and Your business on the line.
+
+Performance, speed, user satisfaction all translate to real money. There are also SEO benefits for fast sites as of July 2018 as page speed is now a part of the page ranking algorithm.
+
+Having a fast, performing site is a good way to distinguish yourself from your competition. Users are impatient nowadays, and slow sites lead to increased bounce rates.
+
+Finally, as we welcome the next 1 billion users on the internet, it's good to be aware that they might be coming online from places where bandwidth is expensive and connections could be flaky.
+
+Now that the Web had it's 30th birthday, let's be nice and build quality experiences!
+
+#### What can Gatsby do about that?
+
+Well, as I mentioned already, Gatsby is engineered for performance from the ground up. There are many things that Gatsby does right and manages for you. From how resources are loaded to optimize for the [critical rendering path (CRP)][], to how resources are prefetched and preloaded for routes the user might hit next.
+
+But I'd like to talk about the `gatsby-image` component. Opting-in to use that for your images, is a great way to grab some of those high impact low effort low hanging fruit.
+
+Depending on what your app is like, images could make up for a big portion of all the resources you serve to users. In some cases it could be up north of 70%. Now, admitedly, byte for byte JavaScript has higher cost than images, because it also under goes parsing and execution after downloading, but Gatsby manages that for you, and images are still very important to handle right.
+
+At the very least I suggest you use [squoosh.app][] to resize and optimize your original assets.
+
+What `gatsby-image` does for you is it provides you with a highly optimized lazy loading image component. Images not in the viewport during page load are not going to be downloaded. In their place you could opt-in for a low quality base64 encoded image placeholder, that gets replaces with the original high quality image as soon as the user scrolls that asset in the viewport. Gatsby provides you a blur up effect or a traced svg effect if that's what you choose how to handle the low quality placeholder.
+
+The `gatsby-image` component also has a `srcset` attribute where different size images are specified based on viewport width to avoid serving extra large assets to devices that couldn't use up the full size of the image.
+
+Finally, the component serves `webp` images to browsers that can handle that. There is always a fallback for `jpeg` or `png`, but serving `webp` can help a lot because the file size is usually significantly smaller with a visibly similar quality as `jpeg` or `png`.
+
+### Try out React and GraphQL for the first time
+
+Whether your are a seasoned veteran or a new comer to the [React][] and [GraphQL][] world, it is easy to get started with those technologies when using Gatsby. I think it's worth mentioning that because you don't need a whole lot of prior knowledge to get started here. You can write your first React component or a GraphQL query today with Gatsby.
+
+And because Gatsby is using React under the hood, that means you could pull up any React package from [npm]. Yay 🎉!
+
+### How does Gatsby work in a nutshell?
+
+[image of gatsby holistic overview]
+
+Quite straightforward. We have our data sources at the top. Those could be anything from headless CMS's to local JSON or YAML files, to 3rd party APIs and others.
+
+Gatsby pulls those in and generates GraphQL types for you that you can query against. `localhost:8000/___graphql` is your friend when you want to explore the data.
+
+Then, bring in the data to your components using GraphQL queries, which makes said data available as a `data` prop on your components. Use it to build your components.
+
+When you run `gatsby build`, Gatsby will create a production build in the `public` directory at the root. Use that to deploy the assets to any static web host (Netlify, AWS, Now, GitHub pages, etc).
+
+TODO: continue from slide 34/69
+
 ## Conclusion
 
 TODO:
