@@ -63,7 +63,14 @@ const FPVVideos = () => {
     'ZiZW9Rzals4',
   ]
 
-  const eachineTrashcanFootage = ['rKG9t7o2xws', 'RNN3yQCMJnE', 'FiHDv3N1oPk']
+  const eachineTrashcanFootage = [
+    'D4syF-9L6ho',
+    'bJesPg1aYgg',
+    'mre72vT9EnA',
+    'rKG9t7o2xws',
+    'RNN3yQCMJnE',
+    'FiHDv3N1oPk',
+  ]
 
   const snapper7Footage = [
     '68VTNfrI8j4',
