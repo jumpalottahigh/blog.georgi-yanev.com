@@ -1251,10 +1251,16 @@ video.fade-in {
   background-color: #0175d8;
 }
 
+.home-page button.category {
+  min-width: 104px;
+}
+
 .twitter-tweet {
   margin: 2rem auto !important;
 }
 
-.home-page button.category {
-  min-width: 104px;
+@media (max-width: 600px) {
+  .twitter-tweet {
+    width: 100% !important;
+  }
 }
