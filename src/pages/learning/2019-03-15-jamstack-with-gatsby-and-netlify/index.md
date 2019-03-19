@@ -16,57 +16,64 @@ tags:
   - 'jamstack'
 ogKeywords: 'TODO:'
 ogDescription: 'TODO:'
-ogImage: './jamstack-with-gatsby-and-netlify-1.png'
+ogImage: './jamstack-with-gatsby-and-netlify-1.jpg'
 ---
 
-The below is based on the talk I gave at Frontend Finland called: "JAMstack with Gatsby and Netlify".
+The below is based on the talk I ([Georgi][14]) gave at [Frontend Finland 2019][1] called: **"JAMstack with Gatsby and Netlify"**.
 
-## Intro and why
+![Georgi presenting at Frontend Finland 2019](jamstack-with-gatsby-and-netlify-1.jpg)
 
-I'd like to share some thoughts about the [JAMstack][1]. And in particular the JAMstack with [Gatsby][2] and [Netlify][3]. And here's what my angle is coming at this. I work as a web developer at F-Secure and I am convinced that performance on the web matters. The web just had its 30th birthday and it's our job to build performing and high quality experiences, but more on this later. For now let's dive into the JAMstack.
+## 🕳 Intro and why
 
-## So what is the JAMstack?
+I'd like to share some thoughts about the [JAMstack][2]. And in particular the JAMstack with [Gatsby][3] and [Netlify][4]. And here's what my angle is coming at this. I work as a [web developer][5] at F-Secure and I am convinced that performance on the web matters. [The web just had its 30th birthday][6] and it's our job to build performing and high quality experiences, but more on this later.
 
-[image of JAM]
+![Georgi's business card](jamstack-with-gatsby-and-netlify-0.jpg)
 
-The `JAM` acronym stands for `J`avascript, `A`PIs, `M`arkup.
+For now let's dive into the JAMstack.
 
-If you head on over to [jamstack.org][4] you will probably notice this graphic.
+## 🥞 So what is the JAMstack?
 
-[TODO: image of JAMstack breakdown]
+![image of JAMstack description](jamstack-with-gatsby-and-netlify-2.jpg)
 
-It's a term coined by Mathias Biilmann that has seen a lot of adoption in the past few years.
+> _Credit: jamstack.org_
 
-#### const { J } = JAM
+The `' JAM '` acronym stands for `' J '` avascript, `' A '` PIs, `' M '` arkup.
+
+It's a term coined by [Mathias Biilmann][7] from Netlify and has been making rounds for the past few years. Let's destructure the acronym.
+
+#### `const { J } = JAM`
 
 > "Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
-> jamstack.org
+
+> _jamstack.org_
 
 I think the key takeaways here are **running entirely on the client** and **any framework, library or VanillaJS**. Cool, so pretty loose definition, which is great.
 
-#### const { A } = JAM
+#### `const { A } = JAM`
 
 > "All server-side processes or database actions are abstracted into reusable APIs, accessed over HTTPS with JavaScript. These can be custom-built or leverage third-party services."
-> jamstack.org
+
+> _jamstack.org_
 
 I'd like to bring your attention here to the **reusable APIs over HTTPS with JavaScript** and **custom-built or third-party services**. Good definition, nothing ground breaking, pretty simple.
 
-#### const { M } = JAM
+#### `const { M } = JAM`
 
 > "Templated markup should be prebuilt at deploy time, usually using a site generator for content sites, or a build tool for web apps."
-> jamstack.org
+
+> _jamstack.org_
 
 The markup part talks about **prebuilt markup at deploy time**. Some tooling required, ok cool.
 
-Here are a couple of jamstack sites they show as examples at jamstack.org/examples:
+Here are [several example jamstack sites featured on jamstack.org/examples][8]:
 
-[https://jamstack.org/examples/]
+![Example jamstack sites featured on https://jamstack.org/examples/](jamstack-with-gatsby-and-netlify-3.jpg)
 
 Again the interesting thing to note is that you could opt-in for any framework or library and still ship a JAMstack site. It's interesting to also note the fact that many of the examples use headless CMS's to pull in content.
 
 Here's the part I personally like the most about the JAMstack.
 
-[image of my slide about core ideas]
+![Core ideas of the JAMstack](jamstack-with-gatsby-and-netlify-4.png)
 
 #### 📈 Better Performance
 
@@ -90,17 +97,21 @@ While here I aim to focus more on the benefits of the JAMstack, it is worth noti
 
 > **Engineering is all about making the right trade-offs based on your requirements**
 
-Just a month ago [Jason Miller][] and [Addy Osmani][] from the Google Chrome team put together an [article on when to use SSR and a comparison on many different rendering strategies][].
+Just a month ago [Jason Miller][9] and [Addy Osmani][10] from the Google Chrome team put together an [article on when to use SSR and a comparison on many different rendering strategies][11].
 
-[tweet embed]
+https://twitter.com/_developit/status/1093223382223605762
 
 The article makes for an interesting read and in particular this table is worth spending some time on.
 
-[image of comparison table]
+![Comparison of different rendering strategies](jamstack-with-gatsby-and-netlify-5.png)
 
-Finally, another resource worth checking out is the JAMstack video on the Google Chrome Developers YouTube channel by [Surma][] and [Jake Archibald][].
+> _Credit: https://developers.google.com/web/updates/2019/02/rendering-on-the-web_
 
-[YouTube video]
+Finally, another resource worth checking out is the JAMstack video on the Google Chrome Developers YouTube channel by [Surma][12] and [Jake Archibald][13].
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/QXsWaA3HTHA?rel=0" frameBorder="0" allowFullScreen title="JAMstack with Surma and Jake Archibald from the Google Chrome team"></iframe>
+</div>
 
 ## Netlify
 
@@ -446,3 +457,17 @@ Additionally I hope I managed to drive home the \*#perfmatters\*\* point. It's u
 Go have fun building things with Gatsby and Netlify!
 
 [0]: Linkslist
+[1]: https://www.meetup.com/frontendfinland/events/258866782/
+[2]: https://jamstack.org
+[3]: https://www.gatsbyjs.org/
+[4]: https://www.netlify.com/
+[5]: /learning/how-i-got-into-software-development/
+[6]: https://web30.web.cern.ch/
+[7]: https://twitter.com/biilmann
+[8]: https://jamstack.org/examples/
+[9]: https://twitter.com/_developit
+[10]: https://twitter.com/addyosmani
+[11]: https://developers.google.com/web/updates/2019/02/rendering-on-the-web
+[12]: https://twitter.com/DasSurma
+[13]: https://twitter.com/jaffathecake
+[14]: https://gyanev.com/about/

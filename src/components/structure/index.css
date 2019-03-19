@@ -1264,3 +1264,12 @@ video.fade-in {
     width: 100% !important;
   }
 }
+
+.blog-post .gatsby-resp-image-wrapper {
+  box-shadow: 2px 2px 6px 0px #dedede;
+}
+
+.blog-post .gatsby-resp-image-wrapper:hover {
+  box-shadow: 3px 3px 8px 0px #dedede;
+  transition: all 275ms ease-out;
+}
