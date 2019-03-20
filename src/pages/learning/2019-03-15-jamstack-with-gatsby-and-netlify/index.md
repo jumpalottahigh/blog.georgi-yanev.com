@@ -113,85 +113,83 @@ Finally, another resource worth checking out is the JAMstack video on the Google
   <iframe width="560" height="315" src="https://www.youtube.com/embed/QXsWaA3HTHA?rel=0" frameBorder="0" allowFullScreen title="JAMstack with Surma and Jake Archibald from the Google Chrome team"></iframe>
 </div>
 
-## Netlify
+<div style="margin-top: 3rem; margin-bottom: 1rem;">
+  <img src="jamstack-with-gatsby-and-netlify-6.svg" alt="Netlify logo" style="height: 68px;">
+</div>
 
-[netlify logo image]
+The next sections on different [Netlify][4] features might come across a bit as fanboy-ish, and that's because they largely are. I'm not even sorry, because everything I have outlined below has been my personal experience and for the better part everything has been outstanding.
 
-The next sections on different Netlify features might come across a bit as fanboy-ish, and that's because they largely are. I'm not even sorry, because everything I have outlined below has been my personal experience and for the better part everything has been outstanding.
-
-[TODO: consider adding emoji to all subsections]
-
-#### Dev Experience
+#### 😍 Dev Experience
 
 If you are active on Twitter and following any Frontend or Full stack people chances are you might have heard people praise Netlify for what it is, and rightfully so. In fact, I do so myself frequently. It's because they are awesome, the product is great, and the developer experience score is over 9000.
 
-#### Free tier
+#### 💵 Free tier
 
 You can get started with the free tier in the matter of seconds and you will probably not outgrow it any time soon.
 
-#### Application Delivery Network (ADN)
+#### 📦 Application Delivery Network (ADN)
 
 CDN for apps. Netlify comes with a powerful CDN for applications and static sites with plenty of edge nodes.
 
-#### Continuous Deployment
+#### 🔁 Continuous Deployment
 
 If your project has a repository in GitHub, GitLab or Bitbucket, it's a matter of a few clicks to link that repository to Netlify. This enables you to publish on merges or pushes to the `master` branch of your repository, for example. Very easy to setup with no hassle, very powerful feature.
 
-#### SSL Certificates
+#### 📑 SSL Certificates
 
 Netlify provides a free of charge SSL certificate for your project by utilizing the open source Let's Encrypt project. This is important because in 2019 SSL and https are not only highly recommended they are almost a requirement. That provides better security for your users, is required for HTTP/2 and some new TLDs (like `.dev`) and is good for SEO. The best part about it - Netlify automatically renews the certificates for you, so you don't have to do anything!
 
-#### Custom Domains
+#### 📝 Custom Domains
 
 Here the developer experience comes first again, as it is just SO easy to setup a custom domain for your site. With a few clicks you are good to go. The flow is very smooth. You can also rename the default subdomain where Netlify hosts your project by default, and redirect that to your custom domain. Very cool.
 
-#### Auto previews for PRs
+#### 🚀 Auto previews for PRs
 
 When you open a pull request against the master branch of your repository, Netlify will automatically build a preview of that pull request. That's super awesome! Again, no configuration required, apart from having a project linked to a GitHub repository. That's pretty neat to be always able to check quickly how the changes from a PR look before you have merged it.
 
-#### Netlify Functions
+#### ƒ Netlify Functions
 
 AWS lambdas simplified. This is really nice to have in case you ever need to do a bit more with Node.js. You don't have to use it if you don't want to, but the feature is there which is neat.
 
-#### Netlify Identity
+#### 🆔 Netlify Identity
 
 Provides authentication. A way to manage sign ups, logins. Could be cool for things like the Netlify CMS or creating some sort of gated content like dashboards, personal account pages and more.
 
-#### Netlify Forms
+#### 📅 Netlify Forms
 
 Get data from a form right into the Netlify app by only adding a `netlify` attribute to a form. This could be very cool and quite useful you if don't want to go over setting up something more complicated and you need to ship something now, or you are prototyping.
 
-#### Deploy a site by dragging and dropping
+#### 🙌 Deploy a site by dragging and dropping
 
-[make a gif or repeating webm / mp4 out of demo video]
+![Gif that shows how to deploy a simple hello world site on Netlify by dragging and dropping](jamstack-with-gatsby-and-netlify-7.gif)
 
-#### Deploy from a repository
+The above is a 30 second deploy demo that gets your site on the internet at a netlify.com subdomain (that you can rename or setup your own custom domain) and an SSL certificate. It's bonkers 🤯.
 
-But as I mentioned the true power of Netlify comes from connecting it straight to a repository.
+#### 👍 Deploy from a repository
 
-[video / gif of deploying from a repo]
+But as I mentioned the true power of Netlify comes from connecting it straight to a repository, when you can reap the benefits of auto deploys, deploy previews and other nice things.
 
-## Gatsby
+<div style="display: flex; margin-top: 3rem; margin-bottom: 1rem;">
+  <img src="jamstack-with-gatsby-and-netlify-8.svg" alt="Gatsby logo" style="height: 68px;">
+</div>
 
-[Gatsby logo image]
-
-[Gatsby] is many times introduced as a React based static site generator (which it is) but it also doesn't do it justice, because maybe some people miss the fact that Gatsby also rehydrates into a full-fledged React app during runtime.
+[Gatsby][3] is many times introduced as a React based static site generator (which it is) but it also doesn't do it justice, because maybe some people miss the fact that Gatsby also rehydrates into a full-fledged React app during runtime.
 
 #### 🔥 Blazing fast
 
-One of the most important points is that Gatsby is engineered for performance from the ground up. A default project setup with Gatsby starts off with Lighthouse scores of 100 across Performance, Accessibility, Best Practices and SEO and can be configured in seconds to deploy as a Progressive Web App (PWA).
+One of the most important points is that Gatsby is engineered for performance from the ground up. A default project setup with Gatsby starts off with Lighthouse scores of 100 across Performance, Accessibility, Best Practices and SEO and can be configured in seconds to deploy as a [Progressive Web App][15] (PWA).
 
 #### 🛠 Tooling
 
-Gatsby comes with all the modern tools configured and setup for you. You get Webpack, Babel, ES Lint, Prettier, GraphiQL and so much more.
+Gatsby comes with all the modern tools configured and setup for you. You get [Webpack][16], [Babel][17], [ESLint][18], [Prettier][19], [GraphQL][20] and so much more.
 
 #### 📀 Your data from any source
 
-Gatsby creates GraphQL types of your data from any source so that you can query it in a similar way across your app. The data can be sourced from headless CMS's, third party APIs, local file system and more. Some headless CMS options worth mentioning and trying out are: [Contentful], [Sanity.io], [DatoCMS].
+Gatsby creates GraphQL types of your data from any source so that you can query it in a similar way across your app. The data can be sourced from headless CMS's, third party APIs, local file system and more. Some headless CMS options worth mentioning and trying out are: [Contentful][21], [Sanity][22], [DatoCMS][23].
 
 #### 📦 Deploy anywhere
 
-Because Gatsby compiles your project into static files (HTML, CSS, JS, JSON) you can deploy the output anywhere you could deploy static assets. For example: [Netlify], [AWS S3], [Now], [GitHub Pages] and more.
+Because Gatsby compiles your project into static files (HTML, CSS, JS, JSON) you can deploy the output anywhere you could deploy static assets. For example: [Netlify][4], [AWS S3][24], [Now][25], [GitHub Pages][26] and more.
 
 #### 🅿W🅰
 
@@ -219,17 +217,17 @@ There are plenty of resources to get you started. More than 700 plugins and plen
 
 The community around Gatsby is comprised of many people passionate about the future of the project, willing to help each other out. There are a LOT of articles out there on complete stacks, solving a particular problem, or just using a specific data source. That makes it easy to find an example when you need one.
 
-There is a [Discord] channel, [Spectrum] community and following [Gatsby] on Twitter is probably a good idea, as the main account tweets and retweets many useful resources.
+There is a [Discord][27] channel, [Spectrum][28] community and following [Gatsby on Twitter][29] is probably a good idea, as the main account tweets and retweets many useful resources.
 
 In fact, some people might be so passionate, as to have claimed that a Gatsby project can get a Lighthouse performance score of 70+ while running at CDN edge on a _TOASTER_.
 
-[link to tweet embed]
+https://twitter.com/jumpalottahigh/status/1083999310168162304
 
 Here's how the Lighthouse scores of the default Gatsby starter look, for illustration purposes.
 
-[image of Gatsby default starter]
+![image of Gatsby default starter](jamstack-with-gatsby-and-netlify-9.png)
 
-### #Perfmatters
+### 🚀 #Perfmatters
 
 Here's where I take a small tangent on a topic I care deeply about - web performance.
 
@@ -245,13 +243,13 @@ Now that the Web had it's 30th birthday, let's be nice and build quality experie
 
 #### What can Gatsby do about that?
 
-Well, as I mentioned already, Gatsby is engineered for performance from the ground up. There are many things that Gatsby does right and manages for you. From how resources are loaded to optimize for the [critical rendering path (CRP)][], to how resources are prefetched and preloaded for routes the user might hit next.
+Well, as I mentioned already, Gatsby is engineered for performance from the ground up. There are many things that Gatsby does right and manages for you. From how resources are loaded to optimize for the [critical rendering path (CRP)][30], to how resources are prefetched and preloaded for routes the user might hit next.
 
 But I'd like to talk about the `gatsby-image` component. Opting-in to use that for your images, is a great way to grab some of those high impact low effort low hanging fruit.
 
 Depending on what your app is like, images could make up for a big portion of all the resources you serve to users. In some cases it could be up north of 70%. Now, admittedly, byte for byte JavaScript has higher cost than images, because it also under goes parsing and execution after downloading, but Gatsby manages that for you, and images are still very important to handle right.
 
-At the very least I suggest you use [squoosh.app][] to resize and optimize your original assets.
+At the very least I suggest you use [squoosh.app][31] to resize and optimize your original assets.
 
 What `gatsby-image` does for you is it provides you with a highly optimized lazy loading image component. Images not in the viewport during page load are not going to be downloaded. In their place you could opt-in for a low quality base64 encoded image placeholder, that gets replaces with the original high quality image as soon as the user scrolls that asset in the viewport. Gatsby provides you a blur up effect or a traced svg effect if that's what you choose how to handle the low quality placeholder.
 
@@ -261,13 +259,15 @@ Finally, the component serves `webp` images to browsers that can handle that. Th
 
 ### Try out React and GraphQL for the first time
 
-Whether your are a seasoned veteran or a new comer to the [React][] and [GraphQL][] world, it is easy to get started with those technologies when using Gatsby. I think it's worth mentioning that because you don't need a whole lot of prior knowledge to get started here. You can write your first React component or a GraphQL query today with Gatsby.
+Whether your are a seasoned veteran or a new comer to the [React][32] and [GraphQL][20] world, it is easy to get started with those technologies when using Gatsby. I think it's worth mentioning that because you don't need a whole lot of prior knowledge to get started here. You can write your first React component or a GraphQL query today with Gatsby.
 
-And because Gatsby is using React under the hood, that means you could pull up any React package from [npm]. Yay 🎉!
+And because Gatsby is using React under the hood, that means you could pull up any React package from [npm][33]. Yay 🎉!
 
 ### How does Gatsby work in a nutshell?
 
-[image of Gatsby holistic overview]
+![image of Gatsby architecture, holistic overview](jamstack-with-gatsby-and-netlify-10.png)
+
+> _Image from gatsbyjs.org_
 
 Quite straightforward. We have our data sources at the top. Those could be anything from headless CMS's to local JSON or YAML files, to 3rd party APIs and others.
 
@@ -289,17 +289,17 @@ $ npx gatsby new my-site
 
 This will setup for you the default Gatsby starter project.
 
-#### [CodeSandbox.io][]
+#### [CodeSandbox.io][34]
 
 You can try out Gatsby right in CodeSandbox. Create a new sandbox and select Gatsby from the server templates.
 
-[image of codesandbox starters]
+![image of codesandbox starters](jamstack-with-gatsby-and-netlify-11.png)
 
 #### By deploying to Netlify
 
 Use the green deploy to Netlify button, available on many starter repositories to instantly deploy a version of that project to Netlify.
 
-[image of netlify deploy button]
+![image of netlify deploy button](jamstack-with-gatsby-and-netlify-12.png)
 
 Alternatively, pass a Gatsby starter repository to the `repository` parameter as seen below:
 
@@ -471,3 +471,23 @@ Go have fun building things with Gatsby and Netlify!
 [12]: https://twitter.com/DasSurma
 [13]: https://twitter.com/jaffathecake
 [14]: https://gyanev.com/about/
+[15]: https://developers.google.com/web/progressive-web-apps/
+[16]: https://webpack.js.org/
+[17]: https://babeljs.io/
+[18]: https://eslint.org/
+[19]: https://prettier.io/
+[20]: https://graphql.org/
+[21]: https://www.contentful.com/
+[22]: https://www.sanity.io/
+[23]: https://www.datocms.com/
+[24]: https://aws.amazon.com/s3/
+[25]: https://zeit.co/now
+[26]: https://pages.github.com/
+[27]: https://gatsby.app/discord
+[28]: https://spectrum.chat/gatsby-js
+[29]: https://twitter.com/gatsbyjs
+[30]: https://developers.google.com/web/fundamentals/performance/critical-rendering-path/
+[31]: https://squoosh.app/
+[32]: https://reactjs.org/
+[33]: https://www.npmjs.com/
+[34]: https://codesandbox.io/
