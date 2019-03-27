@@ -1273,3 +1273,7 @@ video.fade-in {
   box-shadow: 3px 3px 8px 0px #dedede;
   transition: all 275ms ease-out;
 }
+
+code {
+  padding: 0.1em 0.5em !important;
+}
