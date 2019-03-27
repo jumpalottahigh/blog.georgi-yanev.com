@@ -14,8 +14,8 @@ tags:
   - 'gatsby'
   - 'netlify'
   - 'jamstack'
-ogKeywords: 'TODO:'
-ogDescription: "I'd like to share some thoughts about the JAMstack. And in particular - the JAMstack with Gatsby and Netlify. I work as a web developer at F-Secure and I am convinced that performance on the web matters. The web just had its 30th birthday and it's our job to build performing and high quality experiences."
+ogKeywords: 'JAMstack, Netlify, Gatsby, gatsbyjs, jamstack, PWA, building static sites, SSR, rehydrate to React app, blazing fast, what can you build with Gatsby, example Gatsby projects, talk, helsinkijs march 2019, frontend finland 2019, georgi yanev talk, jamstack talk, building for performance with gatsby, bring in your data sources to gatsby, how to build apps with gatsby, web compiler'
+ogDescription: "I'd like to share some thoughts about the JAMstack. And in particular - the JAMstack with Gatsby and Netlify. I work as a web developer at F-Secure and I am convinced that performance on the web matters. The web just had its 30th birthday and it's our job to build performing and high-quality experiences."
 ogImage: './jamstack-with-gatsby-and-netlify-1.jpg'
 ---
 
@@ -25,7 +25,7 @@ This post is based on a talk I gave at [Frontend Finland 2019][1] and at [Helsin
 
 ## 🕳 Intro and why
 
-I'd like to share some thoughts about the [JAMstack][2]. And in particular - the JAMstack with [Gatsby][3] and [Netlify][4]. I work as a [web developer][5] at F-Secure and I am convinced that performance on the web matters. [The web just had its 30th birthday][6] and it's our job to build performing and high quality experiences.
+I'd like to share some thoughts about the [JAMstack][2]. And in particular - the JAMstack with [Gatsby][3] and [Netlify][4]. I work as a [web developer][5] at F-Secure and I am convinced that performance on the web matters. [The web just had its 30th birthday][6] and it's our job to build performing and high-quality experiences.
 
 ![Georgi's business card](jamstack-with-gatsby-and-netlify-0.jpg)
 
@@ -57,7 +57,7 @@ I think the key takeaways here are **running entirely on the client** and **any 
 
 > _jamstack.org_
 
-I'd like to bring your attention here to the **reusable APIs over HTTPS with JavaScript** and **custom-built or third-party services**. Good definition, nothing ground breaking, pretty simple.
+I'd like to bring your attention here to the **reusable APIs over HTTPS with JavaScript** and **custom-built or third-party services**. Good definition, nothing groundbreaking, pretty simple.
 
 #### `const { M } = JAM`
 
@@ -79,7 +79,7 @@ Here's the part I personally like the most about the JAMstack.
 
 #### 📈 Better Performance
 
-The biggest performance benefit with the JAMstack approach comes from the fact that we are serving prebuilt HTML from CDN edge.
+The biggest performance benefit with the JAMstack approach comes from the fact that we are serving prebuilt HTML from the CDN edge.
 
 #### 🔐 Higher Security
 
@@ -91,11 +91,11 @@ As a rule of thumb scaling is easy and efficient for static files and that's wha
 
 #### 😍 Better Developer Experience
 
-With a JAMstack approach there are less things to maintain and it's usually faster to deploy, so developers are happy.
+With a JAMstack approach, there are fewer things to maintain and it's usually faster to deploy, so developers are happy.
 
 #### Disclaimer
 
-While here I aim to focus more on the benefits of the JAMstack, it is worth noting that the JAMstack approach is not a silver bullet and it is not the answer to all problems. In engineering it is a good idea to consider the trade-offs and choose the right approach for your project.
+While here I aim to focus more on the benefits of the JAMstack, it is worth noting that the JAMstack approach is not a silver bullet and it is not the answer to all problems. In engineering, it is a good idea to consider the trade-offs and choose the right approach for your project.
 
 > **Engineering is all about making the right trade-offs based on your requirements**
 
@@ -103,7 +103,7 @@ Just a month ago [Jason Miller][9] and [Addy Osmani][10] from the Google Chrome 
 
 https://twitter.com/_developit/status/1093223382223605762
 
-The article makes for an interesting read and in particular this table is worth spending some time on.
+The article makes for an interesting read and in particular, this table is worth spending some time on.
 
 ![Comparison of different rendering strategies](jamstack-with-gatsby-and-netlify-5.png)
 
@@ -119,7 +119,7 @@ Finally, another resource worth checking out is the JAMstack video on the Google
   <img src="jamstack-with-gatsby-and-netlify-6.svg" alt="Netlify logo" style="height: 68px;">
 </div>
 
-The next sections on different [Netlify][4] features might come across a bit as fanboy-ish, and that's because they largely are. I'm not even sorry, because everything I have outlined below has been my personal experience and for the better part everything has been outstanding.
+The next sections on different [Netlify][4] features might come across a bit as fanboyish, and that's because they largely are. I'm not even sorry, because everything I have outlined below has been my personal experience and for the better part everything has been outstanding.
 
 #### 😍 Dev Experience
 
@@ -127,7 +127,7 @@ If you are active on Twitter and following any Frontend or Full stack people cha
 
 #### 💵 Free tier
 
-You can get started with the free tier in the matter of seconds and you will probably not outgrow it any time soon.
+You can get started with the free tier in a matter of seconds and you will probably not outgrow it any time soon.
 
 #### 📦 Application Delivery Network (ADN)
 
@@ -135,7 +135,7 @@ CDN for apps. Netlify comes with a powerful CDN for applications and static site
 
 #### 🔁 Continuous Deployment
 
-If your project has a repository in GitHub, GitLab or Bitbucket, it's a matter of a few clicks to link that repository to Netlify. This enables you to publish on merges or pushes to the `master` branch of your repository, for example. Very easy to setup with no hassle, very powerful feature.
+If your project has a repository in GitHub, GitLab or Bitbucket, it's a matter of a few clicks to link that repository to Netlify. This enables you to publish on merges or pushes to the `master` branch of your repository, for example. Very easy to set up with no hassle, very powerful feature.
 
 #### 📑 SSL Certificates
 
@@ -143,7 +143,7 @@ Netlify provides a free of charge SSL certificate for your project by utilizing 
 
 #### 📝 Custom Domains
 
-Here the developer experience comes first again, as it is just SO easy to setup a custom domain for your site. With a few clicks you are good to go. The flow is very smooth. You can also rename the default subdomain where Netlify hosts your project by default, and redirect that to your custom domain. Very cool.
+Here the developer experience comes first again, as it is just SO easy to set up a custom domain for your site. With a few clicks, you are good to go. The flow is very smooth. You can also rename the default subdomain where Netlify hosts your project by default, and redirect that to your custom domain. Very cool.
 
 #### 🚀 Auto previews for PRs
 
@@ -155,7 +155,7 @@ AWS lambdas simplified. This is really nice to have in case you ever need to do 
 
 #### 🆔 Netlify Identity
 
-Provides authentication. A way to manage sign ups, logins. Could be cool for things like the Netlify CMS or creating some sort of gated content like dashboards, personal account pages and more.
+Provides authentication. A way to manage sign-ups, logins. Could be cool for things like the Netlify CMS or creating some sort of gated content like dashboards, personal account pages and more.
 
 #### 📅 Netlify Forms
 
@@ -165,7 +165,7 @@ Get data from a form right into the Netlify app by only adding a `netlify` attri
 
 ![Gif that shows how to deploy a simple hello world site on Netlify by dragging and dropping](jamstack-with-gatsby-and-netlify-7.gif)
 
-The above is a 30 second deploy demo that gets your site on the internet at a netlify.com subdomain (that you can rename or setup your own custom domain) and an SSL certificate. It's bonkers 🤯.
+The above is a 30-second deploy demo that gets your site on the internet at a netlify.com subdomain (that you can rename or set up your own custom domain) and an SSL certificate. It's bonkers 🤯.
 
 #### 👍 Deploy from a repository
 
@@ -179,7 +179,7 @@ But as I mentioned the true power of Netlify comes from connecting it straight t
 
 #### 🔥 Blazing fast
 
-One of the most important points is that Gatsby is engineered for performance from the ground up. A default project setup with Gatsby starts off with Lighthouse scores of 100 across Performance, Accessibility, Best Practices and SEO and can be configured in seconds to deploy as a [Progressive Web App][15] (PWA).
+One of the most important points is that Gatsby is engineered for performance from the ground up. A default project setup with Gatsby starts off with Lighthouse scores of 100 across Performance, Accessibility, Best Practices, and SEO and can be configured in seconds to deploy as a [Progressive Web App][15] (PWA).
 
 #### 🛠 Tooling
 
@@ -187,9 +187,9 @@ Gatsby comes with all the modern tools configured and setup for you. You get [We
 
 #### 📀 Your data from any source
 
-Gatsby creates GraphQL types of your data from any source so that you can query it in a similar way across your app. The data can be sourced from headless CMS's, third party APIs, local file system and more. Some headless CMS options worth mentioning and trying out are: [Contentful][21], [Sanity][22], [DatoCMS][23].
+Gatsby creates GraphQL types of data from any source so that you can query it in a similar way across your app. The data can be sourced from headless CMS's, third-party APIs, local file system and more. Some headless CMS options worth mentioning and trying out are: [Contentful][21], [Sanity][22], [DatoCMS][23].
 
-#### 📦 Deploy anywhere
+#### 📦 Deploy Anywhere
 
 Because Gatsby compiles your project into static files (HTML, CSS, JS, JSON) you can deploy the output anywhere you could deploy static assets. For example: [Netlify][4], [AWS S3][24], [Now][25], [GitHub Pages][26] and more.
 
@@ -213,7 +213,7 @@ Except for booting up your project on `localhost:8000`, Gatsby also gives you a 
 
 #### 🔄 Rich ecosystem
 
-There are plenty of resources to get you started. More than 700 plugins and plenty of starters that are just a `npx gatsby new [GITHUB REPO URL]` away.
+There are plenty of resources to get you started. More than 700 plugins and plenty of starters that are just an `npx gatsby new [GITHUB REPO URL]` away.
 
 #### 💜 Amazing community
 
@@ -241,7 +241,7 @@ Having a fast, performing site is a good way to distinguish yourself from your c
 
 Finally, as we welcome the next 1 billion users on the internet, it's good to be aware that they might be coming online from places where bandwidth is expensive and connections could be flaky.
 
-Now that the Web had it's 30th birthday, let's be nice and build quality experiences!
+Now that the Web had its 30th birthday, let's be nice and build quality experiences!
 
 #### What can Gatsby do about that?
 
@@ -249,11 +249,11 @@ Well, as I mentioned already, Gatsby is engineered for performance from the grou
 
 But I'd like to talk about the `gatsby-image` component. Opting-in to use that for your images, is a great way to grab some of those high impact low effort low hanging fruit.
 
-Depending on what your app is like, images could make up for a big portion of all the resources you serve to users. In some cases it could be up north of 70%. Now, admittedly, byte for byte JavaScript has higher cost than images, because it also under goes parsing and execution after downloading, but Gatsby manages that for you, and images are still very important to handle right.
+Depending on what your app is like, images could make up for a big portion of all the resources you serve to users. In some cases, it could be up north of 70%. Now, admittedly, byte for byte JavaScript has a higher cost than images, because it also undergoes parsing and execution after downloading, but Gatsby manages that for you, and images are still very important to handle right.
 
 At the very least I suggest you use [squoosh.app][31] to resize and optimize your original assets.
 
-What `gatsby-image` does for you is it provides you with a highly optimized lazy loading image component. Images not in the viewport during page load are not going to be downloaded. In their place you could opt-in for a low quality base64 encoded image placeholder, that gets replaces with the original high quality image as soon as the user scrolls that asset in the viewport. Gatsby provides you a blur up effect or a traced svg effect if that's what you choose how to handle the low quality placeholder.
+What `gatsby-image` does for you is it provides you with a highly optimized lazy loading image component. Images not in the viewport during page load are not going to be downloaded. In their place, you could opt-in for a low-quality base64 encoded image placeholder, that gets replaces with the original high-quality image as soon as the user scrolls that asset in the viewport. Gatsby provides you a blur up effect or a traced SVG effect if that's what you choose how to handle the low-quality placeholder.
 
 The `gatsby-image` component also has a `srcset` attribute where different size images are specified based on viewport width to avoid serving extra large assets to devices that couldn't use up the full size of the image.
 
@@ -261,7 +261,7 @@ Finally, the component serves `webp` images to browsers that can handle that. Th
 
 ### Try out React and GraphQL for the first time
 
-Whether your are a seasoned veteran or a new comer to the [React][32] and [GraphQL][20] world, it is easy to get started with those technologies when using Gatsby. I think it's worth mentioning that because you don't need a whole lot of prior knowledge to get started here. You can write your first React component or a GraphQL query today with Gatsby.
+Whether you are a seasoned veteran or a newcomer to the [React][32] and [GraphQL][20] world, it is easy to get started with those technologies when using Gatsby. I think it's worth mentioning that because you don't need a whole lot of prior knowledge to get started here. You can write your first React component or a GraphQL query today with Gatsby.
 
 And because Gatsby is using React under the hood, that means you could pull up any React package from [npm][33]. Yay 🎉!
 
@@ -289,7 +289,7 @@ To get started from the command line run:
 $ npx gatsby new my-site
 ```
 
-This will setup for you the default Gatsby starter project.
+This will set up for you the default Gatsby starter project.
 
 #### [CodeSandbox.io][34]
 
@@ -315,7 +315,7 @@ One of the nice things about Gatsby is the fact that you could pipe in data from
 
 Whatever the source - local file system or a headless CMS, the data is available to query in GraphiQL. Try it for yourself right now!
 
-In this example project we have data coming in from JSON files as seen on the image below.
+In this example project, we have data coming in from JSON files as seen on the image below.
 
 ![image of project structure](jamstack-with-gatsby-and-netlify-14.jpg)
 
@@ -327,11 +327,11 @@ Now, in the editor below type in:
 }
 ```
 
-and press the play button to execute the query. GraphiQL will fill in some extra subfields for you, namely `edges`, `node` and `id`. In the right pane you see the data that comes back from your query. Try it out!
+and press the play button to execute the query. GraphiQL will fill in some extra subfields for you, namely `edges`, `node` and `id`. In the right pane, you see the data that comes back from your query. Try it out!
 
 <iframe src="https://k3201jy9jo.sse.codesandbox.io/___graphql?fontsize=14" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-Let's add also `path`, `title` and `body` each on a separate line below `id`. Click play and see how data for those fields comes back as well. Awesome! Congrats on trying out your first GraphQL query!
+Let's add also `path`, `title` and `body` each on a separate line below `id`. Click play and see how data for those fields come back as well. Awesome! Congrats on trying out your first GraphQL query!
 
 Here is the final query for illustration purposes.
 
@@ -358,13 +358,13 @@ Keep in mind, `CTRL` + `Space` is your friend here. It invokes the autocompletio
 
 There are [more than 700 plugins][36] (at least the ones listed on the official site) for Gatsby, which is a lot. Those plugins are chunks of reusable functionality you can bring into your projects by installing them and configuring them in `gatsby-config.js`. I'm not even going to get into the examples, just search for what you have in mind and chances are it exists. If it does not, then maybe that's a good opportunity to write a plugin yourself and share it with the community. The tutorial on [how to create a source plugin][37] is a great place to start.
 
-Some plugins enable certain type of functionality, like create a sitemap, RSS feed or add Google Analytics to your site. Others are the so called **source** plugins that deal with fetching data. Yet another type is the **transformer** plugins that, well... transform data. For instance from JSON or YAML in your local file system to types you can query from within Gatsby.
+Some plugins enable a certain type of functionality, like create a sitemap, RSS feed or add Google Analytics to your site. Others are the so-called **source** plugins that deal with fetching data. Yet another type is the **transformer** plugins that, well... transform data. For instance from JSON or YAML in your local file system to types you can query from within Gatsby.
 
 It's also worth mentioning that you could also create local plugins, right within your project. This enables you to create custom private plugins if you have a use case for that (for example an internal company API).
 
 #### Starters
 
-While plugins are more about bringing in chunks of functionality as you need it, [starters are a more well rounded solution][38]. A starter is a complete project starting boilerplate based on a specific use case, functionality or a data source.
+While plugins are more about bringing in chunks of functionality as you need it, [starters are a more well-rounded solution][38]. A starter is a complete project starting boilerplate based on a specific use case, functionality or a data source.
 
 For example, if you'd like to get started very quickly and you know your project will use data from [Contentful][21] and will be deployed to [Netlify][4] you can start right away with a starter configured for that:
 
@@ -374,7 +374,7 @@ $ npx gatsby new https://github.com/ryanwiemer/gatsby-starter-gcn
 
 There are starters for [blogging][39], with [SEO emphasis][40], for [PWAs][41], depending on your choice of a [styling solution][42] and more.
 
-Overall starters are great. There is only one minor potential short coming. Right now, if you wanted to pull in updates from the starter you are using as it gets improved over time, you can't really do that, as your project is completely detached from the starter after the initial setup. The Gatsby team is working on a feature that might change that - [THEMES][43]. That could be really powerful.
+Overall starters are great. There is only one minor potential shortcoming. Right now, if you wanted to pull in updates from the starter you are using as it gets improved over time, you can't really do that, as your project is completely detached from the starter after the initial setup. The Gatsby team is working on a feature that might change that - [THEMES][43]. That could be really powerful.
 
 #### Showcase
 
@@ -394,7 +394,7 @@ The [showcase page on gatsbyjs.org][44] has a lot of interesting examples for yo
 
 > _kirstennoelle.com_
 
-You could build gorgeous projects with a lot of "heavy" high quality images and still be very performant.
+You could build gorgeous projects with a lot of "heavy" high-quality images and still be very performant.
 
 **Data visualization heavy apps**
 
@@ -402,7 +402,7 @@ You could build gorgeous projects with a lot of "heavy" high quality images and 
 
 > _2018.stateofjs.com_
 
-**Ecommerce**
+**E-commerce**
 
 ![image of store.gatsbyjs.org](jamstack-with-gatsby-and-netlify-18.jpg)
 
@@ -444,13 +444,13 @@ _Gatsby, Contentful, Netlify, React Reveal, React Icons_
 
 I had a lot of fun building these projects. And the fact that they are deployed from Netlify has saved me a TON of time.
 
-> **In fact, I think there is a direct correlation between the time that has passed since I started using Netlify and the amount of projects I have deployed and maintain.**
+> **In fact, I think there is a direct correlation between the time that has passed since I started using Netlify and the number of projects I have deployed and maintain.**
 
-The former is also very important, as there has been so many times I needed to fix a typo, squash a bug, and all I had to do was commit my fix to the repository. Netlify took care of the rest, deploying my site automatically!
+The former is also very important, as there have been so many times I needed to fix a typo, squash a bug, and all I had to do was commit my fix to the repository. Netlify took care of the rest, deploying my site automatically!
 
 All my projects are open source and available on GitHub at [https://github.com/jumpalottahigh][46]
 
-![image of Georgi's github profile](jamstack-with-gatsby-and-netlify-24.png)
+![image of Georgi's GitHub profile](jamstack-with-gatsby-and-netlify-24.png)
 
 ### 👩‍🎓 If you want to learn more...
 
@@ -460,13 +460,13 @@ Depending on what works for you, you might prefer to learn by doing, from videos
 
 Gatsby is open source and as such is happy to [accept your contributions][49]. This is also a great way to learn and why not grab some sweet, sweet swag while at it.
 
-![image of contribute to Gatsby and get swag](jamstack-with-gatsby-and-netlify-25.png)
+![image of contributing to Gatsby and get swag](jamstack-with-gatsby-and-netlify-25.png)
 
 ## 🔚 Conclusion
 
 I hope I managed to get you excited to build something with Gatsby and Netlify. That's what it boils down to in the end. I had a lot of fun, and I felt very productive using these technologies. They literally helped me SHIP. That's why I wanted to share my experience and hopefully excite you to build something today too.
 
-Additionally I hope I managed to drive home the **performance matters** point. It's up to all of us to build the web for tomorrow today. How we do that matters and shipping fast, high quality experiences should not be underestimated.
+Additionally, I hope I managed to drive home the **performance matters** point. It's up to all of us to build the web for tomorrow today. How we do that matters and shipping fast, high-quality experiences should not be underestimated.
 
 **Go have fun building things with Gatsby and Netlify!**
 
