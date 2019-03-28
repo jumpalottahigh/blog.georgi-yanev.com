@@ -1259,7 +1259,13 @@ video.fade-in {
   margin: 2rem auto !important;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
+  .twitter-tweet {
+    width: 280px !important;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 600px) {
   .twitter-tweet {
     width: 100% !important;
   }
