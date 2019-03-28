@@ -305,7 +305,9 @@ Use the green deploy to Netlify button, available on many starter repositories t
 
 Alternatively, pass a Gatsby starter repository to the `repository` parameter as seen below:
 
-`https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default`
+```
+https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default
+```
 
 ### Data Sources
 
