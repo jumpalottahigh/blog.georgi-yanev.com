@@ -20,6 +20,8 @@ class BlogPostTemplate extends React.Component {
         ? `https://blog.georgi-yanev.com${post.frontmatter.ogImage.publicURL}`
         : `https://blog.georgi-yanev.com/default-ogimage.png`
 
+    const timeToReadEmoji = '⌛'.repeat(Math.ceil(post.timeToRead / 5))
+
     return (
       <Layout location={this.props.location}>
         <Helmet
@@ -124,7 +126,10 @@ class BlogPostTemplate extends React.Component {
                     {post.frontmatter.author}
                   </a>
                 </div>
-                <div className="year">{post.frontmatter.date}</div>
+                <div className="year">
+                  {post.frontmatter.date} •{' '}
+                  {`${timeToReadEmoji} ${post.timeToRead} min read`}
+                </div>
               </div>
               <div>
                 <ModeSwitch />
@@ -156,6 +161,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       excerpt
+      timeToRead
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         dateUnformatted: date

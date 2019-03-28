@@ -1280,6 +1280,10 @@ video.fade-in {
   transition: all 275ms ease-out;
 }
 
+.blog-post blockquote {
+  word-break: break-all;
+}
+
 code {
   padding: 0.1em 0.5em !important;
 }

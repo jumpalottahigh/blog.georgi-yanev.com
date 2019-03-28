@@ -4,24 +4,6 @@ import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import svgRightArrow from '../images/right-arrow.svg'
 
-const months = [
-  'Jan',
-  'Feb',
-  'Mar',
-  'Apr',
-  'May',
-  'Jun',
-  'Jul',
-  'Aug',
-  'Sep',
-  'Oct',
-  'Nov',
-  'Dec',
-]
-
-const currentMonth = months[new Date().getMonth()]
-const currentYear = new Date().getFullYear()
-
 const ALL_CATEGORIES = ['fpv', 'projects', 'learning', 'stories', 'smarthome']
 
 const Post = ({
@@ -31,14 +13,18 @@ const Post = ({
   handleTagClick,
   handleCategoryClick,
 }) => {
+  // Posts are considered fresh if published within the last 31 days
+  const freshDuration = 60 * 60 * 24 * 31 * 1000 // 1 month
+  const now = Date.now()
+  const postDate = new Date(post.node.frontmatter.date).getTime()
+
+  const isFresh = postDate + freshDuration > now
+
   return (
     <li className="post-preview">
       <Link to={post.node.frontmatter.path + '/'}>
         <h4>
-          {currentMonth === post.node.frontmatter.date.split(' ')[0] &&
-          currentYear === parseInt(post.node.frontmatter.date.split(' ')[2])
-            ? '🆕 '
-            : null}
+          {isFresh && '🆕 '}
           {post.node.frontmatter.title}
         </h4>
         <div className="post-preview-content">
