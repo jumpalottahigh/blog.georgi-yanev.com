@@ -119,7 +119,7 @@ Finally, another resource worth checking out is the JAMstack video on the Google
   <img src="jamstack-with-gatsby-and-netlify-6.svg" alt="Netlify logo" style="height: 68px;">
 </div>
 
-The next sections on different [Netlify][4] features might come across a bit as fanboyish, and that's because they largely are. I'm not even sorry, because everything I have outlined below has been my personal experience and for the better part everything has been outstanding.
+The next sections on different [Netlify][4] features might come across as a bit fanboyish, and that's ok because it is. I've had a great experience using Netlify's services for about a year and a half and for the better part everything has been outstanding.
 
 #### 😍 Dev Experience
 

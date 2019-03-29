@@ -9,6 +9,7 @@ import Share from '../components/Share.js'
 import ReadProgressLine from '../components/ReadProgressLine.js'
 import TinyLetterSignup from '../components/TinyLetterSignUp'
 import ModeSwitch from '../components/Mode'
+import EditOnGitHub from '../components/Edit'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -131,7 +132,11 @@ class BlogPostTemplate extends React.Component {
                   {`${timeToReadEmoji} ${post.timeToRead} min read`}
                 </div>
               </div>
-              <div>
+              <div className="toolbar">
+                <EditOnGitHub
+                  path={post.frontmatter.path}
+                  date={post.frontmatter.dateUnformatted}
+                />
                 <ModeSwitch />
               </div>
             </div>

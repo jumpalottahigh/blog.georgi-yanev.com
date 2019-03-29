@@ -1287,3 +1287,7 @@ video.fade-in {
 code {
   padding: 0.1em 0.5em !important;
 }
+
+.toolbar {
+  display: flex;
+}
