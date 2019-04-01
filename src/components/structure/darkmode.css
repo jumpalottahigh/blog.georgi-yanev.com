@@ -197,3 +197,8 @@
   box-shadow: 3px 3px 8px 0px #444;
   transition: all 275ms ease-out;
 }
+
+.dark-mode :not(pre) > code[class*='language-'],
+.dark-mode pre[class*='language-'] {
+  background: var(--dark-mode-bg-color-secondary);
+}
