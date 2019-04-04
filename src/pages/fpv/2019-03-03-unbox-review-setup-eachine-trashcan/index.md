@@ -34,7 +34,7 @@ So let's have a look at what's in the box.
 
 - [Unboxing](#unboxing)
 - [Parts overview](#parts-overview)
-- [Betflight configuration](#betaflight-configuration)
+- [Betaflight configuration](#betaflight-configuration)
 - [Binding to the radio](#binding)
 - [Flying indoors (1s vs 2s vs throttle limits)](#flying-indoors)
 - [Flying outdoors](#flying-outdoors)
