@@ -5,7 +5,8 @@ const SupportSection = ({ affiliateNote }) => {
     <div className="support-section">
       <div>
         If you'd like to support the blog, you can do so by clicking the
-        affiliate link below before making any purchase.
+        affiliate link below before making any purchase. This comes at no
+        additional cost to you.
       </div>
       <div>
         <a
@@ -15,15 +16,12 @@ const SupportSection = ({ affiliateNote }) => {
           href="https://www.banggood.com/?p=NY211410857261201705"
         >
           Banggood
-          <span role="img" aria-label="card">
+          <span role="img" aria-label="letter b">
             🅱
           </span>
         </a>
       </div>
-      <div>
-        Every little bit counts and doing so you support the blog at no
-        additional cost to you. Additionally you can buy me a coffee via paypal.
-      </div>
+      <div>Additionally you can buy me a coffee via paypal.</div>
       <div>
         <a
           className="paypal"
@@ -35,6 +33,21 @@ const SupportSection = ({ affiliateNote }) => {
           &nbsp;Buy&nbsp;me&nbsp;a&nbsp;coffee
           <span role="img" aria-label="card">
             💳
+          </span>
+        </a>
+      </div>
+      <div>Or support me via Patreon.</div>
+      <div>
+        <a
+          className="patreon"
+          style={{ fontSize: '1rem' }}
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.patreon.com/bePatron?u=3061524"
+        >
+          Become&nbsp;a&nbsp;Patron!
+          <span role="img" aria-label="letter p">
+            🅿
           </span>
         </a>
       </div>

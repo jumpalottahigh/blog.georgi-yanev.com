@@ -8,6 +8,7 @@
   --dark-mode-white: #fff;
   --dark-mode-green: #98c379;
   --dark-mode-red: #e06c75;
+  --dark-mode-orange: #e85b46;
   --dark-mode-blue: #61afef;
   --dark-mode-blue-hover: #67b4f4;
   --dark-mode-black: #212121;
@@ -134,6 +135,16 @@
 .dark-mode .support-section a.paypal:hover {
   color: var(--dark-mode-bg-color);
   background-color: var(--dark-mode-blue);
+}
+
+.dark-mode .support-section a.patreon {
+  color: var(--dark-mode-orange);
+  border: 2px solid var(--dark-mode-orange);
+}
+
+.dark-mode .support-section a.patreon:hover {
+  color: var(--dark-mode-bg-color);
+  background-color: var(--dark-mode-orange);
 }
 
 .dark-mode [class|='TinyLetterSignUp__TinyLetter'] {

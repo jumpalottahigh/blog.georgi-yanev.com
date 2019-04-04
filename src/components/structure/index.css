@@ -1219,6 +1219,15 @@ button {
   background-color: #0275d8;
 }
 
+.support-section a.patreon {
+  color: #e85b46;
+  border: 2px solid #e85b46;
+}
+.support-section a.patreon:hover {
+  color: #fff;
+  background-color: #e85b46;
+}
+
 .support-section-affiliate-note {
   font-size: 0.7rem;
   line-height: 1rem;
