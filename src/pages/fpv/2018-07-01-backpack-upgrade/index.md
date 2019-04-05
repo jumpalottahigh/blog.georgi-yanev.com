@@ -9,7 +9,7 @@ tags:
   - 'tools'
   - 'backpack'
   - 'upgrade'
-affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'FPV, backpack, racing quads, drone, quad, gear, radio, googles backpack'
 ogDescription: "A couple of weeks ago I switched to the new Realacc backpack and now the time has come to drop a few words on it. Spoiler: It's pretty awesome!"
 ogImage: './backpack-upgrade-1.jpg'

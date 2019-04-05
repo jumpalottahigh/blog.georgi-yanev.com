@@ -3,7 +3,7 @@ path: '/fpv/upgrading-your-wizard-part-2/'
 date: '2018-08-11'
 title: 'Upgrading your Wizard x220 Part 2'
 author: 'Georgi Yanev'
-affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
 category: 'fpv'
 tags:
