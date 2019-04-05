@@ -3,9 +3,10 @@ import React from 'react'
 const SupportSection = ({ affiliateNote }) => {
   return (
     <div className="support-section">
+      <h4 style={{ margin: 0 }}>Support the blog:</h4>
       <div>
         I hope you find my content helpful. If you'd like to support the blog,
-        you can do so by clicking the affiliate link below before making any
+        you can do so by clicking the affiliate links below before making a
         purchase. This comes at no additional cost to you.
       </div>
       <div className="support-section-link-container">
@@ -27,8 +28,7 @@ const SupportSection = ({ affiliateNote }) => {
         </a>
       </div>
       <div>
-        Additionally you can buy me a coffee via paypal or support me on
-        Patreon.
+        Or you can buy me a coffee via paypal and support me on Patreon.
       </div>
       <div className="support-section-link-container">
         <a
