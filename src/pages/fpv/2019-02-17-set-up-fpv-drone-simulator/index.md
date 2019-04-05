@@ -86,6 +86,18 @@ Enjoy your simulator set up and practice those inverted yaw spins, trippy spins 
 
 ![Flying the Liftoff FPV simulator](set-up-fpv-drone-simulator-3.jpg)
 
+#### Where to buy the gear?
+
+###### Aomway Commander - [Amazon][12] [Banggood][10]
+
+###### Taranis Q X7 - [Amazon][13] [Banggood][4]
+
+###### Taranis X9D - [Amazon][14] [Banggood][15]
+
+###### Taranis X-Lite - [Amazon][17] [Banggood][16]
+
+---
+
 [0]: Linkslist
 [1]: https://www.youtube.com/channel/UCX3eufnI7A2I7IkKHZn8KSQ
 [2]: https://www.youtube.com/user/MrSteeledavis
@@ -98,3 +110,9 @@ Enjoy your simulator set up and practice those inverted yaw spins, trippy spins 
 [9]: https://github.com/shauleiz/SmartPropoPlus
 [10]: https://bit.ly/aomway-commander
 [11]: https://bit.ly/mini-hdmi-to-hdmi
+[12]: https://www.amazon.com/Aomway-Commander-Diversity-Goggles-Support/dp/B0779Q3T6L/ref=sr_1_2?keywords=aomway+commander&qid=1554497228&s=gateway&sr=8-2&tag=fpvtips-20
+[13]: https://www.amazon.com/FrSky-Taranis-Channels-Transmitter-Controller/dp/B072559WH9/ref=sr_1_2?crid=1L4RKLB016JK3&keywords=taranis+qx7&qid=1554497638&s=gateway&sprefix=taranis%2Caps%2C237&sr=8-2&tag=fpvtips-20
+[14]: https://www.amazon.com/FrSky-Taranis-16-Channel-2-4ghz-Transmitter/dp/B00MYORSW8/ref=sr_1_4?crid=1L4RKLB016JK3&keywords=taranis+qx7&qid=1554497638&s=gateway&sprefix=taranis%2Caps%2C237&sr=8-4&tag=fpvtips-20
+[15]: https://bit.ly/taranis-x9d
+[16]: https://bit.ly/taranis-xlite
+[17]: https://www.amazon.com/dp/B07K8RV4ZY/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B07K8RV4ZY&pd_rd_w=sgyfG&pf_rd_p=80559f3c-f83b-49c1-8a72-40f936e9df7a&pd_rd_wg=r7tMV&pf_rd_r=AF32ZT2TB03GMQNQ9GBM&pd_rd_r=001261fe-57e6-11e9-8ded-c79105bf1765&tag=fpvtips-20

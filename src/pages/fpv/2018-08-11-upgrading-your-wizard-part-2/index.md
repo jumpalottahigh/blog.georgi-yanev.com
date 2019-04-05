@@ -83,6 +83,21 @@ And that's all of it, put your quad back together and enjoy the upgrades! Happy 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/wZchH_Ccly8?rel=0" frameBorder="0" allowFullScreen title="upgraded eachine wizard x220 flight"></iframe>
 </div>
 
+#### Where to get the featured items?
+
+###### Eachine Wizard x220 - [Amazon][7] [Banggood][2]
+
+###### Spare motors - [Amazon][5] [Banggood][3]
+
+###### Spare ESCs - [Amazon][6] [Banggood][4]
+
+---
+
 [0]: Linkslist
 [1]: http://bit.ly/silicone-motor-pad
 [2]: https://bit.ly/eachine-wizardx220
+[3]: https://bit.ly/wizard-motors
+[4]: https://bit.ly/wizard-esc
+[5]: https://www.amazon.com/MN2205-2300KV-Motor-Drone-Racing/dp/B07LG1YYTB/ref=sr_1_fkmrnull_1?keywords=Eachine+2205+MN2205+2300KV+2-4S+Motor&qid=1554498610&s=toys-and-games&sr=1-1-fkmrnull&tag=fpvtips-20
+[6]: https://www.amazon.com/BephaMart-Racerstar-Blheli_S-Oneshot42-Multishot/dp/B01MDK7SS2/ref=sr_1_1?keywords=Racerstar+RS20A+V2+New+20A+Blheli_S&qid=1554498654&s=toys-and-games&sr=1-1&tag=fpvtips-20
+[7]: https://www.amazon.com/Eachine-wizard-Version-Incredible-Performance/dp/B01N9QHWSG/ref=sr_1_1?crid=CN38N6I67MQ0&keywords=eachine+wizard+x220&qid=1554498691&s=toys-and-games&sprefix=eachine+wizard%2Ctoys-and-games%2C232&sr=1-1&tag=fpvtips-20
