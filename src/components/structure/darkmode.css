@@ -117,32 +117,26 @@
   background-color: var(--dark-mode-red);
 }
 
-.dark-mode .support-section a.banggood {
-  color: var(--dark-mode-red);
-  border: 2px solid var(--dark-mode-red);
+.dark-mode .support-section a.amazon {
+  border: 2px solid var(--dark-mode-bg-color-secondary);
+  color: var(--dark-mode-bg-color);
+  background-color: var(--dark-mode-bg-color-secondary);
 }
 
-.dark-mode .support-section a.banggood:hover {
+.dark-mode .support-section a.banggood {
+  border: 2px solid var(--dark-mode-red);
   color: var(--dark-mode-bg-color);
   background-color: var(--dark-mode-red);
 }
 
 .dark-mode .support-section a.paypal {
-  color: var(--dark-mode-blue);
   border: 2px solid var(--dark-mode-blue);
-}
-
-.dark-mode .support-section a.paypal:hover {
   color: var(--dark-mode-bg-color);
   background-color: var(--dark-mode-blue);
 }
 
 .dark-mode .support-section a.patreon {
-  color: var(--dark-mode-orange);
   border: 2px solid var(--dark-mode-orange);
-}
-
-.dark-mode .support-section a.patreon:hover {
   color: var(--dark-mode-bg-color);
   background-color: var(--dark-mode-orange);
 }
@@ -171,6 +165,10 @@
 }
 
 .dark-mode .social li a svg {
+  filter: invert(85%);
+}
+
+.dark-mode .social-icons a img[alt='GitHub'] {
   filter: invert(85%);
 }
 

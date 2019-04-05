@@ -48,7 +48,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={github} alt="Github" />
+          <img src={github} alt="GitHub" />
         </a>
         <a
           href="https://twitter.com/jumpalottahigh"
