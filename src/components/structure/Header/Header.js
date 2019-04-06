@@ -17,7 +17,7 @@ const AppBarWrapper = styled.div`
     display: inline-block;
   }
 
-  @media (min-width: 700px) {
+  @media (min-width: 710px) {
     ul li {
       display: inline-block;
     }
@@ -112,7 +112,9 @@ const Header = () => (
                 </Link>
               </li>
               <li className="visible-xs">
-                <a href="https://www.fpvtips.com">FPVtips</a>
+                <Link to="/quick-tips/" activeStyle={activeStyle}>
+                  Quick tips
+                </Link>
               </li>
               <li>
                 <Link to="/videos/" activeStyle={activeStyle}>
