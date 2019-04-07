@@ -5,12 +5,32 @@ import styled from 'styled-components'
 import Layout from '../../components/structure/layout'
 
 const Section = styled.section`
+  @keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
   .form-success {
-    background: #0175d8;
+    position: fixed;
+    right: 3rem;
+    z-index: 9;
+    background: #43a047;
     color: #fff;
     text-align: center;
-    font-size: 1.4rem;
-    padding: 0.3rem 0;
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    animation-name: fade-out;
+    animation-duration: 4s;
+    border-radius: 2px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+      0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
   }
 
   h2 {
@@ -58,23 +78,41 @@ const Section = styled.section`
 `
 
 const QuickTipsPage = ({ data }) => {
+  const [submitted, setSubmitted] = React.useState(false)
+
+  React.useEffect(() => {
+    let searchParams = new URLSearchParams(window.location.search)
+    let form = searchParams.get('form')
+    let timeout
+
+    if (form === 'success') {
+      setSubmitted(true)
+      timeout = setTimeout(() => {
+        setSubmitted(false)
+      }, 4000)
+    }
+
+    return () => {
+      clearTimeout(timeout)
+    }
+  }, [])
+
   return (
     <Layout>
       <Section>
-        {/* TODO: add a close button for dismissal, or auto dismiss after 2-3 seconds */}
-        {/* <div className="form-success">
-          Thanks for submitting your question!
-        </div> */}
+        {/* TODO: add a close button for dismissal */}
+        {submitted && (
+          <div className="form-success">
+            Thanks for submitting your question!
+          </div>
+        )}
         <h2>FPV Quick Tips</h2>
         <p>
           Ask a question below and get your question featured on this page along
           side its answer.
         </p>
         {/* TODO: */}
-        {/* Search */}
-        {/* <input type="text"> */}
-        {/* Submit a question */}
-        {/* <button>Submit a question</button> */}
+        {/* Search functionality */}
 
         <form
           action="/quick-tips/?form=success"
@@ -89,6 +127,7 @@ const QuickTipsPage = ({ data }) => {
               Don’t fill this out if you're human: <input name="bot-field" />
             </label>
           </p>
+          {/* Netlify: Specify form name with this hidden input for Netlify Forms to work */}
           <input type="hidden" name="form-name" value="quick-tip-question" />
           <textarea name="question" placeholder="How to ..." maxLength="150" />
           <button type="submit">Send</button>
