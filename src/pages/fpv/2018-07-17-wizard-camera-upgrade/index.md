@@ -65,8 +65,13 @@ And here's how the 1080p HD 60fps footage looks:
   <iframe width="560" height="315" src="https://www.youtube.com/embed/70tXXAfs-ks?rel=0" frameBorder="0" allowFullScreen title="Eachine Wizard x220 HD footage from Runcam Split 2"></iframe>
 </div>
 
+#### Where to buy that camera?
+
+###### Runcam Split 2 - [Amazon][5] [Banggood][2]
+
 [0]: Linkslist
 [1]: https://bit.ly/eachine-wizardx220
 [2]: https://bit.ly/runcam-split-2
 [3]: https://bit.ly/runcam-switft-2
 [4]: https://bit.ly/xm-plus
+[5]: https://amzn.to/2KgtTN2

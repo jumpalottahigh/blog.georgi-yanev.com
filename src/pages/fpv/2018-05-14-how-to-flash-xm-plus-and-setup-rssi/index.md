@@ -92,8 +92,21 @@ Lastly, go to the **Setup** tab and verify that you see a value for RSSI. The va
 
 #### 🎉 Enjoy, I hope this helped you and happy flying!
 
+#### Where to get those items?
+
+###### FrSky XM+ - [Amazon][5] [Banggood][3]
+
+###### Taranis Q X7 - [Amazon][7] [Banggood][6]
+
+###### Taranis X-Lite - [Amazon][9] [Banggood][8]
+
 [0]: Linkslist
 [1]: https://www.frsky-rc.com/xm-plus-mini-sbus-non-telemetry-full-range/
 [2]: /fpv/setup-taranis-qx7
 [3]: https://bit.ly/xm-plus
 [4]: https://bit.ly/taranis-qx7
+[5]: https://amzn.to/2I57CQu
+[6]: https://bit.ly/taranis-qx7
+[7]: https://amzn.to/2VszUYb
+[8]: https://bit.ly/taranis-xlite
+[9]: https://amzn.to/2I92UBh

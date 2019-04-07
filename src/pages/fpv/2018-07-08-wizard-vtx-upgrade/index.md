@@ -40,7 +40,12 @@ Next, let's focus on the 3 solder pads in the blue circle as seen on the picture
 
 P.S.: If your stock receiver was soldered to a 12V pad, don't get tempted to do the same with this one, as it won't work. This receiver HAS TO BE soldered on a 5V pad. You can also [refer to the manual][3].
 
+#### Where to buy it?
+
+###### Eachine VTX03 - [Amazon][4] [Banggood][2]
+
 [0]: Linkslist
 [1]: https://bit.ly/eachine-wizardx220
 [2]: https://bit.ly/eachine-vtx-03
 [3]: https://www.eachine.com/Eachine-VTX03-Super-Mini-5_8G-72CH-0-or-25mW-or-50mw-or-200mW-Switchable-FPV-Transmitter-p-697.html
+[4]: https://amzn.to/2IhPKB0

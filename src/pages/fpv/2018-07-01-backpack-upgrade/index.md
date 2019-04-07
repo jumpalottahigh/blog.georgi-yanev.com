@@ -37,7 +37,12 @@ Additionally in the front pocket there is a tool holder sheet, and here is how I
 
 ![Realacc tool holder sheet](backpack-upgrade-4.jpg)
 
-Overall very happy with the backpack. It's surprisingly spacious, I'm not using even 80% of the space. For \$50 it's a good investment for your drone gear. Recommmend 10/10! And no, this is not a paid review, just my own experience with a pretty good product. You can [grab it here][1].
+Overall very happy with the backpack. It's surprisingly spacious, I'm not using even 80% of the space. For \$50 it's a good investment for your drone gear. Recommmend 10/10! And no, this is not a paid review, just my own experience with a pretty good product.
+
+#### Where to buy it?
+
+###### Realacc backpack - [Amazon][2] [Banggood][1]
 
 [0]: Linkslist
 [1]: https://bit.ly/realacc-backpack
+[2]: https://amzn.to/2FYPS5v
