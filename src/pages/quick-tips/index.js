@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
-import Layout from '../components/structure/layout'
+import Layout from '../../components/structure/layout'
 
 const Section = styled.section`
   h2 {
@@ -32,6 +32,10 @@ const Section = styled.section`
     display: flex;
     width: 100%;
 
+    .honey-pot {
+      display: none;
+    }
+
     textarea {
       width: 70%;
     }
@@ -60,7 +64,18 @@ const QuickTipsPage = ({ data }) => {
         {/* Submit a question */}
         {/* <button>Submit a question</button> */}
 
-        <form name="quick-tip-question" method="POST" data-netlify="true">
+        <form
+          action="/quick-tips/success/"
+          name="quick-tip-question"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+        >
+          <p className="honey-pot">
+            <label>
+              Don’t fill this out if you're human: <input name="bot-field" />
+            </label>
+          </p>
           <textarea name="question" placeholder="How to ..." maxLength="150" />
           <button type="submit">Send</button>
         </form>
