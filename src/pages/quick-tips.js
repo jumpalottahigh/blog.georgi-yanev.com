@@ -9,6 +9,14 @@ const Section = styled.section`
     text-align: center;
   }
 
+  .tip h3:before {
+    content: '🙋🏾‍♂️';
+  }
+
+  .tip h3:nth-of-type(2n + 1):before {
+    content: '🙋‍♀️';
+  }
+
   .tip {
     padding: 2rem 0;
     margin-bottom: 2rem;
@@ -19,6 +27,22 @@ const Section = styled.section`
       gap: 10px;
     }
   }
+
+  form {
+    display: flex;
+    width: 100%;
+
+    textarea {
+      width: 70%;
+    }
+
+    button {
+      background-color: #0175d8;
+      color: #fff;
+      min-width: 120px;
+      width: 30%;
+    }
+  }
 `
 
 const QuickTipsPage = ({ data }) => {
@@ -26,11 +50,20 @@ const QuickTipsPage = ({ data }) => {
     <Layout>
       <Section>
         <h2>FPV Quick Tips</h2>
+        <p>
+          Ask a question below and get your question featured on this page along
+          side its answer.
+        </p>
         {/* TODO: */}
         {/* Search */}
         {/* <input type="text"> */}
         {/* Submit a question */}
         {/* <button>Submit a question</button> */}
+
+        <form name="quick-tip-question" method="POST" data-netlify="true">
+          <textarea name="question" placeholder="How to ..." maxLength="150" />
+          <button type="submit">Send</button>
+        </form>
 
         <div className="tip">
           <h3>How to keep your U.FL IPEX antenna in any position you want?</h3>
