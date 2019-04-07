@@ -5,6 +5,14 @@ import styled from 'styled-components'
 import Layout from '../../components/structure/layout'
 
 const Section = styled.section`
+  .form-success {
+    background: #0175d8;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 0.3rem 0;
+  }
+
   h2 {
     text-align: center;
   }
@@ -53,6 +61,10 @@ const QuickTipsPage = ({ data }) => {
   return (
     <Layout>
       <Section>
+        {/* TODO: add a close button for dismissal, or auto dismiss after 2-3 seconds */}
+        {/* <div className="form-success">
+          Thanks for submitting your question!
+        </div> */}
         <h2>FPV Quick Tips</h2>
         <p>
           Ask a question below and get your question featured on this page along
@@ -65,17 +77,19 @@ const QuickTipsPage = ({ data }) => {
         {/* <button>Submit a question</button> */}
 
         <form
-          action="/quick-tips/success/"
+          action="/quick-tips/?form=success"
           name="quick-tip-question"
-          method="POST"
+          method="post"
           data-netlify="true"
           netlify-honeypot="bot-field"
         >
+          {/* Netlify: Spam protection honey pot */}
           <p className="honey-pot">
             <label>
               Don’t fill this out if you're human: <input name="bot-field" />
             </label>
           </p>
+          <input type="hidden" name="form-name" value="quick-tip-question" />
           <textarea name="question" placeholder="How to ..." maxLength="150" />
           <button type="submit">Send</button>
         </form>
