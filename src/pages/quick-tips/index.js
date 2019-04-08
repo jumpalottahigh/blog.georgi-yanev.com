@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
+import Collapsible from 'react-collapsible'
 import Layout from '../../components/structure/layout'
 
 const Section = styled.section`
@@ -33,16 +34,29 @@ const Section = styled.section`
       0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
   }
 
+  .search {
+    display: none;
+    flex-direction: row-reverse;
+    position: relative;
+    top: -3rem;
+    right: 0;
+
+    span {
+      font-size: 1.8rem;
+      min-height: 32px;
+      cursor: pointer;
+    }
+
+    input {
+    }
+  }
+
   h2 {
     text-align: center;
   }
 
-  .tip h3:before {
-    content: '🙋🏾‍♂️';
-  }
-
-  .tip h3:nth-of-type(2n + 1):before {
-    content: '🙋‍♀️';
+  .tip h3 {
+    cursor: pointer;
   }
 
   .tip {
@@ -73,6 +87,12 @@ const Section = styled.section`
       color: #fff;
       min-width: 120px;
       width: 30%;
+    }
+  }
+
+  @media (min-width: 1040px) {
+    .search {
+      display: flex;
     }
   }
 `
@@ -107,13 +127,26 @@ const QuickTipsPage = ({ data }) => {
           </div>
         )}
         <h2>FPV Quick Tips</h2>
+
+        {/* Search icon and input */}
+        <Collapsible
+          classParentString="search"
+          trigger={
+            <span role="img" aria-label="magnifying glass emoji">
+              🔎
+            </span>
+          }
+          transitionTime={125}
+          easing="ease-out"
+        >
+          <input type="text" />
+        </Collapsible>
         <p>
           Ask a question below and get your question featured on this page along
           side its answer.
         </p>
-        {/* TODO: */}
-        {/* Search functionality */}
 
+        {/* Submit a question form */}
         <form
           action="/quick-tips/?form=success"
           name="quick-tip-question"
@@ -134,35 +167,57 @@ const QuickTipsPage = ({ data }) => {
         </form>
 
         <div className="tip">
-          <h3>How to keep your U.FL IPEX antenna in any position you want?</h3>
-          <div className="tip-content">
-            I'd like to share with you one quick and easy way of fixing a U.FL
-            IPEX VTX antenna to stay in any way you want it to. For example, at
-            a 90 degree angle and up and away from the props, which could be a
-            good thing.
-            <Img
-              fluid={data.topic1.edges[0].node.childImageSharp.fluid}
-              alt="image of the final result of my antena"
-            />
-            <div>
-              To achieve this, grab a small piece of shrink tube, apply some hot
-              glue all around where the antenna connects to the VTX. Then apply
-              a bit of hot glue all along the antenna up until the thicker part.
-              Finally, slide in the heat shrink, shrink it with a lighter or a
-              heat gun and hold it in place until the hot glue cools off.
+          <Collapsible
+            trigger={
+              <h3>
+                <span role="img" aria-label="triangle pointing down">
+                  🔽
+                </span>
+                How to keep your U.FL IPEX antenna in any position you want?
+              </h3>
+            }
+            triggerWhenOpen={
+              <h3>
+                <span role="img" aria-label="triangle pointing up">
+                  🔼
+                </span>
+                How to keep your U.FL IPEX antenna in any position you want?
+              </h3>
+            }
+            easing="ease-in-out"
+            // TODO: Whenever there are more questions, make sure that only the first item is open by default
+            open={true}
+          >
+            <div className="tip-content">
+              I'd like to share with you one quick and easy way of fixing a U.FL
+              IPEX VTX antenna to stay in any way you want it to. For example,
+              at a 90 degree angle and up and away from the props, which could
+              be a good thing.
+              <Img
+                fluid={data.topic1.edges[0].node.childImageSharp.fluid}
+                alt="image of the final result of my antena"
+              />
+              <div>
+                To achieve this, grab a small piece of shrink tube, apply some
+                hot glue all around where the antenna connects to the VTX. Then
+                apply a bit of hot glue all along the antenna up until the
+                thicker part. Finally, slide in the heat shrink, shrink it with
+                a lighter or a heat gun and hold it in place until the hot glue
+                cools off.
+              </div>
+              <div>
+                I learned about this trick{' '}
+                <a
+                  href="https://youtu.be/wfYZmh5Gsyo?t=169"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  from this video
+                </a>
+                , and so credit goes, where credit is due!
+              </div>
             </div>
-            <div>
-              I learned about this trick{' '}
-              <a
-                href="https://youtu.be/wfYZmh5Gsyo?t=169"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                from this video
-              </a>
-              , and so credit goes, where credit is due!
-            </div>
-          </div>
+          </Collapsible>
         </div>
       </Section>
     </Layout>
