@@ -9,7 +9,7 @@ tags:
   - 'yearinreview'
   - 'goals'
   - 'story'
-affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'growth mindset, learning, evolving, developing, studying, improvement, goal list, progress, taking a look back, looking ahead, 2017, 2018, 2019, fpv, fly fpv, google developer challenge scholarship, web dev, blog, passion, grow, twitter, twitch, public speaking, speaking, gatsby, react, github, constant learning, life-long learning, fpvtips.com, community, netlify, nanowrimo, product, ship, launch, brand, branding, education, produce video, youtube tutorial, egghead.io tutorial'
 ogDescription: 'Oh boy what a year! Strap yourselves in, this is gonna be a long one! I really enjoy these reflection posts. They shed a lot of light on what happened in the past 12 months. If anything, I think we should all reflect even more frequently, because it helps you build clarity and see how you have improved against yourself from the previous year.'
 ogImage: './goal-review-of-2018-and-goals-for-2019-1.png'

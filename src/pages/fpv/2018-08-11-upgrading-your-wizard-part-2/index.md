@@ -3,7 +3,7 @@ path: '/fpv/upgrading-your-wizard-part-2/'
 date: '2018-08-11'
 title: 'Upgrading your Wizard x220 Part 2'
 author: 'Georgi Yanev'
-affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
 category: 'fpv'
 tags:
@@ -83,6 +83,21 @@ And that's all of it, put your quad back together and enjoy the upgrades! Happy 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/wZchH_Ccly8?rel=0" frameBorder="0" allowFullScreen title="upgraded eachine wizard x220 flight"></iframe>
 </div>
 
+#### Where to get the featured items?
+
+###### Eachine Wizard x220 - [Amazon][7] [Banggood][2]
+
+###### Spare motors - [Amazon][5] [Banggood][3]
+
+###### Spare ESCs - [Amazon][6] [Banggood][4]
+
+---
+
 [0]: Linkslist
 [1]: http://bit.ly/silicone-motor-pad
 [2]: https://bit.ly/eachine-wizardx220
+[3]: https://bit.ly/wizard-motors
+[4]: https://bit.ly/wizard-esc
+[5]: https://amzn.to/2FV4Qd1
+[6]: https://amzn.to/2UoV9xx
+[7]: https://amzn.to/2UBB9XH

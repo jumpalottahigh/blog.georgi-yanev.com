@@ -10,15 +10,16 @@ tags:
   - 'build'
   - 'diy'
   - 'project'
-affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'FPV, racing quads, quad, drone, frsky taranis, lipo batteries, quad build, drone build, brotherhobby returner motors, realacc furious frame, DIY, Racerstar StarF4S 30A Blheli_S Dshot 4 in 1 ESC OSD Flight Controller'
 ogDescription: 'I took on the challenge to build my first quad. This is how it went.'
 ogImage: './build-a-quad-21.jpg'
 ---
 
 <div class="article-update-notification">
-  Add <strong>your FPV spots</strong> on the map over at 
-  <strong><a href="https://www.fpvtips.com/fpv-map">fpvtips.com/fpv-map</a></strong>.
+  <strong>Update: 7 April 2019</strong><br/>
+  A year later I'm still flying this quad, so I thought I'd share some of the changes to the build.
+  <a href="#update-april-2019">Read about the updates at the end of this article.</a>
 </div>
 
 This build is heavily inspired by [UAVfutures' 110MPH build][1] with some changes. Building this quad had its ups and downs as you can tell from the rest of the article. While I don't give up easily in the face of challenge, I'd like to point out that after having issues with 2 of those Racerstar StarF4S boards, I **DO NOT RECOMMEND** them for your build and am myself looking for an alternative. The board was ok while it worked and <a href="#maiden-flight">I had a ton of fun flying my quad for a month and a half</a>, but having 2 of those boards fail within ~ 2 months is the threshold of my patience.
@@ -181,6 +182,84 @@ Here is some 1080p 60fps footage from the maiden flight:
   <iframe width="560" height="315" src="https://www.youtube.com/embed/398BDc5mvuA?rel=0" frameBorder="0" allowFullScreen title="Custom quad build maiden flight"></iframe>
 </div>
 
+### <span id="update-april-2019" class="offset-top-nav">Update: April 2019</span>
+
+Because my other quad's one ESC and/or motor died, I started season 2019 by flying this custom build quad which I called `Phoenix`, as it had risen from the ashes multiple times.
+
+Here is a list of the parts that I'm currently using in it:
+
+**Camera - Runcam Split Mini**
+<br />
+[Banggood][11]
+[Amazon][12]
+
+_I had to swap that in as I'm using my full size RunCam Split 2 in another build. If you do decide to use the Split Mini yourself, make sure you grab the newer version._
+
+---
+
+**VTX - Eachine VTX03**
+<br/>
+[Banggood][13]
+[Amazon][14]
+
+_No changes. This VTX has worked pretty fine so far, no issues._
+
+---
+
+**Receiver - FrSky XM+**
+<br/>
+[Banggood][15]
+[Amazon][16]
+
+_No changes. Awesome little receiver for FrSky radios, and very cheap too._
+
+---
+
+**Flight controller, 4 in 1 ESC stack - Holybro Kakute F4 V2 Flight Controller Tekko32 35A 4 In 1 Blheli 32 3-6S Brushless ESC**
+<br/>
+[Banggood][17]
+[Amazon][18]
+
+_The biggest change. You probably already read about my poor experience with the Racerstar StarF4S all in one boards. I ordered another board and had some more mishaps, which were in that case my fault. Finally I just got this Holybro stack of a 4 in 1 ESC board (Tekko32) and a Kakute F4 V2 Flight controller. It was somewhat pricey, but haven't looked back since. It was easy to install and flies smoothly._
+
+---
+
+**Motors - BrotherHobby Returner R2 2205 2800KV**
+<br/>
+[Banggood][19]
+[Amazon][20]
+
+_No changes. These motors fly really well and I have yet to need to change one._
+
+---
+
+**Frame - Realacc Furious 220mm**
+<br/>
+[Banggood][21]
+[Amazon][22]
+
+_No changes to the frame either. No damage, even though I have crashed it a number of times in dirt and gravel. Not on asphalt though._
+
+---
+
+Here's how the quad looks these days:
+
+![custom quad build, upgraded a year later](build-a-quad-22.jpg)
+
+And here is some footage:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NM_6JpppqZg?rel=0" frameBorder="0" allowFullScreen title="Custom quad build a year later, video 1"></iframe>
+</div>
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/SPCKjB2XKcI?rel=0" frameBorder="0" allowFullScreen title="Custom quad build a year later, video 2"></iframe>
+</div>
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PigsOtpozno?rel=0" frameBorder="0" allowFullScreen title="Custom quad build a year later, video 3"></iframe>
+</div>
+
 [0]: Linkslist
 [1]: https://www.youtube.com/watch?v=evVP9_FpNSE
 [2]: https://bit.ly/bh-returner
@@ -192,3 +271,15 @@ Here is some 1080p 60fps footage from the maiden flight:
 [8]: /fpv/make-a-smoke-stopper
 [9]: https://bit.ly/runcam-split-2
 [10]: https://bit.ly/eachine-vtx-03
+[11]: https://bit.ly/runcam-split-mini
+[12]: https://amzn.to/2I4np1N
+[13]: https://bit.ly/eachine-vtx-03
+[14]: https://amzn.to/2IhPKB0
+[15]: https://bit.ly/xm-plus
+[16]: https://amzn.to/2I57CQu
+[17]: https://bit.ly/kakute-f4-tekko32
+[18]: https://amzn.to/2CYYs3O
+[19]: https://bit.ly/bh-returner
+[20]: https://amzn.to/2UyNoEv
+[21]: https://bit.ly/realacc-furious
+[22]: https://amzn.to/2G500Ly

@@ -92,7 +92,19 @@ https://twitter.com/jumpalottahigh/status/1101153060204802049
 
 #### 3️⃣ March 2019
 
-Write up coming soon...
+March has definitely been my most involved month yet. **The absolute highlight was watching the complete [writing class by Brandon Sanderson][23]**. I learned so much from this, and I think I will be re-watching this at least one more time before November.
+
+I read Brandon Sanderson's [The Way of Kings][21] and I really liked it. I started listening to [Words of Radiance][22], which is the second book in the series.
+
+I **wrote chapters 2 and 3** of my book. I wanted to write a few chapters in discovery writer mode to learn more about my characters and the world. I have 2 characters now, and 3 major locations. I'm looking forward to brainstorming more about the world in April and figuring out some of the bigger pieces of the world.
+
+I watched a bunch of interviews with: Brandon Sanderson, George R. R. Martin, Steven King, James Cameron. Those were very insightful and quite interesting to hear how all these storytellers approach crafting stories.
+
+https://twitter.com/jumpalottahigh/status/1111917785272201216
+
+#### 4⃣️ April 2019
+
+### \* \* \*
 
 [0]: Linkslist
 [1]: #link-to-my-encyclopedias
@@ -115,3 +127,6 @@ Write up coming soon...
 [18]: https://workflowy.com/invite/6a2fe7e5.lnx
 [19]: https://app.grammarly.com/
 [20]: https://twitter.com/ASpittel
+[21]: https://en.wikipedia.org/wiki/The_Way_of_Kings
+[22]: https://en.wikipedia.org/wiki/Words_of_Radiance
+[23]: https://www.youtube.com/watch?v=N4ZDBOc2tX8&index=1&list=PLH3mK1NZn9QqOSj3ObrP3xL8tEJQ12-vL

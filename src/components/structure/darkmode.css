@@ -8,6 +8,7 @@
   --dark-mode-white: #fff;
   --dark-mode-green: #98c379;
   --dark-mode-red: #e06c75;
+  --dark-mode-orange: #e85b46;
   --dark-mode-blue: #61afef;
   --dark-mode-blue-hover: #67b4f4;
   --dark-mode-black: #212121;
@@ -116,24 +117,28 @@
   background-color: var(--dark-mode-red);
 }
 
-.dark-mode .support-section a.banggood {
-  color: var(--dark-mode-red);
-  border: 2px solid var(--dark-mode-red);
+.dark-mode .support-section a.amazon {
+  border: 2px solid var(--dark-mode-bg-color-secondary);
+  color: var(--dark-mode-bg-color);
+  background-color: var(--dark-mode-bg-color-secondary);
 }
 
-.dark-mode .support-section a.banggood:hover {
+.dark-mode .support-section a.banggood {
+  border: 2px solid var(--dark-mode-red);
   color: var(--dark-mode-bg-color);
   background-color: var(--dark-mode-red);
 }
 
 .dark-mode .support-section a.paypal {
-  color: var(--dark-mode-blue);
   border: 2px solid var(--dark-mode-blue);
-}
-
-.dark-mode .support-section a.paypal:hover {
   color: var(--dark-mode-bg-color);
   background-color: var(--dark-mode-blue);
+}
+
+.dark-mode .support-section a.patreon {
+  border: 2px solid var(--dark-mode-orange);
+  color: var(--dark-mode-bg-color);
+  background-color: var(--dark-mode-orange);
 }
 
 .dark-mode [class|='TinyLetterSignUp__TinyLetter'] {
@@ -160,6 +165,10 @@
 }
 
 .dark-mode .social li a svg {
+  filter: invert(85%);
+}
+
+.dark-mode .social-icons a img[alt='GitHub'] {
   filter: invert(85%);
 }
 
@@ -196,4 +205,9 @@
 .dark-mode .blog-post .gatsby-resp-image-wrapper:hover {
   box-shadow: 3px 3px 8px 0px #444;
   transition: all 275ms ease-out;
+}
+
+.dark-mode :not(pre) > code[class*='language-'],
+.dark-mode pre[class*='language-'] {
+  background: var(--dark-mode-bg-color-secondary);
 }

@@ -3,7 +3,7 @@ path: '/fpv/set-up-fpv-drone-simulator/'
 date: '2019-02-17'
 title: 'Set up an FPV drone simulator'
 author: 'Georgi Yanev'
-affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
 category: 'fpv'
 tags:
@@ -86,6 +86,18 @@ Enjoy your simulator set up and practice those inverted yaw spins, trippy spins 
 
 ![Flying the Liftoff FPV simulator](set-up-fpv-drone-simulator-3.jpg)
 
+#### Where to buy the gear?
+
+###### Aomway Commander - [Amazon][12] [Banggood][10]
+
+###### Taranis Q X7 - [Amazon][13] [Banggood][4]
+
+###### Taranis X9D - [Amazon][14] [Banggood][15]
+
+###### Taranis X-Lite - [Amazon][17] [Banggood][16]
+
+---
+
 [0]: Linkslist
 [1]: https://www.youtube.com/channel/UCX3eufnI7A2I7IkKHZn8KSQ
 [2]: https://www.youtube.com/user/MrSteeledavis
@@ -98,3 +110,9 @@ Enjoy your simulator set up and practice those inverted yaw spins, trippy spins 
 [9]: https://github.com/shauleiz/SmartPropoPlus
 [10]: https://bit.ly/aomway-commander
 [11]: https://bit.ly/mini-hdmi-to-hdmi
+[12]: https://amzn.to/2D4Nb1U
+[13]: https://amzn.to/2VszUYb
+[14]: https://amzn.to/2UsfwtO
+[15]: https://bit.ly/taranis-x9d
+[16]: https://bit.ly/taranis-xlite
+[17]: https://amzn.to/2I92UBh

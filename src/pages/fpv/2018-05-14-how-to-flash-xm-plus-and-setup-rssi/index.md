@@ -9,7 +9,7 @@ tags:
   - 'frsky'
   - 'taranis'
   - 'xm+'
-affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
+affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'FPV, racing quads, quad, drone, drone build, DIY, RSSI, FrSky, FrSky XM+, XM+, XM plus, Taranis Q X7, RSSI, telemetry signal, flash xm+, flash xm plus, enable rssi on xm+'
 ogDescription: "Sometimes you might need to flash new firmware on the XM+ receiver. Here's how to do that with the Taranis Q X7"
 ogImage: './flash-xm-plus-and-setup-rssi-5.jpg'
@@ -92,8 +92,21 @@ Lastly, go to the **Setup** tab and verify that you see a value for RSSI. The va
 
 #### 🎉 Enjoy, I hope this helped you and happy flying!
 
+#### Where to get those items?
+
+###### FrSky XM+ - [Amazon][5] [Banggood][3]
+
+###### Taranis Q X7 - [Amazon][7] [Banggood][6]
+
+###### Taranis X-Lite - [Amazon][9] [Banggood][8]
+
 [0]: Linkslist
 [1]: https://www.frsky-rc.com/xm-plus-mini-sbus-non-telemetry-full-range/
 [2]: /fpv/setup-taranis-qx7
 [3]: https://bit.ly/xm-plus
 [4]: https://bit.ly/taranis-qx7
+[5]: https://amzn.to/2I57CQu
+[6]: https://bit.ly/taranis-qx7
+[7]: https://amzn.to/2VszUYb
+[8]: https://bit.ly/taranis-xlite
+[9]: https://amzn.to/2I92UBh

@@ -1191,6 +1191,11 @@ button {
   border-top: 1px solid #cecece;
 }
 
+.support-section-link-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 .support-section a {
   display: flex;
   width: 11rem;
@@ -1198,25 +1203,42 @@ button {
   padding: 0 0.5rem;
   transition: none;
   box-shadow: none !important;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0.5rem 0.5rem 0;
 }
 
-.support-section a.banggood {
-  color: #d62d20;
-  border: 2px solid #d62d20;
+.support-section a.amazon {
+  border: 2px solid #232f3e;
+  color: #fff;
+  background-color: #232f3e;
 }
-.support-section a.banggood:hover {
+.support-section a.amazon:hover {
+  opacity: 0.89;
+}
+.support-section a.banggood {
+  border: 2px solid #d62d20;
   color: #fff;
   background-color: #d62d20;
 }
+.support-section a.banggood:hover {
+  opacity: 0.89;
+}
 
 .support-section a.paypal {
-  color: #0275d8;
   border: 2px solid #0275d8;
-}
-.support-section a.paypal:hover {
   color: #fff;
   background-color: #0275d8;
+}
+.support-section a.paypal:hover {
+  opacity: 0.89;
+}
+
+.support-section a.patreon {
+  border: 2px solid #e85b46;
+  color: #fff;
+  background-color: #e85b46;
+}
+.support-section a.patreon:hover {
+  opacity: 0.89;
 }
 
 .support-section-affiliate-note {
