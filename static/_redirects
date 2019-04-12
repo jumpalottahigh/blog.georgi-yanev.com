@@ -1,6 +1,9 @@
 # Redirect domain aliases to primary domain
-https://georgiyanev.dev/* https://blog.georgi-yanev.com/:splat 301!
-https://www.georgiyanev.dev/* https://blog.georgi-yanev.com/:splat 301!
+https://georgiyanev.dev/*                                   https://blog.georgi-yanev.com/:splat 301!
+https://www.georgiyanev.dev/*                               https://blog.georgi-yanev.com/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
-https://blog-georgi.netlify.com/* https://blog.georgi-yanev.com/:splat 301!
+https://blog-georgi.netlify.com/*                           https://blog.georgi-yanev.com/:splat 301!
+
+# Moved pages
+https://blog.georgi-yanev.com/extras/fpv-videos/            https://blog.georgi-yanev.com/videos/fpv/

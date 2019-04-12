@@ -70,6 +70,11 @@ const Section = styled.section`
     }
   }
 
+  .tip__trigger.is-open,
+  .tip__contentOuter {
+    background: oldlace;
+  }
+
   form {
     display: flex;
     width: 100%;
@@ -166,59 +171,110 @@ const QuickTipsPage = ({ data }) => {
           <button type="submit">Send</button>
         </form>
 
-        <div className="tip">
-          <Collapsible
-            trigger={
-              <h3>
-                <span role="img" aria-label="triangle pointing down">
-                  🔽
-                </span>
-                How to keep your U.FL IPEX antenna in any position you want?
-              </h3>
-            }
-            triggerWhenOpen={
-              <h3>
-                <span role="img" aria-label="triangle pointing up">
-                  🔼
-                </span>
-                How to keep your U.FL IPEX antenna in any position you want?
-              </h3>
-            }
-            easing="ease-in-out"
-            // TODO: Whenever there are more questions, make sure that only the first item is open by default
-            open={true}
-          >
-            <div className="tip-content">
-              I'd like to share with you one quick and easy way of fixing a U.FL
-              IPEX VTX antenna to stay in any way you want it to. For example,
-              at a 90 degree angle and up and away from the props, which could
-              be a good thing.
-              <Img
-                fluid={data.topic1.edges[0].node.childImageSharp.fluid}
-                alt="image of the final result of my antena"
-              />
-              <div>
-                To achieve this, grab a small piece of shrink tube, apply some
-                hot glue all around where the antenna connects to the VTX. Then
-                apply a bit of hot glue all along the antenna up until the
-                thicker part. Finally, slide in the heat shrink, shrink it with
-                a lighter or a heat gun and hold it in place until the hot glue
-                cools off.
-              </div>
-              <div>
-                I learned about this trick{' '}
-                <a
-                  href="https://youtu.be/wfYZmh5Gsyo?t=169"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  from this video
-                </a>
-                , and so credit goes, where credit is due!
-              </div>
+        <Collapsible
+          classParentString="tip"
+          trigger={
+            <h3>
+              <span role="img" aria-label="triangle pointing down">
+                🔽
+              </span>
+              How low can I fly my batteries?
+            </h3>
+          }
+          triggerWhenOpen={
+            <h3>
+              <span role="img" aria-label="triangle pointing up">
+                🔼
+              </span>
+              How low can I fly my batteries?
+            </h3>
+          }
+          easing="ease-in-out"
+          // Whenever there are more questions, make sure that only the first item is open by default
+          open={true}
+        >
+          <div className="tip-content">
+            I prefer flying mine only up until 3.7v per cell, sometimes I could
+            go even as low as 3.6v but very rarely. Technically, you can fly
+            them even further, all the way to 3.5v, but I don't recommend that
+            and it would reduce their lifetime.
+          </div>
+        </Collapsible>
+        <Collapsible
+          classParentString="tip"
+          trigger={
+            <h3>
+              <span role="img" aria-label="triangle pointing down">
+                🔽
+              </span>
+              Battery storage voltage
+            </h3>
+          }
+          triggerWhenOpen={
+            <h3>
+              <span role="img" aria-label="triangle pointing up">
+                🔼
+              </span>
+              Battery storage voltage
+            </h3>
+          }
+          easing="ease-in-out"
+          // Whenever there are more questions, make sure that only the first item is open by default
+          open={true}
+        >
+          <div className="tip-content">
+            Normally between 3.8 - 3.9 v per cell.
+          </div>
+        </Collapsible>
+        <Collapsible
+          classParentString="tip"
+          trigger={
+            <h3>
+              <span role="img" aria-label="triangle pointing down">
+                🔽
+              </span>
+              How to keep your U.FL IPEX antenna in any position you want?
+            </h3>
+          }
+          triggerWhenOpen={
+            <h3>
+              <span role="img" aria-label="triangle pointing up">
+                🔼
+              </span>
+              How to keep your U.FL IPEX antenna in any position you want?
+            </h3>
+          }
+          easing="ease-in-out"
+        >
+          <div className="tip-content">
+            I'd like to share with you one quick and easy way of fixing a U.FL
+            IPEX VTX antenna to stay in any way you want it to. For example, at
+            a 90 degree angle and up and away from the props, which could be a
+            good thing.
+            <Img
+              fluid={data.topic1.edges[0].node.childImageSharp.fluid}
+              alt="image of the final result of my antena"
+            />
+            <div>
+              To achieve this, grab a small piece of shrink tube, apply some hot
+              glue all around where the antenna connects to the VTX. Then apply
+              a bit of hot glue all along the antenna up until the thicker part.
+              Finally, slide in the heat shrink, shrink it with a lighter or a
+              heat gun and hold it in place until the hot glue cools off.
             </div>
-          </Collapsible>
-        </div>
+            <div>
+              I learned about this trick{' '}
+              <a
+                href="https://youtu.be/wfYZmh5Gsyo?t=169"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                from this video
+              </a>
+              , and so credit goes, where credit is due!
+            </div>
+          </div>
+        </Collapsible>
       </Section>
     </Layout>
   )
