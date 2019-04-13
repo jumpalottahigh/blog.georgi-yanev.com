@@ -1,7 +1,7 @@
 ---
 path: '/fpv/set-up-taranis-x-lite/'
 date: '2019-04-04'
-title: 'Set up, configure and update Taranis X-Lite'
+title: 'Set up Taranis X-Lite and update OpenTX'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
@@ -101,31 +101,120 @@ In addition, I [grabbed this battery charger][], as it strikes a sweet spot for 
 
 And I could. Some people go for it by buying these [deeper battery caps][] which then gives you enough space to slot in a 18650 battery. Pretty neat and possibly a bit more flight time between charges. I haven't done this mod yet, but I did make sure to get a battery charger that supports me doing so in the future if I so desire.
 
-### TODO: name this section or where to put this information:
+### 🧭 <span id="menus">Navigate the menus</span>
 
-power it on and navigate the menu. !picture with buttons explained?!
+So, with the throttle stick fixed and the batteries inserted, let's power on the radio and see how can we navigate the menus.
+In a nutshell, the mini joystick does all the navigation, except for cancelling out of screens, which is handled by the button below the joystick.
+
+![X-Lite with a blue circle around the mini joystick](set-up-taranis-x-lite-12.jpg)
+
+The two arguably most important screens for you when doing anything with the X-Lite are reachable by **pressing and holding for a second the joystick to the left or to the right**.
+
+#### 1. Model setup screens - press and hold the joystick to the right
+
+`MODELSEL (Screen 1/12)`
+
+![screenshot of the modelsel screen](set-up-taranis-x-lite-13.jpg)
+
+> You arrive at the model select screen, as the first of twelve screens. Here you can select an existing model or create a new one. By clicking the joystick to the right or left you can navigate those 12 screens.
+
+`SETUP (Screen 2/12)`
+
+![screenshot of the setup screen](set-up-taranis-x-lite-14.jpg)
+
+> Model name, **binding**, external RF, Antenna, Failsafe, Timers
+
+`MIXER (Screen 5/12)`
+
+![screenshot of the mixer screen](set-up-taranis-x-lite-15.jpg)
+
+> Map switches to additional channels. For example, SD to CH5 for arming and SB to CH6 for flight modes.
+
+`OUTPUTS (Screen 6/12)`
+
+![screenshot of the outputs screen](set-up-taranis-x-lite-16.jpg)
+
+> Useful to trim channel outputs so that your stick endpoints can correspond to the min and max values in Betaflight. A common thing is that pulling the throttle for example all the way down would show as a value of 988 in Betaflight and we want that to ideally be at a 1000. To do that, tweak the values by entering the edit menu via the joystick center press and tweak the Min and Max values for that channel. See the example image below. Do that for all your stick channels.
+
+![screenshot of the outputs edit screen](set-up-taranis-x-lite-17.jpg)
+
+`LOGICAL SWITCHES (Screen 8/12)`
+
+> This could be useful for a number of things that are outside the scope of this article, but just remember that this exists.
+
+`SPECIAL FUNCTIONS (Screen 9/12)`
+
+> This section is useful to set up custom functions on switch pressing and more. However, anything you put here will be tied to the currently selected model. I prefer setting some configuration on a global level where it is shared between any model.
+
+`CUSTOM SCRIPTS (Screen 10/12)`
+
+> Also very useful but outside of the scope of this article. Allows execution of custom LUA scripts.
+
+#### 2. Radio setup screens - press and hold the joystick to the left
+
+`RADIO SETUP (Screen 1/9)`
+
+![screenshot of the radio setup screen](set-up-taranis-x-lite-18.jpg)
+
+> Configure date, time, battery range (so the UI will have a correct representation of how much battery you have left), sound mode, volume, contrast, alarms for battery low, display settings, units, channel order and others.
+
+`SD-HC CARD (Screen 2/9)`
+
+![screenshot of the radio sd-hc card screen](set-up-taranis-x-lite-19.jpg)
+
+> If you have installed an SD card you will see it here. This allows access to some important directories and functionality. For example, if you want to flash the internal module between an FCC(US) and LBT(EU) firmware, you would do so here, by going into the `[FIRMWARE]` directory (provided you downloaded and put some firmware there). You could then press the joystick down and select from the menu what you would like to flash.
+
+> Additionally, if you would like to use the Taranis X-Lite to [flash an XM+ or other FrSky receiver][link-to-article], you would also select the correct firmware from this screen.
+
+`GLOBAL FUNCTIONS (Screen 3/9)`
+
+![screenshot of the global functions screen](set-up-taranis-x-lite-20.jpg)
+
+> This screen is the same as the special functions screen mentioned above, but whatever you set up here will be shared across models. That's awesome and I love it. For example, here I have set up my audio cues, such as on flipping the arm switch, changing flight mode. I definitely recommend the Amber sound pack as it is much nicer to hear, than the more generic robotic counter part that comes with the default SD card files, but we will get to that in a bit.
+
+> Besides for playing sounds on switch activation, one other piece of useful functionallity I have set up here is making my S2 source (back right dial button) to act as a volume dial. That's quite useful. You could set up a whole lot more in here. Sky's the limit, or rather, OpenTX is 😉.
+
+> And yes, I do have a dedicated 'Oops' switch 😅.
+
+`VERSION (Screen 5/9)`
+
+![screenshot of the version screen](set-up-taranis-x-lite-21.jpg)
+
+> Check your OpenTX version.
+
+`CALIBRATION (Screen 9/9)`
+
+![screenshot of the calibration screen](set-up-taranis-x-lite-22.jpg)
+
+> Calibrate the sticks.
 
 ### 🔗 <span id="bind">Bind your first model</span>
 
-- bind the model
-- test it
-- pictures of a bound model in Betaflight, receiver tab / maybe video snippet?
+To bind the Taranis X-Lite to a receiver, go to the setup screen of a model you have selected or created. Scroll all the way down and select the `[BND]` function.
+
+![image of the model setup menu at the bind function][]
+
+The radio will start chirping. Then plug in a battery to your model while holding the receiver's bind button pressed. **If doing this to a 5 inch quad indoors, make sure to remove the props before connecting a battery**. That's all. Some quads like the [Eachine Trashcan][] for example can be bound straight from the Betaflight CLI by putting it in bind mode. I'm mostly using [FrSky XM+ receivers][] and this does require holding the bind button on the receiver when plugging in the battery. Overall quite straight forward.
+
+If you have issues binding, it could be that you have mismatching receiver or transmitter firmware. In which case, you might have to [read about how to flash the XM+][].
+
+You can use Betaflight to test if the binding was successful and to verify that your channels are set up as required (for example your throttle stick corresponds to the correct channel in Betaflight). When you move the sticks on the radio, you should see the output (colorful bars) change values.
+
+![betaflight receiver tab](set-up-taranis-x-lite-23.png)
+
+And if you have already setup switches in the `MIXER` screen in your radio to correspond to Channel 5 and Channel 6, you can set up your arming switch and a flight modes switch in the `Modes` tab in Betaflight. AUX1 = Channel 5 and AUX2 = Channel 6.
+
+![betaflight modes tab](set-up-taranis-x-lite-24.png)
 
 ### 🔝 <span id="update">Update OpenTX</span>
 
-- X-Lite comes with x.x.x version, let's update to .... version
+The Taranis X-Lite comes with OpenTX version 2.2.2 installed. In comparison, the current latest version of OpenTX at the time of writing is 2.2.3. You can [read the release notes][https://www.open-tx.org/2019/01/06/opentx-2.2.3] and see if you care to do the update. The process is quick and straightforward.
 
 ### 💾 <span id="sdcard">Set up the SD card</span>
 
 The SD card is quite useful for keeping internal transmitter firmware (in case you need to switch between FCC and LBT on the go), as well as the sound files for alerts, telemetry readout and switch activation.
 
 [link to SD card][]
-
-### 🛠 <span id="configuration">Additional configuration</span>
-
-- screenshots of different screens
-- trim the channel endpoints
-- the setup sounds to play on switch activation
 
 ### 🏁 <span id="conclusion">Conclusion</span>
 
