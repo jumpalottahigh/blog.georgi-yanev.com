@@ -210,15 +210,88 @@ And if you have already setup switches in the `MIXER` screen in your radio to co
 
 The Taranis X-Lite comes with OpenTX version 2.2.2 installed. In comparison, the current latest version of OpenTX at the time of writing is 2.2.3. You can [read the release notes][https://www.open-tx.org/2019/01/06/opentx-2.2.3] and see if you care to do the update. The process is quick and straightforward.
 
+#### 1. Download and install OpenTX Companion
+
+You can grab it [here][https://www.open-tx.org/2019/01/06/opentx-2.2.3]. Scroll to the bottom of the page and pick the installer for your operating system. Install it and run it when ready.
+
+#### 2. Configure settings and download firmware
+
+Open the settings via the cogwheel icon and **select the correct radio (Taranis X-Lite)** from the list of radios.
+
+![OpenTX Companion](set-up-taranis-x-lite-25.png)
+
+You can also play with the rest of the settings, for most cases the defaults are totally fine and if you have no idea what you are doing, it's ok to leave everything to default settings. Here are my settings:
+
+![OpenTX Companion settings dialog](set-up-taranis-x-lite-26.png)
+
+Click OK when done and head on over to the download icon (arrow pointing down, to the left of the settings icon). In the downloads dialog use the buttons to download the latest firmware (2.2.3) if you didn't get asked already by OpenTX.
+
+![OpenTX Companion download dialog](set-up-taranis-x-lite-27.png)
+
+#### 3. Start the radio in bootloader mode
+
+Finally, armed with the correct settings and the firmware downloaded we can now put the radio in bootloader mode and plug it in. To do that, **press and hold the middle of the gamepad looking plus button** and while keeping it pressed turn the radio on. You should see the bootloader screen light up.
+
+![circle around the joypad key on the x-lite](set-up-taranis-x-lite-28.jpg)
+
+Now you can connect the radio via USB to your computer, any data micro USB to USB cable will do.
+
+If you have any existing models already set up, it's a good idea to back them up now. To do that, click the `Read Models and Settings from Radio` button. You can export/save those somewhere so you have a back up.
+
+![Read models and settings from radio button in OpenTX](set-up-taranis-x-lite-29.jpg)
+
+#### 4. Flash the firmware
+
+Finally click `Write Firmware to Radio` and in a few seconds you will have your Taranis X-Lite upgraded to the latest firmware.
+
+![Write firmware to radio button in OpenTX](set-up-taranis-x-lite-30.jpg)
+
+When done, unplug the radio from the computer and switch it off and on.
+
+If you need more specific help, I've written about the process [in more detail here][].
+
 ### 💾 <span id="sdcard">Set up the SD card</span>
 
 The SD card is quite useful for keeping internal transmitter firmware (in case you need to switch between FCC and LBT on the go), as well as the sound files for alerts, telemetry readout and switch activation.
 
-[link to SD card][]
+#### 1. Download SD card contents
+
+First, [grab the latest SD card contents][https://downloads.open-tx.org/2.2/release/sdcard/opentx-xlite/]. Unzip that, format an SD card clean (any size will do, if you don't have one, [grab a card here][]) and copy over the files. It doesn't matter if you use the Taranis and mount the card via it, or just do the process manually using a card reader. Both achieve the same result, just get the files on there.
+
+#### 2. Grab Amber sound pack
+
+It's worth grabbing the [Amber sound pack][http://open-txu.org/home/version-2/v2-2-resources-2/] as the sound files from that sound much nicer than the ones that come with the original card contents. In the SD card delete the `SOUNDS` folder and upload the `SOUNDS` folder from the Amber pack. Done. Easy!
+
+#### 3. Download receiver and internal module firmware
+
+Another thing worth doing is having some receiver and internal module firmware right on the SD card. Having receiver firmware allows you to [flash receivers with your Taranis][link to my flashing xm+ article] via the port on the bottom of the radio. Get the firmware for your receiver from [FrSky's site][https://www.frsky-rc.com/download/].
+
+I use a lot of [XM Plus receivers][] and here is the [firmware for those][https://www.frsky-rc.com/xm-plus-mini-sbus-non-telemetry-full-range/].
+
+![firmware for XM PLUS on FrSky's site](set-up-taranis-x-lite-31.png)
+
+And here is the [firmware for the internal module][https://www.frsky-rc.com/taranis-x-lite/] of the Taranis X-Lite. A cool thing you could do is that you can flash the internal module on the go between EU and US firmware if you need to do that (I know I've had to do that and it was so cool to do in just a minute without the need of a computer).
+
+![firmware for Taranis X-Lite on FrSky's site](set-up-taranis-x-lite-32.png)
+
+To get those files setup on the SD card, after unzipping the downloads, copy over the files (including their parent folders) inside the `FIRMWARE` folder on the SD card.
 
 ### 🏁 <span id="conclusion">Conclusion</span>
 
-- would I recommend it?
+In conclusion, would I recommend this radio? **YES!** That's the short answer. I think it's a great deal. The radio is **full featured**, much similar to the Taranis Q X7, and comes in at [a very decent price][x-lite-link]. There is maybe one reason that would go against you picking this radio up and going for another one - if you are a **pincher**(a pilot that flies by pinching the sticks between their index finger and thumb). Higher sticks and other form factors might be better in that case. However for me, and any other **thumber**(a pilot that flies by placing their thumbs on top of the sticks), **I've been having a blast**. The X-Lite took close to no time for me to get used to it, maybe like half a battery or so. I've pretty much swapped my Taranis Q X7 for the X-Lite since I got it and I'm not sure I'm going back, I honestly don't have many reasons to.
+
+**Same range without an external antenna** you have to care about when putting away, smaller and convenient for travellers, while making no compromise on the build quality or gimbals. The literally only thing I wish was different would be the lower switches on the back to be longer. But even that is probably something you can get used to.
+
+The radio also seems better suited for children which is a huge plus in my book. And an interesting thing to note is that the slick design draws in less techy and less nerdy people a bit more. **And ultimately, we just want to welcome more people to our hobby so we can fly and have fun together!**
+
+Happy flying!
+
+#### Where to get the X-Lite?
+
+###### Taranis X-Lite - [Amazon][2] [Banggood][1]
+
+---
 
 [0]: Linkslist
-[1]: TODO
+[1]: https://bit.ly/taranis-xlite
+[2]: https://amzn.to/2I92UBh
