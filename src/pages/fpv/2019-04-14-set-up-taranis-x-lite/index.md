@@ -1,6 +1,6 @@
 ---
-path: '/fpv/set-up-taranis-x-lite/'
-date: '2019-04-04'
+path: '/fpv/review-set-up-update-taranis-x-lite/'
+date: '2019-04-14'
 title: 'Set up Taranis X-Lite and update OpenTX'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood in this article are affiliate links and would support the blog if used to make a purchase.'
