@@ -10,6 +10,7 @@ tags:
   - 'taranis'
   - 'x-lite'
   - 'opentx'
+  - 'gear'
 ogKeywords: 'TODO'
 ogDescription: 'TODO'
 ogImage: './set-up-taranis-x-lite-4.jpg'
@@ -104,7 +105,7 @@ And I could. Some people go for it by buying these [deeper battery caps][] which
 ### 🧭 <span id="menus">Navigate the menus</span>
 
 So, with the throttle stick fixed and the batteries inserted, let's power on the radio and see how can we navigate the menus.
-In a nutshell, the mini joystick does all the navigation, except for cancelling out of screens, which is handled by the button below the joystick.
+In a nutshell, the mini joystick does all the navigation, except for canceling out of screens, which is handled by the button below the joystick.
 
 ![X-Lite with a blue circle around the mini joystick](set-up-taranis-x-lite-12.jpg)
 
@@ -134,7 +135,7 @@ The two arguably most important screens for you when doing anything with the X-L
 
 ![screenshot of the outputs screen](set-up-taranis-x-lite-16.jpg)
 
-> Useful to trim channel outputs so that your stick endpoints can correspond to the min and max values in Betaflight. A common thing is that pulling the throttle for example all the way down would show as a value of 988 in Betaflight and we want that to ideally be at a 1000. To do that, tweak the values by entering the edit menu via the joystick center press and tweak the Min and Max values for that channel. See the example image below. Do that for all your stick channels.
+> Useful to trim channel outputs so that your stick endpoints can correspond to the min and max values in Betaflight. A common thing is that pulling the throttle, for example, all the way down would show as a value of 988 in Betaflight and we want that to ideally be at 1000. To do that, tweak the values by entering the edit menu via the joystick center press and tweak the Min and Max values for that channel. See the example image below. Do that for all your stick channels.
 
 ![screenshot of the outputs edit screen](set-up-taranis-x-lite-17.jpg)
 
@@ -156,7 +157,7 @@ The two arguably most important screens for you when doing anything with the X-L
 
 ![screenshot of the radio setup screen](set-up-taranis-x-lite-18.jpg)
 
-> Configure date, time, battery range (so the UI will have a correct representation of how much battery you have left), sound mode, volume, contrast, alarms for battery low, display settings, units, channel order and others.
+> Configure date, time, battery range (so the UI will have a correct representation of how much battery you have left), sound mode, volume, contrast, alarms for battery low, display settings, units, channel order, and others.
 
 `SD-HC CARD (Screen 2/9)`
 
@@ -164,15 +165,15 @@ The two arguably most important screens for you when doing anything with the X-L
 
 > If you have installed an SD card you will see it here. This allows access to some important directories and functionality. For example, if you want to flash the internal module between an FCC(US) and LBT(EU) firmware, you would do so here, by going into the `[FIRMWARE]` directory (provided you downloaded and put some firmware there). You could then press the joystick down and select from the menu what you would like to flash.
 
-> Additionally, if you would like to use the Taranis X-Lite to [flash an XM+ or other FrSky receiver][link-to-article], you would also select the correct firmware from this screen.
+> Additionally, if you would like to use the Taranis X-Lite to [flash an XM+ or another FrSky receiver][link-to-article], you would also select the correct firmware from this screen.
 
 `GLOBAL FUNCTIONS (Screen 3/9)`
 
 ![screenshot of the global functions screen](set-up-taranis-x-lite-20.jpg)
 
-> This screen is the same as the special functions screen mentioned above, but whatever you set up here will be shared across models. That's awesome and I love it. For example, here I have set up my audio cues, such as on flipping the arm switch, changing flight mode. I definitely recommend the Amber sound pack as it is much nicer to hear, than the more generic robotic counter part that comes with the default SD card files, but we will get to that in a bit.
+> This screen is the same as the special functions screen mentioned above, but whatever you set up here will be shared across models. That's awesome and I love it. For example, here I have set up my audio cues, such as on flipping the arm switch, changing flight mode. I definitely recommend the Amber sound pack as it is much nicer to hear than the more generic robotic counterpart that comes with the default SD card files, but we will get to that in a bit.
 
-> Besides for playing sounds on switch activation, one other piece of useful functionallity I have set up here is making my S2 source (back right dial button) to act as a volume dial. That's quite useful. You could set up a whole lot more in here. Sky's the limit, or rather, OpenTX is 😉.
+> Besides for playing sounds on switch activation, one other piece of useful functionality I have set up here is making my S2 source (back right dial button) to act as a volume dial. That's quite useful. You could set up a whole lot more in here. Sky's the limit, or rather, OpenTX is 😉.
 
 > And yes, I do have a dedicated 'Oops' switch 😅.
 
@@ -194,7 +195,7 @@ To bind the Taranis X-Lite to a receiver, go to the setup screen of a model you 
 
 ![image of the model setup menu at the bind function][]
 
-The radio will start chirping. Then plug in a battery to your model while holding the receiver's bind button pressed. **If doing this to a 5 inch quad indoors, make sure to remove the props before connecting a battery**. That's all. Some quads like the [Eachine Trashcan][] for example can be bound straight from the Betaflight CLI by putting it in bind mode. I'm mostly using [FrSky XM+ receivers][] and this does require holding the bind button on the receiver when plugging in the battery. Overall quite straight forward.
+The radio will start chirping. Then plug in a battery to your model while holding the receiver's bind button pressed. **If doing this to a 5-inch quad indoors, make sure to remove the props before connecting a battery**. That's all. Some quads like the [Eachine Trashcan][] for example can be bound straight from the Betaflight CLI by putting it in bind mode. I'm mostly using [FrSky XM+ receivers][] and this does require holding the bind button on the receiver when plugging in the battery. Overall quite straight forward.
 
 If you have issues binding, it could be that you have mismatching receiver or transmitter firmware. In which case, you might have to [read about how to flash the XM+][].
 
@@ -202,7 +203,7 @@ You can use Betaflight to test if the binding was successful and to verify that 
 
 ![betaflight receiver tab](set-up-taranis-x-lite-23.png)
 
-And if you have already setup switches in the `MIXER` screen in your radio to correspond to Channel 5 and Channel 6, you can set up your arming switch and a flight modes switch in the `Modes` tab in Betaflight. AUX1 = Channel 5 and AUX2 = Channel 6.
+And if you have already set up switches in the `MIXER` screen in your radio to correspond to Channel 5 and Channel 6, you can set up your arming switch and a flight modes switch in the `Modes` tab in Betaflight. AUX1 = Channel 5 and AUX2 = Channel 6.
 
 ![betaflight modes tab](set-up-taranis-x-lite-24.png)
 
@@ -236,13 +237,13 @@ Finally, armed with the correct settings and the firmware downloaded we can now 
 
 Now you can connect the radio via USB to your computer, any data micro USB to USB cable will do.
 
-If you have any existing models already set up, it's a good idea to back them up now. To do that, click the `Read Models and Settings from Radio` button. You can export/save those somewhere so you have a back up.
+If you have any existing models already set up, it's a good idea to back them up now. To do that, click the `Read Models and Settings from Radio` button. You can export/save those somewhere so you have a backup.
 
 ![Read models and settings from radio button in OpenTX](set-up-taranis-x-lite-29.jpg)
 
 #### 4. Flash the firmware
 
-Finally click `Write Firmware to Radio` and in a few seconds you will have your Taranis X-Lite upgraded to the latest firmware.
+Finally, click `Write Firmware to Radio` and in a few seconds you will have your Taranis X-Lite upgraded to the latest firmware.
 
 ![Write firmware to radio button in OpenTX](set-up-taranis-x-lite-30.jpg)
 
@@ -280,15 +281,19 @@ To get those files setup on the SD card, after unzipping the downloads, copy ove
 
 In conclusion, would I recommend this radio? **YES!** That's the short answer. I think it's a great deal. The radio is **full featured**, much similar to the Taranis Q X7, and comes in at [a very decent price][x-lite-link]. There is maybe one reason that would go against you picking this radio up and going for another one - if you are a **pincher**(a pilot that flies by pinching the sticks between their index finger and thumb). Higher sticks and other form factors might be better in that case. However for me, and any other **thumber**(a pilot that flies by placing their thumbs on top of the sticks), **I've been having a blast**. The X-Lite took close to no time for me to get used to it, maybe like half a battery or so. I've pretty much swapped my Taranis Q X7 for the X-Lite since I got it and I'm not sure I'm going back, I honestly don't have many reasons to.
 
-**Same range without an external antenna** you have to care about when putting away, smaller and convenient for travellers, while making no compromise on the build quality or gimbals. The literally only thing I wish was different would be the lower switches on the back to be longer. But even that is probably something you can get used to.
+**Same range without an external antenna** you have to care about when putting away, smaller and convenient for travelers while making no compromise on the build quality or gimbals. The literally only thing I wish was different would be the lower switches on the back to be longer. But even that is probably something you can get used to.
 
 The radio also seems better suited for children which is a huge plus in my book. And an interesting thing to note is that the slick design draws in less techy and less nerdy people a bit more. **And ultimately, we just want to welcome more people to our hobby so we can fly and have fun together!**
 
 Happy flying!
 
-#### Where to get the X-Lite?
+#### Where to get it?
 
 ###### Taranis X-Lite - [Amazon][2] [Banggood][1]
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PigsOtpozno?rel=0" frameBorder="0" allowFullScreen title="First flight with the Taranis X-Lite"></iframe>
+</div>
 
 ---
 
