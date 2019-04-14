@@ -1303,7 +1303,7 @@ video.fade-in {
 }
 
 .blog-post blockquote {
-  word-break: break-all;
+  word-break: break-word;
 }
 
 code {
