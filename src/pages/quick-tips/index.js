@@ -167,7 +167,13 @@ const QuickTipsPage = ({ data }) => {
           </p>
           {/* Netlify: Specify form name with this hidden input for Netlify Forms to work */}
           <input type="hidden" name="form-name" value="quick-tip-question" />
-          <textarea name="question" placeholder="How to ..." maxLength="150" />
+          <textarea
+            name="question"
+            placeholder="How to ..."
+            maxLength="150"
+            minLength="10"
+            required
+          />
           <button type="submit">Send</button>
         </form>
 
