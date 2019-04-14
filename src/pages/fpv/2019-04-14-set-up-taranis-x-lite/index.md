@@ -48,7 +48,7 @@ We will go over those and many other points in detail. So, let's get to it.
 - [Setup SD card](#sdcard)
 - [Conclusion](#conclusion)
 
-### 📦 <span id="unboxing" class="offset-top-nav">Unboxing and layout overview</span>
+### 📦 <span id="unboxing">Unboxing and layout overview</span>
 
 When unboxing the [Taranis X-Lite][1] you will immediately notice that it comes in a hard shell case. That's pretty neat! Makes for easy carry-around, easy packing in a backpack.
 
@@ -193,7 +193,7 @@ The two arguably most important screens for you when doing anything with the X-L
 
 To bind the Taranis X-Lite to a receiver, go to the setup screen of a model you have selected or created. Scroll all the way down and select the `[BND]` function.
 
-![TODO: image of the model setup menu at the bind function][]
+![image of the model setup menu at the bind function](set-up-taranis-x-lite-33.jpg)
 
 The radio will start chirping. Then plug in a battery to your model while holding the receiver's bind button pressed. **If doing this to a 5-inch quad indoors, make sure to remove the props before connecting a battery**. That's all. Some quads like the [Eachine Trashcan][10] for example can be bound straight from the Betaflight CLI by putting it in bind mode. I'm mostly using [FrSky XM+ receivers][11] and this does require holding the bind button on the receiver when plugging in the battery. Overall quite straight forward.
 
