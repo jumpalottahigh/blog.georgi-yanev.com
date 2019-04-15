@@ -17,7 +17,7 @@ ogImage: './set-up-taranis-x-lite-4.jpg'
 ---
 
 <div class="article-update-notification">
-This is a sponsored review. Be that as it may, I still stand by every word and this is my objective and honest review of the drone. I'd never write a misleading article or point anyone in the wrong direction.
+This is a sponsored review. Be that as it may, I still stand by every word and this is my objective and honest review. I'd never write a misleading article or point anyone in the wrong direction.
 </div>
 
 I recently got the [Taranis X-Lite][1] and was excited to try it out. I have watched the reviews, had a rough idea of what to expect, but really wanted to experience the radio for myself and see how it would work for me.
