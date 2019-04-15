@@ -62,4 +62,10 @@ Lastly, solder the grounds from the switch gold pad to the grounds on the XT-60 
 
 May your smoke stopper save many quads! Happy flying!
 
+#### Where to get those items?
+
+###### XT-60 Male and Female plug and cable - [Amazon][2] [Banggood][1]
+
 [0]: Linkslist
+[1]: https://bit.ly/xt-60-cable
+[2]: https://amzn.to/2KFSw60

@@ -101,6 +101,12 @@ And place it inside.
 Go to the radio configuration and make sure you set **Battery range** to **6.8-8.4** and **Battery low** to **6.6V**.
 Voila! Enjoy not having to buy any more AA batteries.
 
+#### Where to get those items?
+
+###### Taranis Q X7 - [Amazon][10] [Banggood][7]
+
+###### Taranis X-Lite - [Amazon][12] [Banggood][11]
+
 [0]: Linkslist
 [1]: https://www.open-tx.org
 [2]: https://www.open-tx.org/2017/12/16/opentx-2.2.1
@@ -111,3 +117,6 @@ Voila! Enjoy not having to buy any more AA batteries.
 [7]: https://bit.ly/taranis-qx7
 [8]: https://www.youtube.com/watch?v=SJM8G0VCFqM&list=PLiYYhnH4BhI-ot9OQ9djvRaacFHboFqC2
 [9]: https://bit.ly/taranis-lipo
+[10]: https://amzn.to/2VszUYb
+[11]: https://bit.ly/taranis-xlite
+[12]: https://amzn.to/2I92UBh

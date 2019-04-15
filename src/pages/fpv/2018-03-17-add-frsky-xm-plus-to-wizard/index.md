@@ -65,7 +65,23 @@ Then go to the Configuration tab and set receiver to SBUS and RSSI on.
 That's about it. Don't forget to check all your other settings and make sure your radio channels work as expected in the receiver tab.
 Happy flying!
 
+#### Where to get those items?
+
+###### FrSky XM+ - [Amazon][4] [Banggood][1]
+
+###### Taranis Q X7 - [Amazon][5] [Banggood][3]
+
+###### Taranis X-Lite - [Amazon][7] [Banggood][6]
+
+###### Eachine Wizard x220 - [Amazon][9] [Banggood][8]
+
 [0]: Linkslist
 [1]: https://bit.ly/xm-plus
 [2]: https://bit.ly/wizardx220
 [3]: https://bit.ly/taranis-qx7
+[4]: https://amzn.to/2I57CQu
+[5]: https://amzn.to/2VszUYb
+[6]: https://bit.ly/taranis-xlite
+[7]: https://amzn.to/2I92UBh
+[8]: https://bit.ly/eachine-wizardx220
+[9]: https://amzn.to/2UBB9XH
