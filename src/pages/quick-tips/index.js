@@ -225,8 +225,6 @@ const QuickTipsPage = ({ data }) => {
             </h3>
           }
           easing="ease-in-out"
-          // Whenever there are more questions, make sure that only the first item is open by default
-          open={true}
         >
           <div className="tip-content">
             Normally between 3.8 - 3.9 v per cell.
