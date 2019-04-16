@@ -184,6 +184,55 @@ const QuickTipsPage = ({ data }) => {
               <span role="img" aria-label="triangle pointing down">
                 🔽
               </span>
+              How to flash the Taranis Q X7 internal module(XJT)?
+            </h3>
+          }
+          triggerWhenOpen={
+            <h3>
+              <span role="img" aria-label="triangle pointing up">
+                🔼
+              </span>
+              How to flash the Taranis Q X7 internal module(XJT)?
+            </h3>
+          }
+          easing="ease-in-out"
+          transitionTime={185}
+          open={true}
+        >
+          <div className="tip-content">
+            <div>
+              1. Go to{' '}
+              <a
+                href="https://www.frsky-rc.com/xjt/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                FrSky's site and download the firmware
+              </a>
+              . (
+              <a href="https://www.frsky-rc.com/wp-content/uploads/Downloads/Firmware/XJT/XJT-Ver170317.zip">
+                direct zip link
+              </a>
+              )
+              <br />
+              2. Unzip the archive and put it on your radio's SD card in the{' '}
+              <strong>FIRMWARE</strong> directory.
+              <br />
+              3. From the radio setup screens find the one with the SD card
+              contents and go into the <strong>FIRMWARE</strong> directory. Long
+              press on the firmware you want to flash and select{' '}
+              <strong>flash internal module</strong>. Pay attention to the EU
+              and US versions.
+            </div>
+          </div>
+        </Collapsible>
+        <Collapsible
+          classParentString="tip"
+          trigger={
+            <h3>
+              <span role="img" aria-label="triangle pointing down">
+                🔽
+              </span>
               How low can I fly my batteries?
             </h3>
           }
@@ -196,8 +245,7 @@ const QuickTipsPage = ({ data }) => {
             </h3>
           }
           easing="ease-in-out"
-          // Whenever there are more questions, make sure that only the first item is open by default
-          open={true}
+          transitionTime={185}
         >
           <div className="tip-content">
             I prefer flying mine only up until 3.7v per cell, sometimes I could
@@ -225,6 +273,7 @@ const QuickTipsPage = ({ data }) => {
             </h3>
           }
           easing="ease-in-out"
+          transitionTime={185}
         >
           <div className="tip-content">
             Normally between 3.8 - 3.9 v per cell.
@@ -249,6 +298,7 @@ const QuickTipsPage = ({ data }) => {
             </h3>
           }
           easing="ease-in-out"
+          transitionTime={185}
         >
           <div className="tip-content">
             I'd like to share with you one quick and easy way of fixing a U.FL
