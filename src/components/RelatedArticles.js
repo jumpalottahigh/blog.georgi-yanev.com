@@ -12,6 +12,7 @@ class RelatedArticles extends React.Component {
           query relatedArticlesQuery {
             allMarkdownRemark(
               sort: { order: DESC, fields: [frontmatter___date] }
+              filter: { fileAbsolutePath: { regex: "/content/posts/" } }
             ) {
               edges {
                 node {

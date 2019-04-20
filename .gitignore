@@ -7,3 +7,4 @@ public
 yarn.lock
 .vscode
 *.log
+.env.*

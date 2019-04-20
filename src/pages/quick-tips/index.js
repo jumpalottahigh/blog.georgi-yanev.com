@@ -1,6 +1,5 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
 import styled from 'styled-components'
 import Collapsible from 'react-collapsible'
 import Layout from '../../components/structure/layout'
@@ -104,11 +103,19 @@ const Section = styled.section`
 
 const QuickTipsPage = ({ data }) => {
   const [submitted, setSubmitted] = React.useState(false)
+  const [deepLinkQuestion, setDeepLinkQuestion] = React.useState('')
+  const myElement = React.useRef(null)
+
+  function handleFormSubmit(e) {
+    // If the form is empty don't submit it
+    if (e.target[2].value === '') return
+  }
 
   React.useEffect(() => {
     let searchParams = new URLSearchParams(window.location.search)
     let form = searchParams.get('form')
     let timeout
+    let question = searchParams.get('question')
 
     if (form === 'success') {
       setSubmitted(true)
@@ -117,10 +124,22 @@ const QuickTipsPage = ({ data }) => {
       }, 4000)
     }
 
+    // If there is a deeplinking question param
+    if (question) {
+      // Update the deeplinked ref with the value of the param if there is a match
+      setDeepLinkQuestion(question)
+      if (myElement && myElement.current) {
+        myElement.current.scrollIntoView()
+      }
+    }
+
     return () => {
       clearTimeout(timeout)
     }
-  }, [])
+  }, [deepLinkQuestion])
+
+  // Grab GraphQL data
+  const { edges: quickTips } = data.quickTips
 
   return (
     <Layout>
@@ -154,6 +173,7 @@ const QuickTipsPage = ({ data }) => {
         {/* Submit a question form */}
         <form
           action="/quick-tips/?form=success"
+          onSubmit={handleFormSubmit}
           name="quick-tip-question"
           method="post"
           data-netlify="true"
@@ -168,6 +188,7 @@ const QuickTipsPage = ({ data }) => {
           {/* Netlify: Specify form name with this hidden input for Netlify Forms to work */}
           <input type="hidden" name="form-name" value="quick-tip-question" />
           <textarea
+            id="question"
             name="question"
             placeholder="How to ..."
             maxLength="150"
@@ -177,158 +198,36 @@ const QuickTipsPage = ({ data }) => {
           <button type="submit">Send</button>
         </form>
 
-        <Collapsible
-          classParentString="tip"
-          trigger={
-            <h3>
-              <span role="img" aria-label="triangle pointing down">
-                🔽
-              </span>
-              How to flash the Taranis Q X7 internal module(XJT)?
-            </h3>
-          }
-          triggerWhenOpen={
-            <h3>
-              <span role="img" aria-label="triangle pointing up">
-                🔼
-              </span>
-              How to flash the Taranis Q X7 internal module(XJT)?
-            </h3>
-          }
-          easing="ease-in-out"
-          transitionTime={185}
-          open={true}
-        >
-          <div className="tip-content">
-            <div>
-              1. Go to{' '}
-              <a
-                href="https://www.frsky-rc.com/xjt/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                FrSky's site and download the firmware
-              </a>
-              . (
-              <a href="https://www.frsky-rc.com/wp-content/uploads/Downloads/Firmware/XJT/XJT-Ver170317.zip">
-                direct zip link
-              </a>
-              )
-              <br />
-              2. Unzip the archive and put it on your radio's SD card in the{' '}
-              <strong>FIRMWARE</strong> directory.
-              <br />
-              3. From the radio setup screens find the one with the SD card
-              contents and go into the <strong>FIRMWARE</strong> directory. Long
-              press on the firmware you want to flash and select{' '}
-              <strong>flash internal module</strong>. Pay attention to the EU
-              and US versions.
-            </div>
-          </div>
-        </Collapsible>
-        <Collapsible
-          classParentString="tip"
-          trigger={
-            <h3>
-              <span role="img" aria-label="triangle pointing down">
-                🔽
-              </span>
-              How low can I fly my batteries?
-            </h3>
-          }
-          triggerWhenOpen={
-            <h3>
-              <span role="img" aria-label="triangle pointing up">
-                🔼
-              </span>
-              How low can I fly my batteries?
-            </h3>
-          }
-          easing="ease-in-out"
-          transitionTime={185}
-        >
-          <div className="tip-content">
-            I prefer flying mine only up until 3.7v per cell, sometimes I could
-            go even as low as 3.6v but very rarely. Technically, you can fly
-            them even further, all the way to 3.5v, but I don't recommend that
-            and it would reduce their lifetime.
-          </div>
-        </Collapsible>
-        <Collapsible
-          classParentString="tip"
-          trigger={
-            <h3>
-              <span role="img" aria-label="triangle pointing down">
-                🔽
-              </span>
-              Battery storage voltage
-            </h3>
-          }
-          triggerWhenOpen={
-            <h3>
-              <span role="img" aria-label="triangle pointing up">
-                🔼
-              </span>
-              Battery storage voltage
-            </h3>
-          }
-          easing="ease-in-out"
-          transitionTime={185}
-        >
-          <div className="tip-content">
-            Normally between 3.8 - 3.9 v per cell.
-          </div>
-        </Collapsible>
-        <Collapsible
-          classParentString="tip"
-          trigger={
-            <h3>
-              <span role="img" aria-label="triangle pointing down">
-                🔽
-              </span>
-              How to keep your U.FL IPEX antenna in any position you want?
-            </h3>
-          }
-          triggerWhenOpen={
-            <h3>
-              <span role="img" aria-label="triangle pointing up">
-                🔼
-              </span>
-              How to keep your U.FL IPEX antenna in any position you want?
-            </h3>
-          }
-          easing="ease-in-out"
-          transitionTime={185}
-        >
-          <div className="tip-content">
-            I'd like to share with you one quick and easy way of fixing a U.FL
-            IPEX VTX antenna to stay in any way you want it to. For example, at
-            a 90 degree angle and up and away from the props, which could be a
-            good thing.
-            <Img
-              fluid={data.topic1.edges[0].node.childImageSharp.fluid}
-              alt="image of the final result of my antena"
+        {quickTips.map(({ node: tip }, index) => (
+          <Collapsible
+            key={tip.id}
+            classParentString="tip"
+            trigger={
+              <h3>
+                <span role="img" aria-label="triangle pointing down">
+                  🔽
+                </span>
+                {tip.frontmatter.title}
+              </h3>
+            }
+            triggerWhenOpen={
+              <h3>
+                <span role="img" aria-label="triangle pointing up">
+                  🔼
+                </span>
+                {tip.frontmatter.title}
+              </h3>
+            }
+            easing="ease-in-out"
+            transitionTime={185}
+            open={index === 0 ? true : false}
+          >
+            <div
+              className="tip-content"
+              dangerouslySetInnerHTML={{ __html: tip.html }}
             />
-            <div>
-              To achieve this, grab a small piece of shrink tube, apply some hot
-              glue all around where the antenna connects to the VTX. Then apply
-              a bit of hot glue all along the antenna up until the thicker part.
-              Finally, slide in the heat shrink, shrink it with a lighter or a
-              heat gun and hold it in place until the hot glue cools off.
-            </div>
-            <div>
-              I learned about this trick{' '}
-              <a
-                href="https://youtu.be/wfYZmh5Gsyo?t=169"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                from this video
-              </a>
-              , and so credit goes, where credit is due!
-            </div>
-          </div>
-        </Collapsible>
+          </Collapsible>
+        ))}
       </Section>
     </Layout>
   )
@@ -338,17 +237,19 @@ export default QuickTipsPage
 
 export const QuickTipsPageQuery = graphql`
   query QuickTipsPageQuery {
-    topic1: allFile(
-      filter: { relativePath: { regex: "/^quick-tips/topic-1/" } }
+    quickTips: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/content/quick-tips/" } }
+      sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
         node {
-          name
-          childImageSharp {
-            fluid(maxWidth: 920, quality: 80) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
+          id
+          frontmatter {
+            path
+            title
+            date(formatString: "MMM DD, YYYY")
           }
+          html
         }
       }
     }

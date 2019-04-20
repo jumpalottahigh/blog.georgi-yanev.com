@@ -10,10 +10,28 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           {
-            allMarkdownRemark(
+            posts: allMarkdownRemark(
               sort: { order: DESC, fields: [frontmatter___date] }
               limit: 1000
-              filter: { frontmatter: { draft: { ne: true } } }
+              filter: {
+                frontmatter: { draft: { ne: true } }
+                fileAbsolutePath: { regex: "/content/posts/" }
+              }
+            ) {
+              edges {
+                node {
+                  id
+                  frontmatter {
+                    path
+                  }
+                }
+              }
+            }
+
+            quickTips: allMarkdownRemark(
+              sort: { order: DESC, fields: [frontmatter___date] }
+              limit: 1000
+              filter: { fileAbsolutePath: { regex: "/content/quick-tips/" } }
             ) {
               edges {
                 node {
@@ -33,7 +51,16 @@ exports.createPages = ({ graphql, actions }) => {
         }
 
         // Create blog posts pages.
-        result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        result.data.posts.edges.forEach(({ node }) => {
+          createPage({
+            path: node.frontmatter.path,
+            component: blogPost,
+            context: {}, // additional data can be passed via context
+          })
+        })
+
+        // Create quick tips pages.
+        result.data.quickTips.edges.forEach(({ node }) => {
           createPage({
             path: node.frontmatter.path,
             component: blogPost,

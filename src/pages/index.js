@@ -278,6 +278,7 @@ export const HomePageQuery = graphql`
       limit: 5
       filter: {
         frontmatter: { draft: { ne: true }, category: { ne: "stories" } }
+        fileAbsolutePath: { regex: "/content/posts/" }
       }
     ) {
       edges {

@@ -15,8 +15,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`,
-        name: 'pages',
+        path: `${__dirname}/content/posts`,
+        name: 'posts',
       },
     },
     {
@@ -24,6 +24,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/assets/pages`,
         name: `images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/quick-tips`,
+        name: `quick-tips`,
       },
     },
     {
@@ -89,6 +96,9 @@ module.exports = {
               allMarkdownRemark(
                 limit: 1000,
                 sort: { order: DESC, fields: [frontmatter___date] },
+                filter: {
+                  fileAbsolutePath: { regex: "/content/posts/" }
+                }
               ) {
                 edges {
                   node {

@@ -5,7 +5,10 @@ const useAllMarkdownRemark = () => {
     query {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
-        filter: { frontmatter: { draft: { ne: true } } }
+        filter: {
+          frontmatter: { draft: { ne: true } }
+          fileAbsolutePath: { regex: "/content/posts/" }
+        }
       ) {
         edges {
           node {
