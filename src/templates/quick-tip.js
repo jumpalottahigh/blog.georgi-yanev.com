@@ -8,15 +8,16 @@ import ModeSwitch from '../components/Mode'
 
 class QuickTipTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
+    const { markdownRemark: post } = this.props.data
 
     // If post doesn't have a defined og image, fall back to default defined here
     const ogImage =
       post.frontmatter.ogImage !== null
         ? `https://blog.georgi-yanev.com${post.frontmatter.ogImage.publicURL}`
-        : `https://blog.georgi-yanev.com/default-ogimage.png`
+        : `https://blog.georgi-yanev.com/quick-tips-og-image.jpg`
 
-    const timeToReadEmoji = '⌛'.repeat(Math.ceil(post.timeToRead / 5))
+    const description =
+      'Quick tips, articles, DIY and set up guides for all things FPV. Posts on how to build an FPV quadcopter, how to set up your radio controller, goggles, how to mod your existing drones and more...'
 
     return (
       <Layout location={this.props.location}>
@@ -25,9 +26,13 @@ class QuickTipTemplate extends React.Component {
           meta={[
             {
               name: 'description',
-              content: `${post.frontmatter.ogDescription}`,
+              content: description,
             },
-            { name: 'keywords', content: `${post.frontmatter.ogKeywords}` },
+            {
+              name: 'keywords',
+              content:
+                'fpv, quad, drone, custom drone build, how to build a quadcopter, how to fly fpv drones, fpv freestyle, fpv racing, quick tips, fpv tips, fpvtips, how to mod fpv drones, guides',
+            },
             { property: 'og:type', content: 'website' },
             {
               property: 'og:url',
@@ -43,7 +48,7 @@ class QuickTipTemplate extends React.Component {
             },
             {
               property: 'og:description',
-              content: `${post.frontmatter.ogDescription}`,
+              content: description,
             },
             {
               name: 'twitter:card',
@@ -67,7 +72,7 @@ class QuickTipTemplate extends React.Component {
             },
             {
               name: 'twitter:description',
-              content: `${post.frontmatter.ogDescription}`,
+              content: description,
             },
           ]}
         >
@@ -84,7 +89,7 @@ class QuickTipTemplate extends React.Component {
             "name": "${post.frontmatter.title}",
             "author": {
               "@type": "Person",
-              "name": "${post.frontmatter.author}"
+              "name": "Georgi Yanev"
             },
             "datePublished": "${post.frontmatter.dateUnformatted}",
             "dateModified": "${post.frontmatter.dateUnformatted}",
@@ -101,8 +106,8 @@ class QuickTipTemplate extends React.Component {
                 "url": "https://blog.georgi-yanev.com/default-ogimage.png"
               }
             },
-            "description": "${post.excerpt}",
-            "articleSection": "${post.excerpt}",
+            "description": "${description}",
+            "articleSection": "${description}",
             "url": "https://blog.georgi-yanev.com${post.frontmatter.path}"
           }
         `}</script>
@@ -118,29 +123,23 @@ class QuickTipTemplate extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {post.frontmatter.author}
+                    Georgi Yanev
                   </a>
                 </div>
-                <div className="year">
-                  {post.frontmatter.date} •{' '}
-                  {`${timeToReadEmoji} ${post.timeToRead} min read`}
-                </div>
+                <div className="year">{post.frontmatter.date}</div>
               </div>
               <div className="toolbar">
                 <ModeSwitch />
               </div>
             </div>
-            <div
-              className="blog-post-content"
-              dangerouslySetInnerHTML={{ __html: post.html }}
-            />
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <div style={{ marginTop: '1rem', marginBottom: '2rem' }}>
               <Link to="/quick-tips/">
-                <button className="category fpv">Read more quick tips</button>
+                <button className="category fpv">Show more quick tips</button>
               </Link>
             </div>
             <FeedbackSection />
-            <SupportSection affiliateNote={post.frontmatter.affiliate} />
+            <SupportSection />
           </div>
         </div>
       </Layout>
@@ -154,19 +153,11 @@ export const pageQuery = graphql`
   query QuickTipByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
-      excerpt
-      timeToRead
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         dateUnformatted: date
         path
         title
-        category
-        tags
-        author
-        affiliate
-        ogKeywords
-        ogDescription
         ogImage {
           publicURL
         }
