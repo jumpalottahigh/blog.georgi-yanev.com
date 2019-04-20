@@ -8,30 +8,32 @@ import Layout from '../../../components/structure/layout'
 const WarCraftUnitsPage = ({ data }) => (
   <Layout>
     <Helmet title="WarCraft Units" />
-    <h1>WarCraft Units</h1>
+    <section>
+      <h1>WarCraft Units</h1>
 
-    <div className="disclaimer-container">
-      <span className="year">~ year: 2002 | Georgi's age: 17</span>
-      <span className="disclaimer">
-        Unedited things the way they were in the late 90s and early 2000s
-      </span>
-    </div>
+      <div className="disclaimer-container">
+        <span className="year">~ year: 2002 | Georgi's age: 17</span>
+        <span className="disclaimer">
+          Unedited things the way they were in the late 90s and early 2000s
+        </span>
+      </div>
 
-    <div>
-      {data.warcraft1.edges.map(({ node: img }) => (
-        <div key={img.id} style={{ margin: '1rem', maxWidth: '360px' }}>
-          <Img fluid={img.childImageSharp.fluid} alt={img.name} />
-        </div>
-      ))}
-    </div>
+      <div>
+        {data.warcraft1.edges.map(({ node: img }) => (
+          <div key={img.id} style={{ margin: '1rem', maxWidth: '360px' }}>
+            <Img fluid={img.childImageSharp.fluid} alt={img.name} />
+          </div>
+        ))}
+      </div>
 
-    <div>
-      {data.warcraft2.edges.map(({ node: img }) => (
-        <div key={img.id} style={{ margin: '1rem', maxWidth: '360px' }}>
-          <Img fluid={img.childImageSharp.fluid} alt={img.name} />
-        </div>
-      ))}
-    </div>
+      <div>
+        {data.warcraft2.edges.map(({ node: img }) => (
+          <div key={img.id} style={{ margin: '1rem', maxWidth: '360px' }}>
+            <Img fluid={img.childImageSharp.fluid} alt={img.name} />
+          </div>
+        ))}
+      </div>
+    </section>
   </Layout>
 )
 

@@ -37,26 +37,28 @@ const EternalArchivesPage = ({ data }) => (
         },
       ]}
     />
-    <h1>Eternal Archives - home to the past...</h1>
-    <p>
-      This section hosts unedited things the way they were in the late 90s and
-      early 2000s.
-    </p>
-    <p>For example, here's a snippet of the first site I wrote in 1999 :)</p>
-    <img
-      src={eternalArchivesMainImage}
-      alt="Snippet of the first site written by Georgi Yanev"
-    />
-    <p className="m-t-1">List of all posts in this section:</p>
-    <ul className="list-none">
-      {data.allSitePage.edges.map(page => (
-        <li key={page.node.id}>
-          <Link to={page.node.path} rel="noopener">
-            {page.node.path}
-          </Link>
-        </li>
-      ))}
-    </ul>
+    <section>
+      <h1>Eternal Archives - home to the past...</h1>
+      <p>
+        This section hosts unedited things the way they were in the late 90s and
+        early 2000s.
+      </p>
+      <p>For example, here's a snippet of the first site I wrote in 1999 :)</p>
+      <img
+        src={eternalArchivesMainImage}
+        alt="Snippet of the first site written by Georgi Yanev"
+      />
+      <p className="m-t-1">List of all posts in this section:</p>
+      <ul className="list-none">
+        {data.allSitePage.edges.map(page => (
+          <li key={page.node.id}>
+            <Link to={page.node.path} rel="noopener">
+              {page.node.path}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </section>
   </Layout>
 )
 

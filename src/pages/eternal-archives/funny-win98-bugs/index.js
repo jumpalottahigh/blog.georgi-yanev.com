@@ -47,38 +47,40 @@ const FunnyWin98BugsPage = ({ data }) => {
   return (
     <Layout>
       <Helmet title="Windows 98 Fun" />
-      <h1>Windows 98 fun</h1>
+      <section>
+        <h1>Windows 98 fun</h1>
 
-      <div className="disclaimer-container">
-        <span className="year">~ year: 2000 | Georgi's age: 15</span>
-        <span className="disclaimer">
-          Unedited things the way they were in the late 90s and early 2000s
-        </span>
-      </div>
+        <div className="disclaimer-container">
+          <span className="year">~ year: 2000 | Georgi's age: 15</span>
+          <span className="disclaimer">
+            Unedited things the way they were in the late 90s and early 2000s
+          </span>
+        </div>
 
-      <div>
-        Most people have heard of the fabled <strong>BSOD</strong> (Blue Screen
-        Of Death), or some just call it a blue screen. Truth is, Windows 98 used
-        to do all sorts of funky stuff due to failing graphics card drivers or
-        sometimes even completely out of nowhere.
-      </div>
+        <div>
+          Most people have heard of the fabled <strong>BSOD</strong> (Blue
+          Screen Of Death), or some just call it a blue screen. Truth is,
+          Windows 98 used to do all sorts of funky stuff due to failing graphics
+          card drivers or sometimes even completely out of nowhere.
+        </div>
 
-      <div>
-        {renderData.map(img => (
-          <div key={img.id} style={{ margin: '1rem', maxWidth: '640px' }}>
-            <h4>{img.title}</h4>
-            <div>
-              <Img fluid={img.childImageSharp.fluid} alt={img.alt} />
+        <div>
+          {renderData.map(img => (
+            <div key={img.id} style={{ margin: '1rem', maxWidth: '640px' }}>
+              <h4>{img.title}</h4>
+              <div>
+                <Img fluid={img.childImageSharp.fluid} alt={img.alt} />
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
 
-      <div>
-        Of course we can also conclude that I have spent a fair amount of time
-        playing Diablo, StarCraft and Warcraft, as well as develop maps and
-        experiences for those games. And occasionally create a C++ program.
-      </div>
+        <div>
+          Of course we can also conclude that I have spent a fair amount of time
+          playing Diablo, StarCraft and Warcraft, as well as develop maps and
+          experiences for those games. And occasionally create a C++ program.
+        </div>
+      </section>
     </Layout>
   )
 }
