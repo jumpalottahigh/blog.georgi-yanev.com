@@ -86,6 +86,7 @@ const FPVVideos = () => {
           <Link to="/fpv/upgrading-your-wizard-part-2/">Wizard x220</Link> &amp;{' '}
           <Link to="/fpv/build-a-quad/">Phoenix</Link>
         </h2>
+        <h3 style={{ textAlign: 'center' }}>Season 2018</h3>
         <Grid>
           {videoIDsHD.map(id => (
             <Fade key={id}>
@@ -103,6 +104,7 @@ const FPVVideos = () => {
             Eachine Trashcan
           </Link>
         </h2>
+        <h3 style={{ textAlign: 'center' }}>Season 2019</h3>
         <Grid>
           {eachineTrashcanFootage.map(id => (
             <Fade key={id}>
@@ -120,6 +122,7 @@ const FPVVideos = () => {
             Snapper7
           </a>
         </h2>
+        <h3 style={{ textAlign: 'center' }}>Season 2018</h3>
         <Grid>
           {snapper7Footage.map(id => (
             <Fade key={id}>

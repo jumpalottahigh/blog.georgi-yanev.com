@@ -47,15 +47,15 @@ const LiveCoding = () => {
   return (
     <Layout>
       <Section>
-        <h2>Getting started with Gatsby series</h2>
+        <h2>Livestreams of working on various projects</h2>
         <div className="cta-container">
           <a
-            href="https://www.youtube.com/channel/UCHH7NUqRBkcCUnfT9e60xPw/"
+            href="https://www.youtube.com/user/jumpalottahigh/videos"
             target="_blank"
             rel="noreferrer"
           >
             <button className="category fpv">
-              Georgi Codes - YouTube Channel
+              Georgi Livestreams WebDev - YouTube Channel
             </button>
           </a>
         </div>

@@ -6,6 +6,7 @@ exports.createPages = ({ graphql, actions }) => {
 
   return new Promise((resolve, reject) => {
     const blogPost = path.resolve('./src/templates/blog-post.js')
+    const quickTip = path.resolve('./src/templates/quick-tip.js')
     resolve(
       graphql(
         `
@@ -63,7 +64,7 @@ exports.createPages = ({ graphql, actions }) => {
         result.data.quickTips.edges.forEach(({ node }) => {
           createPage({
             path: node.frontmatter.path,
-            component: blogPost,
+            component: quickTip,
             context: {}, // additional data can be passed via context
           })
         })
