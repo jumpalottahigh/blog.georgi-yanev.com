@@ -62,9 +62,11 @@ We are gonna use this port on the bottom of the Taranis to perform the flashing.
 
 ![Taranis port for flashing](flash-xm-plus-and-setup-rssi-3.jpg)
 
-> _If for whatever reason this port does not work for you (older radio?), you can also use the port in the module bay on the back of your Taranis. I'm not gonna go over these here, however, there are plenty of guides on how to do that using the back port. You just need to be careful and figure out which wire is for what. Back to our story._
+> _If for whatever reason this port does not work for you (older radio / firmware ?), you can also use the port in the module bay on the back of your Taranis. Here's what the pin out is for the module bay ports. From the bottom up, we need the first 3 pins, which are in this order: `SIGNAL`, `GROUND`, `5V`. Or in the picture below the colors of the wires correspond as: `Yellow - Signal`, `Blue - Ground`, `Green - 5V`._
 
-You wanna plug in the cable according to this order of pins:
+![Taranis module bay port with wires plugged in](flash-xm-plus-and-setup-rssi-9.jpg)
+
+If you use the bottom port, you wanna plug in the cable according to this order of pins:
 
 **G V S** - as seen on the image below. With the front of the radio facing yourself, left to right - ground, 5V and signal pin.
 
