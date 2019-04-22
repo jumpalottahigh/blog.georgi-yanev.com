@@ -331,7 +331,7 @@ Now, in the editor below type in:
 
 and press the play button to execute the query. GraphiQL will fill in some extra subfields for you, namely `edges`, `node` and `id`. In the right pane, you see the data that comes back from your query. Try it out!
 
-<iframe src="https://k3201jy9jo.sse.codesandbox.io/___graphql?fontsize=14" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://k3201jy9jo.sse.codesandbox.io/___graphql?fontsize=14" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" title="CodeSandbox.io embed"></iframe>
 
 Let's add also `path`, `title` and `body` each on a separate line below `id`. Click play and see how data for those fields come back as well. Awesome! Congrats on trying out your first GraphQL query!
 

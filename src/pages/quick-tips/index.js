@@ -71,7 +71,7 @@ const Section = styled.section`
 
   .tip__trigger.is-open,
   .tip__contentOuter {
-    background: oldlace;
+    background: #fcfcfc;
   }
 
   form {
@@ -193,6 +193,7 @@ const QuickTipsPage = ({ data }) => {
             placeholder="How to ..."
             maxLength="150"
             minLength="10"
+            aria-label="question"
             required
           />
           <button type="submit">Send</button>
