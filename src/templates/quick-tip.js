@@ -135,7 +135,7 @@ class QuickTipTemplate extends React.Component {
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <div style={{ marginTop: '1rem', marginBottom: '2rem' }}>
               <Link to="/quick-tips/">
-                <button className="category fpv">Show more quick tips</button>
+                <button className="category fpv">More quick tips</button>
               </Link>
             </div>
             <FeedbackSection />
