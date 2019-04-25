@@ -158,11 +158,11 @@ class BlogPostTemplate extends React.Component {
               relatedArticles={post.frontmatter.tags}
             />
             <SupportSection affiliateNote={post.frontmatter.affiliate} />
-            <TinyLetterSignup />
             <DiscussionEmbed
               shortname={disqusShortname}
               config={disqusConfig}
             />
+            <TinyLetterSignup />
           </div>
         </div>
       </Layout>
