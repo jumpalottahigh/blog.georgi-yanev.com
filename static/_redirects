@@ -6,7 +6,8 @@ https://www.georgiyanev.dev/*                               https://blog.georgi-
 https://blog-georgi.netlify.com/*                           https://blog.georgi-yanev.com/:splat          301!
 
 # Moved pages
-https://blog.georgi-yanev.com/extras/fpv-videos/            https://blog.georgi-yanev.com/videos/fpv/
+/extras/fpv-videos/                                         https://blog.georgi-yanev.com/videos/fpv/     301!
+/fpv/review-set-up-update-taranis-x-lite/                   https://blog.georgi-yanev.com/fpv/set-up-taranis-x-lite-update-opentx/     301!
 
 # Additional redirects
-https://blog.georgi-yanev.com/posts/                        https://blog.georgi-yanev.com/news/           301!
+https://blog.georgi-yanev.com/posts/*                       https://blog.georgi-yanev.com/news/:splat     301!

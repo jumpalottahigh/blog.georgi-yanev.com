@@ -1,5 +1,5 @@
 ---
-path: '/fpv/review-set-up-update-taranis-x-lite/'
+path: '/fpv/set-up-taranis-x-lite-update-opentx/'
 date: '2019-04-14'
 title: 'Set up Taranis X-Lite and update OpenTX'
 author: 'Georgi Yanev'
