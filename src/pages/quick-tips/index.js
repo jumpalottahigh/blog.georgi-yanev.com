@@ -207,7 +207,7 @@ const QuickTipsPage = ({ data }) => {
               <h3>
                 <span role="img" aria-label="triangle pointing down">
                   🔽
-                </span>
+                </span>{' '}
                 {tip.frontmatter.title}
               </h3>
             }
@@ -215,7 +215,7 @@ const QuickTipsPage = ({ data }) => {
               <h3>
                 <span role="img" aria-label="triangle pointing up">
                   🔼
-                </span>
+                </span>{' '}
                 {tip.frontmatter.title}
               </h3>
             }

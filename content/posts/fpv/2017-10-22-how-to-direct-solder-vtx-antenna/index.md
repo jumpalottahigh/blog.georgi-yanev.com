@@ -7,7 +7,6 @@ affiliate: 'Links to Banggood or Amazon in this article are affiliate links and 
 draft: false
 category: 'fpv'
 tags:
-  - 'upgrade'
   - 'wizard'
   - 'vtx'
   - 'diy'

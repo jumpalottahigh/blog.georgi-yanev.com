@@ -7,7 +7,7 @@ draft: false
 category: 'fpv'
 tags:
   - 'tools'
-  - 'backpack'
+  - 'gear'
   - 'upgrade'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'FPV, backpack, racing quads, drone, quad, gear, radio, googles backpack'

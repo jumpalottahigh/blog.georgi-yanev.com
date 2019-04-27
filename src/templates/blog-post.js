@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
+import DiscussionEmbed from '../components/Disqus'
 import Layout from '../components/structure/layout'
 import FeedbackSection from '../components/FeedbackSection.js'
 import RelatedArticles from '../components/RelatedArticles.js'
@@ -22,6 +23,12 @@ class BlogPostTemplate extends React.Component {
         : `https://blog.georgi-yanev.com/default-ogimage.png`
 
     const timeToReadEmoji = '⌛'.repeat(Math.ceil(post.timeToRead / 5))
+
+    const disqusShortname = 'blog-georgi-yanev-com'
+    const disqusConfig = {
+      identifier: post.id,
+      title: post.frontmatter.title,
+    }
 
     return (
       <Layout location={this.props.location}>
@@ -151,6 +158,10 @@ class BlogPostTemplate extends React.Component {
               relatedArticles={post.frontmatter.tags}
             />
             <SupportSection affiliateNote={post.frontmatter.affiliate} />
+            <DiscussionEmbed
+              shortname={disqusShortname}
+              config={disqusConfig}
+            />
             <TinyLetterSignup />
           </div>
         </div>
