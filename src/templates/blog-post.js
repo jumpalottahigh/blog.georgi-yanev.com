@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
-import { DiscussionEmbed } from 'disqus-react'
+import DiscussionEmbed from '../components/Disqus'
 import Layout from '../components/structure/layout'
 import FeedbackSection from '../components/FeedbackSection.js'
 import RelatedArticles from '../components/RelatedArticles.js'
