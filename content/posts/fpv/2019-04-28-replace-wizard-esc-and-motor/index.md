@@ -12,23 +12,23 @@ tags:
   - 'motor'
   - 'diy'
 ogKeywords: 'wizard x220, wizard, eachine, eachine wizard, eachine wizard x220, replace motor, replace esc, broken esc, broken motor, motor wont move, diy, how to change a motor on wizard x220, how to replace an esc on wizard x220'
-ogDescription: "Every so often you might have an issue with an ESC. Even though in general I'm a fan of 4 in 1 ESC boards, it's pretty unpleasant to have to throw away the whole board with 3 working ESCs if one of them fails. That's not the case if you are rocking 4 standalone ESCs. And in the case of the original Wizard x220 that's exactly the case."
+ogDescription: "Every so often you might have an issue with an ESC. Even though in general I'm a fan of 4 in 1 ESC boards, it's pretty unpleasant to have to throw away the whole board with 3 working ESCs if one of them fails. That's not the case if you are rocking 4 standalone ESCs. And in the case of the original Wizard x220, that's exactly the case."
 ogImage: './replace-wizard-esc-and-motor-1.jpg'
 ---
 
-Every so often you might have an issue with an ESC. Even though in general I'm a fan of 4 in 1 ESC boards, it's pretty unpleasant to have to throw away the whole board with 3 working ESCs if one of them fails. That's not the case if you are rocking 4 standalone ESCs. And in the case of the original [Wizard x220][1] that's exactly the case.
+Every so often you might have an issue with an ESC. Even though in general I'm a fan of 4 in 1 ESC boards, it's pretty unpleasant to have to throw away the whole board with 3 working ESCs if one of them fails. That's not the case if you are rocking 4 standalone ESCs. And in the case of the original [Wizard x220][1], that's exactly the case.
 
 My Wizard has been an amazing machine to get me into the hobby of FPV. I'm really thankful for it. Even though at this point [I have swapped most parts][3], after **flying that Wizard for 1 year and 9 months, I still enjoy flying it** and to this day only 2 ESCs have failed me (from what I consider old age).
 
-That's quite acceptable in my opinion. And this brings us to today's topic - how do you go about swapping out and ESC or a motor on the Wizard, or any other quad for that matter.
+That's quite acceptable in my opinion. And this brings us to today's topic - how do you go about swapping out an ESC or a motor on the Wizard, or any other quad for that matter.
 
-> **Consider your options!** _This article is about what to get and how to carry out a **replacement** of a dead ESC / motor. But I do believe, you should be at least aware of the fact that there are other options and depending on whethere you want to go for a full ESC and / or motor **upgrade**, you might want to do some more research and go for that instead. Up to you._
+> **Consider your options!** _This article is about what to get and how to carry out a **replacement** of a dead ESC / motor. But I do believe, you should be at least aware of the fact that there are other options and depending on whether you want to go for a full ESC and/or motor **upgrade**, you might want to do some more research and go for that instead. Up to you._
 
 ## 🛒 What to get
 
 This particular ESC serves as a replacement ESC for the Wizard x220 - [Racerstar RS20A V2 ESC][4]. If you need a motor, grab the [Eachine 2205 MN2205 2300KV motor][6].
 
-![Racerstar RS20A V2 ESC and a Eachine 2205 MN2205 2300KV motor](replace-wizard-esc-and-motor-1.jpg)
+![Racerstar RS20A V2 ESC and an Eachine 2205 MN2205 2300KV motor](replace-wizard-esc-and-motor-1.jpg)
 
 ## 🔧 Change the ESC or motor
 
@@ -44,13 +44,13 @@ Here's the signal wire out from the flight controller and the exposed voltage wi
 
 ![Wizard x220 PDB](replace-wizard-esc-and-motor-5.jpg)
 
-Finally, here's the faulty ESC and motor completely detached. For all we know, if only the ESC is dead, could be the motor still works. You can test it and reuse it if you so desire. In my case it's about time I change a motor too, so I'm ok with that.
+Finally, here's the faulty ESC and motor completely detached. For all we know, if only the ESC is dead, could be the motor still works. You can test it and reuse it if you so desire. In my case, it's about time I change a motor too, so I'm ok with that.
 
 ![Old Wizard x220 ESC and motor](replace-wizard-esc-and-motor-6.jpg)
 
-To prepare the new ESC, cut and strip the wires to length. It's always a good idea to leave just a bit of slack, as the wires can be curved a bit, but it's always better to have just a bit extra wire, than to have not enough and not be able to use the entire wire, because you cut too short.
+To prepare the new ESC, cut and strip the wires to length. It's always a good idea to leave just a bit of slack, as the wires can be curved a bit, but it's always better to have just a bit extra wire than to have not enough and not be able to use the entire wire because you cut too short.
 
-![Racerstar RS20A V2 ESC and a Eachine 2205 MN2205 2300KV motor close up](replace-wizard-esc-and-motor-8.jpg)
+![Racerstar RS20A V2 ESC and an Eachine 2205 MN2205 2300KV motor close up](replace-wizard-esc-and-motor-8.jpg)
 
 Here's my new ESC prepared with the wires cut to length and tinned. Additionally, I have shortened the secondary ground wire as it is not needed, and I have made sure to wrap it in [electrical tape][8] to prevent potential shorts.
 
@@ -68,18 +68,18 @@ Then solder the signal wire (white in this case) to the bottom of the flight con
 
 ![ESC signal wire soldered to the flight controller](replace-wizard-esc-and-motor-12.jpg)
 
-Finally solder the ESC voltage and ground wires to the PDB. Again, care for the nylon standoff.
+Finally, solder the ESC voltage and ground wires to the PDB. Again, care for the nylon standoff.
 
 ![ESC voltage and ground wires soldered in place](replace-wizard-esc-and-motor-13.jpg)
 
 ## 🧪 Testing
 
 It's always a good idea to test for continuity using a multimeter to make sure you haven't bridged anything and created shorts.
-It's also a good idea to use a [smoke stopped][9] when first plugging in the quad after soldering work, to avoid the unpleasant situation of burning up your new componets after all the hard work.
+It's also a good idea to use a [smoke stopped][9] when first plugging in the quad after soldering work, to avoid the unpleasant situation of burning up your new components after all the hard work.
 
 ## ⚙ Calibration and configuration
 
-To flash firmware on the ESC (if needed) and to do configuration and setup, to reverse motor direction and more, you will need to get the [BLHELI configurator][10]. Grab the version for your platform from the link and install it.
+To flash the firmware on the ESC (if needed) and to do configuration and setup, to reverse motor direction and more, you will need to get the [BLHELI configurator][10]. Grab the version for your platform from the link and install it.
 
 ![screenshot of the BLHELI configurator][]
 
@@ -89,7 +89,7 @@ Finally, head on over to Betaflight so we can calibrate the motors. If you follo
 
 ![image of Betaflight motors tab][]
 
-Plug in your drone to the computer using the micro USB port on the flight controller. On the motors tab in Betaflight, click the toggle button to allow controlling the motors using the UI in Betaflight. Then, slide the master slider all the way up. At this point, plug in a LiPo to your quad to power the ESCs. Listen for the ESC tones to finish. When they are done, slide the master slider all the way down and wait to hear the new beeps. Once done, you have calibrated the ESCs successfully. Unplug the LiPo and unplug the drone from the usb.
+Plug in your drone to the computer using the micro USB port on the flight controller. On the motors tab in Betaflight, click the toggle button to allow controlling the motors using the UI in Betaflight. Then, slide the master slider all the way up. At this point, plug in a LiPo to your quad to power the ESCs. Listen for the ESC tones to finish. When they are done, slide the master slider all the way down and wait to hear the new beeps. Once done, you have calibrated the ESCs successfully. Unplug the LiPo and unplug the drone from the USB.
 
 That's it! Test arming your drone without any props to verify that the new motor moves in the direction you want it to move. If not, reverse the direction in BLHELI configurator. I hope it all worked out well for you so you can enjoy flying once again!
 
