@@ -8,8 +8,6 @@ draft: false
 category: 'fpv'
 tags:
   - 'wizard'
-  - 'vtx'
-  - 'flysky'
   - 'upgrade'
 ogKeywords: 'FPV, racing quads, Wizard x220, quad, drone, getting started, learn to fly quads, cheap upgrades, antennas, props, voltage buzzer, velcro straps'
 ogDescription: "If you are new to FPV, the Wizard x220 provides a decent flight experience out of the box. That being said, there are a number of small, cheap and easy to do upgrades that will dramatically improve your overall experience. In this part 1 of the upgrade guide, we're gonna cover: props, antennas, low voltage buzzer, chargers and velcro straps."
