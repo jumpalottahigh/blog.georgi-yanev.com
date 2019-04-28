@@ -9,14 +9,16 @@ const Disqus = ({ shortname, config }) => {
       {loadDisqus ? (
         <DiscussionEmbed shortname={shortname} config={config} />
       ) : (
-        <button
-          className="fpv category"
-          onClick={() => {
-            setLoadDisqus(!loadDisqus)
-          }}
-        >
-          Leave a comment
-        </button>
+        <div style={{ padding: '1rem 0', borderTop: '1px solid #cecece' }}>
+          <button
+            className="fpv category"
+            onClick={() => {
+              setLoadDisqus(!loadDisqus)
+            }}
+          >
+            Show comments
+          </button>
+        </div>
       )}
     </React.Fragment>
   )

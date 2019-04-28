@@ -2,7 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 const StyledShare = styled.section`
-  padding-bottom: 1rem;
+  padding: 1rem 0;
+  border-top: 1px solid #cecece;
 
   h4 {
     margin: 0;

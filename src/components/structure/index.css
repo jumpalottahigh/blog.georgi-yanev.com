@@ -626,7 +626,7 @@ pre tt:after {
 
 /* Custom styles */
 .sidebar-wrapper {
-  background-color: rgb(252, 250, 255);
+  background-color: #f2f7fd;
   float: left;
   width: 14rem;
   position: fixed;
@@ -679,6 +679,7 @@ pre tt:after {
 
 .sidenav li {
   line-height: 0.9rem;
+  padding: 0.15rem 0 0.55rem;
 }
 
 .sidenav a {
@@ -856,6 +857,12 @@ div > pre {
 @media (max-width: 1280px) {
   .main {
     max-width: 960px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .sidebar-wrapper {
+    width: 17rem;
   }
 }
 
