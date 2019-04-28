@@ -139,6 +139,11 @@ const AskAQuestion = () => {
 
   return (
     <FormContainer>
+      <form
+        name="article-suggestion"
+        data-netlify="true"
+        style={{ display: 'none' }}
+      />
       {loadForm && !loadThanks ? (
         <React.Fragment>
           <form
