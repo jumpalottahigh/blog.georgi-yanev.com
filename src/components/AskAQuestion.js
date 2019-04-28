@@ -119,7 +119,8 @@ const AskAQuestion = () => {
       {loadForm && !loadThanks ? (
         <React.Fragment>
           <form
-            action={`${currentPage}?form=success`}
+            // action={`${currentPage}?form=success`}
+            action={`/news/?category=fpv`}
             onSubmit={handleFormSubmit}
             name="article-suggestion"
             method="post"
