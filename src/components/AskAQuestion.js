@@ -101,12 +101,35 @@ const FormContainer = styled.div`
   }
 `
 
+const encode = data => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&')
+}
+
 const AskAQuestion = () => {
   const [loadForm, setLoadForm] = React.useState(false)
   const [loadThanks, setLoadThanks] = React.useState(false)
   const [currentPage, setCurrentPage] = React.useState('')
+  const [name, setName] = React.useState('')
+  const [question, setQuestion] = React.useState('')
 
   function handleFormSubmit(e) {
+    let payload = {
+      question,
+      currentPage,
+      name,
+    }
+
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'article-suggestion', ...payload }),
+    })
+      .then(() => console.log('Success!'))
+      .catch(error => console.error(error))
+
+    e.preventDefault()
     setLoadThanks(!loadThanks)
   }
 
@@ -119,11 +142,8 @@ const AskAQuestion = () => {
       {loadForm && !loadThanks ? (
         <React.Fragment>
           <form
-            // action={`${currentPage}?form=success`}
-            action={`/news/?category=fpv`}
             onSubmit={handleFormSubmit}
             name="article-suggestion"
-            method="post"
             data-netlify="true"
             netlify-honeypot="bot-field"
           >
@@ -142,9 +162,17 @@ const AskAQuestion = () => {
               minLength="10"
               aria-label="question"
               required
+              value={question}
+              onChange={e => setQuestion(e.target.value)}
             />
             <label htmlFor="name">Name (empty for annonymous):</label>
-            <input type="text" id="name" name="name" />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              value={name}
+              onChange={e => setName(e.target.value)}
+            />
             <div className="submit-container">
               <button type="submit">Send</button>
             </div>
@@ -164,9 +192,7 @@ const AskAQuestion = () => {
           <div>
             <button
               className="ask-a-question"
-              onClick={() => {
-                setLoadForm(!loadForm)
-              }}
+              onClick={() => setLoadForm(!loadForm)}
             >
               Ask a question ❔
             </button>
