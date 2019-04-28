@@ -10,10 +10,6 @@ const TinyLetter = styled.div`
   background-color: #fff;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 
-  p {
-    text-align: left;
-  }
-
   form {
     margin: 0;
     padding: 0.5rem 1rem;
@@ -106,9 +102,9 @@ const TinyLetterSignup = () => {
     <TinyLetter>
       <h3>📰 Subscribe to the newsletter</h3>
       <p className="one">
-        Get the latest content updates on{' '}
-        <strong>interesting tech topics</strong>. Emails are{' '}
-        <strong>rare and high quality</strong>.
+        Get the latest updates straight to your inbox.
+        <br />
+        Email frequency - 1/2 times a month.
       </p>
       <form
         action="https://tinyletter.com/jumpalottahigh"
@@ -117,17 +113,19 @@ const TinyLetterSignup = () => {
         onSubmit={handleTinyLetterFormSubmit}
       >
         <div>
-          <label htmlFor="tlemail">Enter your email address</label>
-        </div>
-        <div>
-          <input type="text" name="email" id="tlemail" placeholder="Email" />
+          <input
+            type="text"
+            name="email"
+            id="tlemail"
+            placeholder="Email"
+            aria-label="email"
+          />
         </div>
         <input type="hidden" value="1" name="embed" />
         <input type="submit" value="Subscribe" />
       </form>
       <p className="two">
-        I will <strong>never spam</strong> you, I promise, and you can
-        unsubscribe at any time.
+        I hate spam, and so I don't spam. Unsubscribe at any time.
       </p>
       <div className="tinyletter">
         <a

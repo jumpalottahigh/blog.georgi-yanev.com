@@ -151,7 +151,6 @@ class BlogPostTemplate extends React.Component {
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
-            <Share url={post.frontmatter.path} />
             <FeedbackSection />
             <RelatedArticles
               currentPagePath={post.frontmatter.path}
@@ -162,6 +161,7 @@ class BlogPostTemplate extends React.Component {
               shortname={disqusShortname}
               config={disqusConfig}
             />
+            <Share url={post.frontmatter.path} />
             <TinyLetterSignup />
           </div>
         </div>
