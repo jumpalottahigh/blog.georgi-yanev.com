@@ -1,6 +1,6 @@
 ---
 path: '/fpv/replace-wizard-esc-and-motor/'
-date: '2019-04-28'
+date: '2019-04-29'
 title: 'How to replace an ESC or a motor on the Wizard x220'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
@@ -18,7 +18,7 @@ ogImage: './replace-wizard-esc-and-motor-1.jpg'
 
 Every so often you might have an issue with an ESC. Even though in general I'm a fan of 4 in 1 ESC boards, it's pretty unpleasant to have to throw away the whole board with 3 working ESCs if one of them fails. That's not the case if you are rocking 4 standalone ESCs. And in the case of the original [Wizard x220][1], that's exactly the case.
 
-My Wizard has been an amazing machine to get me into the hobby of FPV. I'm really thankful for it. Even though at this point [I have swapped most parts][3], after **flying that Wizard for 1 year and 9 months, I still enjoy flying it** and to this day only 2 ESCs have failed me (from what I consider old age).
+My Wizard has been an amazing machine to get me into the hobby of FPV. I'm really thankful for it. Even though at this point [I have swapped out most parts][3], after **flying that Wizard for 1 year and 9 months, I still enjoy flying it** and to this day only 2 ESCs have failed me (from what I consider old age).
 
 That's quite acceptable in my opinion. And this brings us to today's topic - how do you go about swapping out an ESC or a motor on the Wizard, or any other quad for that matter.
 
@@ -77,23 +77,34 @@ Finally, solder the ESC voltage and ground wires to the PDB. Again, care for the
 It's always a good idea to test for continuity using a multimeter to make sure you haven't bridged anything and created shorts.
 It's also a good idea to use a [smoke stopped][9] when first plugging in the quad after soldering work, to avoid the unpleasant situation of burning up your new components after all the hard work.
 
-## ⚙ Calibration and configuration
+## ⚙ Calibrate ESCs in Betaflight and setup in BLHELI configurator
 
 To flash the firmware on the ESC (if needed) and to do configuration and setup, to reverse motor direction and more, you will need to get the [BLHELI configurator][10]. Grab the version for your platform from the link and install it.
 
-![screenshot of the BLHELI configurator][]
+**I can't say this enough times, so: PROPS OFF!**
 
-Here is where you can change the direction of the motor without soldering and swapping wires.
+You want to start up BLHELI configurator and plug in your quad via USB to your computer. Click the connect button at the top right and soon you should see something like this:
+
+![screenshot of the BLHELI configurator](replace-wizard-esc-and-motor-14.png)
+
+Here is where you can change the direction of the motors without soldering and swapping wires. Note how in my screenshot I have only 3 motors detected in the list on the right half of the app. Hopefully, if you have carried out all the steps so far, you would see 4 motors in that list.
+**Reversing a motor's direction is as simple as selecting 'Reversed' from the dropdown menu.** Here is also where you can flash the firmware on the ESCs, but this is not needed in this case and out of scope for this guide.
 
 Finally, head on over to Betaflight so we can calibrate the motors. If you followed along your quad's props have been already taken off, but it's that important, so let's make sure we say it again: **TAKE OFF ALL PROPS BEFORE PROCEEDING**.
 
-![image of Betaflight motors tab][]
+Plug in your drone to the computer using the micro USB port on the flight controller. On the motors tab in Betaflight, **click the toggle button stating you understand the risks** to allow controlling the motors using the UI in Betaflight. Then, **slide the master slider all the way up**.
 
-Plug in your drone to the computer using the micro USB port on the flight controller. On the motors tab in Betaflight, click the toggle button to allow controlling the motors using the UI in Betaflight. Then, slide the master slider all the way up. At this point, plug in a LiPo to your quad to power the ESCs. Listen for the ESC tones to finish. When they are done, slide the master slider all the way down and wait to hear the new beeps. Once done, you have calibrated the ESCs successfully. Unplug the LiPo and unplug the drone from the USB.
+![Betaflight motors tab, master slider all the way up](replace-wizard-esc-and-motor-15.png)
+
+Plug in a battery and **wait for the ESCs to complete their jingle** (the sound should be different than what you normally hear during ESC initialization). Once the sound goes off, **drag the master slider all the way down** and wait for the ESCs to finish the jingle again. Congrats, your ESCs are now calibrated successfully.
+
+You can check their direction by sliding up the slider for each motor individually. Also, infer the diagram for motor positions and take a note which motor is which, in case you need this information for BLHELI configurator.
+
+![Betaflight motors tab, master slider back all the way down](replace-wizard-esc-and-motor-16.png)
 
 That's it! Test arming your drone without any props to verify that the new motor moves in the direction you want it to move. If not, reverse the direction in BLHELI configurator. I hope it all worked out well for you so you can enjoy flying once again!
 
-#### Where to get it?
+#### Where to get the items?
 
 ###### Eachine Wizard x220 - [Amazon][2] [Banggood][1]
 
