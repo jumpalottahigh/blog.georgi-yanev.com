@@ -45,9 +45,6 @@ const Section = styled.section`
       min-height: 32px;
       cursor: pointer;
     }
-
-    input {
-    }
   }
 
   h2 {
@@ -103,8 +100,6 @@ const Section = styled.section`
 
 const QuickTipsPage = ({ data }) => {
   const [submitted, setSubmitted] = React.useState(false)
-  const [deepLinkQuestion, setDeepLinkQuestion] = React.useState('')
-  const myElement = React.useRef(null)
 
   function handleFormSubmit(e) {
     // If the form is empty don't submit it
@@ -115,7 +110,6 @@ const QuickTipsPage = ({ data }) => {
     let searchParams = new URLSearchParams(window.location.search)
     let form = searchParams.get('form')
     let timeout
-    let question = searchParams.get('question')
 
     if (form === 'success') {
       setSubmitted(true)
@@ -124,19 +118,10 @@ const QuickTipsPage = ({ data }) => {
       }, 4000)
     }
 
-    // If there is a deeplinking question param
-    if (question) {
-      // Update the deeplinked ref with the value of the param if there is a match
-      setDeepLinkQuestion(question)
-      if (myElement && myElement.current) {
-        myElement.current.scrollIntoView()
-      }
-    }
-
     return () => {
       clearTimeout(timeout)
     }
-  }, [deepLinkQuestion])
+  }, [])
 
   // Grab GraphQL data
   const { edges: quickTips } = data.quickTips

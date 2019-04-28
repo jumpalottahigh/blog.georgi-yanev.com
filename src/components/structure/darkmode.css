@@ -211,3 +211,13 @@
 .dark-mode pre[class*='language-'] {
   background: var(--dark-mode-bg-color-secondary);
 }
+
+.dark-mode button.ask-a-question {
+  color: var(--dark-mode-blue);
+  border: 2px solid var(--dark-mode-blue);
+}
+
+.dark-mode button.ask-a-question:hover {
+  color: var(--dark-mode-bg-color);
+  background-color: var(--dark-mode-blue);
+}
