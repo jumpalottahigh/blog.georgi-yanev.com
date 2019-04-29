@@ -141,8 +141,9 @@ const AskAQuestion = () => {
     <FormContainer>
       <form
         name="article-suggestion"
-        data-netlify="true"
-        style={{ display: 'none' }}
+        netlify
+        hidden
+        netlify-honeypot="bot-field"
       />
       {loadForm && !loadThanks ? (
         <React.Fragment>
