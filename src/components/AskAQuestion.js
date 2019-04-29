@@ -144,6 +144,7 @@ const AskAQuestion = () => {
         netlify
         hidden
         netlify-honeypot="bot-field"
+        style={{ display: 'none' }}
       />
       {loadForm && !loadThanks ? (
         <React.Fragment>
