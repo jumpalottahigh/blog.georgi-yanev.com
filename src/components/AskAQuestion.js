@@ -115,11 +115,15 @@ const AskAQuestion = () => {
   const [question, setQuestion] = React.useState('')
 
   function handleFormSubmit(e) {
+    e.preventDefault()
+
     let payload = {
       question,
       currentPage,
       name,
     }
+
+    console.log(payload)
 
     fetch('/', {
       method: 'POST',
@@ -129,7 +133,6 @@ const AskAQuestion = () => {
       .then(() => console.log('Success!'))
       .catch(error => console.error(error))
 
-    e.preventDefault()
     setLoadThanks(!loadThanks)
   }
 
@@ -139,13 +142,6 @@ const AskAQuestion = () => {
 
   return (
     <FormContainer>
-      <form
-        name="article-suggestion"
-        netlify
-        hidden
-        netlify-honeypot="bot-field"
-        style={{ display: 'none' }}
-      />
       {loadForm && !loadThanks ? (
         <React.Fragment>
           <form
