@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import NetlifyForm from 'react-netlify-form'
 
 const FormContainer = styled.div`
   display: flex;
@@ -144,7 +145,27 @@ const AskAQuestion = () => {
     <FormContainer>
       {loadForm && !loadThanks ? (
         <React.Fragment>
-          <form
+          <NetlifyForm name="Contact Form">
+            {({ loading, error, success }) => (
+              <div>
+                {loading && <div>Loading...</div>}
+                {error && (
+                  <div>
+                    Your information was not sent. Please try again later.
+                  </div>
+                )}
+                {success && <div>Thank you for contacting us!</div>}
+                {!loading && !success && (
+                  <div>
+                    <input type="text" name="Name" required />
+                    <textarea name="Message" required />
+                    <button>Submit</button>
+                  </div>
+                )}
+              </div>
+            )}
+          </NetlifyForm>
+          {/* <form
             onSubmit={handleFormSubmit}
             name="article-suggestion"
             data-netlify="true"
@@ -179,7 +200,7 @@ const AskAQuestion = () => {
             <div className="submit-container">
               <button type="submit">Send</button>
             </div>
-          </form>
+          </form> */}
         </React.Fragment>
       ) : loadThanks ? (
         <h4>Thanks for your suggestion!</h4>

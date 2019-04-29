@@ -5739,7 +5739,7 @@ hoek@4.x.x:
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.2.1.tgz#9634502aa12c445dd5a7c5734b572bb8738aacbb"
   integrity sha512-QLg82fGkfnJ/4iy1xZ81/9SIJiq1NGFUMGs6ParyjBZr6jW2Ufj/snDqTHixNlHdPNwN2RLVD0Pi3igeK9+JfA==
 
-hoist-non-react-statics@^3.3.0:
+hoist-non-react-statics@^3.0.1, hoist-non-react-statics@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.0.tgz#b09178f0122184fb95acf525daaecb4d8f45958b"
   integrity sha512-0XsbTXxgiaCDYDIWFcwkmerZPSwywfUqYmwT4jzewKTQSWoE6FCMoUVOeBJWK3E/CrWbxRG3m5GzY4lnIwGRBA==
@@ -6648,7 +6648,7 @@ isobject@^3.0.0, isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-isomorphic-fetch@^2.1.1:
+isomorphic-fetch@2.2.1, isomorphic-fetch@^2.1.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
   integrity sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=
@@ -9127,7 +9127,7 @@ prompts@^2.0.4:
     kleur "^3.0.2"
     sisteransi "^1.0.0"
 
-prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -9329,6 +9329,14 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-async-script@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-async-script/-/react-async-script-1.0.1.tgz#a3996e313a1352b7e96087405e40ebb877f9caf0"
+  integrity sha512-EosAKCTgHc6oWPx7ONv4IjtaIKRi30DjR71iJfoGfb13+naFYGjLutH6dFC5rRaYX8odW57zmC9ekf/WuLiyOQ==
+  dependencies:
+    hoist-non-react-statics "^3.0.1"
+    prop-types "^15.5.0"
+
 react-burger-menu@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/react-burger-menu/-/react-burger-menu-2.6.9.tgz#b0f2bb9babc7e29d5d797df8050869b398ae07cc"
@@ -9394,6 +9402,14 @@ react-error-overlay@^3.0.0:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
   integrity sha512-XzgvowFrwDo6TWcpJ/WTiarb9UI6lhA4PMzS7n1joK3sHfBBBOQHUc0U4u57D6DWO9vHv6lVSWx2Q/Ymfyv4hw==
 
+react-google-recaptcha@^1.0.2:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/react-google-recaptcha/-/react-google-recaptcha-1.0.5.tgz#fc5a1c5c9fd678ccea11c9a47b22f38a8b9d3c88"
+  integrity sha512-IUIIQVUIKgsG7Ok1AiqBdJZVpFRpIWOM3H/36fAJHMd52l+X0pn4sTxvm2YJEN01QXWR1jg79+93J8mQef7hfw==
+  dependencies:
+    prop-types "^15.5.0"
+    react-async-script "^1.0.0"
+
 react-helmet@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-5.2.0.tgz#a81811df21313a6d55c5f058c4aeba5d6f3d97a7"
@@ -9428,6 +9444,15 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-netlify-form@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/react-netlify-form/-/react-netlify-form-2.1.5.tgz#46f9a7a6b2d25abf01222ddb9c6290848358636f"
+  integrity sha512-9zuvoDREf2sYAVo11iCbw89A7ivpYVN3o2S0U63wHRAv0W/dIHQUHl1mdAAAgqDSyeCpo88gnscKyl8xPPfGcw==
+  dependencies:
+    babel-runtime "^6.26.0"
+    isomorphic-fetch "2.2.1"
+    react-google-recaptcha "^1.0.2"
 
 react-reveal@^1.2.2:
   version "1.2.2"
