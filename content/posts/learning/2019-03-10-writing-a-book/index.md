@@ -102,7 +102,19 @@ I watched a bunch of interviews with: Brandon Sanderson, George R. R. Martin, St
 
 https://twitter.com/jumpalottahigh/status/1111917785272201216
 
-#### 4⃣️ April 2019
+#### 4️⃣ April 2019
+
+This month I wrote the prologue and chapter 4 of my book. I introduced my 3rd character and my first antagonist. I explored some ideas I found interesting.
+
+I watched [Dan Wells's story structure lectures][24], which I recommened to anyone new to writing books.
+
+As always, I also spent some time listening to the Writing Excuses podcast, but this time I also completed one of the challenges - writing a scene with specific topics and restriction in mind. I might publish this crude work a bit later. I found the exercise useful, nevertheless.
+
+I also completed listening to the Words of Radiance from Brandon Sanderson's Stormlight Archive. What a book! And I just started Edgedancer - book 2.5 in the series.
+
+https://twitter.com/jumpalottahigh/status/1123317727555465216
+
+#### 5️⃣ May 2019
 
 ### \* \* \*
 
@@ -130,3 +142,4 @@ https://twitter.com/jumpalottahigh/status/1111917785272201216
 [21]: https://en.wikipedia.org/wiki/The_Way_of_Kings
 [22]: https://en.wikipedia.org/wiki/Words_of_Radiance
 [23]: https://www.youtube.com/watch?v=N4ZDBOc2tX8&index=1&list=PLH3mK1NZn9QqOSj3ObrP3xL8tEJQ12-vL
+[24]: https://www.youtube.com/watch?v=mrP9604BEOM
