@@ -59,6 +59,10 @@ const FormContainer = styled.div`
       max-width: 450px;
     }
 
+    input[id='currentPage'] {
+      display: none;
+    }
+
     input[id='name'] {
       width: 100%;
       max-width: 200px;
@@ -186,6 +190,13 @@ const AskAQuestion = () => {
           onChange={e => setQuestion(e.target.value)}
         />
         <label htmlFor="name">Name (empty for annonymous):</label>
+        <input
+          type="text"
+          id="currentPage"
+          name="currentPage"
+          value={currentPage}
+          disabled
+        />
         <input
           type="text"
           id="name"
