@@ -133,7 +133,7 @@ const AskAQuestion = () => {
       .then(() => console.log('Success!'))
       .catch(error => console.error(error))
 
-    setLoadThanks(!loadThanks)
+    setLoadThanks(true)
   }
 
   React.useEffect(() => {
@@ -142,66 +142,65 @@ const AskAQuestion = () => {
 
   return (
     <FormContainer>
-      {loadForm && !loadThanks ? (
-        <React.Fragment>
-          <form
-            onSubmit={handleFormSubmit}
-            name="article-suggestion"
-            data-netlify="true"
-            netlify-honeypot="bot-field"
-          >
-            <h4>Question/suggestion:</h4>
-            <p className="honey-pot">
-              <label>
-                Don’t fill this out if you're human: <input name="bot-field" />
-              </label>
-            </p>
-            <input type="hidden" name="form-name" value="article-suggestion" />
-            <textarea
-              id="question"
-              name="question"
-              placeholder="Can you, please..."
-              maxLength="350"
-              minLength="10"
-              aria-label="question"
-              required
-              value={question}
-              onChange={e => setQuestion(e.target.value)}
-            />
-            <label htmlFor="name">Name (empty for annonymous):</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={name}
-              onChange={e => setName(e.target.value)}
-            />
-            <div className="submit-container">
-              <button type="submit">Send</button>
-            </div>
-          </form>
-        </React.Fragment>
-      ) : loadThanks ? (
-        <h4>Thanks for your suggestion!</h4>
-      ) : (
-        <React.Fragment>
-          <div>
-            <h4>Did I miss something?</h4>
-            <p>
-              Ask a question and see it updated in the article, alongside with
-              credit for you.
-            </p>
-          </div>
-          <div>
-            <button
-              className="ask-a-question"
-              onClick={() => setLoadForm(!loadForm)}
-            >
-              Ask a question ❔
-            </button>
-          </div>
-        </React.Fragment>
-      )}
+      <React.Fragment>
+        <div style={{ display: !loadForm ? 'block' : 'none' }}>
+          <h4>Did I miss something?</h4>
+          <p>
+            Ask a question and see it updated in the article, alongside with
+            credit for you.
+          </p>
+        </div>
+        <div style={{ display: !loadForm ? 'block' : 'none' }}>
+          <button className="ask-a-question" onClick={() => setLoadForm(true)}>
+            Ask a question ❔
+          </button>
+        </div>
+      </React.Fragment>
+
+      {/* Normally we would handle rendering this differently,
+      but in order for Netlify bots to pick up the form,
+      we need it to be in the DOM at deploy time. */}
+      <form
+        onSubmit={handleFormSubmit}
+        name="article-suggestion"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        style={{ display: loadForm && !loadThanks ? 'flex' : 'none' }}
+      >
+        <p className="honey-pot">
+          <label>
+            Don’t fill this out if you're human: <input name="bot-field" />
+          </label>
+        </p>
+        <h4>Question/suggestion:</h4>
+        <input type="hidden" name="form-name" value="article-suggestion" />
+        <textarea
+          id="question"
+          name="question"
+          placeholder="Can you, please..."
+          maxLength="350"
+          minLength="10"
+          aria-label="question"
+          required
+          value={question}
+          onChange={e => setQuestion(e.target.value)}
+        />
+        <label htmlFor="name">Name (empty for annonymous):</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          value={name}
+          onChange={e => setName(e.target.value)}
+        />
+        <div className="submit-container">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+
+      <h4 style={{ display: loadThanks ? 'block' : 'none' }}>
+        Thanks for your suggestion!
+      </h4>
     </FormContainer>
   )
 }
