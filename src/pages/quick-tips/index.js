@@ -100,6 +100,7 @@ const Section = styled.section`
 
 const QuickTipsPage = ({ data }) => {
   const [submitted, setSubmitted] = React.useState(false)
+  const [hash, setHash] = React.useState('')
 
   function handleFormSubmit(e) {
     // If the form is empty don't submit it
@@ -116,6 +117,18 @@ const QuickTipsPage = ({ data }) => {
       timeout = setTimeout(() => {
         setSubmitted(false)
       }, 4000)
+    }
+
+    // Check if we have a hash
+    if (window.location.hash) {
+      const openCollapsible = data.quickTips.edges.filter(t =>
+        t.node.frontmatter.path.includes(window.location.hash.replace('#', ''))
+      )
+
+      // If there is a matching hash update state
+      if (openCollapsible.length > 0) {
+        setHash(window.location.hash)
+      }
     }
 
     return () => {
@@ -189,7 +202,7 @@ const QuickTipsPage = ({ data }) => {
             key={tip.id}
             classParentString="tip"
             trigger={
-              <h3>
+              <h3 id={`${tip.frontmatter.path.split('/')[2]}`}>
                 <span role="img" aria-label="triangle pointing down">
                   🔽
                 </span>{' '}
@@ -197,7 +210,7 @@ const QuickTipsPage = ({ data }) => {
               </h3>
             }
             triggerWhenOpen={
-              <h3>
+              <h3 id={`${tip.frontmatter.path.split('/')[2]}`}>
                 <span role="img" aria-label="triangle pointing up">
                   🔼
                 </span>{' '}
@@ -206,7 +219,13 @@ const QuickTipsPage = ({ data }) => {
             }
             easing="ease-in-out"
             transitionTime={185}
-            open={index === 0 ? true : false}
+            open={
+              hash && hash === `#${tip.frontmatter.path.split('/')[2]}`
+                ? true
+                : index === 0 && !hash
+                ? true
+                : false
+            }
           >
             <div
               className="tip-content"

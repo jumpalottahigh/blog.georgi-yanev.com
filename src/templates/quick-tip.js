@@ -2,8 +2,9 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/structure/layout'
-import FeedbackSection from '../components/FeedbackSection.js'
-import SupportSection from '../components/SupportSection.js'
+import FeedbackSection from '../components/FeedbackSection'
+import AskAQuestion from '../components/AskAQuestion'
+import SupportSection from '../components/SupportSection'
 import ModeSwitch from '../components/Mode'
 
 class QuickTipTemplate extends React.Component {
@@ -139,6 +140,7 @@ class QuickTipTemplate extends React.Component {
               </Link>
             </div>
             <FeedbackSection />
+            <AskAQuestion />
             <SupportSection />
           </div>
         </div>
