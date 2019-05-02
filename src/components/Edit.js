@@ -20,12 +20,12 @@ const Edit = ({ path, date }) => {
 
   if (!path || !date) {
     url =
-      'https://github.com/jumpalottahigh/blog.georgi-yanev.com/tree/master/src/pages'
+      'https://github.com/jumpalottahigh/blog.georgi-yanev.com/tree/master/content/posts'
   } else {
     let category = path.split('/')[1]
     let slug = path.split('/')[2]
 
-    url = `https://github.com/jumpalottahigh/blog.georgi-yanev.com/edit/master/src/pages/${category}/${date}-${slug}/index.md`
+    url = `https://github.com/jumpalottahigh/blog.georgi-yanev.com/edit/master/content/posts/${category}/${date}-${slug}/index.md`
   }
 
   return (
