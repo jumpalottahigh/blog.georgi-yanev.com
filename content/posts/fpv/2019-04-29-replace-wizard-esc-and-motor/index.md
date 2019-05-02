@@ -32,7 +32,7 @@ This particular ESC serves as a replacement ESC for the Wizard x220 - [Racerstar
 
 ## 🔧 Change the ESC or motor
 
-Dismantle your drone all the way down to the power distribution board (PDB). **All props off!**. Don't judge me by how dirty my Wizard is; it's my learning quad and as I mentioned I've had it (and been crashing it) for almost 2 years 😅.
+Dismantle your drone all the way down to the power distribution board (PDB). **All props off!** Don't judge me by how dirty my Wizard is; it's my learning quad and as I mentioned I've had it (and been crashing it) for almost 2 years 😅.
 
 ![Wizard x220 disassembled](replace-wizard-esc-and-motor-2.jpg)
 
