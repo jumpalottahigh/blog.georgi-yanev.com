@@ -86,6 +86,20 @@ Enjoy your simulator set up and practice those inverted yaw spins, trippy spins 
 
 ![Flying the Liftoff FPV simulator](set-up-fpv-drone-simulator-3.jpg)
 
+### 📱 Bonus: Fly FPV simulator using your phone
+
+A cool thing discussed in the [Eachine Trashcan group on Facebook][18] is to try to set up everything you need on your phone, so you wouldn't even need a computer.
+
+This is made possible by USB type C and a dongle with an HDMI and an USB type B connectors.
+
+My phone is a Google Pixel 3 and I plug the USB C dongle in it, then an HDMI cable into the dongle and then also a USB type B to micro USB cable. The end of the HDMI cable goes to a HDMI to mini HDMI converter and then that goes into my Aomway Commander goggles. The micro USB cable goes into my Taranis X-Lite. If you are using a Taranis Q X7, just use a USB type B to mini USB cable.
+
+![Playing Freerider on Pixel 3](set-up-fpv-drone-simulator-10.jpg)
+
+Here's the complete set up. Happy flying!
+
+![Taranis X-Lite and Aomway Commander goggles plugged into a USB C dongle, plugged into a Pixel 3](set-up-fpv-drone-simulator-11.jpg)
+
 #### Where to buy the gear?
 
 ###### Aomway Commander - [Amazon][12] [Banggood][10]
@@ -95,8 +109,6 @@ Enjoy your simulator set up and practice those inverted yaw spins, trippy spins 
 ###### Taranis X9D - [Amazon][14] [Banggood][15]
 
 ###### Taranis X-Lite - [Amazon][17] [Banggood][16]
-
----
 
 [0]: Linkslist
 [1]: https://www.youtube.com/channel/UCX3eufnI7A2I7IkKHZn8KSQ
@@ -116,3 +128,4 @@ Enjoy your simulator set up and practice those inverted yaw spins, trippy spins 
 [15]: https://bit.ly/taranis-x9d
 [16]: https://bit.ly/taranis-xlite
 [17]: https://amzn.to/2I92UBh
+[18]: https://www.facebook.com/groups/331978367598746/permalink/416011002528815/
