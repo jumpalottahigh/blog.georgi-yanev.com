@@ -1,6 +1,14 @@
 import React from 'react'
-import FeedbackLink from './FeedbackLink.js'
 
+const FeedbackLink = props => (
+  <button
+    className={props.className}
+    data-feedback={props.value}
+    onClick={props.onClick}
+  >
+    {props.text}
+  </button>
+)
 class FeedbackSection extends React.Component {
   constructor(props) {
     super(props)
@@ -13,12 +21,12 @@ class FeedbackSection extends React.Component {
 
   handleClick = e => {
     // Send feedback to Google Analytics
-    window.ga(`send`, `event`, {
-      eventCategory: `Feedback`,
-      eventAction: `Click`,
-      eventLabel: `${window.location.pathname} - ${e.target.dataset.feedback}`,
-      eventValue: 0,
-    })
+    // window.ga(`send`, `event`, {
+    //   eventCategory: `Feedback`,
+    //   eventAction: `Click`,
+    //   eventLabel: `${window.location.pathname} - ${e.target.dataset.feedback}`,
+    //   eventValue: 0,
+    // })
 
     this.setState({
       rateMessage: 'Thanks!',
@@ -36,12 +44,12 @@ class FeedbackSection extends React.Component {
     }
 
     // Send custom feedback to Google Analytics
-    window.ga(`send`, `event`, {
-      eventCategory: `Feedback`,
-      eventAction: `Submit`,
-      eventLabel: `${window.location.pathname} - ${feedback}`,
-      eventValue: 0,
-    })
+    // window.ga(`send`, `event`, {
+    //   eventCategory: `Feedback`,
+    //   eventAction: `Submit`,
+    //   eventLabel: `${window.location.pathname} - ${feedback}`,
+    //   eventValue: 0,
+    // })
 
     this.setState({
       showCustom: false,
