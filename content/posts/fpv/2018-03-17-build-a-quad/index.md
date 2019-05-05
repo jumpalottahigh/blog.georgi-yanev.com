@@ -1,6 +1,7 @@
 ---
 path: '/fpv/build-a-quad/'
 date: '2018-03-17'
+updated: '2019-04-07'
 title: 'Quad build 2018'
 author: 'Georgi Yanev'
 draft: false

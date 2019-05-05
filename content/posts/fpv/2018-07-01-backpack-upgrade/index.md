@@ -16,8 +16,8 @@ ogImage: './backpack-upgrade-1.jpg'
 ---
 
 <div class="article-update-notification">
-  Add <strong>your FPV spots</strong> on the map over at 
-  <strong><a href="https://www.fpvtips.com/fpv-map">fpvtips.com/fpv-map</a></strong>.
+  Show off where and how you fly with the community over at 
+  <strong><a href="https://www.fpvtips.com/fpv-map">www.fpvtips.com/fpv-map</a></strong>.
 </div>
 
 A couple of weeks ago I switched to the new [Realacc backpack][1] and now the time has come to drop a few words on it.

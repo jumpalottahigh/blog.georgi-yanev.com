@@ -16,8 +16,8 @@ ogImage: './setup-ibus-on-flysky-2.jpg'
 ---
 
 <div class="article-update-notification">
-  Add <strong>your FPV spots</strong> on the map over at 
-  <strong><a href="https://www.fpvtips.com/fpv-map">fpvtips.com/fpv-map</a></strong>.
+  Show off where and how you fly with the community over at 
+  <strong><a href="https://www.fpvtips.com/fpv-map">www.fpvtips.com/fpv-map</a></strong>.
 </div>
 
 The [Eachine Wizard x220][1] comes with a Flysky receiver plugged in and set to PPM mode. You can easily switch to the much faster iBUS mode following the steps bellow.

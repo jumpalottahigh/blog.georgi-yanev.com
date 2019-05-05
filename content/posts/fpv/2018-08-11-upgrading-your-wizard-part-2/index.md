@@ -15,8 +15,8 @@ ogImage: './upgrading-your-wizard-part-2-3.jpg'
 ---
 
 <div class="article-update-notification">
-  Add <strong>your FPV spots</strong> on the map over at 
-  <strong><a href="https://www.fpvtips.com/fpv-map">fpvtips.com/fpv-map</a></strong>.
+  Show off where and how you fly with the community over at 
+  <strong><a href="https://www.fpvtips.com/fpv-map">www.fpvtips.com/fpv-map</a></strong>.
 </div>
 
 Over time I have done a number of upgrades to my [Wizard x220][2]. So many in fact, it's nowadays more of a custom build than a wizard and that's half the fun.

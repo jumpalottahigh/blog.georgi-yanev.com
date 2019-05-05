@@ -132,13 +132,20 @@ class BlogPostTemplate extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {post.frontmatter.author}
+                    <strong>{post.frontmatter.author}</strong>
                   </a>
                 </div>
                 <div className="year">
-                  {post.frontmatter.date} •{' '}
-                  {`${timeToReadEmoji} ${post.timeToRead} min read`}
+                  <strong>
+                    {post.frontmatter.date} •{' '}
+                    {`${timeToReadEmoji} ${post.timeToRead} min read`}
+                  </strong>
                 </div>
+                {post.frontmatter.updated && (
+                  <div className="year">
+                    <em>Last updated: {post.frontmatter.updated}</em>
+                  </div>
+                )}
               </div>
               <div className="toolbar">
                 <EditOnGitHub
@@ -182,6 +189,7 @@ export const pageQuery = graphql`
       timeToRead
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
+        updated(formatString: "MMMM DD, YYYY")
         dateUnformatted: date
         path
         title

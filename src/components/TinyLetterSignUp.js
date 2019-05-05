@@ -102,8 +102,8 @@ const TinyLetterSignup = () => {
     <TinyLetter>
       <h3>📰 Subscribe to the newsletter</h3>
       <p className="one">
-        Get the latest updates straight to your inbox. Email frequency - 1/2
-        times a month.
+        Get the latest updates straight to your inbox in an email once or twice
+        a month.
       </p>
       <form
         action="https://tinyletter.com/jumpalottahigh"
