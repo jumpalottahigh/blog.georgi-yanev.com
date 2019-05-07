@@ -396,16 +396,22 @@ export default class PostsList extends React.Component {
         {showCategories === 'yes' || showSearch === 'yes' ? <hr /> : null}
         <ul className="list-none m-t-1">
           {currentFilter === 'all' && allPosts
-            ? allPosts.map(post => (
-                <Post
-                  key={post.node.id}
-                  post={post}
-                  showChevron={showChevron}
-                  showImage={showImage}
-                  handleTagClick={this.handleTagClick}
-                  handleCategoryClick={this.handleCategoryFilterClick}
-                />
-              ))
+            ? allPosts.map(post => {
+                // Explicitly don't render stories with all the other posts
+                // stories are a minor publishing and should only exist when that category is active
+                if (post.node.frontmatter.category !== 'stories') {
+                  return (
+                    <Post
+                      key={post.node.id}
+                      post={post}
+                      showChevron={showChevron}
+                      showImage={showImage}
+                      handleTagClick={this.handleTagClick}
+                      handleCategoryClick={this.handleCategoryFilterClick}
+                    />
+                  )
+                }
+              })
             : currentFilter === 'byTag' && postsFilteredByTag
             ? postsFilteredByTag.map(post => (
                 <Post
