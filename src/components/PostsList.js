@@ -374,25 +374,27 @@ export default class PostsList extends React.Component {
           </div>
         )}
         {showSearch === 'yes' && (
-          <div style={{ marginTop: '1rem', marginBottom: '1rem' }}>
-            <input
-              type="text"
-              onKeyDown={e => {
-                if (e.keyCode === 27) {
-                  this.setState({ search: '' }, e => this.handleSearch(e))
-                  // reset any query params from the page url
-                  navigate(`${location.pathname}`)
-                }
-              }}
-              onChange={this.handleSearch}
-              value={search}
-              placeholder="Search..."
-              style={{ width: '100%', maxWidth: '300px' }}
-              aria-label="Search"
-            />
-          </div>
+          <React.Fragment>
+            <div style={{ marginTop: '1rem', marginBottom: '1rem' }}>
+              <input
+                type="text"
+                onKeyDown={e => {
+                  if (e.keyCode === 27) {
+                    this.setState({ search: '' }, e => this.handleSearch(e))
+                    // reset any query params from the page url
+                    navigate(`${location.pathname}`)
+                  }
+                }}
+                onChange={this.handleSearch}
+                value={search}
+                placeholder="Search..."
+                style={{ width: '100%', maxWidth: '300px' }}
+                aria-label="Search"
+              />
+            </div>
+            <em>{ALL_DESCRIPTION[currentFilter]}</em>
+          </React.Fragment>
         )}
-        <em>{ALL_DESCRIPTION[currentFilter]}</em>
         {showCategories === 'yes' || showSearch === 'yes' ? <hr /> : null}
         <ul className="list-none m-t-1">
           {currentFilter === 'all' && allPosts
