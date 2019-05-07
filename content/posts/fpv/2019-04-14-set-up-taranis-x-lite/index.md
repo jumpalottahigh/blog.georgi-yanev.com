@@ -296,8 +296,6 @@ Happy flying!
   <iframe width="560" height="315" src="https://www.youtube.com/embed/PigsOtpozno?rel=0" frameBorder="0" allowFullScreen title="First flight with the Taranis X-Lite"></iframe>
 </div>
 
----
-
 [0]: Linkslist
 [1]: https://bit.ly/taranis-xlite
 [2]: https://amzn.to/2I92UBh
