@@ -6,6 +6,15 @@ import svgRightArrow from '../images/right-arrow.svg'
 
 const ALL_CATEGORIES = ['fpv', 'projects', 'learning', 'stories', 'smarthome']
 
+const ALL_DESCRIPTION = {
+  all: 'All the things...',
+  fpv: 'Articles about building and flying FPV racing drones...',
+  projects: 'Write ups on some small oddball side projects.',
+  learning: 'Tips, mentoring, year-in-review, talks and goals.',
+  smarthome: 'Exactly how it sounds...',
+  stories: 'Personal short stories with a meaning.',
+}
+
 const Post = ({
   post,
   showChevron,
@@ -315,7 +324,7 @@ export default class PostsList extends React.Component {
                 data-filter="fpv"
                 onClick={this.handleCategoryFilterClick}
               >
-                FPV
+                FPV Drones
               </button>
             )}
             {projects.length > 0 && (
@@ -383,6 +392,7 @@ export default class PostsList extends React.Component {
             />
           </div>
         )}
+        <em>{ALL_DESCRIPTION[currentFilter]}</em>
         {showCategories === 'yes' || showSearch === 'yes' ? <hr /> : null}
         <ul className="list-none m-t-1">
           {currentFilter === 'all' && allPosts

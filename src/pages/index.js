@@ -172,7 +172,7 @@ class BlogIndex extends React.Component {
             }}
             to="/news/?category=fpv"
           >
-            <button className="category fpv">FPV</button>
+            <button className="category fpv">FPV Drones</button>
           </Link>
           <Link
             style={{
