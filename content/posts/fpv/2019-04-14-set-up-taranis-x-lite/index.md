@@ -39,7 +39,7 @@ I'll quickly summarize some of the most interesting points about the X-Lite.
 
 We will go over those and many other points in detail. So, let's get to it.
 
-### Table of content
+### Table of contents
 
 - [Unboxing](#unboxing)
 - [Set up](#set-up)

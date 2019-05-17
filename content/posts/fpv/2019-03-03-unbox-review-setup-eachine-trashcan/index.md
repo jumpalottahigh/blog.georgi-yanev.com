@@ -30,7 +30,7 @@ This is a micro quad that you could snatch up for as little as \$95. And you wou
 
 So let's have a look at what's in the box.
 
-### Table of content
+### Table of contents
 
 - [Unboxing](#unboxing)
 - [Parts overview](#parts-overview)
