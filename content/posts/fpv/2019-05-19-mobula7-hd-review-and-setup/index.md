@@ -38,6 +38,10 @@ The Mobula7 HD takes in 1S, 2S or 3S batteries and depending on that you will ge
 - [Unboxing](#unboxing)
 - [Components](#components)
 - [Setup and binding](#setup-binding)
+- [Flying](#fly)
+- [Batteries](#batteries)
+- [Upgrades](#upgrades)
+- [Conclusion](#conclusion)
 
 ### 📦 <span id="unboxing">Unboxing</span>
 
@@ -51,9 +55,9 @@ Inside the box we find the Mobula7 HD as expected, a manual, 1 3S battery and a 
 
 ![All items from the Mobula7 HD unpacked](mobula7-hd-review-and-setup-3.jpg)
 
-One of the packages contains a controller for the [Caddx Turtle FPV][3] camera. The other one - the more or less regular stuff for a micro quad: a screwdriver, a prop remover tool, some extra screws, 4 spare props (complete different set than the ones that are already installed) and an xt-30 to two xjt [?] connector.
+One of the packages contains a controller for the [Caddx Turtle FPV][3] camera. The other one - the more or less regular stuff for a micro quad: a screwdriver, a prop remover tool, some extra screws, 4 spare props (complete different set than the ones that are already installed) and an xt30 to two ph2.0s connector.
 
-![Mobula7 HD, 1 3S battery, camera controller, screwdriver, xjt to xt-30, screws, props, propeller remover](mobula7-hd-review-and-setup-4.jpg)
+![Mobula7 HD, 1 3S battery, camera controller, screwdriver, xt30 to two ph2.0s, screws, props, propeller remover](mobula7-hd-review-and-setup-4.jpg)
 
 And here are a few shots of the Mobula7 HD...
 
@@ -104,18 +108,44 @@ The by far easiest way to bind the drone to your radio is to plug it in to your 
 
 Of course, as always, setup 2-3 switches mapped to AUX1, AUX2 and AUX3. The Mobula7 HD's ESCs support DSHOT and as such you can use Turtle mode and Beeping through ESCs.
 
-In my case, I have setup AUX1 for arming on one switch, AUX2 for flight modes (acro and angle), AUX3 for turtle mode (so useful). If you haven't heard of Turtle mode before, basically, it allows you to 'arm' the quad in a special mode when moving the pitch and roll stick corresponds to a particular motor and only moves that side of the quad. Useful when you have crashed and are upside down and want to flip the quad over, without having to walk to do it manually.
+![Modes Betaflight tab](mobula7-hd-review-and-setup-21.png)
 
-[A few screenshots of my default config in Betaflight]
+In my case, I have setup AUX1 for arming on one switch, AUX2 for flight modes (acro and angle), AUX3 for turtle mode (so useful). If you haven't heard of Turtle mode before, basically, it allows you to 'arm' the quad in a special mode when moving the pitch and roll stick corresponds to a particular motor and only moves that side of the quad. Useful when you have crashed and are upside down and want to flip the quad over, without having to walk to do it manually.
 
 Again do note that on the Mobula7 HD listing in Banggood they warn about some potential issues with Betaflight if you are using the latest version of the configurator (10.5.0 or 10.5.1):
 
 _"New betaflight configurator 10.5.0 and 10.5.1 are not compatible for Mobula7 HD very well for now.
 We suggest to use Betaflight configurator 10.4.0"_
 
-I have been using Betaflight Configurator 10.4.0 and had no issues whatsoever.
+I have been using Betaflight Configurator 10.4.0 and had no issues whatsoever. Here's the full stock configuration.
 
-### 🚁 Fly
+**Ports tab**
+![Ports Betaflight tab](mobula7-hd-review-and-setup-16.png)
+
+**Configuration tab, part 1**
+![Configuration 1 Betaflight tab](mobula7-hd-review-and-setup-17.png)
+Do note that the Mobula7 HD comes configured in **props in** mode, so pay attention to that if you are swapping props.
+
+**Configuration tab, part 2**
+![Configuration 2 Betaflight tab](mobula7-hd-review-and-setup-18.png)
+I'm using the FrSky built in receiver version, hence my config looks as such.
+
+**PID tuning tab**
+![PID tuning Betaflight tab](mobula7-hd-review-and-setup-19.png)
+Didn't touch any PID configuration to begin with.
+
+**Receiver tab**
+![Receiver Betaflight tab](mobula7-hd-review-and-setup-20.png)
+
+One thing I suggest setting up, to make your life easier with the HD recording, is to connect the camera controller board to the camera via the little cable tucked under the canopy and set it up so that it starts recording as soon as a new battery is plugged in.
+
+![picture of camera controller connected to Mobula7 HD](mobula7-hd-review-and-setup-14.jpg)
+
+That way there never is any manual need to start recording. You just plug in a battery and fly.
+
+Another bonus tips is: **check and tighten the screws every few flights**. It's not uncommon to loose some screws, and that can be prevented to a large degree by just tightening them up every 10 or so packs you fly.
+
+### 🚁 <span id="fly" class="offset-top-nav">Fly</span>
 
 **I do love flying this thing!** One of the best things about this micro quad is the fact that is comes with a bit of weight and as such is just a bit more "floaty" than most micros which is great for freestyle flying. If you try the [Mobula7 HD][1] you will be amazed by how much it feels and flies like a 5 inch quad. Really, really cool!
 
@@ -141,17 +171,17 @@ Windy park flight by the Bulgarian sea side.
 
 All those flights were carried out on [2S BetaFPV][15] batteries, which naturally brings us to the batteries discussion.
 
-### Batteries: 1S, 2S, 3S
+### 🔋 <span id="batteries" class="offset-top-nav">Batteries: 1S, 2S, 3S</span>
 
 As I mentioned the flight controller - [Crazybee F4 PRO V2.0][11] is 1-3S capable.
 
 #### 🔋 1S
 
-**There probably aren't many reasons to run the Mobula7 HD on 1S**. The Mobula7 HD really shines in freestyle, acro flying and even zipping around indoors is better on 2S. I only tested flying 1S with a [GNB 450mah lipo][], which are a bit heavier for the already heavy micro to run just off of 1S.
+**There probably aren't many reasons to run the Mobula7 HD on 1S**. The Mobula7 HD really shines in freestyle, acro flying and even zipping around indoors is better on 2S. I only tested flying 1S with a [GNB 450mah lipo][16], which are a bit heavier for the already heavy micro to run just off of 1S.
 
 ![GNB 450mah 1S lipo](mobula7-hd-review-and-setup-10.jpg)
 
-Then you add to that the fact that if you don't want to do soldering just to try out flying on 1S, then you have to use the xt-30 to xjt connector and that adds extra weight as well.
+Then you add to that the fact that if you don't want to do soldering just to try out flying on 1S, then you have to use the xt30 to ph2.0 connector and that adds extra weight as well.
 
 ![GNB 450mah 1S lipo](mobula7-hd-review-and-setup-11.jpg)
 
@@ -159,7 +189,7 @@ As I mentioned, did it just for testing purposes, didn't get much out of it, and
 
 #### 🔋🔋 2S
 
-**2S works really good 🔥 🚀.** Both indoors and outside. In my tests I used the [BetaFPV 2S 350mah lipo][] batteries and had no issues whatsoever. I got decent flight times per pack of about **4 minutes**, which if I'm being honest is pretty cool. Even if I punched the throttle more often without keeping it at 70% at all times, I still got more than 3:00 - 3:30 minutes of flight time. Check it out for yourself by watching the videos.
+**2S works really good 🔥 🚀.** Both indoors and outside. In my tests I used the [BetaFPV 2S 350mah lipo][15] batteries and had no issues whatsoever. I got decent flight times per pack of about **4 minutes**, which if I'm being honest is pretty cool. Even if I punched the throttle more often without keeping it at 70% at all times, I still got more than 3:00 - 3:30 minutes of flight time. Check it out for yourself by watching the videos.
 
 These are the Beta FPV batteries I mentioned:
 
@@ -179,17 +209,29 @@ set throttle_limit_type = scale
 
 Try it out for yourself and see what you prefer. I'll comeback and update the post as soon as I test with some other 3S batteries. **Personally for now, I prefer flying 2S with no throttle limits.** I find the experience very satisfactory and hassle free, with no extra configuration required.
 
-### Who is it for?
+### 🔝 <span id="upgrades" class="offset-top-nav">Potential upgrades</span>
 
-### Setup record on start of flying
+#### Props
 
-### What batteries to get?
+TODO:
 
-### Potential upgrades
+![Mobula7 HD with gemfan props](mobula7-hd-review-and-setup-15.jpg)
+
+#### XT30 with a capacitor
 
 - https://www.banggood.com/Happymodel-XT30-Plug-Pigtail-Power-Wire-with-100F-Capacitor-for-Mobula7-HD-TRASHCAN-UR85-UR85HD-Crazybee-F3-F4-PRO-Flight-Controller-p-1476203.html?rmmds=search
 
-### What props to get?
+### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+
+In conclusion, I can easily recommend this quad to almost anyone who can afford it. Whether you are new to the hobby or an experienced pilot and just want to fly safely in somewhat public areas, such as parks, this quad is indeed a great fit.
+
+> **Simply put, the Mobula7 HD carries on the momentum of it's predecessors - the Snapper7 and the original Mobula7, and innovates on top of that.**
+
+You can't go wrong if you pick one up. The top of the line parts, make sure you get a quality build. Sure, the [Mobula7 HD][1] is a bit heavier than its predecessor and as such maybe not just as snappy, but it does offer for better freestyle, similar to the experience you would get with a 5 inch quad.
+
+On top of it all, if `cinewhoops` are your thing, I'd crown the Mobula7 HD the **queen of cinewhoops for 2019**. I know I, for one, absolutely love flying parks, playgrounds safely and getting that sweet, sweet 1080p 60fps footage.
+
+So if you are in the market for such a micro quad, grab yourself a [Mobula7 HD][1] and you won't be sorry! Happy flying!
 
 TODO:
 
@@ -199,22 +241,6 @@ TODO:
 - add emojis
 - make a pass to highlight certain passages of text
 - search for todos and [?]
-
-NOTE ON THIS:
-
-```
-Notice:
-New betaflight configurator 10.5.0 and 10.5.1 are not compatible for Mobula7 HD very well for now.
-We suggest to use Betaflight configurator 10.4.0
-
-
-In order to reduce risk from the Mobula7 HD (10000kv motor version )esc burnt , we suggest to limit the throttle scales to 75% .
-Performance is almost the same like  new 9000KV version.
-The cli command is :
-set throttle_limit_type = scale
-set throttle_limit_percent = 75
-save
-```
 
 #### Where to get it?
 
@@ -238,3 +264,4 @@ save
 [13]: https://bit.ly/taranis--xlite
 [14]: https://bit.ly/taranis-qx7
 [15]: https://betafpv.com/collections/batteries/products/350mah-2s-lipo-battery-2pcs
+[16]: https://bit.ly/micro-drone-batteries
