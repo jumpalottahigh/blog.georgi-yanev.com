@@ -297,7 +297,7 @@ Happy flying!
 </div>
 
 [0]: Linkslist
-[1]: https://bit.ly/taranis-xlite
+[1]: https://bit.ly/taranis--xlite
 [2]: https://amzn.to/2I92UBh
 [3]: https://bit.ly/taranis-qx7
 [4]: https://bit.ly/drillpro-set

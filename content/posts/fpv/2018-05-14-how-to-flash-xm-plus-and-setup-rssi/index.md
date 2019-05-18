@@ -111,5 +111,5 @@ Lastly, go to the **Setup** tab and verify that you see a value for RSSI. The va
 [5]: https://amzn.to/2I57CQu
 [6]: https://bit.ly/taranis-qx7
 [7]: https://amzn.to/2VszUYb
-[8]: https://bit.ly/taranis-xlite
+[8]: https://bit.ly/taranis--xlite
 [9]: https://amzn.to/2I92UBh

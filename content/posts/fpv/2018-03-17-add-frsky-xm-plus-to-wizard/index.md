@@ -81,7 +81,7 @@ Happy flying!
 [3]: https://bit.ly/taranis-qx7
 [4]: https://amzn.to/2I57CQu
 [5]: https://amzn.to/2VszUYb
-[6]: https://bit.ly/taranis-xlite
+[6]: https://bit.ly/taranis--xlite
 [7]: https://amzn.to/2I92UBh
 [8]: https://bit.ly/eachine-wizardx220
 [9]: https://amzn.to/2UBB9XH
