@@ -8,11 +8,12 @@ draft: true
 category: 'fpv'
 tags:
   - 'happymodel'
-  - 'mobula7'
+  - 'mobula7hd'
+  - 'cinewhoop'
   - 'micro'
   - 'drone'
-ogKeywords: 'TODO:'
-ogDescription: 'TODO:'
+ogKeywords: 'fpv, quad, drone, mobula, mobula7, mobula7 hd, happymodel, micro drone, micro quad, cinewhoop, hd footage, 1080p, 60fps, 1080p dvr, flying micro drone, fly micro quad, fpv racing, fpv freestyle, freestyle micro drone, review, setup, setup mobula 7 hd, configure mobula 7 hd'
+ogDescription: "The Mobula7 HD is right up there at the top of the line micro quads, along side other drones such as the Eachine Trashcan, Mobula7, Snapper7 and others. Being the latest and greatest quad in Happymodel's lineup, means it comes with the best overall specs, but it also does something, that none of these other micro drones listed above do - it records 1080p 60fps video."
 ogImage: './mobula7-hd-review-and-setup-5.jpg'
 ---
 
@@ -20,13 +21,13 @@ ogImage: './mobula7-hd-review-and-setup-5.jpg'
 This is a sponsored review. Be that as it may, I still stand by every word and this is my objective and honest review. I love FPV and want to help people enjoy the hobby.
 </div>
 
-The [Mobula7 HD][1] is right up there at the top of the line micro quads, along side other drones such as the [Eachine Trashcan][], [Mobula7][], [Snapper7][] and others. Being the latest and greatest quad in Happymodel's lineup, means it comes with the best overall specs, but it also does something, that none of these other micro drones listed above does.
+The [Mobula7 HD][1] is right up there at the top of the line micro quads, along side other drones such as the [Eachine Trashcan][6], [Mobula7][7], [Snapper7][8] and others. Being the latest and greatest quad in Happymodel's lineup, means it comes with the best overall specs, but it **also does something, that none of these other micro drones listed above do - it records 1080p 60fps video**.
 
 ![Mobula7 HD](mobula7-hd-review-and-setup-5.jpg)
 
-The Mobula7 HD falls into a class of micro quads called `cinewhoops`, which steams from the fact that it carries capabilities to record **1080p video at 60 fps**. To achieve that it uses a Caddx Turtle v2[vl] camera. As such, this quad targets a specific audience - people to whom recording high definition footage is important and given that you can't really carry a Go Pro on top of a micro drone, you are stuck with the option of using an FPV camera that doubles in functionality as a high def video recorder.
+The [Mobula7 HD][1] falls into a class of micro quads called `cinewhoops`, which steams from the fact that it carries capabilities to record **1080p video at 60 fps**. To achieve that it uses a Caddx Turtle V2 camera. As such, this quad targets a specific audience - people to whom recording high definition footage is important and given that you can't really carry a Go Pro on top of a micro drone, you are stuck with the option of using an FPV camera that doubles in functionality as a high def video recorder.
 
-Really, really neat! Now, I do say that as a fan of such cameras, in fact, I've been using Runcam Split 2 and Runcam Split Mini for a while now and for my needs, those cameras are enough. I get fairly crisp 1080p 60fps footage to review my flight or [upload to youtube][playlist].
+Really, really neat! Now, I do say that as a fan of such cameras, in fact, I've been using [Runcam Split 2][9] and [Runcam Split Mini][10] for a while now and for my needs, those cameras are enough. I get fairly crisp 1080p 60fps footage to review my flight or [upload to youtube][playlist].
 
 However the cool thing about the [Mobula7 HD][1] is that it is a micro quad and that means it comes with all the safety that comes with a micro quad. You have prop guards, the chance of you doing damage to yourself or other people is nearly negligible (but of course please don't try). In turn this means that you can fly this in parks without being a menace to society.
 
@@ -34,10 +35,11 @@ The Mobula7 HD takes in 1S, 2S or 3S batteries and depending on that you will ge
 
 ### Table of contents
 
-- [a](#a)
-- [b](#b)
+- [Unboxing](#unboxing)
+- [Components](#components)
+- [Setup and binding](#setup-binding)
 
-### 📦 Unboxing
+### 📦 <span id="unboxing">Unboxing</span>
 
 Let's have a look at what you get in the box.
 
@@ -53,13 +55,29 @@ One of the packages contains a controller for the [Caddx Turtle FPV][3] camera. 
 
 ![Mobula7 HD, 1 3S battery, camera controller, screwdriver, xjt to xt-30, screws, props, propeller remover](mobula7-hd-review-and-setup-4.jpg)
 
-### 🔬 Components overview
+And here are a few shots of the Mobula7 HD...
 
-The Mobula7 HD comes with a [Crazybee F4 PRO V2.0 Flight Controller][] that takes in anywhere between 1S and 3S batteries. You can choose whether you want the flight controller (FC) to have a built in FrSky or Flysky receiver or no receiver at all. The board has 5A 4 in 1 ESCs.
+![Mobula7 HD front right shot](mobula7-hd-review-and-setup-6.jpg)
+
+... top down ...
+
+![Mobula7 HD top down view](mobula7-hd-review-and-setup-7.jpg)
+
+... bottom up ...
+
+![Mobula7 HD bottom up shot](mobula7-hd-review-and-setup-8.jpg)
+
+... over all looking pretty slick!
+
+![Mobula7 HD front left shot](mobula7-hd-review-and-setup-9.jpg)
+
+### 🔬 <span id="components" class="offset-top-nav">Components overview</span>
+
+The Mobula7 HD comes with a [Crazybee F4 PRO V2.0 Flight Controller][11] that takes in anywhere between 1S and 3S batteries. You can choose whether you want the flight controller (FC) to have a built in FrSky or Flysky receiver or no receiver at all. The board has 5A 4 in 1 ESCs.
 
 The VTX is 5.8G 40CH with a power range of 25-200mW that can be adjusted.
 
-The motors are [EX1102 10000KV][], but depending on when you get the quad, you might get the 9000KV version, because as it's stated on the Mobula7 HD listing in Banggood:
+The motors are [EX1102 10000KV][12], but depending on when you get the quad, you might get the 9000KV version, because as it's stated on the Mobula7 HD listing in Banggood:
 
 _"In order to reduce risk from the Mobula7 HD (10000kv motor version )esc burnt , we suggest to limit the throttle scales to 75% .
 Performance is almost the same like new 9000KV version."_
@@ -78,11 +96,11 @@ And here's some example 1080p 60fps footage (and more videos are available at th
   <iframe width="560" height="315" src="https://www.youtube.com/embed/fRrUNozEI_0?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying in Central Park in Plovdiv, Bulgaria"></iframe>
 </div>
 
-### ⚙ Initial setup & binding
+### ⚙ <span id="setup-binding" class="offset-top-nav">Initial setup & binding</span>
 
 I didn't really do much in terms of setup when I first tried out the Mobula7 HD. I wanted to get a feel of how it comes configured literally out of the box. **And to be frank, I was quite satisfied**.
 
-The by far easiest way to bind the drone to your radio is to plug it in to your computer, open Betaflight, go to the CLI tab and type `bind`. Hit enter. I love this, it makes binding so easy. Now that the Mobula is in bind mode, go to your radio (I'm using a [Taranis X-Lite][], but I also bound it to a [Taranis Q X7][]) and after creating a new model, start the binding process from the radio. That's it. The Mobula will blink a few times to indicate a successful bind (you can read about the [exact meaning of the different flashes in the manual][5]).
+The by far easiest way to bind the drone to your radio is to plug it in to your computer, open Betaflight, go to the CLI tab and type `bind`. Hit enter. I love this, it makes binding so easy. Now that the Mobula is in bind mode, go to your radio (I'm using a [Taranis X-Lite][13], but I also bound it to a [Taranis Q X7][14]) and after creating a new model, start the binding process from the radio. That's it. The Mobula will blink a few times to indicate a successful bind (you can read about the [exact meaning of the different flashes in the manual][5]).
 
 Of course, as always, setup 2-3 switches mapped to AUX1, AUX2 and AUX3. The Mobula7 HD's ESCs support DSHOT and as such you can use Turtle mode and Beeping through ESCs.
 
@@ -99,7 +117,7 @@ I have been using Betaflight Configurator 10.4.0 and had no issues whatsoever.
 
 ### 🚁 Fly
 
-**I do love flying this thing!** One of the best things about this micro quad is the fact that is comes with a bit of weight and as such is just a bit more "floaty" than most micros which is great for freestyle flying. If you try the [Mobula7 HD][] you will be amazed by how much it feels and flies like a 5 inch quad. Really, really cool!
+**I do love flying this thing!** One of the best things about this micro quad is the fact that is comes with a bit of weight and as such is just a bit more "floaty" than most micros which is great for freestyle flying. If you try the [Mobula7 HD][1] you will be amazed by how much it feels and flies like a 5 inch quad. Really, really cool!
 
 Here are a few different videos of flying in very different places in terms of weather conditions.
 
@@ -121,11 +139,11 @@ Windy park flight by the Bulgarian sea side.
   <iframe width="560" height="315" src="https://www.youtube.com/embed/jM-l8LQ9B5U?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying in the Sea Garden in Burgas, Bulgaria"></iframe>
 </div>
 
-All those flights were carried out on [2S BetaFPV][] batteries, which naturally brings us to the batteries discussion.
+All those flights were carried out on [2S BetaFPV][15] batteries, which naturally brings us to the batteries discussion.
 
 ### Batteries: 1S, 2S, 3S
 
-As I mentioned the flight controller - [Crazybee F4 PRO V2.0][] is 1-3S capable.
+As I mentioned the flight controller - [Crazybee F4 PRO V2.0][11] is 1-3S capable.
 
 #### 🔋 1S
 
@@ -173,14 +191,6 @@ Try it out for yourself and see what you prefer. I'll comeback and update the po
 
 ### What props to get?
 
-![](mobula7-hd-review-and-setup-6.jpg)
-
-![](mobula7-hd-review-and-setup-7.jpg)
-
-![](mobula7-hd-review-and-setup-8.jpg)
-
-![](mobula7-hd-review-and-setup-9.jpg)
-
 TODO:
 
 - videos at end
@@ -188,6 +198,7 @@ TODO:
 - check spelling in grammarly
 - add emojis
 - make a pass to highlight certain passages of text
+- search for todos and [?]
 
 NOTE ON THIS:
 
@@ -217,3 +228,13 @@ save
 [3]: https://bit.ly/caddx-turtle-v2
 [4]: https://amzn.to/2LZJTDI
 [5]: http://www.happymodel.cn/wp-content/uploads/2019/03/Mobula7-HD-Frsky-version-manual.pdf
+[6]: https://bit.ly/eachine-trashcan
+[7]: https://bit.ly/mobula7
+[8]: https://bit.ly/snapper-7
+[9]: https://bit.ly/runcam-split-2
+[10]: https://bit.ly/runcam-split-mini
+[11]: https://bit.ly/crazybee-f4-v2
+[12]: https://bit.ly/mobula7hd-motors
+[13]: https://bit.ly/taranis--xlite
+[14]: https://bit.ly/taranis-qx7
+[15]: https://betafpv.com/collections/batteries/products/350mah-2s-lipo-battery-2pcs
