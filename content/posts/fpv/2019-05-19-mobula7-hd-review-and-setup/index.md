@@ -27,11 +27,9 @@ The [Mobula7 HD][1] is right up there at the top of the line micro quads, along 
 
 The [Mobula7 HD][1] falls into a class of micro quads called `cinewhoops`, which steams from the fact that it carries capabilities to record **1080p video at 60 fps**. To achieve that it uses a Caddx Turtle V2 camera. As such, this quad targets a specific audience - people to whom recording high definition footage is important and given that you can't really carry a Go Pro on top of a micro drone, you are stuck with the option of using an FPV camera that doubles in functionality as a high def video recorder.
 
-Really, really neat! Now, I do say that as a fan of such cameras, in fact, I've been using [Runcam Split 2][9] and [Runcam Split Mini][10] for a while now and for my needs, those cameras are enough. I get fairly crisp 1080p 60fps footage to review my flight or [upload to youtube][playlist].
+Really, really neat! Now, I do say that as a fan of such cameras, in fact, I've been using [Runcam Split 2][9] and [Runcam Split Mini][10] for a while now and for my needs, those cameras are enough. I get fairly crisp 1080p 60fps footage to review my flight or [upload to YouTube][17].
 
 However the cool thing about the [Mobula7 HD][1] is that it is a micro quad and that means it comes with all the safety that comes with a micro quad. You have prop guards, the chance of you doing damage to yourself or other people is nearly negligible (but of course please don't try). In turn this means that you can fly this in parks without being a menace to society.
-
-The Mobula7 HD takes in 1S, 2S or 3S batteries and depending on that you will get very different flight characteristics.
 
 ### Table of contents
 
@@ -51,7 +49,7 @@ Let's have a look at what you get in the box.
 
 ![The inside of the Mobula7 HD box](mobula7-hd-review-and-setup-2.jpg)
 
-Inside the box we find the Mobula7 HD as expected, a manual, 1 3S battery and a couple of packages.
+Inside the box we find the Mobula7 HD as expected, a manual, one 3S battery and a couple of packages with more stuff inside.
 
 ![All items from the Mobula7 HD unpacked](mobula7-hd-review-and-setup-3.jpg)
 
@@ -100,17 +98,19 @@ And here's some example 1080p 60fps footage (and more videos are available at th
   <iframe width="560" height="315" src="https://www.youtube.com/embed/fRrUNozEI_0?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying in Central Park in Plovdiv, Bulgaria"></iframe>
 </div>
 
-### ⚙ <span id="setup-binding" class="offset-top-nav">Initial setup & binding</span>
+### ⚙ <span id="setup-binding" class="offset-top-nav">Setup & binding</span>
 
-I didn't really do much in terms of setup when I first tried out the Mobula7 HD. I wanted to get a feel of how it comes configured literally out of the box. **And to be frank, I was quite satisfied**.
+I didn't really have to do much in terms of setup when I first tried out the Mobula7 HD, which is definitely a good thing. I wanted to get a feel of how it comes configured literally out of the box. **And to be frank, I was very pleased with the initial configuration.**
 
-The by far easiest way to bind the drone to your radio is to plug it in to your computer, open Betaflight, go to the CLI tab and type `bind`. Hit enter. I love this, it makes binding so easy. Now that the Mobula is in bind mode, go to your radio (I'm using a [Taranis X-Lite][13], but I also bound it to a [Taranis Q X7][14]) and after creating a new model, start the binding process from the radio. That's it. The Mobula will blink a few times to indicate a successful bind (you can read about the [exact meaning of the different flashes in the manual][5]).
+The by far easiest way to bind the drone to your radio is to plug it in to your computer, open Betaflight, go to the CLI tab and type `bind`. Hit enter. I love this, it makes binding so easy. Now that the Mobula is in bind mode, go to your radio (I'm using a [Taranis X-Lite][13], but I also bound it to a [Taranis Q X7][14]) and after creating a new model, start the binding process from the radio. That's it. The Mobula will blink a few times to indicate a successful bind (you can read about the [exact meaning of the different flashes in the manual][5]). Alternatively you can press the bind button at the bottom of the flight controller, if you prefer to bind this way.
 
-Of course, as always, setup 2-3 switches mapped to AUX1, AUX2 and AUX3. The Mobula7 HD's ESCs support DSHOT and as such you can use Turtle mode and Beeping through ESCs.
+I setup 3 switches mapped to AUX1, AUX2 and AUX3. The Mobula7 HD's ESCs support DSHOT and as such you can use Turtle mode (flip over after crash) and Beeping through ESCs.
 
 ![Modes Betaflight tab](mobula7-hd-review-and-setup-21.png)
 
-In my case, I have setup AUX1 for arming on one switch, AUX2 for flight modes (acro and angle), AUX3 for turtle mode (so useful). If you haven't heard of Turtle mode before, basically, it allows you to 'arm' the quad in a special mode when moving the pitch and roll stick corresponds to a particular motor and only moves that side of the quad. Useful when you have crashed and are upside down and want to flip the quad over, without having to walk to do it manually.
+In my case, I setup AUX1 for arming on one switch, AUX2 for flight modes (acro and angle), AUX3 for turtle mode (so useful).
+
+> _If you haven't heard of Turtle mode before, basically, it allows you to 'arm' the quad in a special mode where moving the pitch and roll stick corresponds to a particular motor and only moves that side of the quad. Useful when you have crashed and are upside down and want to flip the quad over, without having to walk to do it manually._
 
 Again do note that on the Mobula7 HD listing in Banggood they warn about some potential issues with Betaflight if you are using the latest version of the configurator (10.5.0 or 10.5.1):
 
@@ -143,11 +143,13 @@ One thing I suggest setting up, to make your life easier with the HD recording, 
 
 That way there never is any manual need to start recording. You just plug in a battery and fly.
 
+Now is a good time to slot in a micro sd card. It's recommended to use a class 10 card, I'm using a [32 GB sd card][18], but you can also grab a smaller or a bigger card up to 64GB. To give you a rough idea, after flying 5 packs, each of about 4 minutes, I come home with 4-5 GB of footage.
+
 Another bonus tips is: **check and tighten the screws every few flights**. It's not uncommon to loose some screws, and that can be prevented to a large degree by just tightening them up every 10 or so packs you fly.
 
-### 🚁 <span id="fly" class="offset-top-nav">Fly</span>
+### 🚁 <span id="fly" class="offset-top-nav">Flying</span>
 
-**I do love flying this thing!** One of the best things about this micro quad is the fact that is comes with a bit of weight and as such is just a bit more "floaty" than most micros which is great for freestyle flying. If you try the [Mobula7 HD][1] you will be amazed by how much it feels and flies like a 5 inch quad. Really, really cool!
+**I do love flying this thing!** One of the best things about this micro quad is the fact that it comes with a bit of weight and as such is just a bit more "floaty" than most micros which is great for freestyle flying. If you try the [Mobula7 HD][1] you will be amazed by how much it feels and flies like a 5 inch quad. Really, really cool!
 
 Here are a few different videos of flying in very different places in terms of weather conditions.
 
@@ -211,15 +213,17 @@ Try it out for yourself and see what you prefer. I'll comeback and update the po
 
 ### 🔝 <span id="upgrades" class="offset-top-nav">Potential upgrades</span>
 
-#### Props
+I'd come back here soon enough when I'm ready to share some tune-ups and upgrades, so stay tuned, maybe subscribe to the newsletter at the bottom of the page.
 
-TODO:
+#### 🔄 Props
+
+All of the footage you have seen so far was recorded with the stock props, but just recently I upgraded to these [Gemfan props][19]. Flight is smooth and the Mobula7 HD got just a bit quieter.
 
 ![Mobula7 HD with gemfan props](mobula7-hd-review-and-setup-15.jpg)
 
-#### XT30 with a capacitor
+#### ⚡ XT30 with a capacitor
 
-- https://www.banggood.com/Happymodel-XT30-Plug-Pigtail-Power-Wire-with-100F-Capacitor-for-Mobula7-HD-TRASHCAN-UR85-UR85HD-Crazybee-F3-F4-PRO-Flight-Controller-p-1476203.html?rmmds=search
+I haven't done this upgrade yet myself, but it's officially recommended by Happymodel and I think it's legit, especially if you prefer to fly mostly or only on 3S batteries. Adding a capacitor or just swapping out to this [XT30 with a capacitor][20], should help out with those voltage spikes when you plug in a 3S battery.
 
 ### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
@@ -229,18 +233,9 @@ In conclusion, I can easily recommend this quad to almost anyone who can afford 
 
 You can't go wrong if you pick one up. The top of the line parts, make sure you get a quality build. Sure, the [Mobula7 HD][1] is a bit heavier than its predecessor and as such maybe not just as snappy, but it does offer for better freestyle, similar to the experience you would get with a 5 inch quad.
 
-On top of it all, if `cinewhoops` are your thing, I'd crown the Mobula7 HD the **queen of cinewhoops for 2019**. I know I, for one, absolutely love flying parks, playgrounds safely and getting that sweet, sweet 1080p 60fps footage.
+On top of it all, if `cinewhoops` are your thing, I'd crown the Mobula7 HD the **queen of cinewhoops for 2019**. I know I, for one, absolutely love flying parks and playgrounds safely and getting that sweet, sweet 1080p 60fps footage.
 
 So if you are in the market for such a micro quad, grab yourself a [Mobula7 HD][1] and you won't be sorry! Happy flying!
-
-TODO:
-
-- videos at end
-- links
-- check spelling in grammarly
-- add emojis
-- make a pass to highlight certain passages of text
-- search for todos and [?]
 
 #### Where to get it?
 
@@ -265,3 +260,7 @@ TODO:
 [14]: https://bit.ly/taranis-qx7
 [15]: https://betafpv.com/collections/batteries/products/350mah-2s-lipo-battery-2pcs
 [16]: https://bit.ly/micro-drone-batteries
+[17]: https://www.youtube.com/watch?v=NM_6JpppqZg&list=PLt8_2AobQjAdlDU6cV66yfXOCfg1FaXbX
+[18]: https://bit.ly/sd-card-32
+[19]: https://bit.ly/gemfan-micro
+[20]: https://bit.ly/xt30-cap
