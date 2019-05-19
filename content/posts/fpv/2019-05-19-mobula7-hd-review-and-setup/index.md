@@ -221,6 +221,12 @@ All of the footage you have seen so far was recorded with the stock props, but j
 
 ![Mobula7 HD with gemfan props](mobula7-hd-review-and-setup-15.jpg)
 
+And this is how flying with those Gemfan props looks like:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/CLIyXOPPF-Y?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying with Gemfan props"></iframe>
+</div>
+
 #### ⚡ XT30 with a capacitor
 
 I haven't done this upgrade yet myself, but it's officially recommended by Happymodel and I think it's legit, especially if you prefer to fly mostly or only on 3S batteries. Adding a capacitor or just swapping out to this [XT30 with a capacitor][20], should help out with those voltage spikes when you plug in a 3S battery.
