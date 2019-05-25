@@ -75,7 +75,7 @@ Finally, solder the ESC voltage and ground wires to the PDB. Again, care for the
 ## 🧪 Testing
 
 It's always a good idea to test for continuity using a multimeter to make sure you haven't bridged anything and created shorts.
-It's also a good idea to use a [smoke stopped][9] when first plugging in the quad after soldering work, to avoid the unpleasant situation of burning up your new components after all the hard work.
+It's also a good idea to use a [smoke stopper][9] when first plugging in the quad after soldering work, to avoid the unpleasant situation of burning up your new components after all the hard work.
 
 ## ⚙ Calibrate ESCs in Betaflight and setup in BLHELI configurator
 
