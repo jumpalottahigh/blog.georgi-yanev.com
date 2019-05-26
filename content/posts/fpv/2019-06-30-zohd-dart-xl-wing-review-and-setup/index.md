@@ -12,7 +12,7 @@ tags:
   - 'wing'
 ogKeywords: 'TODO:'
 ogDescription: 'TODO:'
-ogImage: './zohd-dart-xl-wing-review-and-setup-1.jpg'
+ogImage: './zohd-dart-xl-wing-review-and-setup-7.jpg'
 ---
 
 <div class="article-update-notification">
@@ -20,6 +20,28 @@ This is a sponsored review. Be that as it may, I still stand by every word and t
 </div>
 
 TODO: Intro
+
+![](zohd-dart-xl-wing-review-and-setup-1.jpg)
+
+![](zohd-dart-xl-wing-review-and-setup-2.jpg)
+
+![](zohd-dart-xl-wing-review-and-setup-3.jpg)
+
+![](zohd-dart-xl-wing-review-and-setup-4.jpg)
+
+![](zohd-dart-xl-wing-review-and-setup-5.jpg)
+
+![](zohd-dart-xl-wing-review-and-setup-6.jpg)
+
+![](zohd-dart-xl-wing-review-and-setup-7.jpg)
+
+![](zohd-dart-xl-wing-review-and-setup-8.jpg)
+
+![](zohd-dart-xl-wing-review-and-setup-9.jpg)
+
+![](zohd-dart-xl-wing-review-and-setup-10.jpg)
+
+![](zohd-dart-xl-wing-review-and-setup-11.jpg)
 
 ### Table of contents
 
