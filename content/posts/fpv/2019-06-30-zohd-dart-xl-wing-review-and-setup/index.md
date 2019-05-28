@@ -19,7 +19,7 @@ ogImage: './zohd-dart-xl-wing-review-and-setup-7.jpg'
 This is a sponsored review. Be that as it may, I still stand by every word and this is my objective and honest review. I love FPV and want to help people enjoy the hobby.
 </div>
 
-TODO: Intro
+TODO: Intro & Overview
 
 ![](zohd-dart-xl-wing-review-and-setup-1.jpg)
 
@@ -47,7 +47,8 @@ TODO: Intro
 
 - [Unboxing](#unboxing)
 - [Components](#components)
-- [Setup and binding](#setup-binding)
+- [Setup: LoS and FPV](#los-and-fpv)
+- [Setup: Long Range](#long-range)
 - [Flying](#fly)
 - [Conclusion](#conclusion)
 
@@ -55,7 +56,18 @@ TODO: Intro
 
 ### 🔬 <span id="components" class="offset-top-nav">Components overview</span>
 
-### ⚙ <span id="setup-binding" class="offset-top-nav">Setup & binding</span>
+### ⚙ <span id="los-and-fpv" class="offset-top-nav">Line of sight and FPV</span>
+
+#### Balancing and center of gravity
+
+#### Receiver
+
+#### FPV system: camera and vtx
+
+### ⚙ <span id="long-range" class="offset-top-nav">Long range</span>
+
+Crossfire vs FrSky R.
+Long range batteries
 
 ### 🚁 <span id="fly" class="offset-top-nav">Flying</span>
 
