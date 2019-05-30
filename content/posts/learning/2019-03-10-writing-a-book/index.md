@@ -1,6 +1,7 @@
 ---
 path: '/learning/writing-a-book/'
 date: '2019-03-10'
+updated: '2019-05-30'
 title: 'I am writing a book!'
 author: 'Georgi Yanev'
 affiliate: ''
@@ -116,6 +117,22 @@ https://twitter.com/jumpalottahigh/status/1123317727555465216
 
 #### 5️⃣ May 2019
 
+This update marks the halfway point between the start of NaNoWriMo and when I started preparing for this adventure. I'm happy with the progress so far, so let's review what was done in May 2019.
+
+I took a vacation in early May and went back to Bulgaria, and my home town of Plovdiv - for the first time in 5 years and for the first time with my son. We had a great time, I had a chance to relax, gain inspiration from things I had forgotten and read a book. I read "Supermarket" by Bobby Hall a.k.a. Logic. It was a great book to read, at times you just couldn't put it down, plenty of plot twists.
+
+What I liked the most about it, however, was that I could inspect and think about what the author had done and how he had implemented certain points of the book. This is interesting, because Logic is a hip hop artist, not a writer, and this being his first book, was very interesting to me. Kind of trying to learn from someone else without much experience, as to how they constructed and built a book. Great job, Logic, and amazing work.
+
+I caught up with the Writing Excuses podcast and will start listening to previous seasons next. I love this podcast and I feel like it really helps me to get completely immersed in thinking about writing.
+
+This month I wrote my second short story based on personal events from my life - ["Restaurant job; It's personal!"][25]. It was fun to write and I like to think that it drove the point of the story home. Somewhat of an inspirational story about grit and perseverance.
+
+I wrote Chapter 5 for my book **" Born in space "**. I came up with my first minor plot twist, that connects my main 2 protagonists. I also spent time working on refining the setting, plot, world-building, and characters. Mostly I was aligning features, killing aspects that would not add much to the story, but would make writing the story much harder and so on.
+
+https://twitter.com/jumpalottahigh/status/1134080742789656576
+
+#### 6️⃣ June 2019
+
 ### \* \* \*
 
 [0]: Linkslist
@@ -143,3 +160,4 @@ https://twitter.com/jumpalottahigh/status/1123317727555465216
 [22]: https://en.wikipedia.org/wiki/Words_of_Radiance
 [23]: https://www.youtube.com/watch?v=N4ZDBOc2tX8&index=1&list=PLH3mK1NZn9QqOSj3ObrP3xL8tEJQ12-vL
 [24]: https://www.youtube.com/watch?v=mrP9604BEOM
+[25]: /stories/restaurant-job-its-personal/
