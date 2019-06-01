@@ -9,7 +9,7 @@ This blog uses Gatsby as a React based static site generator. I write articles a
 
 To get started clone the repo and install the dependencies:
 
-```
+```sh
 $ git clone https://github.com/jumpalottahigh/blog.georgi-yanev.com.git blog
 $ cd blog
 $ npm install

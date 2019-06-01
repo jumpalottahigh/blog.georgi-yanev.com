@@ -137,11 +137,11 @@ The story is quite different on 2S. Here we get a lot of extra power, and it mig
 
 Additionally, the best part about flying 2S indoors is that you get much longer flight times, and much fewer voltage sags (if any at all). If you prefer this, go for it.
 
-#### 🔝 Throttle limits
+#### 🔝 <span id="throttle-limits" class="offset-top-nav">Throttle limits</span>
 
 Lastly, I'd like to mention throttle limits. If you feel like you need to turn down the power just a bit in favor of increasing handling, you can easily do that in Betaflight. First, go to the PID tab and set `Throttle MID` to **0.30**, and `Throttle EXPO` to **0.70**. Finally, go to the `CLI` tab and paste in this command:
 
-```
+```sh
 set throttle_limit_percent = 70
 ```
 
@@ -151,7 +151,7 @@ Try flying now, 1S or 2S up to you (I find that there is not much need for throt
 
 If you have applied any throttle limiting to your craft, remember to take it off before flying outdoors! This quad rips on 2S outdoors. The default settings are: `Throttle MID` to **0.50**, `Throttle EXPO` to **0.00** and paste this command in from the `CLI` tab:
 
-```
+```sh
 set throttle_limit_percent = 100
 ```
 

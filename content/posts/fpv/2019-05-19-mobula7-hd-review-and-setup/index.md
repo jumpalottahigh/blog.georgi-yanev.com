@@ -203,7 +203,7 @@ In terms of 3S, I have only tried the stock battery that comes with the quad. **
 
 You can do that by pasting the following commands in the Betaflight CLI:
 
-```
+```sh
 set throttle_limit_type = scale
  set throttle_limit_percent = 75
  save

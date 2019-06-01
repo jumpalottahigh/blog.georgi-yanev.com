@@ -34,6 +34,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/reader-questions`,
+        name: `reader-questions`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -46,7 +53,6 @@ module.exports = {
               // Remove the default behavior of adding a link to each
               // image.
               linkImagesToOriginal: true,
-              sizeByPixelDensity: true,
             },
           },
           {
@@ -55,7 +61,17 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              aliases: {
+                sh: 'shell',
+                es6: 'javascript',
+                env: 'bash',
+                mdx: 'md',
+              },
+            },
+          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
           `@weknow/gatsby-remark-twitter`,
