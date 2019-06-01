@@ -12,10 +12,11 @@ import TinyLetterSignup from '../components/TinyLetterSignUp'
 import ModeSwitch from '../components/Mode'
 import EditOnGitHub from '../components/Edit'
 import AskAQuestion from '../components/AskAQuestion'
+import ReaderQuestions from '../components/ReaderQuestions'
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
+    const { post, readerQuestions } = this.props.data
 
     // If post doesn't have a defined og image, fall back to default defined here
     const ogImage =
@@ -165,6 +166,7 @@ class BlogPostTemplate extends React.Component {
               currentPagePath={post.frontmatter.path}
               relatedArticles={post.frontmatter.tags}
             />
+            {readerQuestions && <ReaderQuestions data={readerQuestions} />}
             <SupportSection affiliateNote={post.frontmatter.affiliate} />
             <DiscussionEmbed
               shortname={disqusShortname}
@@ -183,7 +185,7 @@ export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+    post: markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       excerpt
       timeToRead
@@ -203,6 +205,12 @@ export const pageQuery = graphql`
           publicURL
         }
       }
+    }
+
+    readerQuestions: markdownRemark(
+      frontmatter: { articlePath: { eq: $path } }
+    ) {
+      html
     }
   }
 `
