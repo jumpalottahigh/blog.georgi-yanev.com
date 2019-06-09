@@ -21,7 +21,7 @@ ogImage: './mobula7-hd-review-and-setup-5.jpg'
 This is a sponsored review. Be that as it may, I still stand by every word and this is my objective and honest review. I love FPV and want to help people enjoy the hobby.
 </div>
 
-The [Mobula7 HD][1] is right up there at the top of the line micro quads, along with side other drones such as the [Eachine Trashcan][6], [Mobula7][7], [Snapper7][8] and others. Being the latest and greatest quad in Happymodel's lineup means it comes with the best overall specs, but it **also does something, that none of these other micro drones listed above do - it records 1080p 60fps video**.
+The [Mobula7 HD][1] is right up there at the top of the line micro quads, along side with other drones such as the [Eachine Trashcan][6], [Mobula7][7], [Snapper7][8] and others. Being the latest and greatest quad in Happymodel's lineup means it comes with the best overall specs, but it **also does something, that none of these other micro drones listed above do - it records 1080p 60fps video**.
 
 ![Mobula7 HD](mobula7-hd-review-and-setup-5.jpg)
 
