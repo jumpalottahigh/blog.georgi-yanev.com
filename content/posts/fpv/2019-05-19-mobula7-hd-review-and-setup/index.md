@@ -258,7 +258,7 @@ So if you are in the market for such a micro quad, grab yourself a [Mobula7 HD][
 [6]: https://bit.ly/eachine-trashcan
 [7]: https://bit.ly/mobula7
 [8]: https://bit.ly/snapper-7
-[9]: https://bit.ly/runcam-split-2
+[9]: https://bit.ly/runcam-split2s
 [10]: https://bit.ly/runcam-split-mini
 [11]: https://bit.ly/crazybee-f4-v2
 [12]: https://bit.ly/mobula7hd-motors

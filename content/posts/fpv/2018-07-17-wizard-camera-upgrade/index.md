@@ -71,7 +71,7 @@ And here's how the 1080p HD 60fps footage looks:
 
 [0]: Linkslist
 [1]: https://bit.ly/eachine-wizardx220
-[2]: https://bit.ly/runcam-split-2
+[2]: https://bit.ly/runcam-split2s
 [3]: https://bit.ly/runcam-switft-2
 [4]: https://bit.ly/xm-plus
 [5]: https://amzn.to/2KgtTN2
