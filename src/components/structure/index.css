@@ -884,9 +884,8 @@ div > pre {
 
   .main {
     order: 1;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    /* z-index: 1; */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .sidebar-wrapper {
