@@ -127,6 +127,6 @@ Here's the complete set up. Happy flying!
 [13]: https://amzn.to/2VszUYb
 [14]: https://amzn.to/2UsfwtO
 [15]: https://bit.ly/taranis-x9d
-[16]: https://bit.ly/taranis--xlite
+[16]: https://bit.ly/taranis-xlite
 [17]: https://amzn.to/2I92UBh
 [18]: https://www.facebook.com/groups/331978367598746/permalink/416011002528815/

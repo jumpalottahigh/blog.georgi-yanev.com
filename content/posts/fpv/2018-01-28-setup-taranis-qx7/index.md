@@ -118,5 +118,5 @@ Voila! Enjoy not having to buy any more AA batteries.
 [8]: https://www.youtube.com/watch?v=SJM8G0VCFqM&list=PLiYYhnH4BhI-ot9OQ9djvRaacFHboFqC2
 [9]: https://bit.ly/taranis-lipo
 [10]: https://amzn.to/2VszUYb
-[11]: https://bit.ly/taranis--xlite
+[11]: https://bit.ly/taranis-xlite
 [12]: https://amzn.to/2I92UBh
