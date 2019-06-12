@@ -1000,6 +1000,15 @@ iframe {
   grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
 }
 
+.category-container a {
+  display: flex;
+  box-shadow: none;
+}
+
+.category-container .category {
+  width: 100%;
+}
+
 .category {
   border-radius: 2px;
   height: 36px;
