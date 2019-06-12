@@ -1,6 +1,7 @@
 ---
 path: '/fpv/mobula7-hd-review-and-setup/'
 date: '2019-05-19'
+updated: '2019-06-12'
 title: 'Mobula7 HD review and setup'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
@@ -242,6 +243,14 @@ You can't go wrong if you pick one up. The top of the line parts, make sure you 
 On top of it all, if `cinewhoops` are your thing, I'd crown the Mobula7 HD the **queen of cinewhoops for 2019**. I know I, for one, absolutely love flying parks and playgrounds safely and getting that sweet, sweet 1080p 60fps footage.
 
 So if you are in the market for such a micro quad, grab yourself a [Mobula7 HD][1] and you won't be sorry! Happy flying!
+
+#### Who is this for? Grab this if you care about:
+
+- Recording 1080p 60fps video
+- Ease of getting started
+- Having a near perfect tune out of the box
+- Flying a 2S/3S brushless whoop
+- Flying populated public areas safely
 
 #### Where to get it?
 

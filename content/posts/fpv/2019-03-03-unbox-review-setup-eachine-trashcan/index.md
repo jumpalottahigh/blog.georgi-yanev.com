@@ -1,6 +1,7 @@
 ---
 path: '/fpv/unbox-review-setup-eachine-trashcan/'
 date: '2019-03-03'
+updated: '2019-06-12'
 title: 'How to set up Eachine Trashcan micro drone'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
@@ -168,6 +169,18 @@ If you want to fly in city parks or other more populated areas, but don't want t
 Overall, it comes at a great price, it ticks all the checkboxes and get you some extra performance, it flies really well, it's easy to handle and get used to so if you have any of the use cases outlined above (or some other one), **I definitely recommend the [Eachine Trashcan][1] as your first or next micro drone**, and am personally looking forward to ripping around a lot with it this summer!
 
 P.S.: My poor flying here did not take away from the fun had :)
+
+#### Where to get it?
+
+###### Eachine Trashcan - [Banggood][1]
+
+#### Who is this for? Grab this if you care about:
+
+- Flying indoors & outdoors
+- Flying 1S and 2S
+- Great out of the box tune
+- Great value for money
+- Upgradable and replaceable parts
 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/rKG9t7o2xws?rel=0" frameBorder="0" allowFullScreen title="eachine trashcan flight footage 1"></iframe>
