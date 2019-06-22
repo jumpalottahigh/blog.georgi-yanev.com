@@ -120,7 +120,7 @@ Then in your radio create a new model and go to your binding function. I'm using
 
 It is important to note that if you bought the drone with US (FCC) receiver, your Taranis internal module needs to be flashed with the FCC firmware, if you went for the EU (LBT) version, then again your radio needs to be flashed accordingly. Read this to understand [how to flash the Taranis Q X7's internal module][5].
 
-### 🚁 <span id="flying-indoors" class="offset-top-nav">Flyig indoors</span>
+### 🚁 <span id="flying-indoors" class="offset-top-nav">Flying indoors</span>
 
 #### 🔋 1S
 
