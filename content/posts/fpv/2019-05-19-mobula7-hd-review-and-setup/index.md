@@ -42,6 +42,12 @@ However, the cool thing about the [Mobula7 HD][1] is that it is a micro quad and
 - [Upgrades](#upgrades)
 - [Conclusion](#conclusion)
 
+If you prefer watching, check out the full video review:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FhtL0zSx1AU?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD review on fpvtips on YouTube"></iframe>
+</div>
+
 ### 📦 <span id="unboxing">Unboxing</span>
 
 Let's have a look at what you get in the box.
