@@ -84,6 +84,12 @@ DVR 4S 1500mah
 ![](emax-hawk-5-unboxing-review-and-setup-29.png)
 ![](emax-hawk-5-unboxing-review-and-setup-30.jpg)
 
+https://www.youtube.com/watch?v=EHGsctmuK5E
+https://www.youtube.com/watch?v=TrDwLlx1DGA
+https://www.youtube.com/watch?v=E-O2FAFXRC4
+https://www.youtube.com/watch?v=WDDIkdS-HBA
+https://www.youtube.com/watch?v=2jHrFx6P_iI
+
 [0]: Linkslist
 [1]: https://bit.ly/emax-hawk-5
 [2]: https://amzn.to/2Wq1KJ6
