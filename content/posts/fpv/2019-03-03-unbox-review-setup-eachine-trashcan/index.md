@@ -148,7 +148,7 @@ set throttle_limit_percent = 70
 
 Try flying now, 1S or 2S up to you (I find that there is not much need for throttle limiting with 1S, but your experience may vary). You can go back to the settings in Betaflight and tweak them to your liking until you are happy with the response from the craft.
 
-### 🚁 <span id="flying-outdoors" class="offset-top-nav">Flyig outdoors</span>
+### 🚁 <span id="flying-outdoors" class="offset-top-nav">Flying outdoors</span>
 
 If you have applied any throttle limiting to your craft, remember to take it off before flying outdoors! This quad rips on 2S outdoors. The default settings are: `Throttle MID` to **0.50**, `Throttle EXPO` to **0.00** and paste this command in from the `CLI` tab:
 
