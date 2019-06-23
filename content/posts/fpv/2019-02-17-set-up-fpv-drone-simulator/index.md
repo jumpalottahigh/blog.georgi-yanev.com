@@ -16,8 +16,7 @@ ogImage: './set-up-fpv-drone-simulator-6.jpg'
 ---
 
 <div class="article-update-notification">
-  Show off where and how you fly with the community over at 
-  <strong><a href="https://www.fpvtips.com/fpv-map">www.fpvtips.com/fpv-map</a></strong>.
+  I recently started a YouTube channel called <strong><a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg" target="_blank" rel="noopener noreferrer">FPVTIPS</a></strong> to do much of what I'm doing on this blog - try to help people new to FPV. <strong><a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg" target="_blank" rel="noopener noreferrer">Come check it out!</a></strong>
 </div>
 
 Whether you are a seasoned fpv drone pilot or a person just getting started with this hobby, there always is a reason to fly in a quadcopter simulator. At the very least, if you are practicing a new trick or just practicing flying in general, it just might save you many crashes, money, and frustration while walking to get your quad after your 10th crash for the day.
