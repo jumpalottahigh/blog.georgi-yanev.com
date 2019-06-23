@@ -40,6 +40,12 @@ So let's have a look at what's in the box.
 - [Flying indoors (1s vs 2s vs throttle limits)](#flying-indoors)
 - [Flying outdoors](#flying-outdoors)
 
+If you prefer watching, check out the full video review:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/OBl8kv0XOkQ?rel=0" frameBorder="0" allowFullScreen title="Eachine Trashcan review on FPVTIPS on YouTube"></iframe>
+</div>
+
 ### 📦 <span id="unboxing">Unboxing experience</span>
 
 The Trashcan arrives in a nice protective hard case. Pretty neat. Very useful to keep the quad safe.
