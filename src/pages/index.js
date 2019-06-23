@@ -40,6 +40,50 @@ class BlogIndex extends React.Component {
         <div className="home-page">
           {/* TODO: */}
           {/* <h4 style={{ marginTop: '2rem' }}>Most popular this month:</h4> */}
+          <div className="article-update-notification high-priority">
+            <p style={{ color: '#6c757d' }}>
+              <time datetime="2019-06-23">23 June 2019, Announcement!</time>
+            </p>
+            <h4>
+              I'm starting a YouTube channel called{' '}
+              <a
+                href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                FPVTIPS
+              </a>
+              , to do much of the same I do here - try to help people new to
+              FPV.
+            </h4>
+            <p>
+              I've been really humbled to help so many people over the years and
+              to answer the questions I myself had. I'll continue doing that,
+              and believing in the wonderful hobby of FPV racing drones, and
+              will also from now on do that on YouTube in addition to this blog.
+            </p>
+            <p>
+              Here's how you (yes, YOU) can help -{' '}
+              <strong>
+                👉{' '}
+                <a
+                  href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  come over
+                </a>
+                , 📺 watch the first couple of videos, 📫 subscribe :), and
+                leave me some 💬 feedback in the comments section
+              </strong>
+              . I would REALLY appreciate this, and thank you in advance 💙.
+              <br />
+              <br />
+              I'm sure I have a lot to learn about video production, but hey,
+              you gotta start somewhere, right? And I'm definitely excited about
+              learning and sharing knowledge! Happy flying!
+            </p>
+          </div>
           <h3 style={{ marginTop: 0 }}>Categories:</h3>
           <div className="category-container">
             <Link to="/news/">
