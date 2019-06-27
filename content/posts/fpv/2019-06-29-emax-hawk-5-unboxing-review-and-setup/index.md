@@ -20,7 +20,16 @@ The quickest I have ever gone from opening a box with a prebuilt quad to actuall
 Binding it, 3 minutes config on my radio, 3 minutes in Betaflight. Putting props on took more time than the rest 😅.
 Today we are having a look at the [Emax Hawk 5][1] BNF 5 inch quad. Let's get to it.
 
-## Unboxing
+### Table of contents
+
+- [Unboxing](#unboxing)
+- [Components](#components)
+- [Setup and binding](#binding)
+- [Betaflight configuration](#betaflight)
+- [Flying](#flying)
+- [Upgrades](#upgrades)
+
+### 📦 <span id="unboxing">Unboxing</span>
 
 The unboxing experience was pretty good. No damage on the box on the outside, and a slick design.
 
@@ -64,7 +73,9 @@ We also find a spare arm in case you break one, that's a great addition and it b
 
 Additionally we also get a controller for tuning the Foxeer FPV camera, as well as another pouch with screws, washers and a few short zipties. Onto the components overview.
 
-## Components
+![Foxeer Micro Arrow camera controller](emax-hawk-5-unboxing-review-and-setup-38.jpg)
+
+### 🧪 <span id="components" class="offset-top-nav">Components</span>
 
 I already mentioned that the build was pretty solid and the components are very high quality too. But we also haven't mentioned how much this drone costs. Currently you can snatch up an [Emax Hawk 5][1] for about \$250 on Banggood.
 
@@ -74,33 +85,55 @@ And to be honest for what you get that price is quite fine. However, that is als
 
 ![Emax Hawk 5 without props, full frontal shot](emax-hawk-5-unboxing-review-and-setup-11.jpg)
 
-**Frame**. The Emax Hawk is quite light, coming in at about 270 grams without battery. The frame is made of high quality aerospace grade carbon fiber, and allows for swapping out arms in case you break one. At the bottom of the frame there is a rubberized padding to help with battery grip, if you decide to mount under the quad. Alternatively you can mount a battery on top as well, by runnning a battery strap between the two mini top side plates and the top plate.
+**Frame**. The Emax Hawk is quite light, coming in at about 270 grams without battery. The frame is made of high quality aerospace grade carbon fiber, and allows for swapping out arms in case you break one. At the bottom of the frame there is a rubberized padding that provides extra battery grip, which is useful if you mount the battery there.
 
-**Stack: Flight Controller, 4 in 1 ESC, VTX and Receiver**. The FC is an Emax Magnum Omnibus F4 with OSD, the ESC is a 30A 4 in 1 BLHeli_S DSHOT600 capable. The whole stack is soft mounted with rubber grommets to damped vibrations. At the top of the stack you will notice the vtx and the receiver (provided that's the version you purchased too). In my case, I got my trusty [FrSky XM+][7]. The receiver antennas are already prepped and mounted to the sides with zipties and shrink tube. **You can run the receiver antennas off the sides, keep them closer inside within the frame or run them up through the small cut outs on top of the frame.**
+![Emax Hawk 5 bottom plate](emax-hawk-5-unboxing-review-and-setup-31.jpg)
+
+Alternatively you can mount a battery on top as well, by runnning a battery strap between the two mini top side plates and the top plate.
+
+**Stack: Flight Controller, 4 in 1 ESC, VTX and Receiver**. The FC is an Emax Magnum Omnibus F4 with OSD, the ESC is a 30A 4 in 1 BLHeli_S DSHOT600 capable. The whole stack is soft mounted with rubber grommets to damped vibrations. At the top of the stack you will notice the vtx and the receiver (provided that's the version you purchased too).
+
+![Emax Hawk 5 stack](emax-hawk-5-unboxing-review-and-setup-14.jpg)
+
+In my case, I got my trusty [FrSky XM+][7]. The receiver antennas are already prepped and mounted to the sides with zipties and shrink tube. **You can run the receiver antennas off the sides, keep them closer inside within the frame or run them up through the small cut outs on top of the frame.**
 
 The VTX is a 48 channel 5.8GHz and can be switched between 25mW and 200mW. You can change the channels via an easily accessible button on the side. **To change the output power, press and hold the button for 10 seconds until you can see an extra dot (.) on the small led screen.** Speaking of which, 10/10 for adding that small top frame cut out! It's a lovely touch and makes it very convenient to see your VTX channel.
 
+![Emax Hawk 5 top plate VTX cut out](emax-hawk-5-unboxing-review-and-setup-32.jpg)
+
 The battery leads have a zip tie to reduce some of the potention impact / pull tension and there also is a capacitor soldered to the battery leads to soak up some unwanted voltage spikes.
 
-**Camera**. In the front we have the Foxeer Micro Arrow V2 camera. The picture quality and the detail is trully great and the flying experience is solid overall. However I have only one complained and that is that the stock tune of the camera is quite suboptimal for low light conditions. I will make sure to update the post if I solve this by tweaking the settings, but the reality of it all is that, I'm comparing against the RunCam Split 2 and the WDR on it is not all over the place in the same condition, compared to the Foxeer Micro Arrow. However that's only a thing I have experienced flying late at night when the sun is very low on the horizon, in which case flying with the sun behind me produces great picture, but flying towards the sun leads to almost pitch black picture. Definitely play with the camera settings, before you blame the camera, and so will I, but it would have been better if the settings were already configured properly. As I mentioned, I have never tweaked any settings on the RunCam Split 2 and this issue is non existent there.
+**Camera**. In the front we have the Foxeer Micro Arrow V2 camera. The picture quality and the detail is trully great and the flying experience is solid overall.
 
-**Motors**. The motors are the Emax LS 2206 Lite Spec 2300KV. They are definitely performers, never had issues with motors getting hot in my tests. Very zippy overall, especially paired with the...
+![Emax Hawk 5 Foxeer Micro Arrow camera](emax-hawk-5-unboxing-review-and-setup-35.jpg)
+
+However, I'm not sure if it is the camera tune but I haven't been getting very good results late at night when the sun is low on the horizon. In particular, when I fly with the sun behind me, the camera produces a gorgeous image, but flying towards the sun leads to almost pitch black picture. I will make sure to update the post if I solve this by tweaking the camera settings.
+
+However, the reality of it all is that, I'm comparing against the RunCam Split 2 and the WDR on the RunCam is not all over the place in the same conditions and I am able to fly in each direction with decent picture and no issues, with the stock tune on the RunCam Split 2.
+
+**Motors**. The motors are the Emax LS 2206 Lite Spec 2300KV.
+
+![Emax Hawk 5 motors brand](emax-hawk-5-unboxing-review-and-setup-36.jpg)
+
+![Emax Hawk 5 motors model](emax-hawk-5-unboxing-review-and-setup-37.jpg)
+
+They are definitely performers, never had issues with motors getting hot in my tests. Very zippy overall, especially paired with the...
 
 **Props**. Avan Flow 5 inch props. This is the most aggressive tri-blade prop I have flown to date and ... I love it. I give so much of the overall flight characteristic to the Avan Flow props. In simplest terms the craft is very fast and snappy, but also super controllable and behaving in turns and really just goes where you tell it. It is an AWESOME flight experience delivered by the good components and the excellent tune.
 
-## Quick setup
+### 🔗 <span id="binding" class="offset-top-nav">Binding and setup</span>
 
-### Binding
+#### Binding
 
 - Taking off the top plate.
 -
 
-### Radio Setup
+#### Radio Setup
 
 - Create 3 extra switches: arm, modes, buzzer
 - Adjust outputs
 
-### Betaflight Configuration
+### ⚙ <span id="betaflight" class="offset-top-nav">Betaflight configuration</span>
 
 I mentioned already perfect tune. Like, literally my first flight experience, from the first second, the PID tuning just clicked with me. Every roll, every flip, was spot on axis, very easy to perform. Amazing work there by Emax. In fact here's the DVR footage from the maiden flight and my first ever time flying this quad.
 
@@ -125,24 +158,25 @@ TODO: DIFF DUMP
 
 - Configure OSD
 
-## Fly
+### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
 
 DVR with 4S 1300mah
 DVR 4S 1500mah
 
-## Upgrades
+### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
 
 There are [plenty of Emax Hawk 5 projects on Thingiverse][8] you can use to print different mounts and parts. So far I have printed this wall mount bracket...
 
-image1
+![](emax-hawk-5-unboxing-review-and-setup-34.jpg)
 
 ...and this pagoda mount, if you consider upgrading to Pagoda antennas.
 
-image2
+![](emax-hawk-5-unboxing-review-and-setup-33.jpg)
 
-TODO: Test with different props and write section.
+TODO: Upgrade - Test with different props and write section.
 
-![](emax-hawk-5-unboxing-review-and-setup-14.jpg)
+TODO: Upgrade - Considering upgrading to a RunCam Split Mini
+
 ![](emax-hawk-5-unboxing-review-and-setup-15.jpg)
 ![](emax-hawk-5-unboxing-review-and-setup-16.jpg)
 ![](emax-hawk-5-unboxing-review-and-setup-17.jpg)
@@ -161,6 +195,11 @@ TODO: Test with different props and write section.
 ![](emax-hawk-5-unboxing-review-and-setup-29.png)
 ![](emax-hawk-5-unboxing-review-and-setup-30.jpg)
 
+Publish unlisted video? - https://www.youtube.com/watch?v=htWUFSzpH14
+
+TODO: Footage with a RunCam 5
+
+5 Published Lunch break videos
 https://www.youtube.com/watch?v=EHGsctmuK5E
 https://www.youtube.com/watch?v=TrDwLlx1DGA
 https://www.youtube.com/watch?v=E-O2FAFXRC4
