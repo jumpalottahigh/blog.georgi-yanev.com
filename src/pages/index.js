@@ -4,11 +4,12 @@ import Img from 'gatsby-image'
 import { Fade } from 'react-reveal'
 
 import Layout from '../components/structure/layout'
+import PostsList from '../components/PostsList'
+import TinyLetterSignup from '../components/TinyLetterSignUp'
+import Announcement from '../components/Announcement'
 
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
-import PostsList from '../components/PostsList'
-import TinyLetterSignup from '../components/TinyLetterSignUp'
 
 class BlogIndex extends React.Component {
   state = {
@@ -40,10 +41,26 @@ class BlogIndex extends React.Component {
         <div className="home-page">
           {/* TODO: */}
           {/* <h4 style={{ marginTop: '2rem' }}>Most popular this month:</h4> */}
-          <div className="article-update-notification high-priority">
-            <p style={{ color: '#6c757d' }}>
-              <time datetime="2019-06-23">23 June 2019, Announcement!</time>
-            </p>
+          <Announcement
+            shortText={
+              <div>
+                <h4>
+                  🔥🔥🔥Announcing: FPVTIPS🔥🔥🔥
+                  <br />
+                  the YouTube channel
+                </h4>
+                <Img
+                  style={{ marginBottom: '2rem', width: '80px' }}
+                  fluid={
+                    this.props.data.fpvtips.edges[0].node.childImageSharp.fluid
+                  }
+                  alt="FPVTIPS logo"
+                />
+                <div style={{}}>test</div>
+              </div>
+            }
+          >
+            <p style={{ color: '#6c757d' }}></p>
             <h4>
               I'm starting a YouTube channel called{' '}
               <a
@@ -83,7 +100,8 @@ class BlogIndex extends React.Component {
               you gotta start somewhere, right? And I'm definitely excited about
               learning and sharing knowledge! Happy flying!
             </p>
-          </div>
+            <time dateTime="2019-06-23">Georgi, 23 June 2019</time>
+          </Announcement>
           <h3 style={{ marginTop: 0 }}>Categories:</h3>
           <div className="category-container">
             <Link to="/news/">
@@ -341,6 +359,19 @@ export const HomePageQuery = graphql`
           name
           childImageSharp {
             fluid(maxWidth: 928, quality: 75) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+    }
+
+    fpvtips: allFile(filter: { relativePath: { regex: "/^home/fpvtips/" } }) {
+      edges {
+        node {
+          name
+          childImageSharp {
+            fluid(maxWidth: 124, quality: 81) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
