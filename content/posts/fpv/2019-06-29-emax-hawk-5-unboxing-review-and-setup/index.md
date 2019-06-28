@@ -121,27 +121,43 @@ They are definitely performers, never had issues with motors getting hot in my t
 
 **Props**. Avan Flow 5 inch props. This is the most aggressive tri-blade prop I have flown to date and ... I love it. I give so much of the overall flight characteristic to the Avan Flow props. In simplest terms the craft is very fast and snappy, but also super controllable and behaving in turns and really just goes where you tell it. It is an AWESOME flight experience delivered by the good components and the excellent tune.
 
-### 🔗 <span id="binding" class="offset-top-nav">Binding and setup</span>
+### 🔗 <span id="binding" class="offset-top-nav">Binding and radio setup</span>
 
 Binding the [Emax Hawk 5][1] is very straightforward. **Take the props off**. Then, you have to take off the top plate in order to access the bind button on the FrSky XM+.
 
 ![Emax Hawk 5 stack](emax-hawk-5-unboxing-review-and-setup-14.jpg)
 
-In your radio create a new model. I'm using the X-Lite here, but the setup is nearly identical for most FrSky radios.
+In your radio create a new model. I'm using the [X-Lite][9] here, but the setup is nearly identical for most FrSky radios.
 
-![](emax-hawk-5-unboxing-review-and-setup-22.jpg)
-![](emax-hawk-5-unboxing-review-and-setup-23.jpg)
-![](emax-hawk-5-unboxing-review-and-setup-24.jpg)
+![Taranis X-Lite create model screen](emax-hawk-5-unboxing-review-and-setup-22.jpg)
 
-#### Binding
+Change to the setup screen, navigate to and activate the Bind function.
 
-- Taking off the top plate.
--
+![Taranis X-Lite setup screen](emax-hawk-5-unboxing-review-and-setup-23.jpg)
 
-#### Radio Setup
+Plug in a battery to the quad (remember props off) while holding the bind button on the receiver depressed. If you don't have 3 hands you are out of luck :) It's a bit tricky sometimes but you can do it. Alternatively, if you have a [smoke stopper with a button (like mine)][10], it could make it a bit easier, as you can plug in the battery before hand and then only hold the receiver bind button while pressing the smoke stopper power on button.
 
-- Create 3 extra switches: arm, modes, buzzer
-- Adjust outputs
+Next, let's jump to the Mixer screen and setup 2-3 switches.
+
+![Taranis X-Lite  mixer screen](emax-hawk-5-unboxing-review-and-setup-16.jpg)
+
+**Add some switches to channels 5,6,7**. You can certainly do less than that, if you don't want to. Or more. I normally have an arm dedicated switch, a modes 3 step switch and sometimes a buzzer switch.
+
+**BONUS: Adjust Radio Outputs**. While we are here, we might aswell trim the channel outputs. If the outputs are not dead center, like in my case, you can adjust them from the Outputs screen. By moving the sticks you can tell which one controls the current channel as the number in the top middle of the screen will start changing (in case you are lazy like me to learn them by heart). Once you have identified the correct stick and axis, corresponding to channel 1, long press the menu button and select edit to change the min and max values.
+
+![Taranis X-Lite outputs screen unadjusted](emax-hawk-5-unboxing-review-and-setup-17.jpg)
+
+Here in the end screen (picture below) we want to achieve 3 things. We want to have a steady value of 1500 when stick is centered, a value of 1000 when the stick is at it's lowest point and a value of 2000 when the stick is at it's max position. We want those values to be steady and not twitching.
+
+To achieve this, deflect fully the stick in a given position and hold it there. The number at the top right will reflect those changes. Whilte holding the stick at that value tweak the Min or Max values accordingly until you achieve the desired steady end points. If when the stick is centered the value is off from 1500, you can adjust that with subtrim.
+
+![Taranis X-Lite outputs screen, channel menu](emax-hawk-5-unboxing-review-and-setup-24.jpg)
+
+Here's how my end points ended up being.
+
+![Taranis X-Lite outputs screen fully adjusted](emax-hawk-5-unboxing-review-and-setup-18.jpg)
+
+Next, let's jump into Betaflight and set up the switches.
 
 ### ⚙ <span id="betaflight" class="offset-top-nav">Betaflight configuration</span>
 
@@ -157,25 +173,65 @@ I mentioned already perfect tune. Like, literally my first flight experience, fr
 
 I am simply in love with that tune. Out of the box with 0 extra tuning. Impressive!
 
-TODO: Screenshots of all screens
-TODO: DIFF DUMP
+**Setup modes**. Pretty much the only thing we have to do in Betaflight is to set up some modes. That will allow us to trigger those modes with the switches we set up in the radio mixer. Remember we set up CH5, CH6, CH7? Those correspond to AUX1, AUX2, AUX3 here in the modes tab.
 
-- Setup modes based on switches at AUX1, AUX2, AUX3
+Make sure you have at least an arming switch setup (AUX1 in my case). Again if you are doing any live debugging with plugged in quad, remove the props before pluging in a battery. If your transmitter is correctly bound, you will see the yellow notch move when you flip a switch. You can adjust when a switch is considered active by adjusting the yellow sliders.
 
-- Check configuration tab for SBUS (FrSky); BONUS: configure RSSI on channel 12
+I have Angle mode (I don't ever fly it, maybe I need to reconsider, but as a safety option I like keeping an angle / horizon mode around), and turtle mode (flip over after crash) on AUX2. And a beeper on AUX3.
 
-- Test motors spin direction
+![Betaflight Modes screen](emax-hawk-5-unboxing-review-and-setup-26.png)
 
-- Configure OSD
+If you are itching to fly, at this point you are good to go. Don't forget to hit save to save your changes. Additionally, double check and make sure your Failsafe is setup and working on the radio (I use the 'No Pulses' setting).
+
+Here's the rest of the stock configuration:
+
+TODO: configuration page 1 screenshot
+
+Let's verify that SBUS is set and also with the XM+ receiver we get RSSI output on channel 12, which is neat and can be then shown on the OSD. You can enable it here in the configuration tab.
+
+![Betaflight configuration page 2](emax-hawk-5-unboxing-review-and-setup-27.png)
+
+**Receiver tab:**
+
+Then here under RSSI Channel select channel 12.
+
+![Betaflight receiver tab](emax-hawk-5-unboxing-review-and-setup-25.png)
+
+**OSD tab:**
+
+Finally in the OSD tab select to output the RSSI value.
+
+![Betaflight OSD tab](emax-hawk-5-unboxing-review-and-setup-30.jpg)
+
+**PID Tuning tab:**
+
+TODO: PID tuning screenshot
+
+**Motors tab:**
+
+If you want, you can test and make sure the motor directions are correct, but if you do so, take off the props :)
+
+![Betaflight motors tab](emax-hawk-5-unboxing-review-and-setup-28.png)
+
+Now let's go rip some packs!
+
+![Emax Hawk 5 with props on, picture 2](emax-hawk-5-unboxing-review-and-setup-40.jpg)
+
+![Emax Hawk 5 with props on, picture 1](emax-hawk-5-unboxing-review-and-setup-39.jpg)
 
 ### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
 
-DVR with 4S 1300mah
-DVR 4S 1500mah
+In my tests I flew mostly [1300 mah 4S][4] packs, and a few [1500 mah 4S][5]. I don't think you can feel the difference that much, although it does indeed make the quad a bit heavier. I do prefer to rip 1300 mah packs.
+
+**I think this is hands down the best quad I have flown to date!** My custom build quad doesn't fall too short either, although it cost a bit less to make, but I'm not sure about the value comparison if I factor in the time I put in it and all the issues I had to go through. You can [read about my entire experience building it here][11].
+
+The PID tune really clicked with me from the first pack, the quad was really snappy and fast. It cuts the corners nicely and simply put is just a joy to fly.
+
+TODO: note on Avan vs Dal Props vs Cyclones?
 
 ### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
 
-There are [plenty of Emax Hawk 5 projects on Thingiverse][8] you can use to print different mounts and parts. So far I have printed this wall mount bracket...
+There are [plenty of Emax Hawk 5 projects on Thingiverse][8] you can use to print different mounts and parts. So far I have printed this wall mounting bracket...
 
 ![](emax-hawk-5-unboxing-review-and-setup-34.jpg)
 
@@ -186,23 +242,6 @@ There are [plenty of Emax Hawk 5 projects on Thingiverse][8] you can use to prin
 TODO: Upgrade - Test with different props and write section.
 
 TODO: Upgrade - Considering upgrading to a RunCam Split Mini
-
-![](emax-hawk-5-unboxing-review-and-setup-15.jpg)
-![](emax-hawk-5-unboxing-review-and-setup-16.jpg)
-![](emax-hawk-5-unboxing-review-and-setup-17.jpg)
-![](emax-hawk-5-unboxing-review-and-setup-18.jpg)
-![](emax-hawk-5-unboxing-review-and-setup-19.jpg)
-![](emax-hawk-5-unboxing-review-and-setup-20.jpg)
-![](emax-hawk-5-unboxing-review-and-setup-21.jpg)
-
-a
-![](emax-hawk-5-unboxing-review-and-setup-25.png)
-![](emax-hawk-5-unboxing-review-and-setup-25.png)
-![](emax-hawk-5-unboxing-review-and-setup-26.png)
-![](emax-hawk-5-unboxing-review-and-setup-27.png)
-![](emax-hawk-5-unboxing-review-and-setup-28.png)
-![](emax-hawk-5-unboxing-review-and-setup-29.png)
-![](emax-hawk-5-unboxing-review-and-setup-30.jpg)
 
 Publish unlisted video? - https://www.youtube.com/watch?v=htWUFSzpH14
 
@@ -227,3 +266,5 @@ TIPS: wrap arm shrink tubing with electric tape to keep it in place
 [7]: https://bit.ly/xm-plus
 [8]: https://www.thingiverse.com/search?q=emax+hawk+5&dwh=25d1516d79598b
 [9]: https://bit.ly/taranis-xlite
+[10]: /fpv/make-a-smoke-stopper/
+[11]: /fpv/build-a-quad/
