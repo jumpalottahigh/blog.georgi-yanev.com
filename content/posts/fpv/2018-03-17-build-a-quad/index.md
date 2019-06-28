@@ -270,7 +270,7 @@ And here is some footage:
 [6]: https://github.com/blheli-configurator/blheli-configurator/releases
 [7]: https://bit.ly/budget-multimeter
 [8]: /fpv/make-a-smoke-stopper
-[9]: https://bit.ly/runcam-split-2
+[9]: https://bit.ly/runcam-split2s
 [10]: https://bit.ly/eachine-vtx-03
 [11]: https://bit.ly/runcam-split-mini
 [12]: https://amzn.to/2I4np1N

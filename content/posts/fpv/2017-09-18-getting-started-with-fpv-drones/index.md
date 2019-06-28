@@ -16,8 +16,7 @@ ogImage: './fpv-drones-getting-started-1.jpg'
 ---
 
 <div class="article-update-notification">
-  Show off where and how you fly with the community over at 
-  <strong><a href="https://www.fpvtips.com/fpv-map">www.fpvtips.com/fpv-map</a></strong>.
+  I recently started a YouTube channel called <strong><a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg" target="_blank" rel="noopener noreferrer">FPVTIPS</a></strong> to do much of what I'm doing on this blog - try to help people new to FPV. <strong><a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg" target="_blank" rel="noopener noreferrer">Come check it out!</a></strong>
 </div>
 
 About a month ago I stumbled accross a YouTube video of FPV quad footage. For whatever reason it felt quite captivating. So much so, that within a week I ended up ordering a ready to fly quad set - namely the [Wizard x220][1].

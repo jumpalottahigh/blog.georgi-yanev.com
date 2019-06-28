@@ -884,9 +884,8 @@ div > pre {
 
   .main {
     order: 1;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    /* z-index: 1; */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .sidebar-wrapper {
@@ -999,6 +998,15 @@ iframe {
   display: grid;
   grid-gap: 8px;
   grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+}
+
+.category-container a {
+  display: flex;
+  box-shadow: none;
+}
+
+.category-container .category {
+  width: 100%;
 }
 
 .category {
@@ -1172,6 +1180,16 @@ button {
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+}
+
+.article-update-notification.high-priority a {
+  color: #0175d8 !important;
+  box-shadow: inset 0 -2px 0px 0px #0175d8 !important;
+}
+
+.article-update-notification.high-priority a:hover {
+  color: #fff !important;
+  box-shadow: inset 0 -20px 0px 0px #0175d8 !important;
 }
 
 .main .article-update-notification a {

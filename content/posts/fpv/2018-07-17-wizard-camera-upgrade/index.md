@@ -16,8 +16,7 @@ ogImage: './wizard-camera-upgrade-1.jpg'
 ---
 
 <div class="article-update-notification">
-  Show off where and how you fly with the community over at 
-  <strong><a href="https://www.fpvtips.com/fpv-map">www.fpvtips.com/fpv-map</a></strong>.
+  I recently started a YouTube channel called <strong><a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg" target="_blank" rel="noopener noreferrer">FPVTIPS</a></strong> to do much of what I'm doing on this blog - try to help people new to FPV. <strong><a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg" target="_blank" rel="noopener noreferrer">Come check it out!</a></strong>
 </div>
 
 One of the best upgrades you can do to your [Wizard x220][1] is definitely changing the stock camera. It is pretty much widely agreed upon that that camera is an underperformer. Here's my experience of upgrading to the [Runcam Split 2][2].
@@ -71,7 +70,7 @@ And here's how the 1080p HD 60fps footage looks:
 
 [0]: Linkslist
 [1]: https://bit.ly/eachine-wizardx220
-[2]: https://bit.ly/runcam-split-2
+[2]: https://bit.ly/runcam-split2s
 [3]: https://bit.ly/runcam-switft-2
 [4]: https://bit.ly/xm-plus
 [5]: https://amzn.to/2KgtTN2

@@ -79,7 +79,7 @@ Here's a list of the gear I use. This is a live document that gets updated regul
 [13]: https://bit.ly/antenna-pagoda
 [14]: https://bit.ly/bh-returner
 [15]: https://bit.ly/eachine-vtx-03
-[16]: https://bit.ly/runcam-split-2
+[16]: https://bit.ly/runcam-split2s
 [17]: https://bit.ly/realacc-furious
 [19]: https://bit.ly/taranis-lipo
 [20]: https://bit.ly/budget-multimeter

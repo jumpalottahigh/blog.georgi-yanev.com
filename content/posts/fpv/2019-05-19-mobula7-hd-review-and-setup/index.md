@@ -1,6 +1,7 @@
 ---
 path: '/fpv/mobula7-hd-review-and-setup/'
 date: '2019-05-19'
+updated: '2019-06-12'
 title: 'Mobula7 HD review and setup'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
@@ -21,7 +22,7 @@ ogImage: './mobula7-hd-review-and-setup-5.jpg'
 This is a sponsored review. Be that as it may, I still stand by every word and this is my objective and honest review. I love FPV and want to help people enjoy the hobby.
 </div>
 
-The [Mobula7 HD][1] is right up there at the top of the line micro quads, along with side other drones such as the [Eachine Trashcan][6], [Mobula7][7], [Snapper7][8] and others. Being the latest and greatest quad in Happymodel's lineup means it comes with the best overall specs, but it **also does something, that none of these other micro drones listed above do - it records 1080p 60fps video**.
+The [Mobula7 HD][1] is right up there at the top of the line micro quads, along side with other drones such as the [Eachine Trashcan][6], [Mobula7][7], [Snapper7][8] and others. Being the latest and greatest quad in Happymodel's lineup means it comes with the best overall specs, but it **also does something, that none of these other micro drones listed above do - it records 1080p 60fps video**.
 
 ![Mobula7 HD](mobula7-hd-review-and-setup-5.jpg)
 
@@ -40,6 +41,12 @@ However, the cool thing about the [Mobula7 HD][1] is that it is a micro quad and
 - [Batteries](#batteries)
 - [Upgrades](#upgrades)
 - [Conclusion](#conclusion)
+
+If you prefer watching, check out the full video review:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FhtL0zSx1AU?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD review on fpvtips on YouTube"></iframe>
+</div>
 
 ### 📦 <span id="unboxing">Unboxing</span>
 
@@ -243,6 +250,14 @@ On top of it all, if `cinewhoops` are your thing, I'd crown the Mobula7 HD the *
 
 So if you are in the market for such a micro quad, grab yourself a [Mobula7 HD][1] and you won't be sorry! Happy flying!
 
+#### Who is this for? Grab this if you care about:
+
+- Recording 1080p 60fps video
+- Ease of getting started
+- Having a near perfect tune out of the box
+- Flying a 2S/3S brushless whoop
+- Flying populated public areas safely
+
 #### Where to get it?
 
 ###### Mobula7 HD - [Amazon][2] [Banggood][1]
@@ -258,7 +273,7 @@ So if you are in the market for such a micro quad, grab yourself a [Mobula7 HD][
 [6]: https://bit.ly/eachine-trashcan
 [7]: https://bit.ly/mobula7
 [8]: https://bit.ly/snapper-7
-[9]: https://bit.ly/runcam-split-2
+[9]: https://bit.ly/runcam-split2s
 [10]: https://bit.ly/runcam-split-mini
 [11]: https://bit.ly/crazybee-f4-v2
 [12]: https://bit.ly/mobula7hd-motors

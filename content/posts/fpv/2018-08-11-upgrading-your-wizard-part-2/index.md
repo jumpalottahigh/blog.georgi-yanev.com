@@ -15,8 +15,7 @@ ogImage: './upgrading-your-wizard-part-2-3.jpg'
 ---
 
 <div class="article-update-notification">
-  Show off where and how you fly with the community over at 
-  <strong><a href="https://www.fpvtips.com/fpv-map">www.fpvtips.com/fpv-map</a></strong>.
+  I recently started a YouTube channel called <strong><a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg" target="_blank" rel="noopener noreferrer">FPVTIPS</a></strong> to do much of what I'm doing on this blog - try to help people new to FPV. <strong><a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg" target="_blank" rel="noopener noreferrer">Come check it out!</a></strong>
 </div>
 
 Over time I have done a number of upgrades to my [Wizard x220][2]. So many in fact, it's nowadays more of a custom build than a wizard and that's half the fun.

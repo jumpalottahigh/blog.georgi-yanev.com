@@ -1,6 +1,7 @@
 ---
 path: '/fpv/set-up-taranis-x-lite-update-opentx/'
 date: '2019-04-14'
+updated: '2019-06-12'
 title: 'Set up Taranis X-Lite and update OpenTX'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
@@ -291,6 +292,14 @@ Happy flying!
 #### Where to get it?
 
 ###### Taranis X-Lite - [Amazon][2] [Banggood][1]
+
+#### Who is this for? Grab this if you care about:
+
+- Getting into the FrSky Taranis ecosystem
+- Console gamepad like radio shape
+- Thumb flying
+- A bit smaller form factor
+- High quality transmitter
 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/PigsOtpozno?rel=0" frameBorder="0" allowFullScreen title="First flight with the Taranis X-Lite"></iframe>

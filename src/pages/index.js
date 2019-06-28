@@ -38,6 +38,94 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location}>
         <div className="home-page">
+          {/* TODO: */}
+          {/* <h4 style={{ marginTop: '2rem' }}>Most popular this month:</h4> */}
+          <div className="article-update-notification high-priority">
+            <p style={{ color: '#6c757d' }}>
+              <time datetime="2019-06-23">23 June 2019, Announcement!</time>
+            </p>
+            <h4>
+              I'm starting a YouTube channel called{' '}
+              <a
+                href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                FPVTIPS
+              </a>
+              , to do much of the same I do here - try to help people new to
+              FPV.
+            </h4>
+            <p>
+              I've been really humbled to help so many people over the years and
+              to answer the questions I myself had. I'll continue doing that,
+              and believing in the wonderful hobby of FPV racing drones, and
+              will also from now on do that on YouTube in addition to this blog.
+            </p>
+            <p>
+              Here's how you (yes, YOU) can help -{' '}
+              <strong>
+                👉{' '}
+                <a
+                  href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  come over
+                </a>
+                , 📺 watch the first couple of videos, 📫 subscribe :), and
+                leave me some 💬 feedback in the comments section
+              </strong>
+              . I would REALLY appreciate this, and thank you in advance 💙.
+              <br />
+              <br />
+              I'm sure I have a lot to learn about video production, but hey,
+              you gotta start somewhere, right? And I'm definitely excited about
+              learning and sharing knowledge! Happy flying!
+            </p>
+          </div>
+          <h3 style={{ marginTop: 0 }}>Categories:</h3>
+          <div className="category-container">
+            <Link to="/news/">
+              <button className="category all">All posts</button>
+            </Link>
+            <Link to="/news/?category=fpv">
+              <button className="category fpv">FPV Drones</button>
+            </Link>
+            <Link to="/news/?category=projects">
+              <button className="category projects">Projects</button>
+            </Link>
+            <Link to="/news/?category=learning">
+              <button className="category learning">Learnings</button>
+            </Link>
+            <Link to="/news/?category=smarthome">
+              <button className="category smarthome">Smarthome</button>
+            </Link>
+            <Link to="/news/?category=stories">
+              <button className="category stories">Stories</button>
+            </Link>
+          </div>
+          <h4 style={{ marginTop: '2rem' }}>Last 10 posts:</h4>
+          <PostsList
+            showChevron="yes"
+            showImage="yes"
+            showCategories="no"
+            showSearch="no"
+            posts={posts}
+          />
+          <Link style={{ marginRight: '0.5rem' }} to="/news/">
+            <button className="category fpv">More blog posts</button>
+          </Link>
+          <div
+            className="article-update-notification"
+            style={{ marginTop: '2rem' }}
+          >
+            For more FPV related goodness, make sure you checkout{' '}
+            <strong>
+              <a href="https://www.fpvtips.com">Fpvtips.com</a>
+            </strong>{' '}
+            which I launched a while back!
+          </div>
           <div
             style={{
               display: 'flex',
@@ -121,7 +209,6 @@ class BlogIndex extends React.Component {
             </strong>{' '}
             as well as who knows what else in the future.
           </p>
-
           <p>
             I <strong>write code</strong>, solve problems and sometimes stream
             on twitch. I <strong>love flying FPV drones</strong>, 3D printing,
@@ -153,82 +240,6 @@ class BlogIndex extends React.Component {
             </strong>
             .
           </p>
-          <h4 style={{ marginTop: '2rem' }}>Post categories:</h4>
-          <Link
-            style={{
-              marginRight: '0.5rem',
-              marginBottom: '0.5rem',
-              display: 'inline-block',
-            }}
-            to="/news/"
-          >
-            <button className="category all">All posts</button>
-          </Link>
-          <Link
-            style={{
-              marginRight: '0.5rem',
-              marginBottom: '0.5rem',
-              display: 'inline-block',
-            }}
-            to="/news/?category=fpv"
-          >
-            <button className="category fpv">FPV Drones</button>
-          </Link>
-          <Link
-            style={{
-              marginRight: '0.5rem',
-              marginBottom: '0.5rem',
-              display: 'inline-block',
-            }}
-            to="/news/?category=projects"
-          >
-            <button className="category projects">Projects</button>
-          </Link>
-          <Link
-            style={{
-              marginRight: '0.5rem',
-              marginBottom: '0.5rem',
-              display: 'inline-block',
-            }}
-            to="/news/?category=learning"
-          >
-            <button className="category learning">Learnings</button>
-          </Link>
-          <Link
-            style={{
-              marginRight: '0.5rem',
-              marginBottom: '0.5rem',
-              display: 'inline-block',
-            }}
-            to="/news/?category=smarthome"
-          >
-            <button className="category smarthome">Smarthome</button>
-          </Link>
-          <Link to="/news/?category=stories">
-            <button className="category stories">Stories</button>
-          </Link>
-          <h3 style={{ marginTop: '2rem' }}>Last 5 recent posts:</h3>
-          <PostsList
-            showChevron="yes"
-            showImage="yes"
-            showCategories="no"
-            showSearch="no"
-            posts={posts}
-          />
-          <Link style={{ marginRight: '0.5rem' }} to="/news/">
-            <button className="category fpv">More blog posts</button>
-          </Link>
-          <TinyLetterSignup />
-          <div
-            className="article-update-notification"
-            style={{ marginTop: '2rem' }}
-          >
-            For more FPV related goodness, make sure you checkout{' '}
-            <strong>
-              <a href="https://www.fpvtips.com">Fpvtips.com</a>
-            </strong>{' '}
-            which I launched a while back!
-          </div>
           {loadVideo && (
             <div className="video-container">
               <Fade>
@@ -256,6 +267,7 @@ class BlogIndex extends React.Component {
             of unedited content (fan fiction, music and programming) from the
             early 2000s when I was only 15 - 17.
           </p>
+          <TinyLetterSignup />
           <Img
             style={{ marginBottom: '2rem' }}
             fluid={
@@ -275,7 +287,7 @@ export const HomePageQuery = graphql`
   query HomePageQuery {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      limit: 5
+      limit: 10
       filter: {
         frontmatter: { draft: { ne: true }, category: { ne: "stories" } }
         fileAbsolutePath: { regex: "/content/posts/" }

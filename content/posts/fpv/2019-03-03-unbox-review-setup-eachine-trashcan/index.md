@@ -1,6 +1,7 @@
 ---
 path: '/fpv/unbox-review-setup-eachine-trashcan/'
 date: '2019-03-03'
+updated: '2019-06-12'
 title: 'How to set up Eachine Trashcan micro drone'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
@@ -38,6 +39,12 @@ So let's have a look at what's in the box.
 - [Binding to the radio](#binding)
 - [Flying indoors (1s vs 2s vs throttle limits)](#flying-indoors)
 - [Flying outdoors](#flying-outdoors)
+
+If you prefer watching, check out the full video review:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/OBl8kv0XOkQ?rel=0" frameBorder="0" allowFullScreen title="Eachine Trashcan review on FPVTIPS on YouTube"></iframe>
+</div>
 
 ### 📦 <span id="unboxing">Unboxing experience</span>
 
@@ -119,7 +126,7 @@ Then in your radio create a new model and go to your binding function. I'm using
 
 It is important to note that if you bought the drone with US (FCC) receiver, your Taranis internal module needs to be flashed with the FCC firmware, if you went for the EU (LBT) version, then again your radio needs to be flashed accordingly. Read this to understand [how to flash the Taranis Q X7's internal module][5].
 
-### 🚁 <span id="flying-indoors" class="offset-top-nav">Flyig indoors</span>
+### 🚁 <span id="flying-indoors" class="offset-top-nav">Flying indoors</span>
 
 #### 🔋 1S
 
@@ -147,7 +154,7 @@ set throttle_limit_percent = 70
 
 Try flying now, 1S or 2S up to you (I find that there is not much need for throttle limiting with 1S, but your experience may vary). You can go back to the settings in Betaflight and tweak them to your liking until you are happy with the response from the craft.
 
-### 🚁 <span id="flying-outdoors" class="offset-top-nav">Flyig outdoors</span>
+### 🚁 <span id="flying-outdoors" class="offset-top-nav">Flying outdoors</span>
 
 If you have applied any throttle limiting to your craft, remember to take it off before flying outdoors! This quad rips on 2S outdoors. The default settings are: `Throttle MID` to **0.50**, `Throttle EXPO` to **0.00** and paste this command in from the `CLI` tab:
 
@@ -168,6 +175,18 @@ If you want to fly in city parks or other more populated areas, but don't want t
 Overall, it comes at a great price, it ticks all the checkboxes and get you some extra performance, it flies really well, it's easy to handle and get used to so if you have any of the use cases outlined above (or some other one), **I definitely recommend the [Eachine Trashcan][1] as your first or next micro drone**, and am personally looking forward to ripping around a lot with it this summer!
 
 P.S.: My poor flying here did not take away from the fun had :)
+
+#### Where to get it?
+
+###### Eachine Trashcan - [Banggood][1]
+
+#### Who is this for? Grab this if you care about:
+
+- Flying indoors & outdoors
+- Flying 1S and 2S
+- Great out of the box tune
+- Great value for money
+- Upgradable and replaceable parts
 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/rKG9t7o2xws?rel=0" frameBorder="0" allowFullScreen title="eachine trashcan flight footage 1"></iframe>
