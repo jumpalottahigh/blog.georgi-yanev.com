@@ -129,7 +129,7 @@ class BlogPostTemplate extends React.Component {
               <div>
                 <div className="disclaimer">
                   <a
-                    href="https://twitter.com/jumpalottahigh"
+                    href={post.frontmatter.category === 'fpv' ? 'https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q' : 'https://twitter.com/jumpalottahigh'}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
