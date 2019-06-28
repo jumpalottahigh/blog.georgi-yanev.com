@@ -1,7 +1,7 @@
 ---
 path: '/fpv/emax-hawk-5-unboxing-review-and-setup/'
 date: '2019-06-29'
-title: 'Emax Hawk 5 review, Betaflight setup and footage'
+title: 'Emax Hawk 5 review, Betaflight and radio setup'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
@@ -28,6 +28,7 @@ Today we are having a look at the [Emax Hawk 5][1] BNF 5 inch quad. Let's get to
 - [Betaflight configuration](#betaflight)
 - [Flying](#flying)
 - [Upgrades](#upgrades)
+- [Conclusion](#conclusion)
 
 ### 📦 <span id="unboxing">Unboxing</span>
 
@@ -185,7 +186,7 @@ If you are itching to fly, at this point you are good to go. Don't forget to hit
 
 Here's the rest of the stock configuration:
 
-TODO: configuration page 1 screenshot
+![Betaflight configuration page 1](emax-hawk-5-unboxing-review-and-setup-42.png)
 
 Let's verify that SBUS is set and also with the XM+ receiver we get RSSI output on channel 12, which is neat and can be then shown on the OSD. You can enable it here in the configuration tab.
 
@@ -205,7 +206,7 @@ Finally in the OSD tab select to output the RSSI value.
 
 **PID Tuning tab:**
 
-TODO: PID tuning screenshot
+![Betaflight PID Tuning tab](emax-hawk-5-unboxing-review-and-setup-43.png)
 
 **Motors tab:**
 
@@ -213,48 +214,87 @@ If you want, you can test and make sure the motor directions are correct, but if
 
 ![Betaflight motors tab](emax-hawk-5-unboxing-review-and-setup-28.png)
 
-Now let's go rip some packs!
+Here's the [full stock Betaflight configuration dump + my modes changes](BTFL_cli_Hawk_5_20190628_220337.txt).
 
-![Emax Hawk 5 with props on, picture 2](emax-hawk-5-unboxing-review-and-setup-40.jpg)
+Now let's go rip some packs!
 
 ![Emax Hawk 5 with props on, picture 1](emax-hawk-5-unboxing-review-and-setup-39.jpg)
 
 ### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
 
+TODO: PUT FOOTAGE HERE
+
 In my tests I flew mostly [1300 mah 4S][4] packs, and a few [1500 mah 4S][5]. I don't think you can feel the difference that much, although it does indeed make the quad a bit heavier. I do prefer to rip 1300 mah packs.
 
-**I think this is hands down the best quad I have flown to date!** My custom build quad doesn't fall too short either, although it cost a bit less to make, but I'm not sure about the value comparison if I factor in the time I put in it and all the issues I had to go through. You can [read about my entire experience building it here][11].
+**I think this is hands down the best quad I have flown to date!** My custom build quad doesn't fall too short either, although it cost a bit less to make, but I'm not sure about the value comparison if I factor in the time I put in it and all the issues I had to go through. You can [read about my entire experience building it here][11]. I mean building is fun, but if you wanna fly quick, BNF is probably one of the fastest ways to get in the sky. At least before you get good at building, if that's your cup of tea.
 
-The PID tune really clicked with me from the first pack, the quad was really snappy and fast. It cuts the corners nicely and simply put is just a joy to fly.
+TODO: PUT FOOTAGE HERE
 
-TODO: note on Avan vs Dal Props vs Cyclones?
+The PID tune really clicked with me from the first pack, the quad was really snappy and fast. It cuts the corners nicely and simply put is just a joy to fly. It definitely packs a punch and is truly so much fun to fly. Very responsive as well.
+
+TODO: PUT FOOTAGE HERE
+
+I was curious to what degree that pretty unique flight characteristic was because of the Avan props, so I went ahead and did a test flight with these [Gemfan Hurricane][12] props.
+
+![Emax Hawk 5 with Gemfan Hurricane props](emax-hawk-5-unboxing-review-and-setup-41.jpg)
+
+The bottom line? The [Hawk 5][1] still flies nice, but with the same rates, I actually had to noticably deflect the sticks further to perform the same maneuvers. I feel like the power consumption was lower (haven't measured, so this is just a gut feel, take it for what it is), but also the Hawk lost some of its punch. I will continue testing and experimenting with different props for fun, but **I am convinced that the [Avan Flow][6]'s are probably the best match for this particular craft**.
+
+![Emax Hawk 5 with props on, picture 2](emax-hawk-5-unboxing-review-and-setup-40.jpg)
 
 ### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
 
 There are [plenty of Emax Hawk 5 projects on Thingiverse][8] you can use to print different mounts and parts. So far I have printed this wall mounting bracket...
 
-![](emax-hawk-5-unboxing-review-and-setup-34.jpg)
+![Emax Hawk 5 3D printed wall mount](emax-hawk-5-unboxing-review-and-setup-34.jpg)
 
 ...and this pagoda mount, if you consider upgrading to Pagoda antennas.
 
-![](emax-hawk-5-unboxing-review-and-setup-33.jpg)
+![Emax Hawk 5 Pagoda antenna mount](emax-hawk-5-unboxing-review-and-setup-33.jpg)
 
-TODO: Upgrade - Test with different props and write section.
+The thing that is very easy to do, but definitely comes to mind first is - **add some electric tape to the shrinktubes on the arms** that hold the motor wires down. That's fairly easy to do, but don't underestimate it - the shrinktubing does tend to slide out and the motor wires are really right there in the way of the props. You don't want to be that guy or girl, definitely fix them in place.
 
-TODO: Upgrade - Considering upgrading to a RunCam Split Mini
+I'm currently expecting a [RunCam 5][13] to arrive and definitely planning on testing how the Hawk behaves carrying a camera.
 
-Publish unlisted video? - https://www.youtube.com/watch?v=htWUFSzpH14
+I'm also considering modding the Emax Hawk with a camera that records HD footage, maybe a [RunCam Split Mini 2][14] or a [Caddx Turtle V2][15]. And will make sure to post an update if I do. If you are interested, [subscribe to the newsletter][16] and get notified.
 
-TODO: Footage with a RunCam 5
+### 🔝 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
-5 Published Lunch break videos
+Want my verdict and to move on with your life? Should you buy the [Emax Hawk 5][1] if you are in the market for a 5 inch quad? **Yes, absolutely! I am very happy to recommend this quad to anyone - beginner or experienced pilot!**
+
+First of all this drone is really great value for money. It hits a sweet spot around the \$250 mark. It's not cheap, coming with parts you will change in a month, but it is also not way too expensive. It flies amazing and the tune is top notch.
+
+Can you build something similar for less? Possibly. If you are not experienced with building quads and soldering, it might end up costing you more if you factor in all the expenses and issues. That literally happened to me on my first build. In my case I'm fine with it cause I wanted to learn how to build quads and I valued the experience. But was it hard? Yeah. Did it take a hell of a lot of time? Yep. Did I wish I had a quad to fly at certain points last summer, due to issues? Yea.
+
+I guess my point is that, sometimes it makes sense to buy a BNF or a prebuilt quad. If you decide to do that, going for the Emax Hawk 5 is an amazing option.
+In which case I'd like to remind you that you could support the blog by clicking the purchase link below, which I would really appreciate. Happy flying!
+
+#### Who is this for? Grab this if you care about:
+
+- Ease of getting started
+- Beginner or experienced pilot
+- Having a near perfect tune out of the box
+- Good value for money and good parts
+
+#### Where to get it?
+
+###### Emax Hawk 5 - [Banggood][1]
+
+TODO: Publish unlisted video? and new unlisted video - https://www.youtube.com/watch?v=htWUFSzpH14
+
+https://www.youtube.com/watch?v=WDDIkdS-HBA
+
+Over cast day
+https://www.youtube.com/watch?v=2jHrFx6P_iI
+
+Sunny day
+
+Very late night Finnish sunny summer day (sun very low on the horizon).
+
+TODO: 5 Published Lunch break videos
 https://www.youtube.com/watch?v=EHGsctmuK5E
 https://www.youtube.com/watch?v=TrDwLlx1DGA
 https://www.youtube.com/watch?v=E-O2FAFXRC4
-https://www.youtube.com/watch?v=WDDIkdS-HBA
-https://www.youtube.com/watch?v=2jHrFx6P_iI
-
-TIPS: wrap arm shrink tubing with electric tape to keep it in place
 
 [0]: Linkslist
 [1]: https://bit.ly/emax-hawk-5
@@ -268,3 +308,8 @@ TIPS: wrap arm shrink tubing with electric tape to keep it in place
 [9]: https://bit.ly/taranis-xlite
 [10]: /fpv/make-a-smoke-stopper/
 [11]: /fpv/build-a-quad/
+[12]: https://bit.ly/gemfan-hurricane
+[13]: https://bit.ly/runcam--5
+[14]: https://bit.ly/runcam-split-mini-2
+[15]: https://bit.ly/caddx-turtle-v2
+[16]: https://tinyletter.com/jumpalottahigh
