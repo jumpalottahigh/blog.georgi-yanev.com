@@ -123,6 +123,16 @@ They are definitely performers, never had issues with motors getting hot in my t
 
 ### 🔗 <span id="binding" class="offset-top-nav">Binding and setup</span>
 
+Binding the [Emax Hawk 5][1] is very straightforward. **Take the props off**. Then, you have to take off the top plate in order to access the bind button on the FrSky XM+.
+
+![Emax Hawk 5 stack](emax-hawk-5-unboxing-review-and-setup-14.jpg)
+
+In your radio create a new model. I'm using the X-Lite here, but the setup is nearly identical for most FrSky radios.
+
+![](emax-hawk-5-unboxing-review-and-setup-22.jpg)
+![](emax-hawk-5-unboxing-review-and-setup-23.jpg)
+![](emax-hawk-5-unboxing-review-and-setup-24.jpg)
+
 #### Binding
 
 - Taking off the top plate.
@@ -184,9 +194,8 @@ TODO: Upgrade - Considering upgrading to a RunCam Split Mini
 ![](emax-hawk-5-unboxing-review-and-setup-19.jpg)
 ![](emax-hawk-5-unboxing-review-and-setup-20.jpg)
 ![](emax-hawk-5-unboxing-review-and-setup-21.jpg)
-![](emax-hawk-5-unboxing-review-and-setup-22.jpg)
-![](emax-hawk-5-unboxing-review-and-setup-23.jpg)
-![](emax-hawk-5-unboxing-review-and-setup-24.jpg)
+
+a
 ![](emax-hawk-5-unboxing-review-and-setup-25.png)
 ![](emax-hawk-5-unboxing-review-and-setup-25.png)
 ![](emax-hawk-5-unboxing-review-and-setup-26.png)
@@ -217,3 +226,4 @@ TIPS: wrap arm shrink tubing with electric tape to keep it in place
 [6]: https://bit.ly/avan-flow
 [7]: https://bit.ly/xm-plus
 [8]: https://www.thingiverse.com/search?q=emax+hawk+5&dwh=25d1516d79598b
+[9]: https://bit.ly/taranis-xlite

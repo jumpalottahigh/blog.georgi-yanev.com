@@ -262,7 +262,7 @@ So if you are in the market for such a micro quad, grab yourself a [Mobula7 HD][
 [10]: https://bit.ly/runcam-split-mini
 [11]: https://bit.ly/crazybee-f4-v2
 [12]: https://bit.ly/mobula7hd-motors
-[13]: https://bit.ly/taranis--xlite
+[13]: https://bit.ly/taranis-xlite
 [14]: https://bit.ly/taranis-qx7
 [15]: https://betafpv.com/collections/batteries/products/350mah-2s-lipo-battery-2pcs
 [16]: https://bit.ly/micro-drone-batteries
