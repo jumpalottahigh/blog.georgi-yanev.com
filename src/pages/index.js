@@ -2,13 +2,15 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import { Fade } from 'react-reveal'
+import Spin from 'react-reveal/Spin'
 
 import Layout from '../components/structure/layout'
+import PostsList from '../components/PostsList'
+import TinyLetterSignup from '../components/TinyLetterSignUp'
+import Announcement from '../components/Announcement'
 
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
-import PostsList from '../components/PostsList'
-import TinyLetterSignup from '../components/TinyLetterSignUp'
 
 class BlogIndex extends React.Component {
   state = {
@@ -40,22 +42,38 @@ class BlogIndex extends React.Component {
         <div className="home-page">
           {/* TODO: */}
           {/* <h4 style={{ marginTop: '2rem' }}>Most popular this month:</h4> */}
-          <div className="article-update-notification high-priority">
-            <p style={{ color: '#6c757d' }}>
-              <time datetime="2019-06-23">23 June 2019, Announcement!</time>
-            </p>
-            <h4>
-              I'm starting a YouTube channel called{' '}
-              <a
-                href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                FPVTIPS
-              </a>
-              , to do much of the same I do here - try to help people new to
-              FPV.
-            </h4>
+          <Announcement
+            shortContent={
+              <>
+                <h4 style={{ textAlign: 'center', margin: 0 }}>
+                  🔥 Announcement 🔥
+                </h4>
+                <div className="short-content-inner-container">
+                  <Spin>
+                    <Img
+                      fluid={
+                        this.props.data.fpvtips.edges[0].node.childImageSharp
+                          .fluid
+                      }
+                      alt="FPVTIPS logo"
+                    />
+                  </Spin>
+                  <h4>
+                    I'm starting a YouTube channel called{' '}
+                    <a
+                      href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      FPVTIPS
+                    </a>
+                    , to do much of the same I do here - try to help people new
+                    to FPV.
+                  </h4>
+                </div>
+              </>
+            }
+          >
             <p>
               I've been really humbled to help so many people over the years and
               to answer the questions I myself had. I'll continue doing that,
@@ -83,7 +101,8 @@ class BlogIndex extends React.Component {
               you gotta start somewhere, right? And I'm definitely excited about
               learning and sharing knowledge! Happy flying!
             </p>
-          </div>
+            <time dateTime="2019-06-23">Georgi, 23 June 2019</time>
+          </Announcement>
           <h3 style={{ marginTop: 0 }}>Categories:</h3>
           <div className="category-container">
             <Link to="/news/">
@@ -341,6 +360,19 @@ export const HomePageQuery = graphql`
           name
           childImageSharp {
             fluid(maxWidth: 928, quality: 75) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+    }
+
+    fpvtips: allFile(filter: { relativePath: { regex: "/^home/fpvtips/" } }) {
+      edges {
+        node {
+          name
+          childImageSharp {
+            fluid(maxWidth: 124, quality: 81) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
