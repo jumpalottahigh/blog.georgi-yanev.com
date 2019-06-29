@@ -1,7 +1,7 @@
 ---
 path: '/learning/writing-a-book/'
 date: '2019-03-10'
-updated: '2019-05-30'
+updated: '2019-06-29'
 title: 'I am writing a book!'
 author: 'Georgi Yanev'
 affiliate: ''
@@ -132,6 +132,18 @@ I wrote Chapter 5 for my book **" Born in space "**. I came up with my first min
 https://twitter.com/jumpalottahigh/status/1134080742789656576
 
 #### 6️⃣ June 2019
+
+During June I started reading 'Gray Mountain' by John Grisham, as always I listened to the Writing Excuses pod cast and wrote Chapter 5 of the book.
+
+I did a lot of work on world building, sorting ideas around and killing unnecessary details in Workflowy. I fixed all the typos so far and organized the chapters by giving them descriptive names, to help me remember quicker. I trashed some ideas, and simplified others, to streamline and narrow down the initial effort into particular areas.
+
+**In general, I'd like to put a lot of effort into characters.**
+
+As additional practice and writing, I wrote two short life stories, but am not sure yet if I would publish those. I might still work a bit on one of those called "Why jumpalottahigh?" which deals with why I got that nickname from friends and why did it stick with me for so long. If it comes together nicely I might publish it.
+
+https://twitter.com/jumpalottahigh/status/1145056294803558401
+
+#### 7️⃣ July 2019
 
 ### \* \* \*
 
