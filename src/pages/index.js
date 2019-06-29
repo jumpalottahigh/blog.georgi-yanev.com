@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import { Fade } from 'react-reveal'
+import Spin from 'react-reveal/Spin'
 
 import Layout from '../components/structure/layout'
 import PostsList from '../components/PostsList'
@@ -42,37 +43,37 @@ class BlogIndex extends React.Component {
           {/* TODO: */}
           {/* <h4 style={{ marginTop: '2rem' }}>Most popular this month:</h4> */}
           <Announcement
-            shortText={
-              <div>
-                <h4>
-                  🔥🔥🔥Announcing: FPVTIPS🔥🔥🔥
-                  <br />
-                  the YouTube channel
+            shortContent={
+              <>
+                <h4 style={{ textAlign: 'center', margin: 0 }}>
+                  🔥 Announcement 🔥
                 </h4>
-                <Img
-                  style={{ marginBottom: '2rem', width: '80px' }}
-                  fluid={
-                    this.props.data.fpvtips.edges[0].node.childImageSharp.fluid
-                  }
-                  alt="FPVTIPS logo"
-                />
-                <div style={{}}>test</div>
-              </div>
+                <div className="short-content-inner-container">
+                  <Spin>
+                    <Img
+                      fluid={
+                        this.props.data.fpvtips.edges[0].node.childImageSharp
+                          .fluid
+                      }
+                      alt="FPVTIPS logo"
+                    />
+                  </Spin>
+                  <h4>
+                    I'm starting a YouTube channel called{' '}
+                    <a
+                      href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      FPVTIPS
+                    </a>
+                    , to do much of the same I do here - try to help people new
+                    to FPV.
+                  </h4>
+                </div>
+              </>
             }
           >
-            <p style={{ color: '#6c757d' }}></p>
-            <h4>
-              I'm starting a YouTube channel called{' '}
-              <a
-                href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                FPVTIPS
-              </a>
-              , to do much of the same I do here - try to help people new to
-              FPV.
-            </h4>
             <p>
               I've been really humbled to help so many people over the years and
               to answer the questions I myself had. I'll continue doing that,
