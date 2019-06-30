@@ -1,7 +1,7 @@
 ---
 path: '/fpv/unbox-review-setup-eachine-trashcan/'
 date: '2019-03-03'
-updated: '2019-06-12'
+updated: '2019-06-30'
 title: 'How to set up Eachine Trashcan micro drone'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
@@ -113,6 +113,8 @@ On the `PID Tuning` tab, I again touched nothing in the beginning until I decide
 Finally, in the `Modes` tab, the present configuration was also just fine, I think I just tweaked the position of the switch to my liking. Making it so that I had only two modes: **acro** and **angle**.
 
 ![Betaflight Modes tab](unbox-review-setup-eachine-trashcan-14.png)
+
+And here is the [stock Betaflight config dump](BTFL_cli_eachine-trashcan_20190630_223741.txt) with my added modes setup.
 
 ### 🔗 <span id="binding" class="offset-top-nav">Binding to the radio</span>
 
