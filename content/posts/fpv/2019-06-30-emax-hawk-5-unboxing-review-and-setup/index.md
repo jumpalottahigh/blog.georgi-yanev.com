@@ -1,6 +1,6 @@
 ---
 path: '/fpv/emax-hawk-5-unboxing-review-and-setup/'
-date: '2019-06-29'
+date: '2019-06-30'
 title: 'Emax Hawk 5 review, Betaflight and radio setup'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
@@ -171,7 +171,7 @@ I mentioned already perfect tune. Like, literally my first flight experience, fr
 </div>
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/fJIqgj6Id9U?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 Maiden 1"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fJIqgj6Id9U?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 Maiden 2"></iframe>
 </div>
 
 I am simply in love with that tune. Out of the box with 0 extra tunings. Impressive!
@@ -224,21 +224,33 @@ Now let's go rip some packs!
 
 ### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
 
-TODO: PUT FOOTAGE HERE
-
 In my tests, I flew mostly [1300 mah 4S][4] packs, and a few [1500 mah 4S][5]. I don't think you can feel the difference that much, although it does indeed make the quad a bit heavier. I do prefer to rip 1300 mah packs.
+
+**Sunny day**
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/htWUFSzpH14?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 very sunny day"></iframe>
+</div>
 
 **I think this is hands down the best quad I have flown to date!** My custom build quad doesn't fall too short either, although it cost a bit less to make, I'm not sure about the value comparison if I factor in the time I put in it and all the issues I had to go through. You can [read about my entire experience building it here][11]. I mean building is fun, but if you wanna fly quick, BNF is probably one of the fastest ways to get in the sky. At least before you get good at building if that's your cup of tea.
 
-TODO: PUT FOOTAGE HERE
+**Overcast day**
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/WDDIkdS-HBA?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 overcast"></iframe>
+</div>
 
 The PID tune really clicked with me from the first pack, the quad was really snappy and fast. It cuts the corners nicely and simply put is just a joy to fly. It definitely packs a punch and is truly so much fun to fly. Very responsive as well.
-
-TODO: PUT FOOTAGE HERE
 
 I was curious to what degree that pretty unique flight characteristic was because of the Avan props, so I went ahead and did a test flight with these [Gemfan Hurricane][12] props.
 
 ![Emax Hawk 5 with Gemfan Hurricane props](emax-hawk-5-unboxing-review-and-setup-41.jpg)
+
+**Gemfan Hurricane props and late night Finnish sunny summer day (sun very low on the horizon)**
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/jeIA1IsE5U8?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 with Gemfan Hurricane props on a very sunny day, late night, sun low on the horizon"></iframe>
+</div>
 
 The bottom line? The [Hawk 5][1] still flies nice, but with the same rates, I actually had to noticeably deflect the sticks further to perform the same maneuvers. I feel like the power consumption was lower (haven't measured, so this is just a gut feel, take it for what it is), but also the Hawk lost some of its punch. I will continue testing and experimenting with different props for fun, but **I am convinced that the [Avan Flow][6]'s are probably the best match for this particular craft**.
 
@@ -281,22 +293,6 @@ In which case I'd like to remind you that you could support the blog by clicking
 #### Where to get it?
 
 ###### Emax Hawk 5 - [Banggood][1]
-
-TODO: Publish unlisted video? and new unlisted video - https://www.youtube.com/watch?v=htWUFSzpH14
-
-https://www.youtube.com/watch?v=WDDIkdS-HBA
-
-Overcast day
-https://www.youtube.com/watch?v=2jHrFx6P_iI
-
-Sunny day
-
-Very late night Finnish sunny summer day (sun very low on the horizon).
-
-TODO: 5 Published Lunch break videos
-https://www.youtube.com/watch?v=EHGsctmuK5E
-https://www.youtube.com/watch?v=TrDwLlx1DGA
-https://www.youtube.com/watch?v=E-O2FAFXRC4
 
 [0]: Linkslist
 [1]: https://bit.ly/emax-hawk-5
