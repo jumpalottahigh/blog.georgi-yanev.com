@@ -59,7 +59,7 @@ class BlogIndex extends React.Component {
                     />
                   </Spin>
                   <h4>
-                    I'm starting a YouTube channel called{' '}
+                    I'm starting a new YouTube channel called{' '}
                     <a
                       href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
                       target="_blank"
