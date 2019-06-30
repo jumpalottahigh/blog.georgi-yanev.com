@@ -20,6 +20,10 @@ If you are into web development you might have heard the term [Progressive Web A
 
 > If you are familiar with PWAs or don't care about the 'why', skip straight to [publishing a PWA on Google Play](#publishing-pwa-on-google-play).
 
+> **If you just want to see the end result - [fpvtips in Google Play][26]. Based on the PWA at - [www.fpvtips.com][4]**
+
+### Progressive Web Apps
+
 What are the benefits of having a PWA? Many. Ranging from overall site performance improvement, the ability to serve content while the user is offline, secure content via HTTPS, the capability to install the app on many devices, including [support for desktop installs][2] landing recently.
 
 In a nutshell, a PWA has to have a manifest file and a service worker (and [many other things, here's the full checklist][3]). The manifest file (called `manifest.webmanifest`) describes a number of app details, such as different logo assets, theme color, background color, app name, etc. You can [read more about the manifest file here][5].
@@ -220,3 +224,4 @@ That's all :) Congrats! You shipped a PWA to the Google Play store! Big up! If y
 [23]: https://romannurik.github.io/AndroidAssetStudio/index.html
 [24]: https://twitter.com/jumpalottahigh
 [25]: https://github.com/jumpalottahigh
+[26]: https://play.google.com/store/apps/details?id=com.fpvtips&hl=en
