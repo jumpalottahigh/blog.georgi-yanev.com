@@ -13,6 +13,7 @@ import ModeSwitch from '../components/Mode'
 import EditOnGitHub from '../components/Edit'
 import AskAQuestion from '../components/AskAQuestion'
 import ReaderQuestions from '../components/ReaderQuestions'
+import PromoBanner from '../components/PromoBanner'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -125,11 +126,22 @@ class BlogPostTemplate extends React.Component {
           <div className="blog-post">
             <ReadProgressLine />
             <h1>{post.frontmatter.title}</h1>
+            {post.frontmatter.category === 'fpv' && (
+              <PromoBanner
+                name="Shopping Guide"
+                linkTo="https://www.banggood.com/promotion-banggood-2019-Summer-Sale-Shopping-Guide-9165.html?utmid=8589&p=NY211410857261201705"
+                imagePath="/promo/banggood-shopping-guide-july-2019.jpg"
+              />
+            )}
             <div className="disclaimer-container">
               <div>
                 <div className="disclaimer">
                   <a
-                    href={post.frontmatter.category === 'fpv' ? 'https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q' : 'https://twitter.com/jumpalottahigh'}
+                    href={
+                      post.frontmatter.category === 'fpv'
+                        ? 'https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q'
+                        : 'https://twitter.com/jumpalottahigh'
+                    }
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -160,6 +172,13 @@ class BlogPostTemplate extends React.Component {
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
+            {post.frontmatter.category === 'fpv' && (
+              <PromoBanner
+                name="RC"
+                linkTo="https://www.banggood.com/promotion-2019-summer-rc-outdoor-sale-promotion-9166.html?utmid=8759&utm_design=80&p=NY211410857261201705"
+                imagePath="/promo/banggood-rc-july-2019.jpg"
+              />
+            )}
             <FeedbackSection />
             <AskAQuestion />
             <RelatedArticles
