@@ -16,7 +16,7 @@ ogDescription: "If you are into web development you might have heard the term Pr
 ogImage: './how-to-publish-a-pwa-on-google-play-0.jpg'
 ---
 
-If you are into web development you might have heard the term [Progressive Web App (PWA)][1]. It has been floating around for quite a while now and is definitely no longer considered novelty. In fact, many big publications and site have implemented the features required to be considered a PWA. This blog post does not aim to make you familiar with PWAs or to sell you on the idea, but I'd like to take a paragraph to at least demystify the core idea of what we are talking about before we get into how you could actually publish such an application on the Google Play store.
+If you are into web development you might have heard the term [Progressive Web App (PWA)][1]. It has been floating around for quite a while now and is definitely no longer considered novelty. In fact, many big publications and sites have implemented the features required to be considered a PWA. This blog post does not aim to make you familiar with PWAs or to sell you on the idea, but I'd like to take a paragraph to at least demystify the core idea of what we are talking about before we get into how you could actually publish such an application on the Google Play store.
 
 > If you are familiar with PWAs or don't care about the 'why', skip straight to [publishing a PWA on Google Play](#publishing-pwa-on-google-play).
 
@@ -92,7 +92,7 @@ There are projects in React land such as [Gatsby][9] and [Create React App][8] (
 
 Which brings me to my project and wraps up the PWA introduction. I'm running [www.fpvtips.com][4] as a PWA, built with [Gatsby][10]. The source code of my project is open and available at [https://github.com/jumpalottahigh/fpvtips][11].
 
-**I absolutely love building things with Gatsby, because it allows me to use React, GraphQL, deploys performance first built experiences, creates PWAs for breakfast and it a joy to build things with.** You can read more about why [I love the JAMstack, Gatsby and Netlify here][12].
+**I absolutely love building things with Gatsby, because it allows me to use React, GraphQL, deploys performance first built experiences, creates PWAs for breakfast and it's a joy to build things with.** You can read more about why [I love the JAMstack, Gatsby and Netlify here][12].
 
 So, you are following along and you have a basic PWA setup using Gatsby. You ran:
 
@@ -100,7 +100,7 @@ So, you are following along and you have a basic PWA setup using Gatsby. You ran
 npx gatsby new my-pwa
 ```
 
-And then you enabled the offline plugin in `gatsby-config` by uncommenting it. Yes, that is really all it takes 💜. Bonus points for dragging and dropping the output folder called `public` to [Netlify][13], effectively getting it up and running live on the internet in literally seconds. Crazy, right? And they say web dev is hard in 2019.
+And then you enabled the offline plugin in `gatsby-config.js` by uncommenting it. Yes, that is really all it takes 💜. Bonus points for running `gatsby build` and dragging and dropping the output folder called `public` to [Netlify][13], effectively getting it up and running live on the internet in literally seconds. Crazy, right? And they say web dev is hard in 2019.
 
 Now onto the good stuff. For a while now, you could package up a site inside a web view and deploy that hybrid app to the Google Play store. However, if the user has no internet connection, you are out of luck. Now, there is a better way to do it, not requiring any web view shenanigans. Enter, [Trusted Web Activity (TWA)][14]. I'm not gonna get into a lot of details, read up on it if you are curious to know more.
 
