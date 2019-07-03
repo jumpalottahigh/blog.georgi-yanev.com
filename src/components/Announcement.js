@@ -12,7 +12,7 @@ const StyledAnnouncement = styled.div`
 
     .gatsby-image-wrapper {
       margin: 1rem 0;
-      width: 200px;
+      width: 120px;
     }
   }
 

@@ -46,7 +46,7 @@ We are greeted by some manuals for the different components, for the stack, for 
 
 ![Emax Hawk 5 in the protective foam in the box](emax-hawk-5-unboxing-review-and-setup-3.jpg)
 
-Very cool packaging and I'd be very surprised if there were any defects because of shipping. Not a change when everything is wrapped with soft foam.
+Very cool packaging and I'd be very surprised if there were any defects because of shipping. Not a chance when everything is wrapped with soft foam.
 
 But let's get to the good stuff, let's see what we get.
 
