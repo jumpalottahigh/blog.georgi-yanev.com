@@ -33,6 +33,21 @@ class BlogPostTemplate extends React.Component {
       title: post.frontmatter.title,
     }
 
+    let showBanner = false
+    let bannerDetails = {}
+
+    if (post.frontmatter.category === 'fpv') {
+      showBanner = true
+      bannerDetails.linkTo =
+        'https://www.banggood.com/promotion-banggood-2019-summer-prime-sale-9178.html?utmid=8617&p=NY211410857261201705'
+      bannerDetails.imagePath = '/promo/banggood-summer-prime-sale-2019.png'
+    } else if (post.frontmatter.category === 'smarthome') {
+      showBanner = true
+      bannerDetails.linkTo =
+        'https://www.banggood.com/promotion-2019-summer-electronics-tools-sale-9176.html?utmid=8741&utm_design146&p=NY211410857261201705'
+      bannerDetails.imagePath = '/promo/banggood-tools-2019.jpg'
+    }
+
     return (
       <Layout location={this.props.location}>
         <Helmet
@@ -126,11 +141,10 @@ class BlogPostTemplate extends React.Component {
           <div className="blog-post">
             <ReadProgressLine />
             <h1>{post.frontmatter.title}</h1>
-            {post.frontmatter.category === 'fpv' && (
+            {showBanner && (
               <PromoBanner
-                name="Shopping Guide"
-                linkTo="https://www.banggood.com/promotion-banggood-2019-Summer-Sale-Shopping-Guide-9165.html?utmid=8589&p=NY211410857261201705"
-                imagePath="/promo/banggood-shopping-guide-july-2019.jpg"
+                linkTo={bannerDetails.linkTo}
+                imagePath={bannerDetails.imagePath}
               />
             )}
             <div className="disclaimer-container">
@@ -172,13 +186,10 @@ class BlogPostTemplate extends React.Component {
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
-            {post.frontmatter.category === 'fpv' && (
-              <PromoBanner
-                name="RC"
-                linkTo="https://www.banggood.com/promotion-2019-summer-rc-outdoor-sale-promotion-9166.html?utmid=8759&utm_design=80&p=NY211410857261201705"
-                imagePath="/promo/banggood-rc-july-2019.jpg"
-              />
-            )}
+            <PromoBanner
+              linkTo="https://www.banggood.com/promotion-2019-summer-rc-outdoor-sale-promotion-9166.html?utmid=8759&utm_design=80&p=NY211410857261201705"
+              imagePath="/promo/banggood-rc-july-2019.jpg"
+            />
             <FeedbackSection />
             <AskAQuestion />
             <RelatedArticles
@@ -187,12 +198,17 @@ class BlogPostTemplate extends React.Component {
             />
             {readerQuestions && <ReaderQuestions data={readerQuestions} />}
             <SupportSection affiliateNote={post.frontmatter.affiliate} />
+
             <DiscussionEmbed
               shortname={disqusShortname}
               config={disqusConfig}
             />
             <Share url={post.frontmatter.path} />
             <TinyLetterSignup />
+            <PromoBanner
+              linkTo="https://www.banggood.com/promotion-banggood-2019-summer-prime-sale-9178.html?utmid=8617&p=NY211410857261201705"
+              imagePath="/promo/banggood-summer-sale-2019.jpg"
+            />
           </div>
         </div>
       </Layout>
