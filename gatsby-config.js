@@ -88,6 +88,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: `1392110`,
+        sv: `6`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-feed`,
       options: {
         feeds: [
