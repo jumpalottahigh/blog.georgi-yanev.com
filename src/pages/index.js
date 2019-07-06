@@ -287,13 +287,55 @@ class BlogIndex extends React.Component {
             early 2000s when I was only 15 - 17.
           </p>
           <TinyLetterSignup />
-          <Img
-            style={{ marginBottom: '2rem' }}
-            fluid={
-              this.props.data.homeBottom.edges[0].node.childImageSharp.fluid
-            }
-            alt="Drone, Georgi flying FPV and coding work station"
-          />
+          <div style={{ display: 'flex' }}>
+            <a
+              style={{
+                width: '50%',
+                boxShadow: 'none',
+                border: '1px solid #dedede',
+              }}
+              href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Img
+                fluid={this.props.data.youtubeFpvtips.childImageSharp.fluid}
+                alt="FPVTIPS YouTube channel"
+              />
+            </a>
+            <a
+              style={{
+                width: '50%',
+                boxShadow: 'none',
+                border: '1px solid #dedede',
+                borderLeft: 'none',
+              }}
+              href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Img
+                fluid={this.props.data.youtubeGeorgiFpv.childImageSharp.fluid}
+                alt="GeorgiFPV YouTube channel"
+              />
+            </a>
+          </div>
+          <a
+            style={{
+              boxShadow: 'none',
+            }}
+            href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Img
+              style={{ marginBottom: '2rem' }}
+              fluid={
+                this.props.data.homeBottom.edges[0].node.childImageSharp.fluid
+              }
+              alt="Drone, Georgi flying FPV and coding work station"
+            />
+          </a>
         </div>
       </Layout>
     )
@@ -376,6 +418,22 @@ export const HomePageQuery = graphql`
               ...GatsbyImageSharpFluid_withWebp
             }
           }
+        }
+      }
+    }
+
+    youtubeFpvtips: file(relativePath: { regex: "/^home/home-fpvtips/" }) {
+      childImageSharp {
+        fluid(maxWidth: 362, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    youtubeGeorgiFpv: file(relativePath: { regex: "/^home/home-georgifpv/" }) {
+      childImageSharp {
+        fluid(maxWidth: 362, quality: 100) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
