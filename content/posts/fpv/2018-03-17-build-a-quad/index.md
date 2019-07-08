@@ -272,7 +272,7 @@ And here is some footage:
 [8]: /fpv/make-a-smoke-stopper
 [9]: https://bit.ly/runcam-split2s
 [10]: https://bit.ly/eachine-vtx-03
-[11]: https://bit.ly/runcam-split-mini
+[11]: https://bit.ly/runcam-split-mini-2
 [12]: https://amzn.to/2I4np1N
 [13]: https://bit.ly/eachine-vtx-03
 [14]: https://amzn.to/2IhPKB0
