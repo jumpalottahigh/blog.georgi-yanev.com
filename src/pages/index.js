@@ -356,7 +356,7 @@ export const HomePageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 350)
+          excerpt(pruneLength: 320)
           id
           timeToRead
           frontmatter {
