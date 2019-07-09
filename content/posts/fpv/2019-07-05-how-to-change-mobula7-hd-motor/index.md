@@ -40,7 +40,7 @@ You can do a lot to repair a motor yourself, depending on what's wrong with it. 
 
 ![Mobula7 HD motor, model EX1102 10000 KV](how-to-change-mobula7-hd-motor-2.jpg)
 
-In my case, I had other projects I wanted to focus on, and even though I noticed it was only a broken wire in my case, I decided to just [purchase a new motor][4]. If I ever repair the old one, it wouldn't hurt to have it lying around as a spare anyway.
+In my case, I had other projects I wanted to focus on, so even though my issue was just having a broken wire, I decided to [purchase a new motor][4]. If I ever repair the old one, it wouldn't hurt to have it lying around as a spare anyway.
 
 Plus the [motors for the Mobula7 HD][4] are pretty cheap. Just make sure you pay attention to what KV you buy. My Mobula7 HD is the older version rocking the 10000 KV motors, but depending on when you got your quad it could be with 9000 KV motors instead. For shaft diameter, I had to select 1mm. Select wisely, the link to the motors is the same, just make sure you grab the correct KV and shaft diameter.
 
