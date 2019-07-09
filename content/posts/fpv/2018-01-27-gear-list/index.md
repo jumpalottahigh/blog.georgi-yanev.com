@@ -16,7 +16,7 @@ ogDescription:
 ogImage: './gear-list-1.jpg'
 ---
 
-Here's a list of the gear I use. This is a live document that gets updated regularly whenever there is anything of note to be added.
+Here's a list of the gear I use in 2018.
 
 ### 🤓 Goggles & antennas
 
