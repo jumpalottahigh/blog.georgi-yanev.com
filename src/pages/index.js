@@ -68,7 +68,7 @@ class BlogIndex extends React.Component {
                       FPVTIPS
                     </a>
                     , to do much of the same I do here - try to help people new
-                    to FPV. Come check it out 👀 and subscribe 📫.
+                    to FPV racing drones. Come check it out 👀 and subscribe 📫.
                   </h4>
                 </div>
               </>
