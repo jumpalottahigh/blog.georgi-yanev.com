@@ -1,6 +1,7 @@
 ---
 path: '/fpv/backpack-upgrade/'
 date: '2018-07-01'
+updated: '2019-07-09'
 title: 'Backpack upgrade'
 author: 'Georgi Yanev'
 draft: false
@@ -12,11 +13,13 @@ tags:
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'FPV, backpack, racing quads, drone, quad, gear, radio, googles backpack'
 ogDescription: "A couple of weeks ago I switched to the new Realacc backpack and now the time has come to drop a few words on it. Spoiler: It's pretty awesome!"
-ogImage: './backpack-upgrade-1.jpg'
+ogImage: './backpack-upgrade-6.jpg'
 ---
 
 <div class="article-update-notification">
-  I recently started a YouTube channel called <strong><a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg" target="_blank" rel="noopener noreferrer">FPVTIPS</a></strong> to do much of what I'm doing on this blog - try to help people new to FPV. <strong><a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg" target="_blank" rel="noopener noreferrer">Come check it out!</a></strong>
+  <strong>Update: 9 July 2019</strong><br/>
+  A year later I'm still absolutely loving the backpack. I took it abroad with me on two trips, and use it daily when flying drones.
+  <a href="#update-july-2019">Read about the updates at the end of this article.</a>
 </div>
 
 A couple of weeks ago I switched to the new [Realacc backpack][1] and now the time has come to drop a few words on it.
@@ -37,6 +40,16 @@ Additionally in the front pocket there is a tool holder sheet, and here is how I
 ![Realacc tool holder sheet](backpack-upgrade-4.jpg)
 
 Overall very happy with the backpack. It's surprisingly spacious, I'm not using even 80% of the space. For \$50 it's a good investment for your drone gear. Recommmend 10/10! And no, this is not a paid review, just my own experience with a pretty good product.
+
+### <span id="update-july-2019" class="offset-top-nav">Update: July 2019</span>
+
+Just wanted to follow up and reiterate what a good purchase this has really been. A year of heavy use later I still have had no issues with the backpack. It's pretty much as good as new. I took it on a few trips with me, packed with drone gear and clothes and it was a perfect carry on bag. In fact, I was surprised how much stuff you can fit in it.
+
+![Georgi FPV's drone gear packed inside Realacc backpack](backpack-upgrade-5.jpg)
+
+On top of it all, the [Realacc backpack][1] carries three 5-inch quads on it with ease :) Love it, love it! Happy flying!
+
+![Realacc backpack with three 5-inch quads on it](backpack-upgrade-6.jpg)
 
 #### Where to buy it?
 
