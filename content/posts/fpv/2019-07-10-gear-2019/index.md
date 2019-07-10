@@ -1,7 +1,7 @@
 ---
 path: '/fpv/gear-2019/'
 date: '2019-07-10'
-title: 'Gear list (2019)'
+title: 'My FPV drone gear for 2019'
 author: 'Georgi Yanev'
 draft: false
 category: 'fpv'
