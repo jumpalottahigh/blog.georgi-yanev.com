@@ -21,4 +21,5 @@ https://blog.georgi-yanev.com/posts/*                       https://blog.georgi-
 # 404s uncovered through Netlify Analytics
 /fpv/mobula7-hd-review-and-setup/Eachine                    /fpv/mobula7-hd-review-and-setup/
 /fpv/unbox-review-setup-eachine-trashcan/Custom             /fpv/unbox-review-setup-eachine-trashcan/
-/fpv/build-a-quad/---🔝                                    /fpv/build-a-quad/
+/fpv/build-a-quad/--*                                       /fpv/build-a-quad/
+/fpv/add-dvr-to-eachine                                     /fpv/add-dvr-to-eachine-vr-007-pro/
