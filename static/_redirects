@@ -6,12 +6,19 @@ https://www.georgiyanev.dev/*                               https://blog.georgi-
 https://blog-georgi.netlify.com/*                           https://blog.georgi-yanev.com/:splat          301!
 
 # Moved pages
-/extras/fpv-videos/                                         https://blog.georgi-yanev.com/videos/fpv/     301!
-/fpv/review-set-up-update-taranis-x-lite/                   https://blog.georgi-yanev.com/fpv/set-up-taranis-x-lite-update-opentx/     301!
+/extras/fpv-videos/                                         /videos/fpv/                                  301!
+/fpv/review-set-up-update-taranis-x-lite/                   /fpv/set-up-taranis-x-lite-update-opentx/     301!
+/software/how-to-become-a-good-developer*                   /learning/how-to-become-a-good-developer/     301!
 
 # Additional redirects
 https://blog.georgi-yanev.com/posts/*                       https://blog.georgi-yanev.com/news/:splat     301!
 
+# Plebs be tryin to access those locations. Got'em.
 /wp-login.php                                               /
 /ads.txt                                                    /
 /config.json                                                /
+
+# 404s uncovered through Netlify Analytics
+/fpv/mobula7-hd-review-and-setup/Eachine                    /fpv/mobula7-hd-review-and-setup/
+/fpv/unbox-review-setup-eachine-trashcan/Custom             /fpv/unbox-review-setup-eachine-trashcan/
+/fpv/build-a-quad/---🔝                                    /fpv/build-a-quad/
