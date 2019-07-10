@@ -11,3 +11,7 @@ https://blog-georgi.netlify.com/*                           https://blog.georgi-
 
 # Additional redirects
 https://blog.georgi-yanev.com/posts/*                       https://blog.georgi-yanev.com/news/:splat     301!
+
+/wp-login.php                                               /
+/ads.txt                                                    /
+/config.json                                                /
