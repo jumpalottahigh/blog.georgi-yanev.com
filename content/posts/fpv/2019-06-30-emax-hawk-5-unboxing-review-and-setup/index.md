@@ -1,6 +1,7 @@
 ---
 path: '/fpv/emax-hawk-5-unboxing-review-and-setup/'
 date: '2019-06-30'
+updated: '2019-07-11'
 title: 'Emax Hawk 5 review, Betaflight and radio setup'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
@@ -111,6 +112,26 @@ The battery leads have a zip tie to reduce some of the potential impact / pull t
 ![Emax Hawk 5 Foxeer Micro Arrow camera](emax-hawk-5-unboxing-review-and-setup-35.jpg)
 
 However, I'm not sure if it is the camera tune but I haven't been getting very good results late at night when the sun is low on the horizon. In particular, when I fly with the sun behind me, the camera produces a gorgeous image, but flying towards the sun leads to almost pitch black picture. I will make sure to update the post if I solve this by tweaking the camera settings.
+
+**UPDATE:** These issues are indeed solvable with manually adjusting the white balance settings on the camera. To do that, connect the camera joystick and use it to configure the settings to your preference. For me, these worked out pretty well in all weather conditions.
+
+Set `WHITE BALANCE` to manual:
+
+![Set `WHITE BALANCE` to manual](emax-hawk-5-unboxing-review-and-setup-44.jpg)
+
+Adjust the `BLUE` and `RED` values until you achieve an image you prefer:
+
+![Adjust the `BLUE` and `RED` values until you achieve an image you prefer](emax-hawk-5-unboxing-review-and-setup-45.jpg)
+
+Go into `IMAGE ADJUSTMENTS` under `SPECIAL` and change the `CONTRAST` and `SHARPNESS` if you need to do so:
+
+![Go into `IMAGE ADJUSTMENTS` under `SPECIAL` and change the `CONTRAST` and `SHARPNESS` if you need to do so](emax-hawk-5-unboxing-review-and-setup-46.jpg)
+
+Finally under `DISPLAY` adjust the LCD settings:
+
+![Finally under `DISPLAY` adjust the LCD settings](emax-hawk-5-unboxing-review-and-setup-47.jpg)
+
+With those settings I was able to get pretty decent image from the camera in overcast and sunny conditions alike.
 
 However, the reality of it all is that, I'm comparing against the RunCam Split 2 and the WDR on the RunCam is not all over the place in the same conditions and I am able to fly in each direction with decent picture and no issues, with the stock tune on the RunCam Split 2.
 
@@ -270,6 +291,18 @@ The thing that is very easy to do, but definitely comes to mind first is - **add
 
 I'm currently expecting a [RunCam 5][13] to arrive and definitely planning on testing how the Hawk behaves carrying a camera.
 
+**Update:** I got the RunCam 5 and as expected, the Hawk flies flawlessly with it. The RunCam 5 is about 56g and even lighter than a GoPro. Here's some example footage of flying the Emax Hawk 5 with a RunCam 5 on it.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/9x8dLzg8v0w?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 flying with RunCam 5 on it"></iframe>
+</div>
+
+And here's the full Emax Hawk 5 playlist on my YouTube channel - [Georgi FPV][17]:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/yaP5ZEdxjeQ?rel=0&list=PLt8_2AobQjAchnnycxVjtuaoVJFIkDjyw" frameBorder="0" allowFullScreen title="Emax Hawk 5 full playlist on Georgi FPV on YouTube"></iframe>
+</div>
+
 I'm also considering modding the Emax Hawk with a camera that records HD footage, maybe a [RunCam Split Mini 2][14] or a [Caddx Turtle V2][15]. And will make sure to post an update if I do. If you are interested, [subscribe to the newsletter][16] and get notified.
 
 ### 🔝 <span id="conclusion" class="offset-top-nav">Conclusion</span>
@@ -311,3 +344,4 @@ In which case I'd like to remind you that you could support the blog by clicking
 [14]: https://bit.ly/runcam-split-mini-2
 [15]: https://bit.ly/caddx-turtle-v2
 [16]: https://tinyletter.com/jumpalottahigh
+[17]: https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q
