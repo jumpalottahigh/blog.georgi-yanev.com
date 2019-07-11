@@ -51,4 +51,4 @@ in order of settings:
 0010 - 1080p120 fps (full pack)
 
 [0]: Linkslist
-[1]: asd
+[1]: https://bit.ly/runcam--5

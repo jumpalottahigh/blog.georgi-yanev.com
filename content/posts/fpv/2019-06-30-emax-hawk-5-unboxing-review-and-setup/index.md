@@ -190,7 +190,7 @@ Here's the rest of the stock configuration:
 
 ![Betaflight configuration page 1](emax-hawk-5-unboxing-review-and-setup-42.png)
 
-Let's verify that SBUS is set and also with the XM+ receiver we get RSSI output on channel 12, which is neat and can be then shown on the OSD. You can enable it here in the configuration tab.
+Let's verify that SBUS is set and also with the XM+ receiver we get RSSI output on channel 12, which is neat and can be then shown on the OSD. In order to see the correct values, make sure RSSI_ADC analog is **switched off** in this page.
 
 ![Betaflight configuration page 2](emax-hawk-5-unboxing-review-and-setup-27.png)
 
