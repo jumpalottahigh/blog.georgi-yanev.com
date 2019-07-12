@@ -10,6 +10,7 @@ const NewsPage = ({ data }) => (
       showChevron="yes"
       showImage="yes"
       showCategories="yes"
+      showTags="yes"
       showSearch="yes"
       filterCategoriesAndTagsFromURLParams="yes"
       posts={data.allMarkdownRemark.edges}

@@ -12,6 +12,7 @@ tags:
   - 'cinewhoop'
   - 'micro'
   - 'diy'
+  - 'motor'
 ogKeywords: 'repair, diy, swap a motor, debug motor, fix motor, fpv, quad, drone, mobula, mobula7, mobula7 hd, happymodel, microdrone, micro quad, cinewhoop, hd footage, 1080p, 60fps, 1080p dvr, flying micro drone, fly micro quad, fpv racing, fpv freestyle, freestyle micro drone, review, setup, setup mobula 7 hd, configure mobula 7 hd'
 ogDescription: 'Changing a motor on the Mobula7 HD is a fairly straight forward process, but there might be a few gotchas, particularly if you are new to the hobby. However, fear not, as we are gonna go over the whole process.'
 ogImage: './how-to-change-mobula7-hd-motor-1.jpg'

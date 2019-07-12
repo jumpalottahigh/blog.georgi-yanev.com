@@ -8,7 +8,7 @@ draft: false
 category: 'learning'
 tags:
   - 'learning'
-  - 'projects'
+  - 'project'
   - 'webdev'
   - 'talk'
   - 'gatsby'

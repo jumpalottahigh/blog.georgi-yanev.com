@@ -10,6 +10,9 @@ tags:
   - 'android'
   - 'twa'
   - 'webdev'
+  - 'gatsby'
+  - 'netlify'
+  - 'jamstack'
 affiliate: ''
 ogKeywords: 'GitHub, learning, developing, web dev, javascript, pwa, service worker, workbox, manifest.json, es6, publish on google play, how to publish a pwa on google play, how to make a PWA, git, gatsby, make a pwa with gatsby, publish a gatsby app to google play'
 ogDescription: "If you are into web development you might have heard the term Progressive Web App (PWA). It has been floating around for quite a while now and is definitely no longer considered novelty. In fact, many big publications and site have implemented the features required to be considered a PWA. This blog post does not aim to make you familiar with PWAs or to sell you on the idea, but I'd like to take a paragraph to at least demystify the core idea of what we are talking about, before we get into how you could actually publish such an application to the Google Play store."

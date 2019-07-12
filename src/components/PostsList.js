@@ -72,9 +72,7 @@ const Post = ({
           {post.node.frontmatter.author} on{' '}
           <strong>{post.node.frontmatter.date}</strong> in{' '}
           <strong
-            className={`post-preview-category category ${
-              post.node.frontmatter.category
-            }`}
+            className={`post-preview-category category ${post.node.frontmatter.category}`}
             data-filter={post.node.frontmatter.category}
             onClick={handleCategoryClick}
           >
@@ -131,6 +129,8 @@ export default class PostsList extends React.Component {
       smarthome: [],
       stories: [],
       postsFilteredByTag: [],
+      allTags: {},
+      renderTags: false,
     }
   }
 
@@ -140,9 +140,10 @@ export default class PostsList extends React.Component {
     let projects = []
     let smarthome = []
     let stories = []
+    let allTags = {}
 
-    // Filter the data
     pages.forEach(page => {
+      // Sort the pages by category
       switch (page.node.frontmatter.category) {
         case 'learning':
           learning.push(page)
@@ -162,6 +163,16 @@ export default class PostsList extends React.Component {
         default:
           break
       }
+
+      // Create a list of all tags and the amount of occurances they have
+      let tags = page.node.frontmatter.tags
+      for (let tag of tags) {
+        if (!allTags[tag]) {
+          allTags[tag] = 1
+        } else {
+          allTags[tag]++
+        }
+      }
     })
 
     this.setState({
@@ -170,6 +181,7 @@ export default class PostsList extends React.Component {
       projects,
       smarthome,
       stories,
+      allTags,
     })
   }
 
@@ -280,7 +292,7 @@ export default class PostsList extends React.Component {
   }
 
   componentDidMount() {
-    // Filter pages into categories
+    // Filter pages into categories and tags
     this.filter(this.props.posts)
 
     if (this.props.filterCategoriesAndTagsFromURLParams == 'yes') {
@@ -292,6 +304,7 @@ export default class PostsList extends React.Component {
   render() {
     const {
       allPosts,
+      allTags,
       currentFilter,
       postsFilteredByTag,
       fpv,
@@ -300,8 +313,16 @@ export default class PostsList extends React.Component {
       smarthome,
       stories,
       search,
+      renderTags,
     } = this.state
-    const { showCategories, showChevron, showImage, showSearch } = this.props
+
+    const {
+      showCategories,
+      showChevron,
+      showImage,
+      showSearch,
+      showTags,
+    } = this.props
 
     return (
       <div>
@@ -373,6 +394,41 @@ export default class PostsList extends React.Component {
             )}
           </div>
         )}
+        {showTags === 'yes' && (
+          <div>
+            <a
+              style={{ cursor: 'pointer' }}
+              onClick={e => {
+                e.preventDefault
+                this.setState(prevState => ({
+                  renderTags: !prevState.renderTags,
+                }))
+              }}
+            >
+              {renderTags ? 'Select a tag:' : 'Filter by tag'}
+            </a>
+
+            {renderTags && (
+              <div style={{ display: 'flex', flexFlow: 'row wrap' }}>
+                {Object.keys(allTags).map(item => (
+                  <span
+                    data-filter={item}
+                    className="post-preview-tag"
+                    style={{
+                      whiteSpace: 'nowrap',
+                      margin: '0.25rem',
+                      wordBreak: 'keep-all',
+                      wordSpacing: 'normal',
+                    }}
+                    onClick={this.handleTagClick}
+                  >
+                    #{item} ({allTags[item]})
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
         {showSearch === 'yes' && (
           <React.Fragment>
             <div style={{ marginTop: '1rem', marginBottom: '1rem' }}>
@@ -395,7 +451,11 @@ export default class PostsList extends React.Component {
             <em>{ALL_DESCRIPTION[currentFilter]}</em>
           </React.Fragment>
         )}
-        {showCategories === 'yes' || showSearch === 'yes' ? <hr /> : null}
+        {showCategories === 'yes' ||
+        showSearch === 'yes' ||
+        showTags === 'yes' ? (
+          <hr />
+        ) : null}
         <ul className="list-none m-t-1">
           {currentFilter === 'all' && allPosts
             ? allPosts.map(post => {

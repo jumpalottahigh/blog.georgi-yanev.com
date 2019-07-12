@@ -6,9 +6,10 @@ author: 'Georgi Yanev'
 draft: false
 category: 'stories'
 tags:
-  - 'life'
+  - 'lifestory'
   - 'learning'
   - 'tips'
+  - 'writing'
 affiliate: ''
 ogKeywords: 'writing, real story, life stories, journal, story telling, storytelling, learning story, 2004, bulgaria, university students, travelling experience, customer service, waiter, restaurant, first job, first summer job'
 ogDescription: 'My first ever job was in a restaurant as a waiter. It also didn’t last long - I must have been at the job for a good 20-30 minutes before I got fired. It wasn’t them, it was my fault, but only because I panicked too much, I took things too serious and to this day I’m still not clear as to how I could pull of something that silly, but nevertheless it is indeed a real story!'

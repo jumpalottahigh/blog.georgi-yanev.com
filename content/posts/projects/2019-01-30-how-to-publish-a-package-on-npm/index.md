@@ -8,7 +8,6 @@ category: 'projects'
 tags:
   - 'javascript'
   - 'npm'
-  - 'mini'
   - 'webdev'
   - 'node.js'
 affiliate: ''
