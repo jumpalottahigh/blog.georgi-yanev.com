@@ -5,110 +5,92 @@ const allFeaturedGear = {
   'taranis-x-lite': {
     name: 'Taranis X-Lite',
     link: 'https://bit.ly/taranis-xlite',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/83/BB/178f71ba-6b22-4304-83d5-4dde793ecb69.jpg',
+    image: '/banggood/taranis-x-lite.jpg',
   },
   'aomway-commander': {
     name: 'Aomway Commander',
     link: 'https://bit.ly/aomway-commander',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/C0/6E/4315faaf-36f8-4785-aad6-b2df9a1fae75.jpg',
+    image: '/banggood/aomway-commander.jpg',
   },
   'taranis-q-x7': {
     name: 'Taranis Q X7',
     link: 'https://bit.ly/taranis-qx7',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/79/67/7968b1a5-4b56-4e2a-bbe3-9fa56336c523.jpg',
+    image: '/banggood/taranis-q-x7.jpg',
   },
   'taranis-x9d': {
     name: 'Taranis X 9D',
     link: 'https://bit.ly/taranis-x9d',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/A3/07/adbc3ea6-254d-466e-8486-017c85f52e80.jpg',
+    image: '/banggood/taranis-x9d.jpg',
   },
   'mobula7-hd': {
     name: 'Mobula7 HD',
     link: 'https://bit.ly/mobula7-hd',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/35/36/7d6ba441-3f57-4f08-b42c-e15bbeccea26.jpg',
+    image: '/banggood/mobula7-hd.jpg',
   },
   'mobula7-hd-motor': {
     name: 'Mobula7 HD motor',
     link: 'https://bit.ly/mobula7hd-motor',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/26/F6/3bf4ed1e-54af-4ef1-9b5b-d5ca5360f95d.jpg',
+    image: '/banggood/mobula7-hd-motor.jpg',
   },
   'emax-hawk-5': {
     name: 'Emax Hawk 5',
     link: 'https://bit.ly/emax-hawk-5',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/B0/14/57b73aa4-7e6a-4965-8f84-82402fb56979.jpg',
+    image: '/banggood/emax-hawk-5.jpg',
   },
   'caddx-turtle-v2': {
     name: 'Caddx Turtle V2',
     link: 'https://bit.ly/caddx-turtle-v2',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/2B/D6/e2aa43e9-08f2-4550-96c9-6d11d4b67ee2.jpg',
+    image: '/banggood/caddx-turtle-v2.jpg',
   },
   'eachine-rotg02': {
     name: 'Eachine ROTG02',
     link: 'https://bit.ly/eachine-rotg2',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/4C/92/597c8fad-ea10-441a-a094-4f5a717ff351.jpeg',
+    image: '/banggood/eachine-rotg02.jpg',
   },
   'wizard-x220': {
     name: 'Wizard x220',
     link: 'https://bit.ly/wizardx220',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/43/EC/361b667f-9f10-424a-aa56-200366e3e719.jpg',
+    image: '/banggood/wizard-x220.jpg',
   },
   'wizard-esc': {
     name: 'Wizard ESC',
     link: 'https://bit.ly/wizard-esc',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/73/82/73295802-fb8d-4591-b469-1cb57b7bb9e6.jpg',
+    image: '/banggood/wizard-esc.jpg',
   },
   'wizard-motor': {
     name: 'Wizard motor',
     link: 'https://bit.ly/wizard-motors',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/1A/39/de3d9b98-9acb-427c-b582-586e0c332c4e.JPG',
+    image: '/banggood/wizard-motor.jpg',
   },
   trashcan: {
     name: 'Eachine Trashcan',
     link: 'https://bit.ly/eachine-trashcan',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/2F/38/4beb8779-26cd-4085-9c1b-0a4e93ba02a8.jpg',
+    image: '/banggood/trashcan.jpg',
   },
   'runcam-split-2s': {
     name: 'RunCam Split 2S',
     link: 'https://bit.ly/runcam-split2s',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/84/8B/86cd6c1f-8f55-45fb-8cca-951a1dd186ca.jpg',
+    image: '/banggood/runcam-split-2s.jpg',
   },
   'eachine-vtx-03': {
     name: 'Eachine VTX 03',
     link: 'https://bit.ly/eachine-vtx-03',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/B2/0A/a016a0b2-2ee0-45f7-b79d-3d666165dd57.JPG',
+    image: '/banggood/eachine-vtx-03.jpg',
   },
   'realacc-backpack': {
     name: 'Realacc FPV Backpack',
     link: 'https://bit.ly/realacc-backpack',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/A4/CB/86deb403-a19f-430e-8506-c0e45b24aa5e.JPG',
+    image: '/banggood/realacc-backpack.jpg',
   },
   'xm-plus': {
     name: 'XM+',
     link: 'https://bit.ly/xm-plus',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/83/14/0c820a65-bed2-4226-8566-c529733a3a2c.jpg',
+    image: '/banggood/xm-plus.jpg',
   },
   'xt60-cable': {
     name: 'XT60 cable',
     link: 'https://bit.ly/xt-60-cable',
-    image:
-      'https://imgaz.staticbg.com/images/oaupload/banggood/images/7B/0B/ada43d38-dca7-4f1b-93db-89afa95d0beb.jpeg',
+    image: '/banggood/xt60-cable.jpg',
   },
 }
 
