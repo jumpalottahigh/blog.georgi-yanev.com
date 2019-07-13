@@ -20,11 +20,24 @@ The gear I use in 2019 and the quads I fly the most! To get a sense of how I fly
 
 ![Georgi's drones on the wall](gear-2019-2.jpg)
 
+### Table of contents
+
+- [🤓 Goggles & antennas](#goggles)
+- [📡 Transmitters](#transmitters)
+- [🚁 Drones](#drones)
+- [🔩 Custom Builds](#custom-builds)
+- [🔋 Batteries](#batteries)
+- [🔌 Chargers](#chargers)
+- [📷 Cameras](#cameras)
+- [🔨 Tools](#tools)
+- [🎒 Backpack](#backpack)
+- [🌀 Props](#props)
+
 **Legend:**
 
 🔥 = highly recommended (a mix of high quality and great value for money)
 
-### 🤓 Goggles & antennas
+### 🤓 <span id="goggles">Goggles & antennas</span>
 
 - [Skyzone SKY02X][1] 🔥
 
@@ -54,7 +67,7 @@ The gear I use in 2019 and the quads I fly the most! To get a sense of how I fly
 
 All those antenna options are pretty solid, been using some of those for almost 2 years, still no issues.
 
-### 📡 Transmitters
+### 📡 <span id="transmitters" class="offset-top-nav">Transmitters</span>
 
 - [FrSky Taranis X-Lite][4] 🔥
 
@@ -68,7 +81,7 @@ All those antenna options are pretty solid, been using some of those for almost 
 
 > I loved my Taranis Q X7, used it for over a year, recently switched to X-Lite, but might still fly my Q X7 every once in a while, it's still a great radio and an awesome value for money. [How to set up the Taranis Q X7][29].
 
-### 🚁 Drones
+### 🚁 <span id="drones" class="offset-top-nav">Drones</span>
 
 - [Emax Hawk 5][24] 🔥🔥🔥 (mini quad)
 
@@ -96,7 +109,7 @@ All those antenna options are pretty solid, been using some of those for almost 
 
 > I loved flying my Trashcan last winter. [Read the full review][34].
 
-### 🔩 Custom Build Drone "Phoenix" Parts:
+### 🔩 <span id="custom-builds" class="offset-top-nav">Custom Build Drone "Phoenix" Parts:</span>
 
 ![My custom drone build](gear-2019-14.jpg)
 
@@ -111,7 +124,7 @@ All those antenna options are pretty solid, been using some of those for almost 
 - [RunCam Split Mini 2 FPV Camera][16] 🔥
 - [Realacc Furious 220mm Carbon Fiber Racing Frame][17] 🔥
 
-### 🔋 Batteries
+### 🔋 <span id="batteries" class="offset-top-nav">Batteries</span>
 
 I currently fly mostly these battery brands.
 
@@ -157,7 +170,7 @@ I currently fly mostly these battery brands.
 
 ![Realacc Waterproof and Fireproof Lipo Bag](gear-2019-18.jpg)
 
-### 🔌 Chargers
+### 🔌 <span id="chargers" class="offset-top-nav">Chargers</span>
 
 I mostly don't do parallel charging yet, except on 1S batteries. I prefer charging 2 batteries at a time on separate chargers.
 
@@ -181,7 +194,7 @@ I mostly don't do parallel charging yet, except on 1S batteries. I prefer chargi
 
 ![XT60 to banana plug, XT30 to banana plug and XT60 to DC barrel jack](gear-2019-21.jpg)
 
-### 📷 Cameras
+### 📷 <span id="cameras" class="offset-top-nav">Cameras</span>
 
 - [RunCam 5][52]
 
@@ -189,7 +202,7 @@ I mostly don't do parallel charging yet, except on 1S batteries. I prefer chargi
 
 > RunCam 5 is pretty awesome, especially having in mind it costs only \$99. Stay tuned for an upcoming review on the blog or [subscribe to FPVTIPS on YouTube][59] for the video review.
 
-### 🔨 Tools
+### 🔨 <span id="tools" class="offset-top-nav">Tools</span>
 
 - [ANENG AN8008 Digital Multimeter][20]
 - [Drillpro 4pcs 1.5/2.0/2.5/3.0mm Hex Screwdriver Set][21]
@@ -199,7 +212,7 @@ I mostly don't do parallel charging yet, except on 1S batteries. I prefer chargi
 
 > The Eachine ROTG02 is very useful for recording DVR (or just watching and sharing with other people) on your smartphone. They have an iPhone version as well. I'm using the Android version on my Pixel 3. [Read more how to set it up and which app to use][54].
 
-### 🎒 Backpack
+### 🎒 <span id="backpack" class="offset-top-nav">Backpack</span>
 
 - [Realacc FPV Racing Backpack][22] 🔥💜
 
@@ -209,7 +222,7 @@ I mostly don't do parallel charging yet, except on 1S batteries. I prefer chargi
 
 ![Realacc FPV Racing Backpack inside](gear-2019-24.jpg)
 
-### 🌀 Props
+### 🌀 <span id="props" class="offset-top-nav">Props</span>
 
 - [Dalprop Cyclone T5040][23]
 
