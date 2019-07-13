@@ -9,6 +9,9 @@ tags:
   - 'upgrade'
   - 'wizard'
   - 'vtx'
+gearList:
+  - 'wizard-x220'
+  - 'eachine-vtx-03'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'vtx, antenna, solder, wizard x220 vtx, antenna angle socket broken, how to fix wizard x220 vtx, vtx03, eachine vtx03, upgrade wizard vtx'
 ogDescription: "The stock VTX on the Wizard x220 is sometimes not the best option to keep around for the long run. From the SMA connector breaking off the board, to frying the vtx if plugged in with no antenna attached, it's a component that makes for a good candidate to be upgraded."
@@ -38,10 +41,6 @@ Next you need to dismantle your wizard all the way to the PDB (the board below t
 Next, let's focus on the 3 solder pads in the blue circle as seen on the picture. They should be clearly labeled for `ground`, `5v` and the last one is the `signal` wire. Solder those up, put your Wizard back together and you are good to go. Enjoy and happy flying!
 
 P.S.: If your stock receiver was soldered to a 12V pad, don't get tempted to do the same with this one, as it won't work. This receiver HAS TO BE soldered on a 5V pad. You can also [refer to the manual][3].
-
-#### Where to buy it?
-
-###### Eachine VTX03 - [Amazon][4] [Banggood][2]
 
 [0]: Linkslist
 [1]: https://bit.ly/eachine-wizardx220

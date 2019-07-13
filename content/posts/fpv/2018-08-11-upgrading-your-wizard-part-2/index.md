@@ -9,6 +9,10 @@ category: 'fpv'
 tags:
   - 'wizard'
   - 'upgrade'
+gearList:
+  - 'wizard-x220'
+  - 'wizard-motor'
+  - 'wizard-esc'
 ogKeywords: 'FPV, racing quads, Wizard x220, quad, drone, getting started, upgrade wizard, cheap upgrades, soft mount, motor guards, threadlock, thread lock, remove leds'
 ogDescription: "Over time I have done a number of upgrades to my Wizard x220. So many in fact, it's nowadays more of a custom build than a wizard and that's half the fun. Here's a few upgrades regarding soft mounting motors, thread locking the motor screws, removing motor guards and leds."
 ogImage: './upgrading-your-wizard-part-2-3.jpg'
@@ -81,16 +85,6 @@ And that's all of it, put your quad back together and enjoy the upgrades! Happy 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/wZchH_Ccly8?rel=0" frameBorder="0" allowFullScreen title="upgraded eachine wizard x220 flight"></iframe>
 </div>
-
-#### Where to get the featured items?
-
-###### Eachine Wizard x220 - [Amazon][7] [Banggood][2]
-
-###### Spare motors - [Amazon][5] [Banggood][3]
-
-###### Spare ESCs - [Amazon][6] [Banggood][4]
-
----
 
 [0]: Linkslist
 [1]: http://bit.ly/silicone-motor-pad

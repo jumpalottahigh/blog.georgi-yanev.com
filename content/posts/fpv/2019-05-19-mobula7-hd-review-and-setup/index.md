@@ -13,6 +13,9 @@ tags:
   - 'cinewhoop'
   - 'micro'
   - 'drone'
+gearList:
+  - 'mobula7-hd'
+  - 'caddx-turtle-v2'
 ogKeywords: 'fpv, quad, drone, mobula, mobula7, mobula7 hd, happymodel, micro drone, micro quad, cinewhoop, hd footage, 1080p, 60fps, 1080p dvr, flying micro drone, fly micro quad, fpv racing, fpv freestyle, freestyle micro drone, review, setup, setup mobula 7 hd, configure mobula 7 hd'
 ogDescription: "The Mobula7 HD is right up there at the top of the line micro quads, along with side other drones such as the Eachine Trashcan, Mobula7, Snapper7, and others. Being the latest and greatest quad in Happymodel's lineup means it comes with the best overall specs, but it also does something, that none of these other micro drones listed above do - it records 1080p 60fps video."
 ogImage: './mobula7-hd-review-and-setup-5.jpg'
@@ -257,12 +260,6 @@ So if you are in the market for such a micro quad, grab yourself a [Mobula7 HD][
 - Having a near perfect tune out of the box
 - Flying a 2S/3S brushless whoop
 - Flying populated public areas safely
-
-#### Where to get it?
-
-###### Mobula7 HD - [Amazon][2] [Banggood][1]
-
-###### Caddx Turtle V2 - [Amazon][4] [Banggood][3]
 
 [0]: Linkslist
 [1]: https://bit.ly/mobula7-hd

@@ -12,6 +12,8 @@ tags:
   - 'hawk5'
   - 'freestyle'
   - 'drone'
+gearList:
+  - 'emax-hawk-5'
 ogKeywords: 'fpv, quad, drone, fpv racing, fpv freestyle, review, setup, setup emax hawk 5, upgrades, emax, hawk5, hawk 5, setup hawk 5, how to configure hawk 5, how to configure betaflight, how to configure taranis radio, how to configure radio, how to setup switches, how to setup mixers, BNF, bind and fly, high quality drone, high quality quad, high quality racing drone, frsky xm+, foxeer arrow, foxeer micro arrow'
 ogDescription: "The quickest I have ever gone from opening a box with a prebuilt quad to actually flying it. Binding it, 3 minutes config on my radio, 3 minutes in Betaflight. Putting props on took more time than the rest 😅. Today we are having a look at the Emax Hawk 5 BNF 5-inch quad. Let's get to it."
 ogImage: './emax-hawk-5-unboxing-review-and-setup-6.jpg'
@@ -322,10 +324,6 @@ In which case I'd like to remind you that you could support the blog by clicking
 - Beginner or experienced pilot
 - Having a near perfect tune out of the box
 - Good value for money and good parts
-
-#### Where to get it?
-
-###### Emax Hawk 5 - [Banggood][1]
 
 [0]: Linkslist
 [1]: https://bit.ly/emax-hawk-5

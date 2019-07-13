@@ -9,6 +9,9 @@ tags:
   - 'upgrade'
   - 'wizard'
   - 'camera'
+gearList:
+  - 'wizard-x220'
+  - 'runcam-split-2s'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'camera, vtx, solder, wizard x220 camera, upgrade wizard camera, upgrade wizard x220 camera, how to fix wizard x220 camera, runcam, runcam split 2'
 ogDescription: "One of the best upgrades you can do to your Wizard x220 is definitely changing the stock camera. It is pretty much widely agreed upon that that camera is an underperformer. Here's my experience of upgrading to the Runcam Split 2."
@@ -63,10 +66,6 @@ And here's how the 1080p HD 60fps footage looks:
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/70tXXAfs-ks?rel=0" frameBorder="0" allowFullScreen title="Eachine Wizard x220 HD footage from Runcam Split 2"></iframe>
 </div>
-
-#### Where to buy that camera?
-
-###### Runcam Split 2 - [Amazon][5] [Banggood][2]
 
 [0]: Linkslist
 [1]: https://bit.ly/eachine-wizardx220

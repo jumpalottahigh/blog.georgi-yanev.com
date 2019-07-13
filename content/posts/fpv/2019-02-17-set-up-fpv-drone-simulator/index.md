@@ -10,6 +10,11 @@ category: 'fpv'
 tags:
   - 'simulator'
   - 'taranis'
+gearList:
+  - 'aomway-commander'
+  - 'taranis-q-x7'
+  - 'taranis-x-lite'
+  - 'taranis-x9d'
 ogKeywords: 'FPV, racing quads, quad, drone, getting started, simulator, fpv simulator, fpv drone simulator, quad simulator, liftoff, velocidrone, drl, the drone racing league simulator, fpv freerider, taranis qx7 simulator, taranis q x7 trainer, practice fpv, practice in simulator, quadcopter simulator'
 ogDescription: 'Whether you are a seasoned fpv drone pilot or a person just getting started with this hobby, there always is a reason to fly in a quadcopter simulator. At the very least, if you are practicing a new trick or just practicing flying in general, it just might save you many crashes, money, and frustration while walking to get your quad after your 10th crash for the day.'
 ogImage: './set-up-fpv-drone-simulator-6.jpg'
@@ -99,16 +104,6 @@ My phone is a Google Pixel 3 and I plug the USB C dongle in it, then an HDMI cab
 Here's the complete set up. Happy flying!
 
 ![Taranis X-Lite and Aomway Commander goggles plugged into a USB C dongle, plugged into a Pixel 3](set-up-fpv-drone-simulator-11.jpg)
-
-#### Where to buy the gear?
-
-###### Aomway Commander - [Amazon][12] [Banggood][10]
-
-###### Taranis Q X7 - [Amazon][13] [Banggood][4]
-
-###### Taranis X9D - [Amazon][14] [Banggood][15]
-
-###### Taranis X-Lite - [Amazon][17] [Banggood][16]
 
 [0]: Linkslist
 [1]: https://www.youtube.com/channel/UCX3eufnI7A2I7IkKHZn8KSQ

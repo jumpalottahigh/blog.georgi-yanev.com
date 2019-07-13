@@ -10,6 +10,8 @@ tags:
   - 'eachine'
   - 'dvr'
   - 'smartphone'
+gearList:
+  - 'eachine-rotg02'
 ogKeywords: 'fpv, eachine, eachine rotg02, dvr, record fpv video, how to record dvr on android, android go fpv, go fpv, how to record fpv video with go fpv, dvr receiver for android, dvr for smartphone, record fpv DVR on smartphone'
 ogDescription: "Ever since I lost my quad once and had to search for it for roughly 40 minutes and luckily I found it in the end, I've always appreciated DVR."
 ogImage: './record-fpv-dvr-with-smartphone-2.jpg'
@@ -53,10 +55,6 @@ That's how it looks in action on the phone. The cool thing is you can set it up 
 For bonus points, you can set this up so that your Google Photos app picks up the Go FPV saved videos and syncs them automatically so you have them available instantly on any device.
 
 Another thing worth mentioning is that this has simplified spotting so much when I go fly with my buddy. We both have android phones, so when the other flies, we just pass the [Eachine ROTG02][1], plug it in and search for the correct channel. Super easy!
-
-#### Where to get it?
-
-###### Eachine ROTG02 - [Amazon][2] [Banggood][1]
 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/2dgsjubo-MI?rel=0" frameBorder="0" allowFullScreen title="DVR recorded with the Eachine ROTG02 on Go FPV on Android"></iframe>

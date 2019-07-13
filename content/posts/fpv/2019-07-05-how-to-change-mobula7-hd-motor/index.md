@@ -13,6 +13,9 @@ tags:
   - 'micro'
   - 'diy'
   - 'motor'
+gearList:
+  - 'mobula7-hd'
+  - 'mobula7-hd-motor'
 ogKeywords: 'repair, diy, swap a motor, debug motor, fix motor, fpv, quad, drone, mobula, mobula7, mobula7 hd, happymodel, microdrone, micro quad, cinewhoop, hd footage, 1080p, 60fps, 1080p dvr, flying micro drone, fly micro quad, fpv racing, fpv freestyle, freestyle micro drone, review, setup, setup mobula 7 hd, configure mobula 7 hd'
 ogDescription: 'Changing a motor on the Mobula7 HD is a fairly straight forward process, but there might be a few gotchas, particularly if you are new to the hobby. However, fear not, as we are gonna go over the whole process.'
 ogImage: './how-to-change-mobula7-hd-motor-1.jpg'
@@ -94,12 +97,6 @@ Here's a playlist of about ~ 66 packs I've flown on the Mobula7 HD to this day a
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/cRzGT1Ltwq4?rel=0&list=PLt8_2AobQjAd_y_vSbyHq-PQWNGL_RnWT&index=47" frameBorder="0" allowFullScreen title="Georgi FPV Mobula7 HD footage"></iframe>
 </div>
-
-#### Where to get it?
-
-###### Mobula7 HD - [Banggood][1]
-
-###### Mobula7 HD motor (9000KV / 10000KV) - [Banggood][4]
 
 [0]: Linkslist
 [1]: https://bit.ly/mobula7-hd

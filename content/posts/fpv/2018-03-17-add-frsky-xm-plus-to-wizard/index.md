@@ -11,6 +11,11 @@ tags:
   - 'wizard'
   - 'vtx'
   - 'xm+'
+gearList:
+  - 'xm-plus'
+  - 'wizard-x220'
+  - 'taranis-x-lite'
+  - 'taranis-q-x7'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'frsky receiver, xm+, xm plus, xm+ receiver, taranis, taranis qx7, setup, transmitter, drone, quad, wizard x220, how to add frsky receiver, betaflight receiver configuration, '
 ogDescription: 'The Frsky XM+ receiver is an awesome little thing. Coming in at only $14 it is a tiny, but full featured receiver for Taranis radios. This article describes how to add it to your Eachine Wizard x220'
@@ -63,16 +68,6 @@ Then go to the Configuration tab and set receiver to SBUS and RSSI on.
 
 That's about it. Don't forget to check all your other settings and make sure your radio channels work as expected in the receiver tab.
 Happy flying!
-
-#### Where to get those items?
-
-###### FrSky XM+ - [Amazon][4] [Banggood][1]
-
-###### Taranis Q X7 - [Amazon][5] [Banggood][3]
-
-###### Taranis X-Lite - [Amazon][7] [Banggood][6]
-
-###### Eachine Wizard x220 - [Amazon][9] [Banggood][8]
 
 [0]: Linkslist
 [1]: https://bit.ly/xm-plus

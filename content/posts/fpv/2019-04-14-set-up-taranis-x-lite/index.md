@@ -13,6 +13,8 @@ tags:
   - 'x-lite'
   - 'opentx'
   - 'gear'
+gearList:
+  - 'taranis-x-lite'
 ogKeywords: 'taranis, taranis x-lite, taranis xlite, x-lite, frsky, opentx, set up taranis x-lite, x-lite update, x-lite upgrade, x-lite flash firmware, taranis x-lite flash firmaware, x-lite flash internal module, x-lite flash xm+, x-lite flash receiver, x-lite sd card, x-lite sd card set up, how to configure x-lite, how to configure taranis x-lite, how to set up sd card on x-lite, update open tx on x-lite, how to update open tx, how to update open tx on taranis x-lite, taranis x-lite review, taranis x-lite unboxing, taranis x-lite testing'
 ogDescription: 'I recently got the Taranis X-Lite and was excited to try it out. I have watched the reviews, had a rough idea of what to expect, but really wanted to experience the radio for myself and see how it would work for me.'
 ogImage: './set-up-taranis-x-lite-4.jpg'
@@ -288,10 +290,6 @@ In conclusion, would I recommend this radio? **YES!** That's the short answer. I
 The radio also seems better suited for children which is a huge plus in my book. And an interesting thing to note is that the slick design draws in less techy and less nerdy people a bit more. **And ultimately, we just want to welcome more people to our hobby so we can fly and have fun together!**
 
 Happy flying!
-
-#### Where to get it?
-
-###### Taranis X-Lite - [Amazon][2] [Banggood][1]
 
 #### Who is this for? Grab this if you care about:
 

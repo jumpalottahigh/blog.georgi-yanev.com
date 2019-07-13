@@ -8,6 +8,8 @@ category: 'fpv'
 tags:
   - 'tools'
   - 'diy'
+gearList:
+  - 'xt60-cable'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'FPV, racing quads, quad, drone, drone build, DIY, smoke stopper, build your own smoke stopper, make a smoke stopper'
 ogDescription: 'A smoke stopper can save your quad many times. In a nutshell what it does is it acts as a load between your battery and your quad. In the case of a short, the light bulb goes on and your board, escs and motors are safe. Nifty!'
@@ -60,10 +62,6 @@ Lastly, solder the grounds from the switch gold pad to the grounds on the XT-60 
 ![Smoke stopper completed](make-a-smoke-stopper-9.jpg)
 
 May your smoke stopper save many quads! Happy flying!
-
-#### Where to get those items?
-
-###### XT-60 Male and Female plug and cable - [Amazon][2] [Banggood][1]
 
 [0]: Linkslist
 [1]: https://bit.ly/xt-60-cable

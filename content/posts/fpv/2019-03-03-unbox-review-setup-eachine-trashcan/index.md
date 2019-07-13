@@ -12,6 +12,8 @@ tags:
   - 'trashcan'
   - 'micro'
   - 'drone'
+gearList:
+  - 'trashcan'
 ogKeywords: 'FPV, racing quads, quad, drone, getting started, taranis q x7, practice, micro, micro drone, eachine, eachine trashcan, trashcan micro drone, review, eachine trashcan review, trashcan setup, configure eachine trashcan, unbox, setup trashcan drone'
 ogDescription: 'I was very excited when the Eachine Trashcan finally arrived, and not only because it is winter in the nortern hemisphere and micro drone flying happens more often. There has been a lot of hype about the Trashcan and rightfully so. Overall, in the micro drone (a tad bigger than a Tiny whoop type of drone) world interesting things have happened over the past year.'
 ogImage: './unbox-review-setup-eachine-trashcan-3.jpg'
@@ -177,10 +179,6 @@ If you want to fly in city parks or other more populated areas, but don't want t
 Overall, it comes at a great price, it ticks all the checkboxes and get you some extra performance, it flies really well, it's easy to handle and get used to so if you have any of the use cases outlined above (or some other one), **I definitely recommend the [Eachine Trashcan][1] as your first or next micro drone**, and am personally looking forward to ripping around a lot with it this summer!
 
 P.S.: My poor flying here did not take away from the fun had :)
-
-#### Where to get it?
-
-###### Eachine Trashcan - [Banggood][1]
 
 #### Who is this for? Grab this if you care about:
 

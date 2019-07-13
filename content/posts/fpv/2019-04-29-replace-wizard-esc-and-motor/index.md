@@ -11,6 +11,10 @@ tags:
   - 'esc'
   - 'motor'
   - 'diy'
+gearList:
+  - 'wizard-x220'
+  - 'wizard-esc'
+  - 'wizard-motor'
 ogKeywords: 'wizard x220, wizard, eachine, eachine wizard, eachine wizard x220, replace motor, replace esc, broken esc, broken motor, motor wont move, diy, how to change a motor on wizard x220, how to replace an esc on wizard x220'
 ogDescription: "Every so often you might have an issue with an ESC. Even though in general I'm a fan of 4 in 1 ESC boards, it's pretty unpleasant to have to throw away the whole board with 3 working ESCs if one of them fails. That's not the case if you are rocking 4 standalone ESCs. And in the case of the original Wizard x220, that's exactly the case."
 ogImage: './replace-wizard-esc-and-motor-1.jpg'
@@ -104,16 +108,8 @@ You can check their direction by sliding up the slider for each motor individual
 
 That's it! Test arming your drone without any props to verify that the new motor moves in the direction you want it to move. If not, reverse the direction in BLHELI configurator. I hope it all worked out well for you so you can enjoy flying once again!
 
-#### Where to get the items?
-
-###### Eachine Wizard x220 - [Amazon][2] [Banggood][1]
-
-###### Racerstar RS20A V2 ESC - [Amazon][5] [Banggood][4]
-
-###### Eachine 2205 MN2205 2300KV motor - [Amazon][7] [Banggood][6]
-
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/skG-tLCe6jo?rel=0" frameBorder="0" allowFullScreen title="Chill November flight with the Eachine Wizard x220"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fzmSGztMq0Y?rel=0" frameBorder="0" allowFullScreen title="Chill November flight with the Eachine Wizard x220"></iframe>
 </div>
 
 [0]: Linkslist

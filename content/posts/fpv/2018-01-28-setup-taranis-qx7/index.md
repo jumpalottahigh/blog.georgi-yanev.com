@@ -10,6 +10,9 @@ tags:
   - 'gear'
   - 'taranis'
   - 'opentx'
+gearList:
+  - 'taranis-q-x7'
+  - 'taranis-x-lite'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'taranis, taranis qx7, setup, transmitter, drone, quad, set up Taranis, setup Taranis x7, set up Taranis q x7, custom splash screen, custom sounds for Taranis, basic Taranis setup, how to set up taranis, update taranis firmware, how to use opentx, how to setup taranis using opentx, opentx'
 ogDescription: 'I recently upgraded to a Taranis Q X7 and after doing the initial setup I decided to sum up some of the main points in a helpful post. I hope this write up helps you breeze through the configuration and gets you flying in no time!'
@@ -99,12 +102,6 @@ And place it inside.
 
 Go to the radio configuration and make sure you set **Battery range** to **6.8-8.4** and **Battery low** to **6.6V**.
 Voila! Enjoy not having to buy any more AA batteries.
-
-#### Where to get those items?
-
-###### Taranis Q X7 - [Amazon][10] [Banggood][7]
-
-###### Taranis X-Lite - [Amazon][12] [Banggood][11]
 
 [0]: Linkslist
 [1]: https://www.open-tx.org
