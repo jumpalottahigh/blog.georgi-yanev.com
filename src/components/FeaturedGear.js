@@ -92,6 +92,16 @@ const allFeaturedGear = {
     link: 'https://bit.ly/xt-60-cable',
     image: '/banggood/xt60-cable.jpg',
   },
+  'runcam-5': {
+    name: 'RunCam 5',
+    link: 'https://bit.ly/runcam--5',
+    image: '/banggood/runcam-5.jpg',
+  },
+  'runcam-5-mount': {
+    name: 'RunCam 5 mount',
+    link: 'https://bit.ly/runcam5-mount',
+    image: '/banggood/runcam-5-mount.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
