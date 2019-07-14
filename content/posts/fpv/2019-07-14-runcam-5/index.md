@@ -1,7 +1,7 @@
 ---
 path: '/fpv/runcam-5/'
 date: '2019-07-14'
-title: 'Review and set up RunCam 5'
+title: 'RunCam 5: The Complete Guide'
 author: 'Georgi Yanev'
 draft: true
 category: 'fpv'
@@ -103,7 +103,13 @@ The RunCam 5 does not support WiFi connections, so let's look into what does tha
 
 ### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
 
-For the complete setup instructions you can always refer to the [RunCam 5 user manual][2]. There are a few things to do to get up and running: **⚡ Charge the camera up**, **📇 Insert a formatted SD card**, **📱 Choose your video settings** and **🏇 Mount it on a drone**.
+For the complete setup instructions you can always refer to the [RunCam 5 user manual][2]. Here's a quick breakdown of the camera button's functions:
+
+- **Long press** - will turn the camera on (if off) and will turn it off (if on). This is indicated by a green LED or lack thereof.
+- **Short press** - when the camera is on will start recording (indicated by a blinking greed LED). A subsequent short press will stop recording, making the LED solid green.
+- **Double press** - when the camera is on will change it to setting mode, ready for reading a QR code (the LED will indicate that by changing to blue).
+
+There are a few things to do to get up and running: **⚡ Charge the camera up**, **📇 Insert a formatted SD card**, **📱 Choose your video settings** and **🏇 Mount it on a drone**.
 
 #### ⚡ Charge it up
 
@@ -115,10 +121,60 @@ Insert a high-quality, formatted SD card with decent capacity. We will be writin
 
 #### 📱 Configure the settings
 
-TODO:
+I mentioned the camera does not have WiFi connection capability and it does not have Bluetooth either. So how do we change the settings on it? You see, the RunCam 5's config lives in a file on the SD card you plug in, called `CameraConfig.ini`. There are at least two ways to change the configuration. **By changing the values in a config file or by using a QR code to apply the new config**.
 
-- via file
-- via app
+- **by updating the config file**
+
+> I don't recommend this approach, although there's certainly nothing wrong with it, it's just that I found using the app easier. Either way, I'll guide you through this way of changing the settings as well.
+
+> First, **connect the camera to a computer via micro USB**. The LED will go red to indicate the camera is charging. Press and hold the button for a couple of settings. This will power on the camera and will mount its SD card into your filesystem so you can access it. The LED will go green to indicate the camera is on (your LED might look even a bit orange if it is still charging).
+
+> Access the `CameraConfig.ini` file on the mounted SD card. Ideally use an editor like [Notepad++][6] or [VS Code][7] to edit the file to avoid issues.
+
+> Here's a short example of how a part of my camera config file looks like:
+
+![RunCam 5 camera config.ini example](runcam-5-16.png)
+
+> And here is the [complete configuration I'm currently using](CameraConfig.ini) when shooting with the RunCam 5.
+
+> It might look like a lot at first but in reality, it's quite simple. The lines that start with `;` are comment lines - they are helpful messages for you to understand the functionality and have no programatic meaning. RunCam has listed nicely in those comments the possible options you could change to.
+
+> For example if I wanted to change my `VideoQuality` setting to Low (why would I though), I would just change its value from 1 to 3. That's all there is to it.
+
+> As I mentioned I don't use this approach to change the settings, but one nice thing about this is that it allows you to easily create "profiles" by creating separate complete configuration files and keeping them somewhere in your computer. Then awapping them in as necessary.
+
+- **by using the RunCam app**
+
+> The other way to change the settings is by using the `RunCam App` which you can get on the [Google Play store][8] or [iOS App Store][9].
+
+On the first screen select your product (RunCam 5) and tap the **QR Code Configuration** button.
+
+![RunCam App start screen](runcam-5-17.jpg)
+
+The Video Settings are broken down onto two screens. The first you are presented immediately and is called `Video` as seen in the bottom navigation buttons. The other screen of options is called `General` and you can access it by tapping the corresponding button in the bottom navigation.
+
+![The first screen of video settings](runcam-5-18.jpg)
+
+I'm not gonna go in great detail over every single option, in fact I think most of them are very self explanatory. **Video quality** you probably wanna keep at High and have very little reason to use anything else. **Loop recording** would split your video recordings in 3 minute or so chunks of footage. I don't do that; I like starting and stopping my recordings. **Auto record** is something don't use either, I'll get into much more detail about the available resolutions in the next section when we talk about video samples, comparisons and post processing. And **Volume** you probably want to keep at Low as well as that's already pretty loud.
+
+Below is the general screen of video settings. Here you can turn off things like the RunCam logo and Date stamp, you can flip the screen if you have mounted the RunCam 5 upside down. You can adjust a number of sensor settings here such as: **saturation, exposure compensation, contrast, sharpness, white balance**. Do change the **Power supply frequency** from 50Hz to 60Hz if you are living in the US.
+
+For now, I have left everything to their default values for the sake of testing the camera with its out of the box settings.
+I will make sure to come back and add an update to this article if I find particular settings that improve the image quality by a lot.
+
+![The second screen of video settings](runcam-5-19.jpg)
+
+Clicking the three dots at the top right brings up a menu that allows you to restore the default settings or to format the SD card.
+
+![RunCam App three dot menu](runcam-5-20.jpg)
+
+And finally, clicking the `Apply` button brings up a generated QR code that would apply the settings to your camera, when read by it. To do that, power on your camera with a long press of the button. When it's on with a green LED signaling that, **double press** the button (that's two presses in a quick succession). You will know you have done it right if the LED changes to blue, indicating that the camera is in Setting mode and will try to read a QR code if you show it one.
+
+![QR code with settings for the RunCam 5](runcam-5-22.jpg)
+
+Next show the QR code to the camera by keeping it directly in front of it. If you hear a beep you will know the camera has accepted the new settings and will then transition back to greed mode indicated by its LED.
+
+This may sound somewhat finicky at first, but it's actually very easy and straightforward and dare I say fast to do.
 
 #### 🏇 Mount the RunCam 5 on a quad
 
@@ -194,7 +250,7 @@ in order of settings:
 0009 - 2,7k 50 fps (small pack)
 0010 - 1080p120 fps (full pack)
 
-TODO: add screenshots of app and of settings file edited
+![a](runcam-5-21.jpg)
 
 [0]: Linkslist
 [1]: https://bit.ly/runcam--5
@@ -202,3 +258,7 @@ TODO: add screenshots of app and of settings file edited
 [3]: https://bit.ly/runcam-split2s
 [4]: https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q
 [5]: https://bit.ly/runcam5-mount
+[6]: https://notepad-plus-plus.org/download/v7.7.1.html
+[7]: https://code.visualstudio.com/
+[8]: https://play.google.com/store/apps/details?id=com.runcam.runcam2
+[9]: https://apps.apple.com/us/app/runcam-app/id1015312292
