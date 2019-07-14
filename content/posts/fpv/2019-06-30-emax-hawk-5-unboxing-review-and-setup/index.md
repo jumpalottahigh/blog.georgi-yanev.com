@@ -35,6 +35,12 @@ Today we are having a look at the [Emax Hawk 5][1] BNF 5 inch quad. Let's get to
 - [Upgrades](#upgrades)
 - [Conclusion](#conclusion)
 
+If you prefer watching, check out the full video review on my YouTube channel:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iwnFSL7SAcQ?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD review on fpvtips on YouTube"></iframe>
+</div>
+
 ### 📦 <span id="unboxing">Unboxing</span>
 
 The unboxing experience was pretty good. No damage on the box on the outside, and a slick design.
