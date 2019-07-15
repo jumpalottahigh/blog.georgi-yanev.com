@@ -1,6 +1,6 @@
 ---
-path: '/fpv/runcam-5/'
-date: '2019-07-14'
+path: '/fpv/runcam-5-review-setup-superview/'
+date: '2019-07-16'
 title: 'RunCam 5: The Complete Guide'
 author: 'Georgi Yanev'
 draft: true
@@ -33,7 +33,7 @@ Let's find out!
 - [📝 Specs](#specs)
 - [⚙ Setup](#setup)
 - [🎥 Video samples](#video-samples)
-- [🎦 Post processing](#postprocessing)
+- [🎦 Post-processing](#post-processing)
 - [🆚 RunCam Split 2 comparison](#comparison)
 - [📑 Conclusion](#conclusion)
 
@@ -155,7 +155,7 @@ The Video Settings are broken down onto two screens. The first you are presented
 
 ![The first screen of video settings](runcam-5-18.jpg)
 
-I'm not gonna go in great detail over every single option, in fact I think most of them are very self explanatory. **Video quality** you probably wanna keep at High and have very little reason to use anything else. **Loop recording** would split your video recordings in 3 minute or so chunks of footage. I don't do that; I like starting and stopping my recordings. **Auto record** is something don't use either, I'll get into much more detail about the available resolutions in the next section when we talk about video samples, comparisons and post processing. And **Volume** you probably want to keep at Low as well as that's already pretty loud.
+I'm not gonna go in great detail over every single option, in fact I think most of them are very self explanatory. **Video quality** you probably wanna keep at High and have very little reason to use anything else. **Loop recording** would split your video recordings in 3 minute or so chunks of footage. I don't do that; I like starting and stopping my recordings. **Auto record** is something don't use either, I'll get into much more detail about the available resolutions in the next section when we talk about video samples, comparisons and post-processing. And **Volume** you probably want to keep at Low as well as that's already pretty loud.
 
 Below is the general screen of video settings. Here you can turn off things like the RunCam logo and Date stamp, you can flip the screen if you have mounted the RunCam 5 upside down. You can adjust a number of sensor settings here such as: **saturation, exposure compensation, contrast, sharpness, white balance**. Do change the **Power supply frequency** from 50Hz to 60Hz if you are living in the US.
 
@@ -186,71 +186,82 @@ This mount worked pretty good. Attached it with a couple of thicker zip ties and
 
 ![RunCam 5 mounted via a GoPro mount onto a Hawk 5 quadcopter back shot](runcam-5-13.jpg)
 
-Let's go fly!
+Let's go fly! Here's some example flight footage with the default settings, except for being recorded in 1440p 60fps and stretched from its 4:3 ratio to a 16:9.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/RMMOBtqfAi0?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 flying with a RunCam 5 1440p 60fps video"></iframe>
+</div>
+
+Onto more video samples for science!
 
 ### 🎥 <span id="video-samples" class="offset-top-nav">Video samples</span>
 
-### 🎦 <span id="postprocessing" class="offset-top-nav">Postprocessing video files</span>
+The RunCam 5 offers you the following 7 resolution and framerate variants:
 
-#### Copying files
+![Resolution drop down menu in RunCam App](runcam-5-21.jpg)
 
-#### Stretching from 4:3 to 16:9 (1440p)
+So I went ahead and **recorded a sample 1 min clip of me doing the same thing 7 times each time with a different resolution** selected. I think this playlist allows for somewhat decently quick comparison of all different possible resolutions.
+
+> _All clips were recorded on the same day, in sunny, but late evening daylight conditions, flying against and away from the sun to really put the camera to the test. All clips were recorded using the default camera settings, the only thing changed between flights being the resolution. There was no post-processing of the clips, except whatever compression YouTube applies to videos. You will notice that the available resolution options are 7 and the clips in the playlist are 8. That's because **clip #5 in the playlist demonstrates how dynamic stretched 1440p video looks**. The other caveat is that you cannot really preview the full 120fps on video #2 as YouTube only supports up to 60fps._
+
+Check out all the different samples, to show the playlist click the playlist button at the top right of the video player.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FtngCmiQQoE?rel=0&list=PLLsZew4NRcdcroePNThuW-2bBq8Xoze7S" frameBorder="0" allowFullScreen title="RunCam 5 sample videos with all different resolutions"></iframe>
+</div>
+
+Here's the thing about FPV videos. You are the judge of what you prefer watching and how you would like to express yourself in the videos you make. For instance, to me it's more important to have the video with buttery smooth 60fps than to have a 4k resolution. In fact I don't think there even is a need for 4k. 2.7k at 60fps would be awesome, but alas, the RunCam 5 records 2.7k at up to 50fps. It's not the end of the world, but it sure is not 60fps.
+
+**Since I got the RunCam 5 I've recorded a bunch of video, and I have come up to use mostly the largest possible 60 fps option - 1440p.** And I didn't very much like the linear stretch of the `XV` resolution options. What that does is basically stretch the entire image.
+
+And this brings us naturally to the video post-processing part.
+
+### 🎦 <span id="post-processing" class="offset-top-nav">Post-processing video files</span>
+
+Video processing is not among my strongest knowledge points, I definitely have a lot more to learn and that's the reason why I really enjoy the dynamic stretch solution I'm about to show you.
+
+#### Dynamic Stretching of 1440p from 4:3 to 16:9 ration
+
+I'm just sharing what I learnt, but I really feel I need to give all the credit possible to [Joshua Bardwell][10] for sharing about the tool to stretch videos. The tool in question is called `superview` and lives in [this open source repository][11] on GitHub. Follow the requirements and installation instructions in that page. You want to do two things - download and add `ffmpeg` to your path (there's a link in the readme) and grab a copy of the superview binary for your operating system from the [releases page][12].
+
+Once you have those, the way to use the binary is as follow from a command line:
+
+```sh
+./superview.exe -i RC_0001_1234.MP4 -o RC_0001.MP4
+```
+
+What did we do here? First we type in the filename of the executable we want to run - `superview` (in this case I'm using a Windows machine, hence the `.exe`). Next we have to provide an input filename after the `-i` flag. This is our original 1440p 4:3 input file. The `-o` flag points to an output, afterwhich you need to provide a name for the output (different than the original and don't forget to add the `.MP4` file extension). This example assumes the superview executable and the file you are transforming are in the same directory, as well as you have ffmpeg in the path.
+
+Let me know if something is not working for you or you have questions by using the **Ask a question** button below the article.
 
 ### 🆚 <span id="comparison" class="offset-top-nav">RunCam Split 2 comparison</span>
 
 Now this part is a bit far fetched for a number of reasons and is not necessarily very scientific, but I found it interesting nevertheless and wanted to share the findings. We are going to compare the footage from the [RunCam 5][1] with footage from the [RunCam Split 2][3] (this link is for the slightly newer RunCam Split 2S version).
 
-Why is this interesting? I've mentioned a number of times that I personally am a fan of split cameras. In fact, [my raw, unedited, single pack flight footage YouTube channel][4] is full of RunCam Split 2 and RunCam Split Mini videos. There's a lot of convenience in this setup and it works nicely if you need decent, although not the best of the best footage quality.
+Why is this interesting? I've mentioned a number of times that I personally am a fan of split cameras. In fact, [my raw, unedited, single pack flight footage YouTube channel][4] is full of RunCam Split 2, RunCam Split Mini and Caddx Turtle V2 videos. There's a lot of convenience in this setup and it works nicely if you need decent, although not the best of the best footage quality.
 
 Here are the caveats:
 
-- I'm using the RunCam Split 2 (the original oldest version), since then a RunCam Split 2S has come out, and it seems like a RunCam Split 3 might be well underway. TODO: check more info
+- I'm using the RunCam Split 2 (the original oldest version), since then a RunCam Split 2S has come out, and it seems like a RunCam Split 3 might be underway (I know nothing, just guessing).
+- Both comparison videos are using stock camera settings.
+- The RunCam 5 costs $100, the Split 2S costs $80. However, $20-$30 of those $80 can be considered as the money you would anyway need to spend on an FPV camera for flying, so the actual money comparison is more like $100 vs \$50.
+- You will see the props and the stand-off or parts of the frame through the fpv camera, and you would not see those through the RunCam 5.
 
-Both comparison videos are using stock camera settings. The RunCam 5 costs $100, the Split 2S costs $80.E
-
----
-
-The same port can be used to transfer files, if you have plugged it into a computer. To be able to access the SD card contents through the RunCam 5
-
-- how to mount
-  mounting bracket
-
-* save and share config image
-
-- distortion correction (almost go pro's super view)
-- plus free tool for 1440p stretchin, credit go guy and to JB
+TODO: Add video comparison here
 
 ### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
-Who is this for?
+Ok so who is this NOT for? If you really want, need and must have the best of the best footage quality AND have a lot of money, then the answer is probably still GoPro (although that gap is closing very fast and is starting to be less and less of a factor).
 
-- GoPro deal in US BestBuy via their warranty policy
-- Decent camera for just 100 bucks
-- Non hardcore usage? Just good enough
-- Very light, so if weight is an issue, could be worth picking this up
+If you live in the States and can make use of BestBuy's return policy, then again GoPro is still the answer, as you can then easily turn in your broken GoPro and replace it for a fraction of its price.
 
-Video comparisons:
+But if you are anywhere else (like me), if you want very crisp HD footage for a fraction of the price of a GoPro, then the [RunCam 5][1] might be for you. If you don't fly a hell of a lot of concrete or asphalt, and mostly do grassy or dirt areas, chances are your crashes might not be as devastating and the RunCam 5 might survive longer.
 
-**with distortion correction**
-1440p 60 fps superview with GO tool
+I personally am very happy with the quality of the footage that comes out of the RunCam 5, especially the 1440p stretched one, still at 60 fps. And for just \$100 the initial investment is really not that significant. **Basically, you get 90% of a GoPro for 33% of its price.** That's my personal opinion and I love what the RunCam 5 brings to the table!
 
-**without distortion correction**
-NO DISTORTION CORRECTION
-in order of settings:
-0000 - 1080p 60fps
-0001 - 1080 60 XV
-0003 - 1080 120fps
-0004 - 1440p 60fps (\* best so far) even better stretched!
-0005 - 2,7k 50fps
-0006 - 4k 30fps (\* 3rd best so far)
-0007 - 4k 30fps XV (\* 2nd best so far)
+Happy flying!
 
----
-
-0009 - 2,7k 50 fps (small pack)
-0010 - 1080p120 fps (full pack)
-
-![a](runcam-5-21.jpg)
+If you are still with me, thanks for reading all of that. I tried to make it interesting and useful to you. If you are considering purchasing the RunCam 5, or anything else really, I'd like to remind you that if you use the links in this blog to Banggood, you would also support the blog and I would really appreciate that. Thanks!
 
 [0]: Linkslist
 [1]: https://bit.ly/runcam--5
@@ -262,3 +273,6 @@ in order of settings:
 [7]: https://code.visualstudio.com/
 [8]: https://play.google.com/store/apps/details?id=com.runcam.runcam2
 [9]: https://apps.apple.com/us/app/runcam-app/id1015312292
+[10]: https://www.youtube.com/user/loraan/videos
+[11]: https://github.com/Niek/superview
+[12]: https://github.com/Niek/superview/releases
