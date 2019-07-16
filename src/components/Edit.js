@@ -34,6 +34,7 @@ const Edit = ({ path, date }) => {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Edit on GitHub"
+      title="Suggest an edit"
     >
       ✏️
     </EditLink>

@@ -81,6 +81,7 @@ const Mode = props => {
       {...props}
       onClick={handleToggleMode}
       aria-label="Dark/Light Mode Toggle Switch"
+      title="Change between light and dark mode"
     >
       {darkMode ? LightModeIcon : DarkModeIcon}
     </Button>
