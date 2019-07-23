@@ -1,10 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
-import github from '../../../../static/github.svg'
-import twitter from '../../../../static/twitter-blue.png'
-import twitch from '../../../../static/twitch.png'
-import youtube from '../../../../static/youtube.png'
+import { FaGithub, FaTwitter, FaTwitch, FaYoutube } from 'react-icons/fa'
 
 const StyledFooter = styled.footer`
   order: 2;
@@ -48,28 +44,28 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={github} alt="GitHub" />
+          <FaGithub color="#24292e" size="1.75rem" className="social-icon" />
         </a>
         <a
           href="https://twitter.com/jumpalottahigh"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={twitter} alt="Twitter" />
+          <FaTwitter color="#1da1f2" size="1.75rem" className="social-icon" />
         </a>
         <a
           href="https://twitch.tv/jumpalottahigh"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={twitch} alt="Twitch" />
+          <FaTwitch color="#4b367c" size="1.75rem" className="social-icon" />
         </a>
         <a
           href="https://www.youtube.com/user/jumpalottahigh"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={youtube} alt="YouTube" />
+          <FaYoutube color="#ff0000" size="1.75rem" className="social-icon" />
         </a>
       </div>
       <h5>

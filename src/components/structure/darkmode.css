@@ -164,11 +164,8 @@
   border-bottom: none;
 }
 
-.dark-mode .social li a svg {
-  filter: invert(85%);
-}
-
-.dark-mode .social-icons a img[alt='GitHub'] {
+.dark-mode .social-icon {
+  color: var(--dark-mode-black) !important;
   filter: invert(85%);
 }
 

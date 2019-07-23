@@ -1,11 +1,7 @@
 import React from 'react'
 import { slide as Menu } from 'react-burger-menu'
+import { FaGithub, FaTwitter, FaLinkedin, FaRss, FaDev } from 'react-icons/fa'
 
-import github from '../../../../static/github.svg'
-import twitter from '../../../../static/twitter.svg'
-import linkedin from '../../../../static/linkedin.svg'
-import rss from '../../../../static/rss.svg'
-import devBadge from '../../../../static/dev-badge.svg'
 import './Hamburger.css'
 
 export default class Hamburger extends React.Component {
@@ -17,7 +13,7 @@ export default class Hamburger extends React.Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={github} alt="Github" />
+          <FaGithub size="1.75rem" color="#24292e" className="social-icon" />
           GitHub
         </a>
         <a
@@ -25,7 +21,7 @@ export default class Hamburger extends React.Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={twitter} alt="Twitter" />
+          <FaTwitter size="1.75rem" color="#1da1f2" className="social-icon" />
           Twitter
         </a>
         <a
@@ -33,20 +29,15 @@ export default class Hamburger extends React.Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={linkedin} alt="LinkedIn" />
+          <FaLinkedin size="1.75rem" color="#0077b5" className="social-icon" />
           LinkedIn
         </a>
         <a href="/feed.xml">
-          <img src={rss} alt="Subscribe to RSS feed" />
+          <FaRss size="1.75rem" color="#f69536" className="social-icon" />
           RSS
         </a>
         <a href="https://dev.to/jumpalottahigh">
-          <img
-            src={devBadge}
-            alt="Georgi Yanev's DEV Profile"
-            height="30"
-            width="30"
-          />
+          <FaDev size="1.75rem" color="#24292e" className="social-icon" />
           Dev.to
         </a>
       </Menu>
