@@ -1,6 +1,7 @@
 ---
 path: '/fpv/gear-2019/'
 date: '2019-07-10'
+updated: '2019-07-23'
 title: 'My FPV drone gear for 2019'
 author: 'Georgi Yanev'
 draft: false
@@ -200,7 +201,7 @@ I mostly don't do parallel charging yet, except on 1S batteries. I prefer chargi
 
 ![RunCam 5](gear-2019-22.jpg)
 
-> RunCam 5 is pretty awesome, especially having in mind it costs only \$99. Stay tuned for an upcoming review on the blog or [subscribe to FPVTIPS on YouTube][59] for the video review.
+> RunCam 5 is pretty awesome, especially having in mind it costs only \$99. [Read the full review and setup guide][60] or [subscribe to FPVTIPS on YouTube][59] for the upcoming video review. In addition you can watch this [RunCam 5 vs RunCam Split 2 comparison video][61] or this [playlist showcasing all of RunCam 5's different resolution settings][62].
 
 ### 🔨 <span id="tools" class="offset-top-nav">Tools</span>
 
@@ -305,3 +306,6 @@ Happy Flying!
 [57]: https://bit.ly/gemfan-hurricane
 [58]: https://bit.ly/avan-flow
 [59]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
+[60]: /fpv/runcam-5-review-setup-superview/
+[61]: https://www.youtube.com/watch?v=R_31tQNzBpA
+[62]: https://www.youtube.com/watch?v=FtngCmiQQoE&list=PLLsZew4NRcdcroePNThuW-2bBq8Xoze7S
