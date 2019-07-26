@@ -36,7 +36,7 @@ const NotFoundPage = () => (
       <h2 className="article-update-notification">
         <span>💩 404 💩</span>
         <br />
-        <em>This page has been moved or no longer exists.</em>
+        <em>This page has been moved or no longer exists</em>
       </h2>
       <h4>👇 Check out all blog posts or the quick tips page 👇</h4>
       <Link to="/news/">
