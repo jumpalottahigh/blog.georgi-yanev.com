@@ -79,7 +79,7 @@ The straps are indeed of decent quality and the rubberized coating definitely he
 
 ![RunCam 5 rubberized velcro straps](runcam-5-10.jpg)
 
-### 📦 <span id="specs" class="offset-top-nav">Specifications</span>
+### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
 
 One of the most outstanding features of the [RunCam 5][1] is its weight! **It's by far one of the (if not THE) lightest cameras in its class!** It comes in at just **56 grams**. That's very, very light. In comparison, the Hero 5 Session weighs 74 grams. Here are the rest of the technical specifications:
 
