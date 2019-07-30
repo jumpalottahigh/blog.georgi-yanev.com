@@ -1,7 +1,7 @@
 ---
 path: '/learning/writing-a-book/'
 date: '2019-03-10'
-updated: '2019-06-29'
+updated: '2019-07-30'
 title: 'I am writing a book!'
 author: 'Georgi Yanev'
 affiliate: ''
@@ -144,6 +144,12 @@ As additional practice and writing, I wrote two short life stories, but am not s
 https://twitter.com/jumpalottahigh/status/1145056294803558401
 
 #### 7️⃣ July 2019
+
+This month I only worked on a single chapter (6) of my novel and didn't do a whole lot more. I'm always thinking about the story and how to make it evolve and click, but this month has been mostly family, vacation and drone side projects time.
+
+https://twitter.com/jumpalottahigh/status/1156158277148913669
+
+#### 8️⃣ August 2019
 
 ### \* \* \*
 
