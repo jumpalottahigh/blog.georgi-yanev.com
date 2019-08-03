@@ -8,6 +8,7 @@ import Layout from '../components/structure/layout'
 import PostsList from '../components/PostsList'
 import TinyLetterSignup from '../components/TinyLetterSignUp'
 import Announcement from '../components/Announcement'
+import YouTubeChannelsPromo from '../components/YouTubeChannelsPromo'
 
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
@@ -286,56 +287,7 @@ class BlogIndex extends React.Component {
             subscribe to my monthly FPV newsletter...
           </h3>
           <TinyLetterSignup />
-          <h3>... or check out my YouTube Channels:</h3>
-          <div style={{ display: 'flex' }}>
-            <a
-              style={{
-                width: '50%',
-                boxShadow: 'none',
-                border: '1px solid #dedede',
-              }}
-              href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Img
-                fluid={this.props.data.youtubeFpvtips.childImageSharp.fluid}
-                alt="FPVTIPS YouTube channel"
-              />
-            </a>
-            <a
-              style={{
-                width: '50%',
-                boxShadow: 'none',
-                border: '1px solid #dedede',
-                borderLeft: 'none',
-              }}
-              href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Img
-                fluid={this.props.data.youtubeGeorgiFpv.childImageSharp.fluid}
-                alt="GeorgiFPV YouTube channel"
-              />
-            </a>
-          </div>
-          <a
-            style={{
-              boxShadow: 'none',
-            }}
-            href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Img
-              style={{ marginBottom: '2rem' }}
-              fluid={
-                this.props.data.homeBottom.edges[0].node.childImageSharp.fluid
-              }
-              alt="Drone, Georgi flying FPV and coding work station"
-            />
-          </a>
+          <YouTubeChannelsPromo text="... or check out my YouTube channels:" />
         </div>
       </Layout>
     )
@@ -394,21 +346,6 @@ export const HomePageQuery = graphql`
       }
     }
 
-    homeBottom: allFile(
-      filter: { relativePath: { regex: "/^home/home-bottom/" } }
-    ) {
-      edges {
-        node {
-          name
-          childImageSharp {
-            fluid(maxWidth: 928, quality: 75) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-      }
-    }
-
     fpvtips: allFile(filter: { relativePath: { regex: "/^home/fpvtips/" } }) {
       edges {
         node {
@@ -418,22 +355,6 @@ export const HomePageQuery = graphql`
               ...GatsbyImageSharpFluid_withWebp
             }
           }
-        }
-      }
-    }
-
-    youtubeFpvtips: file(relativePath: { regex: "/^home/home-fpvtips/" }) {
-      childImageSharp {
-        fluid(maxWidth: 362, quality: 100) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-
-    youtubeGeorgiFpv: file(relativePath: { regex: "/^home/home-georgifpv/" }) {
-      childImageSharp {
-        fluid(maxWidth: 362, quality: 100) {
-          ...GatsbyImageSharpFluid
         }
       }
     }

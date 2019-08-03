@@ -15,6 +15,7 @@ import AskAQuestion from '../components/AskAQuestion'
 import ReaderQuestions from '../components/ReaderQuestions'
 import PromoBanner from '../components/PromoBanner'
 import FeaturedGear from '../components/FeaturedGear'
+import YouTubeChannelsPromo from '../components/YouTubeChannelsPromo'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -207,6 +208,7 @@ class BlogPostTemplate extends React.Component {
             />
             <Share url={post.frontmatter.path} />
             <TinyLetterSignup />
+            <YouTubeChannelsPromo text="Need even more FPV in your life? Check out my YouTube channels:" />
             <PromoBanner
               style={{ maxWidth: '450px', margin: 'auto' }}
               linkTo="https://www.banggood.com/marketing-Eachine-Official-Store/tid-2253.html?p=NY211410857261201705"
