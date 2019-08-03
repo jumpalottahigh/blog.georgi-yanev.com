@@ -40,13 +40,13 @@ class BlogPostTemplate extends React.Component {
     if (post.frontmatter.category === 'fpv') {
       showBanner = true
       bannerDetails.linkTo =
-        'https://www.banggood.com/promotion-banggood-2019-summer-prime-sale-9178.html?utmid=8617&p=NY211410857261201705'
-      bannerDetails.imagePath = '/promo/banggood-summer-prime-sale-2019.png'
+        'https://www.banggood.com/collection-5212.html?p=NY211410857261201705'
+      bannerDetails.imagePath = '/promo/banggood-rc-clearance.jpg'
     } else if (post.frontmatter.category === 'smarthome') {
       showBanner = true
       bannerDetails.linkTo =
-        'https://www.banggood.com/promotion-2019-summer-electronics-tools-sale-9176.html?utmid=8741&utm_design146&p=NY211410857261201705'
-      bannerDetails.imagePath = '/promo/banggood-tools-2019.jpg'
+        'https://www.banggood.com/collection-5212.html?p=NY211410857261201705'
+      bannerDetails.imagePath = '/promo/banggood-rc-clearance.jpg'
     }
 
     return (
@@ -189,8 +189,8 @@ class BlogPostTemplate extends React.Component {
             />
             <FeaturedGear gearList={post.frontmatter.gearList} />
             <PromoBanner
-              linkTo="https://www.banggood.com/promotion-2019-summer-rc-outdoor-sale-promotion-9166.html?utmid=8759&utm_design=80&p=NY211410857261201705"
-              imagePath="/promo/banggood-rc-july-2019.jpg"
+              linkTo="https://www.banggood.com/collection-5212.html?p=NY211410857261201705"
+              imagePath="/promo/banggood-rc-clearance.jpg"
             />
             <FeedbackSection />
             <AskAQuestion />
@@ -208,8 +208,9 @@ class BlogPostTemplate extends React.Component {
             <Share url={post.frontmatter.path} />
             <TinyLetterSignup />
             <PromoBanner
-              linkTo="https://www.banggood.com/promotion-banggood-2019-summer-prime-sale-9178.html?utmid=8617&p=NY211410857261201705"
-              imagePath="/promo/banggood-summer-sale-2019.jpg"
+              style={{ maxWidth: '450px', margin: 'auto' }}
+              linkTo="https://www.banggood.com/marketing-Eachine-Official-Store/tid-2253.html?p=NY211410857261201705"
+              imagePath="/promo/banggood-eachine-store.jpg"
             />
           </div>
         </div>

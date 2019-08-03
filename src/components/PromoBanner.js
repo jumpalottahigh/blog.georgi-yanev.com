@@ -13,8 +13,8 @@ const StyledBanner = styled.div`
   }
 `
 
-const PromoBanner = ({ linkTo, imagePath }) => (
-  <StyledBanner>
+const PromoBanner = ({ linkTo, imagePath, ...rest }) => (
+  <StyledBanner {...rest}>
     <a href={linkTo} target="_blank" rel="noopener noreferrer">
       <img src={imagePath} alt="Banggood promo" />
     </a>
