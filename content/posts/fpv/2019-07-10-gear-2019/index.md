@@ -1,7 +1,7 @@
 ---
 path: '/fpv/gear-2019/'
 date: '2019-07-10'
-updated: '2019-07-23'
+updated: '2019-08-03'
 title: 'My FPV drone gear for 2019'
 author: 'Georgi Yanev'
 draft: false
@@ -42,7 +42,9 @@ The gear I use in 2019 and the quads I fly the most! To get a sense of how I fly
 
 - [Skyzone SKY02X][1] 🔥
 
-> Will start testing the Skyzone goggles in July 2019 and will update this post accordingly when I have more to share.
+![skyzone sky02x goggles](gear-2019-35.jpg)
+
+> The Skyzone SKY02X goggle are some of the best mid range priced goggles in 2019. They are very comfortable, have bright screens with clear picture, decent built in diversity modules, plenty of buttons that make it very easy to adjust various functions and even a camera you can use as a passthrough to see the real world, while wearing the goggles.
 
 - [AOMWAY Commander][3] 🔥
 
