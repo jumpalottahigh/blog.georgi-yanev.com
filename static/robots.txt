@@ -1,2 +1,3 @@
+Sitemap: https://blog.georgi-yanev.com/sitemap.xml
 User-agent: *
 Disallow:
