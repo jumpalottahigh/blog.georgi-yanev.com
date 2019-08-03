@@ -186,14 +186,14 @@ class BlogIndex extends React.Component {
             <Link to="/learning/how-i-got-into-software-development/">
               web developer
             </Link>
-            {` `}
-            at{` `}
-            <a href="https://www.f-secure.com/en/web/home_global/">F-Secure</a>.
-            You can find me on{' '}
-            <a href="https://twitter.com/jumpalottahigh">twitter</a>,{' '}
-            <a href="https://github.com/jumpalottahigh">github</a>,{' '}
-            <a href="https://twitch.tv/jumpalottahigh">twitch</a> and{' '}
-            <a href="https://www.linkedin.com/in/yanevgeorgi">linkedin</a>
+            . You can find me on{' '}
+            <a href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q">
+              YouTube
+            </a>
+            , <a href="https://twitter.com/jumpalottahigh">Twitter</a>,{' '}
+            <a href="https://github.com/jumpalottahigh">GitHub</a>,{' '}
+            <a href="https://twitch.tv/jumpalottahigh">Twitch</a> and{' '}
+            <a href="https://www.linkedin.com/in/yanevgeorgi">LinkedIn</a>
             .
             <br />
           </p>
@@ -205,7 +205,7 @@ class BlogIndex extends React.Component {
               </span>{' '}
               FPV racing drones
             </strong>{' '}
-            (building, repairing and flying),{' '}
+            (reviews, building, repairing and flying),{' '}
             <strong>
               <span role="img" aria-label="computer">
                 💻
@@ -250,7 +250,7 @@ class BlogIndex extends React.Component {
                 💜
               </span>
             </strong>{' '}
-            (a React based static site generator) and is hosted on{' '}
+            and is hosted on{' '}
             <strong>
               <a href="https://www.netlify.com">Netlify</a>
               <span role="img" aria-label="fire">
@@ -281,12 +281,12 @@ class BlogIndex extends React.Component {
               </Fade>
             </div>
           )}
-          <p style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
-            Additionally, the Eternal Archives section of the blog hosts a bunch
-            of unedited content (fan fiction, music and programming) from the
-            early 2000s when I was only 15 - 17.
-          </p>
+          <h3>
+            If you are still hungry for more FPV related things, definitely
+            subscribe to my monthly FPV newsletter...
+          </h3>
           <TinyLetterSignup />
+          <h3>... or check out my YouTube Channels:</h3>
           <div style={{ display: 'flex' }}>
             <a
               style={{
