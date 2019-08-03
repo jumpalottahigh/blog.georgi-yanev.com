@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import Img from 'gatsby-image'
+import { graphql, useStaticQuery } from 'gatsby'
 
 const TinyLetter = styled.div`
   display: flex;
@@ -52,6 +54,17 @@ const TinyLetter = styled.div`
     border-bottom: 1px solid #043f71;
   }
 
+  .two {
+    font-size: 0.9rem;
+  }
+
+  .gatsby-image-wrapper {
+    width: 100%;
+    margin: 0 auto 0.5rem;
+    max-width: 260px;
+    display: block;
+  }
+
   @media (min-width: 991px) {
     padding: 2rem 6rem;
   }
@@ -65,7 +78,7 @@ const TinyLetter = styled.div`
       'paragraph2 form form'
       'tinyletter tinyletter tinyletter';
 
-    h3 {
+    .tinyletter__heading {
       grid-area: heading;
     }
 
@@ -89,9 +102,24 @@ const TinyLetter = styled.div`
 `
 
 const TinyLetterSignup = () => {
+  const logo = useStaticQuery(graphql`
+    {
+      file(relativePath: { regex: "/^fpvtips-logo-128.png/" }) {
+        name
+        childImageSharp {
+          fluid(maxWidth: 362, quality: 81) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+    }
+  `)
+
+  console.log(logo)
+
   const handleTinyLetterFormSubmit = () => {
     window.open(
-      'https://tinyletter.com/jumpalottahigh',
+      'https://tinyletter.com/fpvtips',
       'popupwindow',
       'scrollbars=yes,width=800,height=600'
     )
@@ -100,13 +128,21 @@ const TinyLetterSignup = () => {
 
   return (
     <TinyLetter>
-      <h3>📰 Subscribe to the newsletter</h3>
-      <p className="one">
+      {/* <h3>📰 Subscribe to the newsletter</h3> */}
+      {/* <p className="one">
         Get the latest updates straight to your inbox in an email once or twice
         a month.
+      </p> */}
+      <div className="tinyletter__heading">
+        <Img fluid={logo.file.childImageSharp.fluid} alt={logo.name} />
+        <h3>📰 Monthly Newsletter</h3>
+      </div>
+      <p className="one">
+        Get the latest scoop of what's new in the FPV drone racing and freestyle
+        world. What to watch, who to follow and more.
       </p>
       <form
-        action="https://tinyletter.com/jumpalottahigh"
+        action="https://tinyletter.com/fpvtips"
         method="post"
         target="popupwindow"
         onSubmit={handleTinyLetterFormSubmit}
@@ -124,7 +160,7 @@ const TinyLetterSignup = () => {
         <input type="submit" value="Subscribe" />
       </form>
       <p className="two">
-        I hate spam, and so I don't spam. Unsubscribe at any time.
+        <em>I hate spam, and so I don't spam. Unsubscribe at any time.</em>
       </p>
       <div className="tinyletter">
         <a
