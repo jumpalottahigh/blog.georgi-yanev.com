@@ -37,6 +37,12 @@ Let's find out!
 - [🆚 RunCam Split 2 comparison](#comparison)
 - [📑 Conclusion](#conclusion)
 
+If you prefer watching, check out the full video review on my YouTube channel:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fvExmj3n4rU?rel=0" frameBorder="0" allowFullScreen title="RunCam review on FPVtips on YouTube"></iframe>
+</div>
+
 ### 📦 <span id="unboxing">Unboxing</span>
 
 RunCam's products almost always offer a premium unboxing experience with almost Apple-like quality. This one comes in a solid hard cardboard box with a slide-on top.
