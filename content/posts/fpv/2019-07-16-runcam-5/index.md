@@ -1,6 +1,7 @@
 ---
 path: '/fpv/runcam-5-review-setup-superview/'
 date: '2019-07-16'
+updated: '2019-08-04'
 title: 'RunCam 5: The Complete Guide'
 author: 'Georgi Yanev'
 draft: false
