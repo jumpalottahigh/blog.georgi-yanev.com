@@ -15,6 +15,7 @@ tags:
   - 'gear'
 gearList:
   - 'taranis-x-lite'
+  - 'x-lite-lotus-stick-ends'
 ogKeywords: 'taranis, taranis x-lite, taranis xlite, x-lite, frsky, opentx, set up taranis x-lite, x-lite update, x-lite upgrade, x-lite flash firmware, taranis x-lite flash firmaware, x-lite flash internal module, x-lite flash xm+, x-lite flash receiver, x-lite sd card, x-lite sd card set up, how to configure x-lite, how to configure taranis x-lite, how to set up sd card on x-lite, update open tx on x-lite, how to update open tx, how to update open tx on taranis x-lite, taranis x-lite review, taranis x-lite unboxing, taranis x-lite testing'
 ogDescription: 'I recently got the Taranis X-Lite and was excited to try it out. I have watched the reviews, had a rough idea of what to expect, but really wanted to experience the radio for myself and see how it would work for me.'
 ogImage: './set-up-taranis-x-lite-4.jpg'
@@ -307,7 +308,7 @@ Happy flying!
 - High quality transmitter
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/PigsOtpozno?rel=0" frameBorder="0" allowFullScreen title="First flight with the Taranis X-Lite"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/g-VcWandhRc?rel=0" frameBorder="0" allowFullScreen title="Dalprop Cyclone on Emax Hawk5"></iframe>
 </div>
 
 [0]: Linkslist

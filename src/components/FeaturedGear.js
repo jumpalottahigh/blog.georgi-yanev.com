@@ -102,6 +102,16 @@ const allFeaturedGear = {
     link: 'https://bit.ly/runcam5-mount',
     image: '/banggood/runcam-5-mount.jpg',
   },
+  'x-lite-lotus-stick-ends': {
+    name: 'X-Lite Lotus stick ends',
+    link: 'https://bit.ly/lotus-stick-ends',
+    image: '/banggood/taranis-x-lite-lotus-stick-ends.jpg',
+  },
+  'caddx-turtle-v2-cable': {
+    name: 'Caddx Turtle V2 coaxial cable',
+    link: 'https://bit.ly/caddx-turtle-v2-cable',
+    image: '/banggood/caddx-turtle-v2-cable.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
