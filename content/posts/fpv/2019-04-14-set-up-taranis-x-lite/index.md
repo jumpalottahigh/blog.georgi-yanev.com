@@ -1,7 +1,7 @@
 ---
 path: '/fpv/set-up-taranis-x-lite-update-opentx/'
 date: '2019-04-14'
-updated: '2019-06-12'
+updated: '2019-08-05'
 title: 'Set up Taranis X-Lite and update OpenTX'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
@@ -50,6 +50,7 @@ We will go over those and many other points in detail. So, let's get to it.
 - [Bind your first model](#bind)
 - [Update OpenTX](#update)
 - [Setup SD card](#sdcard)
+- [Upgrades](#upgrades)
 - [Conclusion](#conclusion)
 
 ### 📦 <span id="unboxing">Unboxing and layout overview</span>
@@ -281,6 +282,12 @@ And here is the [firmware for the internal module][19] of the Taranis X-Lite. A 
 
 To get those files setup on the SD card, after unzipping the downloads, copy over the files (including their parent folders) inside the `FIRMWARE` folder on the SD card.
 
+### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
+
+An upgrade I did in August 2019, was to buy the [Lotus stick ends][20] which are very comfortable for thumbers. They are high quality, aluminum and super grippy! I feel like I get even more resolution out of the sticks with those stick ends, I definitely recommend them (although there's nothing wrong with the stock stick ends too).
+
+![Taranis X-Lite with Lotus stick ends](set-up-taranis-x-lite-34.jpg)
+
 ### 🏁 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
 In conclusion, would I recommend this radio? **YES!** That's the short answer. I think it's a great deal. The radio is **full featured**, much similar to the Taranis Q X7, and comes in at [a very decent price][1]. There is maybe one reason that would go against you picking this radio up and going for another one - if you are a **pincher**(a pilot that flies by pinching the sticks between their index finger and thumb). Higher sticks and other form factors might be better in that case. However for me, and any other **thumber**(a pilot that flies by placing their thumbs on top of the sticks), **I've been having a blast**. The X-Lite took close to no time for me to get used to it, maybe like half a battery or so. I've pretty much swapped my Taranis Q X7 for the X-Lite since I got it and I'm not sure I'm going back, I honestly don't have many reasons to.
@@ -323,3 +330,4 @@ Happy flying!
 [17]: https://www.frsky-rc.com/download/
 [18]: https://www.frsky-rc.com/xm-plus-mini-sbus-non-telemetry-full-range/
 [19]: https://www.frsky-rc.com/taranis-x-lite/
+[20]: https://bit.ly/lotus-stick-ends
