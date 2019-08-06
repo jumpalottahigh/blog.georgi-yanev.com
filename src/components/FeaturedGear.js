@@ -110,7 +110,7 @@ const allFeaturedGear = {
   'caddx-turtle-v2-cable': {
     name: 'Caddx Turtle V2 coaxial cable',
     link: 'https://bit.ly/caddx-turtle-v2-cable',
-    image: '/banggood/caddx-turtle-v2-cable.jpg',
+    image: '/banggood/caddx-turtle-v2-cable.png',
   },
 }
 
