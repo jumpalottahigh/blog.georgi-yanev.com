@@ -1,7 +1,9 @@
 import React from 'react'
+import styled from 'styled-components'
 import { Link } from 'gatsby'
 import EternalArchives from '../components/EternalArchives'
-import useAllMarkdownRemark from '../hooks/use-allmarkdown'
+import useSortedMarkdown from '../hooks/use-sortedmarkdown'
+import useWindowSize from '../hooks/use-windowsize'
 
 const activeStyle = {
   color: '#0057e7',
@@ -9,39 +11,26 @@ const activeStyle = {
   fontSize: '0.95rem',
 }
 
+const StyledSidebar = styled.aside`
+  a {
+    color: #0175d8;
+    text-decoration: none;
+    box-shadow: none;
+  }
+
+  a:hover {
+    color: #0175d8;
+    box-shadow: none;
+  }
+`
+
 const SideBar = () => {
-  let pages = useAllMarkdownRemark()
-  let fpv = []
-  let learning = []
-  let projects = []
-  let smarthome = []
-  let stories = []
+  const windowSize = useWindowSize()
+  const sortedByCategory = useSortedMarkdown()
 
-  // Filter the data
-  pages.forEach(page => {
-    switch (page.node.frontmatter.category) {
-      case 'learning':
-        learning.push(page)
-        break
-      case 'smarthome':
-        smarthome.push(page)
-        break
-      case 'fpv':
-        fpv.push(page)
-        break
-      case 'projects':
-        projects.push(page)
-        break
-      case 'stories':
-        stories.push(page)
-        break
-      default:
-        break
-    }
-  })
-
+  // return windowSize.width < 768 ? null : (
   return (
-    <div className="sidebar-wrapper">
+    <StyledSidebar className="sidebar-wrapper">
       <div className="sidebar">
         <ul className="sidenav">
           <li>
@@ -52,7 +41,7 @@ const SideBar = () => {
               <em>FPV quads</em>
             </Link>
           </li>
-          {fpv.map(page => (
+          {sortedByCategory['fpv'].map(page => (
             <li key={page.node.id}>
               <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
                 {page.node.frontmatter.title}
@@ -67,7 +56,7 @@ const SideBar = () => {
               <em>Projects</em>
             </Link>
           </li>
-          {projects.map(page => (
+          {sortedByCategory['projects'].map(page => (
             <li key={page.node.id}>
               <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
                 {page.node.frontmatter.title}
@@ -82,7 +71,7 @@ const SideBar = () => {
               <em>Life-long learning</em>
             </Link>
           </li>
-          {learning.map(page => (
+          {sortedByCategory['learning'].map(page => (
             <li key={page.node.id}>
               <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
                 {page.node.frontmatter.title}
@@ -97,7 +86,7 @@ const SideBar = () => {
               <em>Smart home automation</em>
             </Link>
           </li>
-          {smarthome.map(page => (
+          {sortedByCategory['smarthome'].map(page => (
             <li key={page.node.id}>
               <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
                 {page.node.frontmatter.title}
@@ -112,7 +101,7 @@ const SideBar = () => {
               <em>Writing</em>
             </Link>
           </li>
-          {stories.map(page => (
+          {sortedByCategory['stories'].map(page => (
             <li key={page.node.id}>
               <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
                 {page.node.frontmatter.title}
@@ -123,7 +112,7 @@ const SideBar = () => {
         <hr />
         <EternalArchives />
       </div>
-    </div>
+    </StyledSidebar>
   )
 }
 

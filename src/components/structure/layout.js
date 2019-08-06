@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
 import SideBar from '../Sidebar'
-import MenuFAB from '../MenuFAB/MenuFAB'
+import MenuFAB from '../MenuFAB'
 
 import './index.css'
 import './darkmode.css'

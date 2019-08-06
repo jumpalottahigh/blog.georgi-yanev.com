@@ -115,8 +115,6 @@ const TinyLetterSignup = () => {
     }
   `)
 
-  console.log(logo)
-
   const handleTinyLetterFormSubmit = () => {
     window.open(
       'https://tinyletter.com/fpvtips',
@@ -128,11 +126,6 @@ const TinyLetterSignup = () => {
 
   return (
     <TinyLetter>
-      {/* <h3>📰 Subscribe to the newsletter</h3> */}
-      {/* <p className="one">
-        Get the latest updates straight to your inbox in an email once or twice
-        a month.
-      </p> */}
       <div className="tinyletter__heading">
         <Img fluid={logo.file.childImageSharp.fluid} alt={logo.name} />
         <h3>📰 Monthly Newsletter</h3>

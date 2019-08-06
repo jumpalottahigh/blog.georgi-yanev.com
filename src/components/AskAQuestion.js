@@ -127,8 +127,6 @@ const AskAQuestion = () => {
       name,
     }
 
-    console.log(payload)
-
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
