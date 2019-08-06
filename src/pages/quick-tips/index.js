@@ -1,7 +1,8 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, navigate } from 'gatsby'
 import styled from 'styled-components'
 import Collapsible from 'react-collapsible'
+import { FaExternalLinkAlt } from 'react-icons/fa'
 import Layout from '../../components/structure/layout'
 
 const Section = styled.section`
@@ -150,7 +151,7 @@ const QuickTipsPage = ({ data }) => {
         )}
         <h2>FPV Quick Tips</h2>
 
-        {/* Search icon and input */}
+        {/* TODO: Search icon and input */}
         {/* <Collapsible
           classParentString="search"
           trigger={
@@ -207,6 +208,25 @@ const QuickTipsPage = ({ data }) => {
                   🔽
                 </span>{' '}
                 {tip.frontmatter.title}
+                <a
+                  href={tip.frontmatter.path}
+                  css={`
+                    box-shadow: none !important;
+                    vertical-align: text-bottom;
+                    margin-left: 0.5rem;
+
+                    &:hover {
+                      color: #0175d8 !important;
+                      opacity: 0.85;
+                    }
+                  `}
+                  onClick={e => {
+                    e.preventDefault()
+                    navigate(tip.frontmatter.path)
+                  }}
+                >
+                  <FaExternalLinkAlt />
+                </a>
               </h3>
             }
             triggerWhenOpen={

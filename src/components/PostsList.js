@@ -1,6 +1,5 @@
 import React from 'react'
-import { navigate } from 'gatsby'
-import { Link } from 'gatsby'
+import { Link, navigate } from 'gatsby'
 import Img from 'gatsby-image'
 import svgRightArrow from '../images/right-arrow.svg'
 
