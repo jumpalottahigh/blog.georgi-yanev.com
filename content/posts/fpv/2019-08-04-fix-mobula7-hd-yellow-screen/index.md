@@ -58,7 +58,7 @@ You should now have access to the other end of the coaxial cable and be able to 
 
 I wonder if this cable is repairable and can be soldered together? For a moment I considered doing it for science, but I deemed it's not worth it. Let me know in the section below if you managed to salvage yours.
 
-I had ordered a [replacement cable][3] a while back and was not ready to replace the broken one.
+I had ordered a [replacement cable][3] a while back and was now ready to replace the broken one.
 
 ![Mobula7 HD Caddx Turtle V2 coaxial cable packaged](fix-mobula7-hd-yellow-screen-1.jpg)
 
