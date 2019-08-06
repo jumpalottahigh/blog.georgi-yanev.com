@@ -129,9 +129,6 @@ class QuickTipTemplate extends React.Component {
                 </div>
                 <div className="year">{post.frontmatter.date}</div>
               </div>
-              <div className="toolbar">
-                <ModeSwitch />
-              </div>
             </div>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <div style={{ marginTop: '1rem', marginBottom: '2rem' }}>

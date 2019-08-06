@@ -151,7 +151,7 @@ const QuickTipsPage = ({ data }) => {
         <h2>FPV Quick Tips</h2>
 
         {/* Search icon and input */}
-        <Collapsible
+        {/* <Collapsible
           classParentString="search"
           trigger={
             <span role="img" aria-label="magnifying glass emoji">
@@ -162,7 +162,7 @@ const QuickTipsPage = ({ data }) => {
           easing="ease-out"
         >
           <input type="text" />
-        </Collapsible>
+        </Collapsible> */}
         <p>
           Ask a question below and get your question featured on this page along
           side its answer.
