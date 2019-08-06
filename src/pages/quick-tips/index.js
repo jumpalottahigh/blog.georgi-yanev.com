@@ -208,12 +208,12 @@ const QuickTipsPage = ({ data }) => {
                   🔽
                 </span>{' '}
                 {tip.frontmatter.title}
+                &nbsp;
                 <a
                   href={tip.frontmatter.path}
                   css={`
                     box-shadow: none !important;
                     vertical-align: text-bottom;
-                    margin-left: 0.5rem;
 
                     &:hover {
                       color: #0175d8 !important;
