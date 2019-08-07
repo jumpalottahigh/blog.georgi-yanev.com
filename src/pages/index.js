@@ -52,7 +52,7 @@ class BlogIndex extends React.Component {
                   <motion.div
                     animate={{ rotate: 360 }}
                     transition={{ duration: 1.15 }}
-                    whileHover={{ scale: 1.1, rotate: -90 }}
+                    whileHover={{ scale: 1.1, rotate: -360 }}
                     whileTap={{
                       scale: 0.9,
                       rotate: -90,
