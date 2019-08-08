@@ -9,9 +9,7 @@ import PostsList from '../components/PostsList'
 import TinyLetterSignup from '../components/TinyLetterSignUp'
 import Announcement from '../components/Announcement'
 import YouTubeChannelsPromo from '../components/YouTubeChannelsPromo'
-
-import svgReact from '../../static/react.svg'
-import svgJS from '../../static/javascript.svg'
+import AuthorMessage from '../components/AuthorMessage'
 
 class BlogIndex extends React.Component {
   state = {
@@ -146,120 +144,8 @@ class BlogIndex extends React.Component {
             </strong>{' '}
             which I launched a while back!
           </div>
-          <div
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              marginBottom: '1rem',
-            }}
-          >
-            <div style={{ width: '20%' }}>
-              <div style={{ maxWidth: '100px' }}>
-                <Img
-                  fluid={
-                    this.props.data.georgi.edges[0].node.childImageSharp.fluid
-                  }
-                  alt="Georgi Yanev portrait"
-                />
-              </div>
-            </div>
-            <h1 style={{ fontSize: '1.4rem', width: '80%', margin: 0 }}>
-              Hi, I'm Georgi and I build things on the web with{` `}
-              <img
-                className="framework-logo"
-                src={svgJS}
-                alt="JavaScript logo"
-              />
-              {` `}
-              JavaScript and{` `}
-              <img
-                className="framework-logo"
-                src={svgReact}
-                alt="React.js logo"
-              />
-              {` `}
-              React
-            </h1>
-          </div>
-          <p>
-            I work as a {` `}
-            <Link to="/learning/how-i-got-into-software-development/">
-              web developer
-            </Link>
-            . You can find me on{' '}
-            <a href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q">
-              YouTube
-            </a>
-            , <a href="https://twitter.com/jumpalottahigh">Twitter</a>,{' '}
-            <a href="https://github.com/jumpalottahigh">GitHub</a>,{' '}
-            <a href="https://twitch.tv/jumpalottahigh">Twitch</a> and{' '}
-            <a href="https://www.linkedin.com/in/yanevgeorgi">LinkedIn</a>
-            .
-            <br />
-          </p>
-          <p>
-            In this blog you will find posts about{' '}
-            <strong>
-              <span role="img" aria-label="helicopter">
-                🚁
-              </span>{' '}
-              FPV racing drones
-            </strong>{' '}
-            (reviews, building, repairing and flying),{' '}
-            <strong>
-              <span role="img" aria-label="computer">
-                💻
-              </span>{' '}
-              web development
-            </strong>
-            ,{' '}
-            <strong>
-              <span role="img" aria-label="house">
-                🏠
-              </span>{' '}
-              smart home automation
-            </strong>
-            ,{' '}
-            <strong>
-              <span role="img" aria-label="student">
-                👨‍🎓️
-              </span>{' '}
-              life-long learning, goals and stories
-            </strong>{' '}
-            as well as who knows what else in the future.
-          </p>
-          <p>
-            I <strong>write code</strong>, solve problems and sometimes stream
-            on twitch. I <strong>love flying FPV drones</strong>, 3D printing,
-            contributing to open source, and working on fpvtips.com.
-          </p>
-          <p>
-            Most of my projects are open source and{' '}
-            <a href="https://github.com/jumpalottahigh?tab=repositories">
-              available on GitHub
-            </a>
-            . You can also{' '}
-            <a href="https://twitter.com/jumpalottahigh">follow me</a> on
-            twitter.
-          </p>
-          <p>
-            This blog was a joy to build using{' '}
-            <strong>
-              <a href="https://www.gatsbyjs.org">Gatsby</a>
-              <span role="img" aria-label="heart">
-                💜
-              </span>
-            </strong>{' '}
-            and is hosted on{' '}
-            <strong>
-              <a href="https://www.netlify.com">Netlify</a>
-              <span role="img" aria-label="fire">
-                🔥
-              </span>
-            </strong>
-            .
-          </p>
+          <AuthorMessage image={this.props.data.georgi} />
+
           {loadVideo && (
             <div className="video-container">
               <Fade>
@@ -331,17 +217,11 @@ export const HomePageQuery = graphql`
       }
     }
 
-    georgi: allFile(
-      filter: { relativePath: { regex: "/^home/georgi-face/" } }
-    ) {
-      edges {
-        node {
-          name
-          childImageSharp {
-            fluid(maxWidth: 100, quality: 75) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
+    georgi: file(relativePath: { regex: "/^home/georgi-face/" }) {
+      name
+      childImageSharp {
+        fluid(maxWidth: 100, quality: 75) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }
