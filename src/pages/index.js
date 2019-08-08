@@ -1,8 +1,7 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
-import { Fade } from 'react-reveal'
-import Spin from 'react-reveal/Spin'
+import { motion } from 'framer-motion'
 
 import Layout from '../components/structure/layout'
 import PostsList from '../components/PostsList'
@@ -48,7 +47,15 @@ class BlogIndex extends React.Component {
                   🔥 Announcement 🔥
                 </h4>
                 <div className="short-content-inner-container">
-                  <Spin>
+                  <motion.div
+                    animate={{ rotate: 360 }}
+                    transition={{ duration: 1.15 }}
+                    whileHover={{ scale: 1.1, rotate: -360 }}
+                    whileTap={{
+                      scale: 0.9,
+                      rotate: -90,
+                    }}
+                  >
                     <Img
                       fluid={
                         this.props.data.fpvtips.edges[0].node.childImageSharp
@@ -56,7 +63,7 @@ class BlogIndex extends React.Component {
                       }
                       alt="FPVTIPS logo"
                     />
-                  </Spin>
+                  </motion.div>
                   <h4>
                     I'm starting a new YouTube channel called{' '}
                     <a
@@ -148,7 +155,12 @@ class BlogIndex extends React.Component {
 
           {loadVideo && (
             <div className="video-container">
-              <Fade>
+              <motion.div
+                initial="hidden"
+                animate="visible"
+                transition={{ duration: 1.75 }}
+                variants={{ visible: { opacity: 1 }, hidden: { opacity: 0 } }}
+              >
                 <video
                   autoPlay
                   muted
@@ -165,7 +177,7 @@ class BlogIndex extends React.Component {
                   />
                   Tap to play video
                 </video>
-              </Fade>
+              </motion.div>
             </div>
           )}
           <h3>
