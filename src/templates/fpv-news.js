@@ -6,7 +6,7 @@ import FeedbackSection from '../components/FeedbackSection'
 import AskAQuestion from '../components/AskAQuestion'
 import SupportSection from '../components/SupportSection'
 
-class NewsletterTemplate extends React.Component {
+class FpvNewsTemplate extends React.Component {
   render() {
     const { markdownRemark: post } = this.props.data
 
@@ -128,8 +128,8 @@ class NewsletterTemplate extends React.Component {
             </div>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <div style={{ marginTop: '1rem', marginBottom: '2rem' }}>
-              <Link to="/quick-tips/">
-                <button className="category fpv">More quick tips</button>
+              <Link to="/fpv-news/">
+                <button className="category fpv">More FPV news</button>
               </Link>
             </div>
             <FeedbackSection />
@@ -142,10 +142,10 @@ class NewsletterTemplate extends React.Component {
   }
 }
 
-export default NewsletterTemplate
+export default FpvNewsTemplate
 
 export const pageQuery = graphql`
-  query NewsletterByPath($path: String!) {
+  query FpvNewsByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {

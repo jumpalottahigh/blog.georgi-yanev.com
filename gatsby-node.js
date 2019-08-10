@@ -7,7 +7,7 @@ exports.createPages = ({ graphql, actions }) => {
   return new Promise((resolve, reject) => {
     const blogPost = path.resolve('./src/templates/blog-post.js')
     const quickTip = path.resolve('./src/templates/quick-tip.js')
-    const newsletter = path.resolve('./src/templates/newsletter.js')
+    const fpvNews = path.resolve('./src/templates/fpv-news.js')
     resolve(
       graphql(
         `
@@ -43,9 +43,9 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
 
-            newsletter: allMarkdownRemark(
+            allFpvNews: allMarkdownRemark(
               sort: { order: DESC, fields: [frontmatter___date] }
-              filter: { fileAbsolutePath: { regex: "/content/newsletter/" } }
+              filter: { fileAbsolutePath: { regex: "/content/fpv-news/" } }
             ) {
               edges {
                 node {
@@ -83,10 +83,10 @@ exports.createPages = ({ graphql, actions }) => {
         })
 
         // Create newsletter pages.
-        result.data.newsletter.edges.forEach(({ node }) => {
+        result.data.allFpvNews.edges.forEach(({ node }) => {
           createPage({
             path: node.frontmatter.path,
-            component: newsletter,
+            component: fpvNews,
             context: {}, // additional data can be passed via context
           })
         })
