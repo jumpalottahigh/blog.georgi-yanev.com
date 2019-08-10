@@ -107,13 +107,18 @@ const Header = () => (
                 </Link>
               </li>
               <li className="visible-xs">
-                <Link to="/news/" activeStyle={activeStyle}>
+                <Link to="/posts/" activeStyle={activeStyle}>
                   Blog posts
                 </Link>
               </li>
               <li className="visible-xs">
                 <Link to="/quick-tips/" activeStyle={activeStyle}>
                   Quick tips
+                </Link>
+              </li>
+              <li>
+                <Link to="/fpv-news/" activeStyle={activeStyle}>
+                  FPV news
                 </Link>
               </li>
               <li>

@@ -6,18 +6,15 @@ import FeedbackSection from '../components/FeedbackSection'
 import AskAQuestion from '../components/AskAQuestion'
 import SupportSection from '../components/SupportSection'
 
-class QuickTipTemplate extends React.Component {
+class NewsletterTemplate extends React.Component {
   render() {
     const { markdownRemark: post } = this.props.data
 
     // If post doesn't have a defined og image, fall back to default defined here
-    const ogImage =
-      post.frontmatter.ogImage !== null
-        ? `https://blog.georgi-yanev.com${post.frontmatter.ogImage.publicURL}`
-        : `https://blog.georgi-yanev.com/quick-tips-og-image.jpg`
+    const ogImage = `https://blog.georgi-yanev.com/quick-tips-og-image.jpg`
 
     const description =
-      'Quick tips, articles, DIY and set up guides for all things FPV. Posts on how to build an FPV quadcopter, how to set up your radio controller, goggles, how to mod your existing drones and more...'
+      'Monthly FPV News. Tips, articles, DIY and set up guides. All things FPV.'
 
     return (
       <Layout location={this.props.location}>
@@ -145,10 +142,10 @@ class QuickTipTemplate extends React.Component {
   }
 }
 
-export default QuickTipTemplate
+export default NewsletterTemplate
 
 export const pageQuery = graphql`
-  query QuickTipByPath($path: String!) {
+  query NewsletterByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
@@ -156,9 +153,6 @@ export const pageQuery = graphql`
         dateUnformatted: date
         path
         title
-        ogImage {
-          publicURL
-        }
       }
     }
   }

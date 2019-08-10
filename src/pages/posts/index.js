@@ -4,7 +4,7 @@ import Layout from '../../components/structure/layout'
 import PostsList from '../../components/PostsList'
 import TinyLetterSignup from '../../components/TinyLetterSignUp'
 
-const NewsPage = ({ data }) => (
+const PostsPage = ({ data }) => (
   <Layout>
     <PostsList
       showChevron="yes"
@@ -19,10 +19,10 @@ const NewsPage = ({ data }) => (
   </Layout>
 )
 
-export default NewsPage
+export default PostsPage
 
-export const NewsPageQuery = graphql`
-  query NewsPageQuery {
+export const PostsPageQuery = graphql`
+  query PostsPageQuery {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: {

@@ -11,7 +11,7 @@ https://blog-georgi.netlify.com/*                           https://blog.georgi-
 /software/how-to-become-a-good-developer*                   /learning/how-to-become-a-good-developer/     301!
 
 # Additional redirects
-https://blog.georgi-yanev.com/posts/*                       https://blog.georgi-yanev.com/news/:splat     301!
+https://blog.georgi-yanev.com/news/*                       https://blog.georgi-yanev.com/posts/:splat     301!
 
 # Plebs be tryin to access those locations. Got'em.
 /wp-login.php                                               /

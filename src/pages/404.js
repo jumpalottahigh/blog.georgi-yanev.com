@@ -39,7 +39,7 @@ const NotFoundPage = () => (
         <em>This page has been moved or no longer exists</em>
       </h2>
       <h4>👇 Check out all blog posts or the quick tips page 👇</h4>
-      <Link to="/news/">
+      <Link to="/posts/">
         <h3 className="category fpv">Blog Posts</h3>
       </Link>
       <Link to="/quick-tips/">

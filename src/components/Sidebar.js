@@ -34,7 +34,7 @@ const SideBar = () => {
       <div className="sidebar">
         <ul className="sidenav">
           <li>
-            <Link to="/news/?category=fpv" className="sidenav-category">
+            <Link to="/posts/?category=fpv" className="sidenav-category">
               <span role="img" aria-label="helicopter">
                 🚁
               </span>{' '}
@@ -49,7 +49,7 @@ const SideBar = () => {
             </li>
           ))}
           <li>
-            <Link to="/news/?category=projects" className="sidenav-category">
+            <Link to="/posts/?category=projects" className="sidenav-category">
               <span role="img" aria-label="project">
                 📑
               </span>{' '}
@@ -64,7 +64,7 @@ const SideBar = () => {
             </li>
           ))}
           <li>
-            <Link to="/news/?category=learning" className="sidenav-category">
+            <Link to="/posts/?category=learning" className="sidenav-category">
               <span role="img" aria-label="student">
                 👨‍🎓️
               </span>{' '}
@@ -79,7 +79,7 @@ const SideBar = () => {
             </li>
           ))}
           <li>
-            <Link to="/news/?category=smarthome" className="sidenav-category">
+            <Link to="/posts/?category=smarthome" className="sidenav-category">
               <span role="img" aria-label="house">
                 🏠
               </span>{' '}
@@ -94,7 +94,7 @@ const SideBar = () => {
             </li>
           ))}
           <li>
-            <Link to="/news/?category=stories" className="sidenav-category">
+            <Link to="/posts/?category=stories" className="sidenav-category">
               <span role="img" aria-label="hand writing">
                 ✍
               </span>{' '}

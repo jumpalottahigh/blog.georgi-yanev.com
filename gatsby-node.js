@@ -7,13 +7,13 @@ exports.createPages = ({ graphql, actions }) => {
   return new Promise((resolve, reject) => {
     const blogPost = path.resolve('./src/templates/blog-post.js')
     const quickTip = path.resolve('./src/templates/quick-tip.js')
+    const newsletter = path.resolve('./src/templates/newsletter.js')
     resolve(
       graphql(
         `
           {
             posts: allMarkdownRemark(
               sort: { order: DESC, fields: [frontmatter___date] }
-              limit: 1000
               filter: {
                 frontmatter: { draft: { ne: true } }
                 fileAbsolutePath: { regex: "/content/posts/" }
@@ -31,8 +31,21 @@ exports.createPages = ({ graphql, actions }) => {
 
             quickTips: allMarkdownRemark(
               sort: { order: DESC, fields: [frontmatter___date] }
-              limit: 1000
               filter: { fileAbsolutePath: { regex: "/content/quick-tips/" } }
+            ) {
+              edges {
+                node {
+                  id
+                  frontmatter {
+                    path
+                  }
+                }
+              }
+            }
+
+            newsletter: allMarkdownRemark(
+              sort: { order: DESC, fields: [frontmatter___date] }
+              filter: { fileAbsolutePath: { regex: "/content/newsletter/" } }
             ) {
               edges {
                 node {
@@ -65,6 +78,15 @@ exports.createPages = ({ graphql, actions }) => {
           createPage({
             path: node.frontmatter.path,
             component: quickTip,
+            context: {}, // additional data can be passed via context
+          })
+        })
+
+        // Create newsletter pages.
+        result.data.newsletter.edges.forEach(({ node }) => {
+          createPage({
+            path: node.frontmatter.path,
+            component: newsletter,
             context: {}, // additional data can be passed via context
           })
         })

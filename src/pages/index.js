@@ -113,22 +113,22 @@ class BlogIndex extends React.Component {
           </Announcement>
           <h3 style={{ marginTop: 0 }}>Categories:</h3>
           <div className="category-container">
-            <Link to="/news/">
+            <Link to="/posts/">
               <button className="category all">All posts</button>
             </Link>
-            <Link to="/news/?category=fpv">
+            <Link to="/posts/?category=fpv">
               <button className="category fpv">FPV Drones</button>
             </Link>
-            <Link to="/news/?category=projects">
+            <Link to="/posts/?category=projects">
               <button className="category projects">Projects</button>
             </Link>
-            <Link to="/news/?category=learning">
+            <Link to="/posts/?category=learning">
               <button className="category learning">Learnings</button>
             </Link>
-            <Link to="/news/?category=smarthome">
+            <Link to="/posts/?category=smarthome">
               <button className="category smarthome">Smarthome</button>
             </Link>
-            <Link to="/news/?category=stories">
+            <Link to="/posts/?category=stories">
               <button className="category stories">Stories</button>
             </Link>
           </div>
@@ -140,7 +140,7 @@ class BlogIndex extends React.Component {
             showSearch="no"
             posts={posts}
           />
-          <Link style={{ marginRight: '0.5rem' }} to="/news/">
+          <Link style={{ marginRight: '0.5rem' }} to="/posts/">
             <button className="category fpv">More blog posts</button>
           </Link>
           <div
