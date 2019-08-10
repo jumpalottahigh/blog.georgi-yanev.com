@@ -1,7 +1,7 @@
 ---
 path: '/fpv/runcam-5-review-setup-superview/'
 date: '2019-07-16'
-updated: '2019-08-04'
+updated: '2019-08-11'
 title: 'RunCam 5: The Complete Guide'
 author: 'Georgi Yanev'
 draft: false
@@ -168,6 +168,20 @@ Below is the general screen of video settings. Here you can turn off things like
 
 For now, I have left everything to their default values for the sake of testing the camera with it's out of the box settings.
 I will make sure to come back and add an update to this article if I find particular settings that improve the image quality by a lot (subscribe to the blog using the form at the end to keep up with updates).
+
+### <span id="new-settings" class="offset-top-nav">Update: August 2019</span>
+
+I have now played a bunch with the different settings on the RunCam. Here's what I find to work:
+
+`Contrast=1` (Down from the default 2)
+`Sharpness=1` (Down from the default 2)
+`White balance` - set to the current conditions instead of auto.
+
+Here's a comparison video I put together that compares the default settings versus the ones I mentioned above.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/yE98RnLp_Lg?rel=0" frameBorder="0" allowFullScreen title="RunCam 5 comparison of default versus new settings"></iframe>
+</div>
 
 ![The second screen of video settings](runcam-5-19.jpg)
 
