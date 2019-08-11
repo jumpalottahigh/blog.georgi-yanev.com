@@ -16,7 +16,7 @@ import ReaderQuestions from '../components/ReaderQuestions'
 import PromoBanner from '../components/PromoBanner'
 import FeaturedGear from '../components/FeaturedGear'
 import YouTubeChannelsPromo from '../components/YouTubeChannelsPromo'
-import Giveaway from '../components/Giveaway2'
+import Giveaway from '../components/Giveaway'
 
 class BlogPostTemplate extends React.Component {
   render() {
