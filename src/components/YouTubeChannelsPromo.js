@@ -1,6 +1,23 @@
 import React from 'react'
+import styled from 'styled-components'
 import Img from 'gatsby-image'
 import { graphql, useStaticQuery } from 'gatsby'
+
+const StyledYouTubeChannelsPromo = styled.div`
+  display: flex;
+
+  a {
+    width: 50%;
+    box-shadow: none;
+    border: 1px solid #dedede;
+
+    &:hover {
+      border: 2px solid #dedede;
+      transform: scale(1.05);
+      z-index: 9;
+    }
+  }
+`
 
 const YouTubeChannelsPromo = ({ text, ...rest }) => {
   const images = useStaticQuery(graphql`
@@ -42,13 +59,8 @@ const YouTubeChannelsPromo = ({ text, ...rest }) => {
   return (
     <div {...rest}>
       <h3>{text}</h3>
-      <div style={{ display: 'flex' }}>
+      <StyledYouTubeChannelsPromo>
         <a
-          style={{
-            width: '50%',
-            boxShadow: 'none',
-            border: '1px solid #dedede',
-          }}
           href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
           target="_blank"
           rel="noopener noreferrer"
@@ -60,9 +72,6 @@ const YouTubeChannelsPromo = ({ text, ...rest }) => {
         </a>
         <a
           style={{
-            width: '50%',
-            boxShadow: 'none',
-            border: '1px solid #dedede',
             borderLeft: 'none',
           }}
           href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q"
@@ -74,11 +83,8 @@ const YouTubeChannelsPromo = ({ text, ...rest }) => {
             alt="GeorgiFPV YouTube channel"
           />
         </a>
-      </div>
+      </StyledYouTubeChannelsPromo>
       <a
-        style={{
-          boxShadow: 'none',
-        }}
         href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q"
         target="_blank"
         rel="noopener noreferrer"

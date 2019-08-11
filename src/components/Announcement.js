@@ -70,22 +70,26 @@ const StyledAnnouncement = styled.div`
   }
 `
 
-const Announcement = ({ shortContent, children }) => {
+const Announcement = ({ shortContent, children, noCollapsible }) => {
   return (
     <StyledAnnouncement className="article-update-notification high-priority">
       <div className="short-content">{shortContent}</div>
-      <Collapsible
-        trigger={
-          <>
-            <h5>Read more</h5>
-            <img src={svgRightArrow} alt="right arrow" />
-          </>
-        }
-        transitionTime={125}
-        easing="ease-out"
-      >
-        <div className="main-content">{children}</div>
-      </Collapsible>
+      {noCollapsible ? (
+        children
+      ) : (
+        <Collapsible
+          trigger={
+            <>
+              <h5>Read more</h5>
+              <img src={svgRightArrow} alt="right arrow" />
+            </>
+          }
+          transitionTime={125}
+          easing="ease-out"
+        >
+          <div className="main-content">{children}</div>
+        </Collapsible>
+      )}
     </StyledAnnouncement>
   )
 }
