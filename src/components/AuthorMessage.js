@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from 'gatsby-image'
 
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
@@ -16,10 +17,7 @@ const AuthorMessage = ({ title, content, image }) => (
   >
     <div style={{ width: '20%' }}>
       <div style={{ maxWidth: '100px' }}>
-        <Img
-          fluid={data.georgi.childImageSharp.fluid}
-          alt="Georgi Yanev portrait"
-        />
+        <Img fluid={image.childImageSharp.fluid} alt="Georgi Yanev portrait" />
       </div>
     </div>
     <h1 style={{ fontSize: '1.4rem', width: '80%', margin: 0 }}>
