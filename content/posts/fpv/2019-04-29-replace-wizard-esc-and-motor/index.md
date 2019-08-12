@@ -115,7 +115,7 @@ That's it! Test arming your drone without any props to verify that the new motor
 [0]: Linkslist
 [1]: https://bit.ly/wizardx220
 [2]: https://amzn.to/2UBB9XH
-[3]: /news/?tag=wizard
+[3]: /posts/?tag=wizard
 [4]: https://bit.ly/wizard-esc
 [5]: https://amzn.to/2UoV9xx
 [6]: https://bit.ly/wizard-motors

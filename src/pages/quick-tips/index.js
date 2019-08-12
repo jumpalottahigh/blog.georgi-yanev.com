@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Collapsible from 'react-collapsible'
 import { FaExternalLinkAlt } from 'react-icons/fa'
 import Layout from '../../components/structure/layout'
+import TinyLetterSignUp from '../../components/TinyLetterSignUp'
 
 const Section = styled.section`
   @keyframes fade-out {
@@ -254,6 +255,7 @@ const QuickTipsPage = ({ data }) => {
           </Collapsible>
         ))}
       </Section>
+      <TinyLetterSignUp />
     </Layout>
   )
 }

@@ -281,7 +281,7 @@ Happy Flying!
 [30]: /fpv/emax-hawk-5-unboxing-review-and-setup/
 [31]: /fpv/mobula7-hd-review-and-setup/
 [32]: https://www.youtube.com/watch?v=FhtL0zSx1AU
-[33]: /news/?tag=wizard
+[33]: /posts/?tag=wizard
 [34]: /fpv/unbox-review-setup-eachine-trashcan/
 [35]: /fpv/build-a-quad/
 [36]: https://bit.ly/rpsma-female-right-angle

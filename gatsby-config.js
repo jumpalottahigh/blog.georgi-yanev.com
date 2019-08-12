@@ -15,8 +15,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/posts`,
-        name: 'posts',
+        path: `${__dirname}/content`,
+        name: 'content',
       },
     },
     {
@@ -24,20 +24,6 @@ module.exports = {
       options: {
         path: `${__dirname}/src/assets/pages`,
         name: `images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/quick-tips`,
-        name: `quick-tips`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/reader-questions`,
-        name: `reader-questions`,
       },
     },
     {

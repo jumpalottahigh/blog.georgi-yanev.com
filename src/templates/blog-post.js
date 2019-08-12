@@ -16,6 +16,7 @@ import ReaderQuestions from '../components/ReaderQuestions'
 import PromoBanner from '../components/PromoBanner'
 import FeaturedGear from '../components/FeaturedGear'
 import YouTubeChannelsPromo from '../components/YouTubeChannelsPromo'
+import Giveaway from '../components/Giveaway'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -207,6 +208,7 @@ class BlogPostTemplate extends React.Component {
               config={disqusConfig}
             />
             <Share url={post.frontmatter.path} />
+            <Giveaway />
             <TinyLetterSignup />
             <YouTubeChannelsPromo text="Need even more FPV in your life? Check out my YouTube channels:" />
             <PromoBanner
