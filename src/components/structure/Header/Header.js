@@ -127,7 +127,9 @@ const Header = () => (
                 </Link>
               </li>
               <li>
-                <a href="https://www.georgi-yanev.com/about">About</a>
+                <Link to="/about/" activeStyle={activeStyle}>
+                  About
+                </Link>
               </li>
             </ul>
             <SocialIcons />

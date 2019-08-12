@@ -1,5 +1,4 @@
 import React from 'react'
-import Img from 'gatsby-image'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import Layout from '../../components/structure/layout'
@@ -7,16 +6,16 @@ import AuthorMessage from '../../components/AuthorMessage'
 
 const Section = styled.section``
 
-const AboutPage = ({ data }) => (
+const AboutPage = () => (
   <Layout>
     <Section>
-      <AuthorMessage image={data.georgi} />
+      <AuthorMessage type="webdev" />
       <p>
-        I work as a {` `}
+        I'm a {` `}
         <Link to="/learning/how-i-got-into-software-development/">
-          web developer
-        </Link>
-        . You can find me on{' '}
+          software engineer
+        </Link>{' '}
+        and currently work as a web developer. You can find me on{' '}
         <a href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q">
           YouTube
         </a>
@@ -59,17 +58,35 @@ const AboutPage = ({ data }) => (
         as well as who knows what else in the future.
       </p>
       <p>
-        I <strong>write code</strong>, solve problems and sometimes stream on
-        twitch. I <strong>love flying FPV drones</strong>, 3D printing,
-        contributing to open source, and working on fpvtips.com.
+        I <strong>love flying FPV drones</strong> and quite honestly all things
+        FPV racing drones! That's why I'm spending a lot of my free time working
+        on this blog, building quads, flying them and carrying out various
+        tests.
       </p>
       <p>
+        I publish FPV related content on YouTube on my{' '}
+        <a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg">
+          FPVtips channel
+        </a>{' '}
+        and dump raw unedited flight footage on my{' '}
+        <a href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q">
+          Georgi FPV channel
+        </a>
+        .
+      </p>
+      <p>
+        I <strong>love coding</strong> and sometimes stream on Twitch. I gave
+        some tech talks about the{' '}
+        <Link to="/learning/jamstack-with-gatsby-and-netlify/">
+          JAMstack with Gatsby and Netlify
+        </Link>
+        . You can also{' '}
+        <a href="https://twitter.com/jumpalottahigh">follow me</a> on twitter.
         Most of my projects are open source and{' '}
         <a href="https://github.com/jumpalottahigh?tab=repositories">
           available on GitHub
         </a>
-        . You can also{' '}
-        <a href="https://twitter.com/jumpalottahigh">follow me</a> on twitter.
+        .
       </p>
       <p>
         This blog was a joy to build using{' '}
@@ -88,21 +105,28 @@ const AboutPage = ({ data }) => (
         </strong>
         .
       </p>
+      <div
+        css={`
+          display: flex;
+          flex-flow: column wrap;
+
+          a {
+            width: fit-content;
+          }
+        `}
+      >
+        <p>More links:</p>
+        <a href="https://www.georgi-yanev.com/about/">
+          Portfolio, Skills and Projects
+        </a>
+        <a href="https://www.georgi-yanev.com/bio/">Bio</a>
+        <a href="https://www.gyanev.com/cv/">CV</a>
+        <Link to="/learning/goal-review-of-2018-and-goals-for-2019/">
+          My last year in review post
+        </Link>
+      </div>
     </Section>
   </Layout>
 )
 
 export default AboutPage
-
-export const aboutPageQuery = graphql`
-  {
-    georgi: file(relativePath: { regex: "/^home/georgi-face/" }) {
-      name
-      childImageSharp {
-        fluid(maxWidth: 100, quality: 75) {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
-        }
-      }
-    }
-  }
-`

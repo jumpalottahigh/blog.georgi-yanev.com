@@ -147,7 +147,7 @@ class BlogIndex extends React.Component {
             </strong>{' '}
             which I launched a while back!
           </div>
-          <AuthorMessage image={this.props.data.georgi} />
+          <AuthorMessage type="fpv" />
 
           {loadVideo && (
             <div className="video-container">
@@ -221,15 +221,6 @@ export const HomePageQuery = graphql`
               }
             }
           }
-        }
-      }
-    }
-
-    georgi: file(relativePath: { regex: "/^home/georgi-face/" }) {
-      name
-      childImageSharp {
-        fluid(maxWidth: 100, quality: 75) {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }
