@@ -1,7 +1,7 @@
 ---
-path: '/fpv/skyzone-sky02x-review-and-setup/'
+path: '/fpv/skyzone-sky02x-best-fpv-goggles-for-2019/'
 date: '2019-08-18'
-title: 'Skyzone SKY02X review and setup'
+title: 'Skyzone SKY02X: The best FPV goggles for 2019!'
 author: 'Georgi Yanev'
 draft: false
 category: 'fpv'
@@ -14,13 +14,13 @@ gearList:
   - '90deg-sma-male-to-female-connector'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, fpvfreestyle, fpvracingdrones, video, dvr, fpv video, fpv racing drone video, recording dvr, quadcopter, drone, skyzone, skyzone 02x, skyzone 02c, fpv goggles, skyzone fpv goggles, fatshark vs skyzone, aomway vs skyzone, fpv goggle comparison, what fpv goggles to buy in 2019, what fpv racing drone goggles to buy in 2019, antennas, patch antenna, omnidirectional antennas, stubby antennas'
-ogDescription: "I'm very excited to review the Skyzone SKY02X fpv goggles because it's always easy to write about a well-rounded, high-quality product that works well! That being said, google reviews are VERY subjective by definition. There are many person-specific elements, ranging from how the goggles fit on your face, to what you use them for and what and where you fly."
+ogDescription: "I'm very excited to review the Skyzone SKY02X fpv goggles because it's always easy to write about a well-rounded, high-quality product that works well! That being said, goggle reviews are VERY subjective by definition. There are many person-specific elements, ranging from how the goggles fit on your face, to what you use them for and what and where you fly."
 ogImage: './skyzone-sky02x-review-and-setup-21.jpg'
 ---
 
 I'm very excited to review the [Skyzone SKY02X][1] fpv goggles because it's always easy to write about a well-rounded, high-quality product that works well!
 
-That being said, **google reviews are VERY subjective by definition**. There are many person-specific elements, ranging from how the goggles fit on your face, to what you use them for and what and where you fly.
+That being said, **goggle reviews are VERY subjective by definition**. There are many person-specific elements, ranging from how the goggles fit on your face, to what you use them for and what and where you fly.
 
 I'll try to cover almost all cases and be as objective as possible, while also mentioning what's my personal opinion on some topics. Let's get to it!
 
@@ -209,7 +209,11 @@ Here is some example DVR overlayed in the corner of an HD video.
  <iframe width="560" height="315" src="https://www.youtube.com/embed/Bi6uK1E2tkQ?rel=0" frameBorder="0" allowFullScreen title="Skyzone SKY02X DVR overlay"></iframe>
 </div>
 
-TODO: and here is a FULL DVR only video
+And here is a FULL DVR only video:
+
+<div style="text-align: center">
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/Bi6uK1E2tkQ?rel=0" frameBorder="0" allowFullScreen title="Skyzone SKY02X DVR of Emax Hawk 5"></iframe>
+</div>
 
 #### 🔝 Other functions
 
@@ -237,11 +241,13 @@ Are the [Skyzone SKY02X][1] the goggles for you? In many ways and for most peopl
 
 And while as I mentioned earlier goggle reviews are by definitions pretty subjective, I'll try to make this as objective as possible. Here's what I think.
 
-I'm someone who started with a cheap set of box goggles before I knew I was gonna get seriously into FPV. Then I switched to the [Aomway Commander][3] goggles and loved flying those for over a year. I'm well aware of the top of the line setups such as [Fatshark HDOs][2] with a RapidFire module (or similar). That might be great and for some people, but in many cases, unless you are performing like a top of the line pilot and fly at very difficult locations, you really may not need all of that, which adds up to well over double the price of the [Skyzone 02X][1].
+I'm someone who started with a cheap set of box goggles before I knew I was gonna get seriously into FPV. Then I switched to the [Aomway Commander][3] goggles and loved flying those for over a year. I'm well aware of the top of the line setups such as [Fatshark HDOs][2] with a RapidFire module (or similar). That might be great and for some people, but in many cases, unless you are performing like a top of the line pilot and fly at very difficult locations, you really may not need all of that, which adds up to well over double the price of the [Skyzone 02X][1]. And that's not to say that the Skyzones won't perform well for top of the line pilots, on the contrary, not only do they perform rather excellent, but they are also a CRAZY good value for money.
 
-But this is not just a money argument, it is value and ease argument as well. **You are probably getting about 85% of the performance (if not more) of a top of the line setup, right here in the Skyzones and that's at about 40% of the price**.
+But this is not just a money argument, it is a value and ease of use argument as well. **You are probably getting about 85% of the performance (if not more) of a top of the line setup, right here in the Skyzones and that's at about 40% of the price**.
 
 Heck, if you grab the [Skyzone SKY02C][9] version, those go as low at \$265 at the moment. That's cheap for a high-quality goggle with awesome bright screens, great resolution, perfect diversity reception, all sorts of functionality and overall feel.
+
+Light weight and comfortable on the head, no module hassle, no nothing, just put on a couple of decent antennas and you are quite literally off to the races!
 
 All my thumbs up for the Skyzones, which I think I will also probably call best FPV product of 2019. Happy flying!
 

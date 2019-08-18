@@ -115,7 +115,7 @@ const allFeaturedGear = {
   'skyzone-sky02x': {
     name: 'Skyzone SKY02X fpv goggles',
     link: 'https://bit.ly/skyzone-02x',
-    image: '/banggood/skyzone-sky02x.jpg',
+    image: '/banggood/skyzone-sky02x-black.jpg',
   },
   'aomway-antenna': {
     name: 'Aomway clover leaf omni antenna',
