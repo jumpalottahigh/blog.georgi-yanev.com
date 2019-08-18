@@ -112,6 +112,26 @@ const allFeaturedGear = {
     link: 'https://bit.ly/caddx-turtle-v2-cable',
     image: '/banggood/caddx-turtle-v2-cable.png',
   },
+  'skyzone-sky02x': {
+    name: 'Skyzone SKY02X fpv goggles',
+    link: 'https://bit.ly/skyzone-02x',
+    image: '/banggood/skyzone-sky02x.jpg',
+  },
+  'aomway-antenna': {
+    name: 'Aomway clover leaf omni antenna',
+    link: 'https://bit.ly/aomway-antenna',
+    image: '/banggood/aomway-antenna.jpg',
+  },
+  'realacc-antenna': {
+    name: 'Realacc tripple feed patch antenna',
+    link: 'https://bit.ly/realacc-triple-feed-patch',
+    image: '/banggood/realacc-tripple-feed-patch-antenna.jpg',
+  },
+  '90deg-sma-male-to-female-connector': {
+    name: '90 deg SMA male to female connector',
+    link: 'https://bit.ly/sma-female-right-angle',
+    image: '/banggood/90deg-sma-male-to-female-connector.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
