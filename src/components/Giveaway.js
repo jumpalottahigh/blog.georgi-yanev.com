@@ -79,6 +79,7 @@ const Giveaway = () => {
         </a>
         ! That's all! The drawing will be on <strong>October 1st, 2019</strong>.
       </p>
+      <p>And yes, subscribing to both does double your chances of winning.</p>
     </StyledGiveawayHeading>
   )
   return (
