@@ -31,6 +31,7 @@ I'll try to cover almost all cases and really be as objective as possible, while
 - [📦 Unboxing](#unboxing)
 - [📝 Specifications](#specs)
 - [⚙ Setup](#setup)
+- [🚁 Flying](#flying)
 - [📑 Conclusion](#conclusion)
 
 ### 📦 <span id="unboxing">Unboxing</span>
@@ -118,7 +119,7 @@ Speaking of power, the Skyzone 02X goggles take in anywhere from 7 to 26V in (so
 
 The front camera has a FOV of 60 degrees and a resolution of 640 x 480.
 
-The goggles support SD cards up to 32GB for recording DVR and record at 30fps into AVI files. The goggles are pretty light coming in at about 210g.
+The goggles claim to support SD cards up to 32 GB (it works just fine for me with a 64 GB card though) for recording DVR and record at 30fps into AVI files. The goggles are pretty light coming in at about 210g.
 
 The [Skyzone 02X][1] have a lot of different ports to support plenty of different use cases and needs. There is a mini HDMI port, micro USB, AV IN and AV OUT, 3.5 mm headphone jack and you will also find the SD card slot in this area.
 
@@ -170,7 +171,7 @@ Whatever you choose, here are some antennas worth having:
 
 **Do pay attention that you need to get a `SMA Male` antenna, because the goggles antenna connector is `SMA Female`**.
 
-![](skyzone-sky02x-review-and-setup-29.jpg)
+![SMA male and SMA female connectors](skyzone-sky02x-review-and-setup-29.jpg)
 
 In addition I recommend one of those [90 degree angle connector][6], so you don't have to bend your antenna to keep it up.
 
@@ -178,29 +179,71 @@ In addition I recommend one of those [90 degree angle connector][6], so you don'
 
 In my case I'm using an omni and a patch antenna, although in all fairness I fly open areas, no concrete buildings, and I don't go further than 200 - 300 meters, so I could easily do what I do with 2 omnis as well and might switch to using a couple of stubby omnis just because of the smaller form factor.
 
-[picture of goggles with antenan]
+![Skyzone 02X with Patch and Omni antenna](skyzone-sky02x-review-and-setup-30.jpg)
 
 #### 🔋 Plug in a battery
 
-- Remove faceplace in order to take out the plastic diopters.
-- Install the foam
-- Antenna recommendations
+I mentioned the [Skyzone 02X][1] fpv goggles take a pretty wide range of voltage, which is definitely convenient. I use an old 3S lipo battery to power mine.
 
-DVR recording:
+If you have a small battery you could suspend it on the side of the goggle strap. In that case you do add more weight to them as well though.
+
+The provided DC to XT60 cable is pretty long, and I'm using that to keep the battery in my pocket while flying. **This makes the goggles trully feel ultra light**.
+
+### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
+
+#### ⚡ Quick start
+
+You probably noticed that the Skyzones have a lot of buttons, which is really handy as it makes using them very easy. You should not feel overwhelmed, however, as you don't need to know too much about all the functions to just fly on a daily basis.
+
+The quickest way to get started, is to plug in a battery and hold the power button to boot up the goggles. Then, press and hold the `SEARCH` button until the channel OSD panel comes up, then just press `SEARCH` and wait for it to complete. Once on the correct channel, press and hold `SEARCH` again to close the OSD panel.
+
+![Skyzone 02X top left buttons](skyzone-sky02x-review-and-setup-19.jpg)
+
+#### 🎥 Recording DVR
+
+Don't forget to insert and SD card, and then recording is as simple as pressing the `REC` button. The OSD will indicate with a red dot when the recording has been started successfully.
+
+Here is some example DVR overlayed in the corner of an HD video.
 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Bi6uK1E2tkQ?rel=0" frameBorder="0" allowFullScreen title="Skyzone SKY02X DVR overlay"></iframe>
 </div>
 
-![](skyzone-sky02x-review-and-setup-19.jpg)
-![](skyzone-sky02x-review-and-setup-20.jpg)
-![Skyzone 02X fpv goggles](skyzone-sky02x-review-and-setup-21.jpg)
-![](skyzone-sky02x-review-and-setup-22.jpg)
-![Skyzone 02X power button](skyzone-sky02x-review-and-setup-23.jpg)
+TODO: and here is a FULL DVR only video
+
+#### 🔝 Other functions
+
+You can also adjust the image settings, toggle the front camera on and off, playback previously recorded DVR and more. Just explore all the different menu options.
+
+I have to admit that I thought I might use the front camera a lot more than what I ended up using it, which is pretty much not at all.
+
+As far as **playback of recorded DVR** goes, I had a situation last year when that feature on the Aomway commanders saved me a lot of time, when I crashed a quad in a huge open field without too many orientiering indicators. I just replayed the recorded DVR and found my quad in less than 5 minutes.
+
+With the HDMI in you can setup things like a [simulator straight to your goggles, as I've explained here][8].
+
+To fine tune channels and band, use the buttons on the right hand side of the goggles.
+
+![Skyzone 02X top right buttons](skyzone-sky02x-review-and-setup-20.jpg)
+
+For more details on all button functions, [refer to the manual](skyzone-sky02x-manual.pdf).
+
+But the best part about any FPV goggles, is in my opinion, the goggles getting out of your way, letting you forget you are wearing them and just letting you enjoy flying. Which brings me to the conclusion for the [Skyzone SKY02X FPV goggles][1].
 
 ### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
-- mention and links to sky02c
+Are the [Skyzone SKY02X][1] the goggles for you? In many ways and for most people I believe that the answer is just **ABSOLUTELY YES**! Quite simply the Skyzones are **possibly the best fpv goggles for 2019**.
+
+![Skyzone 02X fpv goggles](skyzone-sky02x-review-and-setup-21.jpg)
+
+And while as I mentioned earlier goggle reviews are by definitions pretty subjective, I'll try to make this as objective as possible. Here's what I think.
+
+I'm someone who started off with a cheap set of box goggles before I knew I was gonna get seriously into FPV. Then I switched to the [Aomway Commander][3] goggles and loved flying those for over a year. I'm well aware of the top of the line setups such as [Fatshark HDOs][2] with a RapidFire module (or similar). That might be great and for some people, but in many cases unless you are performing like a top of the line pilot and fly at very difficult locations, you really may not need all of that, which adds up to well over double the price of the [Skyzone 02X][1].
+
+But this is not just a money argument, it really is value and ease argument as well. **You are probably getting about 85% of the performance (if not more) of a top of the line setup, right here in the Skyzones and that's at about 40% of the price**.
+
+Heck, if you grab the [Skyzone SKY02C][9] version, those go as low at \$265 at the moment. That's really cheap for high quality goggle with awesome bright screens, great resolution, perfect diversity reception, all sorts of functionality and overall feel.
+
+All my thumbs up for the Skyzones, which I think I will also probably call best FPV product of 2019. Happy flying!
 
 [0]: Linkslist
 [1]: https://bit.ly/skyzone-02x
@@ -210,3 +253,5 @@ DVR recording:
 [5]: https://bit.ly/realacc-triple-feed-patch
 [6]: https://bit.ly/sma-female-right-angle
 [7]: https://bit.ly/lumenier-stubby
+[8]: /fpv/set-up-fpv-drone-simulator/
+[9]: https://bit.ly/skyzone-sky02c
