@@ -132,6 +132,11 @@ const allFeaturedGear = {
     link: 'https://bit.ly/sma-female-right-angle',
     image: '/banggood/90deg-sma-male-to-female-connector.jpg',
   },
+  'geprc-cinepro-4k': {
+    name: 'Geprc CinePro 4K cinewhoop',
+    link: 'https://bit.ly/geprc-cinepro-4k',
+    image: '/banggood/geprc-cinepro-4k.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
