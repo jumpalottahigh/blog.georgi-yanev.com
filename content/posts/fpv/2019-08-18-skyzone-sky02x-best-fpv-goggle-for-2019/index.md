@@ -34,6 +34,12 @@ I'll try to cover almost all cases and be as objective as possible, while also m
 - [🚁 Flying](#flying)
 - [📑 Conclusion](#conclusion)
 
+If you prefer watching, check out the full video review on my YouTube channel:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8DyISPMRlNk?rel=0" frameBorder="0" allowFullScreen title="Skyzone 02X review and setup"></iframe>
+</div>
+
 ### 📦 <span id="unboxing">Unboxing</span>
 
 The good impression of the [Skyzone 02X][1] starts with the unboxing experience.

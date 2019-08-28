@@ -6,4 +6,4 @@ articlePath: /fpv/runcam-5-review-setup-superview/
 
 **"Can you please add information on glass replacements? I am told you can, but I would be curious how and where this would be purchased."** - Scott Woeber
 
-You are correct, I was also told the tempered glass is replaceable. As of this time, you can ask for replacement parts in the [RunCam Facebook group](https://www.facebook.com/groups/RunCam/). - Georgi
+You can [grab a replacement glass for the RunCam 5](https://shop.runcam.com/tempered-glass-protector-for-runcam-5/) from the official RunCam site. - Georgi
