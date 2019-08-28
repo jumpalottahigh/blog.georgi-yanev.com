@@ -42,13 +42,13 @@ class BlogPostTemplate extends React.Component {
     if (post.frontmatter.category === 'fpv') {
       showBanner = true
       bannerDetails.linkTo =
-        'https://www.banggood.com/collection-5212.html?p=NY211410857261201705'
-      bannerDetails.imagePath = '/promo/banggood-rc-clearance.jpg'
+        'https://www.banggood.com/marketing-Banggood-13th-Anniversary-Shopping-Guide/tid-4081.html?p=NY211410857261201705'
+      bannerDetails.imagePath = '/promo/banggood-stripe.jpg'
     } else if (post.frontmatter.category === 'smarthome') {
       showBanner = true
       bannerDetails.linkTo =
-        'https://www.banggood.com/collection-5212.html?p=NY211410857261201705'
-      bannerDetails.imagePath = '/promo/banggood-rc-clearance.jpg'
+        'https://www.banggood.com/marketing-Banggood-13th-Anniversary-Shopping-Guide/tid-4081.html?p=NY211410857261201705'
+      bannerDetails.imagePath = '/promo/banggood-stripe.jpg'
     }
 
     return (
@@ -191,8 +191,8 @@ class BlogPostTemplate extends React.Component {
             />
             <FeaturedGear gearList={post.frontmatter.gearList} />
             <PromoBanner
-              linkTo="https://www.banggood.com/collection-5212.html?p=NY211410857261201705"
-              imagePath="/promo/banggood-rc-clearance.jpg"
+              linkTo="https://www.banggood.com/marketing-Banggood-13th-Anniversary-Shopping-Guide/tid-4081.html?p=NY211410857261201705"
+              imagePath="/promo/banggood-stripe.jpg"
             />
             <FeedbackSection />
             <AskAQuestion />
@@ -213,8 +213,8 @@ class BlogPostTemplate extends React.Component {
             <YouTubeChannelsPromo text="Need even more FPV in your life? Check out my YouTube channels:" />
             <PromoBanner
               style={{ maxWidth: '450px', margin: 'auto' }}
-              linkTo="https://www.banggood.com/marketing-Eachine-Official-Store/tid-2253.html?p=NY211410857261201705"
-              imagePath="/promo/banggood-eachine-store.jpg"
+              linkTo="https://www.banggood.com/marketing-Banggood-13th-Anniversary-Shopping-Guide/tid-4081.html?p=NY211410857261201705"
+              imagePath="/promo/banggood-square.jpg"
             />
           </div>
         </div>
