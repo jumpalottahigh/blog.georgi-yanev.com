@@ -36,19 +36,13 @@ class BlogPostTemplate extends React.Component {
       title: post.frontmatter.title,
     }
 
+    // Affiliate banners
     let showBanner = false
-    let bannerDetails = {}
+    const affiliateParam = 'p=NY211410857261201705'
+    const bannerLink = `https://www.banggood.com/marketing-banggood-13th-anniversary-toys-hobbies-robot-sale/tid-3664.html?${affiliateParam}`
 
     if (post.frontmatter.category === 'fpv') {
       showBanner = true
-      bannerDetails.linkTo =
-        'https://www.banggood.com/marketing-Banggood-13th-Anniversary-Shopping-Guide/tid-4081.html?p=NY211410857261201705'
-      bannerDetails.imagePath = '/promo/banggood-stripe.jpg'
-    } else if (post.frontmatter.category === 'smarthome') {
-      showBanner = true
-      bannerDetails.linkTo =
-        'https://www.banggood.com/marketing-Banggood-13th-Anniversary-Shopping-Guide/tid-4081.html?p=NY211410857261201705'
-      bannerDetails.imagePath = '/promo/banggood-stripe.jpg'
     }
 
     return (
@@ -144,12 +138,7 @@ class BlogPostTemplate extends React.Component {
           <div className="blog-post">
             <ReadProgressLine />
             <h1>{post.frontmatter.title}</h1>
-            {showBanner && (
-              <PromoBanner
-                linkTo={bannerDetails.linkTo}
-                imagePath={bannerDetails.imagePath}
-              />
-            )}
+            {showBanner && <PromoBanner linkTo={bannerLink} />}
             <div className="disclaimer-container">
               <div>
                 <div className="disclaimer">
@@ -190,10 +179,7 @@ class BlogPostTemplate extends React.Component {
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             <FeaturedGear gearList={post.frontmatter.gearList} />
-            <PromoBanner
-              linkTo="https://www.banggood.com/marketing-Banggood-13th-Anniversary-Shopping-Guide/tid-4081.html?p=NY211410857261201705"
-              imagePath="/promo/banggood-stripe.jpg"
-            />
+            <PromoBanner linkTo={bannerLink} />
             <FeedbackSection />
             <AskAQuestion />
             <RelatedArticles
@@ -213,8 +199,8 @@ class BlogPostTemplate extends React.Component {
             <YouTubeChannelsPromo text="Need even more FPV in your life? Check out my YouTube channels:" />
             <PromoBanner
               style={{ maxWidth: '450px', margin: 'auto' }}
-              linkTo="https://www.banggood.com/marketing-Banggood-13th-Anniversary-Shopping-Guide/tid-4081.html?p=NY211410857261201705"
-              imagePath="/promo/banggood-square.jpg"
+              linkTo={bannerLink}
+              imageName="square"
             />
           </div>
         </div>

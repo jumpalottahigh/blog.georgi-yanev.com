@@ -1,5 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import Img from 'gatsby-image'
+
+import usePromoBanner from '../hooks/use-promo-banner'
 
 const StyledBanner = styled.div`
   margin-bottom: 1rem;
@@ -13,12 +16,16 @@ const StyledBanner = styled.div`
   }
 `
 
-const PromoBanner = ({ linkTo, imagePath, ...rest }) => (
-  <StyledBanner {...rest}>
-    <a href={linkTo} target="_blank" rel="noopener noreferrer">
-      <img src={imagePath} alt="Banggood promo" />
-    </a>
-  </StyledBanner>
-)
+const PromoBanner = ({ linkTo, imageName, ...rest }) => {
+  const data = usePromoBanner(imageName)
+
+  return (
+    <StyledBanner {...rest}>
+      <a href={linkTo} target="_blank" rel="noopener noreferrer">
+        <Img fluid={data.childImageSharp.fluid} alt="Banggood promo" />
+      </a>
+    </StyledBanner>
+  )
+}
 
 export default PromoBanner
