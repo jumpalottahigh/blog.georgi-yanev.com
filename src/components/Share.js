@@ -30,6 +30,7 @@ const Share = ({ url }) => (
         href={`https://www.facebook.com/sharer/sharer.php?u=https://blog.georgi-yanev.com${url}`}
         target="_blank"
         rel="noreferrer"
+        title="Facebook"
       >
         <FaFacebookSquare size="1.75rem" color="#4267b2" />
       </a>
@@ -37,6 +38,7 @@ const Share = ({ url }) => (
         href={`https://twitter.com/intent/tweet?text=https://blog.georgi-yanev.com${url}`}
         target="_blank"
         rel="noreferrer"
+        title="Twitter"
       >
         <FaTwitterSquare size="1.75rem" color="#1da1f2" />
       </a>

@@ -43,6 +43,7 @@ const Footer = () => {
           href="https://github.com/jumpalottahigh"
           target="_blank"
           rel="noopener noreferrer"
+          title="GitHub"
         >
           <FaGithub color="#24292e" size="1.75rem" className="social-icon" />
         </a>
@@ -50,6 +51,7 @@ const Footer = () => {
           href="https://twitter.com/jumpalottahigh"
           target="_blank"
           rel="noopener noreferrer"
+          title="Twitter"
         >
           <FaTwitter color="#1da1f2" size="1.75rem" className="social-icon" />
         </a>
@@ -57,6 +59,7 @@ const Footer = () => {
           href="https://twitch.tv/jumpalottahigh"
           target="_blank"
           rel="noopener noreferrer"
+          title="Twitch"
         >
           <FaTwitch color="#4b367c" size="1.75rem" className="social-icon" />
         </a>
@@ -64,6 +67,7 @@ const Footer = () => {
           href="https://www.youtube.com/user/jumpalottahigh"
           target="_blank"
           rel="noopener noreferrer"
+          title="YouTube"
         >
           <FaYoutube color="#ff0000" size="1.75rem" className="social-icon" />
         </a>
