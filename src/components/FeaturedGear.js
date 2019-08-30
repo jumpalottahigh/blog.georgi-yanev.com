@@ -195,6 +195,7 @@ const FeaturedGear = ({ gearList }) => {
             <a
               className="featured-gear-image-link"
               target="_blank"
+              rel="noopener noreferrer"
               href={allFeaturedGear[item].link}
             >
               <img
@@ -204,7 +205,11 @@ const FeaturedGear = ({ gearList }) => {
             </a>
             <h5>
               {allFeaturedGear[item].name} -{' '}
-              <a target="_blank" href={allFeaturedGear[item].link}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={allFeaturedGear[item].link}
+              >
                 Banggood
               </a>
             </h5>
