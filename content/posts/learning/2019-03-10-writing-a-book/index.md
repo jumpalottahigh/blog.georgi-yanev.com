@@ -151,6 +151,14 @@ https://twitter.com/jumpalottahigh/status/1156158277148913669
 
 #### 8️⃣ August 2019
 
+In August I was able to write two chapters (7 and 8) which makes me very happy, given that I'm still trying to enjoy as much of the summer as possible flying FPV drones and producing blog and video content for that. The story is coming along, the more I think about it, the more I refine it, characters are coming along, and are becoming more "real" in my head. This is great, because the time for NaNoWriMo is coming soon and I'd be happy if I have enough depth I could explore writing during November.
+
+https://twitter.com/jumpalottahigh/status/1167559019336220672
+
+#### 9️⃣ September 2019
+
+#### 🔟 October 2019
+
 ### \* \* \*
 
 [0]: Linkslist
