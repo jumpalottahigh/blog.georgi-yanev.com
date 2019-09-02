@@ -137,6 +137,11 @@ const allFeaturedGear = {
     link: 'https://bit.ly/geprc-cinepro-4k',
     image: '/banggood/geprc-cinepro-4k.jpg',
   },
+  'caddx-tarsier-4k': {
+    name: 'Caddx Tarsier 4K camera',
+    link: 'https://bit.ly/caddx-tarsier-4k',
+    image: '/banggood/caddx-tarsier-4k.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
