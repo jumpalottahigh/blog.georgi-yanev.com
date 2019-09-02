@@ -142,6 +142,16 @@ const allFeaturedGear = {
     link: 'https://bit.ly/caddx-tarsier-4k',
     image: '/banggood/caddx-tarsier-4k.jpg',
   },
+  'dalprop-cyclone-q2035c': {
+    name: 'Dalprop Cyclone Q2035C',
+    link: 'https://bit.ly/dalprop-cyclone-q2035c',
+    image: '/banggood/dalprop-cyclone-q2035c.jpg',
+  },
+  'emax-avan-2': {
+    name: 'Emax Avan 2',
+    link: 'https://bit.ly/emax-avan-2',
+    image: '/banggood/emax-avan-2.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
