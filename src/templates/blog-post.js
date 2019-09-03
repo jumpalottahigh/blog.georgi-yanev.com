@@ -39,7 +39,7 @@ class BlogPostTemplate extends React.Component {
     // Affiliate banners
     let showBanner = false
     const affiliateParam = 'p=NY211410857261201705'
-    const bannerLink = `https://www.banggood.com/marketing-banggood-13th-anniversary-toys-hobbies-robot-sale/tid-3664.html?${affiliateParam}`
+    const bannerLink = `https://www.banggood.com/marketing-banggood-13th-anniversary-toys-hobbies-robot-sale/tid-3664.html?utmid=9868&utm_design=25&${affiliateParam}`
 
     if (post.frontmatter.category === 'fpv') {
       showBanner = true
@@ -179,7 +179,7 @@ class BlogPostTemplate extends React.Component {
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             <FeaturedGear gearList={post.frontmatter.gearList} />
-            <PromoBanner linkTo={bannerLink} />
+            <PromoBanner linkTo={bannerLink} imageName="stripe3" />
             <FeedbackSection />
             <AskAQuestion />
             <RelatedArticles
