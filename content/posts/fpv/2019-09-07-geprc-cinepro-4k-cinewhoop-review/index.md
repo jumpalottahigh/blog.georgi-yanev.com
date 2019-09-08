@@ -1,9 +1,9 @@
 ---
 path: '/fpv/geprc-cinepro-4k-cinewhoop-review/'
 date: '2019-09-07'
-title: 'GEPRC CinePro 4K Cinewhoop'
+title: 'GEPRC CinePro 4K Cinewhoop: review, complete setup, flight footage'
 author: 'Georgi Yanev'
-draft: true
+draft: false
 category: 'fpv'
 tags:
   - 'cinewhoop'
@@ -194,55 +194,127 @@ And here is the complete [GEPRC CinePro Betaflight configuration CLI dump](BTFL_
 
 Last thing we have to do before we can go out and fly is to set up the Caddx Tarsier camera. Unfortunately even though this is an outstanding camera in terms of both FPV feed and recorded footage, the user experience of the setup via the app is suboptimal to say the least.
 
-last video not being saved,
-the ux experience is pretty crappy sadly, although the camera is great
+First thing you want to do is to go download the [CaddxFPV][9] from Google Play (or the Apple appstore).
 
-##### To record:
+In addition something to note is that **if you are going to be providing power to the whole quad with a lipo, you probably wanna be quick** as the VTX gets pretty toasty pretty quick (unlike while you're flying when it can cool off).
 
-##### To change the settings:
+![CaddxFPV app icon on a Pixel 3 homescreen](geprc-cinepro-4k-cinewhoop-review-29.jpg)
 
-- Long press WiFi button for 8 seconds until you see blinking green light shortly
+The camera has 2 buttons on the side. One for powering it on and off and the other one for initiating the WiFi connection.
 
-![](geprc-cinepro-4k-cinewhoop-review-26.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-27.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-28.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-29.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-30.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-31.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-32.png)
-![](geprc-cinepro-4k-cinewhoop-review-33.png)
-![](geprc-cinepro-4k-cinewhoop-review-34.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-35.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-36.png)
-![](geprc-cinepro-4k-cinewhoop-review-37.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-38.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-39.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-40.jpg)
+![GEPRC CinePro camera buttons](geprc-cinepro-4k-cinewhoop-review-26.jpg)
 
-Easy steps bullet point list. Quick start guide
+Long press the WiFi button for 8 seconds until you see blinking green light from the camera board.
+
+![GEPRC CinePro Caddx Tarsier green light for WiFi on](geprc-cinepro-4k-cinewhoop-review-27.jpg)
+
+Open the CaddxFPV app and tap `Connect camera`. That's gonna take you to your wifi settings where you need to tap on the **CADDX** network.
+
+![WiFi settings with Caddx wifi network](geprc-cinepro-4k-cinewhoop-review-30.jpg)
+
+The default password is `12345678` (you can change that in the camera settings later).
+
+![Caddx Tarsier default password](geprc-cinepro-4k-cinewhoop-review-31.jpg)
+
+Going back to the app and tapping the `Access camera` button (or something similar) will finally present you the first screen of camera options.
+
+If you are getting stuck and are unable to access the camera, try stopping your 4G / LTE temporarily (not sure how this is related exactly, but I couldn't access the camera via the app, until i did this).
+
+Below are 2 screenshots of the default settings of the Caddx Tarsier camera.
+
+In resolutions you have `4k 30fps`, `2.7k 60fps` and all the way down to `1080p`. I've only recorded at 4k 30fps and 2.7k 60fps. The audio can be enabled and disabled and it's surprisingly usable, given how the props sound on such a tiny quad. You can change the video encoding between H.264 and H.265, adjust the white balance, exposure and ISO. I didn't touch any of those as I wanted to review the stock experience first. I've also been told not to touch EIS (some sort of stabilization, which is apparently buggy at the moment). Will update this article as soon as this is no longer the case.
+
+![Caddx Tarsier camera settings screen 1](geprc-cinepro-4k-cinewhoop-review-32.png)
+
+If you tap `Device Settings` you get to the second screen of options.
+
+Here you probably want to change the default `Start Action` from Loop Video to Normal Video, to allow for normal video recording with no shennanigans as soon as you plug in a battery. You can change the default WiFi password, the video standard, factory reset the camera or **format the SD card**. That last one you probably really want to do, because it solves an issue I ran into.
+
+![Caddx Tarsier camera settings screen 2](geprc-cinepro-4k-cinewhoop-review-33.png)
+
+I was connected to the camera, could see the live video feed just fine and I decided to test the camera by recording a clip.
+
+![Caddx Tarsier live video feed via the app](geprc-cinepro-4k-cinewhoop-review-34.jpg)
+
+So I pressed the big red record button and saw this message `No Sd Card`.
+
+![Caddx Tarsier no sd card message](geprc-cinepro-4k-cinewhoop-review-35.jpg)
+
+But I know there is an SD card inserted. So I headed onto the formatting option via the app and did just that.
+
+![Caddx Tarsier format SD card via the app](geprc-cinepro-4k-cinewhoop-review-36.png)
+
+After that I was able to record clips just fine. Or ... sort of. So my advice to you is **make sure you format your SD card via the Caddx app**. It's better to do it anyway and test in order to avoid disappointments with missing or corrupted footage.
+
+Speaking of which, I had my fair share of the latter and the former. My biggest issue was with my last battery of the day always ending up to be a 1.4 MB file, corrupted and unplayable. I've recorded at 4k 30fps, at 2.7k 60fps and I know it's not the quality or the speed of my card, as it records every other battery pack I fly just up to the last one just fine. I know I'm not running out of space either. I feel like for whatever reason the camera is not able to write that last file. It could be something I'm doing wrong, but never the less if it happens to me it could happen to other people too and it's better if you are aware of this as well. One thing I'll try next would be to unplug and then re-plug the battery after the last flight and "give it time to write the recording" to the SD card. That's my tinfoil hat assumption of what might be going on. I will come back here and update the article as soon as I have more information.
+
+For now, take it for what it is, but this definitely adds to the poor user experience even if "I'm doing something wrong". I'm doing the exact same thing with my Caddx Turtle V2, RunCam Split Mini and RunCam Split 2 and all of the always record and save all the footage correctly to the SD card.
+
+Now even if the user experiece suffers, I have to point this out - the **Caddx Tarsier 4K** camera is an outstanding camera and does remarkable things for our hobby. The FPV feed is one of the best I have seen to date, the recorded DVR is crisp. The 4K sensor is pretty unrivaled too. In September 2019 there's still no other 4K FPV cameras on the market (or are just starting to come out) and the quality of the video recording is superb.
+
+![GEPRC CinePro recording with its Caddx Tarsier camera](geprc-cinepro-4k-cinewhoop-review-28.jpg)
 
 ### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
 
-#### 👰 Maiden flight
+![GEPRC CinePro ready for take off](geprc-cinepro-4k-cinewhoop-review-37.jpg)
 
-Exact flight video
+We are finally ready to go fly and here's how the maiden flight turned out. This is the 4K 30fps flight footage. Unfortunately that flight ended up with a failsafe about less than a hundred meters to my 8 o'clock. I'm not sure what was that about, but the GEPRC records blackbox data in a built-in on-board flash memory and I will investigate this further.
 
-failsafe, lost wifi antenna, screw, camera position.
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rpRIFKZXyGQ?list=PLt8_2AobQjAeWqgpphjAtnjsbxNO32tOs&index=0&rel=0" frameBorder="0" allowFullScreen title="GEPRC CinePro maiden flight failsafe"></iframe>
+</div>
 
-- Batteries
-- Test flights with different props
-  1 x EMAX AVAN 2inch PROP(SET)
-  1 x DalProp Q2035 4-blade(SET)
+I enjoyed flying the CinePro a lot. It was very different than most other quads I had flown to date. I love 5 inch drones and zippy micro quads with brushless motors. But the [GEPRC CinePro][1] is surely different and that's ok because it has a completely different purpose.
 
-  Notes on the flight experience with different props.
+I tried flying it "cinewhoop styled" as much as I could - small camera tilt, slow, smooth. My first observation was **damn, this thing is so easy to operate in tight spaces**. You could get it to move very slow and steady and stall so much almost as if standing still. This is particularly important if you are shooting in 4k 30fps and want really steady and slow shots - I think the GEPRC CinePro would do remarkably well in such conditions.
 
-Footage with 4k 30 fps and 2,7k 60 fps
+That's also not to say that the CinePro can't literally pull its weight, it could zip around pretty nicely too, even if not at top speeds. Check out the slightly faster paced 2.7k 60fps footage below. You can also get a sense for how the props sound through the camera's microphone (albeit the volume was reduced, but still usable sound quality).
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/nWYBfPPcicQ?list=PLt8_2AobQjAeWqgpphjAtnjsbxNO32tOs&index=3" frameBorder="0" allowFullScreen title="GEPRC CinePro maiden flight failsafe"></iframe>
+</div>
+
+I mentioned the maiden resulted in a failsafe and although the quad dropped from pretty low, I still lost 1 motor screw and the Caddx Tarsier's wifi antenna. The camera's position also changed due to the impact.
+
+My advice for you is to **make sure you tighten all motor screws every few flights or so**, to avoid this (or go for a loctite solution to the problem), and maybe **take the wifi antenna off and keep it off the craft while flying**. If I'm honest I'm not sure what it accomplishes as you can still access the camera just fine, so maybe it's just that the bandwidth would suffer if you copy over files via wifi. I don't do that anyway, as I find it way easier to copy over files straight from the SD card on a computer.
+
+![GEPRC CinePro lost a motor screw](geprc-cinepro-4k-cinewhoop-review-38.jpg)
+
+As far as the changed camera position goes, make sure to tighten those screws nicely, but I'll surely be paying attention if they keep on getting loose over time.
+
+![GEPRC CinePro camera tilt reversed in impact](geprc-cinepro-4k-cinewhoop-review-39.jpg)
+
+All of the above has been tested with the default Avan Flow 2 props that come preinstalled on the quad. And I'm in the process of waiting for some sunny weather to go fly the Dalpros and see how the flight characteristics compare. I'll make sure to come back and add the relevant footage as soon as I do.
+
+You could also subscribe to my [Georgi FPV][10] YouTube channel where I drop all single pack uneditted footage and see the dalprop footage as soon as I upload it.
+
+![GEPRC CinePro with Dalprops on](geprc-cinepro-4k-cinewhoop-review-40.jpg)
+
+🔋 Batteries
+
+I used 4S batteries for my tests which to my understanding are recommended by GEPRC. You can also fly it on 3S if you have such batteries laying around.
+
+I used a 500 mah Turnigy Graphene battery...
+
+![Turnigy Graphene 500 mah 4S battery](geprc-cinepro-4k-cinewhoop-review-42.jpg)
+
+... as well as [GNB 4S 520mah high voltage batteries][11] (although I still only charged them up to 4.20 volts per cell).
+
+![GNB 4S 520 HV batteries](geprc-cinepro-4k-cinewhoop-review-43.jpg)
+
+I think the performance was slightly better with the GNB batteries in general, maybe slightly longer, but for the most part it was rather similar. That's understandable, given they offer you 20 mah more. They also fit better and are a bit less clunky. If you go the extra mile and charge them up to 4.35 volts as they are high voltage batteries, I'd say you can't go wrong if you go with those batteries.
 
 ### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
-The easiest entry to quality cinewhooping.
+What's the verdict? Is the [GEPRC CinePro 4k][1] for you? **The answer is that it depends!**
 
-TODO: add links to article in the trello description for this quad as well as on all youtube videos retroactively
+Are you excited to do some cinewhooping? And you wanna make your entry into this subset of FPV with the best components, highest quality build, the best 4K split type camera on the market? **Then, by all means, go for it!** The [GEPRC CinePro 4k][1] is well worth the money it asks from you and you will have an awesome time flying and shooting cinematic videos safely really anywhere. It's a great offer, though to beat.
+
+The quad flies superb, is decently tuned, flies really smooth and is rediculously easy to handle in VERY tight spots and I really mean it!
+
+If you want a quad that's closer to a freestyle / racer type of a drone, I'd hold my horses on that one. That's not to say that the CinePro is slow or anything, it's plenty fast, but it should not be compared to freestyle or racing drones as it is designed for a fundamentally different thing and it does that exceptionally well. This is trully a **cinewhoop** in the best possible meaning of the word and a **top of the line cinewhoop** too.
+
+I'd wrap it up saying that the [GEPRC CinePro 4k][1] is definitely one of easiest ways to get into high quality 4K cinewhooping. Happy flying!
 
 [0]: Linkslist
 [1]: https://bit.ly/geprc-cinepro-4k
@@ -253,3 +325,6 @@ TODO: add links to article in the trello description for this quad as well as on
 [6]: https://bit.ly/mobula7-hd
 [7]: https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q/playlists
 [8]: https://bit.ly/right-angle-micro-usb-adapter
+[9]: https://play.google.com/store/apps/details?id=com.gku.caddxfpv
+[10]: https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q
+[11]: https://bit.ly/gnb-4s-520mah
