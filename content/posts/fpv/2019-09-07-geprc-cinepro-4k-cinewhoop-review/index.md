@@ -103,24 +103,106 @@ And here is the FrSky XM plus receiver, ziptied under the camera boards.
 
 ### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
 
-- Installing the battery straps
-- Installing an SD card (push props down a bit)
+In terms of setup, here's what we need to do to get up and running: **🔗 Bind the receiver to the radio**, **📇 Insert an SD card**, **⛓ Install the velcro straps**, **📡 Configure RSSI, channel mapping and modes in Betaflight** and **🎥 Configure the Caddx Tarsier 4K camera via the app**.
 
-Betaflight screenshots
-CLI Dump link
+#### 🔗 Bind the receiver to the radio
 
-![](geprc-cinepro-4k-cinewhoop-review-14.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-15.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-16.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-17.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-18.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-19.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-20.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-21.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-22.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-23.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-24.jpg)
-![](geprc-cinepro-4k-cinewhoop-review-25.jpg)
+The process was the same as usual (I use FrSky XM+ on almost all of my models). Put your radio in bind mode, press and hold the bind button on the receiver, while plugging in a battery. An extra set of hands helps a great deal with this, but you can also do just fine on your own, although a bit tricky. The receiver will then bind. After that turn off the binding function on your radio, unplug the quad and finally power it on again.
+
+**If all went well, after the final power cycle, the XM+ will have its led in solid green to indicate that it's now linked to your transmitter.**
+
+#### 📇 Insert an SD card
+
+Fairly straight forward - the only thing is, the ducts are a bit in the way, but luckily just **pushing them down slightly allows for just enough space** to insert the SD card in its slot.
+
+![Insert an SD card in the GEPRC CinePro 4k](geprc-cinepro-4k-cinewhoop-review-25.jpg)
+
+#### ⛓ Install the velcro straps
+
+Installing the battery straps is also pretty straight forward. Depending on what batteries you're using you might be able to get away with just one of them, but I had to use both. I setup mine by guiding them through the designated slits on the top frame.
+
+![Adding a velcro strap to GEPRC CinePro 4k](geprc-cinepro-4k-cinewhoop-review-24.jpg)
+
+#### 📡 Configure RSSI, channel mapping and modes in Betaflight
+
+First thing you'll notice is that the micro USB port is somewhat tricky to access. I'm happy to report that **it is still accessible** with a smaller, slimmer cable. I had this cable laying around and was able to use it to configure the CinePro. Alternatively, you could use an [L type right angle micro USB adapter][8]. Worst case scenario you might have to unscrew the motor screws to take off the duct and plug in your USB cable.
+
+![GEPRC CinePro micro USB port](geprc-cinepro-4k-cinewhoop-review-41.jpg)
+
+##### RSSI
+
+My [GEPRC CinePro][1] drone didn't come with RSSI configured correctly for XM+ receivers, so definitely check yours and set it up accordingly. That's a quick 3 step process:
+
+On the **Configuration** tab locate `RSSI_ADC` and make sure it's turned off.
+
+![GEPRC CinePro Betaflight configuration tab part 2](geprc-cinepro-4k-cinewhoop-review-17.jpg)
+
+On the **Receiver** tab set `RSSI Channel` to AUX12.
+
+![GEPRC CinePro Receiver tab in Betaflight](geprc-cinepro-4k-cinewhoop-review-21.jpg)
+
+Finally in the OSD tab enable `RSSI value` to allow displaying it in the OSD.
+
+![Allow RSSI value in the GEPRC CinePro OSD](geprc-cinepro-4k-cinewhoop-review-23.jpg)
+
+##### Channel mapping
+
+My [GEPRC CinePro][1] came with its channel map configured to `AETR` and I'm always using `TAER` channel mapping so I had to change it. If you don't want things going wrong or best case scenario driving out to the field just to find out you can't arm your quad because of your channel mapping (or having to change it in your radio), make sure to configure this before hand here.
+
+![GEPRC CinePro Receiver tab in Betaflight](geprc-cinepro-4k-cinewhoop-review-21.jpg)
+
+In my case after changing to `TAER1234` all the channels were responding correctly.
+
+##### Modes and switches
+
+Finally let's set up an arm switch and some flight modes on a switch. Jump over to the **Modes** tab in Betaflight.
+
+I have this convention where my arming switch is `Channel 5` on `AUX 1` and this is the right hand side 2 position switch on my radio. Then my modes are on the 3 position switch next to it and those correspond to `Channel 6` or `AUX 2` in Betaflight.
+
+For a Taranis radio you need to add your switch sources to `Channel 5` and `Channel 6` in the radio mixer screen, then assign `AUX 1` to ARM and `AUX 2` to some modes. I have Angle and Horizon mode on that switch, but by default in its starting position is in Acro as that's what I use to fly.
+
+![GEPRC CinePro Betaflight modes tab](geprc-cinepro-4k-cinewhoop-review-22.jpg)
+
+That's it in terms of setup. Here are all the other Betaflight settings, which are pretty much the defaults and left as is.
+
+##### Complete Betaflight configuration
+
+Setup:
+![GEPRC CinePro Setup tab in Betaflight](geprc-cinepro-4k-cinewhoop-review-14.jpg)
+
+Ports:
+![GEPRC CinePro Ports tab in Betaflight](geprc-cinepro-4k-cinewhoop-review-15.jpg)
+
+Configuration part 1:
+![GEPRC CinePro Configuration tab part 1 in Betaflight](geprc-cinepro-4k-cinewhoop-review-16.jpg)
+
+Configuration part 2:
+![GEPRC CinePro Configuration tab part 2 in Betaflight](geprc-cinepro-4k-cinewhoop-review-17.jpg)
+
+Configuration part 3:
+![GEPRC CinePro Configuration tab part 3 in Betaflight](geprc-cinepro-4k-cinewhoop-review-18.jpg)
+
+Power and battery:
+![GEPRC CinePro Power and Battery tab in Betaflight](geprc-cinepro-4k-cinewhoop-review-19.jpg)
+
+PID tuning
+![GEPRC CinePro PID Tuning tab in Betaflight](geprc-cinepro-4k-cinewhoop-review-20.jpg)
+
+And here is the complete [GEPRC CinePro Betaflight configuration CLI dump](BTFL_cli_CinePro_F7_20190901_133123.txt) with the default configuration plus my updates to it.
+
+#### 🎥 Configure the Caddx Tarsier 4K camera via the app
+
+Last thing we have to do before we can go out and fly is to set up the Caddx Tarsier camera. Unfortunately even though this is an outstanding camera in terms of both FPV feed and recorded footage, the user experience of the setup via the app is suboptimal to say the least.
+
+last video not being saved,
+the ux experience is pretty crappy sadly, although the camera is great
+
+##### To record:
+
+##### To change the settings:
+
+- Long press WiFi button for 8 seconds until you see blinking green light shortly
+
 ![](geprc-cinepro-4k-cinewhoop-review-26.jpg)
 ![](geprc-cinepro-4k-cinewhoop-review-27.jpg)
 ![](geprc-cinepro-4k-cinewhoop-review-28.jpg)
@@ -132,18 +214,20 @@ CLI Dump link
 ![](geprc-cinepro-4k-cinewhoop-review-34.jpg)
 ![](geprc-cinepro-4k-cinewhoop-review-35.jpg)
 ![](geprc-cinepro-4k-cinewhoop-review-36.png)
-
-### ⚙ <span id="setup" class="offset-top-nav">How to record with Caddx Tarsier 4K camera</span>
-
-#### To record:
-
-#### To change the settings:
-
-- Long press WiFi button for 8 seconds until you see blinking green light shortly
+![](geprc-cinepro-4k-cinewhoop-review-37.jpg)
+![](geprc-cinepro-4k-cinewhoop-review-38.jpg)
+![](geprc-cinepro-4k-cinewhoop-review-39.jpg)
+![](geprc-cinepro-4k-cinewhoop-review-40.jpg)
 
 Easy steps bullet point list. Quick start guide
 
 ### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
+
+#### 👰 Maiden flight
+
+Exact flight video
+
+failsafe, lost wifi antenna, screw, camera position.
 
 - Batteries
 - Test flights with different props
@@ -158,6 +242,8 @@ Footage with 4k 30 fps and 2,7k 60 fps
 
 The easiest entry to quality cinewhooping.
 
+TODO: add links to article in the trello description for this quad as well as on all youtube videos retroactively
+
 [0]: Linkslist
 [1]: https://bit.ly/geprc-cinepro-4k
 [2]: https://bit.ly/caddx-tarsier-4k
@@ -166,3 +252,4 @@ The easiest entry to quality cinewhooping.
 [5]: https://bit.ly/xm-plus
 [6]: https://bit.ly/mobula7-hd
 [7]: https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q/playlists
+[8]: https://bit.ly/right-angle-micro-usb-adapter
