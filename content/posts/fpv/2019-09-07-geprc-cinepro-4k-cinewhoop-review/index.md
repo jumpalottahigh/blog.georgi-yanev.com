@@ -288,6 +288,12 @@ All of the above has been tested with the default Avan Flow 2 props that come pr
 
 You could also subscribe to my [Georgi FPV][10] YouTube channel where I drop all single pack unedited footage and see the dalprop footage as soon as I upload it.
 
+`UPDATE:` here is the video of the GEPRC CinePro with the Dalprop Cyclone q2035c props. The quad still flies smooth and nice, I do feel that the handling with the Avan Flow props is a bit easier, but they are also more amp hungry. Both prop options work really well with this quad.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HCHy9sUj7LU?list=PLt8_2AobQjAeWqgpphjAtnjsbxNO32tOs&index=4" frameBorder="0" allowFullScreen title="GEPRC CinePro flight with Dalprop Cyclone q2035c props"></iframe>
+</div>
+
 ![GEPRC CinePro with Dalprops on](geprc-cinepro-4k-cinewhoop-review-40.jpg)
 
 🔋 Batteries
