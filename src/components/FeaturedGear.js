@@ -152,6 +152,16 @@ const allFeaturedGear = {
     link: 'https://bit.ly/emax-avan-2',
     image: '/banggood/emax-avan-2.jpg',
   },
+  'lipo-battery-charger': {
+    name: 'Imax B6 lipo battery charger',
+    link: 'https://bit.ly/imax-b6-lipo-charger',
+    image: '/banggood/lipo-battery-charger.jpg',
+  },
+  lipokiller: {
+    name: 'URUAV Lipokiller',
+    link: 'https://bit.ly/lipo-killer',
+    image: '/banggood/lipokiller.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
