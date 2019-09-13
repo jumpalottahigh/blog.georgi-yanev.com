@@ -125,6 +125,7 @@ module.exports = {
             }
             `,
             output: '/feed.xml',
+            title: "Georgi's Blog",
           },
         ],
       },
