@@ -19,7 +19,7 @@ ogImage: './how-to-dispose-of-a-lipo-1.jpg'
 
 If you are into FPV, chances are sooner or later you will have to dispose of some old, unsafe or just no longer working lipo battery. **And that's a dangerous task if not carried out correctly!** So I'd like to start this post with a very important disclaimer:
 
-> **If you don't know what you're doing or about to do, STOP! This is not a guide or a DIY tutorial! This post is about sharing my experience with you, with the hope of helping people not to burn down their houses. Lipos are serious business, they DO EXPLODE and they DO SET THINGS ON FIRE. Proceed at your own risk! I take no responsibility for anything that might happen to you if you decide to continue on. Be smart and be careful.**
+> **If you don't know what you're doing or about to do, STOP! This is not a guide or a DIY tutorial! This post is about sharing my experience with you, with the hope of helping people not to burn down their houses. Lipos are serious business, they DO EXPLODE and they DO SET THINGS ON FIRE. Proceed at your own risk! I take no responsibility for anything that might happen to you if you decide to continue. Be smart and be careful.**
 
 So back to our story. Sooner or later you will get a dead cell in a pack or a cell with significant voltage difference than the rest of the cells at which point it could be a bit of a risk to try and charge the pack.
 
@@ -31,7 +31,7 @@ Again, I'm not gonna get into how to fix such issues. I have read about people e
 
 There are a lot of weird and wildly unsafe ways of disposing of a lipo and I'm not even going to mention them here. You can find out about them easily with some google-fu.
 
-**One of the ways to dispose of a lipo that I consider safest** is to deplete all their energy slowly to kill the cells. There are many ways to do so, but here's what's worked for me - using led lights of some sort. It takes a long time but it's fairly safe based on my experience. That being said, I still only do it when I'm in the room keeping an eye on the battery; I wouldn't leave it unattended and don't recommmend that.
+**One of the ways to dispose of a lipo that I consider safest** is to deplete all their energy slowly to kill the cells. There are many ways to do so, but here's what's worked for me - using led lights of some sort. It takes a long time but it's fairly safe based on my experience. That being said, I still only do it when I'm in the room keeping an eye on the battery; I wouldn't leave it unattended and don't recommend that.
 
 **If you have one of those 1S whoop battery charging board, you could plug in the lipo to kill in the XT60 port, and use the USB 5V output port to power anything running off of 5V**. For instance, I have an LED strip in my room that I can power using this method and while this does take a while because the LED strip is so energy efficient, it works nevertheless.
 
@@ -45,13 +45,13 @@ And while those methods have worked nicely for me, I decided to grab one of thes
 
 ![URUAV lipo killer](how-to-dispose-of-a-lipo-2.jpg)
 
-I used it to finish off a couple of battery packs I needed to get rid of. This thing goes for about $6-$7 and is nicely build and easy to use. You can discharge your batteries via the XT60 on board or by plugging in you battery's balance plug in the pins. Just make sure you plug in correctly if you use the pins.
+I used it to finish off a couple of battery packs I needed to get rid of. This thing goes for about $6-$7 and is nicely build and easy to use. You can discharge your batteries via the XT60 on board or by plugging in your battery's balance plug in the pins. Just make sure you plug incorrectly if you use the pins.
 
 I've also noticed you can set the desired discharge to voltage, although I have yet to use that option, because I mainly use [my charger to set my batteries to storage voltage][3], but if you have nothing else to help you discharge your batteries to storage voltage, I would assume this tiny board could help a bit, albeit probably very slow.
 
-Here's what you get when you order one of these [lipo killer][1] boards. An acryllic stand and standoffs as well as some nuts.
+Here's what you get when you order one of these [lipo killer][1] boards. An acrylic stand and standoffs as well as some nuts.
 
-![screws and acryllic stand in plastic bag](how-to-dispose-of-a-lipo-3.jpg)
+![screws and acrylic stand in a plastic bag](how-to-dispose-of-a-lipo-3.jpg)
 
 You put it together like this.
 
@@ -71,7 +71,7 @@ Cut the wires one at a time, as if you try just both ground and voltage at the s
 
 ![lipo battery with leads cut and shorted](how-to-dispose-of-a-lipo-6.jpg)
 
-You can then save the balance plug, XT60 plug and all the leads in case you need them for something. Check your local hobby shop for recycling the lipos, or if there isn't one, some electronics stores might accept you recycling your lipos there.
+You can then save the balance plug, XT60 plug, and all the leads in case you need them for something. Check your local hobby shop for recycling the lipos, or if there isn't one, some electronics stores might accept you recycling your lipos there.
 
 [0]: Linkslist
 [1]: https://bit.ly/lipo-killer
