@@ -37,6 +37,12 @@ Whether you are a cinewhoop veteran, or just considering getting into cinewhoopi
 - [🚁 Flying](#flying)
 - [📑 Conclusion](#conclusion)
 
+If you prefer watching, check out the full video review on my YouTube channel:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cfssLvuPOO4?rel=0" frameBorder="0" allowFullScreen title="GEPRC CinePro 4K cinewhoop"></iframe>
+</div>
+
 ### 📦 <span id="unboxing">Unboxing</span>
 
 When I think of the [GEPRC CinePro 4K][1] cinewhoop unboxing experience, I think of two things: **minimalistic and high-quality gear**.
