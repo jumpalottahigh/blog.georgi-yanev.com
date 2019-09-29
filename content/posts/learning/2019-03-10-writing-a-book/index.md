@@ -1,7 +1,7 @@
 ---
 path: '/learning/writing-a-book/'
 date: '2019-03-10'
-updated: '2019-07-30'
+updated: '2019-09-29'
 title: 'I am writing a book!'
 author: 'Georgi Yanev'
 affiliate: ''
@@ -157,6 +157,10 @@ https://twitter.com/jumpalottahigh/status/1167559019336220672
 
 #### 9️⃣ September 2019
 
+This is probably the shortest update from all the past months, but the reality of it was that I had to deal with changing jobs this month and my focus was primarily on that. The rest of my free time was spent playing with my son and on my YouTube project - [FPVTIPS][26].
+
+https://twitter.com/jumpalottahigh/status/1178352961292046336
+
 #### 🔟 October 2019
 
 ### \* \* \*
@@ -187,3 +191,4 @@ https://twitter.com/jumpalottahigh/status/1167559019336220672
 [23]: https://www.youtube.com/watch?v=N4ZDBOc2tX8&index=1&list=PLH3mK1NZn9QqOSj3ObrP3xL8tEJQ12-vL
 [24]: https://www.youtube.com/watch?v=mrP9604BEOM
 [25]: /stories/restaurant-job-its-personal/
+[26]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
