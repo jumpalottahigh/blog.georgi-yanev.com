@@ -194,7 +194,7 @@ class BlogPostTemplate extends React.Component {
               config={disqusConfig}
             />
             <Share url={post.frontmatter.path} />
-            <Giveaway />
+            {/* <Giveaway /> */}
             <TinyLetterSignup />
             <YouTubeChannelsPromo text="Need even more FPV in your life? Check out my YouTube channels:" />
             <PromoBanner
