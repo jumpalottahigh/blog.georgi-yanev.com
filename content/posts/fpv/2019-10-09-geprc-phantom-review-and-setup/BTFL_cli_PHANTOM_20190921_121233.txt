@@ -1,0 +1,95 @@
+diff
+
+# version
+# Betaflight / MATEKF411 (MK41) 3.5.7 Mar 15 2019 / 22:05:14 (e9130527c) MSP API: 1.40
+
+board_name MATEKF411
+manufacturer_id 
+
+# name
+name PHANTOM
+
+# resources
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+feature -SOFTSERIAL
+feature -TELEMETRY
+feature LED_STRIP
+feature AIRMODE
+
+# beeper
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# map
+
+# serial
+serial 0 8192 115200 57600 0 115200
+serial 1 64 115200 57600 0 115200
+
+# led
+led 0 6,13::CTOBVIW:0
+led 1 7,13::CTOBVIW:0
+led 2 8,13::CTOBVIW:0
+led 3 9,13::CTOBVIW:0
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 900 1275 0 0
+aux 1 1 1 1300 1700 0 0
+aux 2 2 1 1700 2100 0 0
+aux 3 13 2 900 1275 0 0
+
+# adjrange
+
+# rxrange
+
+# vtx
+
+# rxfail
+
+# master
+set acc_calibration = -31,90,-385
+set baro_hardware = NONE
+set motor_pwm_protocol = DSHOT600
+set align_board_yaw = 90
+set ibata_scale = 210
+set small_angle = 180
+set pid_process_denom = 1
+set osd_vbat_pos = 2497
+set osd_tim_1_pos = 273
+set osd_tim_2_pos = 2519
+set osd_vtx_channel_pos = 2487
+set osd_current_pos = 2464
+set osd_mah_drawn_pos = 2507
+set osd_craft_name_pos = 2475
+set osd_warnings_pos = 2441
+set vtx_channel = 2
+set vtx_power = 3
+set vtx_freq = 5760
+set vcd_video_system = PAL
+
+# profile
+profile 0
+
+set dterm_notch_cutoff = 0
+set feedforward_transition = 50
+set p_yaw = 55
+
+# rateprofile
+rateprofile 0
+
+
+# 
