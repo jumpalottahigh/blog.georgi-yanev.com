@@ -39,7 +39,8 @@ class BlogPostTemplate extends React.Component {
     // Affiliate banners
     let showBanner = false
     const affiliateParam = 'p=NY211410857261201705'
-    const bannerLink = `https://www.banggood.com/marketing-banggood-13th-anniversary-toys-hobbies-robot-sale/tid-3664.html?utmid=9868&utm_design=25&${affiliateParam}`
+    const bannerLink = `https://www.banggood.com/marketing-Banggood-2019-RC-Toys-Brands-Day/tid-4950.html?bid=21149&${affiliateParam}`
+    const bannerLinkBottom = `https://www.banggood.com/marketing-banggood-13th-anniversary-toys-hobbies-robot-sale/tid-3664.html?utmid=9868&utm_design=25&${affiliateParam}`
 
     if (post.frontmatter.category === 'fpv') {
       showBanner = true
@@ -138,7 +139,9 @@ class BlogPostTemplate extends React.Component {
           <div className="blog-post">
             <ReadProgressLine />
             <h1>{post.frontmatter.title}</h1>
-            {showBanner && <PromoBanner linkTo={bannerLink} />}
+            {showBanner && (
+              <PromoBanner linkTo={bannerLink} imageName="stripe4" />
+            )}
             <div className="disclaimer-container">
               <div>
                 <div className="disclaimer">
@@ -179,7 +182,7 @@ class BlogPostTemplate extends React.Component {
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             <FeaturedGear gearList={post.frontmatter.gearList} />
-            <PromoBanner linkTo={bannerLink} imageName="stripe3" />
+            <PromoBanner linkTo={bannerLink} imageName="stripe4" />
             <FeedbackSection />
             <AskAQuestion />
             <RelatedArticles
@@ -199,7 +202,7 @@ class BlogPostTemplate extends React.Component {
             <YouTubeChannelsPromo text="Need even more FPV in your life? Check out my YouTube channels:" />
             <PromoBanner
               style={{ maxWidth: '450px', margin: 'auto' }}
-              linkTo={bannerLink}
+              linkTo={bannerLinkBottom}
               imageName="square"
             />
           </div>

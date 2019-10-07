@@ -30,6 +30,15 @@ const usePromoBanner = (name = 'stripe') => {
         }
       }
 
+      stripe4: file(relativePath: { regex: "/^promo/banggood-stripe-4/" }) {
+        name
+        childImageSharp {
+          fluid(maxWidth: 970, quality: 81) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+
       square: file(relativePath: { regex: "/^promo/banggood-square/" }) {
         name
         childImageSharp {
