@@ -11,6 +11,7 @@ import ReadProgressLine from '../components/ReadProgressLine'
 import TinyLetterSignup from '../components/TinyLetterSignUp'
 import ModeSwitch from '../components/Mode'
 import EditOnGitHub from '../components/Edit'
+import LuckyDraw from '../components/Lucky'
 import AskAQuestion from '../components/AskAQuestion'
 import ReaderQuestions from '../components/ReaderQuestions'
 import PromoBanner from '../components/PromoBanner'
@@ -170,6 +171,7 @@ class BlogPostTemplate extends React.Component {
                 )}
               </div>
               <div className="toolbar">
+                <LuckyDraw />
                 <EditOnGitHub
                   path={post.frontmatter.path}
                   date={post.frontmatter.dateUnformatted}
