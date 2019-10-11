@@ -162,6 +162,16 @@ const allFeaturedGear = {
     link: 'https://bit.ly/lipo-killer',
     image: '/banggood/lipokiller.jpg',
   },
+  'emax-tinyhawk-freestyle': {
+    name: 'Emax Tinyhawk Freestyle',
+    link: 'https://bit.ly/tinyhawk-freestyle',
+    image: '/banggood/emax-tinyhawk-freestyle.jpg',
+  },
+  'geprc-phantom': {
+    name: 'Geprc Phantom',
+    link: 'https://bit.ly/geprc-phantom',
+    image: '/banggood/geprc-phantom.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
