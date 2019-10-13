@@ -18,6 +18,7 @@ import PromoBanner from '../components/PromoBanner'
 import FeaturedGear from '../components/FeaturedGear'
 import YouTubeChannelsPromo from '../components/YouTubeChannelsPromo'
 import Giveaway from '../components/Giveaway'
+import Tags from '../components/Tags'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -140,9 +141,7 @@ class BlogPostTemplate extends React.Component {
           <div className="blog-post">
             <ReadProgressLine />
             <h1>{post.frontmatter.title}</h1>
-            {showBanner && (
-              <PromoBanner linkTo={bannerLink} imageName="stripe4" />
-            )}
+            <Tags tags={post.frontmatter.tags} />
             <div className="disclaimer-container">
               <div>
                 <div className="disclaimer">
@@ -179,6 +178,9 @@ class BlogPostTemplate extends React.Component {
                 <ModeSwitch />
               </div>
             </div>
+            {showBanner && (
+              <PromoBanner linkTo={bannerLink} imageName="stripe4" />
+            )}
             <div
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.html }}
