@@ -188,6 +188,8 @@ export default class PostsList extends React.Component {
   filterByTag = tag => {
     let results = []
 
+    // TODO: fix a bug where after having searched, trying to filter returns 0 results. The expected behaviour is to have search reset when clicking a tag
+
     results = this.state.allPosts.filter(post => {
       if (post.node.frontmatter.tags.includes(tag)) {
         return post
@@ -216,6 +218,7 @@ export default class PostsList extends React.Component {
   handleTagClick = e => {
     // Searched for
     let searched = e.target.dataset.filter
+    // TODO: fix a bug where after having searched, trying to filter returns 0 results. The expected behaviour is to have search reset when clicking a tag
     let postsFilteredByTag = this.filterByTag(searched)
 
     // Filter the posts
@@ -412,6 +415,7 @@ export default class PostsList extends React.Component {
               <div style={{ display: 'flex', flexFlow: 'row wrap' }}>
                 {Object.keys(allTags).map(item => (
                   <span
+                    key={item}
                     data-filter={item}
                     className="post-preview-tag"
                     style={{
