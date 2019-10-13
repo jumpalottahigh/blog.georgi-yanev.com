@@ -1,6 +1,6 @@
 ---
 path: '/fpv/geprc-phantom-review-and-setup/'
-date: '2019-10-09'
+date: '2019-10-14'
 title: 'GEPRC Phantom toothpick'
 author: 'Georgi Yanev'
 draft: true
@@ -22,6 +22,13 @@ smooth flying and easy handling
 https://bit.ly/geprc-phantom
 
 TODO: update tags and gearList
+
+flying on 2s 350, 3s 300,
+
+4s 500 and 4s 520
+
+flying with stock props (upgrade to new hq props)
+flying with avan rush props
 
 ![](geprc-phantom-review-and-setup-1.jpg)
 ![](geprc-phantom-review-and-setup-2.jpg)
