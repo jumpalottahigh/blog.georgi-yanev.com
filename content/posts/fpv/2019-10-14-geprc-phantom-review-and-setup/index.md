@@ -91,7 +91,7 @@ Here is how the XM+ receiver was zip tied to the available space in the back of 
 
 ![GEPRC Phantom](geprc-phantom-review-and-setup-13.jpg)
 
-### ⚙ <span id="specs" class="offset-top-nav">Setup</span>
+### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
 
 To get up and running, this is what we need to do:
 
@@ -148,17 +148,112 @@ Let's go fly this quad around!
 
 ![GEPRC Phantom fully setup and ready to be flown](geprc-phantom-review-and-setup-18.jpg)
 
-### 🚁 <span id="specs" class="offset-top-nav">Flying</span>
+### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
 
 And fly it I did! I really like testing drones extensively and getting some proper stick time before I dive in to review them. And in this case, I've been able to fly this thing for about a month give or take.
 
---- first immediate impressions
+---
 
-very silent!
-very efficient, draw little amps
-smooth flying and easy handling
+When it comes to flying the [GEPRC Phantom][1] quickly became one of my favorite drones to fly.
+
+And while I'm somewhat new to the whole toothpick class drone action, I have a fair bit of understanding about it and how it should work. **In general you really want your models to be very lightweight**. I'm oversimpplifying it, and there are a lot of factors and combos you could try, tweak and try different props, motors, AUW (all-up weight).
+
+That's why I wanted to and managed to carry out a number of tests flying with different batteries and props. And there's even more to do in the future.
+
+So I flown it on a 3s 300 mah battery, 2s 350 mah battery and I even tried flying it on a 4S 520 mah battery, but that last one didn't work out so well. I also tried 2 different times of props.
+
+#### 🔋🔋🔋 3S 3️⃣0️⃣0️⃣ mah
+
+Here is the 3S 300 mah battery maiden flight.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/aCDpAAAzQAM?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=0&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom maiden flight on 300mah 3S"></iframe>
+</div>
+
+Immediate impressions from the maiden:
+
+- So quiet! I could barely hear the props just 30 meters (32 yards) away!
+- Very efficient, draw little amps (~ 2-4)
+- Smooth flying and easy handling
+- The tune is locked in!
+- I could totally get into this!
+- Where is the barrier between this and a 5 inch quad?
+- Flight time's a bit short on this battery we need to test other types
+
+And I have so many thoughts I want to share with you, this little fella really made me think and think hard.
+
+It handles nice in corners, although me coming from tri-blade higher pitch props, I do expect a bit more grip in turns. I really love the Avon flow 5 props on mini quads, but they also draw significantly more amps at the higher end of the throttle. This is easy to get used to in just a few minutes. Now, in terms of speed the [GEPRC Phantom][1] toothpick is plenty fast and legit flies like a 5 inch quad for the better part.
+
+**It is genuinely fun to fly!**
+
+And I've had it for a little over a month now and I've ripped a ton of batteries through it even though the weather was mostly bad and rainy and cold with little opportunities to fly. **What I've also noticed was that I started going for dedicated runs with micro drones out.**
+
+I always used to go out flying with my 5 inch quads. But I found myself going with just the micros and still having a ton of fun. If anything it makes things even easier, because charging the batteries is much faster, discharging them after coming home if you have left over unflown ones is also faster, finding a spot to fly (depending on where you live this maybe a big one for you, or not a concern at all). I have a few spots around here where I really wouldn't fly a 5 inch quad, but are absolutely perfect for a toothpick.
+
+**The only thing I would like to improve on this quad is the flight time!** It's not the lousiest (around a little under 3 minutes depending on how much you push it), but definitely not the best on my 3S 300mah and 2S 350mah batteries. I love flying the [GEPRC Phantom][1] so much, that if I could only nail the flight time with some sort of a props and battery combo that fits those motors, I would be very, very happy! And this is what lead me to want to do a lot of different tests. The target was to get a flight time of between 3:30 - 4:00 mins.
+
+#### 🔋🔋 2S 3️⃣5️⃣0️⃣ mah
+
+Well, you could technically get a flight time of 4 minutes even on a Betafpv 2S 350mah battery with some preservation phases between pushing it and if you run the battery down waaaay low like I did 😬. It was fun though! I also found my favorite spot to fly the Phantom at.
+
+Flying the [GEPRC Phantom][1] on a 2S 350mah battery, stock bi blade props.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HjSIa3_1We4?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=9&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom 4 min flight on 2S 350mah"></iframe>
+</div>
+
+**In between of battery testing I also did some prop testing and that was mainly for 2 reasons: improving handling in turns and oscillations from the stock props after the slightest impact.**
+
+#### 🌀🌀 HQ 2.5 inch bi-blade props
+
+The stock props fly well, but even the smallest bump causes them to oscillate on subsequent flights. Maybe the plastic is too flimsy, I don't know. It's also funny but it doesn't seem to impact the flight characteristics, but the noise is annoying and especially so given how quiet this quad is otherwise. I was also told recently that the [HQ 2.5 inch bi-blade prop][3] (which looks very similar if not the same as the stock props) is apparently stiffer and does not have the same issues. Will have to wait and see on that one. Those are in the mail and I will update as soon as possible.
+
+#### 🌀🌀🌀🌀 Avon 2 inch quad-blade props
+
+This one was for science and out of curioucity and the conclusion is: **lol, don't do this**. It made no sense, made the quad fly like garbage, drew a lot more amps and didn't feel nice at all. This type of prop is better left to cinewhoops.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ipc7UiDNyIA?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=14&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom with quad blade avon 2 inch props"></iframe>
+</div>
+
+#### 🌀🌀🌀 Avon Rush 2.5 inch tri-blade props
+
+This one, though, was a winner for me! The [Avon Rush 2.5 inch tri-blade props][4] improve the handling in turns and once again give me this "point and go" feeling when flying the [GEPRC Phantom][1]. At the same time, these props did not take away from the speed or ruin the flight characteristics in any way and **even the amp draw (where I thought the biggest trade off would be) was increased insignificantly**. Jackpot!
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/f5icIS4Mr98?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=15&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom with tri blade avon rush 2.5 inch props"></iframe>
+</div>
+
+#### 🔋🔋🔋🔋 4S 5️⃣2️⃣0️⃣ mah
+
+The 4S flight didn't work out so well. Partially because of the battery velcro strap (used stock, although too short). I guess it in a turn the strap snapped off and the battery fell on one side and pulled the quad down as it's quite heavy. Check it out towards the end of the video. This happened a few times, and I think I lost a motor due to it.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/5ai_mL7htww?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=18&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom trying out a 4S 520mah battery"></iframe>
+</div>
+
+I'm still carrying out the investigation and will update here with more info as soon as I know more. On Banggood's product page and on GEPRC's own site I saw somewhat contradicting information regarding how the quad is rated. I saw information for both `2S-3S` and `2S-4S`. At this time, **I don't think I burned a motor due to flying on a 4S battery**, rather when the battery fell to the side, maybe the quad went crazy trying to over compensate with that particular motor? Is that a thing?
+
+Definitely my fault, I don't blame the parts and when testing all sorts of crazy things, failures are bound to happen, but in the end I'm still happy to do and share that test with you so maybe many others can learn from it, without losing a motor 😅
+
+My main motivation for the flight was to increase the flight time. Of course going up in battery size adds weight and this is your toothpick's nemesis.
+
+Flight characteristics:
+
+- The quad was noticably heavier (not in a good way either)
+- It wasn't really going any faster compared to flying on smaller 2S and 3S batteries
+- Flight time did not infact increase
+
+Clearly this battery was a stretch and I kind of knew that going in. Probably my next test will be on a 2S 450 or a 3S 400? That must be the perfect spot for the [GEPRC Phantom][1].
 
 ---
+
+---
+
+---
+
+Full playlist of more than 18 flights and counting.
+https://www.youtube.com/watch?v=aCDpAAAzQAM&list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45
 
 - flying it over concrete and smacking it into the ground a bunch of times, always at high speed. Smacking it into trees.
 
@@ -169,16 +264,37 @@ smooth flying and easy handling
 
 ...
 
-### 🔝 <span id="specs" class="offset-top-nav">Upgrades</span>
+### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
 
-- new better hq props more stiff
-- the avan rush 2.5 props
-  ...
+In terms of upgrades, I would recommend changing the stock props to similar but stiffer like the [HQ 2.5 inch bi-blade prop][3]. Or alternatively, you could try to find something else that works well for you, as I mentioned I really like the [Avon Rush 2.5 inch tri-blade props][4] because of the control authority.
 
-### 📑 <span id="specs" class="offset-top-nav">Conclusion</span>
+The other thing I would consider upgrading (if it works out) is the camera. This is not because the FPV camera is bad, not at all, it works perfectly, but I am curious if I could get some HD footage from this quad if I upgrade to a [RunCam Split 3 Nano][5] camera.
+
+A full range receiver (✅), a flight time of ~ 4 minutes on average, even better handling without sacrificing speed (✅) and HD video recordings while flying this quad would make me beyond happy. I don't think I want anything else if I could get those and I will be working on getting there during the winter, so stay tuned.
+
+### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+
+---
+
+Fly around just so so easy not to mention if staying lego in certain countries and under the 250 gram limit is very important to you that's definitely the way to go but it's very nice to see that going forward in our hobby we can stay legal fly these smaller plots and at the same time make no compromises to how we fly because I really mean this this thing does fly like a five-inch.
+
+For better part. Now I'm comparing it with a the max coke at the max tiny hawk freestyle quad and I will probably be comparing it and maybe even building my own toothpick in the coming months. Because I'm really now on the search for that dream dinosaur a dream. Micro quad.
+
+Or a dream to speak.
+
+And so what are the only things I would improve about to get RC? Phantom is maybe I want better flight times but again that could be just me not flying internal for 50 million power battery, so. I will make sure to come back and update that post once. I've flown it on such a battery.
+
+The only other thing that I would improve. Is maybe have an HD recording camera. I'm thinking maybe the run cam split nano. Would probably not add that much more to the weight. So you keep almost the same flat characteristic but get also a 1080p HD footage, that would be the bomb.
+
+I would love that. The other thing maybe I should have mentioned is that I got the model with the FR sky XM plus receiver. Which is great because I really wanted to have a toothpick that I could fly. Around like a bit further than what was toothpicks or micro drones get you because especially if you have quad with one of those crazy bee boards with the SPI receivers on board you get around like a hundred 150 meters keyboard take a range sometimes that's fine if you fly around yourself and not too far but like, It's just so nice to have that extra bit of range into really be able to go just a little bit further without having to worry about range issues.
+
+---
 
 ...
 
 [0]: Linkslist
 [1]: https://bit.ly/geprc-phantom
 [2]: https://www.youtube.com/user/eatkabab
+[3]: https://bit.ly/hqprop-25
+[4]: https://bit.ly/avon-rush-25
+[5]: https://bit.ly/runcam-split-3-nano
