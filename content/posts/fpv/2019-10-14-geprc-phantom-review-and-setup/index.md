@@ -3,7 +3,7 @@ path: '/fpv/geprc-phantom-review-and-setup/'
 date: '2019-10-14'
 title: 'GEPRC Phantom - My favorite toothpick for 2019'
 author: 'Georgi Yanev'
-draft: true
+draft: false
 category: 'fpv'
 tags:
   - 'geprc'
@@ -152,7 +152,7 @@ Let's go fly this quad around!
 
 And fly it I did! I really like testing drones extensively and getting some proper stick time before I dive in to review them. And in this case, I've been able to fly this thing for about a month give or take.
 
----
+![GEPRC Phantom getting ready for take off 1](geprc-phantom-review-and-setup-19.jpg)
 
 When it comes to flying the [GEPRC Phantom][1] quickly became one of my favorite drones to fly.
 
@@ -246,24 +246,6 @@ Flight characteristics:
 
 Clearly this battery was a stretch and I kind of knew that going in. Probably my next test will be on a 2S 450 or a 3S 400? That must be the perfect spot for the [GEPRC Phantom][1].
 
----
-
----
-
----
-
-Full playlist of more than 18 flights and counting.
-https://www.youtube.com/watch?v=aCDpAAAzQAM&list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45
-
-- flying it over concrete and smacking it into the ground a bunch of times, always at high speed. Smacking it into trees.
-
-- different batteries and sample flights(flying on 2s 350, 3s 300, 4s 520)
-
-![](geprc-phantom-review-and-setup-19.jpg)
-![](geprc-phantom-review-and-setup-20.jpg)
-
-...
-
 ### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
 
 In terms of upgrades, I would recommend changing the stock props to similar but stiffer like the [HQ 2.5 inch bi-blade prop][3]. Or alternatively, you could try to find something else that works well for you, as I mentioned I really like the [Avon Rush 2.5 inch tri-blade props][4] because of the control authority.
@@ -274,23 +256,27 @@ A full range receiver (✅), a flight time of ~ 4 minutes on average, even bette
 
 ### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
----
+There are currently maybe about 4-5 awesome value for money toothpick class drones out there and the [GEPRC Phantom][1] is definitely among them. It's a great value for what you get, and I hope I managed to convince you **how much fun it is to fly**! In fact, this is **my most thorough and definitely the longest flying section of a blog post I've ever written**. I just flew it so much, very quickly and wanted to try out so many things.
 
-Fly around just so so easy not to mention if staying lego in certain countries and under the 250 gram limit is very important to you that's definitely the way to go but it's very nice to see that going forward in our hobby we can stay legal fly these smaller plots and at the same time make no compromises to how we fly because I really mean this this thing does fly like a five-inch.
+The tune and the flight characteristics are great, having a full range receiver is a blast! I loved flying my [Mobula7 HD][6] for the better part of 2019, it's really come to show me how powerful micro drones have gotten. In my opinion the Mobula7 HD flies awesome. **The GEPRC Phantom flies even better! And so much faster**. It just makes you wanna pretend to be a racer and zip around at top speeds around the park. The good news here is that it is very quiet and unless you are very reckless, you should really do no one any harm or cause disturbance or annoyance.
 
-For better part. Now I'm comparing it with a the max coke at the max tiny hawk freestyle quad and I will probably be comparing it and maybe even building my own toothpick in the coming months. Because I'm really now on the search for that dream dinosaur a dream. Micro quad.
+In addition if staying under the 250 grams limit is important to you, this is a great option to do so, and still fly almost as if you are flying a 5 inch quad. I should also mention that unwillingly but admitedly I gave the Phantom quite the test flying it over concrete all the time and smacking it into the ground a bunch of times, always at high speed. No issues whatsoever, no lost screws, no issues with the frame.
 
-Or a dream to speak.
+Having a **full range receiver on it is a big difference** if you compare to other micro drones with an SPI based built in receiver. No more of that "have to stay within less than 100 meters from myself or I'm gonna get a failsafe".
 
-And so what are the only things I would improve about to get RC? Phantom is maybe I want better flight times but again that could be just me not flying internal for 50 million power battery, so. I will make sure to come back and update that post once. I've flown it on such a battery.
+Flying a toothpick like the [GEPRC Phantom][1] has been somewhat of a mindshift too. I actually want to go explore more and new fpv spots. There is less hassle in getting ready for flying or coming back home from flying. My goal is not to bash on flying 5 inch quads, though. I still love flying those, but it has been very interesting to me that flying micros like that is doable with the same level of satisfaction. **I actually went out on a dedicated micro drone flight session a number of times and it was a lot of fun!** Just my 2 cents, your experience may vary depending on what you prefer.
 
-The only other thing that I would improve. Is maybe have an HD recording camera. I'm thinking maybe the run cam split nano. Would probably not add that much more to the weight. So you keep almost the same flat characteristic but get also a 1080p HD footage, that would be the bomb.
+I would be testing even further with that quad during the winter (or maybe even build my own dream toothpick), but I think that if I add an HD camera to the [GEPRC Phantom][1] and use a slightly bigger battery that would be literally my dream quad. We'll have to wait and see, so sign up for the [newsletter][7] or [YouTube channel][8] and stay tuned.
 
-I would love that. The other thing maybe I should have mentioned is that I got the model with the FR sky XM plus receiver. Which is great because I really wanted to have a toothpick that I could fly. Around like a bit further than what was toothpicks or micro drones get you because especially if you have quad with one of those crazy bee boards with the SPI receivers on board you get around like a hundred 150 meters keyboard take a range sometimes that's fine if you fly around yourself and not too far but like, It's just so nice to have that extra bit of range into really be able to go just a little bit further without having to worry about range issues.
+I will also have an upcoming review on the Emax Tinyhawk Freestyle very soon and we will see how those 2 compare to each other. There are some really interesting trade offs and depending on what you want either can easily be the better option for you.
 
----
+But in the end **I can easily recommend the [GEPRC Phantom][1] because I can easily say that if you buy this one, you're gonna have a ton of fun and really enjoy yourself.**
 
-...
+Happy toothpick flying!
+
+![GEPRC Phantom getting ready for take off 2](geprc-phantom-review-and-setup-20.jpg)
+
+P.S.: Here's the [complete playlist of more than 18 (and counting) raw flight footage videos of the Phantom][9] on my second channel:
 
 [0]: Linkslist
 [1]: https://bit.ly/geprc-phantom
@@ -298,3 +284,7 @@ I would love that. The other thing maybe I should have mentioned is that I got t
 [3]: https://bit.ly/hqprop-25
 [4]: https://bit.ly/avon-rush-25
 [5]: https://bit.ly/runcam-split-3-nano
+[6]: https://bit.ly/mobula7-hd
+[7]: /newsletter
+[8]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
+[9]: https://www.youtube.com/watch?v=aCDpAAAzQAM&list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45
