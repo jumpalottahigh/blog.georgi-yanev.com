@@ -14,6 +14,9 @@ tags:
   - 'review'
 gearList:
   - 'geprc-phantom'
+  - 'avon-rush'
+  - 'hq-2.5'
+  - 'runcam-split-3-nano'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, geprc phantom, geprc, phantom, caddx, xm+, frsky, toothpick, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, geprc quadcopter, geprc toothpick, which toothpick to buy, best toothpick 2019'
 ogDescription: "I was super excited to try out a couple of 'toothpick' class drones. The Geprc Phantom is one of the best toothpick class micro drones that came out this year and I feel very fortunate and happy to have decided to try out exactly this one."

@@ -172,6 +172,21 @@ const allFeaturedGear = {
     link: 'https://bit.ly/geprc-phantom',
     image: '/banggood/geprc-phantom.jpg',
   },
+  'avon-rush': {
+    name: 'Avon Rush 2.5" props',
+    link: 'https://bit.ly/avon-rush-25',
+    image: '/banggood/avon-rush.jpg',
+  },
+  'hq-2.5': {
+    name: 'HQ 2.5" bi blade props',
+    link: 'https://bit.ly/hqprop-25',
+    image: '/banggood/hq-2.5.jpg',
+  },
+  'runcam-split-3-nano': {
+    name: 'RunCam Split 3 Nano',
+    link: 'https://bit.ly/runcam-split-3-nano',
+    image: '/banggood/runcam-split-3-nano.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
