@@ -1,9 +1,9 @@
 ---
 path: '/fpv/geprc-phantom-review-and-setup/'
-date: '2019-10-14'
+date: '2019-10-18'
 title: 'GEPRC Phantom - My favorite toothpick for 2019'
 author: 'Georgi Yanev'
-draft: false
+draft: true
 category: 'fpv'
 tags:
   - 'geprc'
@@ -101,7 +101,7 @@ Same procedure as always for any XM+ receiver: press and hold the bind button on
 
 - **📡 Configure RSSI, channel mapping and modes in Betaflight**
 
-TODO:
+TODO: link to dump
 
 ![GEPRC Phantom Betaflight ports tab](geprc-phantom-review-and-setup-21.png)
 
