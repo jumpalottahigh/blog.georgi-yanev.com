@@ -23,7 +23,7 @@ ogDescription: "I was super excited to try out a couple of 'toothpick' class dro
 ogImage: './geprc-phantom-review-and-setup-18.jpg'
 ---
 
-I was super excited to try out a couple of 'toothpick' class drones. If already at this point you are like: 'toothpick, what?!', check out [KebabFPV's YouTube channel][2] for more context. The `TL;DR` is small, lightweight, micro drones that zip around fast and sport bi-blade propellers (mostly).
+I was super excited to try out a couple of 'toothpick' class drones. If already at this point you are like: 'toothpick, what?!', check out [KebabFPV's YouTube channel][2] for more context. The **TL;DR** is small, lightweight, micro drones that zip around fast and sport bi-blade propellers (mostly).
 
 The [Geprc Phantom][1] is one of the best toothpick class micro drones that came out this year and I feel very fortunate and happy to have decided to try out exactly this one.
 

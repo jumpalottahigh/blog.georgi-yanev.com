@@ -2,6 +2,7 @@
 :root {
   --dark-mode-bg-color: #282c34;
   --dark-mode-bg-color-secondary: #7f848e;
+  --dark-mode-bg-color-tertiary: #656060;
   --dark-mode-color: #bbbbbb;
   --dark-mode-link-color: #d19a66;
   --dark-mode-link-color-hover: #b18c47;
@@ -185,6 +186,10 @@
 .dark-mode .main .post-preview {
   color: var(--dark-mode-black);
   background-color: var(--dark-mode-bg-color-secondary);
+}
+
+.dark-mode .main .post-preview-tag {
+  background-color: var(--dark-mode-bg-color-tertiary);
 }
 
 .dark-mode .sidebar img {
