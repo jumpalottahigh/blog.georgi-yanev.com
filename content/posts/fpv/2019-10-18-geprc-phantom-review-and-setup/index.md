@@ -3,7 +3,7 @@ path: '/fpv/geprc-phantom-review-and-setup/'
 date: '2019-10-18'
 title: 'GEPRC Phantom - My favorite toothpick for 2019'
 author: 'Georgi Yanev'
-draft: true
+draft: false
 category: 'fpv'
 tags:
   - 'geprc'
@@ -98,35 +98,61 @@ Here is how the XM+ receiver was zip-tied to the available space in the back of 
 
 To get up and running, this is what we need to do:
 
-- **🔗 Bind the receiver to the radio**
+**🔗 Bind the receiver to the radio**
 
 Same procedure as always for any XM+ receiver: press and hold the bind button on the receiver while plugging in the battery. Set the radio in bind mode. End bind mode on the radio and power cycle the quad. At this point, the LED should be solid green and a stable link should be established.
 
-- **📡 Configure RSSI, channel mapping and modes in Betaflight**
+**📡 Configure RSSI, channel mapping and modes in Betaflight**
 
-TODO: link to dump
+First, add 2-3 switch inputs via the `Mixer` screen on your radio (I'm using a [Taranis X-Lite][10], but this process is identical for most Taranis radios).
 
-![GEPRC Phantom Betaflight ports tab](geprc-phantom-review-and-setup-21.png)
+Next, whenever we are configuring a quad in Betaflight, remember to always **take off the props**. Even on those little drones. It's a good habbit to get into.
+
+Here are the most important things to check in Betaflight when setting up a new quad.
+
+In the configuration tab check if the quad is in 'props in' or 'props out' mode. It's more common to be in 'props in'. As you can see in the picture below, that's how the GEPRC Phantom is setup out of the box.
+
+You should be running DSHOT600 and make sure `MOTOR_STOP` is off.
 
 ![GEPRC Phantom Betaflight configuration tab 1](geprc-phantom-review-and-setup-22.png)
 
+Next, if you are using the FrSky XM+ receiver, make sure `RSSI_ADC` is off and the receiver is set to SBUS.
+
 ![GEPRC Phantom Betaflight configuration tab 2](geprc-phantom-review-and-setup-23.png)
+
+The rest of the configuration on this tab is not super critical, except for making sure `AIRMODE` is on, so that your motors can keep spinning even when you pull the throttle all the way down in a flip, for example.
 
 ![GEPRC Phantom Betaflight configuration tab 3](geprc-phantom-review-and-setup-24.png)
 
 ![GEPRC Phantom Betaflight configuration tab 4](geprc-phantom-review-and-setup-25.png)
 
+In the `Receiver` tab you wanna set the `Channel Map` to match your transmitter's settings. In my case I had to change the **AETR1234** to **TAER1234**. That makes sure that your radio communicates to the quad on the right channels and it won't flip out when you arm it.
+
+Next, set `RSSI Channel` to **AUX12** which will give us signal strength telemetry.
+
+![GEPRC Phantom Betaflight receiver tab](geprc-phantom-review-and-setup-28.png)
+
+In the `Modes` tab it is finally time to setup our quad for take off by designating an arming switch. For example if you have assigned in your radio's mixer setting a switch to Channel5, that's what AUX1 is here in the modes tab. If you also added a switch to Channel6, this is represented here by AUX2 in the drop down.
+
+You wanna watch the small yellow pin and make sure it is within a range you define with the sliders. If you plug in your quad (props off!) you can test how your switches work in real time, as they will move the yellow pin when you activate a switch.
+
+So make sure you have a working arming switch and you are good to go. You can also setup different modes, beeper, and turtle mode if you want to. I just fly acro so, I make sure that Angle or Horizon modes are not activated.
+
+![GEPRC Phantom Betaflight modes tab](geprc-phantom-review-and-setup-29.png)
+
+In the `OSD` tab I only had to turn on **Rssi value** to be displayed.
+
+![GEPRC Phantom Betaflight OSD tab](geprc-phantom-review-and-setup-30.png)
+
+Finally, here's the rest of the configuration and a [link to a CLI dump of the GEPRC Phantom's settings](BTFL_cli_PHANTOM_20191013_161718.txt).
+
+![GEPRC Phantom Betaflight ports tab](geprc-phantom-review-and-setup-21.png)
+
 ![GEPRC Phantom Betaflight power tab](geprc-phantom-review-and-setup-26.png)
 
 ![GEPRC Phantom Betaflight PID tuning tab](geprc-phantom-review-and-setup-27.png)
 
-![GEPRC Phantom Betaflight receiver tab](geprc-phantom-review-and-setup-28.png)
-
-![GEPRC Phantom Betaflight modes tab](geprc-phantom-review-and-setup-29.png)
-
-![GEPRC Phantom Betaflight OSD tab](geprc-phantom-review-and-setup-30.png)
-
-- **⛓ Install: antenna tubes, landing legs, battery rubber pad, velcro strap, and props**
+**⛓ Install: antenna tubes, landing legs, battery rubber pad, velcro strap, and props**
 
 All those things are quite straight forward but should not be underestimated, as the last thing you want when flying your brand new quad is to chop off the receiver antennas. And speaking of chopping off, be careful when cutting the antenna tubes as you don't want to clip the antenna itself too.
 
@@ -144,8 +170,13 @@ Finally, install the rubber battery pad which helps a lot with grip and holding 
 
 ![GEPRC Phantom with rubber battery strap installed](geprc-phantom-review-and-setup-17.jpg)
 
-TODO: Add 2 images of AUW with and without a battery
-All in all, this adds up to a total all-up weight of TODO: (without a battery) and of TODO: (with a Betafpv 2S 350mah battery).
+All in all, this adds up to a total all-up weight of **63 grams** without a battery (probably a couple of grams lighter with the bi-blade props).
+
+![GEPRC Phantom on a scale weighing 63 grams without a battery](geprc-phantom-review-and-setup-31.jpg)
+
+And **83.9** grams with a Betafpv 2S 350mah battery.
+
+![GEPRC Phantom on a scale weighing 83.9 grams with a battery](geprc-phantom-review-and-setup-32.jpg)
 
 Let's go fly this quad around!
 
@@ -153,7 +184,7 @@ Let's go fly this quad around!
 
 ### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
 
-And fly it I did! I like testing drones extensively and getting some proper stick time before I dive in to review them. And in this case, I've been able to fly this thing for about a month give or take.
+And fly it I did 😍! I like testing drones extensively and getting some proper stick time before I dive in to review them. And in this case, I've been able to fly this thing for about a month give or take.
 
 ![GEPRC Phantom getting ready for taking off 1](geprc-phantom-review-and-setup-19.jpg)
 
@@ -291,3 +322,4 @@ P.S.: Here's the [complete playlist of more than 18 (and counting) raw flight fo
 [7]: /newsletter
 [8]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
 [9]: https://www.youtube.com/watch?v=aCDpAAAzQAM&list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45
+[10]: /fpv/set-up-taranis-x-lite-update-opentx/
