@@ -106,7 +106,7 @@ Same procedure as always for any XM+ receiver: press and hold the bind button on
 
 First, add 2-3 switch inputs via the `Mixer` screen on your radio (I'm using a [Taranis X-Lite][10], but this process is identical for most Taranis radios).
 
-Next, whenever we are configuring a quad in Betaflight, remember to always **take off the props**. Even on those little drones. It's a good habbit to get into.
+Next, whenever we are configuring a quad in Betaflight, remember to always **take off the props**. Even on those little drones. It's a good habit to get into.
 
 Here are the most important things to check in Betaflight when setting up a new quad.
 
@@ -120,23 +120,23 @@ Next, if you are using the FrSky XM+ receiver, make sure `RSSI_ADC` is off and t
 
 ![GEPRC Phantom Betaflight configuration tab 2](geprc-phantom-review-and-setup-23.png)
 
-The rest of the configuration on this tab is not super critical, except for making sure `AIRMODE` is on, so that your motors can keep spinning even when you pull the throttle all the way down in a flip, for example.
+The rest of the configuration on this tab is not super critical, except for making sure `AIRMODE` is on so that your motors can keep spinning even when you pull the throttle all the way down in a flip, for example.
 
 ![GEPRC Phantom Betaflight configuration tab 3](geprc-phantom-review-and-setup-24.png)
 
 ![GEPRC Phantom Betaflight configuration tab 4](geprc-phantom-review-and-setup-25.png)
 
-In the `Receiver` tab you wanna set the `Channel Map` to match your transmitter's settings. In my case I had to change the **AETR1234** to **TAER1234**. That makes sure that your radio communicates to the quad on the right channels and it won't flip out when you arm it.
+In the `Receiver` tab you wanna set the `Channel Map` to match your transmitter's settings. In my case, I had to change the **AETR1234** to **TAER1234**. That makes sure that your radio communicates to the quad on the right channels and it won't flip out when you arm it.
 
 Next, set `RSSI Channel` to **AUX12** which will give us signal strength telemetry.
 
 ![GEPRC Phantom Betaflight receiver tab](geprc-phantom-review-and-setup-28.png)
 
-In the `Modes` tab it is finally time to setup our quad for take off by designating an arming switch. For example if you have assigned in your radio's mixer setting a switch to Channel5, that's what AUX1 is here in the modes tab. If you also added a switch to Channel6, this is represented here by AUX2 in the drop down.
+In the `Modes` tab, it is finally time to set up our quad for taking off by designating an arming switch. For example, if you have assigned in your radio's mixer setting a switch to Channel5, that's what AUX1 is here in the modes tab. If you also added a switch to Channel6, this is represented here by AUX2 in the dropdown.
 
-You wanna watch the small yellow pin and make sure it is within a range you define with the sliders. If you plug in your quad (props off!) you can test how your switches work in real time, as they will move the yellow pin when you activate a switch.
+You wanna watch the small yellow pin and make sure it is within a range you define with the sliders. If you plug in your quad (props off!) you can test how your switches work in real-time, as they will move the yellow pin when you activate a switch.
 
-So make sure you have a working arming switch and you are good to go. You can also setup different modes, beeper, and turtle mode if you want to. I just fly acro so, I make sure that Angle or Horizon modes are not activated.
+So make sure you have a working arming switch and you are good to go. You can also set up different modes, beeper, and turtle mode if you want to. I just fly acro so, I make sure that Angle or Horizon modes are not activated.
 
 ![GEPRC Phantom Betaflight modes tab](geprc-phantom-review-and-setup-29.png)
 
