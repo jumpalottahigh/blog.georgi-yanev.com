@@ -2,7 +2,7 @@
 articlePath: /fpv/runcam-5-review-setup-superview/
 ---
 
-#### Reader questions:
+#### Reader Q & A:
 
 **"Can you please add information on glass replacements? I am told you can, but I would be curious how and where this would be purchased."** - Scott Woeber
 

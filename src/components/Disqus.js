@@ -16,7 +16,7 @@ const Disqus = ({ shortname, config }) => {
               setLoadDisqus(!loadDisqus)
             }}
           >
-            Show comments
+            Leave a comment
           </button>
         </div>
       )}

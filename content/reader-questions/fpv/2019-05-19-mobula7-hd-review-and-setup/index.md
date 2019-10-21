@@ -2,7 +2,7 @@
 articlePath: /fpv/mobula7-hd-review-and-setup/
 ---
 
-#### Reader questions:
+#### Reader Q & A:
 
 **"Is the 75% throttle only throttle rate? Or do I need to do 75% on the others as well?"** - Joe
 

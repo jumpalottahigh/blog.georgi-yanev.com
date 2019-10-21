@@ -2,7 +2,7 @@
 articlePath: /fpv/geprc-cinepro-4k-cinewhoop-review/
 ---
 
-#### Reader questions:
+#### Reader Q & A:
 
 **"Nice tuto m8... But I have a question. How can I change the auto start recording camera to no start as soon you connect the battery? Thank you in advance."** - Rod
 
