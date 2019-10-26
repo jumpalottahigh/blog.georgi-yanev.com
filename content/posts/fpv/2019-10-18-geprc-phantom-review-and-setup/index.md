@@ -40,6 +40,12 @@ Let's see exactly why!
 - [🔝 Upgrades](#upgrades)
 - [📑 Conclusion](#conclusion)
 
+If you prefer watching, check out the full video review on my YouTube channel:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/EpG4Ba4xpy4?rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom toothpick"></iframe>
+</div>
+
 ### 📦 <span id="unboxing">Unboxing</span>
 
 The quad arrives in a little cardboard box like other GEPRC products. Not as fancy as a hardshell case, but it gets the job done just right.
