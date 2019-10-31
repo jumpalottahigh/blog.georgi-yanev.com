@@ -163,7 +163,13 @@ https://twitter.com/jumpalottahigh/status/1178352961292046336
 
 #### 🔟 October 2019
 
+Mainly thinking about the plot a lot. How to develop the characters, what would be interesting to write and to read. I also dove into Brandon Sanderson's writing class again and listened to more Writing Excuses podcast episodes to get me in the mood. November, here we go!
+
+https://twitter.com/jumpalottahigh/status/1190024503679684608
+
 ### \* \* \*
+
+Coming soon: Nanowrimo updates ...
 
 [0]: Linkslist
 [1]: #link-to-my-encyclopedias
