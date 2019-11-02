@@ -5,14 +5,14 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 const StyledYouTubeChannelsPromo = styled.div`
   display: flex;
+  flex-flow: column nowrap;
 
   a {
-    width: 50%;
-    box-shadow: none;
-    border: 1px solid #dedede;
+    width: 100%;
+    box-shadow: none !important;
 
     &:hover {
-      border: 2px solid #dedede;
+      color: #0175d8 !important;
       transform: scale(1.05);
       z-index: 9;
     }
@@ -22,24 +22,9 @@ const StyledYouTubeChannelsPromo = styled.div`
 const YouTubeChannelsPromo = ({ text, ...rest }) => {
   const images = useStaticQuery(graphql`
     {
-      homeBottom: allFile(
-        filter: { relativePath: { regex: "/^home/home-bottom/" } }
-      ) {
-        edges {
-          node {
-            name
-            childImageSharp {
-              fluid(maxWidth: 928, quality: 75) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-            }
-          }
-        }
-      }
-
       youtubeFpvtips: file(relativePath: { regex: "/^home/home-fpvtips/" }) {
         childImageSharp {
-          fluid(maxWidth: 362, quality: 100) {
+          fluid(maxWidth: 769, quality: 90) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -49,7 +34,7 @@ const YouTubeChannelsPromo = ({ text, ...rest }) => {
         relativePath: { regex: "/^home/home-georgifpv/" }
       ) {
         childImageSharp {
-          fluid(maxWidth: 362, quality: 100) {
+          fluid(maxWidth: 852, quality: 90) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -65,6 +50,7 @@ const YouTubeChannelsPromo = ({ text, ...rest }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
+          fpvtips
           <Img
             fluid={images.youtubeFpvtips.childImageSharp.fluid}
             alt="FPVTIPS YouTube channel"
@@ -72,29 +58,19 @@ const YouTubeChannelsPromo = ({ text, ...rest }) => {
         </a>
         <a
           style={{
-            borderLeft: 'none',
+            marginTop: '2rem',
           }}
           href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q"
           target="_blank"
           rel="noopener noreferrer"
         >
+          Georgi FPV
           <Img
             fluid={images.youtubeGeorgiFpv.childImageSharp.fluid}
             alt="GeorgiFPV YouTube channel"
           />
         </a>
       </StyledYouTubeChannelsPromo>
-      <a
-        href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Img
-          style={{ marginBottom: '2rem' }}
-          fluid={images.homeBottom.edges[0].node.childImageSharp.fluid}
-          alt="Drone, Georgi flying FPV and coding work station"
-        />
-      </a>
     </div>
   )
 }
