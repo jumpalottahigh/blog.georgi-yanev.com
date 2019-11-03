@@ -205,7 +205,7 @@ class BlogPostTemplate extends React.Component {
             <TinyLetterSignup />
             <YouTubeChannelsPromo text="Need even more FPV in your life? Check out my YouTube channels:" />
             <PromoBanner
-              style={{ maxWidth: '450px', margin: 'auto' }}
+              style={{ maxWidth: '450px', margin: '1rem auto' }}
               linkTo={bannerLinkBottom}
               imageName="square"
             />
