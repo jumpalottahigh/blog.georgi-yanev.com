@@ -1,6 +1,6 @@
 ---
 path: '/fpv/emax-tinyhawk-freestyle-complete-review-and-setup/'
-date: '2019-10-29'
+date: '2019-11-05'
 title: 'Emax Tinyhawk Freestyle review and setup'
 author: 'Georgi Yanev'
 draft: true
@@ -15,21 +15,54 @@ gearList:
   - 'emax-tinyhawk-freestyle'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, tinyhawk freestyle, emax, freestyle, toothpick, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, emax freestyle, emax tinyhawk, what toothpick to buy, which toothpick micro drone to get, emax toothpick, emax micro drone'
-ogDescription: 'TODO:'
-ogImage: './emax-tinyhawk-freestyle-complete-review-and-setup-1.jpg'
+ogDescription: 'Micro drones are quickly becoming one of my favorite class of drones in 2019 and the Emax Tinyhawk Freestyle is one of the reasons why. Flying this thing makes me really wonder how is it possible something that small to fly that much like a 5" quad and to be so fast and enjoyable'
+ogImage: './emax-tinyhawk-freestyle-toothpick-review-and-setup-27.jpg'
 ---
 
-DICTATED: INTRO
+Micro drones are quickly becoming one of my favorite class of drones in 2019 and the [Emax Tinyhawk Freestyle][1] is one of the reasons why. Flying this thing makes me really wonder how is it possible something that small to fly that much like a 5" quad and to be so fast and enjoyable.
 
-Macro drones are quickly becoming one of my favorite classes drones in 2019 and IMAX tiny fog freestyle is one of the reasons why flying this thing makes me really wonder how is it possible something that small to fly that much like I finished but and to be so fast and enjoyable.
+I was fortunate enough to be able to compare the [Emax Tinyhawk Freestyle][1] to the [GEPRC Phantom][2], which is also one of the best toothpick class drones that came out in the middle of 2019. And it's funny that although both of those quadcopters are really, really amazing they are also quite different in terms of what they offer.
 
-More I was fortunate enough to be able to compare the UMax tiny box freestyle to get RC Phantom, which is also one of the best toothpicks glass drones that came out in the middle of. And it's funny that although both of those quadcopters like really really amazing they are also quite different in terms of what you offer.
+So stay tuned if you are in the market for one of those. Let's take a deeper look and compare them. I think this is going to be the right article for you.
 
-So stay tuned if you are in the market one of those. Would like to compare them. I think this is going to be the right article for you.
+### Table of contents
 
-The next time you folks free stuff. Is a good value for money. With E-maxes. EcoBoost June. Why is really nice? To get gold. I'm just gonna allow you to reuse those pesky 1S batteries with a PH2 connector. Let's get to it.
+- [📦 Unboxing](#unboxing)
+- [📝 Specifications](#specs)
+- [⚙ Setup](#setup)
+- [🚁 Flying](#flying)
+- [🔝 Upgrades](#upgrades)
+- [📑 Conclusion](#conclusion)
 
-DICTATED: INTRO
+### 📦 <span id="unboxing">Unboxing</span>
+
+Emax Tinyhawk Freestyle comes in a nice hard shell case, great for packing in the quad and carrying it around.
+
+![Emax Tinyhawk Freestyle hard shell case](emax-tinyhawk-freestyle-toothpick-review-and-setup-1.jpg)
+
+This is everything you get inside the case.
+
+![Emax Tinyhawk Freestyle in its box with all its accessories](emax-tinyhawk-freestyle-toothpick-review-and-setup-2.jpg)
+
+You get 2 450mah 1S batteries with a PH2.0 connector, an USB charger board for up to 6 such batteries, some spare screws and stand offs, a manual and of course stickers.
+
+![Emax Tinyhawk Freestyle spare props, batteries, charger, screws, manual, stickers](emax-tinyhawk-freestyle-toothpick-review-and-setup-3.jpg)
+
+Among the spare parts we find an XT30 connector, in case you want to change the PH2.0 connector the quad comes with. We also have this PH2.0 "jumper" that is used to terminate one of the battery connectors so you could fly the quad on 1S.
+
+![XT30 connector and a PH2.0 jumper](emax-tinyhawk-freestyle-toothpick-review-and-setup-4.jpg)
+
+You get 2 full sets (8 props) of the [Avon Rush 2.5"][3] props.
+
+![8 spare Avon Rush 2.5" props](emax-tinyhawk-freestyle-toothpick-review-and-setup-5.jpg)
+
+And of course the quad itself.
+
+![Emax Tinyhawk Freestyle](emax-tinyhawk-freestyle-toothpick-review-and-setup-7.jpg)
+
+### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
+
+### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
 
 NOTES:
 
@@ -58,6 +91,8 @@ NOTES ☝
 
 FLYING 👇
 
+### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
+
 The Emacs Dining Hall free style flies absolutely spectacular. It's one of the quads that flies so well that I had absolutely no desire to do it further than what I got initially from flying it on those one as four hundred fifty million power batteries. Either by using one or two in series.
 
 Immediately during the maiden flight right after I took off I noticed how much power this thing has and how locked on the tune really is. Really? Great job by Emacs there. A huge deal there to do with how the Emacs tiny hawk, freestyle handles, of course are the A-1.
@@ -84,7 +119,11 @@ That's it.
 
 FLYING 👆
 
+### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
+
 CONCLUSION 👇
+
+### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
 In conclusion then the inactinic of freestyle, what for you.
 
@@ -114,13 +153,8 @@ Just really really enjoy yourself. Happy flying.
 
 CONCLUSION 👆
 
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-1.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-2.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-3.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-4.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-5.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-6.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-7.jpg)
+
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-8.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-9.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-10.jpg)
@@ -159,4 +193,6 @@ CONCLUSION 👆
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-43.jpg)
 
 [0]: Linkslist
-[1]: TODO:
+[1]: https://bit.ly/tinyhawk-freestyle
+[2]: https://bit.ly/geprc-phantom
+[3]: https://bit.ly/avon-rush-25
