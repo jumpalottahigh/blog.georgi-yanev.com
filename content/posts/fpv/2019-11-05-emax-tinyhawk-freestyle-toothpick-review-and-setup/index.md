@@ -3,7 +3,7 @@ path: '/fpv/emax-tinyhawk-freestyle-complete-review-and-setup/'
 date: '2019-11-05'
 title: 'Emax Tinyhawk Freestyle review and setup'
 author: 'Georgi Yanev'
-draft: false
+draft: true
 category: 'fpv'
 tags:
   - 'emax'
@@ -14,6 +14,7 @@ tags:
 gearList:
   - 'emax-tinyhawk-freestyle'
   - 'gnb-1s-450'
+  - 'avon-rush'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, tinyhawk freestyle, emax, freestyle, toothpick, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, emax freestyle, emax tinyhawk, what toothpick to buy, which toothpick micro drone to get, emax toothpick, emax micro drone'
 ogDescription: 'Micro drones are quickly becoming one of my favorite class of drones in 2019 and the Emax Tinyhawk Freestyle is one of the reasons why. Flying this thing makes me really wonder how is it possible something that small to fly that much like a 5" quad and to be so fast and enjoyable'
@@ -63,7 +64,55 @@ And of course the quad itself.
 
 ### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
 
+The all in one board and the camera used in the Tinyhawk Freestyle are the tried and tested ones from the Emax Tinyhawk S (F4 (MATEKF411RX Firmware), with a 5A rated 4 in 1 ESC). The frame is a **carbon fiber unibody frame with top mounted battery**. The micro USB port on the all in one board is conveniently exposed and easy to access for Betaflight configuration.
+
+![Emax Tinyhawk Freestyle bottom plate](emax-tinyhawk-freestyle-toothpick-review-and-setup-12.jpg)
+
+![Emax Tinyhawk Freestyle front right](emax-tinyhawk-freestyle-toothpick-review-and-setup-11.jpg)
+
+A capacitor is installed to the battery terminals on the board. The built-in SPI based receiver's antenna is guided out the back and is not likely to get chopped off by the props.
+
+![Emax Tinyhawk Freestyle capacitor and micro USB port](emax-tinyhawk-freestyle-toothpick-review-and-setup-10.jpg)
+
+Speaking of batteries, this drone allows for top mounting of the batteries. The battery connector is Emax's interesting solution to allow plugging in 2 PH2.0 connectors (or just one if you use the jumper for the other slot).
+
+![Emax Tinyhawk Freestyle PH2.0 battery connector](emax-tinyhawk-freestyle-toothpick-review-and-setup-9.jpg)
+
+The motors are the Emax branded TH1103 7000KV, spinning up Avon Rush 2.5" props.
+
+![Emax Tinyhawk Freestyle motors](emax-tinyhawk-freestyle-toothpick-review-and-setup-8.jpg)
+
+![Emax Tinyhawk Freestyle Avon Rush 2.5" prop](emax-tinyhawk-freestyle-toothpick-review-and-setup-6.jpg)
+
+CMOS camera, with no possibility to _easily_ adjust the angle (although I haven't needed to do so in my tests). 25mW VTX and a VTX antenna coming up and away from the side, out of the props' reach.
+
+![Emax Tinyhawk Freestyle vtx antenna](emax-tinyhawk-freestyle-toothpick-review-and-setup-13.jpg)
+
+The quad comes in at **46.1** grams dry weight...
+
+![Emax Tinyhawk Freestyle comes in at 46.1 grams on the scale](emax-tinyhawk-freestyle-toothpick-review-and-setup-18.jpg)
+
+and with a couple of the 450mah batteries you get in the package...
+
+![Emax Tinyhawk Freestyle 2 450mah batteries](emax-tinyhawk-freestyle-toothpick-review-and-setup-16.jpg)
+
+the all up weight is **71.4** grams.
+
+![Emax Tinyhawk Freestyle all up weight comes in at 71.4 grams on the scale](emax-tinyhawk-freestyle-toothpick-review-and-setup-19.jpg)
+
+Be careful with the provided charging board, not a biggie, but the battery slot plastic fell off when I disconnected a battery from it for the first time. You can just put it back in.
+
+![Emax Tinyhawk Freestyle charger board with battery slot off](emax-tinyhawk-freestyle-toothpick-review-and-setup-20.jpg)
+
+Or use one of these boards, which are a bit better (but not miles better really). And at least allow charging on the go via an XT60 source plug.
+
+![board for charging up to 6 ph2.0 batteries](emax-tinyhawk-freestyle-toothpick-review-and-setup-21.jpg)
+
+The overall build quality is pretty high with a lot of minor details handled very professionally and neatly. As always, reluctantly I've smacked it around quite a bit while flying over concrete, and there has been no issues with any component so far.
+
 ### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
+
+TODO:
 
 NOTES:
 
@@ -172,21 +221,6 @@ But regardless if you're just getting into the hobby or you have been flying dro
 
 Either way, have fun and happy flying!
 
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-6.jpg)
-
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-8.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-9.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-10.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-11.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-12.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-13.jpg)
-
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-16.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-17.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-18.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-19.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-20.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-21.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-22.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-23.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-24.jpg)
