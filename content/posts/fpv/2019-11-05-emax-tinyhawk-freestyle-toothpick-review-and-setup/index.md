@@ -89,35 +89,45 @@ AVAN Rush 2.5 Inch Prop - BLACK
 
 NOTES ☝
 
-FLYING 👇
-
 ### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
 
-The Emacs Dining Hall free style flies absolutely spectacular. It's one of the quads that flies so well that I had absolutely no desire to do it further than what I got initially from flying it on those one as four hundred fifty million power batteries. Either by using one or two in series.
+The [Emax Tinyhawk Freestyle][1] flies absolutely spectacular. It's one of the quads that flies so well that I had absolutely no desire to do with it anything further in terms of tuning. I just want to fly it all the time. Here's the TL;DR recap if you don't feel like reading my detailed impressions of the quad.
 
-Immediately during the maiden flight right after I took off I noticed how much power this thing has and how locked on the tune really is. Really? Great job by Emacs there. A huge deal there to do with how the Emacs tiny hawk, freestyle handles, of course are the A-1.
+_What does it do well?_
+**Flight chracteristic, handling, flight times, battery reusability, easy to setup and to fly.**
 
-Rush 2.5 inch props. Try blade props. Those give you really precise handling. Wow at the same time, they don't really seem to consume a ton of amps. The freestyle is so lightweight. That. You really won't be we won't be able to believe how fast it goes from the moment you take off as soon as you punch that struggle.
+_What could be better?_
+**Range.**
 
-Another thing to note is that the camera is four by three camera and if you're using by default, you're goggles in 16 by nine mode, you have to do some adjustment the good news is that you do get used to it after a while it gives this slight fish islands effect.
+Maiden flight, stock 2 x 1S 450mah batteries.
 
-But it's. Not as bad as you may initially think you do get used to it. The max tiny hawk, freestyle flew, so well on these 1s450 million power batteries that I have. That I actually had little to no desire to even test another batteries, it's really that great it flies amazing.
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=0&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle maiden flight"></iframe>
+</div>
 
-You just completely lose yourself and enjoy yourself flying around that what seems to you like real really fast speeds. And you get flight times of easily four to five minutes depending on how you fly. No voltage side whatsoever really really enjoyable. I'm also happy to report that. I did try flying the quad on just the one as 450 million power battery.
+Immediately during the maiden flight right after I took off **I noticed how much power this thing has and how locked in the tune really is**. Great job by Emax there. A big part of how the [Emax Tinyhawk Freestyle][1] handles is thanks to the amazing [Avon Rush 2.5 inch tri-blade props][3]. Those give you really precise handling in turns. At the same time, they don't really seem to consume a ton of amps. The Tinyhawk Freestyle is so lightweight and zips around so fast that you really won't be able to believe how fast it goes from the moment you take off as soon as you punch that throttle.
 
-And the biggest surprise to me was that it flies almost identity to how you would fly it on two of the one as four hundred million fifth four hundred fifty million power batteries. Really really almost identical. Now since then my preferred combo is to just fly it on two of those batteries.
+A thing to note is that the camera is a 4x3 camera and depending on what goggles you have, if you're using them in 16x9 mode, it might take a bit to adjust to the fish eye effect. The good news is that you do get used to it after a while.
 
-Both connected to the battery lead connector. And that's one of the major upsides of the freestyle tiny fog because it allows me to reuse a lot of these batteries that are actually had like no other plot to use the monitor at this point. And they are good batteries. 450 milliamp hour also seems to be like a good way to power ratio for those type of little micros.
+**The [Emax Tinyhawk Freestyle][1] flew so well on these 1s 450mah batteries that come with it that I legit had no desire to even test other batteries**. It flew great, handled easily and the thrust to weight ratio on it was spot on, at least in my opinion.
 
-And really hit the switch but with the freestyle.
+You just completely lose yourself and enjoy flying around at what seems to you like really high speeds. You get flight times of 4-5 minutes easily even if you keep the throttle at more than 40% the whole flight. Crazy! I don't think I've ever had a quad that efficient, while still feeling powerful and zippy. In fact, it's interesting that you get almost the same flight times whether you fly it 1S or 2S. And the performance is also hard to differentiate. It feels almost a bit weird but that's how it is. I do fly it mostly on 2S though in anyway.
 
-In terms of flight characteristics, and maybe a little bit curious to try out some. Live props on the. On the style and see how that changes the flight characteristics, although I also got admit that have almost zero desire to really we can tune. To much on it just because it really is that enjoyable to fly.
+Here is the flight footage of the Emax Tinyhawk Freestyle on 1S stock 450mah battery.
 
-Another big benefit of the image time of freestyle is that how different your flying sessions look? Starting already from charging your batteries before you leave it's a whole lot easier to just charge those one SPH2. Port batteries, you just plug them in a small charger charging up real quick and you get out to the film you do your flying you come back.
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=1&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle on 1S"></iframe>
+</div>
 
-That's it.
+The battery choice is perhaps one of the biggest upsides of this drone set. Because Emax have opted in to use 2 PH2.0 connectors, it allows you to reuse your batteries, in case you have any of those lying around.
 
-FLYING 👆
+TODO: image of batteries
+
+For a lot of people, including me, that's gonna be a big deal! Those are always easy to charge, the have a great capacity to weight ratio for these little quads. And if you have none of those lying around, you could replace the PH2.0 connectors with the provided XT30 connector, in case you have more of this type of batteries.
+
+In terms of flight characteristics I'm a bit curious to try out some bi-blade props on the [Tinyhawk Freestyle][1], although I also got to admit that it is completely unnecessary, as the stock build, tune and props already provide an amazing and very enjoyable flight experience.
+
+And here I have to also mention how easy is to go out flying with this toothpick. Put a bunch of battries to charge, leave the house in less than 30 minutes, fly anywhere as it's easier to find a spot for such little drone, without bugging people. Very, very easy.
 
 ### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
 
@@ -129,7 +139,7 @@ In conclusion then the inactinic of freestyle, what for you.
 
 2019 has been a great year for for a lot of these microns a lot of these toothpicks classrooms there are a lot of really viable and amazing options out there. I feel like the best thing about those ones is that you can pick one that is directly tailored to your situation.
 
-And if I compare the gap RC Phantom with the Emacs tiny hope free style one of the things that immediately becomes obvious is that even though both of these quads fly really really awesome. It also a little bit different. And of course there is always room to improve and upgrade them as well.
+And if I compare the gap RC Phantom with the Emax tiny hope free style one of the things that immediately becomes obvious is that even though both of these quads fly really really awesome. It also a little bit different. And of course there is always room to improve and upgrade them as well.
 
 But from what you get in the box already the max tiny, hopefully style seems to be best suited to someone who has a lot of those 1s. 450 million power batteries with a pH 2 connector. The quad really flies amazing with those you will get really lengthy flight times of like four to five minutes.
 
