@@ -3,7 +3,7 @@ path: '/fpv/emax-tinyhawk-freestyle-complete-review-and-setup/'
 date: '2019-11-05'
 title: 'Emax Tinyhawk Freestyle review and setup'
 author: 'Georgi Yanev'
-draft: true
+draft: false
 category: 'fpv'
 tags:
   - 'emax'
@@ -13,6 +13,7 @@ tags:
   - 'drone'
 gearList:
   - 'emax-tinyhawk-freestyle'
+  - 'gnb-1s-450'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, tinyhawk freestyle, emax, freestyle, toothpick, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, emax freestyle, emax tinyhawk, what toothpick to buy, which toothpick micro drone to get, emax toothpick, emax micro drone'
 ogDescription: 'Micro drones are quickly becoming one of my favorite class of drones in 2019 and the Emax Tinyhawk Freestyle is one of the reasons why. Flying this thing makes me really wonder how is it possible something that small to fly that much like a 5" quad and to be so fast and enjoyable'
@@ -99,7 +100,7 @@ _What does it do well?_
 _What could be better?_
 **Range.**
 
-Maiden flight, stock 2 x 1S 450mah batteries.
+#### Maiden flight, stock 2 x 1S 450mah batteries.
 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=0&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle maiden flight"></iframe>
@@ -113,7 +114,7 @@ A thing to note is that the camera is a 4x3 camera and depending on what goggles
 
 You just completely lose yourself and enjoy flying around at what seems to you like really high speeds. You get flight times of 4-5 minutes easily even if you keep the throttle at more than 40% the whole flight. Crazy! I don't think I've ever had a quad that efficient, while still feeling powerful and zippy. In fact, it's interesting that you get almost the same flight times whether you fly it 1S or 2S. And the performance is also hard to differentiate. It feels almost a bit weird but that's how it is. I do fly it mostly on 2S though in anyway.
 
-Here is the flight footage of the Emax Tinyhawk Freestyle on 1S stock 450mah battery.
+#### Here is the flight footage of the Emax Tinyhawk Freestyle on 1S stock 450mah battery.
 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=1&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle on 1S"></iframe>
@@ -121,47 +122,55 @@ Here is the flight footage of the Emax Tinyhawk Freestyle on 1S stock 450mah bat
 
 The battery choice is perhaps one of the biggest upsides of this drone set. Because Emax have opted in to use 2 PH2.0 connectors, it allows you to reuse your batteries, in case you have any of those lying around.
 
-TODO: image of batteries
+![GNB 1S 450mah batteries](emax-tinyhawk-freestyle-toothpick-review-and-setup-14.jpg)
 
-For a lot of people, including me, that's gonna be a big deal! Those are always easy to charge, the have a great capacity to weight ratio for these little quads. And if you have none of those lying around, you could replace the PH2.0 connectors with the provided XT30 connector, in case you have more of this type of batteries.
+**For a lot of people, including me, that's gonna be a big deal**! Those are always easy to charge, they have great capacity to weight ratio for these little quads. And if you have none of those lying around, you could replace the PH2.0 connectors with the provided XT30 connector, in case you have more of this type of batteries.
+
+For lolz and science I even flew it on these Eachine 300mah 1S lipos and **it still flew over 4 minutes with little to no voltage sags**.
+
+![Eachine 1S 300mah batteries](emax-tinyhawk-freestyle-toothpick-review-and-setup-15.jpg)
+
+Pretty decent! This is just to say that if you have some of those batteries lying around you can reuse them with the [Emax Tinyhawk Freestyle][1]. But if you are buying, I still recommend getting the [GNB 450mah 1S batteries][4].
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=2&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle on 2 x 1S 300mah eachine battery"></iframe>
+</div>
 
 In terms of flight characteristics I'm a bit curious to try out some bi-blade props on the [Tinyhawk Freestyle][1], although I also got to admit that it is completely unnecessary, as the stock build, tune and props already provide an amazing and very enjoyable flight experience.
 
 And here I have to also mention how easy is to go out flying with this toothpick. Put a bunch of battries to charge, leave the house in less than 30 minutes, fly anywhere as it's easier to find a spot for such little drone, without bugging people. Very, very easy.
 
+And this is how I enjoy flying this drone nowadays - just throttle up and never let go, pretending I'm a racer 😅. I honestly completely forget this is a micro drone when I'm flying it.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=14&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle zipping around before the rain"></iframe>
+</div>
+
 ### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
 
-CONCLUSION 👇
+I don't have a lot to mention in terms of potential upgrades. Most of my ideas are for testing different props. But honestly it's not necessary.
+
+One thing I might consider doing and could suggest you do as well, if it is easy to pull off (and I don't think it would be very hard), is to **add a full range receiver**. It should hopefully not ruin the flight characteristics with a few added grams, but will add a lot of enjoyment in terms of flexibility and how far you can fly. I have to admit I gotta be pretty mindful with this one flying around and not going too far away. Not a bit issues, but good to be aware of it.
+
+I would not add an HD split type camera to this one, as this will surely ruin the flight characteristics, as the [Emax Tinyhawk Freestyle][1] is indeed super lightweight and every little bit on top will be felt and will change things a lot.
 
 ### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
-In conclusion then the inactinic of freestyle, what for you.
+2019 has been a great year for these micros. There are a lot of amazing and great value toothpick class drones out there. I feel like the best thing about them is that you can pick one that is directly tailored to your situation.
 
-2019 has been a great year for for a lot of these microns a lot of these toothpicks classrooms there are a lot of really viable and amazing options out there. I feel like the best thing about those ones is that you can pick one that is directly tailored to your situation.
+And if we compare the [GEPRC Phantom][5] with the [Emax Tinyhawk Freestyle][1] one of the things that immediately becomes obvious is that even though both of these quads fly awesome, they are also so different and would fit different scenarious, or different pilots.
 
-And if I compare the gap RC Phantom with the Emax tiny hope free style one of the things that immediately becomes obvious is that even though both of these quads fly really really awesome. It also a little bit different. And of course there is always room to improve and upgrade them as well.
+From what you get in the box with the Emax Tinyhawk Freestyle it seems to be best suited to someone who has a lot of those 1S 450mah batteries with a PH2.0 connector. The quad flies amazing with those, you will get pretty lengthy flight times of like four to five minutes. This is a big deal because it would allow you to reuse your existing batteries.
 
-But from what you get in the box already the max tiny, hopefully style seems to be best suited to someone who has a lot of those 1s. 450 million power batteries with a pH 2 connector. The quad really flies amazing with those you will get really lengthy flight times of like four to five minutes.
+The flight experience is super enjoyable and because the quad is quite easy to handle I would say that it's suitable for people newer to the hobby. Maybe like practiced beginners.
 
-And the flight experience is super enjoyable. So. This this really is a big deal when one may be of the biggest deal to me with this one because it does allow me to use all these batteries.
+Some of the drawbacks worth mentioning here are the lack of a full range receiver. I think the board supports installing one, but don't quote me on that and definitely do some research first if this is important for you. I would also assume that the added weight should not be too much and would not ruin the awesome flight characteristics.
 
-I I assume that the blood would not fly as nice on those batteries. But was really pleasant to surprise the it actually flies amazing.
+The camera is fairly decent and very very lightweight, so I understand why they've picked it up. I'm scepticle to believe you could make this one work with a split type camera, but I guess it's probably not impossible. Maybe a RunCam Split 3 Nano could work? We'll have to wait and see I might do that mod in the future.
 
-Some of the downsides here are the lack of a full range receiver, so you don't get a full range receiver what I think the board supports installing one, so if you would like to upgrade to one. Could do so. That's not great expense and by adding just a little bit to extra weight.
+But regardless if you're just getting into the hobby or you have been flying drones for a while now, the Emax Tinyhawk is synonymous with the word fun. It's got a locked in tune and is pure pleasure to rip around anywhere. Like, really, anywhere. It's relatively quiet and is not gonna bother anyone if you decide to fly it in a park or a more populated area.
 
-One.
-
-The camera is fairly decent and very very lightweight, so I understand why they've picked it up. But you could consider upgrading to some sort of an HD camp if recording is even the HD video is important to you however, what would be the impact on flight characteristics so that added up weight remains to be seen.
-
-It's one of the tests I would like to do in the future.
-
-But regardless if you're just getting into the floppy or you have in flying. Drones for a while now. The next 24 really is a. Is synonymous with the word fun. It's. Got a locked on tune and it's really amazing to just enjoy and fly around. And much like most of the micro plants, you could just go fly it in parks.
-
-It's relatively quiet. It's not gonna bother anyone. You shouldn't feel like a minister society. You're flying one of those little guys.
-
-Just really really enjoy yourself. Happy flying.
-
-CONCLUSION 👆
+Either way, have fun and happy flying!
 
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-6.jpg)
 
@@ -171,8 +180,7 @@ CONCLUSION 👆
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-11.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-12.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-13.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-14.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-15.jpg)
+
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-16.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-17.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-18.jpg)
@@ -206,3 +214,5 @@ CONCLUSION 👆
 [1]: https://bit.ly/tinyhawk-freestyle
 [2]: https://bit.ly/geprc-phantom
 [3]: https://bit.ly/avon-rush-25
+[4]: https://bit.ly/micro-drone-batteries
+[5]: /fpv/geprc-phantom-review-and-setup/

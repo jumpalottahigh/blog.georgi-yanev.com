@@ -187,6 +187,11 @@ const allFeaturedGear = {
     link: 'https://bit.ly/runcam-split-3-nano',
     image: '/banggood/runcam-split-3-nano.jpg',
   },
+  'gnb-1s-450': {
+    name: 'GNB 1S 450mah battery',
+    link: 'https://bit.ly/micro-drone-batteries',
+    image: '/banggood/gnb-1s-450.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
