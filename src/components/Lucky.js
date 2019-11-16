@@ -70,6 +70,11 @@ const randomCoupons = [
       'https://www.banggood.com/Realacc-Fireproof-Waterproof-Lipo-Battery-Safety-Bag155x115x90mm-With-Luminous-Handle-p-1259311.html?akmClientCountry=CN&&cur_warehouse=CN',
     coupon: 'BGBag22',
   },
+  {
+    link:
+      'https://www.banggood.com/marketing-FPV-Racing-Drone-Multirotors-Clearance/tid-5415.html?bid=22225',
+    coupon: '28rc',
+  },
 ]
 
 const affiliateParam = 'p=NY211410857261201705'
