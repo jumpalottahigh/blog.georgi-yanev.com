@@ -27,6 +27,8 @@ I was fortunate enough to be able to compare the [Emax Tinyhawk Freestyle][1] to
 
 So stay tuned if you are in the market for one of those. Let's take a deeper look and compare them. I think this is going to be the right article for you.
 
+![Emax Tinyhawk Freestyle front right angle shot](emax-tinyhawk-freestyle-toothpick-review-and-setup-28.jpg)
+
 ### Table of contents
 
 - [📦 Unboxing](#unboxing)
@@ -64,7 +66,7 @@ And of course the quad itself.
 
 ### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
 
-The all in one board and the camera used in the Tinyhawk Freestyle are the tried and tested ones from the Emax Tinyhawk S (F4 (MATEKF411RX Firmware), with a 5A rated 4 in 1 ESC). The frame is a **carbon fiber unibody frame with top mounted battery**. The micro USB port on the all in one board is conveniently exposed and easy to access for Betaflight configuration.
+The all in one board and the camera used in the Tinyhawk Freestyle are the tried and tested ones from the Emax Tinyhawk S (F4 (MATEKF411RX Firmware), with a 5A rated 4 in 1 ESC). The frame is a **carbon fiber unibody frame supporting a top mounted battery**. The micro USB port on the all in one board is conveniently exposed and easy to access for Betaflight configuration.
 
 ![Emax Tinyhawk Freestyle bottom plate](emax-tinyhawk-freestyle-toothpick-review-and-setup-12.jpg)
 
@@ -84,7 +86,7 @@ The motors are the Emax branded TH1103 7000KV, spinning up Avon Rush 2.5" props.
 
 ![Emax Tinyhawk Freestyle Avon Rush 2.5" prop](emax-tinyhawk-freestyle-toothpick-review-and-setup-6.jpg)
 
-CMOS camera, with no possibility to _easily_ adjust the angle (although I haven't needed to do so in my tests). 25mW VTX and a VTX antenna coming up and away from the side, out of the props' reach.
+CMOS camera, with no possibility to _easily_ adjust the angle (although I haven't needed to do that in my tests). 25mW VTX and a VTX antenna coming up and away from the side, out of the props' reach.
 
 ![Emax Tinyhawk Freestyle vtx antenna](emax-tinyhawk-freestyle-toothpick-review-and-setup-13.jpg)
 
@@ -96,7 +98,7 @@ and with a couple of the 450mah batteries you get in the package...
 
 ![Emax Tinyhawk Freestyle 2 450mah batteries](emax-tinyhawk-freestyle-toothpick-review-and-setup-16.jpg)
 
-the all up weight is **71.4** grams.
+the all up weight is 71.4 grams + another 4 x 1.3 = 5.2 grams for the props. Which brings us to a total of **76.6** grams.
 
 ![Emax Tinyhawk Freestyle all up weight comes in at 71.4 grams on the scale](emax-tinyhawk-freestyle-toothpick-review-and-setup-19.jpg)
 
@@ -112,20 +114,43 @@ The overall build quality is pretty high with a lot of minor details handled ver
 
 ### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
 
+To get ready for flying, we need to:
+
+**🔗 Bind the receiver to a radio**
+
+You can **access the bind button fairly easily underneath the quad** and depress it with a hex head screwdriver for example. If you do use a screwdriver or anything else that conducts electricity, make sure you press the button only and you don't touch other components to prevent shorting the board.
+
+![Emax Tinyhawk Freestyle bind button](emax-tinyhawk-freestyle-toothpick-review-and-setup-22.jpg)
+
+> _Binding is the process of uniquely associating a receiver to a transmitter module. A transmitter module can be bound to multiple receivers (not to be used simultaneously). A receiver can only be bound to one transmitter module._
+
+1. Hold the bind button for 2 seconds while the flight controller is already on. When
+   the Blue LED is on, it means the receiver is in BIND MODE
+2. Turn on the transmitter, make sure it is set to D8 mode, and then set it into bind
+   mode. When the BLUE LED on the flight controller starts flashing, it means bind
+   successful.
+   ![Taranis X-Lite setup screen, binding view](emax-tinyhawk-freestyle-toothpick-review-and-setup-24.jpg)
+3. Power cycle the flight controller and take your radio out of bind mode.
+
+That's it, the receiver should be now bound. Next stop Betaflight.
+
+**👀 Check the Betaflight configuration**
+
+![Emax Tinyhawk Freestyle plugged in via micro USB](emax-tinyhawk-freestyle-toothpick-review-and-setup-23.jpg)
+![](emax-tinyhawk-freestyle-toothpick-review-and-setup-25.jpg)
+![](emax-tinyhawk-freestyle-toothpick-review-and-setup-26.jpg)
+![](emax-tinyhawk-freestyle-toothpick-review-and-setup-27.jpg)
+![](emax-tinyhawk-freestyle-toothpick-review-and-setup-29.jpg)
+![](emax-tinyhawk-freestyle-toothpick-review-and-setup-30.jpg)
+![](emax-tinyhawk-freestyle-toothpick-review-and-setup-31.jpg)
+![](emax-tinyhawk-freestyle-toothpick-review-and-setup-32.jpg)
+
+**🌀Install the propellers**
+
+A few extra tips on the carrying case, how to put the batteries on.
 TODO:
 
 NOTES:
-
-Binding Procedure
-Binding is the process of uniquely associating a receiver to a transmitter module. A
-transmitter module can be bound to multiple receivers (not to be used
-simultaneously). A receiver can only be bound to one transmitter module.
-1.Hold the bind button for 2 seconds while the flight controller is already on. When
-the Blue LED is on, it means the receiver is in BIND MODE
-2.Turn on the transmitter, make sure it is set to D8 mode, and then set it into bind
-mode. When the BLUE LED on the flight controller starts flashing, it means bind
-successful.
-3.Power cycle the flight controller and take your radio out of bind mode.
 
 manual - https://emax-usa.com/download/Tinyhawk_Freestyle_BNF_Instruction_Manual_v1.2.pdf
 
@@ -203,6 +228,8 @@ One thing I might consider doing and could suggest you do as well, if it is easy
 
 I would not add an HD split type camera to this one, as this will surely ruin the flight characteristics, as the [Emax Tinyhawk Freestyle][1] is indeed super lightweight and every little bit on top will be felt and will change things a lot.
 
+TODO: mention upgrade suggestions from video
+
 ### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
 2019 has been a great year for these micros. There are a lot of amazing and great value toothpick class drones out there. I feel like the best thing about them is that you can pick one that is directly tailored to your situation.
@@ -221,17 +248,6 @@ But regardless if you're just getting into the hobby or you have been flying dro
 
 Either way, have fun and happy flying!
 
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-22.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-23.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-24.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-25.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-26.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-27.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-28.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-29.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-30.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-31.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-32.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-33.png)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-34.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-35.png)
