@@ -1,6 +1,6 @@
 ---
 path: '/fpv/emax-tinyhawk-freestyle-complete-review-and-setup/'
-date: '2019-11-05'
+date: '2019-11-17'
 title: 'Emax Tinyhawk Freestyle review and setup'
 author: 'Georgi Yanev'
 draft: false
