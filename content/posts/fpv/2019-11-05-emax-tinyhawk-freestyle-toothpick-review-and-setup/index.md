@@ -3,7 +3,7 @@ path: '/fpv/emax-tinyhawk-freestyle-complete-review-and-setup/'
 date: '2019-11-05'
 title: 'Emax Tinyhawk Freestyle review and setup'
 author: 'Georgi Yanev'
-draft: true
+draft: false
 category: 'fpv'
 tags:
   - 'emax'
@@ -156,50 +156,77 @@ You can calibrate the accelerometer in the Setup tab if you have the Tinyhawk Fr
 
 ![Betaflight setup tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-34.jpg)
 
-![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-33.png)
+Not much to do on the ports tab, this is the default config.
 
-![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-35.png)
+![Betaflight ports tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-35.png)
 
-![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-36.png)
+In the Configuration tab, we see the [Tinyhawk Freestyle][1] comes in the default props in mode, so let's keep that in mind when installing the props later. `MOTOR_STOP` is off, which is good.
 
-![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-37.png)
+![Betaflight configuration tab 1](emax-tinyhawk-freestyle-toothpick-review-and-setup-36.png)
 
-![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-38.png)
+Next, verify that the receiver mode is set to `SPI RX support` and then `FRSKY_D` if you have opted in for an FrSky based built in SPI receiver, like I did. Also make sure `AIRMODE` is switched on, so that whenever you do flips or rolls and you cut the throttle to 0 during the maneuver, the quad won't completely shut down the motors.
 
-![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-39.png)
+![Betaflight configuration tab 2](emax-tinyhawk-freestyle-toothpick-review-and-setup-37.png)
 
-![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-40.png)
+And here is the last page of the configuration tab default settings.
 
-![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-41.png)
+![Betaflight configuration tab 3](emax-tinyhawk-freestyle-toothpick-review-and-setup-38.png)
 
-![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-42.png)
+Emax Tinyhawk Freestyle Betaflight Power & Battery tab default settings.
 
-![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-43.jpg)
+![Emax Tinyhawk Freestyle Betaflight Power & Battery tab default settings](emax-tinyhawk-freestyle-toothpick-review-and-setup-39.png)
+
+Emax Tinyhawk Freestyle Betaflight PID Tuning tab default settings. I didn't change any settings here, in order to test the configuration out of the box.
+
+![Emax Tinyhawk Freestyle Betaflight PID tuning tab default settings](emax-tinyhawk-freestyle-toothpick-review-and-setup-40.png)
+
+Emax Tinyhawk Freestyle Betaflight Receiver tab default settings. Pay attention to the `CHANNEL MAP` and make sure it matches the setup on your radio. The default `TAER1234` matched perfectly the default config on my Taranis X-Lite, so I had to make no changes here.
+
+Here you can test and make sure that the sticks on your radio correspond to the correct channel. If you plug in a battery while the props are off, you should get real time feedback in the Betaflight interface, whenever you deflect a stick or flip a switch.
+
+![Betaflight receiver tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-41.png)
+
+In the modes tab we can assign and change the functionality of switches. Most importantly make sure you have an arm switch. This is usually set to AUX1, which maps to channel 5 on your radio. You can also assign flight modes, buzzer, turtle mode on another switch.
+
+Default configuration:
+![Betaflight modes tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-42.png)
+
+Here you can also test your switches in real time if you power on the quad (props off). A mode is activated when the yellow notch falls within the yellow range indicator for it.
+
+I fly predominantly only in acro mode, and just a bit when testing and evaluating new quads in horizon mode.
+
+My configuration:
+![Betaflight modes tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-33.png)
+
+In the OSD tab you can adjust the position of elements to your liking.
+
+![Betaflight OSD tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-43.jpg)
 
 **🌀Install the propellers**
 
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-25.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-26.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-27.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-29.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-30.jpg)
+Now that we are done setting up the drone, we can install the props and head outside for a maiden flight. Because the [Emax Tinyhawk Freestyle][1] is setup in 'props in' mode, we want to put on the propellers like it's shown in the picture below.
 
-A few extra tips on the carrying case, how to put the batteries on.
-TODO:
+![Tinyhawk Freestyle with props next to each motor](emax-tinyhawk-freestyle-toothpick-review-and-setup-25.jpg)
 
-NOTES:
+Push down the prop on the motor shaft firmly, but carefully as not to bend it. Secure each prop in place with 2 small screws and a hexhead screwdriver.
 
-manual - https://emax-usa.com/download/Tinyhawk_Freestyle_BNF_Instruction_Manual_v1.2.pdf
+![Tinyhawk Freestyle with 1 screw in a prop](emax-tinyhawk-freestyle-toothpick-review-and-setup-26.jpg)
 
-camera angle not adjustable
+Looking good and ready to take to the skies!
 
-1s 2s, 450mah, 300mah...
+![Tinyhawk Freestyle with props on](emax-tinyhawk-freestyle-toothpick-review-and-setup-27.jpg)
 
-xt 60 mod,
+A little tip when putting on the batteries is to **have them on top of each other with the power lead of each battery on the opposite side**. It's not a biggie, but it does make it easier when plugging in the battery connector.
 
-AVAN Rush 2.5 Inch Prop - BLACK
+Make sure the leads are firm and stay in the center, away from the props. There should be no issues, unless the batteries you use have very long leads. I haven't had any issues with my GNBs.
 
-NOTES ☝
+![Tinyhawk Freestyle plugging in batteries](emax-tinyhawk-freestyle-toothpick-review-and-setup-29.jpg)
+
+Finally, another little tip is to remove the foam from the carry case and observe that the quad fits nicely in there with the props on. Phew 😅.
+
+![Tinyhawk Freestyle with props on in its carry case](emax-tinyhawk-freestyle-toothpick-review-and-setup-30.jpg)
+
+In case I missed something and you lost your paper manual, you can also [refer to its online version][7].
 
 ### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
 
@@ -265,7 +292,7 @@ One thing I might consider doing and could suggest you do as well, if it is easy
 
 I would not add an HD split type camera to this one, as this will surely ruin the flight characteristics, as the [Emax Tinyhawk Freestyle][1] is indeed super lightweight and every little bit on top will be felt and will change things a lot.
 
-TODO: mention upgrade suggestions from video
+You swap out the battery connector for an XT30 connector, if you have more batteries with that connector. In my case, I'm thrilled the Emax Tinyhawk Freestyle allows me to reuse my 1S 450mah GNB batteries, which are pretty high quality and the quad flies superb on them, so I'll be leaving the battery connector as is.
 
 ### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
@@ -292,3 +319,4 @@ Either way, have fun and happy flying!
 [4]: https://bit.ly/micro-drone-batteries
 [5]: /fpv/geprc-phantom-review-and-setup/
 [6]: /fpv/emax-hawk-5-unboxing-review-and-setup/#binding
+[7]: https://emax-usa.com/download/Tinyhawk_Freestyle_BNF_Instruction_Manual_v1.2.pdf
