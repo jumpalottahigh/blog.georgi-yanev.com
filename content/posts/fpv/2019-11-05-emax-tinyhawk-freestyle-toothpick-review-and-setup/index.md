@@ -129,23 +129,60 @@ You can **access the bind button fairly easily underneath the quad** and depress
 2. Turn on the transmitter, make sure it is set to D8 mode, and then set it into bind
    mode. When the BLUE LED on the flight controller starts flashing, it means bind
    successful.
+
    ![Taranis X-Lite setup screen, binding view](emax-tinyhawk-freestyle-toothpick-review-and-setup-24.jpg)
+
 3. Power cycle the flight controller and take your radio out of bind mode.
 
-That's it, the receiver should be now bound. Next stop Betaflight.
+**That's it, the receiver should now be bound**.
+
+While we are here, we can assign a few switches in the `MIXER` tab. We need those for the Betaflight configuration in a bit. I've assigned switches to CH5, CH6, CH7. At the very least you need 1 switch for arming, so if you don't care for different flight modes, buzzer, turtle mode or anything else, it's ok to have only 1 switch assigned.
+
+![Taranis X-Lite MIXER screen](emax-tinyhawk-freestyle-toothpick-review-and-setup-31.jpg)
+
+If you'd like to (recommended but not required), you can fine tune the stick end points via the `OUTPUTS` screeen on your radio. I've written previously on [how to do this step by step][6].
+
+![Taranis X-Lite OUTPUTS screen](emax-tinyhawk-freestyle-toothpick-review-and-setup-32.jpg)
+
+Next stop Betaflight.
 
 **👀 Check the Betaflight configuration**
 
+If you followed along, you should not have your props installed yet, but if you do, **REMOVE THEM**. It's always a good idea to do that, as the quad might flip out and cut you up or break your things. Not worth it, just take them off 😀. You can access the micro USB port on the left hand side of the flight controller board.
+
 ![Emax Tinyhawk Freestyle plugged in via micro USB](emax-tinyhawk-freestyle-toothpick-review-and-setup-23.jpg)
+
+You can calibrate the accelerometer in the Setup tab if you have the Tinyhawk Freestyle on a leveled surface.
+
+![Betaflight setup tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-34.jpg)
+
+![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-33.png)
+
+![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-35.png)
+
+![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-36.png)
+
+![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-37.png)
+
+![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-38.png)
+
+![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-39.png)
+
+![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-40.png)
+
+![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-41.png)
+
+![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-42.png)
+
+![Betaflight  tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-43.jpg)
+
+**🌀Install the propellers**
+
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-25.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-26.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-27.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-29.jpg)
 ![](emax-tinyhawk-freestyle-toothpick-review-and-setup-30.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-31.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-32.jpg)
-
-**🌀Install the propellers**
 
 A few extra tips on the carrying case, how to put the batteries on.
 TODO:
@@ -248,21 +285,10 @@ But regardless if you're just getting into the hobby or you have been flying dro
 
 Either way, have fun and happy flying!
 
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-33.png)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-34.jpg)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-35.png)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-36.png)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-37.png)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-38.png)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-39.png)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-40.png)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-41.png)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-42.png)
-![](emax-tinyhawk-freestyle-toothpick-review-and-setup-43.jpg)
-
 [0]: Linkslist
 [1]: https://bit.ly/tinyhawk-freestyle
 [2]: https://bit.ly/geprc-phantom
 [3]: https://bit.ly/avon-rush-25
 [4]: https://bit.ly/micro-drone-batteries
 [5]: /fpv/geprc-phantom-review-and-setup/
+[6]: /fpv/emax-hawk-5-unboxing-review-and-setup/#binding
