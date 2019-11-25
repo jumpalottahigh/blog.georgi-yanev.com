@@ -6,6 +6,12 @@ import Footer from './Footer/Footer'
 import SideBar from '../Sidebar'
 import MenuFAB from '../MenuFAB'
 
+// TODO: is this the best place to include and use it?
+// test how it affects performance; is it just better to copy over the css and do it just like that?
+// also this logic should take into account the user's choice, recorded in local storage
+
+import useDarkMode from '../../hooks/use-darkmode'
+
 import './index.css'
 import './darkmode.css'
 // PrismJS dependency
@@ -52,6 +58,9 @@ class Layout extends Component {
                 "Hi, I'm Georgi and I build things on the web with JavaScript and React. In this blog you will find posts about 🚁 FPV racing drones (building, repairing and flying), 💻 web development, 🏠 smart home automation, 👨‍🎓️ life-long learning, goals and stories as well as who knows what else in the future. I write code, solve problems and sometimes stream on twitch. I love flying FPV drones, 3D printing, contributing to open source, and working on fpvtips.com.",
             },
           ]}
+          bodyAttributes={{
+            class: useDarkMode ? 'dark-mode' : '',
+          }}
         />
 
         <Header />
