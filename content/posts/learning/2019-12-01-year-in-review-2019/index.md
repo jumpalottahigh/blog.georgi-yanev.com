@@ -40,7 +40,7 @@ But how does that overview hold up against the goals I set for myself last year?
 
 ![A todo list of the goals for 2019 I set for myself back in 2018](year-in-review-2019-1.png)
 
-## 🚢 Taking ownership and making stuff happen.
+## 🚢 Taking ownership, making things happen and moving on
 
 So in the beginning of the year, because winter in Finland is long and brutal, it’s a great opportunity to do indoors stuff and focus on one’s coding career 😉. I was streaming live coding on Twitch while working on some personal hobby projects, and decided I’d give my first talk at a local JavaScript meet up. I ended up giving two talks. Worked hard on my slides for nearly 2 months (in my free time) and thanks to the topics being closely related to the work we were doing, got a lot of support and great feedback from my manager which really helped me nail this! Thanks, Marine.
 
@@ -52,7 +52,7 @@ I could easily (and probably will) write an entire separate blog post on lessons
 
 My last “Hail Mary” at the job was the migration of our campaign web pages to a modern Gatsby + Netlify stack, the development of 2 React open source libraries of shared componets and icons, and shipping a few Progressive Web Apps. All within less than half a year.
 
-## 👩‍🎓 Never stop learning
+## 👩‍🎓 Never stop learning and the next chapter
 
 I have been approached by many recruiters over the past few years. Some I had decent conversations with, some not so much. Some that knew what they were talking about and some that didn't. Mostly and main I've been discarding offers and actively saying I wasn't looking for a new job at the time.
 
@@ -64,29 +64,50 @@ And while my specialty is in front end development, I have to admit I enjoy doin
 
 And no, it's not always easy and I have no intention of painting a fake picture - changing jobs can and will be hard, you will be staring at new code bases for hours, slowly trying to make sense of things, you could even go through many crappy interviews with different companies, but in the end, it's always worth it, and **if you are stuck in a rut, I advise you to take the plunge and move on**, it will be hard but once you get past it, you will thank yourself. Either that, or if it really sucks, you will have learnt something and can bail on it fast and still move on.
 
-TODO: Continue from here
+Finally, I'm happy to share I ticked off my goal of going to at least 5 tech meet ups this year, and not only did I do, but I also spoke at 2 of those. Those are always fun, insightful and inspirational.
+
+## 🛌 Downtime is important too
+
+Whether we're talking about getting good amounts of high quality sleep or spending time away from work, both are equally important for you to succeed in your professional life. I can not say I'm doing very good on the sleeping front - I average 6.5 to 7 hours a night, and probably could do a bit better. I have also noticed that I function best at 7 - 7.5 hours of sleep per night.
+
+But one thing I'm very happy about is that we had pretty high quality vacations. Both the trip to Plovdiv, Bulgaria in May and the Finnish summer vacation in July. We visited a lot of places, had a ton of fun and enjoyed the time off as best as we could. It was also nice to have some good food, meet friends and relax.
+
+Lastly but for sure not least, I did manage to keep my promise of flying much more this year than 2018. I did uphold that and I enjoyed it thoroughly. I went many times flying on my own, as well as with my buddy, testing different quads and gear, just ripping packs! There's nothing quite like FPV 🚁 💙!
 
 ## 📖 My book writing adventure
 
-So I’ve been [preparing for my book][5] writing adventure during this year’s [NaNoWriMo][] and I … failed. Let me elaborate. The goal is simple - write 50 000 words during the month of November. And I failed because I didn’t write 50 000 words. I wrote 4 000 and stopped. Now I can go on to explain that I got sick, on top of doing extra hours at a new job (which is a cognitive demand on another level in and of itself), but the fact is that had I wanted to, I could have pushed and done it.
+So I’ve been [preparing for my book][5] writing adventure during this year’s [NaNoWriMo][6] and **I … failed? Or did I?** Let me elaborate. The goal of the event is simple - write 50 000 words during the month of November. And I failed because I didn’t write 50 000 words. I wrote 4 000 and stopped. Now I can go on to explain that I got sick, on top of doing extra hours at a new job (which is a cognitive demand on another level in and of itself), but the fact is that had I wanted to, I could have pushed and done it.
 
-**I made a conscious decision to stop.** Not because I was lazy, not because I couldn’t have done, but because I believe that it’s ok to drop things when you decide it’s good for you in the long term, and to prioritize other things over.
+**I made a conscious decision to stop.** Not because I was lazy, not because I couldn’t have done it, but because **I believe that it’s ok to drop things when you decide it’s good for you in the long term, and to prioritize other things**.
 
-**You can’t plan everything in life and this year for me was a perfect example why.** And that’s ok. In fact, that makes things a bit more fun too. I love planning and having a rough idea of where I wanna go, but how I get there and what I go through, I want that to be partially a surprise, an adventure.
+**You can’t plan everything in life and this year for me was a perfect example why.** And that’s ok. In fact, that makes things a bit more fun too. **I love planning and having a rough idea of where I wanna go, but how I get there and what I go through, I want that to be partially a surprise, an adventure**.
 
-**Stay mentally sane and don’t push yourselves over the limit. It’s ok to drop things and re-prioritize as you go along.**
+Stay mentally sane and don’t push yourselves over the limit. It’s ok to drop things and re-prioritize as you go along.
 
-If you’re wondering what’s next for my book writing project, I’m happy to say I haven’t shelved it or dropped it completely. I will continue working on it, write weekly a small target, but consistently. I love how the stories and characters are really taking shape in my head now that I’ve kept thinking about the main plot, setting and characters for roughly a year. I’m
+If you’re wondering what’s next for my book writing project, **I’m happy to say I haven’t shelved it or dropped it at all**. I will continue working on it, write weekly and go at a slower pace but consistently. I love how the stories and characters are really taking shape in my head now that I’ve kept thinking about the main plot, setting and characters for roughly a year.
 
-[Where it went well and where it’s ok to drop things]
+The whole project so far has been a big learning opportunity on its own. Learning how to be ok to remove characters, plot ideas that would not make sense in the big picture, no matter how cool on their own. Learning from Brandon Sanderson's writing class, the amazing Writing Excuses podcast!
+I also read more books this year as a function of wanting to write one. In particular, I really enjoyed [Logic's Supermarket][7] because he's a hip hop artist and this was his first book. It was so interesting to analyze and see how he had tackled different parts of the story. Enjoyable as a read and enjoyable to learn from.
 
-Software engineering and web development
-TODO:
-This year has been truly interesting. From giving talks and implementing Gatsby and Netlify at scale during my time at F-Secure, to producing a [component library][], an [icon library][] and more…. I did a lot of React and I loved it. I also did a lot of architecting, which was nice.
-Then about new job
+I think I was aware I would not become a writer in a year, not even in two years, but I have started the journey and I'm enjoying myself and looking forward to writing.
 
-Health is important and has to be one of my next focus areas
+## 🚁 FPVTIPS. Growth, drones, blog, YouTube.
+
+This has been one of the things that had made me the happiest this year! It's something I'm very passionate about that had been growing organically and nurtured by me in many ways. I also think I took the right decisions when they came up.
+
+So, looking at last year's list, it seems I wanted to go participate in a drone race (I actually had the chance but was not able to this summer), fly more FPV drones (definitely did that!) and grow fpvtips.com (**I did that too in a different, better and unexpected way**).
+
+TODO: Continue from here + notes in GDrive
+
+## ✅ Goals for 2020
+
 ....
+
+- Look again at the 2019 goal list and include missed topics if necessary
+- Health is important and has to be one of my next focus areas
+
+TODO: drop in more pictures
+TODO: spell check
 
 [0]: Linkslist
 [1]: /learning/goal-review-of-2018-and-goals-for-2019/
@@ -94,3 +115,5 @@ Health is important and has to be one of my next focus areas
 [3]: /learning/jamstack-with-gatsby-and-netlify/
 [4]: https://sharpershape.com/
 [5]: /learning/writing-a-book/
+[6]: https://nanowrimo.org/
+[7]: https://www.amazon.com/Supermarket-Bobby-Hall/dp/1982127139
