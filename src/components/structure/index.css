@@ -1337,6 +1337,10 @@ video.fade-in {
   word-break: break-word;
 }
 
+.blog-post .post-preview-tag {
+  margin-bottom: 0.4rem;
+}
+
 code {
   padding: 0.1em 0.5em !important;
 }

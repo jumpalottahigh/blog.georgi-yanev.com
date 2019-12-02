@@ -29,10 +29,16 @@ const LuckyLink = styled.a`
 
 const Coupon = styled.div`
   position: absolute;
-  width: 160px;
-  top: 0;
+  width: 180px;
+  top: -36px;
   right: 0;
   font-size: 16px;
+  z-index: 999;
+  background: #0175d8;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px 1px #dedede;
+  padding: 2px 8px;
 
   a {
     box-shadow: none !important;
@@ -74,6 +80,16 @@ const randomCoupons = [
     link:
       'https://www.banggood.com/marketing-FPV-Racing-Drone-Multirotors-Clearance/tid-5415.html?bid=22225',
     coupon: '28rc',
+  },
+  {
+    link:
+      'https://www.banggood.com/promotion-black-friday-deals-2019-10282.html?utmid=10462&utm_campaign=%231b1403',
+    coupon: 'BGBFAFF2019',
+  },
+  {
+    link:
+      'https://www.banggood.com/TransTEC-Beetle-HOM-130mm-FPV-Racing-RC-Drone-PNP-Compatible-With-DJI-FPV-Air-Unit-DJI-Digital-FPV-System-p-1584992.html?utm_campaign=BGBFBeetle',
+    coupon: 'BGBFBeetle',
   },
 ]
 
