@@ -54,7 +54,7 @@ My last “Hail Mary” at the job was the migration of our campaign web pages t
 
 ## 👩‍🎓 Never stop learning and the next chapter
 
-I have been approached by many recruiters over the past few years. Some I had decent conversations with, some not so much. Some that knew what they were talking about and some that didn't. Mostly and main I've been discarding offers and actively saying I wasn't looking for a new job at the time.
+I have been approached by many recruiters over the past few years. Some I had decent conversations with, some not so much. Some that knew what they were talking about and some that didn't. Mostly and mainly I've been discarding offers and actively saying I wasn't looking for a new job at the time.
 
 But eventually a time comes to move on to new challenges, learning something new and experiencing something different. And one decent recruiter who I've been talking to for a while about different companies, eventually called me and told me of this one particular drone company called [Sharper Shape][4]. Even at a glance there seemed to be a lot of intersecting interests and areas between them and me and where I wanted to go in the future, so after a few interview rounds it happened - I finally decided I'd move on, and they ended up hiring me.
 
@@ -96,6 +96,25 @@ I think I was aware I would not become a writer in a year, not even in two years
 This has been one of the things that had made me the happiest this year! It's something I'm very passionate about that had been growing organically and nurtured by me in many ways. I also think I took the right decisions when they came up.
 
 So, looking at last year's list, it seems I wanted to go participate in a drone race (I actually had the chance but was not able to this summer), fly more FPV drones (definitely did that!) and grow fpvtips.com (**I did that too in a different, better and unexpected way**).
+
+I started this blog in August 2017 and published my [first FPV drones related article][todo] shortly after on September 18th 2017. Please don't judge it too much, as I have learned a lot about producing content since and have improved the quality and quantity of my posts by a mile. I've gone from casually sharing a thought or two, to writing posts with a reading time of 18-24 minutes, in depth guides and tips with a lot of (and better) pictures, YouTube videos and more.
+
+I've really loved and enjoyed putting together all of these posts and sharing what I know with the community. And this brings us to one of the most impactful things that happened to the blog - in January this year I got an email from Banggood about potential collaboration.
+
+> Banggood is a huge Chineese online shop that also has a fairly popular drones and FPV gear line up. I would assume the 2 biggest reasons for my people to purchase from there being: low prices and free shipping. Especially when you are building a drone from scratch and when learning, it's a very good option, as your initial investment will be quite low. The downsides are that shipping could take anywhere from 2-3 weeks to over a month in some cases (although they are mitigating this by opening warehouses in the US and Europe) and that depending on your experience customer service can be dodgy. I have never had any issues with customer service, or getting refunds for poor quality items, but I have heard of people who have had a worse experience and in the spirit of full disclosure, as always, I call things for what they are. But indeed, I personally have not had any issues.
+
+And so it began - in February they sent me the first review model and in March I [published my first review of the Eachine Trashcan micro drone][todo] as a fruit of that collaboration. **These types of collaborations are really a win, win, win situation for the business, the blog and the readers**. The business gets customers they otherwise wouldn't, the blog gets to produce educational content, the users get to learn more about the products before buying. This additional committment also makes it harder for me to procrastinate and not publish content, which is a well received extra motivator.
+
+And that particular article had done very well; in fact, it easily is one of the biggest reasons for the blog's growth this year.
+
+[add image of article page view stats; circle the article in the image][image1]
+
+And getting items to review has helped me to produce more and higher quality content, but **really the biggest validator has been the people reading that content**! I really appreciate it and thank you for taking the time to read my reviews and guides, and I hope you get as much value from it, as I'm trying to provide. By the way, cause I haven't really mentioned this so far, but putting together those blog posts with a reading time of ~ 22 minutes, takes a LOT of work. On average about 6 - 10 hours per post, depending on the amount of research and verification required. The actual drone and gear testing and evaluation takes much, much longer.
+
+Initially I had no aspirations to do YouTube. I created the Georgi FPV YouTube channel mostly as a way for me to back up and put out there tons of raw flight footage. But, as I've released a total of over 321 videos since I started this adventure in March [todo verify date], I got a lot of practice, I refined my uploading, tagging, content management skills and dipped my toes into the YouTube platform - experience I would end up appreciating.
+
+And so finally, this lead to this announcement:
+[image2]
 
 TODO: Continue from here + notes in GDrive
 
