@@ -38,6 +38,12 @@ So stay tuned if you are in the market for one of those. Let's take a deeper loo
 - [🔝 Upgrades](#upgrades)
 - [📑 Conclusion](#conclusion)
 
+If you prefer watching, check out the full video review on my YouTube channel:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/qMm0v1Va6wg?rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle"></iframe>
+</div>
+
 ### 📦 <span id="unboxing">Unboxing</span>
 
 Emax Tinyhawk Freestyle comes in a nice hardshell case, great for packing in the quad and carrying it around.
