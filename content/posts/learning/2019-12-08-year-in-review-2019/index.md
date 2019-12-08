@@ -99,7 +99,7 @@ I think I was aware I would not become a writer in a year, not even in two years
 
 ## 🚁 FPVTIPS. Growth, drones, blog, YouTube
 
-![FPVTIPS logo](year-in-review-2019-7.png)
+![FPVTIPS logo](year-in-review-2019-7.svg)
 
 This has been one of the things that had made me the happiest this year! It's something I'm very passionate about that had been growing both organically and supported by me in many ways. I also think I took the right decisions when they came up.
 
