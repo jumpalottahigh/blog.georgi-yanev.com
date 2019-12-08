@@ -24,6 +24,8 @@ Let’s do this!
 
 > _I feel very fortunate and grateful to have a good job I love, interesting hobbies and side business that seems to be doing well. But the single most important thing is my family - my wife and son. They mean everything to me and are the sole inspiration for everything I do. This blog post is dedicated to you - Sofi and Anton._
 
+![Georgi, Sofi and Anton in Plovdiv Bulgaria](year-in-review-2019-12.jpg)
+
 ## 🔭 Quick overview
 
 When I think of 2019, these immediately come to mind as the main topics:
@@ -115,6 +117,10 @@ And that particular article had done very well; in fact, it easily is one of the
 
 ![top 10 pageviews of blog.georgi-yanev.com for the past 9 months](year-in-review-2019-2.png)
 
+And here is the monthly / weekly / daily active users report since the start of the blog, a little over two years ago. You can easily see how releasing more content has impacted the blog.
+
+![Monthly active users report since the beginning of the blog](year-in-review-2019-11.png)
+
 To illustrate better the kind of content explosion I'm talking about, let's briefly compare the content stats for 2018 vs 2019.
 
 If we compare the stats for 2018 vs 2019, we have 10 vs 17 posts and `5500` words vs `32404` words. The word count increase alone is `589 %`.
@@ -170,7 +176,7 @@ I like having quantifiable goals whenever possible because it's a bit easier to 
 ### ⬜ Major goals:
 
 - 🎈 Have a fun time with the family. Quality vacations whether in Finland or away.
-- 💻 Learn new and get better at current software development skills.
+- 💻 Build and work on cool projects. Learn new and get better at current software development skills.
 - 👨‍🎓 Learn, teach and play around with new things with Anton (Legos, robots, game dev with Unity, RC boats, ??)
 - 🎥 Release 3 videos per month for FPVTIPS on YouTube
 - 📝 Produce at least as much content for the blog in 2020 as in 2019 (~ 33k words, ~ 17 posts ballpark)
