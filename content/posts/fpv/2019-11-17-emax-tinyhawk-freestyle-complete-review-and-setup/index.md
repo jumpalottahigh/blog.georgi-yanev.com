@@ -206,6 +206,8 @@ In the OSD tab, you can adjust the position of elements to your liking.
 
 ![Betaflight OSD tab](emax-tinyhawk-freestyle-toothpick-review-and-setup-43.jpg)
 
+It's always a good idea to run the `dump` command in the Betaflight CLI tab, which allows you to save your starting config to a text file. [Emax Tinyhawk Freestyle CLI dump](BTFL_cli_TH_FreeStyle_20191005_140914.txt)
+
 **🌀Install the propellers**
 
 Now that we are done setting up the drone, we can install the props and head outside for a maiden flight. Because the [Emax Tinyhawk Freestyle][1] is set up in 'props in' mode, we want to put on the propellers like it's shown in the picture below.
