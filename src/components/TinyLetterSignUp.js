@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import Img from 'gatsby-image'
-import { graphql, useStaticQuery } from 'gatsby'
+
+import fpvtipsLogo from '../images/fpvtips-logo-full.svg'
 
 const TinyLetter = styled.div`
   display: flex;
@@ -58,9 +58,9 @@ const TinyLetter = styled.div`
     font-size: 0.9rem;
   }
 
-  .gatsby-image-wrapper {
+  .image-wrapper {
     width: 100%;
-    margin: 0 auto 0.5rem;
+    margin: 0 auto;
     max-width: 260px;
     display: block;
   }
@@ -102,19 +102,6 @@ const TinyLetter = styled.div`
 `
 
 const TinyLetterSignup = () => {
-  const logo = useStaticQuery(graphql`
-    {
-      file(relativePath: { regex: "/^fpvtips-logo-128.png/" }) {
-        name
-        childImageSharp {
-          fluid(maxWidth: 362, quality: 81) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-    }
-  `)
-
   const handleTinyLetterFormSubmit = () => {
     window.open(
       'https://tinyletter.com/fpvtips',
@@ -127,7 +114,13 @@ const TinyLetterSignup = () => {
   return (
     <TinyLetter>
       <div className="tinyletter__heading">
-        <Img fluid={logo.file.childImageSharp.fluid} alt={logo.name} />
+        <a
+          href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={fpvtipsLogo} alt="Fpvtips" className="image-wrapper" />
+        </a>
         <h3>📰 Monthly Newsletter</h3>
       </div>
       <p className="one">

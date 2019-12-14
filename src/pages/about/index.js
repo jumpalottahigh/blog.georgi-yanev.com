@@ -15,7 +15,8 @@ const AboutPage = () => (
         <Link to="/learning/how-i-got-into-software-development/">
           software engineer
         </Link>{' '}
-        and currently work as a web developer. You can find me on{' '}
+        and currently work mostly with React, TypeScript, Electron, Node.js. You
+        can find me on{' '}
         <a href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q">
           YouTube
         </a>
@@ -66,7 +67,7 @@ const AboutPage = () => (
       <p>
         I publish FPV related content on YouTube on my{' '}
         <a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg">
-          FPVtips channel
+          Fpvtips channel
         </a>{' '}
         and dump raw unedited flight footage on my{' '}
         <a href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q">
