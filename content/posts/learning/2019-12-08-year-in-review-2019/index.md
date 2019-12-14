@@ -97,7 +97,7 @@ I also read more books this year as a function of wanting to write one. In parti
 
 I think I was aware I would not become a writer in a year, not even in two years, but I have started the journey and I'm enjoying myself and looking forward to writing more.
 
-## 🚁 FPVTIPS. Growth, drones, blog, YouTube
+## 🚁 <span id="fpvtips">FPVTIPS. Growth, drones, blog, YouTube</span>
 
 ![FPVTIPS logo](year-in-review-2019-7.svg)
 

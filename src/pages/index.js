@@ -1,6 +1,6 @@
 import React from 'react'
+import styled from 'styled-components'
 import { graphql, Link } from 'gatsby'
-import Img from 'gatsby-image'
 import { motion } from 'framer-motion'
 
 import Layout from '../components/structure/layout'
@@ -9,6 +9,15 @@ import TinyLetterSignup from '../components/TinyLetterSignUp'
 import Announcement from '../components/Announcement'
 import YouTubeChannelsPromo from '../components/YouTubeChannelsPromo'
 import AuthorMessage from '../components/AuthorMessage'
+
+import fpvtipsLogo from '../images/fpvtips-logo-full.svg'
+
+const FpvtipsLogo = styled.a`
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+`
 
 class BlogIndex extends React.Component {
   state = {
@@ -38,72 +47,102 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location}>
         <div className="home-page">
-          {/* TODO: */}
-          {/* <h4 style={{ marginTop: '2rem' }}>Most popular this month:</h4> */}
           <Announcement
             shortContent={
-              <>
+              <div>
                 <h4 style={{ textAlign: 'center', margin: 0 }}>
-                  🔥 Announcement 🔥
+                  🎉 Thank you! 🎉
                 </h4>
                 <div className="short-content-inner-container">
-                  <motion.div
-                    animate={{ rotate: 360 }}
-                    transition={{ duration: 1.15 }}
-                    whileTap={{ scale: 0.9, rotate: -90 }}
+                  <FpvtipsLogo
+                    className="no-shadow"
+                    href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    <Img
-                      fluid={
-                        this.props.data.fpvtips.edges[0].node.childImageSharp
-                          .fluid
-                      }
-                      alt="FPVTIPS logo"
-                    />
-                  </motion.div>
+                    <img src={fpvtipsLogo} alt="FPVTIPS logo" />
+                  </FpvtipsLogo>
                   <h4>
-                    I'm starting a new YouTube channel called{' '}
+                    It's been 6 months since the launch of the{' '}
                     <a
                       href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      FPVTIPS
+                      Fpvtips YouTube channel
                     </a>
-                    , to do much of the same I do here - try to help people new
-                    to FPV racing drones. Come check it out 👀 and subscribe 📫.
+                    , and I wanted to take a moment to thank each and every one
+                    of you for the support!
+                    <br />I really appreciate all the engagement and feedback!
+                    Click 'Read more' to learn what's coming in 2020 for the
+                    channel. Happy holidays!
                   </h4>
                 </div>
-              </>
+                <time dateTime="2019-12-14">Georgi, 14 December 2019</time>
+              </div>
             }
           >
-            <p>
-              I've been really humbled to help so many people over the years and
-              to answer the questions I myself had. I'll continue doing that,
-              and believing in the wonderful hobby of FPV racing drones, and
-              will also from now on do that on YouTube in addition to this blog.
-            </p>
-            <p>
-              Here's how you (yes, YOU) can help -{' '}
-              <strong>
-                👉{' '}
+            <div>
+              It's been very humbling to see many of you subscribe to the
+              channel, to the monthly newsletter, or simply reading the guides
+              and reviews on the blog!
+              <p>
+                I've also received a ton of questions, comments, constructive
+                criticizm. I've replied to and interacted with many of you and
+                used your feedback to improve the content.
+              </p>
+              <p>
+                I've also learnt more about video editing and production, as
+                well as have done a few hardware upgrades to improve the quality
+                of the upcoming videos.
+              </p>
+              <p>
+                Finally, I have a long backlog of plans and project ideas (and
+                only so much time) and am very excited to try to release videos
+                more frequently in 2020.
+              </p>
+              <p>
+                Enjoy the holidays with your families and see you in 2020 on
+                Fpvtips.
+              </p>
+              <p>
+                <Link to="/learning/my-2019-in-review/#fpvtips">
+                  Learn more about Fpvtips and what I'm aspiring to do with the
+                  YouTube channel in 2020
+                </Link>
+              </p>
+              <p>
+                <Link to="/fpvtips-youtube-announcement/">
+                  Read about the initial announcement of the Fpvtips channel
+                </Link>
+              </p>
+              <div>
+                Fpvtips on{' '}
                 <a
-                  href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
-                  target="_blank"
+                  href="https://twitter.com/fpvtips"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  come over
+                  Twitter
                 </a>
-                , 📺 watch the first couple of videos, 📫 subscribe :), and
-                leave me some 💬 feedback in the comments section
-              </strong>
-              . I would REALLY appreciate this, and thank you in advance 💙.
-              <br />
-              <br />
-              I'm sure I have a lot to learn about video production, but hey,
-              you gotta start somewhere, right? And I'm definitely excited about
-              learning and sharing knowledge! Happy flying!
-            </p>
-            <time dateTime="2019-06-23">Georgi, 23 June 2019</time>
+                ,{` `}
+                <a
+                  href="https://www.instagram.com/fpvtips/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Instagram
+                </a>
+                ,{` `}
+                <a
+                  href="https://www.facebook.com/fpvtips/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Facebook
+                </a>
+              </div>
+            </div>
           </Announcement>
           <h3 style={{ marginTop: 0 }}>Categories:</h3>
           <div className="category-container">
