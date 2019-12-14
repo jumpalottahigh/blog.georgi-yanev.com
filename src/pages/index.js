@@ -73,6 +73,7 @@ class BlogIndex extends React.Component {
                     </a>
                     , and I wanted to take a moment to thank each and every one
                     of you for the support!
+                    <br />
                     <br />I really appreciate all the engagement and feedback!
                     Click 'Read more' to learn what's coming in 2020 for the
                     channel. Happy holidays!

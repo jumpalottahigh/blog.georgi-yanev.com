@@ -58,11 +58,6 @@ const StyledAnnouncement = styled.div`
     .short-content .short-content-inner-container {
       flex-flow: row wrap;
 
-      h4 {
-        width: calc(100% - 120px - 2rem);
-        margin: 0;
-      }
-
       .gatsby-image-wrapper {
         margin-right: 2rem;
       }

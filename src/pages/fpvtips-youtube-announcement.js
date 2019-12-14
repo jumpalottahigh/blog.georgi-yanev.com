@@ -39,11 +39,12 @@ const FpvtipsYoutubeAnnouncementPage = () => (
                 animate={{ rotate: 360 }}
                 transition={{ duration: 1.15 }}
                 whileTap={{ scale: 0.9, rotate: -90 }}
+                style={{ display: 'flex', width: '100%', margin: '0.75rem 0' }}
               >
                 <img
                   src={fpvtipsLogo}
                   alt="FPVTIPS logo"
-                  style={{ width: '130px' }}
+                  style={{ width: '130px', margin: '0 auto' }}
                 />
               </motion.div>
               <h4>
