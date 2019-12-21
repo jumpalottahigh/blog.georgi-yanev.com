@@ -112,7 +112,7 @@ Be careful with the provided charging board, not a biggie, but the battery slot 
 
 ![Emax Tinyhawk Freestyle charger board with battery slot off](emax-tinyhawk-freestyle-toothpick-review-and-setup-20.jpg)
 
-Or use one of these boards, which are a bit better (but not miles better really). And at least allow charging on the go via an XT60 source plug.
+Or use [one of these boards][8], which are a bit better (but not miles better really). And at least allow charging on the go via an XT60 source plug.
 
 ![board for charging up to 6 ph2.0 batteries](emax-tinyhawk-freestyle-toothpick-review-and-setup-21.jpg)
 
@@ -326,3 +326,4 @@ Either way, have fun and happy flying!
 [5]: /fpv/geprc-phantom-review-and-setup/
 [6]: /fpv/emax-hawk-5-unboxing-review-and-setup/#binding
 [7]: https://emax-usa.com/download/Tinyhawk_Freestyle_BNF_Instruction_Manual_v1.2.pdf
+[8]: https://bit.ly/1s-board
