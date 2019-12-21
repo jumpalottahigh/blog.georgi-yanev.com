@@ -12,7 +12,7 @@ const AuthorMessage = ({ type = 'fpv' }) => {
         name
         childImageSharp {
           fluid(maxWidth: 100, quality: 75) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -21,7 +21,7 @@ const AuthorMessage = ({ type = 'fpv' }) => {
         name
         childImageSharp {
           fluid(maxWidth: 100, quality: 75) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            ...GatsbyImageSharpFluid
           }
         }
       }

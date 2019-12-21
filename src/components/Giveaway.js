@@ -44,7 +44,7 @@ const Giveaway = () => {
         name
         childImageSharp {
           fluid(maxWidth: 250, quality: 75) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            ...GatsbyImageSharpFluid
           }
         }
       }

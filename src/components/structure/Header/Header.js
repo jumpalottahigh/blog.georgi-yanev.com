@@ -38,7 +38,7 @@ const Header = () => (
               name
               childImageSharp {
                 fluid(maxWidth: 56, quality: 75) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  ...GatsbyImageSharpFluid
                 }
               }
             }
