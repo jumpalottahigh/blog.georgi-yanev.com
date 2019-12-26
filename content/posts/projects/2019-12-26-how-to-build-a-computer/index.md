@@ -1,6 +1,6 @@
 ---
 path: '/projects/how-to-build-a-computer/'
-date: '2019-12-12'
+date: '2019-12-26'
 title: 'How to build a Ryzen 3rd gen computer'
 author: 'Georgi Yanev'
 draft: false
