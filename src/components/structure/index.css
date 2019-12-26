@@ -1092,7 +1092,7 @@ button {
   overflow: visible;
   border-radius: 0;
   user-select: none;
-  -webkit-user-select: none; /* for button */
+  -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
 }
