@@ -942,6 +942,10 @@ iframe {
   justify-content: space-between;
 }
 
+.post-preview-note a {
+  display: flex;
+}
+
 .post-preview-category {
   cursor: pointer;
   border-radius: 4px;
@@ -992,6 +996,18 @@ iframe {
   .post-preview:hover .post-preview-image.hover {
     display: block;
   }
+}
+
+.post-preview.small-thumbnails .post-preview-content {
+  display: flex;
+}
+
+.post-preview.small-thumbnails .post-preview-content .gatsby-image-wrapper {
+  width: 33vw;
+}
+
+.post-preview.small-thumbnails .post-preview-content .post-preview-excerpt {
+  margin-left: 0.5rem;
 }
 
 .category-container {

@@ -20,6 +20,7 @@ const Post = ({
   showImage,
   handleTagClick,
   handleCategoryClick,
+  variant,
 }) => {
   // Posts are considered fresh if published within the last 31 days
   const freshDuration = 60 * 60 * 24 * 31 * 1000 // 1 month
@@ -29,7 +30,11 @@ const Post = ({
   const isFresh = postDate + freshDuration > now
 
   return (
-    <li className="post-preview">
+    <li
+      className={`post-preview ${
+        variant === 'small-thumbnails' ? 'small-thumbnails' : ''
+      }`}
+    >
       <Link to={post.node.frontmatter.path + '/'}>
         <h4>
           {isFresh && '🆕 '}
@@ -474,6 +479,7 @@ export default class PostsList extends React.Component {
                       showImage={showImage}
                       handleTagClick={this.handleTagClick}
                       handleCategoryClick={this.handleCategoryFilterClick}
+                      variant={this.props.postVariant}
                     />
                   )
                 }
@@ -487,6 +493,7 @@ export default class PostsList extends React.Component {
                   showImage={showImage}
                   handleTagClick={this.handleTagClick}
                   handleCategoryClick={this.handleCategoryFilterClick}
+                  variant={this.props.postVariant}
                 />
               ))
             : this.state[currentFilter].map(post => (
@@ -497,6 +504,7 @@ export default class PostsList extends React.Component {
                   showImage={showImage}
                   handleTagClick={this.handleTagClick}
                   handleCategoryClick={this.handleCategoryFilterClick}
+                  variant={this.props.postVariant}
                 />
               ))}
         </ul>

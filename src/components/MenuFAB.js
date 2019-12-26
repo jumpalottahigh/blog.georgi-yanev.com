@@ -99,6 +99,7 @@ const MenuFAB = () => {
           showImage="yes"
           showCategories="yes"
           showSearch="yes"
+          postVariant="small-thumbnails"
           posts={posts}
         />
       </div>
