@@ -192,6 +192,11 @@ const allFeaturedGear = {
     link: 'https://bit.ly/micro-drone-batteries',
     image: '/banggood/gnb-1s-450.jpg',
   },
+  'geprc-phantom-motor': {
+    name: 'GEPRC Phantom motor',
+    link: 'https://bit.ly/geprc-phantom-motor',
+    image: '/banggood/geprc-phantom-motor.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
