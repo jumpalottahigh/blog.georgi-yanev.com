@@ -10,6 +10,7 @@
     "framer-motion": "^1.7.0",
     "gatsby": "^2.18.16",
     "gatsby-image": "^2.2.37",
+    "gatsby-plugin-ebook": "^1.0.2",
     "gatsby-plugin-feed": "^2.3.25",
     "gatsby-plugin-google-analytics": "^2.1.31",
     "gatsby-plugin-hotjar": "^1.0.1",
