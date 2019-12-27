@@ -10,7 +10,7 @@ tags:
   - 'pc'
   - 'build'
   - 'hardware'
-affiliate: ''
+affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'PC, computer, build, guide, DIY, how to build a pc, how to build a computer, building a computer with my son, pc build 2019, modern pc, medium-range pc build'
 ogDescription: 'Every 4-5 years I build a new computer. It started 20 years ago (in 1999) when my dad and I ordered our custom-built configuration from a computer parts shop in Bulgaria.'
 ogImage: './how-to-build-a-computer-1.jpg'
@@ -169,13 +169,13 @@ And that was the first PC build we did together with Anton! Yay! 🎉
 ![Anton and Georgi's first PC build](how-to-build-a-computer-34.jpg)
 
 [0]: Linkslist
-[1]: CPU
-[2]: MOTHERBOARD
-[3]: GeForce-RTX-2060-Super
-[4]: CX750M-Corsair-power-supply
-[5]: Fractal-Design-Define-C
-[6]: Kingston-Hyper-X-Fury-DDR4
-[7]: 250GB-Kingston
-[8]: 500GB-Samsung
-[9]: western-digital-hdd
-[10]: Corsair-LL120-RGB-fans
+[1]: https://amzn.to/352MJMu
+[2]: https://amzn.to/2EXJhZ8
+[3]: https://amzn.to/2Q09gFx
+[4]: https://amzn.to/2EYUU1Q
+[5]: https://amzn.to/2MzBWmC
+[6]: https://amzn.to/2t3zvlw
+[7]: https://amzn.to/37jBL7b
+[8]: https://amzn.to/2sfEAHz
+[9]: https://amzn.to/2Zx7P4O
+[10]: https://amzn.to/3623SaC
