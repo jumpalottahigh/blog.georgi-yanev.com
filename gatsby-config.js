@@ -9,41 +9,41 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
-    {
-      resolve: 'gatsby-plugin-ebook',
-      options: {
-        filename: 'fpvtips-ebook.epub',
-        query: `
-          {
-            site {
-              siteMetadata {
-                title
-                author
-              }
-            }
-            allMarkdownRemark(
-              sort: { fields: frontmatter___date, order: ASC },
-              filter: {
-                frontmatter: { draft: { ne: true } }
-                fileAbsolutePath: { regex: "/content/posts/fpv/" }
-               }
-            ) {
-              edges {
-                node {
-                  id
-                  fileAbsolutePath
-                  rawMarkdownBody
-                  frontmatter {
-                    title
-                    date
-                  }
-                }
-              }
-            }
-          }
-        `,
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-ebook',
+    //   options: {
+    //     filename: 'fpvtips-ebook.epub',
+    //     query: `
+    //       {
+    //         site {
+    //           siteMetadata {
+    //             title
+    //             author
+    //           }
+    //         }
+    //         allMarkdownRemark(
+    //           sort: { fields: frontmatter___date, order: ASC },
+    //           filter: {
+    //             frontmatter: { draft: { ne: true } }
+    //             fileAbsolutePath: { regex: "/content/posts/fpv/" }
+    //            }
+    //         ) {
+    //           edges {
+    //             node {
+    //               id
+    //               fileAbsolutePath
+    //               rawMarkdownBody
+    //               frontmatter {
+    //                 title
+    //                 date
+    //               }
+    //             }
+    //           }
+    //         }
+    //       }
+    //     `,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-sitemap`,
     },
