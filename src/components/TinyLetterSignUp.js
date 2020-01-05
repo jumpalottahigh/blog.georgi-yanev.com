@@ -123,10 +123,7 @@ const TinyLetterSignup = () => {
         </a>
         <h3>📰 Monthly Newsletter</h3>
       </div>
-      <p className="one">
-        Get the latest scoop of what's new in the FPV drone racing and freestyle
-        world. What to watch, who to follow and more.
-      </p>
+      <p className="one">Want to get notified when I drop a new post?</p>
       <form
         action="https://tinyletter.com/fpvtips"
         method="post"

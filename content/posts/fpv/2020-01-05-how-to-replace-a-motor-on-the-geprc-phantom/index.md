@@ -46,7 +46,7 @@ ESC issues are not much harder to be figured out or fixed, but with the growth i
 
 So it would be so much more favorable to be dealing with just a bad / broken motor. How do we validate that? You can inspect the motor for signs of damage. Brown parts, missing or loose magnets, or if the motor wires are still properly connected to it (I had an [issue with a snapped wire on my Mobula7 HD][5]).
 
-In this case I could observe no obvious damage to the motor. The next best and easiest thing to validate you have motor issues is to try and swap out the motor with another one. If you haven't yet, **make sure you take the props off**!
+In this case, I could observe no obvious damage to the motor. The next best and easiest thing to validate you have motor issues is to try and swap out the motor with another one. If you haven't yet, **make sure you take the props off**!
 
 So let's swap the faulty motor with another one that we know works. If the faulty motor does spin up on another slot, that's not very good, as it could indicate issues with the ESC. If, however, the motor still doesn't spin up properly, we are in luck, and this could be further indicated by a successfully spinning motor on the slot where our faulty motor used to be.
 
