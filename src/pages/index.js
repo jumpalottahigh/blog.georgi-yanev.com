@@ -255,7 +255,7 @@ export const HomePageQuery = graphql`
             ogImage {
               publicURL
               childImageSharp {
-                fluid(maxWidth: 672) {
+                fluid(maxWidth: 991) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
               }
