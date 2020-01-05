@@ -1,7 +1,7 @@
 ---
-path: '/fpv/how-to-swap-a-motor-on-the-geprc-phantom/'
-date: '2019-12-28'
-title: 'How to swap a motor on the GEPRC Phantom'
+path: '/fpv/how-to-replace-a-motor-on-the-geprc-phantom/'
+date: '2020-01-05'
+title: 'How to replace a motor on the GEPRC Phantom'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 draft: false
@@ -18,8 +18,8 @@ gearList:
   - 'geprc-phantom'
   - 'geprc-phantom-motor'
 ogKeywords: 'repair, diy, swap a motor, debug motor, fix motor, fpv, quad, drone, phantom, geprc phantom, microdrone, toothpick, micro quad, dvr, flying micro drone, fly micro quad, fpv racing, fpv freestyle, freestyle micro drone, setup, motor fix, replace a motor, swap a motor on a drone'
-ogDescription: 'TODO:'
-ogImage: './how-to-swap-a-motor-on-the-geprc-phantom-1.jpg'
+ogDescription: "Replacing a motor on your quad is for the most part fairly straight forward. But in this guide I'd like to also go over debugging a motor and ESC and figuring out the faulty component, as well as verification and configuration after the replacement."
+ogImage: './how-to-replace-a-motor-on-the-geprc-phantom-2.jpg'
 ---
 
 Replacing a motor on your quad is for the most part fairly straight forward. But in this guide I'd like to also go over debugging a motor and ESC and figuring out the faulty component, as well as verification and configuration after the replacement.
@@ -34,7 +34,7 @@ In today's example, we're going to be investigating this issue I had with the [G
 
 [TODO: video to issue]
 
-I had a strong reason to believe that I burned the motor, after [my battery fell off during a 4S battery test][todo: link to video].
+I had a strong reason to believe that I burned the motor, after [my battery fell off during a 4S battery test][4].
 
 The first question you should always ask yourself, if unsure, is:
 
@@ -54,9 +54,9 @@ This is great, and is very simple and easy way to isolate the issue down to the 
 
 In some cases, if you have the skills, time and desire you can just proceed and repair your motor. In other cases it might make more sense to just [order a new one][2] and replace the faulty one. I opted in for the later, and after a decent chunk of time passed, I finally got my motor and was able to proceed.
 
-![GEPRC Phantom replacement motor](how-to-swap-a-motor-on-the-geprc-phantom-1.jpg)
+![GEPRC Phantom replacement motor](how-to-replace-a-motor-on-the-geprc-phantom-1.jpg)
 
-![GEPRC Phantom motor and spare screws, stickers](how-to-swap-a-motor-on-the-geprc-phantom-4.jpg)
+![GEPRC Phantom motor and spare screws, stickers](how-to-replace-a-motor-on-the-geprc-phantom-4.jpg)
 
 **When ordering a motor, pay attention to the KV value, stator size and also the motor shaft size.** Alternatively, you could also swap all 4 motors, as this would be a good time to do so, if say you were planning a motor upgrade. Just make sure that whatever you pick makes sense with the quad's ESC, AUW (all-up-weight) and your prop choice. You don't want to get 4 new motors just to burn the ESCs and have to then replace those as well, do you?
 
@@ -64,19 +64,37 @@ When working with micros, in some cases the motors will come with a plug and if 
 
 In my case the spare motor did come with a plug, but as the motors are actually directly soldered to the board on the [GEPRC Phantom][1], I had to remove the connector from the motor and prep the wires for soldering by stripping the silicone insulation a bit and pretinning them with a bit of solder.
 
-Then desolder the old motor wires. It should be a quick job as the wires and pads are very small and they don't require a ton of heat. Quickly in and out, without spending too much time on the board.
+Unscrew the mounting motor screws.
 
-Finally solder up the new motor wires in place, carefully observing not to bridge any of the pads.
+![Unscrewed motor on the GEPRC Phantom](how-to-replace-a-motor-on-the-geprc-phantom-2.jpg)
+
+And then desolder the old motor wires from the ESC.
+
+![Flight stack of the GEPRC Phantom](how-to-replace-a-motor-on-the-geprc-phantom-3.jpg)
+
+To finally remove the offending motor.
+
+![Old bad GEPRC Phantom motor](how-to-replace-a-motor-on-the-geprc-phantom-6.jpg)
+
+It should be a quick job as the wires and pads are very small and they don't require a ton of heat. Go quickly in and out with the sodlering iron, without spending too much time on the board.
+
+Finally solder up the new motor wires in place, carefully observing not to bridge any of the pads. Then screw the motor onto the arm so we can proceed to test it.
+
+![New motor soldered on the GEPRC Phantom](how-to-replace-a-motor-on-the-geprc-phantom-5.jpg)
 
 ### ✅ Validating and configuring the new motor
 
 Before we go out flying, here are a few things to consider:
 
-1. Is the motor direction correct?
+**1. Does the new motor actually work?**
+
+> Dead on arrival motors are not unheard of and although a rare occurance, can happen!
+
+**2. Is the motor direction correct?**
 
 > It's always good to double check this. If the direction is not correct, you can change it by desoldering 2 of the motor wires and swaping the pads where you solder them back. Or, even better, change the direction in software with BL Heli [TODO: new ones?]...
 
-2. Do we need to calibrate the ESCs?
+**3. Do we need to calibrate the ESCs?**
 
 > Probaly not. If you are running DSHOT the answer is **definitely not**. No need for calibration. If you are not running DSHOT, you can calibrate via the motors tab in Betaflight following the procedure in [this article about changing ESCs and motors][3].
 
@@ -84,18 +102,14 @@ Generally speaking, that's really all there is to it. The process is overall str
 
 I hope it works out well for you and happy flying!
 
-![](how-to-swap-a-motor-on-the-geprc-phantom-2.jpg)
-
-![](how-to-swap-a-motor-on-the-geprc-phantom-3.jpg)
-![](how-to-swap-a-motor-on-the-geprc-phantom-5.jpg)
-![](how-to-swap-a-motor-on-the-geprc-phantom-6.jpg)
-![](how-to-swap-a-motor-on-the-geprc-phantom-7.jpg)
+![GEPRC Phantom with new motor and new HQ 65mm props](how-to-replace-a-motor-on-the-geprc-phantom-7.jpg)
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/aCDpAAAzQAM?rel=0&list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=15" frameBorder="0" allowFullScreen title="Georgi FPV GEPRC Phantom footage"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sDu8JbPATlc?rel=0" frameBorder="0" allowFullScreen title="Georgi FPV GEPRC Phantom back in action after a motor swap"></iframe>
 </div>
 
 [0]: Linkslist
 [1]: https://bit.ly/geprc-phantom
 [2]: https://bit.ly/geprc-phantom-motor
 [3]: /fpv/replace-wizard-esc-and-motor/
+[4]: https://www.youtube.com/watch?v=5ai_mL7htww
