@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
+// import AdSense from 'react-adsense'
 import DiscussionEmbed from '../components/Disqus'
 import Layout from '../components/structure/layout'
 import FeedbackSection from '../components/FeedbackSection'
@@ -195,7 +196,6 @@ class BlogPostTemplate extends React.Component {
             />
             {readerQuestions && <ReaderQuestions data={readerQuestions} />}
             <SupportSection affiliateNote={post.frontmatter.affiliate} />
-
             <DiscussionEmbed
               shortname={disqusShortname}
               config={disqusConfig}
@@ -209,6 +209,7 @@ class BlogPostTemplate extends React.Component {
               linkTo={bannerLinkBottom}
               imageName="square"
             />
+            {/* TODO: Add AdSense */}
           </div>
         </div>
       </Layout>
