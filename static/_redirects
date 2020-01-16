@@ -17,7 +17,6 @@ https://blog.georgi-yanev.com/news/*                        https://blog.georgi-
 
 # Plebs be tryin to access those locations. Got'em.
 /wp-login.php                                               /
-/ads.txt                                                    /
 /config.json                                                /
 
 # 404s uncovered through Netlify Analytics
