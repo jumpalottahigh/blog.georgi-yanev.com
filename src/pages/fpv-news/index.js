@@ -56,16 +56,16 @@ const FpvNewsPage = ({ data }) => (
         ))}
       </div>
     </StyledFpvNewsPage>
-    // ads with no set-up
+    {/* ads with no set-up */}
     <AdSense.Google client="ca-pub-8470358888871889" slot="4359638919" />
-    // ads with custom format
+    {/* ads with custom format */}
     <AdSense.Google
       client="ca-pub-8470358888871889"
       slot="4359638919"
       style={{ width: 500, height: 300, float: 'left' }}
       format=""
     />
-    // responsive and native ads
+    {/* responsive and native ads */}
     <AdSense.Google
       client="ca-pub-8470358888871889"
       slot="4359638919"
@@ -73,7 +73,7 @@ const FpvNewsPage = ({ data }) => (
       layout="in-article"
       format="fluid"
     />
-    // auto full width responsive ads
+    {/* auto full width responsive ads */}
     <AdSense.Google
       client="ca-pub-8470358888871889"
       slot="4359638919"
