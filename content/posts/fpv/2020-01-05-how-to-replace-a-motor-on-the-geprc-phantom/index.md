@@ -24,6 +24,8 @@ ogImage: './how-to-replace-a-motor-on-the-geprc-phantom-2.jpg'
 
 Replacing a motor on your quad is for the most part fairly straight forward. But in this guide, I'd like to also go over debugging a motor and ESC and figuring out the faulty component, as well as verification and configuration after the replacement.
 
+If you prefer watching, check out the [video version of this post on the FPVtips YouTube channel][7].
+
 Let's get to it!
 
 ### 🧪 Debugging a drone motor
@@ -121,3 +123,4 @@ I hope it works out well for you and happy flying!
 [4]: https://www.youtube.com/watch?v=5ai_mL7htww&t=111
 [5]: /fpv/how-to-change-mobula7-hd-motor/
 [6]: https://github.com/blheli-configurator/blheli-configurator/releases
+[7]: https://www.youtube.com/watch?v=MYFAHx4gWeE
