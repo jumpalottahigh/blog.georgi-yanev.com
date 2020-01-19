@@ -15,8 +15,8 @@ gearList:
   - 'eachine-e016f'
   - 'geprc-hovercraft-frame'
 ogKeywords: 'repair, diy, swap a motor, debug motor, fix motor, fpv, quad, drone, phantom, geprc phantom, microdrone, toothpick, micro quad, dvr, flying micro drone, fly micro quad, fpv racing, fpv freestyle, freestyle micro drone, setup, motor fix, replace a motor, swap a motor on a drone'
-ogDescription: "Replacing a motor on your quad is for the most part fairly straight forward. But in this guide, I'd like to also go over debugging a motor and ESC and figuring out the faulty component, as well as verification and configuration after the replacement."
-ogImage: './how-to-replace-a-motor-on-the-geprc-phantom-2.jpg'
+ogDescription: "But while figuring out how to put together my own craft, and while waiting for the snow to come (it's been record high temperatures in Finland and we still don't have any snow?!), I bought one of these ready to zip around, cheap hovercraft to see what they are all about."
+ogImage: './e016f-hover-craft-and-a-drone-4.jpg'
 ---
 
 I love FPV! And so far I've only really done drone FPV. I am looking forward to trying out a few other ways of exploring the world with FPV wings, hovercraft and even a submarine.
@@ -142,19 +142,13 @@ I had a ton of fun flying this with my son. He's too young to fly anything else,
 
 I really do enjoy the hovercraft experience. It's also a fun thing to do together with my son, and I can absolutely let him control the craft on his own in this mode. He's having a ton of fun driving it around. The craft is surprisingly controllable, and I can't wait to take it outside in the snow once the snow finally arrives.
 
-TODO: sample footage
-
-<div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/b34dhDPSXLk?rel=0" frameBorder="0" allowFullScreen title="Georgi FPV GEPRC Phantom back in action after a motor swap - Avon Rush 2.5 inch props"></iframe>
-</div>
-
 ### 🔝 <span id="fpv-upgrade" class="offset-top-nav">FPV upgrade</span>
 
-TODO:
+Coming soon.
 
 ### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
-I think the [Eachine E015F][1] is a pretty nice little toy to bring in people around you into the hobby. It's great for little and big kids, it's really cheap, and it performs fine. It's not one of those toys you will try out and toss in the garbage cause they don't move around at all or are too hard to control.
+I think the [Eachine E016F][1] is a pretty nice little toy to bring in people around you into the hobby. It's great for little and big kids, it's really cheap, and it performs fine. It's not one of those toys you will try out and toss in the garbage cause they don't move around at all or are too hard to control.
 
 Controlling it in hovercraft mode, especially on hardwood floor is prety good. In fact, it even goes on some carpets, which is definitely appreciated. But at the same time, this is still just a toy and so long as you don't expect mirracles out of it, you'll have a good time.
 
