@@ -197,6 +197,16 @@ const allFeaturedGear = {
     link: 'https://bit.ly/geprc-phantom-motor',
     image: '/banggood/geprc-phantom-motor.jpg',
   },
+  'eachine-e016f': {
+    name: 'Eachine E016F',
+    link: 'https://bit.ly/eachine-e016f',
+    image: '/banggood/eachine-e016f.jpg',
+  },
+  'geprc-hovercraft-frame': {
+    name: 'GEPRC Hovercraft Frame',
+    link: 'https://bit.ly/geprc-hovercraft-frame',
+    image: '/banggood/geprc-hovercraft-frame.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
