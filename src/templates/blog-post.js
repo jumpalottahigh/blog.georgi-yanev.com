@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
-// import AdSense from 'react-adsense'
+import AdSense from 'react-adsense'
 import DiscussionEmbed from '../components/Disqus'
 import Layout from '../components/structure/layout'
 import FeedbackSection from '../components/FeedbackSection'
@@ -188,6 +188,13 @@ class BlogPostTemplate extends React.Component {
             />
             <FeaturedGear gearList={post.frontmatter.gearList} />
             <PromoBanner linkTo={bannerLink} imageName="stripe4" />
+            <AdSense.Google
+              client="ca-pub-8470358888871889"
+              slot="7225507221"
+              format="auto"
+              responsive="true"
+              layoutKey="-gw-1+2a-9x+5c"
+            />
             <FeedbackSection />
             <AskAQuestion />
             <RelatedArticles
@@ -209,7 +216,14 @@ class BlogPostTemplate extends React.Component {
               linkTo={bannerLinkBottom}
               imageName="square"
             />
-            {/* TODO: Add AdSense */}
+            <AdSense.Google
+              client="ca-pub-8470358888871889"
+              slot="4359638919"
+              style={{ display: 'block', margin: '3rem auto' }}
+              format="auto"
+              responsive="true"
+              layoutKey="-gw-1+2a-9x+5c"
+            />
           </div>
         </div>
       </Layout>

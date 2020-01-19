@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { graphql, Link } from 'gatsby'
 import { motion } from 'framer-motion'
+import AdSense from 'react-adsense'
 
 import Layout from '../components/structure/layout'
 import PostsList from '../components/PostsList'
@@ -222,6 +223,15 @@ class BlogIndex extends React.Component {
           </h3>
           <TinyLetterSignup />
           <YouTubeChannelsPromo text="... or check out my YouTube channels:" />
+
+          <AdSense.Google
+            client="ca-pub-8470358888871889"
+            slot="4359638919"
+            style={{ display: 'block', margin: '3rem auto' }}
+            format="auto"
+            responsive="true"
+            layoutKey="-gw-1+2a-9x+5c"
+          />
         </div>
       </Layout>
     )
