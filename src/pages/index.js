@@ -224,16 +224,14 @@ class BlogIndex extends React.Component {
           <TinyLetterSignup />
           <YouTubeChannelsPromo text="... or check out my YouTube channels:" />
 
-          <div style={{ display: 'flex' }}>
-            <AdSense.Google
-              client="ca-pub-8470358888871889"
-              slot="4359638919"
-              style={{ display: 'block', margin: '3rem auto' }}
-              format="auto"
-              responsive="true"
-              layoutKey="-gw-1+2a-9x+5c"
-            />
-          </div>
+          <AdSense.Google
+            client="ca-pub-8470358888871889"
+            slot="4359638919"
+            style={{ display: 'block', margin: '3rem auto', maxWidth: '100%' }}
+            format="auto"
+            responsive="true"
+            layoutKey="-gw-1+2a-9x+5c"
+          />
         </div>
       </Layout>
     )
