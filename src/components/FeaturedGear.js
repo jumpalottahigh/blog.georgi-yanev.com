@@ -207,6 +207,11 @@ const allFeaturedGear = {
     link: 'https://bit.ly/geprc-hovercraft-frame',
     image: '/banggood/geprc-hovercraft-frame.jpg',
   },
+  'eachine-vtx-camera-aio': {
+    name: 'GEPRC Hovercraft Frame',
+    link: 'https://bit.ly/eachine-vtx-camera-aio',
+    image: '/banggood/eachine-vtx-camera-aio.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`

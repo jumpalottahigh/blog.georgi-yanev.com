@@ -14,6 +14,7 @@ tags:
 gearList:
   - 'eachine-e016f'
   - 'geprc-hovercraft-frame'
+  - 'eachine-vtx-camera-aio'
 ogKeywords: 'repair, diy, swap a motor, debug motor, fix motor, fpv, quad, drone, phantom, geprc phantom, microdrone, toothpick, micro quad, dvr, flying micro drone, fly micro quad, fpv racing, fpv freestyle, freestyle micro drone, setup, motor fix, replace a motor, swap a motor on a drone'
 ogDescription: "But while figuring out how to put together my own craft, and while waiting for the snow to come (it's been record high temperatures in Finland and we still don't have any snow?!), I bought one of these ready to zip around, cheap hovercraft to see what they are all about."
 ogImage: './e016f-hovercraft-and-a-drone-4.jpg'
@@ -144,7 +145,20 @@ I really do enjoy the hovercraft experience. It's also a fun thing to do togethe
 
 ### 🔝 <span id="fpv-upgrade" class="offset-top-nav">FPV upgrade</span>
 
-Coming soon.
+So, how to add FPV to the [Eachine E016F][1]? One of the easiest ways to do that is to add a [camera + vtx all-in-one][4] unit. You could grab one from an old tiny whoop you have lying around, or grab this [Eachine TX02][4]. It's lightweight, will do what you need it to do and pretty cheap too.
+
+The only thing you should make sure, whatever camera and vtx all in one unit you choose, is that it **works with input power between: 3.3-5V**. That's important because I didn't manage to find a 5V step up on the hovercraft's board, which means we will be operating off of a lower battery voltage. So a camera that needs 5V or higher input is out of the question, or you would need to do some additional setup, which is beyond the point of this easy mod.
+
+For my mod, I'll be using this very old all-in-one camera and vtx from an [Eachine E010S][5] I bought a couple of years ago.
+
+The unit only requires power to run, so we just need to solder it's ground (black) wire to ground on the hovercraft board and the red wire to 3.3V on the hovercraft.
+
+Initially I tried the pads right behind the front led, but that did not work.
+Then I decided I'll just add the wires to the battery terminal pads. After checking with a multimeter, I found out which side was ground and then soldered ground to ground and voltage to voltage, as described above.
+
+I had to cut out a hole on the top cover in order for the camera wires to come through. This probably compromises the water resistance of the craft a bit, so do keep that in mind, or use a bit of hot glue to at least restore it to it's previous water resistance properties by sealing the hole, after you setup the camera in place. To attach the camera, I just used 3m double sided sticky tape.
+
+That's all there is to it. Here's some sample footage, it was actually surprisingly even more fun to glide this around, than I anticipated.
 
 ### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
@@ -156,3 +170,5 @@ Controlling it in hovercraft mode, especially on a hardwood floor is pretty good
 [1]: https://bit.ly/eachine-e016f
 [2]: https://bit.ly/geprc-hovercraft-frame
 [3]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
+[4]: https://bit.ly/eachine-vtx-camera-aio
+[5]: https://bit.ly/eachine-e010s
