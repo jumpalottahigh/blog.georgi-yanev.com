@@ -40,6 +40,12 @@ But while figuring out how to put together my own craft, and while waiting for t
 - [🔝 FPV upgrade](#fpv-upgrade)
 - [📑 Conclusion](#conclusion)
 
+If you prefer watching, check out the full video review on my YouTube channel:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/W4f8TyaOjBw?rel=0" frameBorder="0" allowFullScreen title="Eachine E016F hvoercraft full review"></iframe>
+</div>
+
 ### 📦 <span id="unboxing">Unboxing</span>
 
 Let's have a look at what you get in the box.
@@ -115,13 +121,13 @@ Move the left (throttle) stick all the way up. Then move it all the way down. Th
 Let's talk modes. So this craft has 3 modes for moving around. **Ground, water and air**. You can tell which mode you're in by the color of the LED on the front of the quad.
 
 **Red** - drone flight mode
-![Eachine E016F](e016f-hovercraft-and-a-drone-18.jpg)
+![Eachine E016F red front LED](e016f-hovercraft-and-a-drone-18.jpg)
 
 **Green** - ground hovercraft mode
-![Eachine E016F](e016f-hovercraft-and-a-drone-19.jpg)
+![Eachine E016F green front LED](e016f-hovercraft-and-a-drone-19.jpg)
 
 **Blue** - water hovercraft mode
-![Eachine E016F](e016f-hovercraft-and-a-drone-20.jpg)
+![Eachine E016F blue front LED](e016f-hovercraft-and-a-drone-20.jpg)
 
 #### How to change modes?
 
@@ -151,14 +157,39 @@ The only thing you should make sure, whatever camera and vtx all in one unit you
 
 For my mod, I'll be using this very old all-in-one camera and vtx from an [Eachine E010S][5] I bought a couple of years ago.
 
+![Eachine E010S](e016f-hovercraft-and-a-drone-22.jpg)
+
 The unit only requires power to run, so we just need to solder it's ground (black) wire to ground on the hovercraft board and the red wire to 3.3V on the hovercraft.
 
-Initially I tried the pads right behind the front led, but that did not work.
-Then I decided I'll just add the wires to the battery terminal pads. After checking with a multimeter, I found out which side was ground and then soldered ground to ground and voltage to voltage, as described above.
+Initially I tried the pads right behind the front led, but that did not work (R C D - +).
 
-I had to cut out a hole on the top cover in order for the camera wires to come through. This probably compromises the water resistance of the craft a bit, so do keep that in mind, or use a bit of hot glue to at least restore it to it's previous water resistance properties by sealing the hole, after you setup the camera in place. To attach the camera, I just used 3m double sided sticky tape.
+![Eachine E016F board](e016f-hovercraft-and-a-drone-21.jpg)
+
+Then I decided I'll just add the wires to the battery terminal pads. The battery connector is under the board, but its connector is soldered with a through hole pins and those come up on top of the board (right hand side of the board, next to a motor connector).
+
+After checking with a multimeter, I found out which side was ground and then soldered ground to ground and voltage to voltage. If you look at the picture below, the upper pin is ground, the lower is voltage.
+
+![Eachine E016F with FPV camera soldered 1](e016f-hovercraft-and-a-drone-23.jpg)
+
+![Eachine E016F with FPV camera soldered 2](e016f-hovercraft-and-a-drone-24.jpg)
+
+I had to cut out a hole in the top cover in order for the camera wires to come through.
+
+![Eachine E016F with cut out on the top](e016f-hovercraft-and-a-drone-28.jpg)
+
+This probably compromises some of the craft's water resistance (which I have no clue how good is anyway). But if you want to go back at least as close as possible to its previous state use a bit of hot glue to seal the hole, after you setup the camera in place.
+
+To attach the camera, I just used 3m double sided sticky tape.
+
+![Eachine E016F FPV camera attached with 3m double sided sticky tape](e016f-hovercraft-and-a-drone-27.jpg)
 
 That's all there is to it. Here's some sample footage, it was actually surprisingly even more fun to glide this around, than I anticipated.
+
+![Eachine E016F with FPV mod](e016f-hovercraft-and-a-drone-29.jpg)
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/OvrQs372rbA?rel=0" frameBorder="0" allowFullScreen title="Eachine E016F FPV mod"></iframe>
+</div>
 
 ### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
