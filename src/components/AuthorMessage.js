@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
 
-const AuthorMessage = ({ type = 'fpv' }) => {
+const AuthorMessage = ({ type = 'fpv', style }) => {
   const authorImage = useStaticQuery(graphql`
     {
       georgiFpv: file(relativePath: { regex: "/^home/georgi-face.png/" }) {
@@ -30,12 +30,12 @@ const AuthorMessage = ({ type = 'fpv' }) => {
 
   return (
     <div
-      css={``}
       style={{
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         marginBottom: '1rem',
+        ...style,
       }}
     >
       <div style={{ width: '20%' }}>

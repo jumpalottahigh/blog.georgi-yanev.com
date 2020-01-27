@@ -122,7 +122,7 @@ const AboutPage = () => (
         </a>
         <a href="https://www.georgi-yanev.com/bio/">Bio</a>
         <a href="https://www.gyanev.com/cv/">CV</a>
-        <Link to="/learning/goal-review-of-2018-and-goals-for-2019/">
+        <Link to="/learning/my-2019-in-review/">
           My last year in review post
         </Link>
       </div>

@@ -6,14 +6,18 @@ import { graphql, useStaticQuery } from 'gatsby'
 const StyledYouTubeChannelsPromo = styled.div`
   display: flex;
   flex-flow: column nowrap;
+  overflow: hidden;
 
   a {
     width: 100%;
     box-shadow: none !important;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
 
     &:hover {
       color: #0175d8 !important;
-      transform: scale(1.05);
+      transform: translate(30px) scale(1.05);
       z-index: 9;
     }
   }
@@ -50,7 +54,7 @@ const YouTubeChannelsPromo = ({ text, ...rest }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          fpvtips
+          FPVtips
           <Img
             fluid={images.youtubeFpvtips.childImageSharp.fluid}
             alt="FPVTIPS YouTube channel"

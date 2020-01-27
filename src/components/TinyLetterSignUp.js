@@ -123,7 +123,7 @@ const TinyLetterSignup = () => {
         </a>
         <h3>📰 Monthly Newsletter</h3>
       </div>
-      <p className="one">Want to get notified when I drop a new post?</p>
+      {/* <p className="one">Want to get notified when I drop a new post?</p> */}
       <form
         action="https://tinyletter.com/fpvtips"
         method="post"

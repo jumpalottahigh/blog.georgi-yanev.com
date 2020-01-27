@@ -4,7 +4,6 @@ import { FaFacebookSquare, FaTwitterSquare } from 'react-icons/fa'
 
 const StyledShare = styled.section`
   padding: 1rem 0;
-  border-top: 1px solid #cecece;
 
   h4 {
     margin: 0;

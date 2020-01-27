@@ -178,17 +178,7 @@ class BlogIndex extends React.Component {
           <Link style={{ marginRight: '0.5rem' }} to="/posts/">
             <button className="category fpv">More blog posts</button>
           </Link>
-          <div
-            className="article-update-notification"
-            style={{ marginTop: '2rem' }}
-          >
-            For more FPV related goodness, make sure you checkout{' '}
-            <strong>
-              <a href="https://www.fpvtips.com">Fpvtips.com</a>
-            </strong>{' '}
-            which I launched a while back!
-          </div>
-          <AuthorMessage type="fpv" />
+          <AuthorMessage type="fpv" style={{ marginTop: '2rem' }} />
 
           {loadVideo && (
             <div className="video-container">
@@ -219,10 +209,10 @@ class BlogIndex extends React.Component {
           )}
           <h3>
             If you are still hungry for more FPV related things, definitely
-            subscribe to my monthly FPV newsletter...
+            subscribe to the monthly newsletter...
           </h3>
           <TinyLetterSignup />
-          <YouTubeChannelsPromo text="... or check out my YouTube channels:" />
+          <YouTubeChannelsPromo text="... or check out the YouTube channels:" />
 
           <AdSense.Google
             client="ca-pub-8470358888871889"
