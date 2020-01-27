@@ -6,7 +6,6 @@ import DiscussionEmbed from '../components/Disqus'
 import Layout from '../components/structure/layout'
 import FeedbackSection from '../components/FeedbackSection'
 import RelatedArticles from '../components/RelatedArticles'
-import SupportSection from '../components/SupportSection'
 import Share from '../components/Share'
 import ReadProgressLine from '../components/ReadProgressLine'
 import TinyLetterSignup from '../components/TinyLetterSignUp'
@@ -18,7 +17,6 @@ import ReaderQuestions from '../components/ReaderQuestions'
 import PromoBanner from '../components/PromoBanner'
 import FeaturedGear from '../components/FeaturedGear'
 import YouTubeChannelsPromo from '../components/YouTubeChannelsPromo'
-import Giveaway from '../components/Giveaway'
 import Tags from '../components/Tags'
 
 class BlogPostTemplate extends React.Component {
@@ -196,7 +194,7 @@ class BlogPostTemplate extends React.Component {
               format="auto"
               responsive="true"
               layoutKey="-gw-1+2a-9x+5c"
-              style={{ margin: '1rem auto' }}
+              style={{ display: 'block', margin: '1rem auto' }}
             />
             <RelatedArticles
               currentPagePath={post.frontmatter.path}
