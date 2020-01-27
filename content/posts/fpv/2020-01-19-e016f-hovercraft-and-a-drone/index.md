@@ -1,6 +1,7 @@
 ---
 path: '/fpv/eachine-e016f-hovercraft-and-drone/'
 date: '2020-01-19'
+updated: '2020-01-26'
 title: 'Eachine E016F: Hovercraft and drone'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'

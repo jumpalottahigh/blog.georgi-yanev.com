@@ -1,6 +1,7 @@
 ---
 path: '/fpv/geprc-phantom-review-and-setup/'
 date: '2019-10-18'
+updated: '2020-01-27'
 title: 'GEPRC Phantom - My favorite toothpick for 2019'
 author: 'Georgi Yanev'
 draft: false
@@ -248,6 +249,12 @@ Flying the [GEPRC Phantom][1] on a 2S 350mah battery, stock bi blade props.
 
 The stock props fly well, but even the smallest bump causes them to oscillate on subsequent flights. Maybe the plastic is too flimsy, I don't know. It's also funny but it doesn't seem to impact the flight characteristics, but the noise is annoying and especially so given how quiet this quad is otherwise. I was also told recently that the [HQ 2.5 inch bi-blade prop][3] (which looks very similar if not the same as the stock props) is stiffer and does not have the same issues. We will have to wait and see on that one. Those are in the mail and I will update as soon as possible.
 
+**Update: And here we go!** The HQs fly really nice, no complaints, but I still prefer the (SPOILER ALERT) Avon Rush 2.5 inch tri-blade props 😅.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sDu8JbPATlc?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=19&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom with HQ 65mm bi-blade props"></iframe>
+</div>
+
 #### 🌀🌀🌀🌀 Avon 2 inch quad-blade props
 
 This one was for science and out of curiosity and the conclusion is: **lol, don't do this**. It made no sense, made the quad fly like garbage, drew a lot more amps and didn't feel nice at all. This type of prop is better left to cinewhoops.
@@ -316,7 +323,7 @@ Happy toothpick flying!
 
 ![GEPRC Phantom getting ready for taking off 2](geprc-phantom-review-and-setup-20.jpg)
 
-P.S.: Here's the [complete playlist of more than 18 (and counting) raw flight footage videos of the Phantom][9] on my second channel:
+P.S.: Here's the [complete playlist of more than 28 (and counting) raw flight footage videos of the Phantom][9] on my second channel:
 
 [0]: Linkslist
 [1]: https://bit.ly/geprc-phantom

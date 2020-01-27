@@ -8,6 +8,7 @@ const FormContainer = styled.div`
   align-items: center;
   padding: 1rem 0;
   border-top: 1px solid #cecece;
+  border-bottom: 1px solid #cecece;
 
   h4,
   p {
