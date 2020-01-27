@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, navigate } from 'gatsby'
 import Img from 'gatsby-image'
+import AdSense from 'react-adsense'
 import svgRightArrow from '../images/right-arrow.svg'
 
 const ALL_CATEGORIES = ['fpv', 'projects', 'learning', 'stories', 'smarthome']
@@ -330,6 +331,7 @@ export default class PostsList extends React.Component {
       showImage,
       showSearch,
       showTags,
+      withAds,
     } = this.props
 
     return (
@@ -467,11 +469,24 @@ export default class PostsList extends React.Component {
         ) : null}
         <ul className="list-none m-t-1">
           {currentFilter === 'all' && allPosts
-            ? allPosts.map(post => {
+            ? allPosts.map((post, index) => {
                 // Explicitly don't render stories with all the other posts
                 // stories are a minor publishing and should only exist when that category is active
                 if (post.node.frontmatter.category !== 'stories') {
-                  return (
+                  return index > 0 && withAds === 'yes' && index % 4 === 0 ? (
+                    <AdSense.Google
+                      client="ca-pub-8470358888871889"
+                      slot="4359638919"
+                      style={{
+                        display: 'block',
+                        margin: '3rem auto',
+                        maxWidth: '100%',
+                      }}
+                      format="auto"
+                      responsive="true"
+                      layoutKey="-gw-1+2a-9x+5c"
+                    />
+                  ) : (
                     <Post
                       key={post.node.id}
                       post={post}
@@ -522,5 +537,6 @@ export default class PostsList extends React.Component {
   showSearch="yes|no"
   filterCategoriesAndTagsFromURLParams="yes|no"
   posts={posts}
+  withAds="yes|no"
 /> */
 }

@@ -190,33 +190,34 @@ class BlogPostTemplate extends React.Component {
             <PromoBanner linkTo={bannerLink} imageName="stripe4" />
             <FeedbackSection />
             <AskAQuestion />
-            <RelatedArticles
-              currentPagePath={post.frontmatter.path}
-              relatedArticles={post.frontmatter.tags}
-            />
             <AdSense.Google
               client="ca-pub-8470358888871889"
               slot="7225507221"
               format="auto"
               responsive="true"
               layoutKey="-gw-1+2a-9x+5c"
+              style={{ margin: '1rem auto' }}
+            />
+            <RelatedArticles
+              currentPagePath={post.frontmatter.path}
+              relatedArticles={post.frontmatter.tags}
             />
             {readerQuestions && <ReaderQuestions data={readerQuestions} />}
             {/* TODO: Move out support section into a dedicated page. Only 1 small link on articles, maybe at the top toolbar */}
             {/* <SupportSection affiliateNote={post.frontmatter.affiliate} /> */}
+            <Share url={post.frontmatter.path} />
             <DiscussionEmbed
               shortname={disqusShortname}
               config={disqusConfig}
             />
-            <Share url={post.frontmatter.path} />
             {/* <Giveaway /> */}
-            <TinyLetterSignup />
             <YouTubeChannelsPromo text="Need even more FPV in your life? Check out my YouTube channels:" />
-            <PromoBanner
+            {/* <PromoBanner
               style={{ maxWidth: '450px', margin: '1rem auto' }}
               linkTo={bannerLinkBottom}
               imageName="square"
-            />
+            /> */}
+            <TinyLetterSignup />
             <AdSense.Google
               client="ca-pub-8470358888871889"
               slot="4359638919"

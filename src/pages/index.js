@@ -174,6 +174,7 @@ class BlogIndex extends React.Component {
             showCategories="no"
             showSearch="no"
             posts={posts}
+            withAds="yes"
           />
           <Link style={{ marginRight: '0.5rem' }} to="/posts/">
             <button className="category fpv">More blog posts</button>
@@ -234,7 +235,7 @@ export const HomePageQuery = graphql`
   query HomePageQuery {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      limit: 10
+      limit: 20
       filter: {
         frontmatter: { draft: { ne: true }, category: { ne: "stories" } }
         fileAbsolutePath: { regex: "/content/posts/" }
