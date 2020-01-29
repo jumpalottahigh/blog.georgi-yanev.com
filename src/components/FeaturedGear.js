@@ -212,6 +212,11 @@ const allFeaturedGear = {
     link: 'https://bit.ly/eachine-vtx-camera-aio',
     image: '/banggood/eachine-vtx-camera-aio.jpg',
   },
+  mobula6: {
+    name: 'Mobula6',
+    link: 'https://bit.ly/mobula-6',
+    image: '/banggood/mobula6.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
