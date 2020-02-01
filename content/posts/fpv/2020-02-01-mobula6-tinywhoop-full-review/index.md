@@ -18,7 +18,13 @@ ogDescription: 'TODO:'
 ogImage: './mobula6-tinywhoop-full-review-13.jpg'
 ---
 
-TODO: INTRO
+It's a truly great time for our FPV racing and freestyle drones hobby. For one, we get to enjoy a pretty rapid rate of tech improvement. Even though I've been into FPV drones for about a little under 3 years, it never seizes to amaze me how much thing have changed.
+
+The [Mobula 6][1] is the living embodiment of these rapid changes.
+
+...
+
+To me the Mobula 6 is a technological marvel of sorts. I'll explain.
 
 ### Table of contents
 
@@ -79,7 +85,17 @@ TODO: Extract the Betaflight config dump before proceeding
 
 #### Eachine 300mah battery
 
+Mention the labeled vs real C rating, add pictures
+
+![](mobula6-tinywhoop-full-review-17.jpg)
+
 #### GNB 450mah battery for science?
+
+How to mount with a rubber band.
+
+![](mobula6-tinywhoop-full-review-18.jpg)
+
+![](mobula6-tinywhoop-full-review-19.jpg)
 
 #### Outdoors
 
