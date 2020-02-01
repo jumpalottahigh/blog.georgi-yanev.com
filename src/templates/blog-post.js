@@ -192,7 +192,6 @@ class BlogPostTemplate extends React.Component {
               client="ca-pub-8470358888871889"
               slot="7225507221"
               format="auto"
-              responsive="true"
               layoutKey="-gw-1+2a-9x+5c"
               style={{ display: 'block', margin: '1rem auto' }}
             />
@@ -221,7 +220,6 @@ class BlogPostTemplate extends React.Component {
               slot="4359638919"
               style={{ display: 'block', margin: '3rem auto' }}
               format="auto"
-              responsive="true"
               layoutKey="-gw-1+2a-9x+5c"
             />
           </div>
