@@ -67,6 +67,8 @@ TODO: INTRO
 
 ### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
 
+TODO: Extract the Betaflight config dump before proceeding
+
 **🔗 Bind the receiver to a radio**
 
 **👀 Check the Betaflight configuration**
