@@ -208,7 +208,7 @@ const allFeaturedGear = {
     image: '/banggood/geprc-hovercraft-frame.jpg',
   },
   'eachine-vtx-camera-aio': {
-    name: 'GEPRC Hovercraft Frame',
+    name: 'Eachine TX02 AIO',
     link: 'https://bit.ly/eachine-vtx-camera-aio',
     image: '/banggood/eachine-vtx-camera-aio.jpg',
   },

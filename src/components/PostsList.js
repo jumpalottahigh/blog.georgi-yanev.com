@@ -475,6 +475,7 @@ export default class PostsList extends React.Component {
                 if (post.node.frontmatter.category !== 'stories') {
                   return index > 0 && withAds === 'yes' && index % 4 === 0 ? (
                     <AdSense.Google
+                      key={`ad-${index}`}
                       client="ca-pub-8470358888871889"
                       slot="4359638919"
                       style={{
