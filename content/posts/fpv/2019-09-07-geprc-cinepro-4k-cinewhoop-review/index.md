@@ -10,6 +10,7 @@ tags:
   - 'micro'
   - 'drone'
   - 'geprc'
+  - 'review'
 gearList:
   - 'geprc-cinepro-4k'
   - 'caddx-tarsier-4k'

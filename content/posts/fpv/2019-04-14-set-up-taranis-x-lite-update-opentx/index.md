@@ -13,6 +13,7 @@ tags:
   - 'x-lite'
   - 'opentx'
   - 'gear'
+  - 'review'
 gearList:
   - 'taranis-x-lite'
   - 'x-lite-lotus-stick-ends'
