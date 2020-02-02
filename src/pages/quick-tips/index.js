@@ -144,7 +144,6 @@ const QuickTipsPage = ({ data }) => {
   return (
     <Layout>
       <Section>
-        {/* TODO: add a close button for dismissal */}
         {submitted && (
           <div className="form-success">
             Thanks for submitting your question!
@@ -152,19 +151,6 @@ const QuickTipsPage = ({ data }) => {
         )}
         <h2>FPV Quick Tips</h2>
 
-        {/* TODO: Search icon and input */}
-        {/* <Collapsible
-          classParentString="search"
-          trigger={
-            <span role="img" aria-label="magnifying glass emoji">
-              🔎
-            </span>
-          }
-          transitionTime={125}
-          easing="ease-out"
-        >
-          <input type="text" />
-        </Collapsible> */}
         <p>
           Ask a question below and get your question featured on this page along
           side its answer.
