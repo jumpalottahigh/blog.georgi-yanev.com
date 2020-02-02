@@ -69,6 +69,14 @@ To me the Mobula 6 is a technological marvel of sorts. I'll explain.
 
 ![](mobula6-tinywhoop-full-review-16.jpg)
 
+![](mobula6-tinywhoop-full-review-20.jpg)
+
+![](mobula6-tinywhoop-full-review-21.jpg)
+
+![](mobula6-tinywhoop-full-review-22.jpg)
+
+![](mobula6-tinywhoop-full-review-23.jpg)
+
 ### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
 
 ### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
@@ -80,6 +88,14 @@ TODO: Extract the Betaflight config dump before proceeding
 **👀 Check the Betaflight configuration**
 
 ### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
+
+- create a table with flying times comparisons:
+- paste a pic of the table
+- paste screenshots of video endings with stats
+
+without ESC flashing: 300mah stock | 300 mah eachine | 450 GNB / 450 emax
+
+with ESC flashing: 300mah stock | 300 mah eachine | 450 GNB / 450 emax
 
 #### Maiden flight, stock 300mah battery
 
@@ -98,6 +114,8 @@ How to mount with a rubber band.
 ![](mobula6-tinywhoop-full-review-19.jpg)
 
 #### Outdoors
+
+some jello in no to low wind conditions.
 
 - Flight time comparison stab vs acro mode
 - Flight time comparison with different batteries
