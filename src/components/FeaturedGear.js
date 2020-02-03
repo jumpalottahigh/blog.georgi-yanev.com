@@ -217,6 +217,11 @@ const allFeaturedGear = {
     link: 'https://bit.ly/mobula-6',
     image: '/banggood/mobula6.jpg',
   },
+  'larva-x-hd': {
+    name: 'Larva X HD',
+    link: 'https://bit.ly/larva-x-hd',
+    image: '/banggood/larva-x-hd.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
