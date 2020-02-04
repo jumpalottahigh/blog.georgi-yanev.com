@@ -222,6 +222,11 @@ const allFeaturedGear = {
     link: 'https://bit.ly/larva-x-hd',
     image: '/banggood/larva-x-hd.jpg',
   },
+  'gemfan-1219': {
+    name: 'Gemfan 1219',
+    link: 'https://bit.ly/gemfan-1219',
+    image: '/banggood/gemfan-1219.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
