@@ -14,6 +14,9 @@ tags:
 gearList:
   - 'mobula6'
   - 'gemfan-1219'
+  - 'gnb-1s-350'
+  - 'uruav-1s-300'
+  - 'gnb-1s-450'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, happymodel, happy model, mobula6, mobula 6, micro, freestyle, toothpick, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, emax freestyle, emax tinyhawk, tinyhawk, what toothpick to buy, which toothpick micro drone to get, emax toothpick, emax micro drone, happy model micro drone, happymodel mobula6, mobula6 micro drone, tinywhoop, mobula6 tiny whoop, mobula6 48 khz, mobula6 48khz mod'
 ogDescription: "It's a truly great time for our FPV racing and freestyle drones hobby. For one, we get to enjoy a pretty rapid rate of tech improvement. Even though I've been into FPV drones for about a little under 3 years, it never seizes to amaze me how much things have changed."
@@ -141,27 +144,56 @@ If you didn't do that, I've done that for you - here is the [stock Mobula6 Betaf
 
 ### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
 
-![](mobula6-tinywhoop-full-review-15.jpg)
+I was very excited and curious to fly the Mobula6 for the first time. **My first immediate impression was how easy was handling without sacrificing any performance**. It only took me a couple of packs to get very comfortable with the drone. I started with flying it stock with no modifications.
 
-![](mobula6-tinywhoop-full-review-16.jpg)
+#### Maiden indoor flight, stock 300mah battery
 
-- the 300mah eachine battery label and print on the battery itself dont match C rating.
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/DEBMEWkzK80?rel=0" frameBorder="0" allowFullScreen title="Mobula6 maiden"></iframe>
+</div>
 
-- create a table with flying times comparisons:
-- paste a pic of the table
-- paste screenshots of video endings with stats
+**I always enjoy trying out different battery and prop combinations in my reviews** and this time I had a lot of tests to carry out.
 
-without ESC flashing: 300mah stock | 300 mah eachine | 450 GNB / 450 emax
+TODO:
 
-with ESC flashing: 300mah stock | 300 mah eachine | 450 GNB / 450 emax
+Besides flying on the stock Happymodel 300mah battery, I wanted to see if there was any difference with a similar Eachine branded 300mah battery.
 
-#### Maiden flight, stock 300mah battery
+![Eachine 1s 300mah battery](mobula6-tinywhoop-full-review-15.jpg)
+
+**The short of it is that there was no noticable big difference**, despite the fact the Eachine battery is engaging in some "slight" false advertising, stating it's C rating is higher than it actually is (40C on the outer label, 30C on the battery enclosure). This makes it essentially identical to the stock Happymodel battery and since it did perform very similarly in my initial tests, the tests for the Eachine battery ended here.
+
+![Eachine 1s 300mah battery peeled open to reveal actual 30 C rating](mobula6-tinywhoop-full-review-17.jpg)
+
+The third battery I wanted to try out was this [GNB 450mah][8] as I have plenty of those lying around.
+
+![GNB and Emax 1S 450mah batteries](mobula6-tinywhoop-full-review-16.jpg)
+
+And since we're doing this for science, I wanted to try out each battery type **indoor** and **outdoor**. Then, I wanted to **do it all again after I do the 48kHz esc flashing mod**.
+
+#### Maiden outdoor flight, stock 300mah battery
+
+I was **very impressed how this little guy held up outdoors** and did not expect it to be that good. My house was a bit too small to be able to fly indoors in acro mode, but that was not the case outside. I really **loved flying it in acro mode**! Locked in tune and easy to handle! If you watch one video only, watch the one below.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wsYHAh6wjLY?rel=0" frameBorder="0" allowFullScreen title="Mobula6 maiden outdoor flight"></iframe>
+</div>
+
+#### Outdoor flight, 450mah GNB battery
+
+TODO: ...
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cbxoLULju90?rel=0" frameBorder="0" allowFullScreen title="Mobula6 outdoor 450mah battery"></iframe>
+</div>
+
+Here are my findings:
+[TODO: Table][todo: paste screenshots of video endings with stats]
+
+Perhaps one of the most interesting finding was that while I could fly fairly decently indoors on a 450mah battery and with an increased flight time, the story was quite the opposite outdoors. I got consistently much shorter flight times, had to be almost at all times at more than 60% throttle and you could feel the weight of the battery. **I'm fairly convinced a 350mah battery (didnt see any 400mah available) might be the best option on the flight time vs performance trade off**. I'll be doing that test as soon as I can, but do bear in mind for now that's just my hypothesis and if you're unsure, but want to grab extra batteries right now, the 300mah URUAVs or GNBs are a safe bet.
 
 #### Eachine 300mah battery
 
 Mention the labeled vs real C rating, add pictures
-
-![](mobula6-tinywhoop-full-review-17.jpg)
 
 #### GNB 450mah battery for science?
 
@@ -180,6 +212,12 @@ some jello in no to low wind conditions.
 - Flight time comparison with 48kHz mod
 
 ### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
+
+[TODO: expand and create a list]
+
+Why all the min-maxing though? Well for one, this quad is doing so many things so well and is **so light that small changes to weight can have significant impact**. Also it's fun 😅
+
+You already get a very decent flight time of about 4:00 - 4:30 minutes. And you can even increase this further by finding the perfect battery size (maybe the 350mah?), doing the 48 kHz ESC mod, replace the PH2.0 connector with the new [BT2.0 connector][11] by Betafpv and finally remove the motor plugs and direct solder the motors to the board. I'm just wondering if we can get up to 7 or why not even 8 minutes of flight time on the Mobula6 😬. Let me know if you carry out all of these upgrades and manage reach some sick flight times, I'd be very happy to hear about it!
 
 - 48 kHz mod! Flight time comparison
 - Props?
@@ -200,3 +238,7 @@ IF you really wanna MINMAX, remove the plugs and solder the motors directly.
 [5]: https://bit.ly/mobula7-hd
 [6]: https://bit.ly/larva-x-hd
 [7]: https://bit.ly/gemfan-1219
+[8]: https://bit.ly/micro-drone-batteries
+[9]: https://bit.ly/gnb-1s-350
+[10]: https://bit.ly/uruav-1s-300
+[11]: https://betafpv.com/collections/batt-1s/products/bt2-0-connectors-10pcs
