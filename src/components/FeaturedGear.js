@@ -227,6 +227,16 @@ const allFeaturedGear = {
     link: 'https://bit.ly/gemfan-1219',
     image: '/banggood/gemfan-1219.jpg',
   },
+  'gnb-1s-350': {
+    name: 'GNB 1S 350mah',
+    link: 'https://bit.ly/gnb-1s-350',
+    image: '/banggood/gnb-1s-350.jpg',
+  },
+  'uruav-1s-300': {
+    name: 'URUAV 1S 300mah',
+    link: 'https://bit.ly/uruav-1s-300',
+    image: '/banggood/uruav-1s-300.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
