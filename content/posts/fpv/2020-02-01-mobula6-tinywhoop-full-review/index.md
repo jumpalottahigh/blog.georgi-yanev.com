@@ -1,7 +1,7 @@
 ---
-path: '/fpv/mobula6-review-complete-setup-48-khz-esc-mod/'
+path: '/fpv/mobula6-48khz-jesc-complete-setup-review/'
 date: '2020-02-01'
-title: 'Mobula6: Complete setup and 48kHz ESC mod'
+title: 'Mobula6: Complete setup and 48kHz JESC mod'
 author: 'Georgi Yanev'
 draft: false
 category: 'fpv'
@@ -130,31 +130,51 @@ Overall, especially for being a fairly cheap product, the components are of good
 
 ### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
 
-TODO: Extract the Betaflight config dump before proceeding
+As with most other quads, to get started we need to **bind a radio controller to the drone's receiver** and take a **look at the Betaflight configuration**.
 
-**🔗 Bind the receiver to a radio**
+#### 🔗 Bind the receiver to a radio
 
-The Mobula6 comes with a printed manual, but you can also [get it online in pdf form][4].
+The Mobula6 comes with a printed manual, but you can also [get it online in pdf form][4]. Those are simple to the point 1 pagers, generally useful to quickly answer some of your immediate questions, such as, where is the bind button 😅?
 
-**👀 Check the Betaflight configuration**
+TODO: Picture and continue. Write as short as possible.
 
-> It's always a good idea to save a copy of your stock configuration. That's easy to do by connecting your quad to Betaflight, going to the CLI tab and typing the `dump` command. That's gonna list all of the quad's configuration. You can then click the `Save to file` button to save yourself a backup copy, before making any changes to the config.
+#### 👀 Check the Betaflight configuration
 
-If you didn't do that, I've done that for you - here is the [stock Mobula6 Betaflight configuration](BTFL_cli_Mobula_6_stock.txt).
+Before we even start going through and potentially changing the Betaflight configuration, it's a good rule of thumb to export a copy of the current configuration as a backup, in case we need to restore to it later.
+
+You can do this by going to the CLI tab and running the `dump` command. Then save that information to a file. Now you have a back up. If you ever goof up, you can load the configuration back from that file or by pasting its contents straight into the CLI here.
+
+![Betaflight CLI tab](mobula6-tinywhoop-full-review-24.jpg)
+
+If you didn't do that, I've done that for you - here is the [stock Mobula6 Betaflight configuration dump for v3.5.7](BTFL_cli_Mobula_6_stock.txt).
+
+Configuring the [Mobula6][1] was the first time I didn't touch a single option in Betaflight. Why I'm sharing this is because I've been noticing a trend of having to do less and less before I get up in the air flying. I think that's a great trend and I wanted to take a moment to appreciate it. Tinkering with your quad to your heart's content is not going anywhere, but it's nice to see the barrier of entry getting ever so slightly lowered, this is great if we want to welcome more and new people to the hobby.
+
+This is what I go through quickly when checking a quad's configuration:
+
+TODO: Continue here.
+
+![Betaflight Configuration tab part 1](mobula6-tinywhoop-full-review-25.jpg)
+
+![Betaflight Configuration tab part 2](mobula6-tinywhoop-full-review-26.jpg)
+
+![Betaflight Receiver tab](mobula6-tinywhoop-full-review-27.jpg)
+
+![Betaflight Modes tab](mobula6-tinywhoop-full-review-28.jpg)
+
+![Betaflight OSD tab](mobula6-tinywhoop-full-review-29.jpg)
 
 ### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
 
 I was very excited and curious to fly the Mobula6 for the first time. **My first immediate impression was how easy was handling without sacrificing any performance**. It only took me a couple of packs to get very comfortable with the drone. I started with flying it stock with no modifications.
 
-#### Maiden indoor flight, stock 300mah battery
+#### 🏡 Maiden indoor flight, stock 300mah battery 🔋
 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/DEBMEWkzK80?rel=0" frameBorder="0" allowFullScreen title="Mobula6 maiden"></iframe>
 </div>
 
 **I always enjoy trying out different battery and prop combinations in my reviews** and this time I had a lot of tests to carry out.
-
-TODO:
 
 Besides flying on the stock Happymodel 300mah battery, I wanted to see if there was any difference with a similar Eachine branded 300mah battery.
 
@@ -168,9 +188,49 @@ The third battery I wanted to try out was this [GNB 450mah][8] as I have plenty 
 
 ![GNB and Emax 1S 450mah batteries](mobula6-tinywhoop-full-review-16.jpg)
 
-And since we're doing this for science, I wanted to try out each battery type **indoor** and **outdoor**. Then, I wanted to **do it all again after I do the 48kHz esc flashing mod**.
+And since we're doing this for science, I wanted to try out each battery type **indoor** and **outdoor**. Then, I wanted to **do it all again after I did the 48kHz esc flashing mod**.
 
-#### Maiden outdoor flight, stock 300mah battery
+Before I show you the flight footage, here is the comparison and my findings of flying different battery sizes, indoor, outdoor and before and after flashing the ESCs.
+
+|            | 🏡 Indoor 300mah battery 🔋 |
+| ---------- | --------------------------- |
+| Stock ESC  | Average ~ `4:17m`           |
+| 48 kHz ESC | Average ~ `TODO:`           |
+
+|            | 🏡 Indoor 450mah battery 🔋 |
+| ---------- | --------------------------- |
+| Stock ESC  | Average ~ `5:16m`           |
+| 48 kHz ESC | Average ~ `TODO:`           |
+
+|            | 🌄 Outdoor 300mah 🔋 |
+| ---------- | -------------------- |
+| Stock ESC  | Average ~ `4:00m`    |
+| 48 kHz ESC | Average ~ `TODO:`    |
+
+|            | 🌄 Outdoor 450mah 🔋 |
+| ---------- | -------------------- |
+| Stock ESC  | Average ~ `2:45m`    |
+| 48 kHz ESC | Average ~ `TODO:`    |
+
+Perhaps an interesting observation is that while I could fly fairly decently indoors on a 450mah battery and with an increased flight time, the story was quite the opposite outdoors. I got consistently much shorter flight times, had to be almost at all times at more than 60% throttle and I could feel the weight of the battery significantly impacting the flight performance.
+
+**I'm fairly convinced a 350mah battery (didnt see any 400mah available) might be the best option on the flight time vs performance trade off**. I'll be doing that test as soon as I can, but do bear in mind for now that's just my hypothesis and if you're unsure, but want to grab extra batteries right now, the 300mah URUAVs or GNBs are a safe bet.
+
+#### 🏡 Indoor flight, 450mah battery 🔋
+
+Since the battery didn't fit into the battery bay I used a rubber band to mount it.
+
+![Guide rubber band through Mobula6 battery bay](mobula6-tinywhoop-full-review-18.jpg)
+
+![Attach 450mah 1S battery to Mobula6 via rubber band](mobula6-tinywhoop-full-review-19.jpg)
+
+I could feel the extra weight a bit but it wasn't too bad. I assume mainly because my place is a bit small and I don't really reach particularly much higher than cruising speeds.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/82ZDLYa6QSQ?rel=0" frameBorder="0" allowFullScreen title="Mobula6 indoor 450mah GNB battery"></iframe>
+</div>
+
+#### 🌄 Maiden outdoor flight, stock 300mah battery 🔋
 
 I was **very impressed how this little guy held up outdoors** and did not expect it to be that good. My house was a bit too small to be able to fly indoors in acro mode, but that was not the case outside. I really **loved flying it in acro mode**! Locked in tune and easy to handle! If you watch one video only, watch the one below.
 
@@ -178,57 +238,66 @@ I was **very impressed how this little guy held up outdoors** and did not expect
   <iframe width="560" height="315" src="https://www.youtube.com/embed/wsYHAh6wjLY?rel=0" frameBorder="0" allowFullScreen title="Mobula6 maiden outdoor flight"></iframe>
 </div>
 
-#### Outdoor flight, 450mah GNB battery
+#### 🌄 Outdoor flight, 450mah GNB battery 🔋
 
-TODO: ...
+This flight was a bit of a let down. Unlike the indoor 450mah battery flight, here I got a pretty short flight time of around **2:30m**. It was a pretty calm day with a bit of slight breeze every once in a while. The bigger battery's extra weight seemed to take its toll, and was noticable even when cruising as I had the throttle higher on average.
 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/cbxoLULju90?rel=0" frameBorder="0" allowFullScreen title="Mobula6 outdoor 450mah battery"></iframe>
 </div>
 
-Here are my findings:
-[TODO: Table][todo: paste screenshots of video endings with stats]
+Now let's compare to the flight time after I flashed the JESC 48 kHz firmware.
 
-Perhaps one of the most interesting finding was that while I could fly fairly decently indoors on a 450mah battery and with an increased flight time, the story was quite the opposite outdoors. I got consistently much shorter flight times, had to be almost at all times at more than 60% throttle and you could feel the weight of the battery. **I'm fairly convinced a 350mah battery (didnt see any 400mah available) might be the best option on the flight time vs performance trade off**. I'll be doing that test as soon as I can, but do bear in mind for now that's just my hypothesis and if you're unsure, but want to grab extra batteries right now, the 300mah URUAVs or GNBs are a safe bet.
+#### Indoor flight, JESC 48 kHz, 300mah GNB battery
 
-#### Eachine 300mah battery
+TODO: write up + video
 
-Mention the labeled vs real C rating, add pictures
+#### Indoor flight, JESC 48 kHz, 450mah GNB battery
 
-#### GNB 450mah battery for science?
+TODO: write up + video
 
-How to mount with a rubber band.
+#### Outdoor flight, JESC 48 kHz, 300mah GNB battery
 
-![](mobula6-tinywhoop-full-review-18.jpg)
+TODO: write up + video
 
-![](mobula6-tinywhoop-full-review-19.jpg)
+#### Outdoor flight, JESC 48 kHz, 450mah GNB battery
 
-#### Outdoors
-
-some jello in no to low wind conditions.
-
-- Flight time comparison stab vs acro mode
-- Flight time comparison with different batteries
-- Flight time comparison with 48kHz mod
+TODO: write up + video
 
 ### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
 
-[TODO: expand and create a list]
+We already get pretty decent flight times of about 4:00 - 4:30 minutes. What if we could push this further?
+
+- **Flash 48 kHz ESC firmware**
+  > _This has been an amazing discovery / knowledge shared around our FPV community. I first found out about it in Joshua Bardwell's Mobula6 video's comments section, posted by a user called Dan Miller. Thanks for sharing that with us Dan! I'll go through the exact procedure how to set it up right after the upgrades list._
+- **Replace the PH2.0 connector with the new [BT2.0 connector][11] by Betafpv**
+  > _Claimed to deliver up to 10% battery overall performance boost_
+- **Remove motor plugs and direct solder motors to the board**
+  > _Unless I get very bored, I won't be bothering with this, but some people believe this does improve performance a bit. I'm not saying it won't, but I'm not convinced it's worth it. Nevertheless, it's here on the list if you feel like truly maximizing your Mobula6's performance._
+- **Use Betaflight 4.1 and RPM filters?**
+  > _My Mobula6 came with `Betaflight v3.5.7` on it. If you wanna do RPM filters, you need to use version 4.1. Filters are known to improve flight characteristics, but I'm not sure if they will help with battery life. Chances are they might. Do some more research first, though, and let me know too._
+- **Is a battery size of 350mah the best option on the weight vs performance trade off?**
+  > _I'm curious to learn more about this one. I'm quite convinced that a 350mah sized battery would be the best fit, but I have yet to test this._
+- **Discover better props?**
+  > _This seems a bit like a long shot, as the Gemfan props already perform stellar. You never know though! Let me know if you discover better props._
+
+I'm just wondering if we can get up to 7 or why not even 8 minutes of flight time on the Mobula6 😬. Let me know if you carry out all of these upgrades and manage to reach some sick flight times, I'd be very happy to hear about it!
 
 Why all the min-maxing though? Well for one, this quad is doing so many things so well and is **so light that small changes to weight can have significant impact**. Also it's fun 😅
 
-You already get a very decent flight time of about 4:00 - 4:30 minutes. And you can even increase this further by finding the perfect battery size (maybe the 350mah?), doing the 48 kHz ESC mod, replace the PH2.0 connector with the new [BT2.0 connector][11] by Betafpv and finally remove the motor plugs and direct solder the motors to the board. I'm just wondering if we can get up to 7 or why not even 8 minutes of flight time on the Mobula6 😬. Let me know if you carry out all of these upgrades and manage reach some sick flight times, I'd be very happy to hear about it!
+#### How to flash Mobula6 ESC for 48kHz
 
-- 48 kHz mod! Flight time comparison
-- Props?
-
-- the new Betaflight battery connector for another 10% minmaxing boost
-
-IF you really wanna MINMAX, remove the plugs and solder the motors directly.
+TODO: Write out the guide, add pictures
 
 ### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
-- Props and batteries, chargers to featured gear
+TODO: Write conclusion
+
+- Write Setup section
+- Add Betaflight pictures
+- Review entire article
+- Spell check
+- 1 charger to the gear section
 
 [0]: Linkslist
 [1]: https://bit.ly/mobula-6
