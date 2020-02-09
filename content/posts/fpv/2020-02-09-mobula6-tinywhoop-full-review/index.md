@@ -1,6 +1,6 @@
 ---
 path: '/fpv/mobula6-48khz-jesc-complete-setup-review/'
-date: '2020-02-01'
+date: '2020-02-09'
 title: 'Mobula6: Complete setup and flashing 48kHz JESC firmware'
 author: 'Georgi Yanev'
 draft: false
