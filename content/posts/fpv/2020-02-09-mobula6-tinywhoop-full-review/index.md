@@ -25,7 +25,7 @@ ogDescription: "It's a truly great time for our FPV racing and freestyle drones 
 ogImage: './mobula6-tinywhoop-full-review-13.jpg'
 ---
 
-It's a truly great time for our FPV racing and freestyle hobby. For one, we get to enjoy a pretty rapid rate of tech improvement. Even though I've been into FPV drones for about a little under 3 years, it never ceases to amaze me just how much things have changed.
+It's truly a great time for our FPV racing and freestyle hobby. For one, we get to enjoy a pretty rapid rate of tech improvement. Even though I've been into FPV drones for about a little under 3 years, it never ceases to amaze me just how much things have changed.
 
 **The [Mobula 6][1] micro drone is a living embodiment of these rapid changes**. It's a very well-executed product, and at only 20g it's easily one of the smallest and lightest micro drones out there, that still zips around plenty fast on brushless motors and handles superbly.
 
@@ -101,7 +101,7 @@ The canopy is plastic and allows for adjusting the camera angle via screws (I ha
 
 The same goes for the frame. I don't expect miracles from it, but it's held up fine for now and I've smacked my Mobula6 around quite a bunch indoors and outdoors over the past couple of weeks. The only thing so far is the plastic getting a bit whiter on one spot after a harder impact, but didn't crack and remained still solid and in one piece. If needed [replacement frames][12] are easy to obtain for about \$4.
 
-[TODO: Only video: I would imagine you could probably even print a micro-frame yourself? Let me know in the comments if anyone of you has ever had some luck with 3D printed frames for micro drones in particular.]
+I would imagine you could probably even print a micro-frame yourself? Let me know in the comments if anyone of you has ever had some luck with 3D printed frames for micro drones in particular.
 
 The battery bay houses the provided 300mah batteries perfectly as you would imagine. For bigger batteries, you can remove the battery bay completely, or use a rubber band for a somewhat decent fit, while not damaging the capability to fit perfectly the stock batteries. I'll show you how I attached my 450mah batteries a bit later in the article.
 
@@ -222,27 +222,27 @@ The third battery I wanted to try out was this [GNB 450mah][8] as I have plenty 
 
 And since we're doing this for science, I wanted to try out each battery type **indoor** and **outdoor**. Then, I wanted to **do it all again after I did the 48kHz esc flashing mod**.
 
-Before I show you the flight footage, here is the comparison and my findings of flying different battery sizes, indoor, outdoor and before and after flashing the ESCs.
+Before I show you the flight footage, here is the comparison and my findings of flying different battery sizes, indoor, outdoor and before and after flashing the ESCs. All batteries were high voltage (HV) batteries and were charged to 4.35v.
 
 |            | 🏡 Indoor 300mah battery 🔋 |
 | ---------- | --------------------------- |
 | Stock ESC  | Average ~ `4:17m`           |
-| 48 kHz ESC | Average ~ `4:56m`           |
+| 48 kHz ESC | Average ~ `5:05m`           |
 
 |            | 🏡 Indoor 450mah battery 🔋 |
 | ---------- | --------------------------- |
 | Stock ESC  | Average ~ `5:16m`           |
-| 48 kHz ESC | Average ~ `TODO:`           |
+| 48 kHz ESC | Average ~ `4:24m`           |
 
-|            | 🌄 Outdoor 300mah 🔋 |
-| ---------- | -------------------- |
-| Stock ESC  | Average ~ `4:00m`    |
-| 48 kHz ESC | Average ~ `TODO:`    |
+|            | 🌄 Outdoor 300mah 🔋    |
+| ---------- | ----------------------- |
+| Stock ESC  | Average ~ `4:00m`       |
+| 48 kHz ESC | Average ~ `Coming soon` |
 
-|            | 🌄 Outdoor 450mah 🔋 |
-| ---------- | -------------------- |
-| Stock ESC  | Average ~ `2:45m`    |
-| 48 kHz ESC | Average ~ `TODO:`    |
+|            | 🌄 Outdoor 450mah 🔋    |
+| ---------- | ----------------------- |
+| Stock ESC  | Average ~ `2:45m`       |
+| 48 kHz ESC | Average ~ `Coming soon` |
 
 Perhaps an interesting observation is that while I could fly fairly decently indoors on a 450mah battery and with increased flight time, the story was quite the opposite outdoors. I got consistently much shorter flight times, had to be almost at all times at more than 60% throttle and I could feel the weight of the battery significantly impacting the flight performance.
 
@@ -278,23 +278,31 @@ This flight was a bit of a letdown. Unlike the indoor 450mah battery flight, her
   <iframe width="560" height="315" src="https://www.youtube.com/embed/cbxoLULju90?rel=0" frameBorder="0" allowFullScreen title="Mobula6 outdoor 450mah battery"></iframe>
 </div>
 
-Now let's compare to the flight time after I flashed the JESC 48 kHz firmware.
+So how did things change after I flashed the JESC 48 kHz firmware? Let's compare.
 
-#### Indoor flight, JESC 48 kHz, 300mah GNB battery
+#### 🏡 Indoor flight, JESC 48 kHz, 300mah stock battery 🔋
 
-TODO: write up + video
+On average we gained a flight time increase of **+ 48 seconds**. Not bad at all! Also chances are I'm flying even faster since I've gotten so much more used to the Mobula6 by now.
 
-#### Indoor flight, JESC 48 kHz, 450mah GNB battery
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FzyjrwdPZFg?rel=0" frameBorder="0" allowFullScreen title="Mobula6 indoor 300mah stock battery after JESC 48 khz firmware"></iframe>
+</div>
 
-TODO: write up + video
+#### 🏡 Indoor flight, JESC 48 kHz, 450mah GNB battery 🔋
 
-#### Outdoor flight, JESC 48 kHz, 300mah GNB battery
+It would appear that we have lost up to **- 52 seconds** of flight time. Given in the first attempts I was flying much less aggressive and had a few crashes I needed to recover from with turtle mode (which counted as flying time) this could explain the result. **HOWEVER**, I never claimed nor attempted for the highest accuracy scientifically correct experiment, but the point here for me still stands - **at best, there is no improvement in flight time with the heavier battery**.
 
-TODO: write up + video
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sxuJzyF1P1g?rel=0" frameBorder="0" allowFullScreen title="Mobula6 indoor 450mah GNB 1S battery after JESC 48 khz firmware"></iframe>
+</div>
 
-#### Outdoor flight, JESC 48 kHz, 450mah GNB battery
+#### 🌄 Outdoor flight, JESC 48 kHz, 300mah stock battery 🔋
 
-TODO: write up + video
+Coming soon...
+
+#### 🌄 Outdoor flight, JESC 48 kHz, 450mah GNB battery 🔋
+
+Coming soon...
 
 ### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
 
