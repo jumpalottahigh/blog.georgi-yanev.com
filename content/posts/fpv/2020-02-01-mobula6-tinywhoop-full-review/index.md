@@ -1,7 +1,7 @@
 ---
 path: '/fpv/mobula6-48khz-jesc-complete-setup-review/'
 date: '2020-02-01'
-title: 'Mobula6: Complete setup and 48kHz JESC mod'
+title: 'Mobula6: Complete setup and flashing 48kHz JESC firmware'
 author: 'Georgi Yanev'
 draft: false
 category: 'fpv'
@@ -17,19 +17,20 @@ gearList:
   - 'gnb-1s-350'
   - 'uruav-1s-300'
   - 'gnb-1s-450'
+  - 'uruav-1s-battery-charger'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, happymodel, happy model, mobula6, mobula 6, micro, freestyle, toothpick, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, emax freestyle, emax tinyhawk, tinyhawk, what toothpick to buy, which toothpick micro drone to get, emax toothpick, emax micro drone, happy model micro drone, happymodel mobula6, mobula6 micro drone, tinywhoop, mobula6 tiny whoop, mobula6 48 khz, mobula6 48khz mod'
 ogDescription: "It's a truly great time for our FPV racing and freestyle drones hobby. For one, we get to enjoy a pretty rapid rate of tech improvement. Even though I've been into FPV drones for about a little under 3 years, it never seizes to amaze me how much things have changed."
 ogImage: './mobula6-tinywhoop-full-review-13.jpg'
 ---
 
-It's a truly great time for our FPV racing and freestyle hobby. For one, we get to enjoy a pretty rapid rate of tech improvement. Even though I've been into FPV drones for about a little under 3 years, it never seizes to amaze me how much things have changed.
+It's a truly great time for our FPV racing and freestyle hobby. For one, we get to enjoy a pretty rapid rate of tech improvement. Even though I've been into FPV drones for about a little under 3 years, it never seizes to amaze me just how much things have changed.
 
-**The [Mobula 6][1] micro drone is a living embodiment of these rapid changes**. It's a very well executed product, and at only 20g it's easily one of the smallest and lightest micro drones out there, that still flies and feels like a bigger drone and not like a toy.
+**The [Mobula 6][1] micro drone is a living embodiment of these rapid changes**. It's a very well executed product, and at only 20g it's easily one of the smallest and lightest micro drones out there, that still zips around plenty fast on brushless motors and handles superbly.
 
-I've been buying and trying Happymodel's products since the Snapper7 a few years back, and have never been disappointed with them. The [Mobula7 HD][5] was a particular favorite of mine from 2019, and I'm still planning to try out the [Larva X HD][6] a bit later this year too.
+I've been buying and trying Happymodel's products since the Snapper7 a few years back, and have never been disappointed with any of them. The [Mobula7 HD][5] was a particular favorite of mine from 2019, and I'm still planning to try out the [Larva X HD][6] a bit later this year too.
 
-That's all just to say that while I do like Happymodel, I will be, as always, telling things as they are and not be fanboying around. This is not a paid advertisement, just my experience with the Mobula6. And it blew my mind a bit 😅. Let's go!
+That's all just to say that while I do like Happymodel, I will be, as always, telling things as they are and not be fanboying around. This is not a paid advertisement, just my experience with the Mobula6. And it blew my mind a little bit 😅. Let's take a look what all the fuss is about.
 
 ### Table of contents
 
@@ -38,6 +39,7 @@ That's all just to say that while I do like Happymodel, I will be, as always, te
 - [⚙ Setup](#setup)
 - [🚁 Flying](#flying)
 - [🔝 Upgrades](#upgrades)
+- [💾 Flash 48 kHz ESC firmware](#flash)
 - [📑 Conclusion](#conclusion)
 
 ### 📦 <span id="unboxing">Unboxing</span>
@@ -269,7 +271,7 @@ TODO: write up + video
 We already get pretty decent flight times of about 4:00 - 4:30 minutes. What if we could push this further?
 
 - **Flash 48 kHz ESC firmware**
-  > _This has been an amazing discovery / knowledge shared around our FPV community. I first found out about it in Joshua Bardwell's Mobula6 video's comments section, posted by a user called Dan Miller. Thanks for sharing that with us Dan! I'll go through the exact procedure how to set it up right after the upgrades list._
+  > _This has been an amazing discovery / knowledge shared around our FPV community. I first found out about it in Joshua Bardwell's Mobula6 video's comments section, posted by a user called Dan Miller. Thanks for sharing that with us Dan! I'll [go through the exact procedure](#flash) how to set it up a bit further in the article._
 - **Replace the PH2.0 connector with the new [BT2.0 connector][11] by Betafpv**
   > _Claimed to deliver up to 10% battery overall performance boost_
 - **Remove motor plugs and direct solder motors to the board**
@@ -285,19 +287,68 @@ I'm just wondering if we can get up to 7 or why not even 8 minutes of flight tim
 
 Why all the min-maxing though? Well for one, this quad is doing so many things so well and is **so light that small changes to weight can have significant impact**. Also it's fun 😅
 
-#### How to flash Mobula6 ESC for 48kHz
+### 💾 <span id="flash" class="offset-top-nav">How to flash Mobula6 ESC for 48kHz</span>
 
-TODO: Write out the guide, add pictures
+This is the one upgrade that's gonna take you 1 minute to do and will increase your flight times by at least 30 seconds. It's that simple.
+
+> _Just a word on BLHeli Configurator vs JESC Configurator. I normally use the BLHeli Configurator to do my ESC flashing, and you can use it to do the 48kHz firmware upgrade. However, that requires manual download of firmware files and is a bit more error prone, while using the JESC Configurator in this case is super straight forward, so we're going to use the latter._
+
+First, google for `jesc-configurator` and open the **Releases** and **Install instrucitons** links, in my case the first and third result in the list.
+
+![Googling for jesc-configurator](mobula6-tinywhoop-full-review-30.jpg)
+
+The **Releases** link is going to take you to the corresponding page on jesc-configurator on GitHub where you could download the software for your operating system. Download and extract the package and then start up the software.
+
+![JESC Configurator's GitHub releases page](mobula6-tinywhoop-full-review-31.png)
+
+The other link we opened contains the installation instructions, and the only thing to pay attention to, as highlighted in the screenshot below, we need to check if `H` is the middle letter in the ESC code, once read into the JESC software.
+
+![JESC Configurator installation instructions](mobula6-tinywhoop-full-review-32.png)
+
+As a rule of thumb **always take off the props** when dealing with drone ESC or flight controller configuration.
+Next, plugin the Mobula6 via a micro USB cable to the computer and also plug in a battery since we need power to the ESCs in order to read the setup.
+
+Let's look at the configurator. It's very similar to the BLHeli Configurator, in case you are familiar with that one. Select the correct `COM` port from the dropdown at the top right hand side. It should normally be preselected correctly. Click the blue `Connect` button.
+
+![JESC Configurator start screen](mobula6-tinywhoop-full-review-33.png)
+
+You are presented this screen. Click the `Read Setup` button in the bottom right hand side.
+
+![JESC Configurator connected to ESC](mobula6-tinywhoop-full-review-34.png)
+
+If all goes well you should now see all 4 ESCs listed in the right half of JESC Configurator. Take a look at the ESC code and make sure the middle letter is `H` as mentioned as a requirement in JESC's installation instructions. In the screenshot example below I have already flashed the JESC firmware successfully.
+
+Click the `Flash All` button at the bottom.
+
+![JESC Configurator listing all ESC settings](mobula6-tinywhoop-full-review-36.png)
+
+In this last step, select the `JESC 2.3 - 48khz` option from the `Version` list and click `Flash`.
+
+![JESC Configurator select 48khz firmware to write](mobula6-tinywhoop-full-review-37.png)
+
+Wait until all 4 ESCs are flashed successfully. When done click the `Disconnect` button at the top right, unplug your quad from the micro USB cable and the battery.
+
+**Congrats 🎉!** You should now have on average 30 seconds longer flight times for free. How cool is that?
 
 ### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
-TODO: Write conclusion
+Happymodel has once again delivered a fun experience. I'm trying hard not to over hype or call the [Mobula6][1] a technological achievement but in my opinion it kind of is. It comes at a very affordable price for what it offers, you get 4 batteries to rip around which for many beginners could just as well be enough.
+
+With flight times of 4:30 - 5:30 minutes, chances are by the time you've flown your other 3 batteries, the first will have charged up, if you plugged it in immediately after you flew it. So you could go for some pretty long flight sessions.
+
+**If this is your first quad getting into the hobby, I'm very comfortable recommending it**, as you will get an outstanding indoor experience and you would be able to rip some packs practicing acro mode outside as well.
+
+I love how light it is, and even though it already flies really well on Betaflight `v3.5.7`, upgrading to `4.1`, flashing the ESCs for 48khz PWM and the other potential upgrades I've highlighted above could deliver some really outstanding flight times.
+
+That's cool, because if this is your entry into the hobby, you can learn so much by tinkering with these things and trying out different setups. At the same time even if you just want to grab it and fly, you can do that in seconds. As I mentioned earlier I **literally had to do nothing in Betaflight**! This too is amazing because it lowers the barrier of entry to our hobby and really, if you have a pair of goggles and a radio, you can just bind to this guy in a few seconds and start flying!
+
+I'm looking forward to ripping more and more packs on this throught the remainder of the winter and I'll surely take it out with me when I start going to parks in the spring.
+
+Happy flying!
 
 - Write Setup section
-- Add Betaflight pictures
 - Review entire article
 - Spell check
-- 1 charger to the gear section
 
 [0]: Linkslist
 [1]: https://bit.ly/mobula-6
