@@ -212,6 +212,41 @@ const allFeaturedGear = {
     link: 'https://bit.ly/eachine-vtx-camera-aio',
     image: '/banggood/eachine-vtx-camera-aio.jpg',
   },
+  mobula6: {
+    name: 'Mobula6',
+    link: 'https://bit.ly/mobula-6',
+    image: '/banggood/mobula6.jpg',
+  },
+  'larva-x-hd': {
+    name: 'Larva X HD',
+    link: 'https://bit.ly/larva-x-hd',
+    image: '/banggood/larva-x-hd.jpg',
+  },
+  'gemfan-1219': {
+    name: 'Gemfan 1219',
+    link: 'https://bit.ly/gemfan-1219',
+    image: '/banggood/gemfan-1219.jpg',
+  },
+  'gnb-1s-350': {
+    name: 'GNB 1S 350mah',
+    link: 'https://bit.ly/gnb-1s-350',
+    image: '/banggood/gnb-1s-350.jpg',
+  },
+  'uruav-1s-300': {
+    name: 'URUAV 1S 300mah',
+    link: 'https://bit.ly/uruav-1s-300',
+    image: '/banggood/uruav-1s-300.jpg',
+  },
+  'uruav-1s-battery-charger': {
+    name: 'URUAV 1S battery charger',
+    link: 'https://bit.ly/uruav-1s-battery-charger',
+    image: '/banggood/uruav-1s-battery-charger.jpg',
+  },
+  'mobula6-frame': {
+    name: 'Mobula6 Frame',
+    link: 'https://bit.ly/mobula6-frame',
+    image: '/banggood/mobula6-frame.jpg',
+  },
   'cnhl-1300': {
     name: 'CNHL 1300mAh 4S',
     link: 'https://bit.ly/cnhl-1300',
