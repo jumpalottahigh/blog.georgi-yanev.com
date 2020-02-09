@@ -237,6 +237,11 @@ const allFeaturedGear = {
     link: 'https://bit.ly/uruav-1s-300',
     image: '/banggood/uruav-1s-300.jpg',
   },
+  'uruav-1s-battery-charger': {
+    name: 'URUAV 1S battery charger',
+    link: 'https://bit.ly/uruav-1s-battery-charger',
+    image: '/banggood/uruav-1s-battery-charger.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
