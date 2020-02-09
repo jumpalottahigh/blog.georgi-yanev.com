@@ -13,6 +13,7 @@ tags:
   - 'cinewhoop'
   - 'micro'
   - 'drone'
+  - 'review'
 gearList:
   - 'mobula7-hd'
   - 'caddx-turtle-v2'

@@ -1,7 +1,7 @@
 ---
 path: '/fpv/gear-2019/'
 date: '2019-07-10'
-updated: '2019-08-03'
+updated: '2020-02-02'
 title: 'My FPV drone gear for 2019'
 author: 'Georgi Yanev'
 draft: false
@@ -11,6 +11,25 @@ tags:
   - 'drone'
   - 'micro'
   - 'backpack'
+gearList:
+  - skyzone-sky02x
+  - aomway-commander
+  - aomway-antenna
+  - realacc-antenna
+  - 90deg-sma-male-to-female-connector
+  - taranis-x-lite
+  - taranis-q-x7
+  - emax-hawk-5
+  - mobula7-hd
+  - wizard-x220
+  - trashcan
+  - cnhl-1300
+  - gnb-1s-450
+  - lipo-battery-charger
+  - runcam-5
+  - eachine-rotg02
+  - realacc-backpack
+  - dalprop-cyclone-q2035c
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv racing drones, fpv freestyle, skyzone sky02x, skyzone, FPV, racing quads, Wizard x220, quad, drone, soldering iron, aomway commander, fpv goggles, eachine vr 007 pro, eachine ProDVR, aomway leaf clover antenna, frsky taranis, taranis, taranis qx7, flysky fs-i6, flysky transmitter, opentx transmitter, eachine wizard x220, eachine e010s, micro quad, lipo batteries, lipo battery charger, ts100 soldering iron, gear list, fpv list of used equipment, my fpv gear, fpv gear, fpv gear examples, required fpv gear, battery, charger, 4S, 2S, 3S, mobula7, mobula7 hd, cinewhoop, emax hawk 5, runcam 5, runcam, eachine, eachine trashcan, micro quad, micro drone, props'
 ogDescription: 'The gear I use in 2019 and the quads I fly the most! To get a sense of how I fly, follow FPVTIPS on Instagram or have a look at these Georgi FPV videos on YouTube.'

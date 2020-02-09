@@ -12,6 +12,8 @@ tags:
   - 'hovercraft'
   - 'micro'
   - 'drone'
+  - 'review'
+  - 'diy'
 gearList:
   - 'eachine-e016f'
   - 'geprc-hovercraft-frame'

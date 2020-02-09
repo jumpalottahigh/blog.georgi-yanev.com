@@ -11,6 +11,7 @@ tags:
   - 'toothpick'
   - 'micro'
   - 'drone'
+  - 'review'
 gearList:
   - 'emax-tinyhawk-freestyle'
   - 'gnb-1s-450'

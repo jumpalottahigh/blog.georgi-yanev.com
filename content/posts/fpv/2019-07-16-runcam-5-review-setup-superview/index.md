@@ -10,6 +10,7 @@ tags:
   - 'camera'
   - 'runcam'
   - 'freestyle'
+  - 'review'
 gearList:
   - 'runcam-5'
   - 'runcam-split-2s'

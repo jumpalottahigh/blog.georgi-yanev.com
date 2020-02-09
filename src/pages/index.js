@@ -220,7 +220,6 @@ class BlogIndex extends React.Component {
             slot="4359638919"
             style={{ display: 'block', margin: '3rem auto', maxWidth: '100%' }}
             format="auto"
-            responsive="true"
             layoutKey="-gw-1+2a-9x+5c"
           />
         </div>

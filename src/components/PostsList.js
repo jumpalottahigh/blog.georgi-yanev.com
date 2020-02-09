@@ -474,18 +474,19 @@ export default class PostsList extends React.Component {
                 // stories are a minor publishing and should only exist when that category is active
                 if (post.node.frontmatter.category !== 'stories') {
                   return index > 0 && withAds === 'yes' && index % 4 === 0 ? (
-                    <AdSense.Google
-                      client="ca-pub-8470358888871889"
-                      slot="4359638919"
-                      style={{
-                        display: 'block',
-                        margin: '3rem auto',
-                        maxWidth: '100%',
-                      }}
-                      format="auto"
-                      responsive="true"
-                      layoutKey="-gw-1+2a-9x+5c"
-                    />
+                    <li key={`ad-${index}`}>
+                      <AdSense.Google
+                        client="ca-pub-8470358888871889"
+                        slot="4359638919"
+                        style={{
+                          display: 'block',
+                          margin: '3rem auto',
+                          maxWidth: '100%',
+                        }}
+                        format="auto"
+                        layoutKey="-gw-1+2a-9x+5c"
+                      />
+                    </li>
                   ) : (
                     <Post
                       key={post.node.id}

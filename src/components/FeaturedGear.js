@@ -208,7 +208,7 @@ const allFeaturedGear = {
     image: '/banggood/geprc-hovercraft-frame.jpg',
   },
   'eachine-vtx-camera-aio': {
-    name: 'GEPRC Hovercraft Frame',
+    name: 'Eachine TX02 AIO',
     link: 'https://bit.ly/eachine-vtx-camera-aio',
     image: '/banggood/eachine-vtx-camera-aio.jpg',
   },
@@ -246,6 +246,11 @@ const allFeaturedGear = {
     name: 'Mobula6 Frame',
     link: 'https://bit.ly/mobula6-frame',
     image: '/banggood/mobula6-frame.jpg',
+  },
+  'cnhl-1300': {
+    name: 'CNHL 1300mAh 4S',
+    link: 'https://bit.ly/cnhl-1300',
+    image: '/banggood/cnhl-1300.jpg',
   },
 }
 

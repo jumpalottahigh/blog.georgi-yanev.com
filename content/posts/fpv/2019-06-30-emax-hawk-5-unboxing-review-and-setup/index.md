@@ -12,6 +12,7 @@ tags:
   - 'hawk5'
   - 'freestyle'
   - 'drone'
+  - 'review'
 gearList:
   - 'emax-hawk-5'
 ogKeywords: 'fpv, quad, drone, fpv racing, fpv freestyle, review, setup, setup emax hawk 5, upgrades, emax, hawk5, hawk 5, setup hawk 5, how to configure hawk 5, how to configure betaflight, how to configure taranis radio, how to configure radio, how to setup switches, how to setup mixers, BNF, bind and fly, high quality drone, high quality quad, high quality racing drone, frsky xm+, foxeer arrow, foxeer micro arrow'
