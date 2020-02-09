@@ -16,8 +16,9 @@ gearList:
   - 'gemfan-1219'
   - 'gnb-1s-350'
   - 'uruav-1s-300'
-  - 'gnb-1s-450'
   - 'uruav-1s-battery-charger'
+  - 'gnb-1s-450'
+  - 'mobula6-frame'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, happymodel, happy model, mobula6, mobula 6, micro, freestyle, toothpick, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, emax freestyle, emax tinyhawk, tinyhawk, what toothpick to buy, which toothpick micro drone to get, emax toothpick, emax micro drone, happy model micro drone, happymodel mobula6, mobula6 micro drone, tinywhoop, mobula6 tiny whoop, mobula6 48 khz, mobula6 48khz mod'
 ogDescription: "It's a truly great time for our FPV racing and freestyle drones hobby. For one, we get to enjoy a pretty rapid rate of tech improvement. Even though I've been into FPV drones for about a little under 3 years, it never seizes to amaze me how much things have changed."
@@ -98,15 +99,15 @@ The canopy is plastic and allows for adjusting the camera angle via screws (I ha
 
 ![Mobula6 back](mobula6-tinywhoop-full-review-9.jpg)
 
-Same goes for the frame. I don't expect miracles from it, but it's held up fine for now and I've smacked my Mobula6 around quite a bunch indoors and outdoors over the past couple of weeks. The only thing so far is the plastic getting a bit whiter on one spot from a crash, but still solid and in one piece. Either way, replacement frames if needed are easy to obtain for about \$4. [TODO: link to replacement frames - https://www.banggood.com/Happymodel-Bwhoop65-65mm-Brushless-Tiny-Whoop-Frame-Kit-For-Indoor-FPV-RC-Drone-p-1321622.html?rmmds=search&ID=229&cur_warehouse=CN]
+Same goes for the frame. I don't expect miracles from it, but it's held up fine for now and I've smacked my Mobula6 around quite a bunch indoors and outdoors over the past couple of weeks. The only thing so far is the plastic getting a bit whiter on one spot after a harder impact, but didn't crack and remained still solid and in one piece. If needed [replacement frames][12] are easy to obtain for about \$4.
 
-[TODO: Only video: I would imagine you could probably even print a micro frame yourself? Let me know in the comments if anyone of you has ever had some luck with 3D printer frames for micro drones in particular.]
+[TODO: Only video: I would imagine you could probably even print a micro frame yourself? Let me know in the comments if anyone of you has ever had some luck with 3D printed frames for micro drones in particular.]
 
 The battery bay houses the provided 300mah batteries perfectly as you would imagine. For bigger batteries you can remove the battery bay completely, or use a rubber band for a somewhat decent fit, while not damaging the capability to fit perfectly the stock batteries. I'll show you how I attached my 450mah batteries a bit later in the article.
 
 ![Mobula6 bottom](mobula6-tinywhoop-full-review-10.jpg)
 
-The [Mobula6][1] comes with an option of 19000KV or 25000KV motors. Not super much difference, but I opted in for the 19000KV version. The motors are **Happymodel branded SE0802** with 1mm shaft diameter and spin up Gemfan 1219 props.
+The [Mobula6][1] comes with an option of 19000KV or 25000KV motors. Not super much difference, but I opted in for the 19000KV version. The motors are **Happymodel branded SE0802** with 1mm shaft diameter. They spin up Gemfan 1219 tri-blade props which provide excellent handling in turns and offer more performance than quad-blade props.
 
 ![Mobula6 19000 motor](mobula6-tinywhoop-full-review-11.jpg)
 
@@ -118,17 +119,13 @@ The built in vtx and receiver antennas are guided out the sides of the canopy - 
 
 The camera is the RunCam Nano 3. It's a really good CMOS camera for its size and comes it at only 1.2g. You can adjust the camera angle via 2 screws on the sides of the canopy. And possible adjusting the foam padding placed under the camera to combat jello which it does, but not 100% successfully (as you can see in some of my outdoor sample footage).
 
-[TODO: camera close up and foam close up]
-
 The flight controller board is the **Crazybee F4FR Lite** in my case, where the FR part stands to tell it's the FrSky version with built in SPI based FrSky receiver. It can only handle 1S batteries so don't even think about 2S (although the motors wouldn't handle that either).
 
-The receiver is gonna get you about up to a couple hundred meters max [TODO: insert miles]. The ESCs are rated for 5A continuos current. The on-board VTX outputs only at 25mW and can be controlled via Smartaudio (through the OSD).
+The receiver is gonna get you about up to a couple of hundred meters max (100m = 109 yards). The ESCs are rated for 5A continuos current. The on-board VTX transmits signal at 25mW power and can be controlled via Smartaudio (through the OSD).
 
 The micro USB port is easily accessible and the whole board is mounted to the frame with rubber grommets to dampen vibrations.
 
-Overall, especially for being a fairly cheap product, the components are of good quality and the execution and build and very well done. Bonus points for twisting around sticking between the frame the power leads, instead of just leading them out straight from the battery pads. This helps reduce tugging tension on them, which is unlikely but might occur if your battery flies out of the mounting bay mid flight.
-
-[TODO: more pics above?]
+Overall, especially for being a fairly cheap product, the components are of good quality and the execution and build and very well done. Bonus points for twisting around and sticking between the frame the power leads, instead of just leading them out straight from the battery pads. This helps reduce tugging tension on them, which is unlikely but might occur if your battery flies out of the mounting bay mid flight.
 
 ### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
 
@@ -137,8 +134,21 @@ As with most other quads, to get started we need to **bind a radio controller to
 #### 🔗 Bind the receiver to a radio
 
 The Mobula6 comes with a printed manual, but you can also [get it online in pdf form][4]. Those are simple to the point 1 pagers, generally useful to quickly answer some of your immediate questions, such as, where is the bind button 😅?
+Spoiler alert: it's right next to the motor plug for the back left motor and is really tiny.
 
-TODO: Picture and continue. Write as short as possible.
+![Mobula6 bind button](mobula6-tinywhoop-full-review-38.jpg)
+
+I'm using the [FrSky Taranis X-Lite radio][13], but this setup is very similar to most FrSky radios running OpenTx. Create a new model, go to the `Setup` screen, scroll down, set the `Mode` to D8 and press the `[BND]` function. The radio will start chirping looking for a receiver.
+
+![Taranis X-Lite Setup screen](mobula6-tinywhoop-full-review-39.jpg)
+
+The plug in the drone's battery and press the Bind button. The receiver will bind to the radio. Stop the radio Bind function by exiting out of it. Unplug the drone. Plug it back in. At this point you should see a solid green light to verify that there is an active link with the radio.
+
+We're almost done, one last thing to do is to go to the `Mixer` screen in the radio and add switches to channels 5, 6 and 7. Those channels will correspond to aux 1, 2 and 3 in Betaflight and we will need them to arm and activate various flight modes.
+
+![Taranis X-Lite Mixer screen](mobula6-tinywhoop-full-review-40.jpg)
+
+If you need more help here is a [more detailed explaination on how to add the switches and how to fine-tune the channel outputs](/fpv/emax-hawk-5-unboxing-review-and-setup/#binding).
 
 #### 👀 Check the Betaflight configuration
 
@@ -150,25 +160,45 @@ You can do this by going to the CLI tab and running the `dump` command. Then sav
 
 If you didn't do that, I've done that for you - here is the [stock Mobula6 Betaflight configuration dump for v3.5.7](BTFL_cli_Mobula_6_stock.txt).
 
-Configuring the [Mobula6][1] was the first time I didn't touch a single option in Betaflight. Why I'm sharing this is because I've been noticing a trend of having to do less and less before I get up in the air flying. I think that's a great trend and I wanted to take a moment to appreciate it. Tinkering with your quad to your heart's content is not going anywhere, but it's nice to see the barrier of entry getting ever so slightly lowered, this is great if we want to welcome more and new people to the hobby.
+**Configuring the [Mobula6][1] was the first time I didn't touch a single option in Betaflight**. Why I'm sharing this is because I've been noticing a trend of having to do less and less before I get up in the air flying when setting up a new quad. I think that's great and I wanted to take a moment to appreciate it. Tinkering with your quad to your heart's content is not going anywhere, but it's nice to see the barrier of entry getting ever so slightly lowered, this is great if we want to welcome more and new people to the hobby.
 
-This is what I go through quickly when checking a quad's configuration:
+This is the shortest possible checklist of what I go through quickly when checking a quad's configuration:
 
-TODO: Continue here.
+1.  **Configuration tab**
 
-![Betaflight Configuration tab part 1](mobula6-tinywhoop-full-review-25.jpg)
+    > Props in or Props out mode - important to know how to put on your props. `MOTOR_STOP` off. `Accelerometer` on for angle (stability) mode. `SPI RX support` and `FRSKY_D` for D8 mode.
 
-![Betaflight Configuration tab part 2](mobula6-tinywhoop-full-review-26.jpg)
+    > ![Betaflight Configuration tab part 1](mobula6-tinywhoop-full-review-25.jpg)
 
-![Betaflight Receiver tab](mobula6-tinywhoop-full-review-27.jpg)
+    > `Airmode` is on. `RX_LOST` and `RX_SET` are on in case you want to use the motors to beep for a lost model alarm, since we don't have an onboard buzzer.
 
-![Betaflight Modes tab](mobula6-tinywhoop-full-review-28.jpg)
+    > ![Betaflight Configuration tab part 2](mobula6-tinywhoop-full-review-26.jpg)
 
-![Betaflight OSD tab](mobula6-tinywhoop-full-review-29.jpg)
+    > ✅ All good here, the defaults match what I expected so no changes needed.
+
+2.  **Receiver tab**
+
+    > Here I'm making sure the `Channel Map` is **TAER1234**. That's what my radio is set to and a match here makes sure the quad won't flip out when I start flying. ✅ All good.
+
+    > ![Betaflight Receiver tab](mobula6-tinywhoop-full-review-27.jpg)
+
+3.  **Modes tab**
+
+    > Arming is set to `AUX1` which is whichever switch you set to `Channel5` earlier in the Mixer screen on your radio. That's fine. Then I notice AUX2 (Channel6 switch) is set by default to start up in angle mode, and any other position will set the quad to acro. That's fine too. And I have turtle mode (Flip over after crash) on the third switch. ✅ Perfect, no changes needed.
+
+    > ![Betaflight Modes tab](mobula6-tinywhoop-full-review-28.jpg)
+
+4.  **OSD tab**
+
+    > In the OSD tab I care to see if `RSSI value` is displayed, I also like to see current draw, throttle value and flight time elapsed. ✅ All good, no changes needed.
+
+    > ![Betaflight OSD tab](mobula6-tinywhoop-full-review-29.jpg)
+
+Let's go fly!
 
 ### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
 
-I was very excited and curious to fly the Mobula6 for the first time. **My first immediate impression was how easy was handling without sacrificing any performance**. It only took me a couple of packs to get very comfortable with the drone. I started with flying it stock with no modifications.
+I was very excited and curious to fly the Mobula6 for the first time. **My first immediate impression was how easy was handling without sacrificing any performance**. It only took me a couple of packs to get very comfortable with the drone. I started by flying it on stock configuration.
 
 #### 🏡 Maiden indoor flight, stock 300mah battery 🔋
 
@@ -197,7 +227,7 @@ Before I show you the flight footage, here is the comparison and my findings of 
 |            | 🏡 Indoor 300mah battery 🔋 |
 | ---------- | --------------------------- |
 | Stock ESC  | Average ~ `4:17m`           |
-| 48 kHz ESC | Average ~ `TODO:`           |
+| 48 kHz ESC | Average ~ `4:56m`           |
 
 |            | 🏡 Indoor 450mah battery 🔋 |
 | ---------- | --------------------------- |
@@ -234,7 +264,7 @@ I could feel the extra weight a bit but it wasn't too bad. I assume mainly becau
 
 #### 🌄 Maiden outdoor flight, stock 300mah battery 🔋
 
-I was **very impressed how this little guy held up outdoors** and did not expect it to be that good. My house was a bit too small to be able to fly indoors in acro mode, but that was not the case outside. I really **loved flying it in acro mode**! Locked in tune and easy to handle! If you watch one video only, watch the one below.
+I was **very impressed how this little guy held up outdoors** and did not expect it to be that good. My house is a bit too small to be able to fly indoors in acro mode, but that was not the case outside. I really **loved flying it in acro mode**! Locked in tune and easy to handle! If you watch one video only, watch the one below.
 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/wsYHAh6wjLY?rel=0" frameBorder="0" allowFullScreen title="Mobula6 maiden outdoor flight"></iframe>
@@ -346,10 +376,6 @@ I'm looking forward to ripping more and more packs on this throught the remainde
 
 Happy flying!
 
-- Write Setup section
-- Review entire article
-- Spell check
-
 [0]: Linkslist
 [1]: https://bit.ly/mobula-6
 [2]: https://bit.ly/micro-drone-batteries
@@ -362,3 +388,5 @@ Happy flying!
 [9]: https://bit.ly/gnb-1s-350
 [10]: https://bit.ly/uruav-1s-300
 [11]: https://betafpv.com/collections/batt-1s/products/bt2-0-connectors-10pcs
+[12]: https://bit.ly/mobula6-frame
+[13]: https://bit.ly/taranis-xlite

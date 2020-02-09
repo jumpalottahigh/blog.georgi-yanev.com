@@ -242,6 +242,11 @@ const allFeaturedGear = {
     link: 'https://bit.ly/uruav-1s-battery-charger',
     image: '/banggood/uruav-1s-battery-charger.jpg',
   },
+  'mobula6-frame': {
+    name: 'Mobula6 Frame',
+    link: 'https://bit.ly/mobula6-frame',
+    image: '/banggood/mobula6-frame.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
