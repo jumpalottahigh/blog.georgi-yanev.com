@@ -43,6 +43,12 @@ That's all just to say that while I do like Happymodel, I will be, as always, te
 - [💾 Flash 48 kHz ESC firmware](#flash)
 - [📑 Conclusion](#conclusion)
 
+If you prefer watching, check out the full video review on my YouTube channel:
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/INYdY-2tP9E?rel=0" frameBorder="0" allowFullScreen title="Happymodel Mobula6 - review, binding, complete setup, JESC 48 kHz MOD | BEST WHOOP WINTER 2020"></iframe>
+</div>
+
 ### 📦 <span id="unboxing">Unboxing</span>
 
 The unboxing experience is fine and pretty minimalistic, I think in a good way. The [Mobula6][1] arrives in a small cardboard box.
