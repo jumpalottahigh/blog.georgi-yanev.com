@@ -1233,6 +1233,20 @@ button {
   margin-top: 2.5rem;
 }
 
+.blog-post-content h3 + ul li {
+  margin-bottom: 2px;
+}
+
+.blog-post-content h3 + ul li a {
+  display: inline-block;
+  font-size: 22px;
+  padding: 4px 0;
+}
+
+.blog-post-content h3 + ul li a:hover {
+  box-shadow: inset 0 -28px 0px 0px #0175d8;
+}
+
 .related-articles {
   border-top: 1px solid #cecece;
   border-bottom: 1px solid #cecece;
