@@ -1,7 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
-import AdSense from 'react-adsense'
 import DiscussionEmbed from '../components/Disqus'
 import Layout from '../components/structure/layout'
 import FeedbackSection from '../components/FeedbackSection'
@@ -188,13 +187,6 @@ class BlogPostTemplate extends React.Component {
             <PromoBanner linkTo={bannerLink} imageName="stripe4" />
             <FeedbackSection />
             <AskAQuestion />
-            <AdSense.Google
-              client="ca-pub-8470358888871889"
-              slot="7225507221"
-              format="auto"
-              layoutKey="-gw-1+2a-9x+5c"
-              style={{ display: 'block', margin: '1rem auto' }}
-            />
             <RelatedArticles
               currentPagePath={post.frontmatter.path}
               relatedArticles={post.frontmatter.tags}
@@ -215,13 +207,6 @@ class BlogPostTemplate extends React.Component {
               imageName="square"
             /> */}
             <TinyLetterSignup />
-            <AdSense.Google
-              client="ca-pub-8470358888871889"
-              slot="4359638919"
-              style={{ display: 'block', margin: '3rem auto' }}
-              format="auto"
-              layoutKey="-gw-1+2a-9x+5c"
-            />
           </div>
         </div>
       </Layout>

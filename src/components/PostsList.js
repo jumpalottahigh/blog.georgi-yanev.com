@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, navigate } from 'gatsby'
 import Img from 'gatsby-image'
-import AdSense from 'react-adsense'
 import svgRightArrow from '../images/right-arrow.svg'
 
 const ALL_CATEGORIES = ['fpv', 'projects', 'learning', 'stories', 'smarthome']
@@ -473,21 +472,7 @@ export default class PostsList extends React.Component {
                 // Explicitly don't render stories with all the other posts
                 // stories are a minor publishing and should only exist when that category is active
                 if (post.node.frontmatter.category !== 'stories') {
-                  return index > 0 && withAds === 'yes' && index % 4 === 0 ? (
-                    <li key={`ad-${index}`}>
-                      <AdSense.Google
-                        client="ca-pub-8470358888871889"
-                        slot="4359638919"
-                        style={{
-                          display: 'block',
-                          margin: '3rem auto',
-                          maxWidth: '100%',
-                        }}
-                        format="auto"
-                        layoutKey="-gw-1+2a-9x+5c"
-                      />
-                    </li>
-                  ) : (
+                  return (
                     <Post
                       key={post.node.id}
                       post={post}
