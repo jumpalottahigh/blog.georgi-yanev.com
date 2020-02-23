@@ -1237,6 +1237,7 @@ button {
   margin-bottom: 2px;
 }
 
+/* Links in table of contents */
 .blog-post-content h3 + ul li a {
   display: inline-block;
   font-size: 22px;
@@ -1251,6 +1252,15 @@ button {
   border-top: 1px solid #cecece;
   border-bottom: 1px solid #cecece;
   padding: 1rem 0;
+}
+
+.related-articles a {
+  display: inline-block;
+  padding: 6px 0;
+}
+
+.related-articles a:hover {
+  box-shadow: inset 0 -34px 0px 0px #0175d8;
 }
 
 .support-section {
