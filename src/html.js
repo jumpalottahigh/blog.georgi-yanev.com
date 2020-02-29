@@ -12,7 +12,7 @@ const HTML = props => (
       />
       <link rel="dns-prefetch" href="//www.google-analytics.com" />
       {/* <link rel="dns-prefetch" href="//vc.hotjar.io" /> */}
-      <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
+      {/* <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" /> */}
       {props.headComponents}
     </head>
     <body {...props.bodyAttributes}>
@@ -24,10 +24,10 @@ const HTML = props => (
       />
       {props.postBodyComponents}
 
-      <script
+      {/* <script
         async={true}
         src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      />
+      /> */}
     </body>
   </html>
 )
