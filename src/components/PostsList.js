@@ -22,8 +22,8 @@ const Post = ({
   handleCategoryClick,
   variant,
 }) => {
-  // Posts are considered fresh if published within the last 31 days
-  const freshDuration = 60 * 60 * 24 * 31 * 1000 // 1 month
+  // Posts are considered fresh if published within the last 60 days
+  const freshDuration = 60 * 60 * 24 * 60 * 1000 // 1 month
   const now = Date.now()
   const postDate = new Date(post.node.frontmatter.date).getTime()
 
