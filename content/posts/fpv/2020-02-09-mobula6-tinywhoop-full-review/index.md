@@ -1,6 +1,7 @@
 ---
 path: '/fpv/mobula6-48khz-jesc-complete-setup-review/'
 date: '2020-02-09'
+updated: '2020-03-07'
 title: 'Mobula6: Complete setup and flashing 48kHz JESC firmware'
 author: 'Georgi Yanev'
 draft: false
@@ -240,15 +241,15 @@ Before I show you the flight footage, here is the comparison and my findings of 
 | Stock ESC  | Average ~ `5:16m`           |
 | 48 kHz ESC | Average ~ `4:24m`           |
 
-|            | 🌄 Outdoor 300mah 🔋    |
-| ---------- | ----------------------- |
-| Stock ESC  | Average ~ `4:00m`       |
-| 48 kHz ESC | Average ~ `Coming soon` |
+|            | 🌄 Outdoor 300mah 🔋 |
+| ---------- | -------------------- |
+| Stock ESC  | Average ~ `4:00m`    |
+| 48 kHz ESC | Average ~ `4:15m`    |
 
-|            | 🌄 Outdoor 450mah 🔋    |
-| ---------- | ----------------------- |
-| Stock ESC  | Average ~ `2:45m`       |
-| 48 kHz ESC | Average ~ `Coming soon` |
+|            | 🌄 Outdoor 450mah 🔋 |
+| ---------- | -------------------- |
+| Stock ESC  | Average ~ `2:45m`    |
+| 48 kHz ESC | Average ~ `3:45m`    |
 
 Perhaps an interesting observation is that while I could fly fairly decently indoors on a 450mah battery and with increased flight time, the story was quite the opposite outdoors. I got consistently much shorter flight times, had to be almost at all times at more than 60% throttle and I could feel the weight of the battery significantly impacting the flight performance.
 
@@ -304,11 +305,19 @@ It would appear that we have lost up to **- 52 seconds** of flight time. Given i
 
 #### 🌄 Outdoor flight, JESC 48 kHz, 300mah stock battery 🔋
 
-Coming soon...
+I've been having plenty of bad weather, but was finally able to try flying the Mobula6 outside after the upgrade. On average I didn't notice a crazy big improvement, although there was an improvement in flight times of about 10 - 15s.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/0o19zMUdpzE?rel=0" frameBorder="0" allowFullScreen title="Mobula6 outdoor 300mah stock 1S battery after JESC 48 khz firmware"></iframe>
+</div>
 
 #### 🌄 Outdoor flight, JESC 48 kHz, 450mah GNB battery 🔋
 
-Coming soon...
+I've been having plenty of bad weather, but was finally able to try flying the Mobula6 outside after the upgrade. I've been getting between 3:30 and 4:00 flight times, so there has definitely been an improvement since the ESC firmware upgrade. Bare in mind I conducted those tests at about 0 - 2 degrees Celsius (32 F), so in slightly warmer weather you might get even better results. All in all I'm happy with the results.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/_ge8t2IQdvU?rel=0" frameBorder="0" allowFullScreen title="Mobula6 outdoor 450mah GNB 1S battery after JESC 48 khz firmware"></iframe>
+</div>
 
 ### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
 
