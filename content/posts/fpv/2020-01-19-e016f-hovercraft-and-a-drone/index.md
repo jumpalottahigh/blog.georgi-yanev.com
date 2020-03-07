@@ -1,7 +1,7 @@
 ---
 path: '/fpv/eachine-e016f-hovercraft-and-drone/'
 date: '2020-01-19'
-updated: '2020-01-26'
+updated: '2020-03-07'
 title: 'Eachine E016F: Hovercraft and drone'
 author: 'Georgi Yanev'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
@@ -151,6 +151,12 @@ I had a ton of fun flying this with my son. He's too young to fly anything else,
 #### Hovercraft experience
 
 I really do enjoy the hovercraft experience. It's also a fun thing to do together with my son, and I can absolutely let him control the craft on his own in this mode. He's having a ton of fun driving it around. The craft is surprisingly controllable, and I can't wait to take it outside in the snow once the snow finally arrives.
+
+**Update:**
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/SxZNubzFuwc?rel=0" frameBorder="0" allowFullScreen title="Eachine E016F hovercraft mode in snow and water"></iframe>
+</div>
 
 ### 🔝 <span id="fpv-upgrade" class="offset-top-nav">FPV upgrade</span>
 
