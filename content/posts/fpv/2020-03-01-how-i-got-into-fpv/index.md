@@ -18,7 +18,7 @@ gearList:
   - 'skyzone-sky02x'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, happymodel, happy model, mobula6, mobula 6, micro, freestyle, toothpick, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, emax freestyle, emax tinyhawk, tinyhawk, what toothpick to buy, which toothpick micro drone to get, emax toothpick, emax micro drone, happy model micro drone, happymodel mobula6, mobula6 micro drone, tinywhoop, mobula6 tiny whoop, mobula6 48 khz, mobula6 48khz mod'
-ogDescription: 'TODO:'
+ogDescription: 'FPV stands for First Person View and in the context of FPV drones usually refers to flying a drone for freestyle or racing while viewing the feed from a camera mounted on drone as if you were the pilot. This is what it looks like...'
 ogImage: './how-i-got-into-fpv-1.jpg'
 ---
 
