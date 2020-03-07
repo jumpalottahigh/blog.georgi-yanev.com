@@ -15,9 +15,9 @@ const AboutPage = () => (
         <Link to="/learning/how-i-got-into-software-development/">
           software engineer
         </Link>{' '}
-        and currently work mostly with React, TypeScript, Electron, Node.js. You
-        can find me on{' '}
-        <a href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q">
+        and currently work mostly with JavaScript, React, TypeScript, Electron,
+        Node.js. You can find me on{' '}
+        <a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg">
           YouTube
         </a>
         , <a href="https://twitter.com/jumpalottahigh">Twitter</a>,{' '}

@@ -23,7 +23,7 @@ const Post = ({
   variant,
 }) => {
   // Posts are considered fresh if published within the last 60 days
-  const freshDuration = 60 * 60 * 24 * 60 * 1000 // 1 month
+  const freshDuration = 60 * 60 * 24 * 60 * 1000
   const now = Date.now()
   const postDate = new Date(post.node.frontmatter.date).getTime()
 

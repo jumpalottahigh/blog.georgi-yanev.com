@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import PostsList from './PostsList'
 import useAllMarkdownRemark from '../hooks/use-allmarkdown'
-import useWindowSize from '../hooks/use-windowsize'
 
 const StyledMenuFab = styled.div`
   .menu-sidebar {
@@ -77,13 +76,11 @@ const StyledMenuFab = styled.div`
 const MenuFAB = () => {
   const [visible, setVisible] = React.useState(false)
   const posts = useAllMarkdownRemark()
-  const windowSize = useWindowSize()
 
   const handleClick = () => {
     setVisible(!visible)
   }
 
-  // return windowSize.width > 767 ? null : (
   return (
     <StyledMenuFab>
       <div className="menu-fab" role="button" onClick={handleClick}>
