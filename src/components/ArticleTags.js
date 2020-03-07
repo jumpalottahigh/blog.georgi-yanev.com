@@ -1,7 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby'
 
-const Tags = ({ tags }) => (
+const ArticleTags = ({ tags }) => (
   <div style={{ display: 'flex', flexFlow: 'row wrap', marginBottom: '1rem' }}>
     {tags.map(tag => (
       <span
@@ -26,4 +26,4 @@ const Tags = ({ tags }) => (
   </div>
 )
 
-export default Tags
+export default ArticleTags

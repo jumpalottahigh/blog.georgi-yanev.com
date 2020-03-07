@@ -16,7 +16,7 @@ import ReadProgressLine from '../components/ReadProgressLine'
 import RelatedArticles from '../components/RelatedArticles'
 import Share from '../components/Share'
 import SupportMe from '../components/SupportMe'
-import Tags from '../components/Tags'
+import ArticleTags from '../components/ArticleTags'
 import TinyLetterSignup from '../components/TinyLetterSignUp'
 import YouTubeChannelsPromo from '../components/YouTubeChannelsPromo'
 
@@ -141,7 +141,7 @@ class BlogPostTemplate extends React.Component {
           <div className="blog-post">
             <ReadProgressLine />
             <h1>{post.frontmatter.title}</h1>
-            <Tags tags={post.frontmatter.tags} />
+            <ArticleTags tags={post.frontmatter.tags} />
             <div className="disclaimer-container">
               <div>
                 <div className="disclaimer">
