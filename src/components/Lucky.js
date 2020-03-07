@@ -87,6 +87,31 @@ const randomCoupons = [
       'https://www.banggood.com/TransTEC-Beetle-HOM-130mm-FPV-Racing-RC-Drone-PNP-Compatible-With-DJI-FPV-Air-Unit-DJI-Digital-FPV-System-p-1584992.html?utm_campaign=BGBFBeetle',
     coupon: 'BGBFBeetle',
   },
+  {
+    link:
+      'https://www.banggood.com/Happymodel-Larva-X-100mm-Crazybee-F4-PRO-V3_0-2-3S-2_5-Inch-FPV-Racing-Drone-BNF-w-Runcam-Nano2-Camera-p-1539449.html?utmid=10342&cur_warehouse=CN',
+    coupon: 'BGHLX',
+  },
+  {
+    link:
+      'https://www.banggood.com/Flysky-FS-NV14-2_4G-14CH-Nirvana-Transmitter-with-iA8X-Receiver-3_5-Inch-Display-Open-Source-p-1298516.html?utmid=10342&cur_warehouse=CN',
+    coupon: 'BGFSNV25',
+  },
+  {
+    link:
+      'https://www.banggood.com/Eachine-Tyro99-210mm-DIY-Version-FPV-Racing-RC-Drone-F4-OSD-30A-BLHeli_S-40CH-600mW-VTX-700TVL-Cam-p-1338893.html?utmid=10342&cur_warehouse=CN',
+    coupon: 'BGOCT99',
+  },
+  {
+    link:
+      'https://www.banggood.com/ISDT-Q6-Pro-BattGo-300W-14A-Pocket-Lipo-Battery-Balance-Charger-p-1288640.html?utmid=10342&cur_warehouse=CN',
+    coupon: 'BGISDTPRO25',
+  },
+  {
+    link:
+      'https://www.banggood.com/Eachine-Twig-115mm-3-Inch-2-3S-FPV-Racing-Drone-BNF-Frsky-D8-Crazybee-F4-PRO-V3_0-Runcam-Nano2-Caddx-Baby-Turtle-HD-Cam-p-1554001.html?utmid=10342&cur_warehouse=CN',
+    coupon: 'BGETWIG',
+  },
 ]
 
 const affiliateParam = 'p=NY211410857261201705'
