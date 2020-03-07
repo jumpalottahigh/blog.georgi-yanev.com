@@ -234,7 +234,7 @@ export default class PostsList extends React.Component {
 
     // Update the URL params
     if (this.props.filterCategoriesAndTagsFromURLParams == 'yes') {
-      // Update the URL to reflect the filtred posts
+      // Update the URL to reflect the filterd posts
       let searchParams = new URLSearchParams(`tag=${e.target.dataset.filter}`)
       navigate(`${location.pathname}?${searchParams.toString()}`)
     }

@@ -4,8 +4,9 @@ import Img from 'gatsby-image'
 import { slide as Menu } from 'react-burger-menu'
 import { FaGithub, FaTwitter, FaLinkedin, FaRss, FaDev } from 'react-icons/fa'
 
-import './Hamburger.css'
+import TagPool from '../../TagPool'
 
+import './Hamburger.css'
 import fpvtipsLogo from '../../../images/fpvtips-logo-full.svg'
 
 const Hamburger = () => {
@@ -62,8 +63,8 @@ const Hamburger = () => {
       <Link to="/support-me/">🙏 Support me</Link>
       <br />
       <hr />
-      <br />
-      <h4>Quick tags:</h4>
+      <p>Quick tags:</p>
+      <TagPool />
       <br />
       <hr />
       <br />
@@ -106,7 +107,7 @@ const Hamburger = () => {
         <FaRss size="1.75rem" color="#f69536" className="social-icon" />
         <span style={{ marginLeft: '0.35rem' }}>RSS</span>
       </a>
-      <a href="https://dev.to/jumpalottahigh">
+      <a href="https://dev.to/jumpalottahigh" style={{ marginBottom: '6rem' }}>
         <FaDev size="1.75rem" color="#24292e" className="social-icon" />
         <span style={{ marginLeft: '0.35rem' }}>Dev.to</span>
       </a>
