@@ -17,7 +17,7 @@ const AuthorMessage = ({ type = 'fpv', style }) => {
         }
       }
 
-      georgi: file(relativePath: { regex: "/^home/georgi-face-2.png/" }) {
+      georgi: file(relativePath: { regex: "/^home/georgi-face-3.jpg/" }) {
         name
         childImageSharp {
           fluid(maxWidth: 100, quality: 75) {
@@ -47,6 +47,7 @@ const AuthorMessage = ({ type = 'fpv', style }) => {
                 : authorImage.georgi.childImageSharp.fluid
             }
             alt="Georgi Yanev portrait"
+            style={{ borderRadius: type === 'fpv' ? 'initial' : '50%' }}
           />
         </div>
       </div>
