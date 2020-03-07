@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { FaTimes } from 'react-icons/fa'
 
 const LINK_SIZE = '34px'
 
@@ -13,36 +14,31 @@ const LuckyDice = styled.button`
   background-color: initial;
   box-shadow: none !important;
   margin-right: 0.5rem;
-`
-
-const LuckyLink = styled.a`
-  font-size: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: ${LINK_SIZE};
-  height: ${LINK_SIZE};
-  background-color: initial;
-  box-shadow: none !important;
-  margin-right: 0.5rem;
+  padding: 0;
 `
 
 const Coupon = styled.div`
   position: absolute;
   width: 180px;
-  top: -36px;
-  right: 0;
+  top: -73px;
+  right: -70px;
   font-size: 16px;
   z-index: 999;
   background: #0175d8;
   color: #fff;
   border-radius: 4px;
-  box-shadow: 2px 2px 4px 1px #dedede;
   padding: 2px 8px;
 
   a {
     box-shadow: none !important;
   }
+`
+
+const Close = styled(FaTimes)`
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  cursor: pointer;
 `
 
 const randomCoupons = [
@@ -105,6 +101,7 @@ const Lucky = () => {
       {showCoupon ? (
         <div style={{ position: 'relative' }}>
           <Coupon>
+            <Close onClick={() => setShowCoupon(false)} />
             <span>Link: </span>
             <a
               href={`${luckyDraw.link}&${affiliateParam}`}

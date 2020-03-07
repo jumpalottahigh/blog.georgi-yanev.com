@@ -1,22 +1,24 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
+
+import AskAQuestion from '../components/AskAQuestion'
 import DiscussionEmbed from '../components/Disqus'
-import Layout from '../components/structure/layout'
+import EditOnGitHub from '../components/Edit'
+import FeaturedGear from '../components/FeaturedGear'
 import FeedbackSection from '../components/FeedbackSection'
+import Layout from '../components/structure/layout'
+import LuckyDraw from '../components/Lucky'
+import ModeSwitch from '../components/Mode'
+import PromoBanner from '../components/PromoBanner'
+import ReaderQuestions from '../components/ReaderQuestions'
+import ReadProgressLine from '../components/ReadProgressLine'
 import RelatedArticles from '../components/RelatedArticles'
 import Share from '../components/Share'
-import ReadProgressLine from '../components/ReadProgressLine'
-import TinyLetterSignup from '../components/TinyLetterSignUp'
-import ModeSwitch from '../components/Mode'
-import EditOnGitHub from '../components/Edit'
-import LuckyDraw from '../components/Lucky'
-import AskAQuestion from '../components/AskAQuestion'
-import ReaderQuestions from '../components/ReaderQuestions'
-import PromoBanner from '../components/PromoBanner'
-import FeaturedGear from '../components/FeaturedGear'
-import YouTubeChannelsPromo from '../components/YouTubeChannelsPromo'
+import SupportMe from '../components/SupportMe'
 import Tags from '../components/Tags'
+import TinyLetterSignup from '../components/TinyLetterSignUp'
+import YouTubeChannelsPromo from '../components/YouTubeChannelsPromo'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -168,6 +170,7 @@ class BlogPostTemplate extends React.Component {
                 )}
               </div>
               <div className="toolbar">
+                <SupportMe>🙏</SupportMe>
                 <LuckyDraw />
                 <EditOnGitHub
                   path={post.frontmatter.path}
