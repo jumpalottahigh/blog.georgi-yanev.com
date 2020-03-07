@@ -2,31 +2,43 @@ import React from 'react'
 import styled from 'styled-components'
 import { graphql, Link, useStaticQuery } from 'gatsby'
 import Img from 'gatsby-image'
+
 import Hamburger from './Hamburger'
 import SocialIcons from './SocialIcons'
+import DropDown from './DropDown'
 
-const AppBarWrapper = styled.div`
+const AppBarWrapper = styled.nav`
   display: flex;
   width: 100%;
+  height: 100%;
+  align-items: center;
+
+  ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
 
   ul li {
     display: none;
   }
 
   .visible-xs {
+    /* display: flex;
+    align-items: center;
+    height: 100%; */
     display: inline-block;
   }
 
   @media (min-width: 710px) {
     ul li {
+      /* display: flex;
+      align-items: center;
+      height: 100%; */
       display: inline-block;
     }
   }
 `
-
-const activeStyle = {
-  color: '#0175d8',
-}
 
 const Header = () => {
   const { logo } = useStaticQuery(graphql`
@@ -45,6 +57,10 @@ const Header = () => {
       }
     }
   `)
+
+  const activeStyle = {
+    color: '#0175d8',
+  }
 
   return (
     <header
@@ -106,17 +122,18 @@ const Header = () => {
                 Home
               </Link>
             </li>
-            <li exact="true" className="visible-xs">
-              <Link to="/posts/" activeStyle={activeStyle}>
+            <DropDown className="visible-xs">
+              <Link exact="true" to="/posts/" activeStyle={activeStyle}>
                 FPV Drones
               </Link>
-            </li>
+            </DropDown>
             <li className="visible-xs">
               <Link to="/quick-tips/" activeStyle={activeStyle}>
                 Quick tips
               </Link>
             </li>
             {/* TODO: Remove temporarily until the main nav revamp */}
+            {/* Maybe create a misc drop down for some of the hidden pages? */}
             {/* <li>
               <Link to="/fpv-news/" activeStyle={activeStyle}>
                 FPV news
