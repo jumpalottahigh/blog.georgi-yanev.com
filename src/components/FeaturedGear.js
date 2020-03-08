@@ -252,6 +252,11 @@ const allFeaturedGear = {
     link: 'https://bit.ly/cnhl-1300',
     image: '/banggood/cnhl-1300.jpg',
   },
+  'skyrc-q200': {
+    name: 'SkyRC Q200',
+    link: 'https://bit.ly/skyrc-q200',
+    image: '/banggood/skyrc-q200.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
