@@ -10,6 +10,7 @@ tags:
   - 'micro'
   - 'drone'
   - 'geprc'
+  - 'cinepro'
   - 'review'
 gearList:
   - 'geprc-cinepro-4k'

@@ -10,6 +10,8 @@ tags:
   - 'eachine'
   - 'dvr'
   - 'smartphone'
+  - 'review'
+  - 'guide'
 gearList:
   - 'eachine-rotg02'
 ogKeywords: 'fpv, eachine, eachine rotg02, dvr, record fpv video, how to record dvr on android, android go fpv, go fpv, how to record fpv video with go fpv, dvr receiver for android, dvr for smartphone, record fpv DVR on smartphone'

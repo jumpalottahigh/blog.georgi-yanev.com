@@ -8,6 +8,7 @@ category: 'fpv'
 tags:
   - 'goggles'
   - 'review'
+  - 'skyzone'
 gearList:
   - 'skyzone-sky02x'
   - 'aomway-antenna'

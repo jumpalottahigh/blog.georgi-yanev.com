@@ -14,6 +14,7 @@ tags:
   - 'opentx'
   - 'gear'
   - 'review'
+  - 'radio'
 gearList:
   - 'taranis-x-lite'
   - 'x-lite-lotus-stick-ends'

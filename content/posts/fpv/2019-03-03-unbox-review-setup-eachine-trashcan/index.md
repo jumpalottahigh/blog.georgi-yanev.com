@@ -12,6 +12,7 @@ tags:
   - 'trashcan'
   - 'micro'
   - 'drone'
+  - 'review'
 gearList:
   - 'trashcan'
 ogKeywords: 'FPV, racing quads, quad, drone, getting started, taranis q x7, practice, micro, micro drone, eachine, eachine trashcan, trashcan micro drone, review, eachine trashcan review, trashcan setup, configure eachine trashcan, unbox, setup trashcan drone'

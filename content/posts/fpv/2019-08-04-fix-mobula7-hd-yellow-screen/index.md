@@ -11,6 +11,7 @@ tags:
   - 'cinewhoop'
   - 'micro'
   - 'drone'
+  - 'motor'
   - 'diy'
 gearList:
   - 'mobula7-hd'

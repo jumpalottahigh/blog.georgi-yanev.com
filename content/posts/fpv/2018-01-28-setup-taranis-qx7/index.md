@@ -10,6 +10,7 @@ tags:
   - 'gear'
   - 'taranis'
   - 'opentx'
+  - 'radio'
 gearList:
   - 'taranis-q-x7'
   - 'taranis-x-lite'

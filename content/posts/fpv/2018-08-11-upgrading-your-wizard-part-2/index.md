@@ -9,6 +9,7 @@ category: 'fpv'
 tags:
   - 'wizard'
   - 'upgrade'
+  - 'guide'
 gearList:
   - 'wizard-x220'
   - 'wizard-motor'

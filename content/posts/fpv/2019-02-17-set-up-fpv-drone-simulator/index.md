@@ -10,6 +10,8 @@ category: 'fpv'
 tags:
   - 'simulator'
   - 'taranis'
+  - 'radio'
+  - 'guide'
 gearList:
   - 'aomway-commander'
   - 'taranis-q-x7'

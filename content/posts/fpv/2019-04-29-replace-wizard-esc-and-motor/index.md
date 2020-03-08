@@ -11,6 +11,7 @@ tags:
   - 'esc'
   - 'motor'
   - 'diy'
+  - 'guide'
 gearList:
   - 'wizard-x220'
   - 'wizard-esc'

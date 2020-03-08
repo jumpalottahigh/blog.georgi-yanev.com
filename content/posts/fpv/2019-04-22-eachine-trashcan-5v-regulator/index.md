@@ -10,6 +10,7 @@ tags:
   - 'eachine'
   - 'trashcan'
   - 'micro'
+  - 'guide'
   - 'diy'
 ogKeywords: 'trashcan micro drone, trashcan, FPV, racing quads, quad, drone, getting started, taranis q x7, practice, micro, micro drone, eachine, eachine trashcan, trashcan micro drone, review, eachine trashcan review, trashcan setup, configure eachine trashcan, unbox, setup trashcan drone'
 ogDescription: 'If you are one of the unlucky folks with a busted 5v regulator on your Eachine Trashcan, fear not. There is a solution and the fix is easier to do than you might expect - add an external 5v regulator.'
