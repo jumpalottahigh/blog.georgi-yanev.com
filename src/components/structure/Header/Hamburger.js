@@ -154,7 +154,7 @@ const Hamburger = () => {
       <Link to="/support-me/">🙏 Support me</Link>
       <br />
       <hr />
-      <p>Quick tags:</p>
+      <p>Top 10 Tags:</p>
       <TagPool />
       <br />
       <hr />

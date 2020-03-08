@@ -20,7 +20,7 @@ const Tag = styled.a`
   font-size: 1rem;
 `
 
-function TagPool() {
+function TagPool({ tagAmount = 10 }) {
   const { allArticleTags } = useStaticQuery(graphql`
     {
       allArticleTags: allMarkdownRemark(
@@ -54,12 +54,12 @@ function TagPool() {
   })
 
   // Grab the top 10 items
-  const topTags = keysSorted.slice(keysSorted.length - 10)
+  const topTags = keysSorted.slice(keysSorted.length - tagAmount).reverse()
 
   return (
-    <StyledTagPool>
+    <StyledTagPool className="tag-pool">
       {topTags.map(tag => (
-        <Tag key={tag} href={`/posts/?tag=${tag}`}>
+        <Tag key={tag} className="tag-pool__tag" href={`/posts/?tag=${tag}`}>
           #{tag}
         </Tag>
       ))}
