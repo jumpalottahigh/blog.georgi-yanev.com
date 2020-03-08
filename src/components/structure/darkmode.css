@@ -13,6 +13,7 @@
   --dark-mode-orange: #e85b46;
   --dark-mode-blue: #61afef;
   --dark-mode-blue-hover: #67b4f4;
+  --dark-mode-blue-hover-2: #3c9dec;
   --dark-mode-black: #212121;
   --dark-mode-blue-2: #56b6c2;
   --dark-mode-blue-2-hover: #50adb9;
@@ -241,6 +242,10 @@
 .dark-mode header nav ul.nav li ul li.tags .tag-pool .tag-pool__tag {
   color: var(--dark-mode-bg-color);
   background: var(--dark-mode-blue);
+}
+
+.dark-mode header nav ul.nav li ul li.tags .tag-pool .tag-pool__tag:hover {
+  background: var(--dark-mode-blue-hover-2);
 }
 
 .dark-mode header nav ul.nav li ul li hr {

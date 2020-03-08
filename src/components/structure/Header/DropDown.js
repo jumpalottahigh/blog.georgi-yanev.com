@@ -9,7 +9,6 @@ const StyledDropDown = styled.li`
   display: flex;
   height: 100%;
   align-items: center;
-  transition-duration: 0.1s;
 
   > a {
     display: flex;
@@ -68,6 +67,10 @@ const StyledDropDown = styled.li`
         margin: 0 0.7rem 0.7rem 0;
         padding: 4px 6px;
       }
+
+      .tag-pool__tag:hover {
+        background: #0189e3;
+      }
     }
 
     p {
@@ -91,43 +94,7 @@ const StyledDropDown = styled.li`
 `
 
 const DropDown = ({ children, ...rest }) => (
-  <StyledDropDown {...rest}>
-    {children}
-    <ul>
-      <li>
-        <a href="/posts/?tag=micro">All micro drones / toothpicks</a>
-      </li>
-      <li>
-        <Link to="/fpv/mobula6-48khz-jesc-complete-setup-review/">Mobula6</Link>
-      </li>
-      <li>
-        <Link to="/fpv/emax-tinyhawk-freestyle-complete-review-and-setup/">
-          Emax Tinyhawk Freestyle
-        </Link>
-      </li>
-      <li>
-        <Link to="/fpv/geprc-phantom-review-and-setup/">GEPRC Phantom</Link>
-      </li>
-      <li>
-        <Link to="/fpv/geprc-cinepro-4k-cinewhoop-review/">
-          GEPRC CinePro 4K
-        </Link>
-      </li>
-      <li>
-        <Link to="/fpv/set-up-fpv-drone-simulator/">Drone simulator</Link>
-      </li>
-      <li>
-        <Link to="/fpv/gear-2019/">My FPV gear</Link>
-      </li>
-      <li>
-        <hr />
-      </li>
-      <li className="tags">
-        <p>Top 10 tags:</p>
-        <TagPool tagAmount={10} />
-      </li>
-    </ul>
-  </StyledDropDown>
+  <StyledDropDown {...rest}>{children}</StyledDropDown>
 )
 
 export default DropDown
