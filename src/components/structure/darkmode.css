@@ -1,6 +1,7 @@
 /* Dark Mode */
 :root {
   --dark-mode-bg-color: #282c34;
+  --dark-mode-bg-color-lighter: #3b414c;
   --dark-mode-bg-color-secondary: #7f848e;
   --dark-mode-bg-color-tertiary: #656060;
   --dark-mode-color: #bbbbbb;
@@ -31,6 +32,7 @@
   background-color: var(--dark-mode-bg-color) !important;
   color: var(--dark-mode-color) !important;
 }
+
 .dark-mode .main-wrapper {
   background-color: var(--dark-mode-bg-color);
   color: var(--dark-mode-color);
@@ -222,4 +224,25 @@
 .dark-mode button.ask-a-question:hover {
   color: var(--dark-mode-bg-color);
   background-color: var(--dark-mode-blue);
+}
+
+.dark-mode header nav ul.nav li ul {
+  background-color: var(--dark-mode-bg-color-lighter);
+}
+
+.dark-mode header nav ul.nav li ul li a:hover {
+  background-color: var(--dark-mode-bg-color);
+}
+
+.dark-mode header nav ul.nav li ul li.tags {
+  color: var(--dark-mode-color);
+}
+
+.dark-mode header nav ul.nav li ul li.tags .tag-pool .tag-pool__tag {
+  color: var(--dark-mode-bg-color);
+  background: var(--dark-mode-blue);
+}
+
+.dark-mode header nav ul.nav li ul li hr {
+  border-color: var(--dark-mode-color);
 }
