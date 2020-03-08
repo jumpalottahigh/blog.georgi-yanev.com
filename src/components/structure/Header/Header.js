@@ -24,18 +24,12 @@ const AppBarWrapper = styled.nav`
   }
 
   .visible-xs {
-    /* display: flex;
-    align-items: center;
-    height: 100%; */
-    display: inline-block;
+    display: flex;
   }
 
   @media (min-width: 710px) {
     ul li {
-      /* display: flex;
-      align-items: center;
-      height: 100%; */
-      display: inline-block;
+      display: flex;
     }
   }
 `

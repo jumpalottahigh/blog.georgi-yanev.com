@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const StyledDropDown = styled.li`
   position: relative;
-  display: block;
+  display: flex;
   transition-duration: 0.5s;
 
   &:hover {
@@ -23,16 +23,18 @@ const StyledDropDown = styled.li`
     color: #fafafa;
   }
 
-  &:hover > ul,
-  & ul:hover {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-  }
-
   & ul li {
     clear: both;
     width: 100%;
+  }
+
+  @media (min-width: 710px) {
+    &:hover > ul,
+    & ul:hover {
+      visibility: visible;
+      opacity: 1;
+      display: block;
+    }
   }
 `
 
