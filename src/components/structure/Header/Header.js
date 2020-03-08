@@ -2,31 +2,38 @@ import React from 'react'
 import styled from 'styled-components'
 import { graphql, Link, useStaticQuery } from 'gatsby'
 import Img from 'gatsby-image'
+
 import Hamburger from './Hamburger'
 import SocialIcons from './SocialIcons'
+import DropDown from './DropDown'
+import TagPool from '../../TagPool'
 
-const AppBarWrapper = styled.div`
+const AppBarWrapper = styled.nav`
   display: flex;
   width: 100%;
+  height: 100%;
+  align-items: center;
+
+  ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
 
   ul li {
     display: none;
   }
 
   .visible-xs {
-    display: inline-block;
+    display: flex;
   }
 
   @media (min-width: 710px) {
     ul li {
-      display: inline-block;
+      display: flex;
     }
   }
 `
-
-const activeStyle = {
-  color: '#0175d8',
-}
 
 const Header = () => {
   const { logo } = useStaticQuery(graphql`
@@ -45,6 +52,10 @@ const Header = () => {
       }
     }
   `)
+
+  const activeStyle = {
+    color: '#0175d8',
+  }
 
   return (
     <header
@@ -106,30 +117,87 @@ const Header = () => {
                 Home
               </Link>
             </li>
-            <li exact="true" className="visible-xs">
-              <Link to="/posts/" activeStyle={activeStyle}>
+            <DropDown className="visible-xs">
+              <Link exact="true" to="/posts/" activeStyle={activeStyle}>
                 FPV Drones
               </Link>
-            </li>
-            <li className="visible-xs">
+
+              <ul>
+                <li>
+                  <a href="/posts/?tag=micro">All micro drones / toothpicks</a>
+                </li>
+                <li>
+                  <Link to="/fpv/mobula6-48khz-jesc-complete-setup-review/">
+                    Mobula6
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/fpv/emax-tinyhawk-freestyle-complete-review-and-setup/">
+                    Emax Tinyhawk Freestyle
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/fpv/geprc-phantom-review-and-setup/">
+                    GEPRC Phantom
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/fpv/geprc-cinepro-4k-cinewhoop-review/">
+                    GEPRC CinePro 4K
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/fpv/set-up-fpv-drone-simulator/">
+                    Drone simulator
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/fpv/gear-2019/">My FPV gear</Link>
+                </li>
+                <li>
+                  <hr />
+                </li>
+                <li className="tags">
+                  <p>Top 10 tags:</p>
+                  <TagPool tagAmount={10} />
+                </li>
+              </ul>
+            </DropDown>
+            <DropDown className="visible-xs">
               <Link to="/quick-tips/" activeStyle={activeStyle}>
-                Quick tips
+                Misc
               </Link>
-            </li>
-            {/* TODO: Remove temporarily until the main nav revamp */}
-            {/* <li>
-              <Link to="/fpv-news/" activeStyle={activeStyle}>
-                FPV news
-              </Link>
-            </li> */}
+              <ul>
+                <li>
+                  <Link to="/videos/" activeStyle={activeStyle}>
+                    Videos
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/quick-tips/" activeStyle={activeStyle}>
+                    Quick tips
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/fpv-news/" activeStyle={activeStyle}>
+                    FPV news
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/newsletter/" activeStyle={activeStyle}>
+                    FPVtips Newsletter
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/about/" activeStyle={activeStyle}>
+                    About
+                  </Link>
+                </li>
+              </ul>
+            </DropDown>
             <li>
-              <Link to="/videos/" activeStyle={activeStyle}>
-                Videos
-              </Link>
-            </li>
-            <li>
-              <Link to="/about/" activeStyle={activeStyle}>
-                About
+              <Link to="/support-me/" activeStyle={activeStyle}>
+                Support me
               </Link>
             </li>
           </ul>

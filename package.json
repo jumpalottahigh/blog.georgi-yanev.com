@@ -1,7 +1,7 @@
 {
   "name": "blog-georgi-yanev",
   "description": "Georgi Yanev's Blog",
-  "version": "2.3.8",
+  "version": "2.4.0",
   "author": "Georgi Yanev <georgiyanev.gy@gmail.com>",
   "dependencies": {
     "@weknow/gatsby-remark-twitter": "^0.2.3",
