@@ -14,8 +14,10 @@ gearList:
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, freestyle, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, tinywhoop, TODO:'
 ogDescription: 'TODO:'
-ogImage: './skyrc-q200-lipo-battery-charger-1.jpg'
+ogImage: './skyrc-q200-lipo-battery-charger-2.jpg'
 ---
+
+I don't always want to start off an article with such a strong statement as "one of the best..." but at the same time I also try to review mostly useful, high quality and good value items on the blog.
 
 TODO: INTRO
 
@@ -35,6 +37,24 @@ If you prefer watching, check out the full video review on my YouTube channel:
 </div>
 
 ### 📦 <span id="unboxing">Unboxing</span>
+
+![](skyrc-q200-lipo-battery-charger-1.jpg)
+
+![](skyrc-q200-lipo-battery-charger-2.jpg)
+
+![](skyrc-q200-lipo-battery-charger-3.jpg)
+
+![](skyrc-q200-lipo-battery-charger-4.jpg)
+
+![](skyrc-q200-lipo-battery-charger-5.jpg)
+
+![](skyrc-q200-lipo-battery-charger-6.jpg)
+
+![](skyrc-q200-lipo-battery-charger-7.jpg)
+
+![](skyrc-q200-lipo-battery-charger-8.jpg)
+
+![](skyrc-q200-lipo-battery-charger-9.jpg)
 
 TODO:
 
