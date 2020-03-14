@@ -11,9 +11,14 @@ tags:
   - 'battery'
 gearList:
   - 'skyrc-q200'
+  - 'lipo-battery-charger'
+  - 'gnb-4s-1300'
+  - 'cnhl-1300'
+  - 'gnb-6s-1050'
+  - 'tattu-r-line-6s-1050'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
-ogKeywords: 'fpv, drone, freestyle, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, tinywhoop, TODO:'
-ogDescription: 'TODO:'
+ogKeywords: 'fpv, drone, freestyle, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, tinywhoop, skyrc, skyrc charger, q200, skyrc q200, skyrc quattro charger, skyrc multiport charger, charging 4 batteries simultaneously, batteries, lipo, lipo batteries, drone battery, how to charge drone batteries, how to charge lipos quickly, how to storage charge batteries, how to discharge batteries, how to use smartphone app to charge lipos, skyrc smartphone app, skyrc bluetooth app, ios, android, balance charge batteries, balance charge lipos, banana plug, balance lead adaptor'
+ogDescription: 'I don''t always want to start off an article with such a strong statement as "one of the best..." but at the same time I also try to review and feature the products I found out to be useful, high quality and good value. And today we''re going to have a look at the SkyRC Q200 quattro balance charger as one such product.'
 ogImage: './skyrc-q200-lipo-battery-charger-2.jpg'
 ---
 
