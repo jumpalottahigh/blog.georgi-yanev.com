@@ -23,12 +23,12 @@ And today we're going to have a look at the [SkyRC Q200][1] quattro balance char
 
 There are other products out there, that are certainly cheaper, especially if you have your own power supply or if you charge with a parallel charging board. That's a fact that needs to be acknoledged and I'm not saying the SkyRC Q200 is the right charger for everyone. But for me it is. For 2 main reasons:
 
-1. I don't have a separate power supply and much more would prefer a plug and play unit that you can just start using.
+1. I don't have a separate power supply and much more would prefer a plug and play unit that I can just start using.
 2. I don't do parallel charging with external boards. I know if you are careful and know what you're doing it is a safe method of charging many batteries at once. I personally do not want to do it and have no need to do it. I fly different quads with different battery sizes, and have been doing somewhat fine with just a couple of very small chargers for about 3 years now.
 
 The [SkyRC Q200][1] has 4 completely separate from one another charging slots and I love this. I can charge 4 different batteries at the same time. This, plus still using my 2 old chargers is a combination I don't think I'll be outgrowing any time soon.
 
-If you like parallel charging and know what you're doing - enjoy. I'm not trying to convince anyone against it. It's not wildly dangerous, I'm not trying to portrait it like it is. But I know of many people who don't want to do it (including myself) and this is why I'm making this review and sharing my experience with this charging setup.
+If you like parallel charging and know what you're doing - enjoy. I'm not trying to convince anyone against it. It's not wildly dangerous, I'm not trying to portrait it like it is. But I know of many people who don't want to do it (including myself) and this is why I'm making this review and sharing my experience and my charging setup.
 
 ### Table of contents
 
@@ -59,11 +59,11 @@ Removing the top plate reveals two compartments: one for the charger and one for
 
 ![SkyRC Q200 top inner padding removed](skyrc-q200-lipo-battery-charger-11.jpg)
 
-So, here is the SkyRC Q200 in all it's glory. Looks and feels like a high quality product. Not too big, around TODO: size
+So, here is the SkyRC Q200 in all it's glory. Looks and feels like a high quality product. Not too big, around 19x 17cm.
 
 ![SkyRC Q200 out of the box](skyrc-q200-lipo-battery-charger-2.jpg)
 
-Here is everything you get inside the box: the charger itself, a nice thick and detailed manual, an outlet plug (in my case EU style), 2 custom banana plug to wire cables for soldering to your own connector type, 4 banana plug to XT60, 4 balance wires and adaptors supporting 2S to 6S batteries (perfect for out drone lipos).
+Here is everything you get inside the box: the charger itself, a nice thick and detailed manual, an outlet plug (in my case EU style), 2 custom banana plug to wire cables for soldering to your own connector type, 4 banana plug to XT60 connectors, 4 balance wires and adaptors supporting 2S to 6S batteries (perfect for out drone lipos).
 
 ![SkyRC Q200 package contents](skyrc-q200-lipo-battery-charger-3.jpg)
 
@@ -73,21 +73,37 @@ If anything, I'm surprised how minimalistic the package contents is. Definitely 
 
 ### 📝 <span id="specs" class="offset-top-nav">Specs and Features</span>
 
-![](skyrc-q200-lipo-battery-charger-5.jpg)
+In terms of specs and features, the two arguably most important things about this charger are the fact that it can charge up to 4 batteries at the same time (with different amount of cells or different chemistry) and completely independantly. And it can do so with its own internal power supply - no extra power supply needed.
 
-![](skyrc-q200-lipo-battery-charger-6.jpg)
+It has a nice colorful screen with a fairly intuitive UI and you can operate the unit with the 5 labeled buttons right under the screen.
 
-![](skyrc-q200-lipo-battery-charger-7.jpg)
+![SkyRC Q200 top down view](skyrc-q200-lipo-battery-charger-5.jpg)
 
-![](skyrc-q200-lipo-battery-charger-8.jpg)
+The `A`, `B`, `C`, `D` labels point to where the 4 charging slots are located. At 19cm x 17cm (~ 7.5" x 6.5") it's not the most compact charger. It's also not the bulkiest given it contains the power supply as well as a couple of cooling fans on the sides of the unit.
 
-![](skyrc-q200-lipo-battery-charger-9.jpg)
+![SkyRC Q200 charging port A](skyrc-q200-lipo-battery-charger-7.jpg)
 
-TODO: List specs
-List features (Bluetooth app etc.)
+It can charge a variaty of different battery chemistries (LiPo, LiHV, LiFe, LiIon, NiMH, NiCd, PB), including our drone favorite LiPo. And it can do that at up to 200W total power fed via an AC input.
+
+For OTG (On The Go) applications, the unit can also accept power via an XT60 DC port on the back (11-18V). There's also a power on/off switch on the back panel above the AC plug slot.
+
+![SkyRC Q200 back panel](skyrc-q200-lipo-battery-charger-9.jpg)
+
+In the middle of the front panel there is a 5V USB charging port and a PC link micro USB port for connecting to a computer.
+
+![SkyRC Q200 front panel](skyrc-q200-lipo-battery-charger-6.jpg)
+
+Each of the 4 charging slots (channels) has 4 ports. The banana plug positive (red) and negative (black) lead ports, the balance lead port (white) and a temperature sensor port.
+
+![SkyRC Q200 charging channel B](skyrc-q200-lipo-battery-charger-8.jpg)
+
+The firmware is upgradeable, there is PC control software, **as well as a smart phone app** that allows you to connect to the charger via Bluetooth to control it and monitor its state.
+
+Additionally, you can scan QR codes via the app to quickly read and apply charging profiles. So in a way it's very easy to quickly get started and get your packs charged so you can go fly. At the same time, the charger supports some more advanced use cases and scenarios, should you ever need them. Cool stuff.
 
 ### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
 
+TODO: some UI pictures
 TODO:
 
 #### 🈸 Get the mobile app
@@ -122,6 +138,14 @@ TODO: Detailed with menu shots
 #### Other interesting functions
 
 #### Storage charging
+
+#### Advanced use cases
+
+TODO:
+
+- On the go, car battery
+- Printing and adding QR codes to your batteries if you have many different ones
+- Voltage calibration (benefits, taking care of batteries)
 
 ### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
 
