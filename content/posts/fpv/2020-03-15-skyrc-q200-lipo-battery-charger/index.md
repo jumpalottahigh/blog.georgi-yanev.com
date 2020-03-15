@@ -108,25 +108,50 @@ Additionally, you can scan QR codes via the app to quickly read and apply chargi
 
 ### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
 
-TODO: some UI pictures
-TODO:
+There's not much to the setup of the [SkyRC Q200][1] charger. You only need to plug it into the wall and turn it on via the switch on the back.
 
-#### 🈸 Get the mobile app
+You don't _need_ the smartphone app or the PC app to operate the charger. But they are there should you need them, and there I say the UI on both is pretty nice, useful and organized. Very good job, SkyRC!
 
-TODO: screenshots from the screencast
+#### 🈸 Get the SkyCharger smartphone app
 
-TODO:
+The quickest way to get the mobile app is to scan the QR code off the manual. Or visit [the SkyRC smartphone app download page][2] and then go to the app store of your choice. I'm using a Google Pixel 3, so I visited the Google Play store.
 
-#### 💻 Connect to computer
+Install the app, select the Bluetooth device (charger must be on for this to work) and set an access password when prompted.
 
-TODO: Get desktop app - connect to computer
+![SkyRC Q200 downloading and running the Android smartphone app](skyrc-q200-lipo-battery-charger-18.gif)
 
-### 🔋 <span id="batteries" class="offset-top-nav">Batteries</span>
+Now you can use the app to control or setup the charging process, as well as to monitor the state of the batteries and the charger.
 
-Before we continue with the charger review and guide on charging, I'd like to take a small tangent and discuss batteries quickly.
-TODO:
+#### 💻 Connect to a computer via the Charger Master app
+
+[Download][3] and install the SkyRC Charger Master app. Connect the charger to the PC via a micro USB cable. Run the app and the charger will get recognized.
+
+![SkyRC Q200](skyrc-q200-lipo-battery-charger-19.gif)
+
+You can then use the app to set the different channels, change settings and monitor the overall progress.
+
+Let me know if you are interested to go deeper and learn more about the SkyCharger or Charger Master apps and I can make a dedicated post on those going in more detail.
+
+In the meantime, let's take a look at charging batteries using the SkyRC Q200's own user interface.
 
 ### ⚡ <span id="charging" class="offset-top-nav">Charging</span>
+
+If I take 2 things seriously about FPV drones, that's 5 inch props and lipo batteries. I suggest you do too, if you want to stay safe.
+
+Dealing with lipo batteries can be dangerous, so always pay attention, be careful, don't do dumb stuff and never leave your batteries unattended.
+
+Additionally, the author is in no way responsible for any damage you may cause.
+
+The charger comes with a [pretty detailed manual][4], you should refer to it before doing anything with the charger.
+
+TODO: some UI pictures
+
+![SkyRC Q200](skyrc-q200-lipo-battery-charger-12.jpg)
+![SkyRC Q200](skyrc-q200-lipo-battery-charger-13.jpg)
+![SkyRC Q200](skyrc-q200-lipo-battery-charger-14.jpg)
+![SkyRC Q200](skyrc-q200-lipo-battery-charger-15.jpg)
+![SkyRC Q200](skyrc-q200-lipo-battery-charger-16.jpg)
+![SkyRC Q200](skyrc-q200-lipo-battery-charger-17.jpg)
 
 TODO: Detailed with menu shots
 
@@ -157,8 +182,12 @@ TODO:
 TODO:
 
 - post in banggood
+- links youtube description and blog gear list: xt30 cables
 
 Happy flying!
 
 [0]: Linkslist
 [1]: https://bit.ly/skyrc-q200
+[2]: https://www.skyrc.com/qrcode/?key=skyrc_q200
+[3]: https://www.skyrc.com/help/download/charger/Q200/ChargeMaster_Q200.rar
+[4]: https://www.skyrc.com/files/60?open=1
