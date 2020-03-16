@@ -272,6 +272,16 @@ const allFeaturedGear = {
     link: 'https://bit.ly/gnb-6s-1050',
     image: '/banggood/gnb-6s-1050.jpg',
   },
+  'xt30-to-ph2': {
+    name: 'XT30 to PH2.0 cable',
+    link: 'https://bit.ly/xt30-to-ph2',
+    image: '/banggood/xt30-to-ph2.jpg',
+  },
+  'xt30-to-banana-plug': {
+    name: 'XT30 to banana plug cable',
+    link: 'https://bit.ly/xt30-to-banana-plug',
+    image: '/banggood/xt30-to-banana-plug.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
