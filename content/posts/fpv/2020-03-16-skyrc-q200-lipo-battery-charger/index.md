@@ -1,6 +1,6 @@
 ---
-path: '/fpv/skyrc-q200-lipo-battery-charger/'
-date: '2020-03-15'
+path: '/fpv/skyrc-q200-battery-charger-review/'
+date: '2020-03-16'
 title: 'SkyRC Q200 - One of the best drone lipo battery chargers'
 author: 'Georgi Yanev'
 draft: false
