@@ -18,6 +18,7 @@ const StyledDropDown = styled.li`
 
   &:hover {
     cursor: pointer;
+    /* border-bottom: 1px solid #0175d8; */
   }
 
   & hr {
@@ -26,18 +27,21 @@ const StyledDropDown = styled.li`
   }
 
   & ul {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
     display: none;
     flex-flow: column nowrap;
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    transition: all 0.5s ease;
+    /* transition: all 0.5s ease; */
     margin: 0;
     left: 0;
     top: 63px;
     background: #dedede;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px 0px,
-      rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px 0px,
+      rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px; */
     color: #202020;
     height: auto !important;
   }

@@ -252,6 +252,36 @@ const allFeaturedGear = {
     link: 'https://bit.ly/cnhl-1300',
     image: '/banggood/cnhl-1300.jpg',
   },
+  'skyrc-q200': {
+    name: 'SkyRC Q200',
+    link: 'https://bit.ly/skyrc-q200',
+    image: '/banggood/skyrc-q200.jpg',
+  },
+  'tattu-r-line-6s-1050': {
+    name: 'Tattu R-Line 6S 1050mAh',
+    link: 'https://bit.ly/tattu-r-line-6s-1050',
+    image: '/banggood/tattu-r-line-6s-1050.jpg',
+  },
+  'gnb-4s-1300': {
+    name: 'GNB 4S 1300mAh',
+    link: 'https://bit.ly/gnb-4s-1300',
+    image: '/banggood/gnb-4s-1300.jpg',
+  },
+  'gnb-6s-1050': {
+    name: 'GNB 6S 1050mAh',
+    link: 'https://bit.ly/gnb-6s-1050',
+    image: '/banggood/gnb-6s-1050.jpg',
+  },
+  'xt30-to-ph2': {
+    name: 'XT30 to PH2.0 cable',
+    link: 'https://bit.ly/xt30-to-ph2',
+    image: '/banggood/xt30-to-ph2.jpg',
+  },
+  'xt30-to-banana-plug': {
+    name: 'XT30 to banana plug cable',
+    link: 'https://bit.ly/xt30-to-banana-plug',
+    image: '/banggood/xt30-to-banana-plug.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`

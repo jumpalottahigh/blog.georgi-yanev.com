@@ -38,7 +38,7 @@ const SideBar = () => {
               <span role="img" aria-label="helicopter">
                 🚁
               </span>{' '}
-              <em>FPV quads</em>
+              <em>FPV drones</em>
             </Link>
           </li>
           {sortedByCategory['fpv'].map(page => (
