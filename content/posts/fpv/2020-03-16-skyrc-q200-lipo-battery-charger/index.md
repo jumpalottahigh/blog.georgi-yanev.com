@@ -70,7 +70,7 @@ So, here is the SkyRC Q200 in all it's glory. It looks and feels like a high-qua
 
 ![SkyRC Q200 out of the box](skyrc-q200-lipo-battery-charger-2.jpg)
 
-Here is everything you get inside the box: the charger itself, a nice thick and detailed manual, an outlet plug (in my case EU style), 2 custom banana plug to wire cables for soldering to your own connector type, 4 banana plug to XT60 connectors, 4 balance wires and adaptors supporting 2S to 6S batteries (perfect for out drone lipos).
+Here is everything you get inside the box: the charger itself, a nice thick and detailed manual, an outlet plug (in my case EU style), 2 custom banana plug to wire cables for soldering to your own connector type, 4 banana plug to XT60 connectors, 4 balance wires and adaptors supporting 2S to 6S batteries (perfect for our drone lipos).
 
 ![SkyRC Q200 package contents](skyrc-q200-lipo-battery-charger-3.jpg)
 
