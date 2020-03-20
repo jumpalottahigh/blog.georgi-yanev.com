@@ -46,11 +46,11 @@ If you like parallel charging and know what you're doing - enjoy. I'm not trying
 - [🔝 Upgrades](#upgrades)
 - [📑 Conclusion](#conclusion)
 
-<!-- If you prefer watching, check out the full video review on my YouTube channel: -->
+If you prefer watching, check out the full video review on my YouTube channel:
 
-<!-- <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO:?rel=0" frameBorder="0" allowFullScreen title="TODO:"></iframe>
-</div> -->
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/eF-MMkDzZUc?rel=0" frameBorder="0" allowFullScreen title="SkyRC Q200 Quattro charger unboxing, review, software and setup"></iframe>
+</div>
 
 ### 📦 <span id="unboxing">Unboxing</span>
 
