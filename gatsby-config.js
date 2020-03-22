@@ -1,3 +1,7 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   pathPrefix: `/`,
   siteMetadata: {
@@ -115,6 +119,14 @@ module.exports = {
     //     sv: `6`,
     //   },
     // },
+    {
+      resolve: `gatsby-source-youtube-v2`,
+      options: {
+        channelId: ['UCCh3SK2EktDdOQkEOTDmSCg', 'UC2gwYMcfb0Oz_fl9W1uTV2Q'],
+        apiKey: process.env.YOUTUBE_API_KEY,
+        maxVideos: 50, // Defaults to 50
+      },
+    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {

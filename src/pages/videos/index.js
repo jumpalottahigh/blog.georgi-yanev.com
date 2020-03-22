@@ -27,8 +27,11 @@ const VideosPage = () => {
     <Layout>
       <Section>
         <h2>Choose a category:</h2>
+        <Link to="/videos/fpvtips/">
+          <h3 className="category fpv">FPVtips</h3>
+        </Link>
         <Link to="/videos/fpv/">
-          <h3 className="category fpv">FPV racing drones</h3>
+          <h3 className="category fpv">Raw FPV drones footage</h3>
         </Link>
         <Link to="/videos/webdev/">
           <h3 className="category learning">Web Development Tips</h3>

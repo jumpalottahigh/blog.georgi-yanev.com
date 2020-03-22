@@ -41,28 +41,30 @@ const VideoContainer = styled.div`
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     padding: 2px;
-    color: #fff;
     margin: 0;
-    background: #232f3e;
+    padding: 8px;
+    color: #f2f7fd;
+    background: #0175d8;
+    font-size: 18px;
   }
 
   time {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 18px;
     color: #232f3e;
     background: #ccc;
-    padding: 2px;
+    padding: 4px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
 `
 
-const FPVVideos = () => {
-  const { georgiFpv } = useStaticQuery(graphql`
+const FPVtipsVideos = () => {
+  const { fpvtips } = useStaticQuery(graphql`
     {
-      georgiFpv: allYoutubeVideo(
-        filter: { channelId: { eq: "UC2gwYMcfb0Oz_fl9W1uTV2Q" } }
+      fpvtips: allYoutubeVideo(
+        filter: { channelId: { eq: "UCCh3SK2EktDdOQkEOTDmSCg" } }
       ) {
         nodes {
           id
@@ -79,18 +81,24 @@ const FPVVideos = () => {
       <Section>
         <h2>
           <a
-            href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q"
+            href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Georgi FPV
+            FPVtips
           </a>
         </h2>
         <Grid>
-          {georgiFpv.nodes.map(video => (
+          {fpvtips.nodes.map(video => (
             <Fade key={video.id}>
               <VideoContainer>
-                <h5>{video.title}</h5>
+                <a
+                  href={`https://www.youtube.com/watch?v=${video.videoId}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h5>{video.title}</h5>
+                </a>
                 <Video
                   src={video.videoId}
                   width="560"
@@ -107,4 +115,4 @@ const FPVVideos = () => {
   )
 }
 
-export default FPVVideos
+export default FPVtipsVideos
