@@ -34,7 +34,7 @@ class BlogIndex extends React.Component {
   componentDidMount() {
     // If user is on a dodgy connection, don't load the video at all
     if ('connection' in navigator) {
-      if (navigator.connection.downlink < 5) {
+      if (navigator.connection.downlink < 1.75) {
         this.setState({ loadVideo: false })
       }
     }
