@@ -179,7 +179,6 @@ class BlogIndex extends React.Component {
             <button className="category fpv">More blog posts</button>
           </Link>
           <AuthorMessage type="fpv" style={{ marginTop: '2rem' }} />
-
           {loadVideo && (
             <div className="video-container">
               <motion.div
@@ -194,14 +193,8 @@ class BlogIndex extends React.Component {
                   playsInline
                   onClick={this.handleVideoClick}
                 >
-                  <source
-                    src="https://www.georgi-yanev.com/static/landing-a-quad-1-d1a878f7ef756c703ebeeecdb529e63e.webm"
-                    type="video/webm"
-                  />
-                  <source
-                    src="https://www.georgi-yanev.com/static/landing-a-quad-1-a959ba1dfed1d6abe2e8052b61bfb0b4.mp4"
-                    type="video/mp4"
-                  />
+                  <source src="/new-blog-intro.webm" type="video/webm" />
+                  <source src="/new-blog-intro.mp4" type="video/mp4" />
                   Tap to play video
                 </video>
               </motion.div>
@@ -209,10 +202,14 @@ class BlogIndex extends React.Component {
           )}
           <h3>
             If you are still hungry for more FPV related things, definitely
-            subscribe to the monthly newsletter...
+            checkout my YouTube channels:
+          </h3>
+          <YouTubeChannelsPromo />
+          <h3 style={{ marginTop: '28px' }}>
+            And subscribe to the monthly newsletter to get a monthly update on
+            the latest posts and videos.
           </h3>
           <TinyLetterSignup />
-          <YouTubeChannelsPromo text="... or check out the YouTube channels:" />
         </div>
       </Layout>
     )
