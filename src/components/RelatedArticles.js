@@ -1,5 +1,20 @@
 import React from 'react'
+import styled from 'styled-components'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+
+const StyledRelatedArticles = styled.div`
+  border-top: 1px solid #cecece;
+  padding: 1rem 0;
+
+  & a {
+    display: inline-block;
+    padding: 6px 0;
+  }
+
+  & a:hover {
+    box-shadow: inset 0 -34px 0px 0px #0175d8;
+  }
+`
 
 const RelatedArticles = ({ relatedArticles, currentPagePath }) => {
   const { allMarkdownRemark } = useStaticQuery(graphql`
@@ -51,22 +66,19 @@ const RelatedArticles = ({ relatedArticles, currentPagePath }) => {
     return result.score > 0 ? result : null
   })
 
-  return (
-    <React.Fragment>
-      {relatedPages.length !== 0 ? (
-        <div className="related-articles">
-          <h4 style={{ margin: 0 }}>Related articles:</h4>
-          {relatedPages.map(page => (
-            <div key={page.node.id}>
-              <Link to={page.node.frontmatter.path + '/'}>
-                {page.node.frontmatter.title}
-              </Link>
-            </div>
-          ))}
+  return relatedPages.length !== 0 ? (
+    <StyledRelatedArticles>
+      <h4 style={{ margin: 0 }}>Related articles:</h4>
+      {relatedPages.map(page => (
+        <div key={page.node.id}>
+          <Link to={page.node.frontmatter.path + '/'}>
+            {page.node.frontmatter.title}
+            {page.score}
+          </Link>
         </div>
-      ) : null}
-    </React.Fragment>
-  )
+      ))}
+    </StyledRelatedArticles>
+  ) : null
 }
 
 export default RelatedArticles

@@ -688,17 +688,8 @@ pre tt:after {
   color: #0175d8;
 }
 
-.sidenav a::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #0175d8;
-  transition: width 0.15s;
-}
-
-.sidenav a:hover::after {
-  width: 100%;
+.sidenav a:hover {
+  font-weight: 700;
 }
 
 .sidenav-category {
@@ -1246,21 +1237,6 @@ button {
 
 .blog-post-content h3 + ul li a:hover {
   box-shadow: inset 0 -28px 0px 0px #0175d8;
-}
-
-.related-articles {
-  border-top: 1px solid #cecece;
-  border-bottom: 1px solid #cecece;
-  padding: 1rem 0;
-}
-
-.related-articles a {
-  display: inline-block;
-  padding: 6px 0;
-}
-
-.related-articles a:hover {
-  box-shadow: inset 0 -34px 0px 0px #0175d8;
 }
 
 .support-section {

@@ -47,7 +47,7 @@ const AuthorMessage = ({ type = 'fpv', style }) => {
                 : authorImage.georgi.childImageSharp.fluid
             }
             alt="Georgi Yanev portrait"
-            style={{ borderRadius: type === 'fpv' ? 'initial' : '50%' }}
+            style={{ borderRadius: '50%' }}
           />
         </div>
       </div>

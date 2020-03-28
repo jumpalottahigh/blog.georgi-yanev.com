@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import styled from 'styled-components'
 import { Fade } from 'react-reveal'
 
@@ -33,105 +33,72 @@ const Section = styled.section`
   }
 `
 
+const VideoContainer = styled.div`
+  display: flex;
+  flex-flow: column nowrap;
+
+  h5 {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 2px;
+    color: #fff;
+    margin: 0;
+    background: #232f3e;
+  }
+
+  time {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #232f3e;
+    background: #ccc;
+    padding: 2px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+`
+
 const FPVVideos = () => {
-  const videoIDsHD = [
-    '51d_BzrWnKs',
-    'W_TeQMJbjgM',
-    'r3SJZqLpQx8',
-    'UtTZWqvdqEM',
-    'k4p41u9SDe4',
-    'WSS3_00TVT8',
-    'UUXNL4OX_VU',
-    'geXnCoNvBPk',
-    'GdYGpLpiSrE',
-    '70tXXAfs-ks',
-    'TkdUIZi9ay8',
-    'jzdjaeVbcAk',
-    '9zFRK-8Jrw0',
-    'UJuaf9KDCik',
-    'aASDUpVy3zM',
-    'XWO7LK16cw4',
-    'jo69e-78OJQ',
-    'ue2gsEnMBrk',
-    'cVTpELazrD8',
-    'jUJzXEe_ro0',
-    'wNNG2Iwh46U',
-    'qRN9jqY8jv0',
-    '37F2ckku7uU',
-    'uyWB6Cu0klc',
-    '398BDc5mvuA',
-    'ZiZW9Rzals4',
-  ]
-
-  const eachineTrashcanFootage = [
-    'D4syF-9L6ho',
-    'bJesPg1aYgg',
-    'mre72vT9EnA',
-    'rKG9t7o2xws',
-    'RNN3yQCMJnE',
-    'FiHDv3N1oPk',
-  ]
-
-  const snapper7Footage = [
-    '68VTNfrI8j4',
-    '-ZfPmStAWps',
-    'jxPxh4PmJlA',
-    '5qibdPcrK1k',
-  ]
+  const { georgiFpv } = useStaticQuery(graphql`
+    {
+      georgiFpv: allYoutubeVideo(
+        filter: { channelId: { eq: "UC2gwYMcfb0Oz_fl9W1uTV2Q" } }
+      ) {
+        nodes {
+          id
+          title
+          videoId
+          publishedAt(formatString: "MMM DD YYYY")
+        }
+      }
+    }
+  `)
 
   return (
     <Layout>
       <Section>
         <h2>
-          <Link to="/fpv/upgrading-your-wizard-part-2/">Wizard x220</Link> &amp;{' '}
-          <Link to="/fpv/build-a-quad/">Phoenix</Link>
-        </h2>
-        <h3 style={{ textAlign: 'center' }}>Season 2018</h3>
-        <Grid>
-          {videoIDsHD.map(id => (
-            <Fade key={id}>
-              <Video
-                src={id}
-                width="560"
-                height="315"
-                title={`FPV HD video - ${id}`}
-              />
-            </Fade>
-          ))}
-        </Grid>
-        <h2 style={{ marginTop: '2rem' }}>
-          <Link to="/fpv/unbox-review-setup-eachine-trashcan/">
-            Eachine Trashcan
-          </Link>
-        </h2>
-        <h3 style={{ textAlign: 'center' }}>Season 2019</h3>
-        <Grid>
-          {eachineTrashcanFootage.map(id => (
-            <Fade key={id}>
-              <Video
-                src={id}
-                width="560"
-                height="315"
-                title={`Eachine Trashcan video - ${id}`}
-              />
-            </Fade>
-          ))}
-        </Grid>
-        <h2 style={{ marginTop: '2rem' }}>
-          <a href="https://bit.ly/snapper-7" target="_blank" rel="noreferrer">
-            Snapper7
+          <a
+            href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Georgi FPV
           </a>
         </h2>
-        <h3 style={{ textAlign: 'center' }}>Season 2018</h3>
         <Grid>
-          {snapper7Footage.map(id => (
-            <Fade key={id}>
-              <Video
-                src={id}
-                width="560"
-                height="315"
-                title={`Snapper7 video - ${id}`}
-              />
+          {georgiFpv.nodes.map(video => (
+            <Fade key={video.id}>
+              <VideoContainer>
+                <h5>{video.title}</h5>
+                <Video
+                  src={video.videoId}
+                  width="560"
+                  height="315"
+                  title={video.title}
+                />
+                <time dateTime={video.publishedAt}>{video.publishedAt}</time>
+              </VideoContainer>
             </Fade>
           ))}
         </Grid>
