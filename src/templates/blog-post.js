@@ -42,7 +42,7 @@ class BlogPostTemplate extends React.Component {
     let showBanner = false
     const affiliateParam = 'p=NY211410857261201705'
     const bannerLink = `https://www.banggood.com/marketing-Banggood-2019-RC-Toys-Brands-Day/tid-4950.html?bid=21149&${affiliateParam}`
-    const bannerLinkBottom = `https://www.banggood.com/marketing-banggood-13th-anniversary-toys-hobbies-robot-sale/tid-3664.html?utmid=9868&utm_design=25&${affiliateParam}`
+    const bannerLinkBottom = `https://www.banggood.com/Flashdeals.html?${affiliateParam}`
 
     if (post.frontmatter.category === 'fpv') {
       showBanner = true
@@ -195,8 +195,6 @@ class BlogPostTemplate extends React.Component {
               relatedArticles={post.frontmatter.tags}
             />
             {readerQuestions && <ReaderQuestions data={readerQuestions} />}
-            {/* TODO: Move out support section into a dedicated page. Only 1 small link on articles, maybe at the top toolbar */}
-            {/* <SupportSection affiliateNote={post.frontmatter.affiliate} /> */}
             <Share url={post.frontmatter.path} />
             <DiscussionEmbed
               shortname={disqusShortname}
@@ -204,12 +202,8 @@ class BlogPostTemplate extends React.Component {
             />
             {/* <Giveaway /> */}
             <YouTubeChannelsPromo text="Need even more FPV in your life? Check out my YouTube channels:" />
-            {/* <PromoBanner
-              style={{ maxWidth: '450px', margin: '1rem auto' }}
-              linkTo={bannerLinkBottom}
-              imageName="square"
-            /> */}
             <TinyLetterSignup />
+            <PromoBanner linkTo={bannerLinkBottom} imageName="bigStripe" />
           </div>
         </div>
       </Layout>
