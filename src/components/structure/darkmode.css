@@ -39,6 +39,14 @@
   color: var(--dark-mode-color);
 }
 
+.dark-mode .sidenav a {
+  color: var(--dark-mode-link-color);
+}
+
+.dark-mode .sidenav a:hover {
+  color: var(--dark-mode-link-color-hover);
+}
+
 .dark-mode .sidenav-category {
   color: var(--dark-mode-color) !important;
 }
