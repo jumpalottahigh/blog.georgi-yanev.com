@@ -27,6 +27,10 @@ When doing so, going with a drone as tried and tested as the [Holybro Kopis 2 HD
 
 I don't want to discourage you from building one from scratch, however, in fact, I always encourage you to try and build your own, but especially if it's your first one, I **highly** recommend grabbing a prebuilt drone that you can learn to fly on and enjoy, as well as learn to repair when you crash it.
 
+If you decide to follow along and grab the same quad as I did, do note that the Holybro Kopis 2 HDV can be purchased with and without the DJI air unit. Because I grabbed a DJI bundle with the goggles, controller and air unit already, I opted in to grab the Holybro Kopis without the air unit.
+
+If you are in the same boat as me, I'll include instructions on how to completely setup your quad if you need to add the DJI air unit on your own.
+
 ### Table of contents
 
 - [📦 Unboxing](#unboxing)
@@ -44,16 +48,42 @@ I don't want to discourage you from building one from scratch, however, in fact,
 
 ### 📦 <span id="unboxing">Unboxing</span>
 
-TODO:
+Coming in at about \$250 without the air unit, the [Holybro Kopis 2 HDV][1] is not one of the cheapest quads out there but it does offer an unboxing experience to match the price.
 
-![](holybro-kopis2-hdv-dji-air-unit-1.jpg)
-![](holybro-kopis2-hdv-dji-air-unit-2.jpg)
-![](holybro-kopis2-hdv-dji-air-unit-3.jpg)
-![](holybro-kopis2-hdv-dji-air-unit-4.jpg)
+![Holybro Kopis 2 HDV box](holybro-kopis2-hdv-dji-air-unit-1.jpg)
+
+Once you get past the Holybro box, you discover what looks and feels like a very high quality carry case.
+
+![Holybro Kopis 2 HDV high quality carry case](holybro-kopis2-hdv-dji-air-unit-2.jpg)
+
+Inside the case the Kopis 2 is sitting nice and snug, in the middle of the case, strapped in securely with a velcro strap.
+
+![Holybro Kopis 2 HDV in its carry case](holybro-kopis2-hdv-dji-air-unit-3.jpg)
+
+The upper part of the carry case has a zippable container that hosts the following items:
+
+2 sets of props, a small bag with prop nuts, a few spare screws, zip ties, double sided sticky tape, a parts list sheet, and a DJI air unit connection cable for the flight controller.
+
+![Items found in the Holybro Kopis 2 HDV box](holybro-kopis2-hdv-dji-air-unit-4.jpg)
+
+The props are TODO:
 ![](holybro-kopis2-hdv-dji-air-unit-5.jpg)
 ![](holybro-kopis2-hdv-dji-air-unit-6.jpg)
-![](holybro-kopis2-hdv-dji-air-unit-7.jpg)
-![](holybro-kopis2-hdv-dji-air-unit-8.jpg)
+
+The carry case strap is a nice inclusion, and if you were wondering the same, the quad does fit inside the case with the props on, so this is not useless at all.
+
+![Holybro Kopis 2 HDV carry case inner velcro strap](holybro-kopis2-hdv-dji-air-unit-7.jpg)
+
+TODO: add picture of quad with props in the carry case
+
+The quad looks legit like a piece of art and feels very high quality, so let's take a closer look at the components it comes with.
+
+![Holybro Kopis 2 HDV](holybro-kopis2-hdv-dji-air-unit-8.jpg)
+
+### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
+
+TODO:
+
 ![](holybro-kopis2-hdv-dji-air-unit-9.jpg)
 ![](holybro-kopis2-hdv-dji-air-unit-10.jpg)
 ![](holybro-kopis2-hdv-dji-air-unit-11.jpg)
@@ -62,10 +92,6 @@ TODO:
 ![](holybro-kopis2-hdv-dji-air-unit-14.jpg)
 ![](holybro-kopis2-hdv-dji-air-unit-15.jpg)
 ![](holybro-kopis2-hdv-dji-air-unit-16.jpg)
-
-### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
-
-TODO:
 
 ### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
 
