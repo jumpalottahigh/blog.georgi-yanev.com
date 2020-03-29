@@ -1,6 +1,6 @@
 ---
-path: '/fpv/holybro-kopis2-hdv-dji-air-unit/'
-date: '2020-03-15'
+path: '/fpv/holybro-kopis2-hdv-with-dji-digital-fpv/'
+date: '2020-03-30'
 title: 'Holybro Kopis2 HDV with DJI digital FPV'
 author: 'Georgi Yanev'
 draft: false
@@ -8,14 +8,24 @@ category: 'fpv'
 tags:
   - 'drone'
   - 'mini'
+  - 'review'
+  - 'dji'
 gearList:
+  - 'holybro-kopis-2-hdv'
+  - 'dji-digital-fpv'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
-ogKeywords: 'fpv, drone, freestyle, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, tinywhoop, TODO:'
-ogDescription: 'TODO:'
+ogKeywords: 'fpv, drone, freestyle, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, tinywhoop, holybro, kopis, kopis2, holybro kopis2, holybro kopis 2 hdv, dji digital fpv, dji digital fpv system, dji digital fpv system with holybro kopis 2, learn to fly fpv, learn to fly fpv drones, digital fpv drones, dji digital fpv drones, digital fpv with holybro kopis 2'
+ogDescription: "I've finally decided to make the plunge into digital FPV drones. I've been very interested for a while now and lucky to finally be able to get into it. For my first digital FPV experience I've chosen to go with an already assembled quad, instead of buiding my own from scratch."
 ogImage: './holybro-kopis2-hdv-dji-air-unit-8.jpg'
 ---
 
-TODO: INTRO
+I've finally decided to make the plunge into digital FPV drones with the [DJI Digital FPV system][2]. I've been very interested for a while now and lucky to finally be able to get into it. For my first digital FPV experience I've chosen to go with an already assembled quad, instead of buiding my own from scratch.
+
+The main reason for that is because I'd really like to focus on the experience itself and evaluate that for what it is, rather than evaluate a new custom build.
+
+When doing so, going with a drone as tried and tested as the [Holybro Kopis 2 HDV][1] that excels in performance is a very safe bet.
+
+I don't want to discourage you from building one from scratch, however, in fact, I always encourage you to try and build your own, but especially if it's your first one, I **highly** recommend grabbing a prebuilt drone that you can learn to fly on and enjoy, as well as learn to repair when you crash it.
 
 ### Table of contents
 
@@ -26,11 +36,11 @@ TODO: INTRO
 - [🔝 Upgrades](#upgrades)
 - [📑 Conclusion](#conclusion)
 
-If you prefer watching, check out the full video review on my YouTube channel:
+<!-- If you prefer watching, check out the full video review on my YouTube channel: -->
 
-<div style="text-align: center">
+<!-- <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO:?rel=0" frameBorder="0" allowFullScreen title="TODO:"></iframe>
-</div>
+</div> -->
 
 ### 📦 <span id="unboxing">Unboxing</span>
 
@@ -125,4 +135,5 @@ TODO:
 Happy flying!
 
 [0]: Linkslist
-[1]: TODO:
+[1]: https://bit.ly/holybro-kopis-2-hdv
+[2]: https://bit.ly/dji-digital-fpv
