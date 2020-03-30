@@ -1,6 +1,6 @@
 ---
 path: '/fpv/holybro-kopis2-hdv-with-dji-digital-fpv/'
-date: '2020-03-30'
+date: '2020-03-31'
 title: 'Holybro Kopis2 HDV with DJI digital FPV'
 author: 'Georgi Yanev'
 draft: false
