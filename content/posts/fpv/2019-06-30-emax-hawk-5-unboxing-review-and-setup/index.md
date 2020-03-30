@@ -11,6 +11,7 @@ tags:
   - 'emax'
   - 'hawk5'
   - 'freestyle'
+  - 'mini'
   - 'drone'
   - 'review'
 gearList:

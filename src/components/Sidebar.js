@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 import EternalArchives from '../components/EternalArchives'
 import useSortedMarkdown from '../hooks/use-sortedmarkdown'
-import useWindowSize from '../hooks/use-windowsize'
 
 const activeStyle = {
   color: '#0057e7',
@@ -25,10 +24,8 @@ const StyledSidebar = styled.aside`
 `
 
 const SideBar = () => {
-  const windowSize = useWindowSize()
   const sortedByCategory = useSortedMarkdown()
 
-  // return windowSize.width < 768 ? null : (
   return (
     <StyledSidebar className="sidebar-wrapper">
       <div className="sidebar">

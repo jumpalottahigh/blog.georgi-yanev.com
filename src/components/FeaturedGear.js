@@ -282,6 +282,16 @@ const allFeaturedGear = {
     link: 'https://bit.ly/xt30-to-banana-plug',
     image: '/banggood/xt30-to-banana-plug.jpg',
   },
+  'holybro-kopis-2-hdv': {
+    name: 'Holybro Kopis 2 HDV',
+    link: 'https://bit.ly/holybro-kopis-2-hdv',
+    image: '/banggood/holybro-kopis-2-hdv.jpg',
+  },
+  'dji-digital-fpv': {
+    name: 'DJI Digital FPV System',
+    link: 'https://bit.ly/dji-digital-fpv',
+    image: '/banggood/dji-digital-fpv.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
