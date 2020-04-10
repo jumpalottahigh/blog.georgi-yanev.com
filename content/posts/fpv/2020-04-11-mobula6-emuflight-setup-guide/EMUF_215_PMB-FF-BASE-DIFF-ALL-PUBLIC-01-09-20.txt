@@ -1,0 +1,206 @@
+# 
+
+# Diff all
+
+# version
+# EmuFlight / CRAZYBEEF4FR (C4FR) 0.2.15 Jan  4 2020 / 05:18:21 (77ec51c) MSP API: 1.43
+
+board_name 
+manufacturer_id 
+mcu_id 0055004b3139510338313739
+signature 
+
+# reset configuration to default settings
+defaults nosave
+
+# name
+name EMU|MOCKULA 6
+
+
+# feature
+feature -TELEMETRY
+feature -AIRMODE
+feature ANTI_GRAVITY
+
+# beeper
+beeper -GYRO_CALIBRATED
+beeper -RX_LOST
+beeper -RX_LOST_LANDING
+beeper -DISARMING
+beeper -ARMING
+beeper -ARMING_GPS_FIX
+beeper -BAT_CRIT_LOW
+beeper -BAT_LOW
+beeper -GPS_STATUS
+beeper -RX_SET
+beeper -ACC_CALIBRATION
+beeper -ACC_CALIBRATION_FAIL
+beeper -READY_BEEP
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -SYSTEM_INIT
+beeper -ON_USB
+beeper -BLACKBOX_ERASE
+beeper -CRASH FLIP
+beeper -CAM_CONNECTION_OPEN
+beeper -CAM_CONNECTION_CLOSED
+beeper -RC_SMOOTHING_INIT_FAIL
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+
+# serial
+serial 1 2048 115200 57600 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 1 1700 2100 0 0
+aux 2 2 1 1300 1700 0 0
+aux 3 28 1 900 1700 0 0
+aux 4 30 1 1300 2100 0 0
+aux 5 35 2 1300 2100 0 0
+
+# adjrange
+adjrange 0 0 1 900 2100 12 1 0 0
+
+
+# vtx
+
+# rxfail
+
+# master
+set gyro_lowpass_hz = 200
+set gyro_lowpass2_hz = 400
+set imuf_roll_q = 10000
+set imuf_pitch_q = 10000
+set imuf_yaw_q = 10000
+set imuf_w = 8
+set acc_calibration = 12,-17,66
+set fpv_mix_degrees = 20
+set cinematic_yaw = ON
+set airmode_start_throttle_percent = 55
+set rx_spi_protocol = FRSKY_D
+set motor_pwm_protocol = DSHOT600
+set bat_capacity = 300
+set vbat_max_cell_voltage = 45
+set vbat_min_cell_voltage = 32
+set vbat_warning_cell_voltage = 30
+set yaw_motors_reversed = ON
+set small_angle = 180
+set pid_process_denom = 1
+set runaway_takeoff_prevention = OFF
+set osd_rssi_pos = 2081
+set osd_tim_2_pos = 2103
+set osd_flymode_pos = 2424
+set osd_throttle_pos = 2369
+set osd_craft_name_pos = 2408
+set osd_avg_cell_voltage_pos = 2401
+set vtx_band = 1
+set vtx_channel = 7
+set vtx_freq = 5745
+set vcd_video_system = NTSC
+
+
+# profile
+profile 0
+
+set dterm_lowpass_hz = 100
+set anti_gravity_gain = 1100
+set feedforward_transition = 25
+set spa_rate_p = 0
+set spa_rate_i = 0
+set spa_rate_d = 0
+set spa_rate_p_yaw = 0
+set spa_rate_i_yaw = 0
+set spa_rate_d_yaw = 0
+set iterm_rotation = OFF
+set iterm_relax = RP
+set feathered_pids = 80
+set i_decay = 7
+set emu_boost = 800
+set emu_boost_yaw = 0
+set emu_boost_limit_yaw = 0
+set p_pitch = 70
+set d_pitch = 60
+set p_roll = 70
+set d_roll = 60
+set p_yaw = 90
+set i_yaw = 150
+set d_yaw = 0
+set level_limit = 70
+
+# profile
+profile 1
+
+set dterm_lowpass_hz = 100
+set smart_dterm_smoothing = 1
+set witchcraft_roll = 0
+set witchcraft_pitch = 0
+set witchcraft_yaw = 0
+set vbat_pid_gain = ON
+set anti_gravity_gain = 1100
+set iterm_rotation = OFF
+set iterm_relax = RPY
+set iterm_limit = 9
+set throttle_boost = 4
+set feathered_pids = 0
+set i_decay = 7
+set emu_boost = 500
+set emu_boost_yaw = 0
+set emu_boost_limit = 75
+set emu_boost_limit_yaw = 20
+set p_pitch = 75
+set i_pitch = 75
+set d_pitch = 60
+set f_pitch = 80
+set p_roll = 75
+set i_roll = 75
+set d_roll = 60
+set f_roll = 80
+set p_yaw = 90
+set i_yaw = 100
+set d_yaw = 0
+set f_yaw = 80
+set p_angle_low = 110
+set d_angle_high = 6
+set f_angle = 100
+set level_limit = 79
+set angle_expo = 0
+set horizon_tilt_effect = 80
+set horizon_tilt_expert_mode = ON
+
+# profile
+profile 2
+
+
+# restore original profile selection
+profile 1
+
+
+# rateprofile
+rateprofile 2
+
+set roll_rc_rate = 1
+set pitch_rc_rate = 1
+set yaw_rc_rate = 210
+set roll_srate = 0
+set pitch_srate = 0
+set yaw_srate = 0
+
+
+
+
+# restore original rateprofile selection
+rateprofile 2
+
+# save configuration
+save
+# 
