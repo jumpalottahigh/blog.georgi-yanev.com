@@ -1,7 +1,7 @@
 ---
 path: '/fpv/mobula6-emuflight-project-mocking-bird-setup-guide/'
-date: '2020-04-10'
-title: 'Mobula6: Emuflight and Project Mockingbird setup guide'
+date: '2020-04-11'
+title: 'Mobula6 EmuFlight and Project Mockingbird setup guide'
 author: 'Georgi Yanev'
 draft: false
 category: 'fpv'
@@ -16,22 +16,22 @@ gearList:
   - 'mobula6'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, happymodel, happy model, mobula6, mobula 6, micro, freestyle, toothpick, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, emax freestyle, emax tinyhawk, tinyhawk, what toothpick to buy, which toothpick micro drone to get, emax toothpick, emax micro drone, happy model micro drone, happymodel mobula6, mobula6 micro drone, tinywhoop, mobula6 tiny whoop, mobula6 48 khz, mobula6 48khz mod, project mockingbird, emuflight, betaflight, configurator, emuflight configurator, how to setup project mocking bird on the mobula6'
-ogDescription: 'TODO:'
-ogImage: './mobula6-emuflight-setup-guide-1.jpg'
+ogDescription: 'In this short guide, I want to show you how to flash EmuFlight on your Mobula6 (but you could do that to many other quads too), and how to setup the Project Mockingbird config.'
+ogImage: './mobula6-emuflight-setup-guide-1.png'
 ---
 
-INTRO:
+In 2020 most of our quads fly on [Betaflight][3]. That's a fact. However there are some other options out there (EmuFlight, Cleanflight, Butterflight to name a few).
 
-- Research on Emuflight, cleanflight, betaflight the story a bit
+But if you have already made up your mind, in this short guide, I want to show you how to flash [EmuFlight][4] on your Mobula6 (but you could do that to many other quads too), and how to setup the [Project Mockingbird][6] config.
 
-There is a project called Emuflight and this is what it is about... (link to JB's interview as well)
-On the other hand Project Mockingbird is about...
+![Mobula6 with EmuFlight and Project Mockingbird](mobula6-emuflight-setup-guide-1.png)
 
-Today, we're gonna go over how you can take advantage of Emuflight and Project Mockingbird, to make your already pretty awesome [Mobula 6][1], even more awesome! (Bonus points if you already followed the [JESC firmware guide in my original review post][2])
+In this example I'm gonna be using my [Mobula6][1] (Bonus points if you already followed the [JESC firmware guide in my original review post][2]).
 
 ### Table of contents
 
-- [📦 Unboxing](#unboxing)
+- [❔ What is EmuFlight?](#what-is-emuflight)
+- [❔ What is Project Mockingbird?](#what-is-project-mockingbird)
 - [📝 Specifications](#specs)
 - [⚙ Setup](#setup)
 - [🚁 Flying](#flying)
@@ -44,6 +44,20 @@ Today, we're gonna go over how you can take advantage of Emuflight and Project M
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/INYdY-2tP9E?rel=0" frameBorder="0" allowFullScreen title="Happymodel Mobula6 - review, binding, complete setup, JESC 48 kHz MOD | BEST WHOOP WINTER 2020"></iframe>
 </div> -->
+
+### <span id="what-is-emuflight">❔ What is EmuFlight?</span>
+
+[EmuFlight][4] is a Betaflight fork, that implements some more opinionated features and some people claim that it really improves how their quads fly out of the box on stock config. I hear that even more regarding small micro drones.
+
+I'm not gonna try to convince you to move your entire fleet to EmuFlight (and I'm definitely not going to do that myself) but I figured it might be interesting to try out and experiment with, and the Mobula6 is in many ways the perfect candidate to do that.
+
+If you want to learn more about EmuFlight I recommend watching [Joshua Bardwell's interview with Kevin Plaizier][5].
+
+### <span id="what-is-project-mockingbird" class="offset-top-nav">❔ What is Project Mockingbird?</span>
+
+As far as Project Mockingbird goes, it claims to deliver the best angle mode config for your brushed whoops. Project Mockingbird can be setup with Betaflight as well (EmuFlight is not a requirement), it's basically a bunch of configuration to make your whoops fly even more awesome.
+
+Project Mockingbird is strictly a whoop / micro drone project. You can join the community in their [Facebook group][7].
 
 ### 🔽 Download Emuflight and config files
 
@@ -93,3 +107,8 @@ Whatever you choose, have fun and happy flying!
 [0]: Linkslist
 [1]: https://bit.ly/mobula-6
 [2]: /fpv/mobula6-48khz-jesc-complete-setup-review/
+[3]: https://github.com/betaflight/betaflight
+[4]: https://github.com/emuflight/EmuFlight
+[5]: https://www.youtube.com/watch?v=WP2pbe1-TjY
+[6]: https://projectmockingbird.squarespace.com/
+[7]: https://www.facebook.com/groups/1702300099835884/
