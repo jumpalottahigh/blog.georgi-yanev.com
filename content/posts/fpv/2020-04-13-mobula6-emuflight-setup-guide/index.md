@@ -179,6 +179,12 @@ Put the radio in bind mode, plug in a battery in the Mobula6, press the bind but
 
 **Initial immediate impression:** Yaw axis is super sensitive and responsive, at the same time, the pitch axis seems too slow. This seems to be on purpose, will have to see if I get used to it, but I'm not sure I want to. I like my rolls :) Need to get in more flights. There's something nice about the tune. The flight time does not seem to suffer, need more tests.
 
+Here's some footage of my first few packs after I flashed the firmware (this is probably battery 2 or 3).
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PwX5syewmpc?rel=0" frameBorder="0" allowFullScreen title="Mockula6: First flight with EmuFlight and Project Mockingbird on the Mobula6 (2020 #42)"></iframe>
+</div>
+
 #### Indoor flights (angle mode)
 
 **After more than 10 packs:** _Coming soon..._
