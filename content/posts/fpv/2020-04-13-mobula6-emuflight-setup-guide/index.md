@@ -1,6 +1,6 @@
 ---
 path: '/fpv/mobula6-emuflight-project-mocking-bird-setup-guide/'
-date: '2020-04-11'
+date: '2020-04-13'
 title: 'Mobula6 EmuFlight and Project Mockingbird setup guide'
 author: 'Georgi Yanev'
 draft: false
@@ -15,7 +15,7 @@ tags:
 gearList:
   - 'mobula6'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
-ogKeywords: 'fpv, drone, happymodel, happy model, mobula6, mobula 6, micro, freestyle, toothpick, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, emax freestyle, emax tinyhawk, tinyhawk, what toothpick to buy, which toothpick micro drone to get, emax toothpick, emax micro drone, happy model micro drone, happymodel mobula6, mobula6 micro drone, tinywhoop, mobula6 tiny whoop, mobula6 48 khz, mobula6 48khz mod, project mockingbird, emuflight, betaflight, configurator, emuflight configurator, how to setup project mocking bird on the mobula6'
+ogKeywords: 'fpv, drone, happymodel, happy model, mobula6, mobula 6, micro, freestyle, toothpick, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, emax freestyle, emax tinyhawk, tinyhawk, what toothpick to buy, which toothpick micro drone to get, emax toothpick, emax micro drone, happy model micro drone, happymodel mobula6, mobula6 micro drone, tinywhoop, mobula6 tiny whoop, mobula6 48 khz, mobula6 48khz mod, project mockingbird, emuflight, betaflight, configurator, emuflight configurator, how to setup project mocking bird on the mobula6, mockula6, mockula 6'
 ogDescription: 'In this short guide, I want to show you how to flash EmuFlight on your Mobula6 (but you could do that to many other quads too), and how to set up the Project Mockingbird config.'
 ogImage: './mobula6-emuflight-setup-guide-1.png'
 ---
@@ -41,7 +41,7 @@ In this example, I'm gonna be using my [Mobula6][1] (Bonus points if you already
 - [🚁 Flying](#flying)
 - [📝 Conclusion](#conclusion)
 
-<!-- TODO: -->
+<!-- Coming soon: -->
 <!-- If you prefer watching, check out the full video review on my YouTube channel:
 
 <div style="text-align: center">
@@ -181,11 +181,11 @@ Put the radio in bind mode, plug in a battery in the Mobula6, press the bind but
 
 #### Indoor flights (angle mode)
 
-**After more than 10 packs:** TODO:
+**After more than 10 packs:** _Coming soon..._
 
 #### Outdoor flights
 
-TODO:
+_Coming soon..._
 
 ### <span id="conclusion" class="offset-top-nav">📝 Conclusion</span>
 
