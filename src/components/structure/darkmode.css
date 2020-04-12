@@ -101,7 +101,7 @@
 .dark-mode .main a:hover,
 .dark-mode .main a:focus {
   color: var(--dark-mode-white);
-  box-shadow: inset 0 -20px 0px 0px var(--dark-mode-link-color-hover);
+  box-shadow: inset 0 -32px 0px 0px var(--dark-mode-link-color-hover);
 }
 
 .dark-mode .article-update-notification {

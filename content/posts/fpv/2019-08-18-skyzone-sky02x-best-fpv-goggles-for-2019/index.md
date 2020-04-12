@@ -103,7 +103,7 @@ Because this is the 02X version, it comes with a small camera in the front of th
 
 ![Skyzone 02X with front camera](skyzone-sky02x-review-and-setup-16.jpg)
 
-### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
+### <span id="specs" class="offset-top-nav">📝 Specifications</span>
 
 The [Skyzone 02X][1] fpv goggles have a 30-degree field of view (FOV) and a resolution of 854 x 480 (WVGA). The interpupillary distance is adjustable via the slider on the bottom and can be adjusted between 59-69mm.
 
@@ -137,7 +137,7 @@ And here are the full specifications:
 
 ![Skyzone 02X full specification sheet](skyzone-sky02x-review-and-setup-28.jpg)
 
-### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
+### <span id="setup" class="offset-top-nav">⚙ Setup</span>
 
 To get up and running with the [Skyzone 02X][1] fpv goggles, the bare minimum of what you have to do is this: **🥽 Install the face foam**, **📡 Install antennas** and **🔋 Plug in a battery**.
 
@@ -197,7 +197,7 @@ If you have a small battery you could suspend it on the side of the goggle strap
 
 The provided DC to XT60 cable is pretty long, and I'm using that to keep the battery in my pocket while flying. **This makes the goggles truly feel ultra light**.
 
-### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
+### <span id="flying" class="offset-top-nav">🚁 Flying</span>
 
 #### ⚡ Quick start
 
@@ -241,7 +241,7 @@ For more details on all button functions, [refer to the manual](skyzone-sky02x-m
 
 But the best part about any FPV goggles is in my opinion, the goggles getting out of your way, letting you forget you are wearing them and just letting you enjoy flying. Which brings me to the conclusion for the [Skyzone SKY02X FPV goggles][1].
 
-### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
 Are the [Skyzone SKY02X][1] the goggles for you? In many ways and for most people I believe that the answer is just **ABSOLUTELY YES**! Quite simply the Skyzones are **possibly the best fpv goggles for 2019**.
 

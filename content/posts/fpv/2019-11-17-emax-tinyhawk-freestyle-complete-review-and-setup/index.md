@@ -71,7 +71,7 @@ And of course the quad itself.
 
 ![Emax Tinyhawk Freestyle](emax-tinyhawk-freestyle-toothpick-review-and-setup-7.jpg)
 
-### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
+### <span id="specs" class="offset-top-nav">📝 Specifications</span>
 
 The all in one board and the camera used in the Tinyhawk Freestyle are the tried and tested ones from the Emax Tinyhawk S (F4 (MATEKF411RX Firmware), with a 5A, rated 4 in 1 ESC). The frame is a **carbon fiber unibody frame supporting a top-mounted battery**. The micro USB port on the all in one board is conveniently exposed and easy to access for Betaflight configuration.
 
@@ -119,7 +119,7 @@ Or use [one of these boards][8], which are a bit better (but not miles better re
 
 The overall build quality is pretty high with a lot of minor details handled very professionally and neatly. As always, reluctantly I've smacked it around quite a bit while flying over concrete, and there have been no issues with any component so far.
 
-### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
+### <span id="setup" class="offset-top-nav">⚙ Setup</span>
 
 To get ready for flying, we need to:
 
@@ -235,7 +235,7 @@ Finally, another little tip is to remove the foam from the carry case and observ
 
 In case I missed something and you lost your paper manual, you can also [refer to its online version][7].
 
-### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
+### <span id="flying" class="offset-top-nav">🚁 Flying</span>
 
 The [Emax Tinyhawk Freestyle][1] flies spectacularly. It's one of the quads that flies so well that I had absolutely no desire to do with it anything further in terms of tuning. I just want to fly it all the time. Here's the TL;DR recap if you don't feel like reading my detailed impressions of the quad.
 
@@ -291,7 +291,7 @@ And this is how I enjoy flying this drone nowadays - just throttle up and never 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=14&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle zipping around before the rain"></iframe>
 </div>
 
-### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
+### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
 
 I don't have a lot to mention in terms of potential upgrades. Most of my ideas are for testing different props. But honestly, it's not necessary.
 
@@ -301,7 +301,7 @@ I would not add an HD split-type camera to this one, as this will surely ruin th
 
 You swap out the battery connector for an XT30 connector if you have more batteries with that connector. In my case, I'm thrilled the Emax Tinyhawk Freestyle allows me to reuse my 1S 450mah GNB batteries, which are pretty high quality and the quad flies superb on them, so I'll be leaving the battery connector as is.
 
-### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
 2019 has been a great year for these micros. There are a lot of amazing and great value toothpick class drones out there. **I feel like the best thing about them is that you can pick one that is directly tailored to your situation**.
 

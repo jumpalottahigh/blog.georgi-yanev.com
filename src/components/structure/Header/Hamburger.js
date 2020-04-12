@@ -144,6 +144,13 @@ const Hamburger = () => {
         📼 FPVtips on Instagram
       </a>
       <a
+        href="http://tiktok.com/@fpvtips"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        🎼 FPVtips on TikTok
+      </a>
+      <a
         href="https://twitter.com/fpvtips"
         target="_blank"
         rel="noopener noreferrer"

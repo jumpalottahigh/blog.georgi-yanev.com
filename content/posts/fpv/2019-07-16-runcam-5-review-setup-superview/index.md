@@ -87,7 +87,7 @@ The straps are indeed of decent quality and the rubberized coating definitely he
 
 ![RunCam 5 rubberized velcro straps](runcam-5-10.jpg)
 
-### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
+### <span id="specs" class="offset-top-nav">📝 Specifications</span>
 
 One of the most outstanding features of the [RunCam 5][1] is its weight! **It's by far one of the (if not THE) lightest cameras in its class!** It comes in at just **56 grams**. That's very, very light. In comparison, the Hero 5 Session weighs 74 grams. Here are the rest of the technical specifications:
 
@@ -109,7 +109,7 @@ Depending on what resolution and framerate video you shoot you will need a U1 or
 
 The RunCam 5 does not support WiFi connections, so let's look into what does that mean for setting the camera up.
 
-### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
+### <span id="setup" class="offset-top-nav">⚙ Setup</span>
 
 For the complete setup instructions, you can always refer to the [RunCam 5 user manual][2]. Here's a quick breakdown of the camera button's functions:
 
@@ -218,7 +218,7 @@ Let's go fly! Here's some example flight footage with the default settings, exce
 
 Onto more video samples for science!
 
-### 🎥 <span id="video-samples" class="offset-top-nav">Video samples</span>
+### <span id="video-samples" class="offset-top-nav">🎥 Video samples</span>
 
 The RunCam 5 offers you the following 7 resolution and framerate variants:
 
@@ -240,7 +240,7 @@ Here's the thing about FPV videos. You are the judge of what you prefer watching
 
 And this brings us naturally to the video post-processing part.
 
-### 🎦 <span id="post-processing" class="offset-top-nav">Post-processing video files</span>
+### <span id="post-processing" class="offset-top-nav">🎦 Post-processing video files</span>
 
 Video processing is not among my strongest knowledge points, I definitely have a lot more to learn and that's the reason why I really enjoy the dynamic stretch solution I'm about to show you.
 
@@ -260,7 +260,7 @@ Let me know if something is not working for you or you have questions by using t
 
 Why this dynamic stretching is better than linear stretching is because it tries to keep the center of the video as unstreteched as possible, but stretching mostly the sides and then progressively reducing the amount of stretch towards the middle. I think it looks much better than just linear stretch.
 
-### 🆚 <span id="comparison" class="offset-top-nav">RunCam 5 vs RunCam Split 2 comparison</span>
+### <span id="comparison" class="offset-top-nav">🆚 RunCam 5 vs RunCam Split 2 comparison</span>
 
 Now, this part is a bit far fetched for a number of reasons and is not necessarily very scientific, but I found it interesting nevertheless and wanted to share the findings. We are going to compare the footage from the [RunCam 5][1] with footage from the [RunCam Split 2][3] (this link is for the slightly newer RunCam Split 2S version).
 
@@ -277,7 +277,7 @@ Here are some things to keep in mind:
   <iframe width="560" height="315" src="https://www.youtube.com/embed/R_31tQNzBpA?rel=0" frameBorder="0" allowFullScreen title="RunCam 5 vs RunCam Split 2 raw video and audio comparison"></iframe>
 </div>
 
-### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
 Ok, so who is this NOT for? If you really want, need and must have the best of the best footage quality AND have a lot of money, then the answer is probably still GoPro (although that gap is closing very fast and is starting to be less and less of a factor).
 

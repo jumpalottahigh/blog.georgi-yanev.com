@@ -89,7 +89,7 @@ Additionally, we also get a controller for tuning the Foxeer FPV camera, as well
 
 ![Foxeer Micro Arrow camera controller](emax-hawk-5-unboxing-review-and-setup-38.jpg)
 
-### 🧪 <span id="components" class="offset-top-nav">Components</span>
+### <span id="components" class="offset-top-nav">🧪 Components</span>
 
 I already mentioned that the build was pretty solid and the components are very high quality too. But we also haven't mentioned how much this drone costs. Currently, you can snatch up an [Emax Hawk 5][1] for about \$250 on Banggood.
 
@@ -155,7 +155,7 @@ They are definitely performers, never had issues with motors getting hot in my t
 
 **Props**. Avan Flow 5 inch props. This is the most aggressive tri-blade prop I have flown to date and ... I love it. I give so much of the overall flight characteristic to the Avan Flow props. In simplest terms, the craft is very fast and snappy, but also super controllable and behaving in turns and really just goes where you tell it. It is an AWESOME flight experience delivered by the good components and the excellent tune.
 
-### 🔗 <span id="binding" class="offset-top-nav">Binding and radio setup</span>
+### <span id="binding" class="offset-top-nav">🔗 Binding and radio setup</span>
 
 Binding the [Emax Hawk 5][1] is very straightforward. **Take the props off**. Then, you have to take off the top plate in order to access the bind button on the FrSky XM+.
 
@@ -193,7 +193,7 @@ Here's how my endpoints ended up being.
 
 Next, let's jump into Betaflight and set up the switches.
 
-### ⚙ <span id="betaflight" class="offset-top-nav">Betaflight configuration</span>
+### <span id="betaflight" class="offset-top-nav">⚙ Betaflight configuration</span>
 
 I mentioned already perfect tune. Like, literally my first flight experience, from the first second, the PID tuning just clicked with me. Every roll, every flip, was spot on axis, very easy to perform. Amazing work there by Emax. In fact, here's the DVR footage from the maiden flight and my first ever time flying this quad.
 
@@ -253,7 +253,7 @@ Now let's go rip some packs!
 
 ![Emax Hawk 5 with props on, picture 1](emax-hawk-5-unboxing-review-and-setup-39.jpg)
 
-### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
+### <span id="flying" class="offset-top-nav">🚁 Flying</span>
 
 In my tests, I flew mostly [1300 mah 4S][4] packs, and a few [1500 mah 4S][5]. I don't think you can feel the difference that much, although it does indeed make the quad a bit heavier. I do prefer to rip 1300 mah packs.
 
@@ -315,7 +315,7 @@ And here's the full Emax Hawk 5 playlist on my YouTube channel - [Georgi FPV][17
 
 I'm also considering modding the Emax Hawk with a camera that records HD footage, maybe a [RunCam Split Mini 2][14] or a [Caddx Turtle V2][15]. And will make sure to post an update if I do. If you are interested, [subscribe to the newsletter][16] and get notified.
 
-### 🔝 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+### <span id="conclusion" class="offset-top-nav">🔝 Conclusion</span>
 
 Want my verdict and to move on with your life? Should you buy the [Emax Hawk 5][1] if you are in the market for a 5-inch quad? **Yes, absolutely! I am very happy to recommend this quad to anyone - beginner or experienced pilot!**
 

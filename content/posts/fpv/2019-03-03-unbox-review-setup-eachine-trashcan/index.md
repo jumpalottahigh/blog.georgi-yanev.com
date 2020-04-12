@@ -49,7 +49,7 @@ If you prefer watching, check out the full video review:
   <iframe width="560" height="315" src="https://www.youtube.com/embed/OBl8kv0XOkQ?rel=0" frameBorder="0" allowFullScreen title="Eachine Trashcan review on FPVTIPS on YouTube"></iframe>
 </div>
 
-### 📦 <span id="unboxing">Unboxing experience</span>
+### <span id="unboxing" class="offset-top-nav">📦 Unboxing experience</span>
 
 The Trashcan arrives in a nice protective hard case. Pretty neat. Very useful to keep the quad safe.
 
@@ -81,7 +81,7 @@ The Trashcan comes also with a bunch of spare parts and tools.
 
 In the bag you will find: a prop prying tool, 4 spare props, a Philips head screwdriver, a hex head tool, a small plug to enable you to fly 1S and an XT-30 connector in case you decide to make the switch to full-time 2S batteries. Pretty neat!
 
-### ⚙ <span id="parts-overview" class="offset-top-nav">Parts overview</span>
+### <span id="parts-overview" class="offset-top-nav">⚙ Parts overview</span>
 
 I'm not gonna go very much in depth of the parts break down, but there are a few things I'd like to mention.
 
@@ -97,7 +97,7 @@ The flight controller is an F4 with 2 UARTs. Nice! Another "small" but very appr
 
 ![Trashcan side shot, showing camera adjustable tilt](unbox-review-setup-eachine-trashcan-9.jpg)
 
-### 🛠 <span id="betaflight-configuration" class="offset-top-nav">Eachine Trashcan Betaflight configuration</span>
+### <span id="betaflight-configuration" class="offset-top-nav">🛠 Eachine Trashcan Betaflight configuration</span>
 
 As far as Betaflight configuration goes, I didn't have to make too many changes. Because of personal preference, I switched off `MOTOR_STOP` as you can see below, to enable motor spinning when the quad is on, regardless of throttle value. I like it that way as it always indicates quite prominently that the drone is armed.
 
@@ -119,7 +119,7 @@ Finally, in the `Modes` tab, the present configuration was also just fine, I thi
 
 And here is the [stock Betaflight config dump](BTFL_cli_eachine-trashcan_20190630_223741.txt) with my added modes setup.
 
-### 🔗 <span id="binding" class="offset-top-nav">Binding to the radio</span>
+### <span id="binding" class="offset-top-nav">🔗 Binding to the radio</span>
 
 Binding the Trashcan is fairly straight-forward. Matter of fact, it's pretty easy. There is **no need** to hold the bind button while powering up the quad. Just plug the battery in and press the bind button to put the receiver in bind mode. This is explained nicely in the instructions that come with the drone. And here is a picture of the bind button that you need to locate and press.
 
@@ -131,7 +131,7 @@ Then in your radio create a new model and go to your binding function. I'm using
 
 It is important to note that if you bought the drone with US (FCC) receiver, your Taranis internal module needs to be flashed with the FCC firmware, if you went for the EU (LBT) version, then again your radio needs to be flashed accordingly. Read this to understand [how to flash the Taranis Q X7's internal module][5].
 
-### 🚁 <span id="flying-indoors" class="offset-top-nav">Flying indoors</span>
+### <span id="flying-indoors" class="offset-top-nav">🚁 Flying indoors</span>
 
 #### 🔋 1S
 
@@ -149,7 +149,7 @@ The story is quite different on 2S. Here we get a lot of extra power, and it mig
 
 Additionally, the best part about flying 2S indoors is that you get much longer flight times, and much fewer voltage sags (if any at all). If you prefer this, go for it.
 
-#### 🔝 <span id="throttle-limits" class="offset-top-nav">Throttle limits</span>
+#### <span id="throttle-limits" class="offset-top-nav">🔝 Throttle limits</span>
 
 Lastly, I'd like to mention throttle limits. If you feel like you need to turn down the power just a bit in favor of increasing handling, you can easily do that in Betaflight. First, go to the PID tab and set `Throttle MID` to **0.30**, and `Throttle EXPO` to **0.70**. Finally, go to the `CLI` tab and paste in this command:
 
@@ -159,7 +159,7 @@ set throttle_limit_percent = 70
 
 Try flying now, 1S or 2S up to you (I find that there is not much need for throttle limiting with 1S, but your experience may vary). You can go back to the settings in Betaflight and tweak them to your liking until you are happy with the response from the craft.
 
-### 🚁 <span id="flying-outdoors" class="offset-top-nav">Flying outdoors</span>
+### <span id="flying-outdoors" class="offset-top-nav">🚁 Flying outdoors</span>
 
 If you have applied any throttle limiting to your craft, remember to take it off before flying outdoors! This quad rips on 2S outdoors. The default settings are: `Throttle MID` to **0.50**, `Throttle EXPO` to **0.00** and paste this command in from the `CLI` tab:
 

@@ -77,7 +77,7 @@ And finally here is the [GEPRC Phantom][1] unwrapped.
 
 ![GEPRC Phantom unboxed](geprc-phantom-review-and-setup-7.jpg)
 
-### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
+### <span id="specs" class="offset-top-nav">📝 Specifications</span>
 
 The motors are CR1103 8000KV motors, the quad is claimed to be rated for 2S - 3S or 2S - 4S (I saw both entries on the product page, but fear not, I tested it on 4S for you so you don't have to, more on that later). An XT30 connector is used for power delivery.
 
@@ -101,7 +101,7 @@ Here is how the XM+ receiver was zip-tied to the available space in the back of 
 
 ![GEPRC Phantom](geprc-phantom-review-and-setup-13.jpg)
 
-### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
+### <span id="setup" class="offset-top-nav">⚙ Setup</span>
 
 To get up and running, this is what we need to do:
 
@@ -189,7 +189,7 @@ Let's go fly this quad around!
 
 ![GEPRC Phantom fully set up and ready to be flown](geprc-phantom-review-and-setup-18.jpg)
 
-### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
+### <span id="flying" class="offset-top-nav">🚁 Flying</span>
 
 And fly it I did 😍! I like testing drones extensively and getting some proper stick time before I dive in to review them. And in this case, I've been able to fly this thing for about a month give or take.
 
@@ -293,7 +293,7 @@ Flight characteristics:
 
 This battery was a stretch and I kind of knew that going in. Probably my next test will be on a 2S 450 or a 3S 400? That must be the perfect spot for the [GEPRC Phantom][1].
 
-### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
+### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
 
 In terms of upgrades, I would recommend changing the stock props to similar but stiffer like the [HQ 2.5-inch bi-blade prop][3]. Or alternatively, you could try to find something else that works well for you, as I mentioned I like the [Avon Rush 2.5 inch tri-blade props][4] because of the control authority.
 
@@ -301,7 +301,7 @@ The other thing I would consider upgrading (if it works out) is the camera. This
 
 A full range receiver (✅), a flight time of ~ 4 minutes on average, even better handling without sacrificing speed (✅) and HD video recordings while flying this quad would make me beyond happy. I don't think I want anything else if I could get those and I will be working on getting there during the winter, so stay tuned.
 
-### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
 There are currently maybe about 4-5 awesome value for money toothpick class drones out there and the [GEPRC Phantom][1] is definitely among them. It's a great value for what you get, and I hope I managed to convince you **how much fun it is to fly**! This is **my most thorough and the longest flying section of a blog post I've ever written**. I just flew it so much, very quickly and wanted to try out so many things.
 

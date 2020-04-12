@@ -905,6 +905,7 @@ div > pre {
 }
 
 .offset-top-nav {
+  display: block;
   padding-top: 3.5rem;
   margin-top: -3.5rem;
 }
@@ -1365,6 +1366,10 @@ video.fade-in {
 
 code {
   padding: 0.1em 0.5em !important;
+}
+
+code:before {
+  content: none;
 }
 
 .toolbar {
