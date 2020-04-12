@@ -71,7 +71,7 @@ The components are very high quality, the quad is gorgeous and the assembly work
 
 ![GEPRC CinePro top-down view](geprc-cinepro-4k-cinewhoop-review-6.jpg)
 
-### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
+### <span id="specs" class="offset-top-nav">📝 Specifications</span>
 
 Sturdy high-quality carbon fiber frame. Dead cat shape and 115mm motor to motor diagonal distance, versus 69mm between the front and the back motor. This makes sure you never get your props in the shot.
 
@@ -109,7 +109,7 @@ And here is the FrSky XM plus receiver, zip-tied under the camera boards.
 
 ![GEPRC CinePro shot from under the quad](geprc-cinepro-4k-cinewhoop-review-13.jpg)
 
-### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
+### <span id="setup" class="offset-top-nav">⚙ Setup</span>
 
 In terms of setup, here's what we need to do to get up and running: **🔗 Bind the receiver to the radio**, **📇 Insert an SD card**, **⛓ Install the velcro straps**, **📡 Configure RSSI, channel mapping and modes in Betaflight** and **🎥 Configure the Caddx Tarsier 4K camera via the app**.
 
@@ -262,7 +262,7 @@ Now even if the user experience suffers, I have to point this out - the **Caddx 
 
 ![GEPRC CinePro recording with its Caddx Tarsier camera](geprc-cinepro-4k-cinewhoop-review-28.jpg)
 
-### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
+### <span id="flying" class="offset-top-nav">🚁 Flying</span>
 
 ![GEPRC CinePro ready for taking off](geprc-cinepro-4k-cinewhoop-review-37.jpg)
 
@@ -318,7 +318,7 @@ I used a 500 mah Turnigy Graphene battery...
 
 I think the performance was slightly better with the GNB batteries in general, maybe slightly longer, but for the most part, it was rather similar. That's understandable, given they offer you 20 mah more. They also fit better and are a bit less clunky. If you go the extra mile and charge them up to 4.35 volts as they are high voltage batteries, I'd say you can't go wrong if you go with those batteries.
 
-### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
 What's the verdict? Is the [GEPRC CinePro 4k][1] for you? **The answer is that it depends!**
 

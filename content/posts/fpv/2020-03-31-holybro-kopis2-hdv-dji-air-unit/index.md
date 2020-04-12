@@ -86,7 +86,7 @@ The quad looks legit like a piece of art and feels very high quality, so let's t
 
 ![Holybro Kopis 2 HDV](holybro-kopis2-hdv-dji-air-unit-8.jpg)
 
-### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
+### <span id="specs" class="offset-top-nav">📝 Specifications</span>
 
 So we're still missing a camera, VTX and a receiver (in this case the DJI digital FPV air unit), and I will update this post when the rest of the components of the build arrive, so stay tuned. But in the meantime let's take a look at what we do have.
 
@@ -128,7 +128,7 @@ Finally, a TPU mount for the DJI air unit antennas is added to the sides of the 
 
 I can't wait to get the DJI digital FPV system and continue this build. If you land here in the meantime, stay tuned or better yet, [subscribe to FPVtips on YouTube][3] for updates.
 
-### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
+### <span id="setup" class="offset-top-nav">⚙ Setup</span>
 
 While waiting for the DJI Digital FPV system, I decided to take a look at the Betaflight configuration.
 
@@ -178,7 +178,7 @@ If you made it this far, thanks for going through this with me. Do note, this is
 
 Stay safe out there and happy flying for now.
 
-### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
+### <span id="flying" class="offset-top-nav">🚁 Flying</span>
 
 _Coming soon_
 
@@ -188,13 +188,13 @@ _Coming soon_
   <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO:?rel=0" frameBorder="0" allowFullScreen title="TODO:"></iframe>
 </div> -->
 
-### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
+### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
 
 _Coming soon_
 
 <!-- TODO: -->
 
-### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
 _Coming soon_
 

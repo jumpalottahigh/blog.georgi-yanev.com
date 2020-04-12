@@ -78,7 +78,7 @@ If anything, I'm surprised how minimalistic the package contents are. Definitely
 
 ![Banana plug to XT60 and 2S to 6S adaptor](skyrc-q200-lipo-battery-charger-4.jpg)
 
-### 📝 <span id="specs" class="offset-top-nav">Specs and Features</span>
+### <span id="specs" class="offset-top-nav">📝 Specs and Features</span>
 
 In terms of specs and features, the two arguably most important things about this charger are the fact that it can charge up to 4 batteries at the same time (with different amounts of cells or different chemistry) and completely independently. And it can do so with its own internal power supply - no extra power supply needed.
 
@@ -108,7 +108,7 @@ The firmware is upgradeable, there is PC control software, **as well as a smartp
 
 Additionally, you can scan QR codes via the app to quickly read and apply charging profiles. So in a way, it's very easy to quickly get started and get your packs charged so you can go fly. At the same time, the charger supports some more advanced use cases and scenarios, should you ever need them. Cool stuff.
 
-### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
+### <span id="setup" class="offset-top-nav">⚙ Setup</span>
 
 There's not much to the setup of the [SkyRC Q200][1] charger. You only need to plug it into the wall and turn it on via the switch on the back.
 
@@ -136,7 +136,7 @@ Let me know if you are interested to learn more about the SkyCharger or Charger 
 
 In the meantime, let's take a look at charging batteries using the SkyRC Q200's user interface, which is more than enough for most use cases and faster to get started with.
 
-### ⚡ <span id="charging" class="offset-top-nav">Charging</span>
+### <span id="charging" class="offset-top-nav">⚡ Charging</span>
 
 **If I take 2 things seriously about FPV drones, that's 5-inch props and lipo batteries. I suggest you do too if you want to stay safe.**
 
@@ -190,7 +190,7 @@ You can also save particular settings as profiles to QR codes. What that allows 
 
 There are many more advanced things you can do with the charger, such as voltage calibration and on the go charging.
 
-### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
+### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
 
 If you are charging any 2S - 6S battery with an XT60 connector (most 5-inch drone batteries) you are set - the provided cables are enough to charge up to 4 of those batteries at the same time.
 
@@ -200,7 +200,7 @@ I also very recently learned about a [XT30 to PH2.0 cable][6] that could help yo
 
 **I also recommend you subscribe to his channel if you haven't already, and while you're there, subscribe to [my YouTube channel too - FPVtips][8]**.
 
-### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
 So the final verdict. I fell in love more with that product than I initially thought I would. Let's be honest here, chargers, most times I wouldn't say are particularly exciting. But here's the thing - **a good charger can save your house from burning down, can take good care of your batteries, save you time and make the overall charging process pain free**. So while chargers usually lurk in the background, they do a lot of the work involved so we can fly our drones.
 

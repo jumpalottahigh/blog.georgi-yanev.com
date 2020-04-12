@@ -84,7 +84,7 @@ And here are a few shots of the Mobula7 HD...
 
 ![Mobula7 HD front left shot](mobula7-hd-review-and-setup-9.jpg)
 
-### 🔬 <span id="components" class="offset-top-nav">Components overview</span>
+### <span id="components" class="offset-top-nav">🔬 Components overview</span>
 
 The Mobula7 HD comes with a [Crazybee F4 PRO V2.0 Flight Controller][11] that takes in anywhere between 1S and 3S batteries. You can choose whether you want the flight controller (FC) to have a built-in FrSky or Flysky receiver or no receiver at all. The board has 5A 4 in 1 ESCs.
 
@@ -109,7 +109,7 @@ And here's some example 1080p 60fps footage (and more videos are available at th
   <iframe width="560" height="315" src="https://www.youtube.com/embed/fRrUNozEI_0?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying in Central Park in Plovdiv, Bulgaria"></iframe>
 </div>
 
-### ⚙ <span id="setup-binding" class="offset-top-nav">Setup & binding</span>
+### <span id="setup-binding" class="offset-top-nav">⚙ Setup & binding</span>
 
 I didn't really have to do much in terms of setup when I first tried out the Mobula7 HD, which is definitely a good thing. I wanted to get a feel of how it comes configured literally out of the box. **And to be frank, I was very pleased with the initial configuration.**
 
@@ -184,7 +184,7 @@ Windy park flight by the Bulgarian seaside.
 
 All those flights were carried out on [2S BetaFPV][15] batteries, which naturally brings us to the batteries discussion.
 
-### 🔋 <span id="batteries" class="offset-top-nav">Batteries: 1S, 2S, 3S</span>
+### <span id="batteries" class="offset-top-nav">🔋 Batteries: 1S, 2S, 3S</span>
 
 As I mentioned the flight controller - [Crazybee F4 PRO V2.0][11] is 1-3S capable.
 
@@ -222,7 +222,7 @@ set throttle_limit_type = scale
 
 Try it out for yourself and see what you prefer. I'll come back and update the post as soon as I test with some other 3S batteries. **Personally, for now, I prefer flying 2S with no throttle limits.** I find the experience very satisfactory and hassle-free, with no extra configuration required.
 
-### 🔝 <span id="upgrades" class="offset-top-nav">Potential upgrades</span>
+### <span id="upgrades" class="offset-top-nav">🔝 Potential upgrades</span>
 
 I'd come back here soon enough when I'm ready to share some tune-ups and upgrades, so stay tuned, maybe subscribe to the newsletter at the bottom of the page.
 
@@ -242,7 +242,7 @@ And this is how flying with those Gemfan props looks like:
 
 I haven't done this upgrade yet myself, but it's officially recommended by Happymodel and I think it's legit, especially if you prefer to fly mostly or only on 3S batteries. Adding a capacitor or just swapping out to this [XT30 with a capacitor][20], should help out with those voltage spikes when you plug in a 3S battery.
 
-### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
 In conclusion, I can easily recommend this quad to almost anyone who can afford it. Whether you are new to the hobby or an experienced pilot and just want to fly safely in somewhat public areas, such as parks, this quad is indeed a great fit.
 

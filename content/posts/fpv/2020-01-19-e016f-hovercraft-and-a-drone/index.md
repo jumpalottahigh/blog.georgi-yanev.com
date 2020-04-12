@@ -93,7 +93,7 @@ And here is a top-down shot.
 
 ![Eachine E016F top-down view](e016f-hovercraft-and-a-drone-10.jpg)
 
-### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
+### <span id="setup" class="offset-top-nav">⚙ Setup</span>
 
 To get started place 2 AA batteries in the transmitter. You will have to undo the screw on the battery bay.
 
@@ -109,7 +109,7 @@ Charge the battery via a USB port and the provided charger. When the LED goes of
 
 ![Eachine E016F top-down view](e016f-hovercraft-and-a-drone-14.jpg)
 
-### 🚁 <span id="zipping" class="offset-top-nav">Zipping around</span>
+### <span id="zipping" class="offset-top-nav">🚁 Zipping around</span>
 
 #### How to arm the quad?
 
@@ -158,7 +158,7 @@ I really do enjoy the hovercraft experience. It's also a fun thing to do togethe
   <iframe width="560" height="315" src="https://www.youtube.com/embed/SxZNubzFuwc?rel=0" frameBorder="0" allowFullScreen title="Eachine E016F hovercraft mode in snow and water"></iframe>
 </div>
 
-### 🔝 <span id="fpv-upgrade" class="offset-top-nav">FPV upgrade</span>
+### <span id="fpv-upgrade" class="offset-top-nav">🔝 FPV upgrade</span>
 
 So, how to add FPV to the [Eachine E016F][1]? One of the easiest ways to do that is to add a [camera + vtx all-in-one][4] unit. You could grab one from an old tiny whoop you have lying around, or grab this [Eachine TX02][4]. It's lightweight, will do what you need it to do and pretty cheap too.
 
@@ -200,7 +200,7 @@ That's all there is to it. Here's some sample footage, it was actually surprisin
   <iframe width="560" height="315" src="https://www.youtube.com/embed/OvrQs372rbA?rel=0" frameBorder="0" allowFullScreen title="Eachine E016F FPV mod"></iframe>
 </div>
 
-### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
 I think the [Eachine E016F][1] is a pretty nice little toy to bring in people around you into the hobby. It's great for little and big kids, it's really cheap, and it performs fine. It's not one of those toys you will try out and toss in the garbage cause they don't move around at all or are too hard to control.
 

@@ -86,7 +86,7 @@ You also get this small plastic bag with rubber plugs to cover the screw holes o
 
 ![X-Lite and rubber plugs](set-up-taranis-x-lite-7.jpg)
 
-### ⚙ <span id="set-up" class="offset-top-nav">Initial set up</span>
+### <span id="set-up" class="offset-top-nav">⚙ Initial set up</span>
 
 The single most important thing to do in order to be able to set up for flying is to use the provided screw to reduce the spring tension on one of the sticks (the one you want to use for throttle channel). As I mentioned, I fly MODE 2 and that means that my left gimbal stick is what controls my throttle channel when moved up and down.
 
@@ -110,7 +110,7 @@ In addition, I [grabbed this battery charger][5], as it strikes a sweet spot for
 
 And I could. Some people go for it by buying these [deeper battery caps][8] which then gives you enough space to slot in a 18650 battery. Pretty neat and possibly a bit more flight time between charges. I haven't done this mod yet, but I did make sure to get a battery charger that supports me doing so in the future if I so desire.
 
-### 🧭 <span id="menus" class="offset-top-nav">Navigate the menus</span>
+### <span id="menus" class="offset-top-nav">🧭 Navigate the menus</span>
 
 So, with the throttle stick fixed and the batteries inserted, let's power on the radio and see how can we navigate the menus.
 In a nutshell, the mini joystick does all the navigation, except for canceling out of screens, which is handled by the button below the joystick.
@@ -197,7 +197,7 @@ The two arguably most important screens for you when doing anything with the X-L
 
 > Calibrate the sticks.
 
-### 🔗 <span id="bind" class="offset-top-nav">Bind your first model</span>
+### <span id="bind" class="offset-top-nav">🔗 Bind your first model</span>
 
 To bind the Taranis X-Lite to a receiver, go to the setup screen of a model you have selected or created. Scroll all the way down and select the `[BND]` function.
 
@@ -215,7 +215,7 @@ And if you have already set up switches in the `MIXER` screen in your radio to c
 
 ![betaflight modes tab](set-up-taranis-x-lite-24.png)
 
-### 🔝 <span id="update" class="offset-top-nav">Update OpenTX</span>
+### <span id="update" class="offset-top-nav">🔝 Update OpenTX</span>
 
 The Taranis X-Lite comes with OpenTX version 2.2.2 installed. In comparison, the current latest version of OpenTX at the time of writing is 2.2.3. You can [read the release notes][12] and see if you care to do the update. The process is quick and straightforward.
 
@@ -259,7 +259,7 @@ When done, unplug the radio from the computer and switch it off and on.
 
 If you need more specific help, I've written about the process [in more detail here][13].
 
-### 💾 <span id="sdcard" class="offset-top-nav">Set up the SD card</span>
+### <span id="sdcard" class="offset-top-nav">💾 Set up the SD card</span>
 
 The SD card is quite useful for keeping internal transmitter firmware (in case you need to switch between FCC and LBT on the go), as well as the sound files for alerts, telemetry readout and switch activation.
 
@@ -285,13 +285,13 @@ And here is the [firmware for the internal module][19] of the Taranis X-Lite. A 
 
 To get those files setup on the SD card, after unzipping the downloads, copy over the files (including their parent folders) inside the `FIRMWARE` folder on the SD card.
 
-### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
+### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
 
 An upgrade I did in August 2019, was to buy the [Lotus stick ends][20] which are very comfortable for thumbers. They are high quality, aluminum and super grippy! I feel like I get even more resolution out of the sticks with those stick ends, I definitely recommend them (although there's nothing wrong with the stock stick ends too).
 
 ![Taranis X-Lite with Lotus stick ends](set-up-taranis-x-lite-34.jpg)
 
-### 🏁 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+### <span id="conclusion" class="offset-top-nav">🏁 Conclusion</span>
 
 In conclusion, would I recommend this radio? **YES!** That's the short answer. I think it's a great deal. The radio is **full featured**, much similar to the Taranis Q X7, and comes in at [a very decent price][1]. There is maybe one reason that would go against you picking this radio up and going for another one - if you are a **pincher**(a pilot that flies by pinching the sticks between their index finger and thumb). Higher sticks and other form factors might be better in that case. However for me, and any other **thumber**(a pilot that flies by placing their thumbs on top of the sticks), **I've been having a blast**. The X-Lite took close to no time for me to get used to it, maybe like half a battery or so. I've pretty much swapped my Taranis Q X7 for the X-Lite since I got it and I'm not sure I'm going back, I honestly don't have many reasons to.
 

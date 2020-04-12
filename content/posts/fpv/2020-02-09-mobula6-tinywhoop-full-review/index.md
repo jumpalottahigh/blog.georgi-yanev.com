@@ -82,7 +82,7 @@ and the Mobula6 itself.
 
 ![Mobula6 front left](mobula6-tinywhoop-full-review-13.jpg)
 
-### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
+### <span id="specs" class="offset-top-nav">📝 Specifications</span>
 
 In terms of specs, the **biggest deal here is the weight of the drone**.
 
@@ -134,7 +134,7 @@ The micro USB port is easily accessible and the whole board is mounted to the fr
 
 Overall, especially for being a fairly cheap product, the components are of good quality and the execution and build and very well done. Bonus points for twisting around and sticking between the frame the power leads, instead of just leading them out straight from the battery pads. This helps reduce tugging tension on them, which is unlikely but might occur if your battery flies out of the mounting bay mid-flight.
 
-### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
+### <span id="setup" class="offset-top-nav">⚙ Setup</span>
 
 As with most other quads, to get started we need to **bind a radio controller to the drone's receiver** and take a **look at the Betaflight configuration**.
 
@@ -203,7 +203,7 @@ This is the shortest possible checklist of what I go through quickly when checki
 
 Let's go fly!
 
-### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
+### <span id="flying" class="offset-top-nav">🚁 Flying</span>
 
 I was very excited and curious to fly the Mobula6 for the first time. **My first immediate impression was how easy it was to handle without sacrificing any performance**. It only took me a couple of packs to get very comfortable with the drone. I started by flying it on the stock configuration.
 
@@ -319,7 +319,7 @@ I've been having plenty of bad weather, but was finally able to try flying the M
   <iframe width="560" height="315" src="https://www.youtube.com/embed/_ge8t2IQdvU?rel=0" frameBorder="0" allowFullScreen title="Mobula6 outdoor 450mah GNB 1S battery after JESC 48 khz firmware"></iframe>
 </div>
 
-### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
+### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
 
 We already get pretty decent flight times of about 4:00 - 4:30 minutes. What if we could push this further?
 
@@ -340,7 +340,7 @@ I'm just wondering if we can get up to 7 or why not even 8 minutes of flight tim
 
 Why all the min-maxing though? Well for one, this quad is doing so many things so well and is **so light that small changes to weight can have significant impact**. Also, it's fun 😅
 
-### 💾 <span id="flash" class="offset-top-nav">How to flash Mobula6 ESC for 48kHz</span>
+### <span id="flash" class="offset-top-nav">💾 How to flash Mobula6 ESC for 48kHz</span>
 
 This is the one upgrade that's gonna take you 1 minute to do and will increase your flight times by at least 30 seconds. It's that simple.
 
@@ -383,7 +383,7 @@ Wait until all 4 ESCs are flashed successfully. When done click the `Disconnect`
 
 **Congrats 🎉!** You should now have on average 30 seconds longer flight times for free. How cool is that?
 
-### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
 Happymodel has once again delivered a fun experience. I'm trying hard not to overhype or call the [Mobula6][1] a technological achievement but in my opinion, it kind of is. It comes at a very affordable price for what it offers, you get 4 batteries to rip around which for many beginners could just as well be enough.
 
