@@ -187,11 +187,28 @@ Here's some footage of my first few packs after I flashed the firmware (this is 
 
 #### Indoor flights (angle mode)
 
-**After more than 10 packs:** _Coming soon..._
+**After a bunch of packs:**
+I'm not sure how this is going to come out, but I love and hate the tune at the same time. On one hand I really dislike that the yaw axis controls 90% of my turns. I'm more used to that being a combination of yaw and roll. On the other hand it kind of ... works well indoor.
+
+I'll definitely fly a bunch more packs, but I'm kind of torn for now. Not the biggest fan of it, but I don't completely hate it either.
+
+I might try flashing Betaflight 4.1 to see how this compares to 3.5.7 and to EmuFlight 0.2.0.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cg4yQ6in68w?rel=0" frameBorder="0" allowFullScreen title="Getting used to EmuFlight and Project Mockingbird on the Mobula6"></iframe>
+</div>
 
 #### Outdoor flights
 
-_Coming soon..._
+As far as outdoor flight go, I caught a windy day with strong winds but luckily coming in gusts, so there were quiet moments in between.
+
+The quad behaves, I flew both acro and angle mode, cause I was curious to see how it handles, but noticed nothing out of the ordinary. It still flew nicely, in acro, almost the same as before flashing EmuFlight. When you fly in acro mode the yaw axis is not as strong and it goes back to the more familiar flying experience.
+
+No perceivable changes to flight times either.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NJGhFeT4RXA?rel=0" frameBorder="0" allowFullScreen title="Mockula6: First outdoor acro flight with EmuFlight and Project Mockingbird on the Mobula6 (2020 #43)"></iframe>
+</div>
 
 ### <span id="conclusion" class="offset-top-nav">📝 Conclusion</span>
 
