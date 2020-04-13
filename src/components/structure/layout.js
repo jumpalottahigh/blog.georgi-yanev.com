@@ -5,6 +5,7 @@ import Header from './Header/Header'
 import Footer from './Footer/Footer'
 import SideBar from '../Sidebar'
 import MenuFAB from '../MenuFAB'
+import RightBar from '../RightBar'
 
 import './index.css'
 import './darkmode.css'
@@ -56,8 +57,9 @@ const Layout = ({ children }) => (
       <SideBar />
       <MenuFAB />
       <div className="main">{children}</div>
-      <Footer />
+      <RightBar />
     </div>
+    <Footer />
   </>
 )
 

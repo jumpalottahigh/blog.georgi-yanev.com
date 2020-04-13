@@ -857,6 +857,20 @@ div > pre {
   }
 }
 
+@media (min-width: 1550px) {
+  .main {
+    margin: 0;
+    width: calc(828px + 4rem);
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .main-wrapper {
+    display: grid;
+    grid-template-columns: 17rem 900px 1fr;
+  }
+}
+
 .menu-wrapper {
   display: none;
 }
