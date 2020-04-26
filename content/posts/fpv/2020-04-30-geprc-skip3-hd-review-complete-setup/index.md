@@ -17,11 +17,17 @@ gearList:
   - 'skip3-hd'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, freestyle, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, tinywhoop, TODO:'
-ogDescription: 'TODO:'
-ogImage: './TODO:'
+ogDescription: "I've been looking forward to this review for a while. My current main search and passion is to find a performing, HD cinewhoop that flies like a toothpick. And the short of it is, that I think I found it, and that's why I'm going to be reviewing, setting up and flying the GEPRC Skip3 HD"
+ogImage: './geprc-skip3-hd-review-complete-setup-26.jpg'
 ---
 
-TODO: INTRO
+I've been looking forward to this review for a while. My current main search and passion is to find a **performing, HD cinewhoop that flies like a toothpick**. And the short of it is, that I think I found it, and that's why I'm going to be reviewing, setting up and flying the [GEPRC Skip3 HD][1].
+
+As a simple micro cinewhoop, I've loved flying the [Mobula7 HD][2] for over a year now, and to be fair I can still recommend it today, for some use cases. What I wish it did slightly better would be to have just a tad more performance at mid throttle.
+
+On the other hand, getting into toothpicks last year with the [GEPRC Phantom][3] and the [Emax Tinyhawk Freestyle][4] was a very fun experience. There little quads fly and handle superbly and are to date my favorite toothpicks. They are such a joy to fly, but lack the capability to record full HD video.
+
+So the obvious question was **"can we have that performance but also enjoy a 1080p HD video recording from a split camera"**. And this is the use case the Skip3 HD is trying to cover: give you full HD recording while flying like a racer.
 
 ### Table of contents
 
@@ -38,7 +44,7 @@ TODO: INTRO
   <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO:?rel=0" frameBorder="0" allowFullScreen title="TODO:"></iframe>
 </div> -->
 
-### 📦 <span id="unboxing">Unboxing</span>
+### <span id="unboxing" class="offset-top-nav">📦 Unboxing</span>
 
 TODO:
 
@@ -76,11 +82,11 @@ TODO:
 ![](geprc-skip3-hd-review-complete-setup-32.png)
 ![](geprc-skip3-hd-review-complete-setup-33.png)
 
-### 📝 <span id="specs" class="offset-top-nav">Specifications</span>
+### <span id="specs" class="offset-top-nav">📝 Specifications</span>
 
 TODO:
 
-### ⚙ <span id="setup" class="offset-top-nav">Setup</span>
+### <span id="setup" class="offset-top-nav">⚙ Setup</span>
 
 TODO:
 
@@ -126,7 +132,7 @@ TODO:
 
 Let's go fly!
 
-### 🚁 <span id="flying" class="offset-top-nav">Flying</span>
+### <span id="flying" class="offset-top-nav">🚁 Flying</span>
 
 TODO:
 
@@ -134,11 +140,11 @@ TODO:
   <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO:?rel=0" frameBorder="0" allowFullScreen title="TODO:"></iframe>
 </div>
 
-### 🔝 <span id="upgrades" class="offset-top-nav">Upgrades</span>
+### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
 
 TODO:
 
-### 📑 <span id="conclusion" class="offset-top-nav">Conclusion</span>
+### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
 TODO:
 the video bit rate for 1080p 60fps (default) is ~ 30-31 Mbit
@@ -152,3 +158,6 @@ Happy flying!
 
 [0]: Linkslist
 [1]: https://bit.ly/geprc-skip3-hd
+[2]: https://bit.ly/mobula7-hd
+[3]: https://bit.ly/geprc-phantom
+[4]: https://bit.ly/tinyhawk-freestyle
