@@ -292,6 +292,11 @@ const allFeaturedGear = {
     link: 'https://bit.ly/dji-digital-fpv',
     image: '/banggood/dji-digital-fpv.jpg',
   },
+  'skip3-hd': {
+    name: 'GEPRC Skip3 HD',
+    link: 'https://bit.ly/geprc-skip3-hd',
+    image: '/banggood/skip3-hd.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`
