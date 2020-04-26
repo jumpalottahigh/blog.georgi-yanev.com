@@ -297,6 +297,11 @@ const allFeaturedGear = {
     link: 'https://bit.ly/geprc-skip3-hd',
     image: '/banggood/skip3-hd.jpg',
   },
+  'gnb-4s-520': {
+    name: 'GNB 4S 520mAh',
+    link: 'https://bit.ly/gnb-4s-520mah',
+    image: '/banggood/gnb-4s-520.jpg',
+  },
 }
 
 const StyledFeaturedGear = styled.div`

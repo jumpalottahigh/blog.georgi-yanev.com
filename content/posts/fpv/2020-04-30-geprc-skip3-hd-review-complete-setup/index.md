@@ -15,6 +15,7 @@ tags:
   - 'review'
 gearList:
   - 'skip3-hd'
+  - 'gnb-4s-520'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, freestyle, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, tinywhoop, TODO:'
 ogDescription: "I've been looking forward to this review for a while. My current main search and passion is to find a performing, HD cinewhoop that flies like a toothpick. And the short of it is, that I think I found it, and that's why I'm going to be reviewing, setting up and flying the GEPRC Skip3 HD"
@@ -46,47 +47,117 @@ So the obvious question was **"can we have that performance but also enjoy a 108
 
 ### <span id="unboxing" class="offset-top-nav">📦 Unboxing</span>
 
-TODO:
+Having unboxed a few other GEPRC products so far, the unboxing experience is pretty consistent and minimalistic. You get a GEPRC branded box with the items inside.
 
-![](geprc-skip3-hd-review-complete-setup-1.jpg)
-![](geprc-skip3-hd-review-complete-setup-2.jpg)
-![](geprc-skip3-hd-review-complete-setup-3.jpg)
-![](geprc-skip3-hd-review-complete-setup-4.jpg)
-![](geprc-skip3-hd-review-complete-setup-5.jpg)
-![](geprc-skip3-hd-review-complete-setup-6.jpg)
-![](geprc-skip3-hd-review-complete-setup-7.jpg)
-![](geprc-skip3-hd-review-complete-setup-8.jpg)
-![](geprc-skip3-hd-review-complete-setup-9.jpg)
-![](geprc-skip3-hd-review-complete-setup-10.jpg)
-![](geprc-skip3-hd-review-complete-setup-11.jpg)
-![](geprc-skip3-hd-review-complete-setup-12.jpg)
-![](geprc-skip3-hd-review-complete-setup-13.jpg)
-![](geprc-skip3-hd-review-complete-setup-14.jpg)
-![](geprc-skip3-hd-review-complete-setup-15.jpg)
-![](geprc-skip3-hd-review-complete-setup-16.jpg)
-![](geprc-skip3-hd-review-complete-setup-17.jpg)
-![](geprc-skip3-hd-review-complete-setup-18.jpg)
-![](geprc-skip3-hd-review-complete-setup-19.jpg)
-![](geprc-skip3-hd-review-complete-setup-20.jpg)
-![](geprc-skip3-hd-review-complete-setup-21.jpg)
-![](geprc-skip3-hd-review-complete-setup-22.jpg)
-![](geprc-skip3-hd-review-complete-setup-23.jpg)
-![](geprc-skip3-hd-review-complete-setup-24.jpg)
-![](geprc-skip3-hd-review-complete-setup-25.jpg)
-![](geprc-skip3-hd-review-complete-setup-26.jpg)
-![](geprc-skip3-hd-review-complete-setup-27.png)
-![](geprc-skip3-hd-review-complete-setup-28.png)
-![](geprc-skip3-hd-review-complete-setup-29.png)
-![](geprc-skip3-hd-review-complete-setup-30.png)
-![](geprc-skip3-hd-review-complete-setup-31.png)
-![](geprc-skip3-hd-review-complete-setup-32.png)
-![](geprc-skip3-hd-review-complete-setup-33.png)
+While on one hand it's nice to get a higher quality carry case (like you do with some drones), if the goal in GEPRC's case is to reduce the price by simply providing a box, then I'm on board. I can also confirm that although I always expected myself to toss the box aside after the initial setup, I always ended up actually keeping it and using it to transport the quad and its spare parts by tossing the box in my backpack.
+
+![GEPRC Skip3 HD box](geprc-skip3-hd-review-complete-setup-2.jpg)
+
+The contents of the box are wrapped in protective foam from all sides and the quad come wrapped in plastic film too.
+
+![GEPRC Skip3 HD inside the box](geprc-skip3-hd-review-complete-setup-3.jpg)
+
+Here is everything you get inside: the [GEPRC Skip3 HD][1] itself, a vtx channel table, FrSky XM+ receiver instructions, GEPRC stickers, 8 bi-blade propellers and a pack of extra items.
+
+![GEPRC Skip3 HD all items included](geprc-skip3-hd-review-complete-setup-4.jpg)
+
+In the additional items pack you can find: camera configuration joystick, screwdriver, hex tool, landing leg sticky foam padding, an extra battery velcro strap, spare screws, antenna tubes and tube end tips.
+
+![GEPRC Skip3 HD additional items](geprc-skip3-hd-review-complete-setup-14.jpg)
+
+Here are the props unpacked:
+
+![GEPRC Skip3 HD props](geprc-skip3-hd-review-complete-setup-5.jpg)
+
+And of course the drone itself:
+
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-15.jpg)
 
 ### <span id="specs" class="offset-top-nav">📝 Specifications</span>
 
-TODO:
+The [GEPRC Skip3 HD][1] is 120mm motor post to motor post.
+
+![GEPRC Skip3 HD motor post to motor post distance](geprc-skip3-hd-review-complete-setup-8.jpg)
+
+The dry weight is just **69 grams**.
+
+![GEPRC Skip3 HD weighs 69 grams](geprc-skip3-hd-review-complete-setup-9.jpg)
+
+The weight with four of the stock props is **72.3 grams**.
+
+![GEPRC Skip3 HD with 4 props weighs 72.3 grams](geprc-skip3-hd-review-complete-setup-11.jpg)
+
+And finally the all up weight with a [GNB 4S 520mAh battery][5] is **127.3 grams**.
+
+![GEPRC Skip3 HD all up weight with a 4S GNB 520mAh battery is 127.3 grams](geprc-skip3-hd-review-complete-setup-12.jpg)
+
+I also had a Turnigy Graphene 4S 500mAh battery lying around, which came in much heavier at **149.7 grams** all up weight. I'm a much bigger fan of GNB batteries, so besides for a few test flights, I probably won't be flying the Turnigy battery.
+
+![GEPRC Skip3 HD all up weight with a 4S Turnigy 500mAh battery goes up to 149.7 grams](geprc-skip3-hd-review-complete-setup-13.jpg)
+
+The quad looks gorgeous overall, but let's talk specs.
+
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-16.jpg)
+
+The Skip3 HD comes with the same motors you might have seen earlier on the [GEPRC CinePro 4K][6] - **GR1105 5000KV**. The motor wires are braided which is a nice touch if you're into that sort of thing. More importantly they are held securely to the frame arms with a sturdy "cloth-based" sticky tape. The motors are plugged into the all-in-one (AIO) board with a connector and not direct solder. Some people say there's some extra performance to be had with the direct solder approach, I think that's nearly negligible in this case and definitely minmaxing, but if you're into that sort of thing, go for it.
+
+![GEPRC Skip3 HD motor close up](geprc-skip3-hd-review-complete-setup-17.jpg)
+
+**The camera is the Caddx Baby Turtle V2**. This is a "split" type camera that is used for the real time FPV feed, as well as to record on board 1080p 60fps footage. I dare add that it's one of the best split time cameras nowadays (2019 / 2020).
+
+It can record also at 1080p @ 30fps and 720p @ 60fps, if you feel like downgrading the quality, but chances are you probably don't need that.
+
+This camera can record audio, which was ever so slightly less horrifying but even so, pretty much unusable - the motor noise is loud and high-pitched which probably won't allow for any other sound to be picked up from the environment. Unfortunately that's pretty much the case with all of these cameras.
+
+The output file format of the Caddx Baby Turtle V2 is MP4 and it supports class 10 SD cards from 8GB to 64GB. On average for a **6 minute flight the 1080p 60fps recording is about 1.36GB**.
+
+The canopy is a pretty nice, high quality TPU print that let's you **adjust the camera angle from about 28 degress to about 45 degrees**.
+
+![GEPRC Skip3 HD canopy](geprc-skip3-hd-review-complete-setup-18.jpg)
+
+On the backside of the canopy there are slots for the VTX's dipole antenna, as well as for the receiver antennas. **The VTX is power-switchable between 25/100/200mW.**
+
+![GEPRC Skip3 HD backside antenna opennings](geprc-skip3-hd-review-complete-setup-19.jpg)
+
+A capacitor is soldered and shrink-wrapped with the xt30 connector which is pretty much standard nowadays.
+
+![GEPRC Skip3 HD capacity on the xt30](geprc-skip3-hd-review-complete-setup-20.jpg)
+
+A battery strap comes pre-installed under the quad, where we also have a rubber battery pad to provide additional grip.
+
+![GEPRC Skip3 HD battery strap and pad](geprc-skip3-hd-review-complete-setup-21.jpg)
+
+This is how the flight stack is setup on the inside.
+
+![GEPRC Skip3 HD stack](geprc-skip3-hd-review-complete-setup-22.jpg)
+
+We have a GEP-12A-F4 AIO board. As the name states it should support continuous current up to 12A on a 2S - 4S battery. The firmware target for the flight controller is **MATEKF411**.
+
+Above the flight controller board is the Caddx Baby Turtle V2 board (this is also where you would plug in your SD card). Above that is the VTX and at the top the receiver (in my case, the FrSky XM+).
+
+TODO: organise the next few picture
+TODO: talk about the props
+TODO: talk about the product page mentioning not to spin up 3 blade props
+
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-23.jpg)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-24.jpg)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-25.jpg)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-26.jpg)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-27.png)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-28.png)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-29.png)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-30.png)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-31.png)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-32.png)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-33.png)
+
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-6.jpg)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-7.jpg)
 
 ### <span id="setup" class="offset-top-nav">⚙ Setup</span>
+
+BACKUP first.
+[geprc-skip3-hd-betaflight-config-backup.txt](geprc-skip3-hd-betaflight-config-backup.txt)
 
 TODO:
 
@@ -154,6 +225,8 @@ write about configuring the camera with the joystick
 
 prop wash or jello in the 1080p dvr (on the big open field)
 
+The recording starts as soon as you plugin a battery and is stopped and written to the SD card if you unplugged.
+
 Happy flying!
 
 [0]: Linkslist
@@ -161,3 +234,5 @@ Happy flying!
 [2]: https://bit.ly/mobula7-hd
 [3]: https://bit.ly/geprc-phantom
 [4]: https://bit.ly/tinyhawk-freestyle
+[5]: https://bit.ly/gnb-4s-520mah
+[6]: https://bit.ly/geprc-cinepro-4k
