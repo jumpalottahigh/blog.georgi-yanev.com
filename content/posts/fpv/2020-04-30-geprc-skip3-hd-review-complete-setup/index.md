@@ -17,7 +17,7 @@ gearList:
   - 'skip3-hd'
   - 'gnb-4s-520'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
-ogKeywords: 'fpv, drone, freestyle, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, tinywhoop, TODO:'
+ogKeywords: 'fpv, drone, freestyle, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, tinywhoop, skip3, skip3 hd, geprc, geprc skip3 hd, geprc skip3, toothpick, cinewhoop, geprc toothpick, geprc hd toothpick'
 ogDescription: "I've been looking forward to this review for a while. My current main search and passion is to find a performing, HD cinewhoop that flies like a toothpick. And the short of it is, that I think I found it, and that's why I'm going to be reviewing, setting up and flying the GEPRC Skip3 HD"
 ogImage: './geprc-skip3-hd-review-complete-setup-26.jpg'
 ---
@@ -99,17 +99,25 @@ The quad looks gorgeous overall, but let's talk specs.
 
 ![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-16.jpg)
 
-The Skip3 HD comes with the same motors you might have seen earlier on the [GEPRC CinePro 4K][6] - **GR1105 5000KV**. The motor wires are braided which is a nice touch if you're into that sort of thing. More importantly they are held securely to the frame arms with a sturdy "cloth-based" sticky tape. The motors are plugged into the all-in-one (AIO) board with a connector and not direct solder. Some people say there's some extra performance to be had with the direct solder approach, I think that's nearly negligible in this case and definitely minmaxing, but if you're into that sort of thing, go for it.
+The Skip3 HD comes with the same motors you might have seen earlier on the [GEPRC CinePro 4K][6] - **GR1105 5000KV**. At this KV this a quad intended to run on 4S batteries, although you could go as low as 2S. Whatever the case, however, the product page **warns about not running tri-blade props**, since those would draw more current and you could burn a motor. I'll probably test that for you, so you don't have to take the chance, but more on that in the flying section below.
+
+The props that the [GEPRC Skip3 HD][1] comes with are 75mm bi-blade propellers that weigh just under a gram (0.9g).
+
+![GEPRC Skip3 HD 75mm bi-blade props measured](geprc-skip3-hd-review-complete-setup-6.jpg)
+
+![GEPRC Skip3 HD's stock props weigh 0.9grams](geprc-skip3-hd-review-complete-setup-7.jpg)
+
+The motor wires are braided which is a nice touch if you're into that sort of thing. More importantly they are held securely to the frame arms with a sturdy "cloth-based" sticky tape. The motors are plugged into the all-in-one (AIO) board with a connector (not directly soldered). Some people say there's some extra performance to be had with the direct solder approach, I think that's nearly negligible in this case and definitely minmaxing, but if you really want to squeeze every little bit of performance, you could consider direct soldering. For me that's an overkill at this point.
 
 ![GEPRC Skip3 HD motor close up](geprc-skip3-hd-review-complete-setup-17.jpg)
 
 **The camera is the Caddx Baby Turtle V2**. This is a "split" type camera that is used for the real time FPV feed, as well as to record on board 1080p 60fps footage. I dare add that it's one of the best split time cameras nowadays (2019 / 2020).
 
-It can record also at 1080p @ 30fps and 720p @ 60fps, if you feel like downgrading the quality, but chances are you probably don't need that.
+It can also record at 1080p 30fps and 720p 60fps, if you feel like downgrading the quality, but chances are you probably don't need to do that.
 
-This camera can record audio, which was ever so slightly less horrifying but even so, pretty much unusable - the motor noise is loud and high-pitched which probably won't allow for any other sound to be picked up from the environment. Unfortunately that's pretty much the case with all of these cameras.
+This camera can record audio, which was ever so slightly less horrifying but even so, pretty much unusable. The motor noise is loud and high-pitched which probably won't allow for any other sound to be picked up from the environment. Unfortunately that's pretty much the case with all of these cameras and we yet have to see a split type camera with useful audio recording.
 
-The output file format of the Caddx Baby Turtle V2 is MP4 and it supports class 10 SD cards from 8GB to 64GB. On average for a **6 minute flight the 1080p 60fps recording is about 1.36GB**.
+The output file format of the Caddx Baby Turtle V2 is MP4 and it supports class 10 SD cards with storage ranging from 8GB to 64GB. On average for a **6 minute flight the 1080p 60fps recording is about 1.36GB**.
 
 The canopy is a pretty nice, high quality TPU print that let's you **adjust the camera angle from about 28 degress to about 45 degrees**.
 
@@ -119,11 +127,11 @@ On the backside of the canopy there are slots for the VTX's dipole antenna, as w
 
 ![GEPRC Skip3 HD backside antenna opennings](geprc-skip3-hd-review-complete-setup-19.jpg)
 
-A capacitor is soldered and shrink-wrapped with the xt30 connector which is pretty much standard nowadays.
+A capacitor is soldered to and shrink-wrapped together with the xt30 connector. This is pretty much a standard nowadays, so nothing special about it.
 
 ![GEPRC Skip3 HD capacity on the xt30](geprc-skip3-hd-review-complete-setup-20.jpg)
 
-A battery strap comes pre-installed under the quad, where we also have a rubber battery pad to provide additional grip.
+A battery strap comes pre-installed under the quad, where we also have a rubber battery pad to provide additional grip and keep your battery in place when flying around or in crashes.
 
 ![GEPRC Skip3 HD battery strap and pad](geprc-skip3-hd-review-complete-setup-21.jpg)
 
@@ -131,28 +139,15 @@ This is how the flight stack is setup on the inside.
 
 ![GEPRC Skip3 HD stack](geprc-skip3-hd-review-complete-setup-22.jpg)
 
-We have a GEP-12A-F4 AIO board. As the name states it should support continuous current up to 12A on a 2S - 4S battery. The firmware target for the flight controller is **MATEKF411**.
+At the bottom we have a GEP-12A-F4 AIO board. As the name states it should support continuous current up to 12A on a 2S to 4S battery. The firmware target for the flight controller is **MATEKF411**.
 
-Above the flight controller board is the Caddx Baby Turtle V2 board (this is also where you would plug in your SD card). Above that is the VTX and at the top the receiver (in my case, the FrSky XM+).
+Above the flight controller board is the Caddx Baby Turtle V2 board (this is also where you would plug in your SD card). On top of that is the VTX and on top of the VTX is the receiver (in my case, the FrSky XM+).
 
-TODO: organise the next few picture
-TODO: talk about the props
-TODO: talk about the product page mentioning not to spin up 3 blade props
+And all of that comes currently at about ~ \$170, which in my opinion is a pretty good deal for an HD toothpick drone.
 
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-23.jpg)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-24.jpg)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-25.jpg)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-26.jpg)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-27.png)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-28.png)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-29.png)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-30.png)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-31.png)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-32.png)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-33.png)
+![GEPRC Skip3 HD front right shot](geprc-skip3-hd-review-complete-setup-23.jpg)
 
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-6.jpg)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-7.jpg)
+![GEPRC Skip3 HD front left shot](geprc-skip3-hd-review-complete-setup-24.jpg)
 
 ### <span id="setup" class="offset-top-nav">⚙ Setup</span>
 
@@ -172,6 +167,14 @@ TODO:
 TODO:
 
 1.  **Configuration tab**
+
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-27.png)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-28.png)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-29.png)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-30.png)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-31.png)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-32.png)
+![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-33.png)
 
     > Props in or Props out mode - important to know how to put on your props. `MOTOR_STOP` off. `Accelerometer` on for angle (stability) mode. `SPI RX support` and `FRSKY_D` for D8 mode.
 
@@ -203,7 +206,24 @@ TODO:
 
 Let's go fly!
 
+![GEPRC Skip3 HD outdoor shot](geprc-skip3-hd-review-complete-setup-26.jpg)
+
 ### <span id="flying" class="offset-top-nav">🚁 Flying</span>
+
+Maiden
+
+GNB 4S 520mAh, AUW 127.3g
+
+Turnigy 4S 500mAh, AUW 149.7g
+
+2S flight
+3S flight
+
+Different prop flights:
+stock, we have seen
+some HQ 65 prop?
+some phantom stock prop?
+some avan rush prop? last in case motors go.
 
 TODO:
 
@@ -216,6 +236,8 @@ TODO:
 TODO:
 
 ### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
+
+I love toothpicks, but I seem to really prefer how good tri-blade props fly and everything they bring to the table in terms of handling. On any one of my tests so far I have never missed the extra performance I lost when switching to tri-blade vs bi-blade props. And I have ALWAYS appreciated the handling improvement. Maybe it's something you could get used to, but for now and for my flying style, I strongly prefer how quads fly on tri-blade props. **However, this is just my very subjective opinion and preference**. It's not to say that you wouldn't like bi-blade props for example. I strongly encourage everyone to try out for themselves and make up their own opinion.
 
 TODO:
 the video bit rate for 1080p 60fps (default) is ~ 30-31 Mbit
