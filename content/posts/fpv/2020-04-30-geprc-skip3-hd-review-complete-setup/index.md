@@ -151,64 +151,102 @@ And all of that comes currently at about ~ \$170, which in my opinion is a prett
 
 ### <span id="setup" class="offset-top-nav">⚙ Setup</span>
 
-BACKUP first.
-[geprc-skip3-hd-betaflight-config-backup.txt](geprc-skip3-hd-betaflight-config-backup.txt)
-
-TODO:
-
-As with most other quads, to get started we need to **bind a radio controller to the drone's receiver** and take a **look at the Betaflight configuration**.
+To get up and running with the [GEPRC Skip3 HD][1] we wound need to bind the quad to a radio transmitter, take a look at the Betaflight config, install antena tubes, consider battery mounting options, put on the props and get out flying.
 
 #### 🔗 Bind the receiver to a radio
 
-TODO:
+To get the quad bound, you will have to set your radio in bind mode from the setup screen, then plug in a battery to the drone while keeping the FrSky XM+ receiver's bind button pressed. If the binding is sucessful, one of the LED's will be in solid green, while the other will be blinking in red. At this point powercycle the quad and you should be able to see only 1 solid green LED on.
 
-#### 👀 Check the Betaflight configuration
+If you have any issues, drop me a comment down below or [on YouTube][7], and I'll try to do my best to help you solve your issue.
 
-TODO:
+#### 🐝 Check the Betaflight configuration
 
-1.  **Configuration tab**
+**TAKE OFF THE PROPS** if you have them on for whatever reason. While working in Betaflight, we want props off at all times!
 
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-27.png)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-28.png)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-29.png)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-30.png)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-31.png)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-32.png)
-![GEPRC Skip3 HD](geprc-skip3-hd-review-complete-setup-33.png)
+I always recommend you back up the existing Betaflight configuration before making any changes, just in case things get messy and you want to roll back. I'll show you how to do just that, but in case you didn't back up your config on time, here's a copy of my [GEPRC Skip3 HD stock configuration](geprc-skip3-hd-betaflight-config-backup.txt) (mine came with Betaflight 3.5.7).
 
-    > Props in or Props out mode - important to know how to put on your props. `MOTOR_STOP` off. `Accelerometer` on for angle (stability) mode. `SPI RX support` and `FRSKY_D` for D8 mode.
+To produce your own back up, connect the quad to your computer via the micro USB port, start Betafligth and go to the CLI tab. Type `dump` in the command box input and press enter. Then click the button to save the config dump to a file. This is a full configuration dump and could be useful to roll things back to the way they were, should you need to do so.
 
-    > ![Betaflight Configuration tab part 1](mobula6-tinywhoop-full-review-25.jpg)
+Next let's go through the way the quad is setup out of the box by the folks from GEPRC.
 
-    > `Airmode` is on. `RX_LOST` and `RX_SET` are on in case you want to use the motors to beep for a lost model alarm since we don't have an onboard buzzer.
+1. **Ports tab**
 
-    > ![Betaflight Configuration tab part 2](mobula6-tinywhoop-full-review-26.jpg)
+> Nothing special here, but leaving this here in case you were wondering what the defaults are for this tab.
+> ![GEPRC Skip3 HD Betaflight ports tab](geprc-skip3-hd-review-complete-setup-27.png)
 
-    > ✅ All good here, the defaults match what I expected so no changes needed.
+2. **Configuration tab**
 
-2.  **Receiver tab**
+> On the configuration tab we learn that the quad is setup in the more common **Props in** mode, which informs us how we would be putting on our propellers later. I like having **MOTOR_STOP** off, and am happy to find that it's off by default. Double check that the receiver is setup correctly too - **Serial based receiver** and **SBUS** should be selected when dealing with the FrSky XM+ receiver. All good there.
 
-    > Here I'm making sure the `Channel Map` is **TAER1234**. That's what my radio is set to and a match here makes sure the quad won't flip out when I start flying. ✅ All good.
+> ![GEPRC Skip3 HD Betaflight configuration tab 1](geprc-skip3-hd-review-complete-setup-28.png)
 
-    > ![Betaflight Receiver tab](mobula6-tinywhoop-full-review-27.jpg)
+> A bit further down the page I like taking a look at the other features section to make sure **AIRMODE** is on. You really want that on if you are planning to do any acro tricks. **OSD** is on too, and the **Dshot Beacon Configuration** is also on, which is great and allows us to use the motors to do some beeping (since this model does not have a dedicated buzzer).
 
-3.  **Modes tab**
+> ![GEPRC Skip3 HD Betaflight configuration tab 2](geprc-skip3-hd-review-complete-setup-29.png)
 
-    > Arming is set to `AUX1` which is whichever switch you set to `Channel5` earlier in the Mixer screen on your radio. That's fine. Then I notice AUX2 (Channel6 switch) is set by default to start-up in angle mode, and any other position will set the quad to acro. That's fine too. And I have turtle mode (Flip over after crash) on the third switch. ✅ Perfect, no changes needed.
+3. **PID tuning tab**
 
-    > ![Betaflight Modes tab](mobula6-tinywhoop-full-review-28.jpg)
+> These are the default PID values. I never make changes to the stock tune, because I think it's very valuable to fly the quad on the stock config in order to evaluate how it performs as it comes setup straight out of the factory so to speak.
 
-4.  **OSD tab**
+> ![GEPRC Skip3 HD Betaflight PID tuning tab](geprc-skip3-hd-review-complete-setup-30.png)
 
-    > In the OSD tab I care to see if `RSSI value` is displayed, I also like to see current draw, throttle value and flight time elapsed. ✅ All good, no changes needed.
+4. **Receiver tab**
 
-    > ![Betaflight OSD tab](mobula6-tinywhoop-full-review-29.jpg)
+> The receiver tab is one of the most important ones to check. You really don't want to be attempting flying if the channel mapping between your radio transmitter and the drone are setup incorrectly.
 
-Let's go fly!
+> That's very easy to fix, but it is quite common that you would need to make some changes. I've noticed Emax tends to ship out their drones setup in the **TAER1234** channel map, which for me personally is perfect and matches how my transmitter is setup. GEPRC, however, tends to send their products setup in **AETR1234**.
+
+> This bit is quite common to mess up with newer people to the hobby, but easy to fix. Go to your radio's setup page and take a note of what the channel map setup is. Then change the value here accordingly. As mentioned, in my case, I will change this to **TAER1234**.
+
+> ![GEPRC Skip3 HD Betaflight Receiver tab](geprc-skip3-hd-review-complete-setup-31.png)
+
+> _In case you are wondering, the letters `T`, `A`, `E`, `R` simply mean that `T`hrottle is at Channel 1, `A`ileron at 2, `E`levator at 3 and `R`udder at 4._
+
+5. **Modes tab**
+
+The modes tab is normally fairly straight forward as well, however this was the **first time I see a manufacturer opting in to setup switch activation at the low point of the range**. Technically, there's nothing wrong with that, but if you don't expect it, it might throw you for a loop.
+
+> ![GEPRC Skip3 HD Betaflight Modes tab](geprc-skip3-hd-review-complete-setup-32.png)
+
+TODO: bonus unlisted video with my surprise
+
+In my case I totally didn't expect this and was wondering why even though my modes are setup correct, the quad wouldn't arm and was buzzing immediately when plugged in.
+
+So the only thing I changed here was to drag the range slider to the upper end for the **ARM** mode on AUX1 and the same for the **Beeper** on AUX3. That ensures that the off position for the switch is away from you and the on position is when the switch is flicked towards yourself.
+
+6. **OSD tab**
+
+On the OSD tab, after the first flight I changed from displaying the total battery voltage to displaying the **Battery average cell voltage**, which I find slightly more informative and clear for when to land and so on.
+
+If you enable **RSSI value** (like I did) and don't see it anywhere, it's probably under one of the values at the top left or top right of the OSD, so you might have to move them around a bit.
+
+I also added **Power** to see throttle stick values in real time.
+
+> ![GEPRC Skip3 HD Betaflight OSD tab](geprc-skip3-hd-review-complete-setup-33.png)
+
+And we are done with Betaflight.
+
+To install the antenna tubes just cut them to length and slot them in while guiding the antenas thru. Then put an antenna tube cap on top.
+
+Because this is an HD capable quad, we need to also install an SD card, so definitely don't forget to do that.
+
+By default the camera is setup such that it will record in 1080p 60fps and it will start recording as soon as you plug in the quad and it will stop the recording and save the footage when you unplug the battery. It works in a very convenient way.
+
+If you need to adjust the recording settings, you can use the provided camera joystick to connect to the camera (there is a camera connector under the canopy).
+
+TODO: more info and pictures on the OSD and how to adjust the settings
+
+Finally put on the props. Remember we are in props in mode and so the way you put on the props should match what you see in the image below.
+
+TODO: extra image with prop setup?
+
+With all of this done, we are finally ready to go fly!
 
 ![GEPRC Skip3 HD outdoor shot](geprc-skip3-hd-review-complete-setup-26.jpg)
 
 ### <span id="flying" class="offset-top-nav">🚁 Flying</span>
+
+TODO: continue
 
 Maiden
 
@@ -258,3 +296,4 @@ Happy flying!
 [4]: https://bit.ly/tinyhawk-freestyle
 [5]: https://bit.ly/gnb-4s-520mah
 [6]: https://bit.ly/geprc-cinepro-4k
+[7]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
