@@ -10,9 +10,12 @@ const HTML = props => (
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-      <link rel="dns-prefetch" href="//www.google-analytics.com" />
-      {/* <link rel="dns-prefetch" href="//vc.hotjar.io" /> */}
-      {/* <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" /> */}
+      <link rel="preconnect" href="//www.google-analytics.com" />
+      <link rel="preconnect" href="//i.ytimg.com" />
+      <link rel="preconnect" href="//googleads.g.doubleclick.net" />
+      <link rel="preconnect" href="//font.gstatic.com" />
+      <link rel="preconnect" href="//static.doubleclick.net" />
+      <link rel="preconnect" href="//yt3.ggpht.com" />
       {props.headComponents}
     </head>
     <body {...props.bodyAttributes}>
@@ -23,11 +26,6 @@ const HTML = props => (
         dangerouslySetInnerHTML={{ __html: props.body }}
       />
       {props.postBodyComponents}
-
-      {/* <script
-        async={true}
-        src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      /> */}
     </body>
   </html>
 )
