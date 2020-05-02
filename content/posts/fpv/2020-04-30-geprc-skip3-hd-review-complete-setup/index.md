@@ -36,7 +36,6 @@ So the obvious question was **"can we have that performance but also enjoy a 108
 - [📝 Specifications](#specs)
 - [⚙ Setup](#setup)
 - [🚁 Flying](#flying)
-- [🔝 Upgrades](#upgrades)
 - [📑 Conclusion](#conclusion)
 
 <!-- If you prefer watching, check out the full video review on my YouTube channel:
@@ -111,7 +110,7 @@ The motor wires are braided which is a nice touch if you're into that sort of th
 
 ![GEPRC Skip3 HD motor close up](geprc-skip3-hd-review-complete-setup-17.jpg)
 
-**The camera is the Caddx Baby Turtle V2**. This is a "split" type camera that is used for the real time FPV feed, as well as to record on board 1080p 60fps footage. I dare add that it's one of the best split time cameras nowadays (2019 / 2020).
+**The camera is the Caddx Baby Turtle V2**. This is a "split" type camera that is used for the real time FPV feed, as well as to record on board 1080p 60fps footage at ~ 30 Mbit bit rate. I dare add that it's one of the best split time cameras nowadays (2019 / 2020).
 
 It can also record at 1080p 30fps and 720p 60fps, if you feel like downgrading the quality, but chances are you probably don't need to do that.
 
@@ -204,23 +203,23 @@ Next let's go through the way the quad is setup out of the box by the folks from
 
 5. **Modes tab**
 
-The modes tab is normally fairly straight forward as well, however this was the **first time I see a manufacturer opting in to setup switch activation at the low point of the range**. Technically, there's nothing wrong with that, but if you don't expect it, it might throw you for a loop.
+> The modes tab is normally fairly straight forward as well, however this was the **first time I see a manufacturer opting in to setup switch activation at the low point of the range**. Technically, there's nothing wrong with that, but if you don't expect it, it might throw you for a loop.
 
 > ![GEPRC Skip3 HD Betaflight Modes tab](geprc-skip3-hd-review-complete-setup-32.png)
 
 TODO: bonus unlisted video with my surprise
 
-In my case I totally didn't expect this and was wondering why even though my modes are setup correct, the quad wouldn't arm and was buzzing immediately when plugged in.
+> In my case I totally didn't expect this and was wondering why even though my modes are setup correct, the quad wouldn't arm and was buzzing immediately when plugged in.
 
-So the only thing I changed here was to drag the range slider to the upper end for the **ARM** mode on AUX1 and the same for the **Beeper** on AUX3. That ensures that the off position for the switch is away from you and the on position is when the switch is flicked towards yourself.
+> So the only thing I changed here was to drag the range slider to the upper end for the **ARM** mode on AUX1 and the same for the **Beeper** on AUX3. That ensures that the off position for the switch is away from you and the on position is when the switch is flicked towards yourself.
 
 6. **OSD tab**
 
-On the OSD tab, after the first flight I changed from displaying the total battery voltage to displaying the **Battery average cell voltage**, which I find slightly more informative and clear for when to land and so on.
+> On the OSD tab, after the first flight I changed from displaying the total battery voltage to displaying the **Battery average cell voltage**, which I find slightly more informative and clear for when to land and so on.
 
-If you enable **RSSI value** (like I did) and don't see it anywhere, it's probably under one of the values at the top left or top right of the OSD, so you might have to move them around a bit.
+> If you enable **RSSI value** (like I did) and don't see it anywhere, it's probably under one of the values at the top left or top right of the OSD, so you might have to move them around a bit.
 
-I also added **Power** to see throttle stick values in real time.
+> I also added **Power** to see throttle stick values in real time.
 
 > ![GEPRC Skip3 HD Betaflight OSD tab](geprc-skip3-hd-review-complete-setup-33.png)
 
@@ -295,37 +294,55 @@ I don't recommend getting 2S batteries if you are buying now, but if you have so
 
 #### Flight test on a 3S 300mAh battery?
 
-_Coming soon_
+I like how much raw power the quad has on 4S and I like how docile it is on 2S. Naturally it makes me think flying it on a 3S battery might be some really nice middle ground. However, I only have this 3S 300mAh battery which is of a way too small capacity for us to judge its effectiveness.
 
-#### Flight test on 2S battery with Tri-blade Avan Rush 2.5" prop
+I will nevertheless fly it and take down some notes for the sake of getting a rough idea of how it performs.
 
-_Coming soon_
+_Video coming soon_
 
-#### 💀 Flight test on 4S battery with Tri-blade Avan Rush 2.5" prop
+#### 💀 Flight test on 2S battery with tri-blade Avan Rush 2.5" prop
 
-_Coming soon_
+**I DO NOT RECOMMEND YOU DO THIS NEXT BIT!** The GEPRC Skip3 HD product page explicitly states you should not try to run it on tri-blade props, because this could lead to burning your motors.
 
-TODO: Mention that I could also test on 65mm bi-blade prop
+However, I was curious and I did it for you, so you don't have to wonder. Even though my first couple of test flights went well and I burned no motors (Yay 🎉!) I'd really like to stress that I do NOT recommend you do this and if you do, do so at your own risk.
 
-### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
+I decided to fly my favorite Avan Rush 2.5" tri-blade props. To begin with I started with a 2S flight and was just cruising around at first, looking at the amps drawn. On average we were going around 4-6 amps, which is pretty decent.
 
-TODO: consider if I can suggest something, if not, leave it.
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/3VsFE1ps5gw?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD tri-blade props on 2S 450mAh"></iframe>
+</div>
+
+#### 💀 Flight test on 4S battery with tri-blade Avan Rush 2.5" prop
+
+The next flight was on 4S and I have to admit I was a bit worried how it would go. Luckily it was fine. I peaked up to 9 amps drawn on some tight corner turns and the motors were indeed just a bit warm after the flight.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-tUqXGnecac?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD tri-blade props on 4S 520mAh"></iframe>
+</div>
+
+We need to take into account that it was not a very warm day (maybe around 7-8 degrees celsius / 44f - 46f) and there was some cool wind. I mention this just in case it was what made the difference between cooled and burned motors.
+
+I think going forward I'll be flying mostly on 4S and with the tri-blade props and see how far we can get. I might add a slight throttle limit mostly to bring the normal cruising throttle values to slightly below mid stick position (35-40%), which is how I'm used to flying.
+
+I don't recommend you do this, but I am a big fan of the Avan Rush tri-blade props - they perform very nice, handle superbly and are VERY quiet too. My theory is that GEPRC says you shouldn't use 3" tri-blade props (the same size as the stock bi-blade props the drone comes with). I expect everything to be just fine and not to have any excessive amps drawn, due to the fact I'm going down to 2.5" props with the Avan Rush tri-blades. Only time will tell.
+
+**Here's another test idea for you**: fly it on 2.5" (65mm) bi-blade props and see how it does. It would make the Skip3 HD EVEN more efficient and you might end up with 7-8 minute flight times when cruising. That's just my untested working theory. If you do test it, please let me know how it goes by [dropping a comment at FPVtips on YouTube][7].
 
 ### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
-I love toothpicks, but I seem to really prefer how good tri-blade props fly and everything they bring to the table in terms of handling. On any one of my tests so far I have never missed the extra performance I lost when switching to tri-blade vs bi-blade props. And I have ALWAYS appreciated the handling improvement. Maybe it's something you could get used to, but for now and for my flying style, I strongly prefer how quads fly on tri-blade props. **However, this is just my very subjective opinion and preference**. It's not to say that you wouldn't like bi-blade props for example. I strongly encourage everyone to try out for themselves and make up their own opinion.
+I'm happy! I think I've finally found it - the HD toothpick I've been searching for.
 
-TODO: mention Some general notes on the camera quality in different cases (sun, overcast, etc)
+Simply put, the [GEPRC Skip3 HD][1] merries the HD capabilities of a drone like the Mobula7 HD with the flight performance of a toothpick like the GEPRC Phantom or the Emax Tinyhawk Freestyle. But this is not just a simple combination of features and an incremental upgrade. The performance alone is a huge upgrade with support for up to 4S batteries and is probably more than what most people would ever need.
 
-TODO:
-the video bit rate for 1080p 60fps (default) is ~ 30-31 Mbit
+At the same time you get nice long flight times of more than 6 minutes cruising and easily over 4 minute full throttle zipping around.
 
-test camera how quick it reacts to light chagnes
-write about configuring the camera with the joystick
+If on top of all of this you prefer bi-blade props and the way they fly then you will love this drone. If like me you prefer tri-blade props, you could risk it, downsize to 2.5" and try the Avan Rush tri-blades. I don't recommend you do this, because it could lead to burned motors, according to the manufacturer, but I'll take my chances and let you know what happened after a few months. I just gotta have me some tri-blade props.
 
-prop wash or jello in the 1080p dvr (on the big open field)
+I did notice some very slight hints of jello in the HD recording when going strong against the wind, so will be monitoring how that plays out, but in general I'm satisfied with the quality of the HD recording.
 
-The recording starts as soon as you plugin a battery and is stopped and written to the SD card if you unplugged.
+I did have something bizarre happening twice - when I plugged in the quad, but did not immediately take off for about a minute or so, after taking off I had a lot of latency in my goggles. I landed, powercycled the quad and started flying again and there was no issue. I have NO idea what this is about and if you do know please drop a comment. I'm thinking it could be the VTX starting to overheat after a bit if not cooled down by the air brushing past it when the drone flies, but this is just a theory. It's also not a consistent thing and only happened 2 times out of about 10 flights.
+
+I'm looking forward to flying this quad a ton more this spring and summer and I feel pretty happy about it because I seem to have finally found the toothpick that can record HD and also performs like a rocket.
 
 Happy flying!
 
