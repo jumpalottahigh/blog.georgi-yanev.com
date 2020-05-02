@@ -1,7 +1,7 @@
 ---
 path: '/fpv/geprc-skip3-hd-review-complete-setup/'
-date: '2020-04-30'
-title: 'GEPRC Skip3 HD: Max performance HD toothpick'
+date: '2020-05-03'
+title: 'GEPRC Skip3 HD: Max performance HD toothpick drone'
 author: 'Georgi Yanev'
 draft: false
 category: 'fpv'
@@ -52,11 +52,11 @@ While on one hand it's nice to get a higher quality carry case (like you do with
 
 ![GEPRC Skip3 HD box](geprc-skip3-hd-review-complete-setup-2.jpg)
 
-The contents of the box are wrapped in protective foam from all sides and the quad come wrapped in plastic film too.
+The contents of the box are wrapped in protective foam from all sides and the quad comes wrapped in plastic film too.
 
 ![GEPRC Skip3 HD inside the box](geprc-skip3-hd-review-complete-setup-3.jpg)
 
-Here is everything you get inside: the [GEPRC Skip3 HD][1] itself, a vtx channel table, FrSky XM+ receiver instructions, GEPRC stickers, 8 bi-blade propellers and a pack of extra items.
+Here is everything you get inside: the [GEPRC Skip3 HD][1] itself, a vtx channel table, FrSky XM+ receiver instructions, GEPRC stickers, 8 3 inch bi-blade propellers and a pack of extra items.
 
 ![GEPRC Skip3 HD all items included](geprc-skip3-hd-review-complete-setup-4.jpg)
 
@@ -207,8 +207,6 @@ Next let's go through the way the quad is setup out of the box by the folks from
 
 > ![GEPRC Skip3 HD Betaflight Modes tab](geprc-skip3-hd-review-complete-setup-32.png)
 
-TODO: bonus unlisted video with my surprise
-
 > In my case I totally didn't expect this and was wondering why even though my modes are setup correct, the quad wouldn't arm and was buzzing immediately when plugged in.
 
 > So the only thing I changed here was to drag the range slider to the upper end for the **ARM** mode on AUX1 and the same for the **Beeper** on AUX3. That ensures that the off position for the switch is away from you and the on position is when the switch is flicked towards yourself.
@@ -233,11 +231,7 @@ By default the camera is setup such that it will record in 1080p 60fps and it wi
 
 If you need to adjust the recording settings, you can use the provided camera joystick to connect to the camera (there is a camera connector under the canopy).
 
-TODO: more info and pictures on the OSD and how to adjust the settings
-
-Finally put on the props. Remember we are in props in mode and so the way you put on the props should match what you see in the image below.
-
-TODO: extra image with prop setup?
+Finally put on the props. Remember that they should be in props in mode and so the way you put on the props should match what you see in the image below.
 
 With all of this done, we are finally ready to go fly!
 
@@ -334,15 +328,15 @@ I'm happy! I think I've finally found it - the HD toothpick I've been searching 
 
 Simply put, the [GEPRC Skip3 HD][1] merries the HD capabilities of a drone like the Mobula7 HD with the flight performance of a toothpick like the GEPRC Phantom or the Emax Tinyhawk Freestyle. But this is not just a simple combination of features and an incremental upgrade. The performance alone is a huge upgrade with support for up to 4S batteries and is probably more than what most people would ever need.
 
-At the same time you get nice long flight times of more than 6 minutes cruising and easily over 4 minute full throttle zipping around.
+At the same time you get nice long flight times of more than 6 minutes cruising and over 4 minute full-send zipping around.
 
-If on top of all of this you prefer bi-blade props and the way they fly then you will love this drone. If like me you prefer tri-blade props, you could risk it, downsize to 2.5" and try the Avan Rush tri-blades. I don't recommend you do this, because it could lead to burned motors, according to the manufacturer, but I'll take my chances and let you know what happened after a few months. I just gotta have me some tri-blade props.
+If on top of all of this you prefer bi-blade props and the way they fly then you will love this drone. If like me you prefer tri-blade props, you could risk it, downsize to 2.5" and try the Avan Rush tri-blades. I don't recommend you do this, because it could lead to burned motors, according to the manufacturer, but I'll take my chances and let you know what happens in a few months. I just gotta have me some tri-blade props.
 
 I did notice some very slight hints of jello in the HD recording when going strong against the wind, so will be monitoring how that plays out, but in general I'm satisfied with the quality of the HD recording.
 
-I did have something bizarre happening twice - when I plugged in the quad, but did not immediately take off for about a minute or so, after taking off I had a lot of latency in my goggles. I landed, powercycled the quad and started flying again and there was no issue. I have NO idea what this is about and if you do know please drop a comment. I'm thinking it could be the VTX starting to overheat after a bit if not cooled down by the air brushing past it when the drone flies, but this is just a theory. It's also not a consistent thing and only happened 2 times out of about 10 flights.
+I did have something bizarre happen twice. When I plugged in the quad, but did not immediately take off for about a minute or so, after taking off I had a lot of latency in the FPV feed which I had never experienced before. Luckily after quickly landing and powercycling the quad the problem goes away. I have no idea what this is about and if you do know please drop a comment. I'm thinking it could be the VTX starting to overheat after a bit if not cooled down by the air brushing past it when the drone flies, but this is just a theory. It's also not a consistent thing and only happened a couple of times out of about 10 or so flights.
 
-I'm looking forward to flying this quad a ton more this spring and summer and I feel pretty happy about it because I seem to have finally found the toothpick that can record HD and also performs like a rocket.
+I'm looking forward to flying this quad a ton more this spring and summer and I feel pretty happy about it because I seem to have finally found the toothpick that can record HD and also flies like a rocket.
 
 Happy flying!
 
