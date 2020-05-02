@@ -246,36 +246,76 @@ With all of this done, we are finally ready to go fly!
 
 ### <span id="flying" class="offset-top-nav">🚁 Flying</span>
 
-TODO: continue
+#### Maiden flight on GNB 4S 520mAh battery (127.3g AUW) with DVR overlay and a 5 second sound sample
 
-Maiden
-
-GNB 4S 520mAh, AUW 127.3g
-
-Turnigy 4S 500mAh, AUW 149.7g
-
-2S flight
-3S flight
-
-Different prop flights:
-stock, we have seen
-some HQ 65 prop?
-some phantom stock prop?
-some avan rush prop? last in case motors go.
-
-TODO:
+The maiden flight went well. I was blown away at the amount of performance this drone has. This was the **first time I had to consciously put effort to keep my throttle so low**. I think the majority of the flight, while getting used to how the [GEPRC Skip3 HD][1] flies I had to do my best to keep the throttle at 30-35%. The reason for that is that if you go slightly above that value, the quad TAKES OFF.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO:?rel=0" frameBorder="0" allowFullScreen title="TODO:"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/snYBLDw_sRs?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD maiden on GNB 4S 520mAh battery"></iframe>
 </div>
+
+This genuinely made me wonder about how it would fly on 3S or even a 2S battery. However, there is no doubt that if you need performance and fly on 4S, the Skip3 HD will deliver.
+
+Granted I was not pushing too hard this flight but I still got over 6 minutes flight time which is really good and talks to me about efficiency. This could be extended further if you fly on an even bigger battery. I flew on a GNB 4S 520mAh battery but I can easily see how the quad can handle a 650mAh battery without sacrificing too much performance for the extra weight. Let me know if you tested that and it worked for you.
+
+If you get the Skip3 HD, clearly you care about the HD footage. This may mean that sometime you may want to zip around racer style (which this quad can do perfectly), and maybe sometimes you wanna go smoother and slower around objects, cinewhoop style. The Skip3 HD can do both of those things nicely.
+
+I'm not the biggest fan of bi-blade props, I think in general I prefer tri-blade props because of the easier handling and in many cases the performance / efficiency lost when compared to bi-blade props is nearly negligible. But this is my personal preference and I know of many people who swear by and prefer bi-blade props. I don't think there's a right answer here, it's really more about preference and what flight scenario you are trying to accomodate.
+
+A thing to note is that the manufacturer **EXPLICITLY STATES YOU SHOULD NOT FLY TRI-BLADED PROPS, TO PREVENT YOUR MOTORS FROM BURNING**. I also recommend you don't do that, but I will be testing that for you, so you don't have to, because I'm curious if I can make it work on a 2S battery for example.
+
+#### Flight test in a big open field on a windy day
+
+One of the first things I did when testing this drone was to go to the field where I usually only fly my 5 inch drones. It's a pretty big open field and that day was a bit windy too - with wind up to 7-8 m/s. I was curious to test this after seeing that the Skip3 HD was a performance monster and indeed it handled the wind with no issues and it flew around (dare I say it) almost like my 5 inch drones. Very interesting. **Flight time was still around 5 minutes, even though I was definitely pushing it more and it had to combat the wind actively.**
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/jpsO2_jWgLY?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD big open field"></iframe>
+</div>
+
+#### Flight test on a heavier 4S battery - Turnigy 4S 500mAh (149.7g AUW)
+
+This next test flight was on a Turnigy battery I have lying around. I'm not a fan of this battery and I do not recommend you get, because it's **22g** heavier and offer 20mAh less compared to the GNB battery. The reason why this test is interesting, however, is that even in these conditions the [GEPRC Skip3 HD][1] didn't care for it, **it carried the extra weight like a champ and delivered a flight time of over 4:30 minutes against the wind**. I think that's really cool and I'm pretty sure you will get even better results on a good GNB battery.
+
+For example a 4S GNB 650mAh battery would be about **25g** heavier than the 4S GNB 520mAh battery I was testing with, but will provide 130mAh more capacity.
+I'm not planning on testing that scenario however, because I'm happy with how it flies on the 520s I have.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/eWuRqClLBZo?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD big open field on a heavy Turnigy 4S 500 mAh battery"></iframe>
+</div>
+
+#### Flight test on a 2S GNB 450mAh battery
+
+Flying on a 2S 450mAh battery **tanks the performance of the quad a bit and you might actually just like it**. Immediately as soon as I took off I noticed the quad felt almost exactly as what flying my GEPRC Phantom feels like. It still performed somewhat decent, it was MUCH easier to handle and I had to maintain throttle closer to 50-60 % for a smooth flight (so higher than on 4S and much closer to what I'm used to).
+
+I don't recommend getting 2S batteries if you are buying now, but if you have some lying around it's good to know that you can use them and get a decent flight experience from them.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/0Liu_pogAp0?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD parking lot on 2S 450mAh"></iframe>
+</div>
+
+#### Flight test on a 3S 300mAh battery?
+
+_Coming soon_
+
+#### Flight test on 2S battery with Tri-blade Avan Rush 2.5" prop
+
+_Coming soon_
+
+#### 💀 Flight test on 4S battery with Tri-blade Avan Rush 2.5" prop
+
+_Coming soon_
+
+TODO: Mention that I could also test on 65mm bi-blade prop
 
 ### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
 
-TODO:
+TODO: consider if I can suggest something, if not, leave it.
 
 ### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
 I love toothpicks, but I seem to really prefer how good tri-blade props fly and everything they bring to the table in terms of handling. On any one of my tests so far I have never missed the extra performance I lost when switching to tri-blade vs bi-blade props. And I have ALWAYS appreciated the handling improvement. Maybe it's something you could get used to, but for now and for my flying style, I strongly prefer how quads fly on tri-blade props. **However, this is just my very subjective opinion and preference**. It's not to say that you wouldn't like bi-blade props for example. I strongly encourage everyone to try out for themselves and make up their own opinion.
+
+TODO: mention Some general notes on the camera quality in different cases (sun, overcast, etc)
 
 TODO:
 the video bit rate for 1080p 60fps (default) is ~ 30-31 Mbit
