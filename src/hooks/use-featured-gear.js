@@ -137,8 +137,8 @@ const allFeaturedGear = {
     title: 'Geprc Phantom',
     link: 'https://bit.ly/geprc-phantom',
   },
-  'avon-rush': {
-    title: 'Avon Rush 2.5" props',
+  'avan-rush': {
+    title: 'Avan Rush 2.5" props',
     link: 'https://bit.ly/avon-rush-25',
   },
   'hq-2.5': {

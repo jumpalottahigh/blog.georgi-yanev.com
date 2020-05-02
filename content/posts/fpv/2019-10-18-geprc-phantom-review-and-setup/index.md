@@ -15,7 +15,7 @@ tags:
   - 'review'
 gearList:
   - 'geprc-phantom'
-  - 'avon-rush'
+  - 'avan-rush'
   - 'hq-2.5'
   - 'runcam-split-3-nano'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
@@ -223,7 +223,7 @@ Immediate impressions from the maiden:
 
 And I have so many thoughts I want to share with you, this little fella made me think and think hard.
 
-It handles nice in corners, although me coming from tri-blade higher pitch props, I do expect a bit more grip in turns. I love the Avon flow 5 props on mini quads, but they also draw significantly more amps at the higher end of the throttle. This is easy to get used to in just a few minutes. Now, in terms of speed the [GEPRC Phantom][1] toothpick is plenty fast and legit flies like a 5 inch quad for the better part.
+It handles nice in corners, although me coming from tri-blade higher pitch props, I do expect a bit more grip in turns. I love the Avan flow 5 props on mini quads, but they also draw significantly more amps at the higher end of the throttle. This is easy to get used to in just a few minutes. Now, in terms of speed the [GEPRC Phantom][1] toothpick is plenty fast and legit flies like a 5 inch quad for the better part.
 
 **It is genuinely fun to fly!**
 
@@ -249,26 +249,26 @@ Flying the [GEPRC Phantom][1] on a 2S 350mah battery, stock bi blade props.
 
 The stock props fly well, but even the smallest bump causes them to oscillate on subsequent flights. Maybe the plastic is too flimsy, I don't know. It's also funny but it doesn't seem to impact the flight characteristics, but the noise is annoying and especially so given how quiet this quad is otherwise. I was also told recently that the [HQ 2.5 inch bi-blade prop][3] (which looks very similar if not the same as the stock props) is stiffer and does not have the same issues. We will have to wait and see on that one. Those are in the mail and I will update as soon as possible.
 
-**Update: And here we go!** The HQs fly really nice, no complaints, but I still prefer the (SPOILER ALERT) Avon Rush 2.5 inch tri-blade props 😅.
+**Update: And here we go!** The HQs fly really nice, no complaints, but I still prefer the (SPOILER ALERT) Avan Rush 2.5 inch tri-blade props 😅.
 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sDu8JbPATlc?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=19&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom with HQ 65mm bi-blade props"></iframe>
 </div>
 
-#### 🌀🌀🌀🌀 Avon 2 inch quad-blade props
+#### 🌀🌀🌀🌀 Avan 2 inch quad-blade props
 
 This one was for science and out of curiosity and the conclusion is: **lol, don't do this**. It made no sense, made the quad fly like garbage, drew a lot more amps and didn't feel nice at all. This type of prop is better left to cinewhoops.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ipc7UiDNyIA?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=14&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom with quad blade avon 2 inch props"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ipc7UiDNyIA?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=14&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom with quad blade avan 2 inch props"></iframe>
 </div>
 
-#### 🌀🌀🌀 Avon Rush 2.5 inch tri-blade props
+#### 🌀🌀🌀 Avan Rush 2.5 inch tri-blade props
 
-This one, though, was a winner for me! The [Avon Rush 2.5 inch tri-blade props][4] improve the handling in turns and once again give me this "point and go" feeling when flying the [GEPRC Phantom][1]. At the same time, these props did not take away from the speed or ruin the flight characteristics in any way and **even the amp draw (where I thought the biggest trade-off would be) was increased insignificantly**. Jackpot!
+This one, though, was a winner for me! The [Avan Rush 2.5 inch tri-blade props][4] improve the handling in turns and once again give me this "point and go" feeling when flying the [GEPRC Phantom][1]. At the same time, these props did not take away from the speed or ruin the flight characteristics in any way and **even the amp draw (where I thought the biggest trade-off would be) was increased insignificantly**. Jackpot!
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/f5icIS4Mr98?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=15&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom with tri blade avon rush 2.5 inch props"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/f5icIS4Mr98?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=15&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom with tri blade avan rush 2.5 inch props"></iframe>
 </div>
 
 #### 🔋🔋🔋🔋 4S 5️⃣2️⃣0️⃣ mah
@@ -295,7 +295,7 @@ This battery was a stretch and I kind of knew that going in. Probably my next te
 
 ### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
 
-In terms of upgrades, I would recommend changing the stock props to similar but stiffer like the [HQ 2.5-inch bi-blade prop][3]. Or alternatively, you could try to find something else that works well for you, as I mentioned I like the [Avon Rush 2.5 inch tri-blade props][4] because of the control authority.
+In terms of upgrades, I would recommend changing the stock props to similar but stiffer like the [HQ 2.5-inch bi-blade prop][3]. Or alternatively, you could try to find something else that works well for you, as I mentioned I like the [Avan Rush 2.5 inch tri-blade props][4] because of the control authority.
 
 The other thing I would consider upgrading (if it works out) is the camera. This is not because the FPV camera is bad, not at all, it works perfectly, but I am curious if I could get some HD footage from this quad if I upgrade to a [RunCam Split 3 Nano][5] camera.
 
