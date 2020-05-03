@@ -164,7 +164,7 @@ If you have any issues, drop me a comment down below or [on YouTube][7], and I'l
 
 I always recommend you back up the existing Betaflight configuration before making any changes, just in case things get messy and you want to roll back. I'll show you how to do just that, but in case you didn't back up your config on time, here's a copy of my [GEPRC Skip3 HD stock configuration](geprc-skip3-hd-betaflight-config-backup.txt) (mine came with Betaflight 3.5.7).
 
-To produce your own backup, connect the quad to your computer via the micro USB port, start Betafligth, and go to the CLI tab. Type `dump` in the command box input and press enter. Then click the button to save the config dump to a file. This is a full configuration dump and could be useful to roll things back to the way they were, should you need to do so.
+To produce your own backup, connect the quad to your computer via the micro USB port, start Betaflight, and go to the CLI tab. Type `dump` in the command box input and press enter. Then click the button to save the config dump to a file. This is a full configuration dump and could be useful to roll things back to the way they were, should you need to do so.
 
 Next, let's go through the way the quad is setup out of the box by the folks from GEPRC.
 
@@ -227,7 +227,7 @@ To install the antenna tubes just cut them to length and slot them in while guid
 
 Because this is an HD capable quad, we need to also install an SD card, so definitely don't forget to do that.
 
-By default, the camera is set up such that it will record in 1080p 60fps and it will start recording as soon as you plug in the quad and it will stop the recording and save the footage when you unplug the battery. It works in a very convenient way.
+By default, the camera is set up such that it will record in 1080p 60fps and it will **start recording as soon as you plug in the quad and it will stop the recording and save the footage when you unplug the battery**. It works in a very convenient way.
 
 If you need to adjust the recording settings, you can use the provided camera joystick to connect to the camera (there is a camera connector under the canopy).
 
@@ -247,9 +247,9 @@ The maiden flight went well. I was blown away at the amount of performance this 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/snYBLDw_sRs?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD maiden on GNB 4S 520mAh battery"></iframe>
 </div>
 
-This genuinely made me wonder about how it would fly on 3S or even a 2S battery. However, there is no doubt that if you need performance and fly on 4S, the Skip3 HD will deliver.
+This genuinely made me wonder about how it would fly on 3S or even a 2S battery. However, there is **no doubt that if you need performance and fly on 4S, the Skip3 HD will deliver**.
 
-Granted I was not pushing too hard this flight but I still got over 6 minutes of flight time which is good and talks to me about efficiency. This could be extended further if you fly on an even bigger battery. I flew on a GNB 4S 520mAh battery but I can easily see how the quad can handle a 650mAh battery without sacrificing too much performance for the extra weight. Let me know if you tested that and it worked for you.
+Granted I was not pushing too hard this flight but I still got over **6 minutes of flight time** which is good and talks to me about efficiency. This could be extended further if you fly on an even bigger battery. I flew on a GNB 4S 520mAh battery but I can easily see how the quad can handle a 650mAh battery without sacrificing too much performance for the extra weight. Let me know if you tested that and it worked for you.
 
 If you get the Skip3 HD, clearly you care about the HD footage. This may mean that sometime you may want to zip around racer style (which this quad can do perfectly), and maybe sometimes you wanna go smoother and slower around objects, cinewhoop style. The Skip3 HD can do both of those things nicely.
 
@@ -300,7 +300,7 @@ _Video coming soon_
 
 However, I was curious and I did it for you, so you don't have to wonder. Even though my first couple of test flights went well and I burned no motors (Yay 🎉!) I'd like to stress that I do NOT recommend you do this and if you do, do so at your own risk.
 
-I decided to fly my favorite Avan Rush 2.5" tri-blade props. To begin with, I started with a 2S flight and was just cruising around at first, looking at the amps drawn. On average we were going around 4-6 amps, which is pretty decent.
+I decided to **fly my favorite Avan Rush 2.5" tri-blade props**. To begin with, I started with a 2S flight and was just cruising around at first, looking at the amps drawn. On average we were going around 4-6 amps, which is pretty decent.
 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/3VsFE1ps5gw?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD tri-blade props on 2S 450mAh"></iframe>
@@ -328,15 +328,15 @@ I'm happy! I think I've finally found it - the HD toothpick I've been searching 
 
 Simply put, the [GEPRC Skip3 HD][1] marries the HD capabilities of a drone like the Mobula7 HD with the flight performance of a toothpick like the GEPRC Phantom or the Emax Tinyhawk Freestyle. But this is not just a simple combination of features and an incremental upgrade. The performance alone is a huge upgrade with support for up to 4S batteries and is probably more than what most people would ever need.
 
-At the same time, you get nice long flight times of more than 6 minutes cruising and over 4-minute full-send zipping around.
+At the same time, you get **nice long flight times of more than 6 minutes cruising** and over 4-minute full-send zipping around.
 
 If on top of all of this you prefer bi-blade props and the way they fly then you will love this drone. If like me you prefer tri-blade props, you could risk it, downsize to 2.5" and try the Avan Rush tri-blades. I don't recommend you do this, because it could lead to burned motors, according to the manufacturer, but I'll take my chances and let you know what happens in a few months. I just gotta have me some tri-blade props.
 
-I did notice some very slight hints of jello in the HD recording when going strong against the wind, so I will be monitoring how that plays out, but in general, I'm satisfied with the quality of the HD recording.
+**I did notice some very slight hints of jello in the HD recording** when going strong against the wind, so I will be monitoring how that plays out, but in general, I'm satisfied with the quality of the HD recording.
 
-I did have something bizarre happen twice. When I plugged in the quad but did not immediately take off for about a minute or so, after taking off I had a lot of latency in the FPV feed which I had never experienced before. Luckily after quickly landing and power cycling the quad the problem goes away. I have no idea what this is about and if you do know please drop a comment. I'm thinking it could be the VTX starting to overheat after a bit if not cooled down by the air brushing past it when the drone flies, but this is just a theory. It's also not a consistent thing and only happened a couple of times out of about 10 or so flights.
+I did have something bizarre happen twice. **When I plugged in the quad but did not immediately take off for about a minute or so, after taking off I had a lot of latency in the FPV feed** which I had never experienced before. Luckily after quickly landing and power cycling the quad the problem goes away. I have no idea what this is about and if you do know please drop a comment. I'm thinking it could be the VTX starting to overheat after a bit if not cooled down by the air brushing past it when the drone flies, but this is just a theory. It's also not a consistent thing and only happened a couple of times out of about 10 or so flights.
 
-I'm looking forward to flying this quad a ton more this spring and summer and I feel pretty happy about it because I seem to have finally found the toothpick that can record HD and also flies like a rocket.
+**I'm looking forward to flying this quad a ton more this spring and summer** and I feel pretty happy about it because I seem to have finally found the toothpick that can record HD and also flies like a rocket.
 
 Happy flying!
 
