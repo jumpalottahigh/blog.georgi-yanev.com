@@ -113,7 +113,7 @@ I hope it works out well for you and happy flying!
 </div>
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/b34dhDPSXLk?rel=0" frameBorder="0" allowFullScreen title="Georgi FPV GEPRC Phantom back in action after a motor swap - Avon Rush 2.5 inch props"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/b34dhDPSXLk?rel=0" frameBorder="0" allowFullScreen title="Georgi FPV GEPRC Phantom back in action after a motor swap - Avan Rush 2.5 inch props"></iframe>
 </div>
 
 [0]: Linkslist
