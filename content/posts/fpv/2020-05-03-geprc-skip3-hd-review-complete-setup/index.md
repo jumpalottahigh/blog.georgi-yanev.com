@@ -39,11 +39,11 @@ So the obvious question was **"can we have that performance but also enjoy a 108
 - [🚁 Flying](#flying)
 - [📑 Conclusion](#conclusion)
 
-<!-- If you prefer watching, check out the full video review on my YouTube channel:
+If you prefer watching, check out the full video review on my YouTube channel:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO:?rel=0" frameBorder="0" allowFullScreen title="TODO:"></iframe>
-</div> -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/9jfBoCc-p2w?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD review, complete setup, many test flights"></iframe>
+</div>
 
 ### <span id="unboxing" class="offset-top-nav">📦 Unboxing</span>
 
