@@ -1,6 +1,7 @@
 ---
 path: '/fpv/geprc-skip3-hd-review-complete-setup/'
 date: '2020-05-03'
+updated: '2020-05-09'
 title: 'GEPRC Skip3 HD: Max performance HD toothpick drone'
 author: 'Georgi Yanev'
 draft: false
@@ -292,7 +293,13 @@ I like how much raw power the quad has on 4S and I like how docile it is on 2S. 
 
 I will nevertheless fly it and take down some notes for the sake of getting a rough idea of how it performs.
 
-_Video coming soon_
+And when I finally got around to testing it, there were no surprises - it flies just as fine on 3S and is somewhat easier to handle. However, I DO NOT recommend you fly as I did on just a 300mAh battery - this is way too small capacity (I only did it cause, that was the only 3S battery with an xt30 connector I had lying around). If you go 3S, make sure you get at least 500mAh capacity battery or why not even a 650mAh. The quad can carry that weight easily. Mentioning this, so you don't get startled at the 2 min flight time on the video below, which is absolutely not representative of what this drone can do on a good battery for its capabilities.
+
+On the other hand I caught a very sunny day on that flight and you can get a sense of how the camera performs in such conditions as well.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JBg2vqF3VPw?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD on a very small 300mAh 3S battery"></iframe>
+</div>
 
 #### 💀 Flight test on 2S battery with tri-blade Avan Rush 2.5" prop
 
