@@ -1,0 +1,19 @@
+1. charge batteries for the goggles, air unit and charge the radio
+
+2. install strap and antennas
+
+3. Download and install the software
+
+4. Activate and update the different products
+
+- goggles
+- air unit (how to power it)
+  sd cards
+
+bind goggle and air unit first
+
+---
+
+TODO:
+
+- extract images of the steps to setup the holybro kopis2 from the videos
