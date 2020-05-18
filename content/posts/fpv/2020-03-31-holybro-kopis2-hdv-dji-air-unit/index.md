@@ -1,6 +1,7 @@
 ---
 path: '/fpv/holybro-kopis2-hdv-with-dji-digital-fpv/'
 date: '2020-03-31'
+updated: '2020-05-09'
 title: 'Holybro Kopis2 HDV with DJI digital FPV'
 author: 'Georgi Yanev'
 draft: false
@@ -132,7 +133,7 @@ I can't wait to get the DJI digital FPV system and continue this build. If you l
 
 While waiting for the DJI Digital FPV system, I decided to take a look at the Betaflight configuration.
 
-#### 👀 Check the Betaflight configuration
+#### 🐝 Check the Betaflight configuration
 
 The [Holybro Kopis 2 HDV][1] comes with Betaflight version 4.1.2 which is quite up to date (at the time of this writing the latest release is version 4.1.5).
 
@@ -177,6 +178,14 @@ I like seeing my signal link strength and battery stats.
 If you made it this far, thanks for going through this with me. Do note, this is a living document and I will be updating this article as soon as possible. I'm still hoping to get the goggles during April and worst-case scenario in May. Shipping times can be a bit flaky at the moment.
 
 Stay safe out there and happy flying for now.
+
+**UPDATE (May 9, 2020): 🎉 It is finally here!** It surely took a while, at this point almost 2 months since I ordered the [DJI Digital FPV system][2], but it is what it is and at least I'm happy now that it is here. I will be updating this article in the coming days, so keep checking back! Thanks for your patience, I know I'm really looking forward to setting up the system and flying HD!
+
+![DJI digital FPV system finally arrived](holybro-kopis2-hdv-dji-air-unit-25.jpg)
+
+#### 🎦 Setting up the DJI digital FPV system with the Holybro Kopis2 HDV
+
+_Coming soon_
 
 ### <span id="flying" class="offset-top-nav">🚁 Flying</span>
 

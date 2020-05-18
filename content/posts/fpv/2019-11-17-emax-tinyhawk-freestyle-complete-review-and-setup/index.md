@@ -15,7 +15,7 @@ tags:
 gearList:
   - 'emax-tinyhawk-freestyle'
   - 'gnb-1s-450'
-  - 'avon-rush'
+  - 'avan-rush'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, tinyhawk freestyle, emax, freestyle, toothpick, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, emax freestyle, emax tinyhawk, what toothpick to buy, which toothpick micro drone to get, emax toothpick, emax micro drone'
 ogDescription: 'Microdrones are quickly becoming one of my favorite class of drones in 2019 and the Emax Tinyhawk Freestyle is one of the reasons why. Flying this thing makes me wonder how is it possible something that small to fly that much like a 5" quad and to be so fast and enjoyable'
@@ -63,9 +63,9 @@ Among the spare parts, we find an XT30 connector, in case you want to change the
 
 ![XT30 connector and a PH2.0 jumper](emax-tinyhawk-freestyle-toothpick-review-and-setup-4.jpg)
 
-You get 2 full sets (8 props) of the [Avon Rush 2.5"][3] props.
+You get 2 full sets (8 props) of the [Avan Rush 2.5"][3] props.
 
-![8 spare Avon Rush 2.5" props](emax-tinyhawk-freestyle-toothpick-review-and-setup-5.jpg)
+![8 spare Avan Rush 2.5" props](emax-tinyhawk-freestyle-toothpick-review-and-setup-5.jpg)
 
 And of course the quad itself.
 
@@ -87,11 +87,11 @@ Speaking of batteries, this drone allows for top mounting of the batteries. The 
 
 ![Emax Tinyhawk Freestyle PH2.0 battery connector](emax-tinyhawk-freestyle-toothpick-review-and-setup-9.jpg)
 
-The motors are the Emax branded TH1103 7000KV, spinning up Avon Rush 2.5" props.
+The motors are the Emax branded TH1103 7000KV, spinning up Avan Rush 2.5" props.
 
 ![Emax Tinyhawk Freestyle motors](emax-tinyhawk-freestyle-toothpick-review-and-setup-8.jpg)
 
-![Emax Tinyhawk Freestyle Avon Rush 2.5" prop](emax-tinyhawk-freestyle-toothpick-review-and-setup-6.jpg)
+![Emax Tinyhawk Freestyle Avan Rush 2.5" prop](emax-tinyhawk-freestyle-toothpick-review-and-setup-6.jpg)
 
 CMOS camera, with no possibility to _easily_, adjust the angle (although I haven't needed to do that in my tests). 25mW VTX and a VTX antenna coming up and away from the side, out of the props' reach.
 
@@ -251,7 +251,7 @@ _What could be better?_
  <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=0&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle maiden flight"></iframe>
 </div>
 
-Immediately during the maiden flight right after I took off **I noticed how much power this thing has and how locked in the tune is**. Great job by Emax there. A big part of how the [Emax Tinyhawk Freestyle][1] handles is thanks to the amazing [Avon Rush 2.5 inch tri-blade props][3]. Those give you really precise handling in turns. At the same time, they don't seem to consume a ton of amps. The Tinyhawk Freestyle is so lightweight and zips around so fast that you really won't be able to believe how fast it goes from the moment you take off as soon as you punch that throttle.
+Immediately during the maiden flight right after I took off **I noticed how much power this thing has and how locked in the tune is**. Great job by Emax there. A big part of how the [Emax Tinyhawk Freestyle][1] handles is thanks to the amazing [Avan Rush 2.5 inch tri-blade props][3]. Those give you really precise handling in turns. At the same time, they don't seem to consume a ton of amps. The Tinyhawk Freestyle is so lightweight and zips around so fast that you really won't be able to believe how fast it goes from the moment you take off as soon as you punch that throttle.
 
 A thing to note is that the camera is a 4x3 camera and depending on what goggles you have if you're using them in 16x9 mode, it might take a bit to adjust to the fisheye effect. The good news is that you do get used to it after a while.
 

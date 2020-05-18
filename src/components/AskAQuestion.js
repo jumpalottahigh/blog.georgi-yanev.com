@@ -116,6 +116,7 @@ const AskAQuestion = () => {
   const [loadThanks, setLoadThanks] = React.useState(false)
   const [currentPage, setCurrentPage] = React.useState('')
   const [name, setName] = React.useState('')
+  const [email, setEmail] = React.useState('')
   const [question, setQuestion] = React.useState('')
 
   function handleFormSubmit(e) {
@@ -125,6 +126,7 @@ const AskAQuestion = () => {
       question,
       currentPage,
       name,
+      email,
     }
 
     fetch('/', {
@@ -201,6 +203,14 @@ const AskAQuestion = () => {
           name="name"
           value={name}
           onChange={e => setName(e.target.value)}
+        />
+        <label htmlFor="name">Email (only if you want an email reply):</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value={email}
+          onChange={e => setEmail(e.target.value)}
         />
         <div className="submit-container">
           <button type="submit">Send</button>
