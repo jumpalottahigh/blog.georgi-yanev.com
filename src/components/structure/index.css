@@ -860,8 +860,8 @@ div > pre {
 @media (min-width: 1550px) {
   .main {
     margin: 0;
-    width: calc(828px + 4rem);
-    padding-left: 2rem;
+    width: calc(828px + 6rem);
+    padding-left: 4rem;
     padding-right: 2rem;
   }
 
