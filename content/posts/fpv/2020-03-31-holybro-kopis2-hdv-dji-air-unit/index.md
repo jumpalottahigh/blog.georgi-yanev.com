@@ -1,7 +1,7 @@
 ---
 path: '/fpv/holybro-kopis2-hdv-with-dji-digital-fpv/'
 date: '2020-03-31'
-updated: '2020-05-21'
+updated: '2020-05-23'
 title: 'Holybro Kopis2 HDV with DJI digital FPV system'
 author: 'Georgi Yanev'
 draft: false
@@ -392,7 +392,7 @@ This time the hover test worked fine and it was finally time for the first HD FP
 
 If up to this point you have followed along, make sure you remove the plastic camera protector. Footage will be recorded to the SD cards by default as soon as you plug in a battery and will be saved when you unplug, so no need to do anything manually if you hadn't changed the default settings.
 
-#### Maiden: CNHL 4S 1300mAh battery, 25mW air unit power output, T-5143S prop, 4:3 aspect ratio
+#### Maiden flight: CNHL 4S 1300mAh battery, 25mW air unit power output, T-5143S prop (lower pitch), 4:3 aspect ratio
 
 **DISCLAIMER:**
 Do not judge the [Holybro Kopis2 HDV][1]'s flight performance from the maiden flight! It's a 6S quad and I did the maiden on 4S batteries while waiting for my 6S batteries to arrive because I was very excited to try out the DJI digital FPV system.
@@ -409,17 +409,43 @@ I did 2 flights on 4S, and each time I got over 6 minutes of flight time. Admitt
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GXepohD4z7o?rel=0" frameBorder="0" allowFullScreen title="Maiden with the DJI digital FPV system on Holybro Kopis2 HDV 4S #2 (2020 #61)"></iframe>
 </div>
 
-#### Flight #2: CNHL MiniStar 6S 1000mAh battery, 25mW air unit power output, T-5143S prop, 16:9 aspect ratio
+#### Flight #2: CNHL MiniStar 6S 1000mAh battery, 25mW air unit power output, T-5143S prop (lower pitch), 16:9 aspect ratio
 
-<!-- TODO: video and notes -->
+In the second set of flights I flew the Holybro Kopis2 on 6S batteries and you can tell the quad performed better, as expected. I was punching the throttle more frequently but still mostly cruising around, enjoying the experience of the DJI digital FPV system, discovering things, and getting used to the new controller. The other thing I changed at this point was the camera aspect ratio, so now I fly in 16:9 which I'm much more used to and comfortable with.
 
-_Coming soon_
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/KFx2K9bluWs?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV goggles DVR at 25mW on Holybro Kopis2 HDV 6S 1000mAh Before the Storm #1 (2020 #62)"></iframe>
+</div>
+
+We are still evaluating the flight experience at just 25mW output power on the DJI air unit and the lower pitch props that come with the Holybro Kopis2 HDV (T-5143S). I caught a pretty dramatic looking pre-storm day, where half the sky was clear and light blue and the other half dark gray and navy blue. While I flew there were some pretty strong gusts of wind, so take note of that, but in general the flight conditions were not very bad.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/eNpZxwqrXj0?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV air unit recording on Holybro Kopis2 HDV 6S 1000mAh Before the Storm #2 (2020 #63)"></iframe>
+</div>
+
+Flight times were still pretty decent at over 4:00 - 4:30 minutes. The cool thing about 6S batteries is that there's no voltage sag even towards the end of the battery. Overall the power feels more consistent throughout the entire flight.
+
+#### Flight #3: CNHL MiniStar 6S 1000mAh battery, 700mW air unit power output, T-5147 prop (higher pitch), 16:9 aspect ratio
+
+In the third set of flight tests I changed the power output of the DJI ait unit to 700mW. **Immediately all artifacts and pixelization we had while flying on 25mW were now gone.** With that drastic improvement in quality the flight experience was even more enjoyable and in the next couple of videos I dared going farther away than I have ever been before, when flying my huge open field tests.
+
+I ended up mostly cruising and taking in the view during the first of the flights and got a flight time of about 6 minutes again.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/uMNMWGw_2Bw?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV air unit and goggles DVR at 700mW - Holybro Kopis2 HDV 6S 1000mAh #1 (2020 #64)"></iframe>
+</div>
+
+I also lowered the camera angle to about 35 or so degrees. I should report that I've been getting cut off footage on the air unit. The recording on the goggles is always there and in full. It could be an SD card issue (I have now tested with 2 different SD cards, but will also test with a high-quality brand new one). It could also be that I'm unplugging the quad too soon and I lose a few seconds of footage. However in some of the flights the footage is gone after about a minute of flying.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iHIOLsfNS1A?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV air unit and goggles DVR at 700mW - Holybro Kopis2 HDV 6S 1000mAh #2 (2020 #65)"></iframe>
+</div>
 
 ### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
 
-**Improve the DJI air unit antenna positioning**. Many people have claimed and shared that the antenna positioning on the Holybro Kopis2 HDV is suboptimal. It's not the end of the world, but arguably you could get better performance if you find a way to bring the antennas up and away from the carbon frame. This may be extra significant to do if you are locked in to only flying on 25mW power output. I will update this info when I have a more concrete solution to this.
+**Improve the DJI air unit antenna positioning**. Many people have claimed and shared that the antenna positioning on the Holybro Kopis2 HDV is suboptimal. It's not the end of the world, but arguably you could get better performance if you find a way to bring the antennas up and away from the carbon frame. This may be extra significant to do if you are locked in to only flying on 25mW power output. I will update this info when I have a more concrete solution to this. **Update:** I've decided I won't be moving the antennas around at this point. At 700mW the connection is superb and unless I really have issues in the future, I'll leave the antennas as they are.
 
-**Consider increasing the camera tilt**. I bumped my way up high (almost 45 deg, might reduce that slightly), gets rid of a lot of the "props in view" issue and a bit nicer to fly.
+**Consider increasing the camera tilt**. I bumped my way up high (almost 45 deg, might reduce that slightly), gets rid of a lot of the "props in view" issue and a bit nicer to fly. **Update:** I like the higher tilt angle, but I did reduce it slightly to 35-40 degrees.
 
 _More upgrade ideas coming later on, after I have flown the quad and the system more..._
 
@@ -435,7 +461,7 @@ As far as the DJI digital FPV system goes, I am impressed. I was mindblown, alth
 
 You can just make out so much more detail in all cases. Is the DJI digital FPV system the answer to everything? No. Not yet. I love flying my micros and not planning on stopping any time soon. Analog still covers a lot of different flight scenarios just fine and I see no reason or have no desire to drop analog FPV at this point. Time will tell how this situation will evolve.
 
-Happy flying!
+I hope this guide helped you get set up and enter the world of digital FPV. Happy flying!
 
 [0]: Linkslist
 [1]: https://bit.ly/holybro-kopis-2-hdv
