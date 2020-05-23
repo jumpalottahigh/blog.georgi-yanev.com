@@ -1,188 +1,77 @@
 ---
-path: '/fpv/holybro-kopis2-hdv-with-dji-digital-fpv/'
-date: '2020-03-31'
-updated: '2020-05-23'
-title: 'Holybro Kopis2 HDV with DJI digital FPV system'
+path: '/fpv/dji-digital-fpv-system-complete-setup-guide/'
+date: '2020-05-25'
+title: 'DJI digital FPV: Complete setup and everything you need to know'
 author: 'Georgi Yanev'
-draft: false
+draft: true
 category: 'fpv'
 tags:
   - 'drone'
-  - 'mini'
   - 'review'
   - 'dji'
 gearList:
   - 'holybro-kopis-2-hdv'
   - 'dji-digital-fpv'
-  - 'gnb-6s-1050'
-  - 'gnb-4s-1300'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, freestyle, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, tinywhoop, holybro, kopis, kopis2, holybro kopis2, holybro kopis 2 hdv, dji digital fpv, dji digital fpv system, dji digital fpv system with holybro kopis 2, learn to fly fpv, learn to fly fpv drones, digital fpv drones, dji digital fpv drones, digital fpv with holybro kopis 2'
-ogDescription: "I've finally decided to take the plunge into digital FPV drones. I've been very interested for a while now and lucky to finally be able to get into it. For my first digital FPV experience, I've chosen to go with an already assembled quad, instead of building my own from scratch."
-ogImage: './holybro-kopis2-hdv-dji-air-unit-8.jpg'
+ogDescription: 'TODO:'
+ogImage: './dji-digital-fpv-1.jpg'
 ---
 
-I've finally decided to take the plunge into digital FPV drones with the [DJI Digital FPV system][2]. I've been very interested for a while now and lucky to finally be able to get into it. For my first digital FPV experience, I've chosen to go with an already assembled quad, instead of building my own from scratch.
-
-The main reason for that is because I'd like to focus on the experience itself and evaluate that for what it is, rather than evaluate a new custom build.
-
-When doing so, going with a drone as tried and tested as the [Holybro Kopis 2 HDV][1] that excels in performance is a very safe bet.
-
-I don't want to discourage you from building one from scratch, however, in fact, I always encourage you to try and build your own, but especially if it's your first one, I **highly** recommend grabbing a prebuilt drone that you can learn to fly on and enjoy, as well as learn to repair when you crash it.
-
-If you decide to follow along and grab the same quad as I did, do note that the Holybro Kopis 2 HDV can be purchased with and without the DJI air unit. Because I grabbed a DJI bundle with the goggles, controller, and air unit already, I opted in to grab the Holybro Kopis without the air unit.
-
-If you are in the same boat as me, I'll include instructions on how to completely set up your quad if you need to add the DJI air unit on your own.
+TODO:
 
 ### Table of contents
 
 - [📦 Unboxing](#unboxing)
 - [📝 Specifications](#specs)
-- [🐝 Betaflight setup](#betaflight-setup)
 - [🥽 DJI digital FPV system setup](#dji-setup)
 - [🚁 Flying](#flying)
 - [🔝 Upgrades](#upgrades)
 - [📑 Conclusion](#conclusion)
 
-If you prefer watching, check out the full video playlist on the FPVtips YouTube channel:
+<!-- If you prefer watching, check out the full video on the [FPVtips][3] YouTube channel:
 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/rX5OUWnx0kA?list=PLLsZew4NRcddaEaRPXDAeGo6YlTXgCjHO&rel=0" frameBorder="0" allowFullScreen title="Getting started with DJI digital FPV part 1"></iframe>
-</div>
+</div> -->
 
 ### <span id="unboxing" class="offset-top-nav">📦 Unboxing</span>
 
-Coming in at about \$250 without the air unit, the [Holybro Kopis 2 HDV][1] is not one of the cheapest quads out there but it does offer an unboxing experience to match the price.
+![](dji-digital-fpv-1.jpg)
+![](dji-digital-fpv-2.jpg)
+![](dji-digital-fpv-3.jpg)
+![](dji-digital-fpv-4.jpg)
+![](dji-digital-fpv-5.jpg)
+![](dji-digital-fpv-6.jpg)
+![](dji-digital-fpv-7.jpg)
+![](dji-digital-fpv-8.jpg)
+![](dji-digital-fpv-9.jpg)
+![](dji-digital-fpv-10.jpg)
+![](dji-digital-fpv-11.jpg)
+![](dji-digital-fpv-12.jpg)
+![](dji-digital-fpv-13.jpg)
+![](dji-digital-fpv-14.jpg)
+![](dji-digital-fpv-15.jpg)
+![](dji-digital-fpv-16.jpg)
+![](dji-digital-fpv-17.jpg)
+![](dji-digital-fpv-18.jpg)
+![](dji-digital-fpv-19.jpg)
+![](dji-digital-fpv-20.jpg)
+![](dji-digital-fpv-21.jpg)
+![](dji-digital-fpv-22.jpg)
+![](dji-digital-fpv-23.jpg)
+![](dji-digital-fpv-24.jpg)
+![](dji-digital-fpv-25.jpg)
+![](dji-digital-fpv-26.jpg)
+![](dji-digital-fpv-27.jpg)
+![](dji-digital-fpv-28.jpg)
+![](dji-digital-fpv-29.jpg)
 
-![Holybro Kopis 2 HDV box](holybro-kopis2-hdv-dji-air-unit-1.jpg)
-
-Once you get past the Holybro box, you discover what looks and feels like a very high-quality carry case.
-
-![Holybro Kopis 2 HDV high-quality carry case](holybro-kopis2-hdv-dji-air-unit-2.jpg)
-
-Inside the case, the Kopis 2 is sitting nice and snug, in the middle of the case, strapped in securely with a velcro strap.
-
-![Holybro Kopis 2 HDV in its carry case](holybro-kopis2-hdv-dji-air-unit-3.jpg)
-
-The upper part of the carry case has a zippable container that hosts the following items:
-
-2 sets of different props, a small bag with prop nuts, a few spare screws, zip ties, double-sided sticky tape, a parts list sheet, and a DJI air unit connection cable for the flight controller.
-
-![Items found in the Holybro Kopis 2 HDV box](holybro-kopis2-hdv-dji-air-unit-4.jpg)
-
-At a glance, it might look like you were given 2 sets of the same prop, but those are 2 different sets with a different pitch.
-
-The less aggressive pitch and thinner **T5143S** (on the left) and the higher pitch **T5147** on the right.
-
-![Holybro Kopis 2 HDV 2 types of props](holybro-kopis2-hdv-dji-air-unit-17.jpg)
-
-![Holybro Kopis 2 HDV 4 props of same set](holybro-kopis2-hdv-dji-air-unit-5.jpg)
-
-![Holybro Kopis 2 HDV higher pitch prop close up](holybro-kopis2-hdv-dji-air-unit-6.jpg)
-
-The carry case strap is a nice inclusion, and if you were wondering the same, the quad does fit inside the case with the props on, so this is not useless at all.
-
-![Holybro Kopis 2 HDV carry case inner velcro strap](holybro-kopis2-hdv-dji-air-unit-7.jpg)
-
-![Holybro Kopis 2 HDV does fit inside carry case with props on](holybro-kopis2-hdv-dji-air-unit-18.jpg)
-
-The quad looks legit like a piece of art and feels very high quality, so let's take a closer look at the components it comes with.
-
-![Holybro Kopis 2 HDV](holybro-kopis2-hdv-dji-air-unit-8.jpg)
+TODO:
 
 ### <span id="specs" class="offset-top-nav">📝 Specifications</span>
 
-So we're still missing a camera, VTX, and a receiver (in this case the DJI digital FPV air unit), and I will update this post when the rest of the components of the build arrive, so stay tuned. But in the meantime let's take a look at what we do have.
-
-The frame is a **stretched X** from what I think is very high-quality carbon fiber with 4 separate arms, which makes replacing a broken arm easy.
-
-![Holybro Kopis 2 HDV frame is stretched X](holybro-kopis2-hdv-dji-air-unit-9.jpg)
-
-The top plate of the frame has "grill" openings which I can only assume will help better cool the DJI air unit.
-
-![Holybro Kopis 2 HDV top plate grill](holybro-kopis2-hdv-dji-air-unit-16.jpg)
-
-The quad is intended to have the battery mounted under it, as it is indicated by the thick rubber battery pad underneath the quad that would help with gripping and holding in place the battery, as well as cushion it away from the screws on the bottom plate to prevent piercing it in a crash. There's also a nice Holybro battery velcro strap, which looks a bit short to me, but I'd be surprised if it's not long enough to hold a 6S battery.
-
-![Holybro Kopis 2 HDV rubber battery pad](holybro-kopis2-hdv-dji-air-unit-15.jpg)
-
-The motor wires are neatly and snuggly wrapped with a tape that feels like a cloth-like material, should hold up much better than some plastic tape. The motors themselves are the **T-Motor F60 Pro III**, in my case the **KV1750** as I'm going for a 6S setup. I haven't yet tried these motors personally but I know they are a trustworthy brand and high-quality motors. I expect them to perform accordingly.
-
-![Holybro Kopis 2 HDV T-Motor F60 Pro III](holybro-kopis2-hdv-dji-air-unit-13.jpg)
-
-In the back, we have an XT60 connector, as usual, the battery leads length is fine, not too short to not be able to reach top or bottom and not too long to sacrifice that extra bit of performance. There's also a capacitor attached to the power terminals to smooth out some potential plugging in battery voltage spikes. **There is also a barely visible buzzer attached to the back right arm, close to the body of the frame.** Those have certainly become somewhat rarer, but are still nice to see a dedicated one on a 5-inch drone, as they are usually much louder than the sound of the motors beeping.
-
-![Holybro Kopis 2 HDV back shot of XT60, capacitor, and buzzer](holybro-kopis2-hdv-dji-air-unit-10.jpg)
-
-The soldering job on the motor wires coming to the **Tekko32 40A rated 4 in 1 ESC** is pristine. The Tekko32 is a tried and trusted high-quality ESC board, so no surprises there.
-
-The ESC is connected to the flight controller via a plug on the front side of the board. The flight controller itself is the **Kakute F7 HDV** version. It has an SD card slot for collecting Black Box data, a barometer, a 32-bit processor, and a **GH port, where you can plug in the DJI air unit** for both video signal transmission, as well as radio controller transmission link.
-
-> Which also makes this build a completely solderless assembly, if this is important to you.
-
-![Holybro Kopis 2 HDV flight controller shot one side](holybro-kopis2-hdv-dji-air-unit-11.jpg)
-
-The flight controller can be configured in Betaflight via a micro USB port on the side. It would have been nice if the port was USB type C to conform with the DJI air unit so that you wouldn't need 2 different cables, but that's a minor thing and I'm sure it is going to be improved in the future.
-
-![Holybro Kopis 2 HDV flight controller shot opposite side](holybro-kopis2-hdv-dji-air-unit-12.jpg)
-
-Finally, a TPU mount for the DJI air unit antennas is added to the sides of the frame. There is a camera TPU mount in the front, and a TPU holder for the DJI air unit itself on the back standoffs, as well as 2 small strips of double-sided sticky tape under the top frame plate.
-
-![Holybro Kopis 2 HDV front camera TPU mount](holybro-kopis2-hdv-dji-air-unit-14.jpg)
-
-I can't wait to get the DJI digital FPV system and continue this build. If you land here in the meantime, stay tuned or better yet, [subscribe to FPVtips on YouTube][3] for updates.
-
-### <span id="betaflight-setup" class="offset-top-nav">🐝 Betaflight setup</span>
-
-While waiting for the DJI Digital FPV system, I decided to take a look at the Betaflight configuration.
-
-The [Holybro Kopis 2 HDV][1] comes with Betaflight version 4.1.2 which is quite up to date (at the time of this writing the latest release is version 4.1.5).
-
-1.  **Ports tab**
-
-![Holybro Kopis 2 HDV Betaflight Ports tab](holybro-kopis2-hdv-dji-air-unit-19.png)
-
-ESC telemetry is setup on UART7 and serial RX on UART6.
-
-2.  **Configuration tab**
-
-The motor direction is **Props in**, which is the more common configuration and what I personally prefer. Good to know when putting on the props. I also like seeing **MOTOR_STOP** off. **Accelerometer** is enabled which could be handy for angle (stability) mode if that's important to you.
-
-![Holybro Kopis 2 HDV Betaflight configuration tab part 1](holybro-kopis2-hdv-dji-air-unit-20.png)
-
-In this next bit, we don't care much how the receiver is set up as we'll be using the air unit for that, but I do like making sure that **Airmode** is on. Because we have an on-board dedicated buzzer, I also like that **RX_LOST** and **RX_SET** are off since we won't be using the motors for those sounds.
-
-![Holybro Kopis 2 HDV Betaflight configuration tab part 2](holybro-kopis2-hdv-dji-air-unit-21.png)
-
-3.  **Receiver tab**
-
-I would normally change the **Channel Map** here from AETR1234 to TAER1234 as that's what my Taranis X-Lite is configured to, but in this case, we don't care and we'll leave it to the default for now.
-
-![Holybro Kopis 2 HDV Betaflight receiver tab](holybro-kopis2-hdv-dji-air-unit-22.png)
-
-4.  **Modes tab**
-
-Not a lot to see on the modes tab either, it seems there is only an arming switch on Channel 5 (AUX1) and horizon mode on Channel 6 (AUX2). By default, we will be in Acro mode, so that's all good.
-
-I might come back here and add Turtle mode and the Buzzer on some channel.
-
-![Holybro Kopis 2 HDV Betaflight modes tab](holybro-kopis2-hdv-dji-air-unit-23.png)
-
-5.  **OSD tab**
-
-Not much to say about the OSD tab for now either. I know the DJI goggles support some amount of Betaflight OSD, but we will need to come back to this later and see what we can add.
-
-I like seeing my signal link strength and battery stats.
-
-![Holybro Kopis 2 HDV Betaflight OSD tab](holybro-kopis2-hdv-dji-air-unit-24.png)
-
-If you made it this far, thanks for going through this with me. Do note, this is a living document and I will be updating this article as soon as possible. I'm still hoping to get the goggles during April and worst-case scenario in May. Shipping times can be a bit flaky at the moment.
-
-Stay safe out there and happy flying for now.
-
-**UPDATE (May 9, 2020): 🎉 It is finally here!** It surely took a while, at this point almost 2 months since I ordered the [DJI Digital FPV system][2], but it is what it is and at least I'm happy now that it is here. I will be updating this article in the coming days, so keep checking back! Thanks for your patience, I know I'm really looking forward to setting up the system and flying HD!
-
-![DJI digital FPV system finally arrived](holybro-kopis2-hdv-dji-air-unit-25.jpg)
+TODO:
 
 ### <span id="dji-setup" class="offset-top-nav">🎦 Setting up the DJI digital FPV system with the Holybro Kopis2 HDV</span>
 
@@ -443,25 +332,14 @@ I also lowered the camera angle to about 35 or so degrees. I should report that 
 
 ### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
 
-**Improve the DJI air unit antenna positioning**. Many people have claimed and shared that the antenna positioning on the Holybro Kopis2 HDV is suboptimal. It's not the end of the world, but arguably you could get better performance if you find a way to bring the antennas up and away from the carbon frame. This may be extra significant to do if you are locked in to only flying on 25mW power output. I will update this info when I have a more concrete solution to this. **Update:** I've decided I won't be moving the antennas around at this point. At 700mW the connection is superb and unless I really have issues in the future, I'll leave the antennas as they are.
-
-**Consider increasing the camera tilt**. I bumped my way up high (almost 45 deg, might reduce that slightly), gets rid of a lot of the "props in view" issue and a bit nicer to fly. **Update:** I like the higher tilt angle, but I did reduce it slightly to 35-40 degrees.
-
-_More upgrade ideas coming later on, after I have flown the quad and the system more..._
+TODO:
 
 ### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
-It's a bit early for me to deliver the final conclusion, as I like testing products extensively and over time. I will make sure to come back here and update.
+- recorded video missing on air unit; try with better and brand new SD card
+- Didn't expect to like the controller as much as I do. Don't get me wrong, still a bit clunky for what I do and need, but sticks are smooth, it flies nicely, it's actually nice to use
 
-In the meantime, here are a few words on my initial thoughts. Holybro Kopis2 HDV - love it! Very locked in tune, goes where you tell it, easy to handle, has plenty of speed and performance, is somewhat lightweight if you don't carry an extra camera like a GoPro if the DJI air unit's footage is enough for you (for me it is).
-
-Setting it up has been super easy! No soldering required, so that will tick a box off for a lot of people. It's a very high-quality product that is not cheap (coming in at around \$250 without the air unit), but I dare say not way too expensive either, given the top of the line components. Only time will tell how it will hold up, but it seems like a very enjoyable drone to fly so far. I'm hoping to be ripping it around all summer and beyond into next year!
-
-As far as the DJI digital FPV system goes, I am impressed. I was mindblown, although perhaps admittedly much less so than many other YouTubers' first time trying the DJI system. At this point, even only by watching other people, I had too many expectations to get completely surprised, **and still, the moment when I flew around scraggle and small trees so much closer than ever before is something that changes things**.
-
-You can just make out so much more detail in all cases. Is the DJI digital FPV system the answer to everything? No. Not yet. I love flying my micros and not planning on stopping any time soon. Analog still covers a lot of different flight scenarios just fine and I see no reason or have no desire to drop analog FPV at this point. Time will tell how this situation will evolve.
-
-I hope this guide helped you get set up and enter the world of digital FPV. Happy flying!
+TODO:
 
 [0]: Linkslist
 [1]: https://bit.ly/holybro-kopis-2-hdv
