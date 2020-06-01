@@ -29,13 +29,21 @@ TODO:
 - [🔝 Upgrades](#upgrades)
 - [📑 Conclusion](#conclusion)
 
-<!-- If you prefer watching, check out the full video on the [FPVtips][3] YouTube channel:
+If you prefer watching, check out the full video on the [FPVtips][3] YouTube channel:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/rX5OUWnx0kA?list=PLLsZew4NRcddaEaRPXDAeGo6YlTXgCjHO&rel=0" frameBorder="0" allowFullScreen title="Getting started with DJI digital FPV part 1"></iframe>
-</div> -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/l9exUE6DTso?list=PLLsZew4NRcddaEaRPXDAeGo6YlTXgCjHO&rel=0" frameBorder="0" allowFullScreen title="DJI Digital FPV system - Unboxing and COMPLETE setup with Holybro Kopis 2 HDV /part 2/"></iframe>
+</div>
 
 ### <span id="unboxing" class="offset-top-nav">📦 Unboxing</span>
+
+The unboxing experience was pretty solid, the entire [DJI digital FPV system][1] came in a big package wrapped with some heavy duty air bubble packaging. In side, the 3 parts of the system were each in its own box. Some of the boxes were slightly beat up but no damage to the items inside.
+
+The smallest box is for the DJI air unit. The air unit consists of the FPV (and recording) camera and the unit itself that deals with transmitting the video signal to the goggles, as well as being able to receiver controller signal from the DJI FPV remote controller. Inside the box you will also find 2 MMCX antennas and a cable for connecting the air unit to a flight controller.
+
+In the box with the DJI FPV goggles we discover the goggles themselves, a short user manual and a small box with accessories. Those include: a carry pouch, 4 antennas, an XT60 to DC barrel jack power cable, a USB Type C to USB cable and the head strap for the goggles.
+
+In the third box we discover the DJI FPV remote controller sturdy packed inside its box with foam on the sides to keep it safe. The controller feels high quality as do all the items (and they better, at this price), but I was plesantly surprised how the controller felt. Initially I didn't think I would be flying it more than a few times.
 
 ![](dji-digital-fpv-1.jpg)
 ![](dji-digital-fpv-2.jpg)
@@ -66,6 +74,7 @@ TODO:
 ![](dji-digital-fpv-27.jpg)
 ![](dji-digital-fpv-28.jpg)
 ![](dji-digital-fpv-29.jpg)
+![](dji-digital-fpv-30.jpg)
 
 TODO:
 
@@ -342,8 +351,8 @@ TODO:
 TODO:
 
 [0]: Linkslist
-[1]: https://bit.ly/holybro-kopis-2-hdv
-[2]: https://bit.ly/dji-digital-fpv
+[1]: https://bit.ly/dji-digital-fpv
+[2]: https://bit.ly/holybro-kopis-2-hdv
 [3]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
 [4]: https://bit.ly/cnhl-1300
 [5]: https://bit.ly/gnb-6s-1050
