@@ -1,7 +1,7 @@
 ---
 path: '/fpv/dji-digital-fpv-system-complete-setup-guide/'
 date: '2020-05-25'
-title: 'DJI digital FPV: Complete setup and everything you need to know'
+title: 'DJI digital FPV system: Complete setup guide'
 author: 'Georgi Yanev'
 draft: true
 category: 'fpv'
@@ -14,11 +14,15 @@ gearList:
   - 'dji-digital-fpv'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, freestyle, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, tinywhoop, holybro, kopis, kopis2, holybro kopis2, holybro kopis 2 hdv, dji digital fpv, dji digital fpv system, dji digital fpv system with holybro kopis 2, learn to fly fpv, learn to fly fpv drones, digital fpv drones, dji digital fpv drones, digital fpv with holybro kopis 2'
-ogDescription: 'TODO:'
+ogDescription: "In this article I'll walk you through everything you need to know and do to get setup and go fly the DJI digital FPV system. Let's go!"
 ogImage: './dji-digital-fpv-1.jpg'
 ---
 
-TODO:
+I've been pretty curious to dip into the HD FPV world for a while now, and after thinking about it for a short while, patiently waiting for the end of the winter and then another 2 months to get past the shipping issues around the COVID-19 pandemic, I finally made it!
+
+**I got the DJI digital FPV system, and I'm so happy I did it!**
+
+In this article I'll walk you through everything you need to know and do to get setup and go fly the DJI digital FPV system. Let's go!
 
 ### Table of contents
 
@@ -39,42 +43,117 @@ If you prefer watching, check out the full video on the [FPVtips][3] YouTube cha
 
 The unboxing experience was pretty solid, the entire [DJI digital FPV system][1] came in a big package wrapped with some heavy duty air bubble packaging. In side, the 3 parts of the system were each in its own box. Some of the boxes were slightly beat up but no damage to the items inside.
 
-The smallest box is for the DJI air unit. The air unit consists of the FPV (and recording) camera and the unit itself that deals with transmitting the video signal to the goggles, as well as being able to receiver controller signal from the DJI FPV remote controller. Inside the box you will also find 2 MMCX antennas and a cable for connecting the air unit to a flight controller.
+![DJI digital FPV system in 3 separate boxes](dji-digital-fpv-33.jpg)
 
-In the box with the DJI FPV goggles we discover the goggles themselves, a short user manual and a small box with accessories. Those include: a carry pouch, 4 antennas, an XT60 to DC barrel jack power cable, a USB Type C to USB cable and the head strap for the goggles.
+The smallest box is for the DJI air unit.
 
-In the third box we discover the DJI FPV remote controller sturdy packed inside its box with foam on the sides to keep it safe. The controller feels high quality as do all the items (and they better, at this price), but I was plesantly surprised how the controller felt. Initially I didn't think I would be flying it more than a few times.
+![DJI air unit box](dji-digital-fpv-2.jpg)
 
-![](dji-digital-fpv-1.jpg)
-![](dji-digital-fpv-2.jpg)
-![](dji-digital-fpv-3.jpg)
-![](dji-digital-fpv-4.jpg)
-![](dji-digital-fpv-5.jpg)
-![](dji-digital-fpv-6.jpg)
-![](dji-digital-fpv-7.jpg)
-![](dji-digital-fpv-8.jpg)
-![](dji-digital-fpv-9.jpg)
-![](dji-digital-fpv-10.jpg)
-![](dji-digital-fpv-11.jpg)
-![](dji-digital-fpv-12.jpg)
-![](dji-digital-fpv-13.jpg)
-![](dji-digital-fpv-14.jpg)
-![](dji-digital-fpv-15.jpg)
-![](dji-digital-fpv-16.jpg)
-![](dji-digital-fpv-17.jpg)
-![](dji-digital-fpv-18.jpg)
-![](dji-digital-fpv-19.jpg)
-![](dji-digital-fpv-20.jpg)
-![](dji-digital-fpv-21.jpg)
-![](dji-digital-fpv-22.jpg)
-![](dji-digital-fpv-23.jpg)
-![](dji-digital-fpv-24.jpg)
+The air unit consists of the FPV (and recording) camera and the unit itself that deals with transmitting the video signal to the goggles, as well as being able to receiver controller signal from the DJI FPV remote controller.
+
+![DJI air unit, 2 antennas and a flight controller to DJI air unit cable](dji-digital-fpv-3.jpg)
+
+Inside the box you will also find 2 MMCX antennas and a cable for connecting the air unit to a flight controller. You plug the antennas and the flight controller cable here in the back.
+
+![DJI air unit flight controller and antennas ports](dji-digital-fpv-4.jpg)
+
+You can (and should) insert an SD card here. Below the SD card slot are the status LED and the link (bind) button.
+
+![DJI air unit SD card slot](dji-digital-fpv-6.jpg)
+
+And you can update the firmware with the DJI Assistant 2 software by connecting the air unit to a computer via the USB Type C port and the provided cable (in the goggles package).
+
+![DJI air unit USB Type C port](dji-digital-fpv-5.jpg)
+
+In the box with the DJI FPV goggles we discover the goggles themselves, a short user manual and a small box with accessories.
+
+![DJI FPV goggles box](dji-digital-fpv-1.jpg)
+
+![DJI HD FPV goggles inside the box](dji-digital-fpv-7.jpg)
+
+Those include: a carry pouch, 4 antennas, an XT60 to DC barrel jack power cable, a USB Type C to USB cable and the head strap for the goggles.
+
+![DJI digital FPV goggles accessories: carry pouch, 4 antennas, an XT60 to DC barrel jack power cable, a USB Type C to USB cable and the head strap for the goggles](dji-digital-fpv-8.jpg)
+
+Carry pouch and headstrap unwrapped.
+
+![DJI digital FPV goggles carry pouch and headstrap unwrapped](dji-digital-fpv-9.jpg)
+
+And here are the goggles up front.
+
+![DJI digital FPV goggles front side](dji-digital-fpv-10.jpg)
+
+And a few more shots from different angles.
+
+![DJI digital FPV goggles front right](dji-digital-fpv-11.jpg)
+
+From the top, we can see the hooks where the headstrap will go through, the OSD control buttons.
+
+![DJI digital FPV goggles top down](dji-digital-fpv-12.jpg)
+
+From the left we can see the quick access channel adjustment buttons, as well as an LED grid that will display the current channel you're on.
+
+![DJI digital FPV goggles left side](dji-digital-fpv-13.jpg)
+
+Not a whole lot going on on the right side. Just the OSD control buttons on the top.
+
+![DJI digital FPV goggles right side](dji-digital-fpv-14.jpg)
+
+Here's a look inside. They look like most any other goggle, the lenses come protected with a small film you should remove before using.
+
+![DJI digital FPV goggles inside look](dji-digital-fpv-15.jpg)
+
+And if we take a look under the goggles, we see the interpupillary distance adjustment sliders.
+
+![DJI digital FPV bottom side](dji-digital-fpv-16.jpg)
+
+TODO: take picture of the link button, SD card slot, power plug
+
+Finally, in the third box we discover the DJI FPV remote controller sturdy packed inside its box with foam on the sides to keep it safe.
+
+![DJI digital FPV remote controller box](dji-digital-fpv-17.jpg)
+
+![DJI digital FPV remote controller in the box packed with foam on the sides](dji-digital-fpv-18.jpg)
+
+I'm convinced this kind of packaging works very well indeed to protect the unit from any unwanted impact.
+
+![DJI digital FPV remote controller wrapped with protective foam](dji-digital-fpv-19.jpg)
+
+The controller feels high quality as do all the items (and they better, at this price), but I was pleasantly surprised how comfortable the controller felt.
+
+![DJI digital FPV remote controller top down view](dji-digital-fpv-20.jpg)
+
+On the bottom up front we see the USB Type C port for charging and updating the firmware.
+
+![DJI digital FPV remote controller bottom view up front](dji-digital-fpv-21.jpg)
+
+Foldable antennas on the top and a small metallic stand.
+
+![DJI digital FPV remote controller](dji-digital-fpv-22.jpg)
+
+The DJI digital FPV remote controller has a total of 4 three position switches, 2 on each side. There is also a dedicated "Record" button and a dial that is also a push button.
+
+![DJI digital FPV remote controller upper left part](dji-digital-fpv-23.jpg)
+
+On the upper right hand side there is a dedicated "Back" button.
+
+![DJI digital FPV remote controller upper right part](dji-digital-fpv-24.jpg)
+
+Initially I thought the controller would look and feel light and plastic, but happy to report that's not the case. It does feel high quality and it works pretty well. I didn't think I would be flying it more than a few times but I ended up actually enjoying it even though the Taranis X-Lite with a smaller form factor had been my daily driver for quite some time at this point.
+
 ![](dji-digital-fpv-25.jpg)
 ![](dji-digital-fpv-26.jpg)
 ![](dji-digital-fpv-27.jpg)
 ![](dji-digital-fpv-28.jpg)
 ![](dji-digital-fpv-29.jpg)
 ![](dji-digital-fpv-30.jpg)
+![](dji-digital-fpv-31.jpg)
+![](dji-digital-fpv-32.jpg)
+![](dji-digital-fpv-34.jpg)
+![](dji-digital-fpv-35.jpg)
+![](dji-digital-fpv-36.jpg)
+![](dji-digital-fpv-37.jpg)
+![](dji-digital-fpv-38.jpg)
 
 TODO:
 
