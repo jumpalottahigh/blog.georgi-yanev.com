@@ -3,7 +3,7 @@ path: '/fpv/dji-digital-fpv-system-complete-setup-guide/'
 date: '2020-05-25'
 title: 'DJI digital FPV system: Complete setup guide'
 author: 'Georgi Yanev'
-draft: true
+draft: false
 category: 'fpv'
 tags:
   - 'drone'
@@ -27,7 +27,6 @@ In this article I'll walk you through everything you need to know and do to get 
 ### Table of contents
 
 - [📦 Unboxing](#unboxing)
-- [📝 Specifications](#specs)
 - [🥽 DJI digital FPV system setup](#dji-setup)
 - [🚁 Flying](#flying)
 - [🔝 Upgrades](#upgrades)
@@ -44,6 +43,8 @@ If you prefer watching, check out the full video on the [FPVtips][3] YouTube cha
 The unboxing experience was pretty solid, the entire [DJI digital FPV system][1] came in a big package wrapped with some heavy duty air bubble packaging. In side, the 3 parts of the system were each in its own box. Some of the boxes were slightly beat up but no damage to the items inside.
 
 ![DJI digital FPV system in 3 separate boxes](dji-digital-fpv-33.jpg)
+
+#### DJI FPV Air Unit
 
 The smallest box is for the DJI air unit.
 
@@ -64,6 +65,8 @@ You can (and should) insert an SD card here. Below the SD card slot are the stat
 And you can update the firmware with the DJI Assistant 2 software by connecting the air unit to a computer via the USB Type C port and the provided cable (in the goggles package).
 
 ![DJI air unit USB Type C port](dji-digital-fpv-5.jpg)
+
+#### DJI FPV Goggles
 
 In the box with the DJI FPV goggles we discover the goggles themselves, a short user manual and a small box with accessories.
 
@@ -91,13 +94,21 @@ From the top, we can see the hooks where the headstrap will go through, the OSD 
 
 ![DJI digital FPV goggles top down](dji-digital-fpv-12.jpg)
 
-From the left we can see the quick access channel adjustment buttons, as well as an LED grid that will display the current channel you're on.
+On the left hand side we can see the quick access channel adjustment buttons, as well as an LED grid that will display the current channel you're on.
 
 ![DJI digital FPV goggles left side](dji-digital-fpv-13.jpg)
+
+On the bottom left side we have access to the SD card slot for recording that live 720p HD footage, as well as the USB-C port for upgrading the goggle's firmware.
+
+![DJI digital FPV bottom left side with USB-C port and micro SD card slot](dji-digital-fpv-39.jpg)
 
 Not a whole lot going on on the right side. Just the OSD control buttons on the top.
 
 ![DJI digital FPV goggles right side](dji-digital-fpv-14.jpg)
+
+And under that we have the DC power jack as well as the Audio / AV IN port.
+
+![DJI digital FPV bottom right side](dji-digital-fpv-40.jpg)
 
 Here's a look inside. They look like most any other goggle, the lenses come protected with a small film you should remove before using.
 
@@ -107,7 +118,7 @@ And if we take a look under the goggles, we see the interpupillary distance adju
 
 ![DJI digital FPV bottom side](dji-digital-fpv-16.jpg)
 
-TODO: take picture of the link button, SD card slot, power plug
+#### DJI FPV Remote Controller
 
 Finally, in the third box we discover the DJI FPV remote controller sturdy packed inside its box with foam on the sides to keep it safe.
 
@@ -141,53 +152,31 @@ On the upper right hand side there is a dedicated "Back" button.
 
 Initially I thought the controller would look and feel light and plastic, but happy to report that's not the case. It does feel high quality and it works pretty well. I didn't think I would be flying it more than a few times but I ended up actually enjoying it even though the Taranis X-Lite with a smaller form factor had been my daily driver for quite some time at this point.
 
-![](dji-digital-fpv-25.jpg)
-![](dji-digital-fpv-26.jpg)
-![](dji-digital-fpv-27.jpg)
-![](dji-digital-fpv-28.jpg)
-![](dji-digital-fpv-29.jpg)
-![](dji-digital-fpv-30.jpg)
-![](dji-digital-fpv-31.jpg)
-![](dji-digital-fpv-32.jpg)
-![](dji-digital-fpv-34.jpg)
-![](dji-digital-fpv-35.jpg)
-![](dji-digital-fpv-36.jpg)
-![](dji-digital-fpv-37.jpg)
-![](dji-digital-fpv-38.jpg)
-
-TODO:
-
-### <span id="specs" class="offset-top-nav">📝 Specifications</span>
-
-TODO:
-
 ### <span id="dji-setup" class="offset-top-nav">🎦 Setting up the DJI digital FPV system with the Holybro Kopis2 HDV</span>
 
-If you go for this exact drone + DJI digital FPV set up you actually have very little to do. It may seem like a lot of steps, but all of them are very easy and a matter of minutes to accomplish.
+The first time I setup the system I did it with the [Holybro Kopis2 HDV][2] quad and in general there was very little to do when it came down to connecting the DJI digital FPV system to the drone.
 
-**The only thing that takes time in this whole setup process is charging your DJI radio controller. I suggest you do this first, as it will take a few hours.**
+There are a number of steps to execute though in terms of general setup and in a few cases the order of how you perform the steps is important too. That's why I wanted to put together a guide that goes through everything start to finish. Here we go.
 
-<!-- TODO: add links when DJI article is ready -->
+**Make sure one of the first things you do is to charge your DJI FPV Remote Controller. This is one of the most time consuming steps as it can take anywhere up to a few hours.**
 
-You can also check out the more thorough review and setup guide with a deep dive into the DJI digital FPV system. Here I'll keep it straight to the point and as short as possible in the context of the Holybro Kopis2 HDV quad.
+To get started setting up the DJI digital FPV system you should have the [following gear][1] available:
 
-To proceed you should have the [following gear][2] available:
-
-![DJI digital FPV controller](holybro-kopis2-hdv-dji-air-unit-26.jpg)
+![DJI digital FPV controller](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-26.jpg)
 **DJI digital FPV controller**
 
-![DJI digital FPV air unit](holybro-kopis2-hdv-dji-air-unit-27.jpg)
+![DJI digital FPV air unit](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-27.jpg)
 **DJI air unit**
 
-![DJI digital FPV goggles](holybro-kopis2-hdv-dji-air-unit-28.jpg)
+![DJI digital FPV goggles](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-28.jpg)
 **DJI digital FPV goggles**
 
-![DJI digital FPV goggle accessories](holybro-kopis2-hdv-dji-air-unit-29.jpg)
+![DJI digital FPV goggle accessories](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-29.jpg)
 **DJI digital FPV goggle accessories**
 
 You will also need to have a couple of batteries to provide power to the goggles and to the air unit.
 
-![Some 4S LiPo batteries](holybro-kopis2-hdv-dji-air-unit-30.jpg)
+![Some 4S LiPo batteries](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-30.jpg)
 **4S LiPo batteries**
 
 **The DJI digital FPV goggles accept voltage from 7.4-17.6 V, so a 2S to 4S battery will do. Don't go above that though!**
@@ -202,7 +191,7 @@ Let's get started!
 
 > This is important because we're going to be upgrading the firmware and you don't wanna be doing that on anything but a fully charged battery ideally. To charge the DJI radio, just plug it in via the provided USB type C cable and wait a few hours. It will take some time, so be patient.
 
-> ![Charge the DJI controller](holybro-kopis2-hdv-dji-air-unit-31.jpg)
+> ![Charge the DJI controller](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-31.jpg)
 
 > Charge a 4S LiPo for the goggles and another 4S or a 6S battery for the drone, depending on which version of the quad you bought.
 
@@ -210,23 +199,23 @@ Let's get started!
 
 > Installing the head strap is not a requirement for the setup, but you might as well do it now since you will need it anyway eventually.
 
-> ![Install the headstrap](holybro-kopis2-hdv-dji-air-unit-32.jpg)
+> ![Install the headstrap](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-32.jpg)
 
 > However, installing the antennas is very important. **Never deal with video transmitters without having installed their antennas, as this is an easy way of frying them in some cases.** Quite possibly the goggles may be totally fine even without antennas, since they just receive the transmitted video signal, but why take chances. To install the antennas simply screw them in in all 4 slots.
 
-> ![Install the goggle antennas](holybro-kopis2-hdv-dji-air-unit-33.jpg)
+> ![Install the goggle antennas](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-33.jpg)
 
 > For the air unit antennas it's **absolutely mandatory that you install them** as the chance of frying the unit if powered on without antennas is much higher!
 
-> ![Install the DJI air unit antennas](holybro-kopis2-hdv-dji-air-unit-34.jpg)
+> ![Install the DJI air unit antennas](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-34.jpg)
 
 > I also plugged in the air unit cable that should connect to your flight controller. You should have one cable that came with your air unit (on the left in the picture below) and a similar cable that came with your Holybro Kopis2 HDV (on the right).
 
-> ![compare 2 DJI air unit cables](holybro-kopis2-hdv-dji-air-unit-35.jpg)
+> ![compare 2 DJI air unit cables](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-35.jpg)
 
 > I used the Holybro provided cable as this setup is solderless since the cable is designed and intended to fit and connect perfectly the DJI air unit to the flight controller on the Holybro Kopis2. There is a port for that in the back of the flight controller.
 
-> ![Connect the DJI air unit to the flight controller on the Holybro Kopis2 HDV](holybro-kopis2-hdv-dji-air-unit-36.jpg)
+> ![Connect the DJI air unit to the flight controller on the Holybro Kopis2 HDV](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-36.jpg)
 
 > I do recommend you power on the quad with a LiPo (**NO PROPS**) before you connect the air unit. That was you can test it for any potential issues and in the case that something smokes, you at least won't smoke your DJI air unit along with it.
 
@@ -240,35 +229,35 @@ Let's get started!
 
 > By now your DJI remote controller should have charged, so you can **connect it to your computer and power it on by short pressing and then press and hold the power button**. Startup the DJI Assistant app, create an account, or login and you should see the DJI FPV Remote Controller in Connected Devices.
 
-> ![DJI FPV REMOTE CONTROLLER in connected devices in the DJI Assistant 2 app](holybro-kopis2-hdv-dji-air-unit-37.jpg)
+> ![DJI FPV REMOTE CONTROLLER in connected devices in the DJI Assistant 2 app](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-37.jpg)
 
 > Click the device to start the activation process.
 
-> ![Start device activation process in the DJI Assistant 2 app](holybro-kopis2-hdv-dji-air-unit-38.jpg)
+> ![Start device activation process in the DJI Assistant 2 app](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-38.jpg)
 
 > Click through a few end-user agreements and your device should get successfully activated.
 
-> ![Device activation completed](holybro-kopis2-hdv-dji-air-unit-39.jpg)
+> ![Device activation completed](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-39.jpg)
 
 > Next, you will probably get the firmware update prompt. Confirm you want to install the latest version to start off the update. This is **highly recommended as DJI has released a few quite important improvements that you definitely want to have**.
 
-> ![DJI device firmware update prompt](holybro-kopis2-hdv-dji-air-unit-40.jpg)
+> ![DJI device firmware update prompt](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-40.jpg)
 
 > The firmware update is going to go through 3 steps. Downloading...
 
-> ![DJI Assistant 2 downloading firmware](holybro-kopis2-hdv-dji-air-unit-41.jpg)
+> ![DJI Assistant 2 downloading firmware](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-41.jpg)
 
 > ... transmitting ...
 
-> ![DJI Assistant 2 transmitting firmware](holybro-kopis2-hdv-dji-air-unit-42.jpg)
+> ![DJI Assistant 2 transmitting firmware](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-42.jpg)
 
 > ... and updating.
 
-> ![DJI Assistant 2 updating firmware](holybro-kopis2-hdv-dji-air-unit-43.jpg)
+> ![DJI Assistant 2 updating firmware](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-43.jpg)
 
 In my case the entire process took about 5:30 minutes.
 
-> ![DJI Assistant 2 firmware update completed](holybro-kopis2-hdv-dji-air-unit-44.jpg)
+> ![DJI Assistant 2 firmware update completed](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-44.jpg)
 
 Unplug the radio from the computer and power it off by double press and hold the power button.
 
@@ -295,32 +284,32 @@ The order here is important if you are going to use both the DJI goggles and the
 
 To bind or link (as DJI calls it) the goggles with their antennas installed, power on the goggles. Then power on the air unit by providing power to the quad. The LED on the air unit should be green. Press the bind button next to the LED and above the SD card slot (you will need something thin to access the button, like tweezers). The LED should go red to indicate we are in linking mode.
 
-![DJI air unit in linking mode](holybro-kopis2-hdv-dji-air-unit-46.jpg)
+![DJI air unit in linking mode](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-46.jpg)
 
 Then press the bind button on the goggles (it's right next to the power jack). You should hear a few tones and the air unit's LED will go green to indicate a successful link.
 
-![DJI digital FPV goggles link button](holybro-kopis2-hdv-dji-air-unit-45.jpg)
+![DJI digital FPV goggles link button](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-45.jpg)
 
 With the goggles linked, it's time to link the radio transmitter. Press the bind/link button on the DJI air unit to put it in linking mode. Power on the remote controller.
 Press at the same time and hold shortly these 3 buttons on the radio: `record button` on the top left, `C button` right next to the power button, and the `dial` switch at the top right.
 
-![DJI remote controller button to press to link the radio to the DJI air unit](holybro-kopis2-hdv-dji-air-unit-47.jpg)
+![DJI remote controller button to press to link the radio to the DJI air unit](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-47.jpg)
 
 If successful, you should hear a few tunes being played to indicate the radio was linked to the air unit. If you don't have props on you can try to arm the drone with the `SA` switch. If you have any issues make sure the throttle stick is all the way down, otherwise, it won't let you arm.
 
-![DJI remote controller default arming switch is the SA switch](holybro-kopis2-hdv-dji-air-unit-49.jpg)
+![DJI remote controller default arming switch is the SA switch](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-49.jpg)
 
 It may be a good idea to connect the flight controller to Betaflight, go to the receiver tab, and make sure that the inputs on your sticks match what you see displayed as channel values. If you go for it, make sure you don't spend too much time with the air unit on.
 
 You can also change the switches and configure flight modes, but for now I won't bother with that as I would like to evaluate the stock configuration. By default you can change flight modes with the `SD` switch. If left untouched it leaves the quad in the default acro mode, which is ideal.
 
-![DJI remote controller default flight modes switch is the SD switch](holybro-kopis2-hdv-dji-air-unit-48.jpg)
+![DJI remote controller default flight modes switch is the SD switch](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-48.jpg)
 
 6. **Flight preparation**
 
 Put in SD cards in the DJI digital FPV goggles and in the air unit. It needs to be a recent card of decent quality, so some older cards may not work. Mine are some [32GB "high speed" cheepos][7] but haven't betrayed me so far in a couple of years. You can and you should format the cards from within the goggle's interface to avoid any disappointment with missing footage.
 
-![Put an SD card into the DJI air unit](holybro-kopis2-hdv-dji-air-unit-52.jpg)
+![Put an SD card into the DJI air unit](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-52.jpg)
 
 To display the OSD menu, press in the joystick on the top right-hand side of the goggles. Then navigate to `Settings -> Format SD Card` and format both cards. You can go back to the upper levels of the menu with the button right next to the joystick.
 
@@ -336,7 +325,7 @@ The last thing to do before we actually go out flying is to put on the props. To
 
 You want them to rotate in the direction that is shown in Betaflight on the Configuration tab. In this case it's the so-called "Props In" mode, because the props should move in towards the quad.
 
-![Betaflight quad motors diagram](holybro-kopis2-hdv-dji-air-unit-50.png)
+![Betaflight quad motors diagram](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-50.png)
 
 So if you put the quad in front of you facing up and away, as in the diagram, your front left motor is motor 4, front right is motor 2, back right is motor 1 and back left is motor 3.
 
@@ -350,7 +339,7 @@ With those rules in mind, you can put on props all day!
 
 Here is how my setup ended up looking. Make sure you tighten the prop nuts all the way down nice and snug.
 
-![Holybro Kopis2 HDV with DJI digital FPV air unit with props on and ready for a maiden](holybro-kopis2-hdv-dji-air-unit-51.jpg)
+![Holybro Kopis2 HDV with DJI digital FPV air unit with props on and ready for a maiden](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-51.jpg)
 
 That's really all of it! Let's go for a flight!
 
@@ -421,6 +410,20 @@ I also lowered the camera angle to about 35 or so degrees. I should report that 
 ### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
 
 TODO:
+
+![](dji-digital-fpv-25.jpg)
+![](dji-digital-fpv-26.jpg)
+![](dji-digital-fpv-27.jpg)
+![](dji-digital-fpv-28.jpg)
+![](dji-digital-fpv-29.jpg)
+![](dji-digital-fpv-30.jpg)
+![](dji-digital-fpv-31.jpg)
+![](dji-digital-fpv-32.jpg)
+![](dji-digital-fpv-34.jpg)
+![](dji-digital-fpv-35.jpg)
+![](dji-digital-fpv-36.jpg)
+![](dji-digital-fpv-37.jpg)
+![](dji-digital-fpv-38.jpg)
 
 ### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 

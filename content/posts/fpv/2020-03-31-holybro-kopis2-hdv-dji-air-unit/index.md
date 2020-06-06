@@ -190,9 +190,7 @@ If you go for this exact drone + DJI digital FPV set up you actually have very l
 
 **The only thing that takes time in this whole setup process is charging your DJI radio controller. I suggest you do this first, as it will take a few hours.**
 
-<!-- TODO: add links when DJI article is ready -->
-
-You can also check out the more thorough review and setup guide with a deep dive into the DJI digital FPV system. Here I'll keep it straight to the point and as short as possible in the context of the Holybro Kopis2 HDV quad.
+You can also check out the more thorough [review and setup guide with a deep dive into the DJI digital FPV system][8]. Here I'll keep it straight to the point and as short as possible in the context of the Holybro Kopis2 HDV quad.
 
 To proceed you should have the [following gear][2] available:
 
@@ -471,3 +469,4 @@ I hope this guide helped you get set up and enter the world of digital FPV. Happ
 [5]: https://bit.ly/gnb-6s-1050
 [6]: https://www.dji.com/fi/fpv/info#downloads
 [7]: https://bit.ly/sd-card-32
+[8]: /fpv/dji-digital-fpv-system-complete-setup-guide/
