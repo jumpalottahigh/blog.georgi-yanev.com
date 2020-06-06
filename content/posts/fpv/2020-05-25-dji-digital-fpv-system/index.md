@@ -10,8 +10,8 @@ tags:
   - 'review'
   - 'dji'
 gearList:
-  - 'holybro-kopis-2-hdv'
   - 'dji-digital-fpv'
+  - 'holybro-kopis-2-hdv'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, freestyle, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, tinywhoop, holybro, kopis, kopis2, holybro kopis2, holybro kopis 2 hdv, dji digital fpv, dji digital fpv system, dji digital fpv system with holybro kopis 2, learn to fly fpv, learn to fly fpv drones, digital fpv drones, dji digital fpv drones, digital fpv with holybro kopis 2'
 ogDescription: "In this article I'll walk you through everything you need to know and do to get setup and go fly the DJI digital FPV system. Let's go!"
@@ -162,26 +162,26 @@ There are a number of steps to execute though in terms of general setup and in a
 
 To get started setting up the DJI digital FPV system you should have the [following gear][1] available:
 
-![DJI digital FPV controller](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-26.jpg)
 **DJI digital FPV controller**
+![DJI digital FPV controller](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-26.jpg)
 
-![DJI digital FPV air unit](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-27.jpg)
 **DJI air unit**
+![DJI digital FPV air unit](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-27.jpg)
 
-![DJI digital FPV goggles](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-28.jpg)
 **DJI digital FPV goggles**
+![DJI digital FPV goggles](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-28.jpg)
 
-![DJI digital FPV goggle accessories](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-29.jpg)
 **DJI digital FPV goggle accessories**
+![DJI digital FPV goggle accessories](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-29.jpg)
 
 You will also need to have a couple of batteries to provide power to the goggles and to the air unit.
 
-![Some 4S LiPo batteries](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-30.jpg)
 **4S LiPo batteries**
+![Some 4S LiPo batteries](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-30.jpg)
 
 **The DJI digital FPV goggles accept voltage from 7.4-17.6 V, so a 2S to 4S battery will do. Don't go above that though!**
 
-You are provided an XT60 to DC barrel jack cable to allow you to use one of your drone [4S battery packs][4]. Alternatively, you could grab a Fatshark battery case for a couple of 18650 batteries. I'm going, for now, the way of the drone battery, which allows me to keep it in my pocket and reduces the overall weight when you have the goggles on.
+You are provided an XT60 to DC barrel jack cable to allow you to use one of your drone [4S battery packs][4]. Alternatively, you could grab a Fatshark battery case for a couple of 18650 batteries. I'm just going to be using a 4S lipo battery, which allows me to keep it in my pocket and reduces the overall weight when having the goggles on.
 
 You will also need 1 more battery and that could also be [4S][4] to [6S][5] as we will plug this one into the quad (if your Holybro Kopis is also the 6S version). Don't plug in 6S batteries to equipment rated for 4S.
 
@@ -307,6 +307,22 @@ You can also change the switches and configure flight modes, but for now I won't
 
 6. **Flight preparation**
 
+If you haven't yet, now is probably the best time to put the quad back together. Mount the camera up front in the TPU mount bracket using the provided screws.
+
+![Holybro Kopis2 HDV with DJI air unit mounted](dji-digital-fpv-25.jpg)
+
+The air unit should be fit nice and snug with the antennas guided through the back and the side TPU antenna mounts.
+
+![DJI air unit antennas guided thru TPU mounts](dji-digital-fpv-26.jpg)
+
+Do that on both sides.
+
+![DJI air unit antennas guided thru TPU mounts other side](dji-digital-fpv-27.jpg)
+
+And here's how that looks from under the quad.
+
+![DJI air unit antennas guided thru TPU mounts, view from under the quad](dji-digital-fpv-28.jpg)
+
 Put in SD cards in the DJI digital FPV goggles and in the air unit. It needs to be a recent card of decent quality, so some older cards may not work. Mine are some [32GB "high speed" cheepos][7] but haven't betrayed me so far in a couple of years. You can and you should format the cards from within the goggle's interface to avoid any disappointment with missing footage.
 
 ![Put an SD card into the DJI air unit](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-52.jpg)
@@ -342,6 +358,8 @@ Here is how my setup ended up looking. Make sure you tighten the prop nuts all t
 ![Holybro Kopis2 HDV with DJI digital FPV air unit with props on and ready for a maiden](../2020-03-31-holybro-kopis2-hdv-dji-air-unit/holybro-kopis2-hdv-dji-air-unit-51.jpg)
 
 That's really all of it! Let's go for a flight!
+
+![DJI digital FPV system ready to fly](dji-digital-fpv-30.jpg)
 
 ### <span id="flying" class="offset-top-nav">🚁 Flying</span>
 
@@ -409,28 +427,61 @@ I also lowered the camera angle to about 35 or so degrees. I should report that 
 
 ### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
 
-TODO:
+#### DJI digital FPV system best faceplate foam padding
 
-![](dji-digital-fpv-25.jpg)
-![](dji-digital-fpv-26.jpg)
-![](dji-digital-fpv-27.jpg)
-![](dji-digital-fpv-28.jpg)
-![](dji-digital-fpv-29.jpg)
-![](dji-digital-fpv-30.jpg)
-![](dji-digital-fpv-31.jpg)
-![](dji-digital-fpv-32.jpg)
-![](dji-digital-fpv-34.jpg)
-![](dji-digital-fpv-35.jpg)
-![](dji-digital-fpv-36.jpg)
-![](dji-digital-fpv-37.jpg)
-![](dji-digital-fpv-38.jpg)
+The one upgrade I strongly encourage you to do, is to grab this [DJI goggle foam padding][8].
+
+![DJI fpv goggle sponge foam padding](dji-digital-fpv-38.jpg)
+
+It solves the light leakage problem and makes the goggles a LOT more comfortable to wear. At the time of writing I couldn't find the foam with any other vendors so linking to DJI's store. Even on their site the foam was somewhat hard to find and you might have some shipping charges, but even so, it was worth it in the end. Do check your local vendors if they carry this item, or if it's available on Amazon.
+
+![DJI fpv goggle sponge foam padding sticky side](dji-digital-fpv-36.jpg)
+
+![DJI fpv goggle sponge foam padding front side](dji-digital-fpv-37.jpg)
+
+The installation is very straight forward. First carefully detach the stock foam padding from the goggles.
+
+![DJI FPV goggles with stock foam detached](dji-digital-fpv-35.jpg)
+
+Then attach the new foam.
+
+![DJI FPV goggles with new foam attached](dji-digital-fpv-34.jpg)
+
+#### Antennas
+
+I haven't yet played around and tested different antennas, but also from what I've seen onine, for most use cases you shouldn't need to do this.
+
+One particular use case where a patch direction antenna setup can help is perhaps if you are going to do some long range exploration flights and then upgrading the antennas could make sense.
 
 ### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>
 
-- recorded video missing on air unit; try with better and brand new SD card
-- Didn't expect to like the controller as much as I do. Don't get me wrong, still a bit clunky for what I do and need, but sticks are smooth, it flies nicely, it's actually nice to use
+I've only been flying the DJI digital FPV system for about a month at the time of writing this conclusion and here's my current situation, experiences and thoughts about the system.
 
-TODO:
+**I love the HD experience**. That's all there is to it in simplest terms. It's great. I'm not saying analog is dead, but I'm absolutely certain, that if (when) the technology gets to a state where analog and HD come at comparable weight and latency there will be no choice at all. Everyone will prefer HD in equal conditions, that's really just a fact. You just really see so much more and it is even more immersive in terms of FPV experience.
+
+I did have one major issue though that I'm currently investigating and have no answer for: I had a failsafe flying over a small island (luckily the drone did not fall in the sea 😅). You can see that at the end of this video.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/EIlwsMblwM4?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV failsafe over an island in the sea - Holybro Kopis2 HDV (2020 #69)"></iframe>
+</div>
+
+**You probably notice how I did a flip, them the quad goes sideways as it failsafed and then you hear how the flight controller restarted.**
+
+Quite weird and I have no idea what happened. I was a bit far away from myself and my antennas were in a way pointed more out at sea, than in the direction of the quad (so almost 90 degrees angle), which is definitely suboptimal, but there was no indication that the link quality would be bad in the OSD. Perhaps I'm missing something but I will let you know as soon as I have figured it out.
+
+The quad was fine from the crash, except for the MMCX connectors on the DJI air unit. I found both antennas unplugged from it. One was unplugged clean without damage, the other had ripped the innerds of the MMCX connector of the DJI air unit with it. That's suboptimal.
+
+This damage is repairable to the best of my knowledge and I have now ordered spare antennas as well as small female MMCX connectors to replace the ones on the air unit. I am wondering if the antennas came off during the impact on the ground or before that, as if they came off mid air, that would explain the failsafe too. I think I had them mounted very nice and sturdy though and really there was no indication in the OSD that the link quality had gone bad, but who knows.
+
+**I will be experimenting with different and better mounting possitions for the DJI air unit, once I've repaired it.**
+
+Another interesting issue I had was with missing footage on the air unit. I'm not sure of the exact reason yet, but giving the air unit itself the benefit of the doubt, it could still be a pour quality SD card (admitedly I'm not using the best, branded ones right now, and I'll be buying a high quality, branded SD card soon and see if the issue manifests further). I haven't had issues with those cards before, and using the same cards I never had missing footage from the DJI FPV goggles. Just the air unit. Another possible reason could be if I've unplugged too quck the battery and that leads to missing footage? Is that a thing? Let me know in the comments if you know.
+
+But in the end, even with those issues, I still love my DJI digital FPV system. I just genuinely enjoy the experience of flying with it. I yet also have to try out flying with my own favorite controller (Taranis X-Lite), but even with the DJI FPV remote controller, it is a pretty enjoyable experience. Looking forward to ripping a lot more packs on it this summer.
+
+Happy flying!
+
+![DJI digital FPV system and Holybro Kopis2 HDV](dji-digital-fpv-31.jpg)
 
 [0]: Linkslist
 [1]: https://bit.ly/dji-digital-fpv
@@ -440,3 +491,4 @@ TODO:
 [5]: https://bit.ly/gnb-6s-1050
 [6]: https://www.dji.com/fi/fpv/info#downloads
 [7]: https://bit.ly/sd-card-32
+[8]: https://store.dji.com/product/dji-fpv-goggles-sponge-foam-padding
