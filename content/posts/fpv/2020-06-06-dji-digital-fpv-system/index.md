@@ -15,7 +15,7 @@ gearList:
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, freestyle, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, tinywhoop, holybro, kopis, kopis2, holybro kopis2, holybro kopis 2 hdv, dji digital fpv, dji digital fpv system, dji digital fpv system with holybro kopis 2, learn to fly fpv, learn to fly fpv drones, digital fpv drones, dji digital fpv drones, digital fpv with holybro kopis 2'
 ogDescription: "In this article, I'll walk you through everything you need to know and do to get set up and go fly the DJI digital FPV system. Let's go!"
-ogImage: './dji-digital-fpv-1.jpg'
+ogImage: './dji-digital-fpv-30.jpg'
 ---
 
 I've been pretty curious to dip into the HD FPV world for a while now, and after thinking about it for a short while, patiently waiting for the end of the winter and then another 2 months to get past the shipping issues around the COVID-19 pandemic, I finally made it!
