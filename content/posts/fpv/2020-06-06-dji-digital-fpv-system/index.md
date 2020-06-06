@@ -1,7 +1,7 @@
 ---
 path: '/fpv/dji-digital-fpv-system-complete-setup-guide/'
-date: '2020-05-25'
-title: 'DJI digital FPV system: Complete setup guide'
+date: '2020-06-06'
+title: 'DJI digital FPV system: Review, Activation, Firmware Upgrade, Complete Setup'
 author: 'Georgi Yanev'
 draft: false
 category: 'fpv'
@@ -470,6 +470,8 @@ I did have one major issue though that I'm currently investigating and have no a
 Quite weird and I have no idea what happened. I was a bit far away from myself and my antennas were in a way pointed more out at sea, than in the direction of the quad (so almost 90 degrees angle), which is definitely suboptimal, but there was no indication that the link quality would be bad in the OSD. Perhaps I'm missing something but I will let you know as soon as I have figured it out.
 
 The quad was fine from the crash, except for the MMCX connectors on the DJI air unit. I found both antennas unplugged from it. One was unplugged clean without damage, the other had ripped the innerds of the MMCX connector of the DJI air unit with it. That's suboptimal.
+
+![DJI air unit antennas ripped out the internals of the MMCX connector](dji-digital-fpv-41.jpg)
 
 This damage is repairable to the best of my knowledge and I have now ordered spare antennas as well as small female MMCX connectors to replace the ones on the air unit. I am wondering if the antennas came off during the impact on the ground or before that, as if they came off mid air, that would explain the failsafe too. I think I had them mounted very nice and sturdy though and really there was no indication in the OSD that the link quality had gone bad, but who knows.
 
