@@ -4,6 +4,12 @@ articlePath: /fpv/holybro-kopis2-hdv-with-dji-digital-fpv/
 
 #### Reader Q & A:
 
+**"Great Review. Thank you. But How is the Air Unit attached to the Topplate? Double-sided adhesive tape?"**
+
+> Thanks a lot, glad you liked it! The Holybro Kopis2 HDV comes with a couple of small double sided sticky tape strips pre-isntalled on the bottom part of its top plate. I would say that mounting it so is pretty reliable and didn't come off even in a crash :)
+
+\*\*\*
+
 **"'🎦 Setting up the DJI digital FPV system with the Holybro Kopis2 HDV Coming soon' Looking forward to this please"** - anon
 
 > Thank you for your interest, been a bit busy at work, but working on this and 🤞 hoping to get it out this weekend :)
