@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 
 import AskAQuestion from '../components/AskAQuestion'
 import DiscussionEmbed from '../components/Disqus'

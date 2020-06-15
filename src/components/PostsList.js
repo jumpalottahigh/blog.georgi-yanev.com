@@ -35,7 +35,7 @@ const Post = ({
         variant === 'small-thumbnails' ? 'small-thumbnails' : ''
       }`}
     >
-      <Link to={post.node.frontmatter.path + '/'}>
+      <Link to={post.node.frontmatter.path}>
         <h4>
           {isFresh && '🆕 '}
           {post.node.frontmatter.title}
@@ -43,8 +43,9 @@ const Post = ({
         <div className="post-preview-content">
           {showImage === 'yes' || showImage === 'hover' ? (
             <div
-              className={`post-preview-image ${showImage === 'hover' &&
-                'hover'}`}
+              className={`post-preview-image ${
+                showImage === 'hover' && 'hover'
+              }`}
             >
               {post.node.frontmatter.ogImage !== null ? (
                 <Img
@@ -92,7 +93,7 @@ const Post = ({
                   flexFlow: 'row wrap',
                 }}
               >
-                {post.node.frontmatter.tags.map(tag => (
+                {post.node.frontmatter.tags.map((tag) => (
                   <React.Fragment key={post.node.frontmatter.id + tag}>
                     <span
                       onClick={handleTagClick}
@@ -139,7 +140,7 @@ export default class PostsList extends React.Component {
     }
   }
 
-  filter = pages => {
+  filter = (pages) => {
     let learning = []
     let fpv = []
     let projects = []
@@ -147,7 +148,7 @@ export default class PostsList extends React.Component {
     let stories = []
     let allTags = {}
 
-    pages.forEach(page => {
+    pages.forEach((page) => {
       // Sort the pages by category
       switch (page.node.frontmatter.category) {
         case 'learning':
@@ -190,12 +191,12 @@ export default class PostsList extends React.Component {
     })
   }
 
-  filterByTag = tag => {
+  filterByTag = (tag) => {
     let results = []
 
     // TODO: fix a bug where after having searched, trying to filter returns 0 results. The expected behaviour is to have search reset when clicking a tag
 
-    results = this.state.allPosts.filter(post => {
+    results = this.state.allPosts.filter((post) => {
       if (post.node.frontmatter.tags.includes(tag)) {
         return post
       }
@@ -204,7 +205,7 @@ export default class PostsList extends React.Component {
     return results
   }
 
-  handleCategoryFilterClick = e => {
+  handleCategoryFilterClick = (e) => {
     // Filter the posts
     this.setState({
       currentFilter: e.target.dataset.filter,
@@ -220,7 +221,7 @@ export default class PostsList extends React.Component {
     }
   }
 
-  handleTagClick = e => {
+  handleTagClick = (e) => {
     // Searched for
     let searched = e.target.dataset.filter
     // TODO: fix a bug where after having searched, trying to filter returns 0 results. The expected behaviour is to have search reset when clicking a tag
@@ -240,13 +241,13 @@ export default class PostsList extends React.Component {
     }
   }
 
-  handleSearch = e => {
+  handleSearch = (e) => {
     let value = e && e.target ? e.target.value : this.state.search
     let { posts } = this.props
 
     if (typeof value === 'undefined') return
 
-    const searchResults = posts.filter(post => {
+    const searchResults = posts.filter((post) => {
       // Match search in title, excerpt, tags, category or path
       if (
         post.node.frontmatter.title
@@ -407,9 +408,9 @@ export default class PostsList extends React.Component {
           <div>
             <a
               style={{ cursor: 'pointer' }}
-              onClick={e => {
+              onClick={(e) => {
                 e.preventDefault
-                this.setState(prevState => ({
+                this.setState((prevState) => ({
                   renderTags: !prevState.renderTags,
                 }))
               }}
@@ -419,7 +420,7 @@ export default class PostsList extends React.Component {
 
             {renderTags && (
               <div style={{ display: 'flex', flexFlow: 'row wrap' }}>
-                {Object.keys(allTags).map(item => (
+                {Object.keys(allTags).map((item) => (
                   <span
                     key={item}
                     data-filter={item}
@@ -444,9 +445,9 @@ export default class PostsList extends React.Component {
             <div style={{ marginTop: '1rem', marginBottom: '1rem' }}>
               <input
                 type="text"
-                onKeyDown={e => {
+                onKeyDown={(e) => {
                   if (e.keyCode === 27) {
-                    this.setState({ search: '' }, e => this.handleSearch(e))
+                    this.setState({ search: '' }, (e) => this.handleSearch(e))
                     // reset any query params from the page url
                     navigate(`${location.pathname}`)
                   }
@@ -486,7 +487,7 @@ export default class PostsList extends React.Component {
                 }
               })
             : currentFilter === 'byTag' && postsFilteredByTag
-            ? postsFilteredByTag.map(post => (
+            ? postsFilteredByTag.map((post) => (
                 <Post
                   key={post.node.id}
                   post={post}
@@ -497,7 +498,7 @@ export default class PostsList extends React.Component {
                   variant={this.props.postVariant}
                 />
               ))
-            : this.state[currentFilter].map(post => (
+            : this.state[currentFilter].map((post) => (
                 <Post
                   key={post.node.id}
                   post={post}

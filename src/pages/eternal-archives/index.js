@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import eternalArchivesMainImage from '../../images/eternal-archives-main.jpg'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import Layout from '../../components/structure/layout'
 
 const EternalArchivesPage = ({ data }) => (
