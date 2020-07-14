@@ -241,6 +241,10 @@ const allFeaturedGear = {
     title: 'GNB 4S 520mAh',
     link: 'https://bit.ly/gnb-4s-520mah',
   },
+  'gemfan-3016': {
+    title: 'GEMFAN 3016',
+    link: 'https://bit.ly/gemfan-3016',
+  },
 }
 
 const useFeaturedGear = () => {
@@ -262,7 +266,7 @@ const useFeaturedGear = () => {
 
   const featuredGear = {}
 
-  data.allFile.nodes.forEach(node => {
+  data.allFile.nodes.forEach((node) => {
     featuredGear[node.name] = {
       ...node,
       title: allFeaturedGear[node.name].title,
