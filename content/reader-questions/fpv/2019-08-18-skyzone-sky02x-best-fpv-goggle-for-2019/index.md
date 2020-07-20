@@ -4,6 +4,10 @@ articlePath: /fpv/skyzone-sky02x-best-fpv-goggles-for-2019/
 
 #### Reader Q & A:
 
+**"Add more goggles setup for the 02c instructions. Manual sucks."** - Anonymous
+
+> The setup of the 02c and 02x is largely the same. The only difference between the two being that the 02x has the front camera as well. I could put together a usage guide, but frankly there is a lot of content about it already on YouTube that goes through what each and every button does, so I would refer you there instead. Also just exploring the buttons goes a long way. In a nutshell, there are some mode select buttons on the left hand side, as well as the DVR record button and on the right hand side are the channel and band adjustment buttons (which is probably 90% of what you may care about on a daily basis).
+
 **"You missed changeable ratio 16:9 to 4:3"** - Anton
 
 > Good point! I did indeed yet that's a really nice feature to have. - Georgi
