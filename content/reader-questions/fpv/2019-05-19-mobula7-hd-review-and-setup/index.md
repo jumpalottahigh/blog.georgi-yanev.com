@@ -4,6 +4,12 @@ articlePath: /fpv/mobula7-hd-review-and-setup/
 
 #### Reader Q & A:
 
+**"hello there, 1stly I would like to say thanks for all of your articles. it give me an idea how to start with this hobby. and my question, can it fly slowly and stable at home ? any another option for the quad in 2020 ?"** - ardian
+
+> If you have the skills (and a bigger house :)) you can make the Mobula7 HD work indoors as well (or with some throttle limiting). However if indoors is your main focus, I strongly recommend looking into the [Mobula6](/fpv/mobula6-48khz-jesc-complete-setup-review/) or [Mobula6HD](https://bit.ly/mobula6-hd) instead. Great little crafts you can fly indoors and have tons of fun. - Georgi
+
+\*\*\*
+
 **"recommand PID tune, its unstable during a (building)dive"** - Annonymous
 
 > I'm not sure you can do enough with just PID tuning to improve prop wash on building dives. As much as I love the Mobula7 HD, I'm not convinced it's the right tool to the tall building dives. Either way, check out Project Mockingbird for optimal configuration. - Georgi

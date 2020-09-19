@@ -21,6 +21,39 @@ const usePromoBanner = (name = 'stripe') => {
         }
       }
 
+      bigStripe2: file(
+        relativePath: { regex: "/^promo/banggood-big-stripe-2/" }
+      ) {
+        name
+        childImageSharp {
+          fluid(maxWidth: 500, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+
+      bigStripe3: file(
+        relativePath: { regex: "/^promo/banggood-big-stripe-3/" }
+      ) {
+        name
+        childImageSharp {
+          fluid(maxWidth: 500, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+
+      bigStripe4: file(
+        relativePath: { regex: "/^promo/banggood-big-stripe-4/" }
+      ) {
+        name
+        childImageSharp {
+          fluid(maxWidth: 720, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+
       stripe2: file(relativePath: { regex: "/^promo/banggood-stripe-2/" }) {
         name
         childImageSharp {
@@ -43,6 +76,15 @@ const usePromoBanner = (name = 'stripe') => {
         name
         childImageSharp {
           fluid(maxWidth: 970, quality: 81) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+
+      stripe5: file(relativePath: { regex: "/^promo/banggood-stripe-5/" }) {
+        name
+        childImageSharp {
+          fluid(maxWidth: 1479, quality: 81) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }

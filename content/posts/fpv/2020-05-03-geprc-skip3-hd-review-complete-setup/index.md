@@ -1,7 +1,7 @@
 ---
 path: '/fpv/geprc-skip3-hd-review-complete-setup/'
 date: '2020-05-03'
-updated: '2020-05-09'
+updated: '2020-07-14'
 title: 'GEPRC Skip3 HD: Max performance HD toothpick drone'
 author: 'Georgi Yanev'
 draft: false
@@ -17,6 +17,7 @@ tags:
 gearList:
   - 'skip3-hd'
   - 'gnb-4s-520'
+  - 'gemfan-3016'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'fpv, drone, freestyle, fpv freestyle, fpv drone, quad, quadcopter, micro drone, micro quad, tinywhoop, skip3, skip3 hd, geprc, geprc skip3 hd, geprc skip3, toothpick, cinewhoop, geprc toothpick, geprc hd toothpick'
 ogDescription: "I've been looking forward to this review for a while. My current main search and passion is to find a performing, HD cinewhoop that flies like a toothpick. And the short of it is, that I think I found it, and that's why I'm going to be reviewing, setting up and flying the GEPRC Skip3 HD"
@@ -38,6 +39,7 @@ So the obvious question was **"can we have that performance but also enjoy a 108
 - [⚙ Setup](#setup)
 - [🚁 Flying](#flying)
 - [📑 Conclusion](#conclusion)
+- [🕔 Post evaluation](#post-evaluation)
 
 If you prefer watching, check out the full video review on my YouTube channel:
 
@@ -347,6 +349,18 @@ I did have something bizarre happen twice. **When I plugged in the quad but did 
 
 Happy flying!
 
+### <span id="post-evaluation" class="offset-top-nav">🕔 Post Evaluation</span>
+
+After having flown this quad for a few months I'm still pretty happy with it overall. I have no upgrade ideas, but I did want to come back and share with you about the [Gemfan 3016 tri-blade props][8]. They were recommened to me by a viewer on my YouTube channel and I have to admit they deliver.
+
+**Bare in mind, running tri-blade props would increase the risk of burning a motor, so if you decide to go for it, do it at your own risk. I want to make that clear and I do not want to endorse doing this if you're not up for the damage you could cause to your quad.**
+
+With that out of the way, I'd say for now, I'm really, really happy how the drone flies with those props. Just going from 2.5 to 3 inch makes a big difference in terms of raw performance, but at the same time the Gemfan 3016 props handle just as easy as the Avon Rush. Big fan.
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/qybXkoGLitw?rel=0" frameBorder="0" allowFullScreen title="GEPRC SkipHD 3 with GEMFAN 3016 tri-blade props"></iframe>
+</div>
+
 [0]: Linkslist
 [1]: https://bit.ly/geprc-skip3-hd
 [2]: https://bit.ly/mobula7-hd
@@ -355,3 +369,4 @@ Happy flying!
 [5]: https://bit.ly/gnb-4s-520mah
 [6]: https://bit.ly/geprc-cinepro-4k
 [7]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
+[8]: https://bit.ly/gemfan-3016

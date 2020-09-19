@@ -41,8 +41,10 @@ class BlogPostTemplate extends React.Component {
     // Affiliate banners
     let showBanner = false
     const affiliateParam = 'p=NY211410857261201705'
-    const bannerLink = `https://www.banggood.com/marketing-Banggood-2019-RC-Toys-Brands-Day/tid-4950.html?bid=21149&${affiliateParam}`
-    const bannerLinkBottom = `https://www.banggood.com/Flashdeals.html?${affiliateParam}`
+    // const bannerLink = `https://www.banggood.com/marketing-Banggood-2019-RC-Toys-Brands-Day/tid-4950.html?bid=21149&${affiliateParam}`
+    const bannerLink = `https://www.banggood.com/marketing-summer-prime-sale-2020-rc-toys-deals/tid-9608.html?utmid=14039&utm_design=74&${affiliateParam}`
+    // const bannerLinkBottom = `https://www.banggood.com/Flashdeals.html?${affiliateParam}`
+    const bannerLinkBottom = `https://www.banggood.com/marketing-summer-prime-sale-2020-rc-toys-deals/tid-9608.html?utmid=14039&utm_design=74&${affiliateParam}`
 
     if (post.frontmatter.category === 'fpv') {
       showBanner = true
@@ -180,14 +182,14 @@ class BlogPostTemplate extends React.Component {
               </div>
             </div>
             {showBanner && (
-              <PromoBanner linkTo={bannerLink} imageName="stripe4" />
+              <PromoBanner linkTo={bannerLink} imageName="stripe5" />
             )}
             <div
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             <FeaturedGear gearList={post.frontmatter.gearList} />
-            <PromoBanner linkTo={bannerLink} imageName="stripe4" />
+            <PromoBanner linkTo={bannerLink} imageName="stripe5" />
             <FeedbackSection />
             <AskAQuestion />
             <RelatedArticles
@@ -203,7 +205,7 @@ class BlogPostTemplate extends React.Component {
             {/* <Giveaway /> */}
             <YouTubeChannelsPromo text="Need even more FPV in your life? Check out my YouTube channels:" />
             <TinyLetterSignup />
-            <PromoBanner linkTo={bannerLinkBottom} imageName="bigStripe" />
+            <PromoBanner linkTo={bannerLinkBottom} imageName="bigStripe3" />
           </div>
         </div>
       </Layout>

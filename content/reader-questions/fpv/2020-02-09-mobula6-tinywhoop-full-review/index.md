@@ -4,6 +4,12 @@ articlePath: /fpv/mobula6-48khz-jesc-complete-setup-review/
 
 #### Reader Q & A:
 
+**"When you upgrade to Betaflight 4.1, do you change the PIDs or use the stock from the early version?"** - Annonymous
+
+> I haven't upgraded it to BF 4.1. Mine was still running on the stock 3.5.7 (at least until I set up Emuflight on it). I would assume though that you would need to tweak the PIDs if moving to 4.1. Perhaps the Mobula 6 FB group is a good place to start searching for more resources.
+
+\*\*\*
+
 **"Hi, I can see you have a great video feed flying indoors. What google are you using? What Vtx module do you have? What antennas do you use?"** - arield
 
 > Hi, arield. My goggles are the [Skyzone 02X](https://bit.ly/skyzone-02x) goggles and here is the [full review](/fpv/skyzone-sky02x-best-fpv-goggles-for-2019/) you can check for more info. I really like them and have been using them for almost an year now. They have a built-in receiver.

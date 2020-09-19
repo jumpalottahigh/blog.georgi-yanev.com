@@ -4,6 +4,12 @@ articlePath: /fpv/geprc-cinepro-4k-cinewhoop-review/
 
 #### Reader Q & A:
 
+**"Hi there. Have You tried to set up an RPM filter on this quad? If so what’s your opinion, and what firmware version have You usedfor the ESCs?"** - P
+
+> I haven't done anything RPM filter related on this quad, so sorry I can't be of help with that particular topic. - Georgi
+
+\*\*\*
+
 **"Hi, do you have eu version of the frsky radio?"** - Libor
 
 > I'm currently using FCC, I have used LBT (eu) previously too. Perhaps this can help with [some information on how to switch](/fpv/set-up-taranis-x-lite-update-opentx/#update) if you need to.
