@@ -245,6 +245,10 @@ const allFeaturedGear = {
     title: 'GEMFAN 3016',
     link: 'https://bit.ly/gemfan-3016',
   },
+  'iflight-nazgul5': {
+    title: 'iFlight Nazgul5',
+    link: 'https://bit.ly/iflight-nazgul5',
+  },
 }
 
 const useFeaturedGear = () => {
