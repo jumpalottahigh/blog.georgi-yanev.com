@@ -688,10 +688,6 @@ pre tt:after {
   color: #0175d8;
 }
 
-.sidenav a:hover {
-  font-weight: 700;
-}
-
 .sidenav-category {
   color: #000 !important;
 }

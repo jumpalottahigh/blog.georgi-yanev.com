@@ -4,9 +4,21 @@ articlePath: /fpv/mobula6-48khz-jesc-complete-setup-review/
 
 #### Reader Q & A:
 
+**"Can you please show me how i upgrade my Mobula6 to Betaflight 4.2?"** - itz_dxve
+
+> Sure, it's a great suggestion, I'll post something as soon as I have it available - Georgi
+
+\*\*\*
+
+**"Did you find that Jesc 48Khz and RPM filters made the throttle feel a bit "mushy"? Other than that it seems to fly better than before."** - Alex in Montana
+
+> Hmm, I haven't felt anything like that, but personally I'm just not a fan of emuflight's yaw authoritive turns (which has nothing to do with jesc or filters, but I guess somewhat related 😅) - Georgi
+
+\*\*\*
+
 **"When you upgrade to Betaflight 4.1, do you change the PIDs or use the stock from the early version?"** - Annonymous
 
-> I haven't upgraded it to BF 4.1. Mine was still running on the stock 3.5.7 (at least until I set up Emuflight on it). I would assume though that you would need to tweak the PIDs if moving to 4.1. Perhaps the Mobula 6 FB group is a good place to start searching for more resources.
+> I haven't upgraded it to BF 4.1. Mine was still running on the stock 3.5.7 (at least until I set up Emuflight on it). I would assume though that you would need to tweak the PIDs if moving to 4.1. Perhaps the Mobula 6 FB group is a good place to start searching for more resources - Georgi
 
 \*\*\*
 
