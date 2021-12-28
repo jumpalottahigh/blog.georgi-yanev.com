@@ -87,7 +87,7 @@ const FPVVideos = () => {
           </a>
         </h2>
         <Grid>
-          {georgiFpv.nodes.map(video => (
+          {georgiFpv.nodes.map((video) => (
             <Fade key={video.id}>
               <VideoContainer>
                 <h5>{video.title}</h5>

@@ -89,7 +89,7 @@ const FPVtipsVideos = () => {
           </a>
         </h2>
         <Grid>
-          {fpvtips.nodes.map(video => (
+          {fpvtips.nodes.map((video) => (
             <Fade key={video.id}>
               <VideoContainer>
                 <a

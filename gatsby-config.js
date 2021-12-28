@@ -120,7 +120,7 @@ module.exports = {
     //   },
     // },
     {
-      resolve: `gatsby-source-youtube-v2`,
+      resolve: `gatsby-source-youtube-v3`,
       options: {
         channelId: ['UCCh3SK2EktDdOQkEOTDmSCg', 'UC2gwYMcfb0Oz_fl9W1uTV2Q'],
         apiKey: process.env.YOUTUBE_API_KEY,
@@ -133,7 +133,7 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
+              return allMarkdownRemark.edges.map((edge) => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   url:
