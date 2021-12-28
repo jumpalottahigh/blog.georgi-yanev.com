@@ -245,6 +245,10 @@ const allFeaturedGear = {
     title: 'GEMFAN 3016',
     link: 'https://bit.ly/gemfan-3016',
   },
+  'fimi-a3': {
+    title: 'FIMI A3',
+    link: 'https://bit.ly/fimi-a3-drone',
+  },
 }
 
 const useFeaturedGear = () => {
