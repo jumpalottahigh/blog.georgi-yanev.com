@@ -16,7 +16,8 @@ ogDescription: 'In this article, we take a look at the FIMI A3 camera platform d
 ogImage: './fimi-a3-4.jpg'
 ---
 
-TODO: intro
+I'm not one with a lot of experience in camera platform drones, since most of my time in the hobby has been spent in thinkering with FPV quadcopters.
+But I recently had the chance to take a look at the [FIMI A3][1] drone and decided to check it out.
 
 ### Table of contents
 
@@ -27,21 +28,40 @@ TODO: intro
 
 ### <span id="unboxing" class="offset-top-nav">📦 Unboxing</span>
 
-TODO: unboxing
+Let's take a look at what you get in the box.
 
-![FIMI A3](fimi-a3-1.jpg)
-![FIMI A3](fimi-a3-2.jpg)
-![FIMI A3](fimi-a3-3.jpg)
-![FIMI A3](fimi-a3-4.jpg)
-![FIMI A3](fimi-a3-5.jpg)
-![FIMI A3](fimi-a3-6.jpg)
-![FIMI A3](fimi-a3-7.jpg)
-![FIMI A3](fimi-a3-8.jpg)
-![FIMI A3](fimi-a3-9.jpg)
-![FIMI A3](fimi-a3-10.jpg)
-![FIMI A3](fimi-a3-11.jpg)
+![FIMI A3 box](fimi-a3-1.jpg)
+
+![FIMI A3 inside the box](fimi-a3-3.jpg)
+
+Of course you get the drone itself.
+
+![FIMI A3 drone](fimi-a3-4.jpg)
+
+![FIMI A3 bottom shot](fimi-a3-11.jpg)
+
+A battery charger, a battery for the drone, USB cables for connecting the controller to a computer and propellers.
+
+![FIMI A3 accessories](fimi-a3-5.jpg)
+
+Additionally we also get the controller for the drone.
+
+![FIMI A3 drone controller](fimi-a3-7.jpg)
+
+![FIMI A3 drone controller back shot](fimi-a3-8.jpg)
 
 ### <span id="setup" class="offset-top-nav">⚙️ Setting up the FIMI A3</span>
+
+I'm no expert when it comes down to camera platform drones but from my time with the FIMI A3, it seems the setup is pretty straight forward.
+
+You should charge up the battery and the controller and then install the propellers.
+
+You can also install a couple of SD cards in the drone and the controller in order to record both the
+HD footage and the FPV feed if you so desire.
+
+![FIMI A3](fimi-a3-10.jpg)
+
+Next we need to install the battery and we're pretty much ready to hit the field.
 
 TODO: setup
 
