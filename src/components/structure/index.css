@@ -1236,6 +1236,18 @@ button {
   box-shadow: inset 0 -28px 0px 0px #0175d8;
 }
 
+.blog-post-content .highlight-success {
+  background-color: #dff0d8;
+}
+
+.blog-post-content .highlight-warning {
+  background-color: #fbeb95;
+}
+
+.blog-post-content .highlight-danger {
+  background-color: #f9a5a5;
+}
+
 .support-section {
   padding: 1rem 0;
   border-top: 1px solid #cecece;

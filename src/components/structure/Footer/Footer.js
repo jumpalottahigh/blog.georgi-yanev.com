@@ -75,7 +75,7 @@ const Footer = () => {
       <h5>
         Copyright &copy; 2017-{new Date().getFullYear()} Georgi Yanev.
         <br />
-        Dedicated to Sofi and Anton{' '}
+        Dedicated to Anton{' '}
         <span role="img" aria-label="heart">
           ❤️
         </span>
