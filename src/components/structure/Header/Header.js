@@ -7,6 +7,7 @@ import Hamburger from './Hamburger'
 import SocialIcons from './SocialIcons'
 import DropDown from './DropDown'
 import TagPool from '../../TagPool'
+import logo from '../../../assets/pages/logo.svg'
 
 const AppBarWrapper = styled.nav`
   display: flex;
@@ -36,23 +37,6 @@ const AppBarWrapper = styled.nav`
 `
 
 const Header = () => {
-  const { logo } = useStaticQuery(graphql`
-    query Header {
-      logo: allFile(filter: { relativePath: { regex: "/^logo/" } }) {
-        edges {
-          node {
-            name
-            childImageSharp {
-              fluid(maxWidth: 56, quality: 75) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-      }
-    }
-  `)
-
   const activeStyle = {
     color: '#0175d8',
   }
@@ -97,16 +81,7 @@ const Header = () => {
               fontSize: '1rem',
             }}
           >
-            <Img
-              fluid={logo.edges[0].node.childImageSharp.fluid}
-              alt="Georgi's Blog"
-              style={{
-                height: '56px',
-                width: '56px',
-                marginBottom: '0',
-                marginRight: '.5rem',
-              }}
-            />
+            <img src={logo} alt="Georgi Yanev" style={{ height: '56px' }} />
           </h1>
         </Link>
 

@@ -24,7 +24,7 @@ class BlogIndex extends React.Component {
     loadVideo: true,
   }
 
-  handleVideoClick = e => {
+  handleVideoClick = (e) => {
     e.target.pause()
     e.target.currentTime = 0
     e.target.load()
