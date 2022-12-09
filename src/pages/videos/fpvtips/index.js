@@ -61,20 +61,20 @@ const VideoContainer = styled.div`
 `
 
 const FPVtipsVideos = () => {
-  const { fpvtips } = useStaticQuery(graphql`
-    {
-      fpvtips: allYoutubeVideo(
-        filter: { channelId: { eq: "UCCh3SK2EktDdOQkEOTDmSCg" } }
-      ) {
-        nodes {
-          id
-          title
-          videoId
-          publishedAt(formatString: "MMM DD YYYY")
-        }
-      }
-    }
-  `)
+  // const { fpvtips } = useStaticQuery(graphql`
+  //   {
+  //     fpvtips: allYoutubeVideo(
+  //       filter: { channelId: { eq: "UCCh3SK2EktDdOQkEOTDmSCg" } }
+  //     ) {
+  //       nodes {
+  //         id
+  //         title
+  //         videoId
+  //         publishedAt(formatString: "MMM DD YYYY")
+  //       }
+  //     }
+  //   }
+  // `)
 
   return (
     <Layout>
@@ -89,7 +89,7 @@ const FPVtipsVideos = () => {
           </a>
         </h2>
         <Grid>
-          {fpvtips.nodes.map((video) => (
+          {/* {fpvtips.nodes.map((video) => (
             <Fade key={video.id}>
               <VideoContainer>
                 <a
@@ -108,7 +108,7 @@ const FPVtipsVideos = () => {
                 <time dateTime={video.publishedAt}>{video.publishedAt}</time>
               </VideoContainer>
             </Fade>
-          ))}
+          ))} */}
         </Grid>
       </Section>
     </Layout>
