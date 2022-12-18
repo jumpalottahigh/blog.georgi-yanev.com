@@ -21,7 +21,7 @@ ogImage: './setup-taranis-qx7-0.jpg'
 ---
 
 <div class="article-update-notification">
-  I recently started a YouTube channel called <strong><a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg" target="_blank" rel="noopener noreferrer">FPVTIPS</a></strong> to do much of what I'm doing on this blog - try to help people new to FPV. <strong><a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg" target="_blank" rel="noopener noreferrer">Come check it out!</a></strong>
+  I recently started a YouTube channel called <strong><a href="https://www.youtube.com/@FPVtips" target="_blank" rel="noopener noreferrer">FPVTIPS</a></strong> to do much of what I'm doing on this blog - try to help people new to FPV. <strong><a href="https://www.youtube.com/@FPVtips" target="_blank" rel="noopener noreferrer">Come check it out!</a></strong>
 </div>
 
 I recently upgraded to a [Taranis Q X7][7] and after doing the initial setup I decided to sum up some of the main points in a helpful post. Much of the information gathered here was heavily influenced from Project Blue Falcon's [excellent video series on YouTube][8]. I hope this write up helps you breeze through the configuration and gets you flying in no time!

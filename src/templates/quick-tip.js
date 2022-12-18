@@ -119,7 +119,7 @@ class QuickTipTemplate extends React.Component {
               <div>
                 <div className="disclaimer">
                   <a
-                    href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q"
+                    href="https://www.youtube.com/@GeorgiFPV"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

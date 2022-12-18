@@ -216,8 +216,8 @@ I'm looking forward to so many things in 2020 and I hope you too. Cheers, and en
 [7]: https://www.amazon.com/Supermarket-Bobby-Hall/dp/1982127139
 [8]: /fpv/getting-started-with-fpv-drones/
 [9]: /fpv/unbox-review-setup-eachine-trashcan/
-[10]: https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q
-[11]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
+[10]: https://www.youtube.com/@GeorgiFPV
+[11]: https://www.youtube.com/@FPVtips
 [12]: https://twitter.com/fpvtips
 [13]: https://www.instagram.com/fpvtips/
 [14]: https://www.facebook.com/fpvtips/

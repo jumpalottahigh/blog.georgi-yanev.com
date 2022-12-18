@@ -52,7 +52,7 @@ Check out my [full RunCam 5 review, setup and video processing tips](/fpv/runcam
 Each month we take a look at a couple of channels worth following. A well established, popular channel in the FPV world and an up and coming channel.
 
 - Popular channel: [Joshua Bardwell](https://www.youtube.com/user/loraan/videos)
-- Up and coming channel: [FPVTIPS](https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg/videos)
+- Up and coming channel: [FPVTIPS](https://www.youtube.com/@FPVtips/videos)
 
 Enjoy and happy flying!
 Georgi

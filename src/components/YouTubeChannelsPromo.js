@@ -50,7 +50,7 @@ const YouTubeChannelsPromo = ({ text, ...rest }) => {
       <h3>{text}</h3>
       <StyledYouTubeChannelsPromo>
         <a
-          href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+          href="https://www.youtube.com/@FPVtips"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -64,7 +64,7 @@ const YouTubeChannelsPromo = ({ text, ...rest }) => {
           style={{
             marginTop: '2rem',
           }}
-          href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q"
+          href="https://www.youtube.com/@GeorgiFPV"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -17,7 +17,7 @@ ogImage: './make-a-smoke-stopper-9.jpg'
 ---
 
 <div class="article-update-notification">
-  I recently started a YouTube channel called <strong><a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg" target="_blank" rel="noopener noreferrer">FPVTIPS</a></strong> to do much of what I'm doing on this blog - try to help people new to FPV. <strong><a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg" target="_blank" rel="noopener noreferrer">Come check it out!</a></strong>
+  I recently started a YouTube channel called <strong><a href="https://www.youtube.com/@FPVtips" target="_blank" rel="noopener noreferrer">FPVTIPS</a></strong> to do much of what I'm doing on this blog - try to help people new to FPV. <strong><a href="https://www.youtube.com/@FPVtips" target="_blank" rel="noopener noreferrer">Come check it out!</a></strong>
 </div>
 
 A smoke stopper can save your quad many times. In a nutshell what it does is it acts as a load between your battery and your quad. In the case of a short, the light bulb goes on and your board, escs and motors are safe. Nifty!

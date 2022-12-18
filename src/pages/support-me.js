@@ -54,7 +54,7 @@ const SupportMePage = () => {
           <h2>
             1.{' '}
             <a
-              href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+              href="https://www.youtube.com/@FPVtips"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -129,7 +129,7 @@ const SupportMePage = () => {
           <h2>
             5.{' '}
             <a
-              href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q"
+              href="https://www.youtube.com/@GeorgiFPV"
               target="_blank"
               rel="noopener noreferrer"
             >

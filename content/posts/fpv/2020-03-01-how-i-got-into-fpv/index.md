@@ -108,4 +108,4 @@ If you're curious to learn more, have a look at [what's in my FPV backpack and w
 [12]: https://www.liftoff-game.com/
 [13]: https://thedroneracingleague.com/
 [14]: https://dcl.aero/
-[15]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg/
+[15]: https://www.youtube.com/@FPVtips/

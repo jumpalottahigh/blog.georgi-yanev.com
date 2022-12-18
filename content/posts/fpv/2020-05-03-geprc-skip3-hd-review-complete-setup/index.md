@@ -368,5 +368,5 @@ With that out of the way, I'd say for now, I'm really, really happy how the dron
 [4]: https://bit.ly/tinyhawk-freestyle
 [5]: https://bit.ly/gnb-4s-520mah
 [6]: https://bit.ly/geprc-cinepro-4k
-[7]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
+[7]: https://www.youtube.com/@FPVtips
 [8]: https://bit.ly/gemfan-3016

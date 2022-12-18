@@ -350,4 +350,4 @@ In which case I'd like to remind you that you could support the blog by clicking
 [14]: https://bit.ly/runcam-split-mini-2
 [15]: https://bit.ly/caddx-turtle-v2
 [16]: https://tinyletter.com/jumpalottahigh
-[17]: https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q
+[17]: https://www.youtube.com/@GeorgiFPV

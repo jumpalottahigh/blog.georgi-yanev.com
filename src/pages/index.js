@@ -56,7 +56,7 @@ class BlogIndex extends React.Component {
                 <div className="short-content-inner-container">
                   <FpvtipsLogo
                     className="no-shadow"
-                    href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+                    href="https://www.youtube.com/@FPVtips"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -65,7 +65,7 @@ class BlogIndex extends React.Component {
                   <h4>
                     It's been 6 months since the launch of the{' '}
                     <a
-                      href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+                      href="https://www.youtube.com/@FPVtips"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

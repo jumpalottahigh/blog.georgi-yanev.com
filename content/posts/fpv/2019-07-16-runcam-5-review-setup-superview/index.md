@@ -295,7 +295,7 @@ If you are still with me, thanks for reading all of that. I tried to make it int
 [1]: https://bit.ly/runcam--5
 [2]: https://www.runcam.com/download/runcam5/RunCam5-Manual-EN.pdf
 [3]: https://bit.ly/runcam-split2s
-[4]: https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q
+[4]: https://www.youtube.com/@GeorgiFPV
 [5]: https://bit.ly/runcam5-mount
 [6]: https://notepad-plus-plus.org/download/v7.7.1.html
 [7]: https://code.visualstudio.com/
