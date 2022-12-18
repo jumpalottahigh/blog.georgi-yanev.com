@@ -11,11 +11,11 @@ tags:
   - 'story'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'growth mindset, learning, evolving, developing, studying, improvement, goal list, progress, taking a look back, looking ahead, 2017, 2018, 2019, 2020, software development, software engineering, making youtube videos, youtube, fpvtips, starting a youtube channel, electron, nodejs, fpv, fly fpv, google developer challenge scholarship, web dev, blog, passion, grow, twitter, twitch, public speaking, speaking, gatsby, react, GitHub, constant learning, life-long learning, fpvtips.com, community, netlify, nanowrimo, product, ship, launch, brand, branding, education, produce video, youtube tutorial, egghead.io tutorial, breakup, personal growth, mental health, mental wellbeing'
-ogDescription: 'TODO:'
+ogDescription: "A friend of mine called this year 'The Year of G' and I like it. It fits very well for what this year has been about, so I'm gonna use that as the main title for this post. I frequently admit how much I enjoy these retrospective look backs, because it's just so easy to forget so many little details that drastically change the big picture combined together. Even now, thinking back and reflecting on the past 12 months, I thought I remembered most details, but just looking through some pictures from about a year ago made me realise a whole eternity of time has passed and so many things have changed for the better."
 ogImage: './my-2022-year-in-review-1.png'
 ---
 
-### The year of G
+### "The year of G"
 
 A friend of mine called this year "The Year of G" and I like it. It fits very well for what this year has been about, so I'm gonna use that as the main title for this post.
 I frequently admit how much I enjoy these retrospective look backs, because it's just so easy to forget so many little details that drastically change the big picture combined together. Even now, thinking back and reflecting on the past 12 months, I thought I remembered most details, but just looking through some pictures from about a year ago made me realise a whole eternity of time has passed and so many things have changed for the better.
@@ -105,60 +105,101 @@ I've not gone into some weird "anarchistic dystopian life doesn't matter" logic.
 
 I did do about 6 months of weekly therapy sessions with a professional shrink. I like to think it was beneficial. For the most part, it was a way to share and dig deeper into things and just learn more about myself with various exercises we did. It's hard to put it in a few words, and while I do believe it was beneficial, I can easily say that other things did way more for me and changed my interpretation of life and things a lot more (for example CrossFit). Therapy, I really mostly did to a huge degree for the experience of it and to see what it's like and how it would go. I'd still recommend it if you can afford it, but I also wouldn't sweat it if you can't do it.
 
-#### 🙏 Acceptance
-
-TODO:
-
 #### ☯️ Duality & Balance
 
-A big topic this year was also duality and balance. Duality was felt most prominent when after May 2022 we changed the schedule with Anton to be 1 week on and 1 week off. Up to that point we were still changing up every few days. I was a bit worried about this one, but it seemed to have worked pretty well. I don't enjoy not being able to see him a whole week at a time, but I keep reminding myself that he needs his mom too of course. It is a bit sad at times for sure for me, but as said, he seems to be doing well, so you try to learn to go with it. That duality was most pronounced in exactly this weekly split where 1 week you are a proud parent and that feels familiar, you know what to do, what chores to handle, what things to do together, the cooking, the family time and so on. Then you have the complete opposite, the single, childless week where you can do anything else. I've learnt to appreciate both, especially thanks to CrossFit, I do 4-6 work outs on the "free" weeks, cause anyway I can't do as much on the weeks when Anton is at home. I believe that this split also creates some weird form of a positive balance and diversity, while also maintaining the solid bi-weekly schedule. I don't know, maybe it's a placebo, but it seems to work and you get used to it after a while.
-
-TODO:
+A big topic this year was also duality and balance. Duality was felt most prominently when after May 2022 we changed the schedule with Anton to be 1 week on and 1 week off. Up to that point we were still changing up every few days. I was a bit worried about this one, but it seemed to have worked pretty well. I don't enjoy not being able to see him a whole week at a time, but I keep reminding myself that he needs his mom too of course. It is a bit sad at times for sure for me, but as said, he seems to be doing well, so you try to learn to go with it. That duality was most pronounced in exactly this weekly split where 1 week you are a proud parent and that feels familiar, you know what to do, what chores to handle, what things to do together, the cooking, the family time and so on. Then you have the complete opposite, the single, childless week where you can do anything else. I've learnt to appreciate both, especially thanks to CrossFit, I do 4-6 work outs on the "free" weeks, cause anyway I can't do as much on the weeks when Anton is at home. I believe that this split also creates some weird form of a positive balance and diversity, while also maintaining the solid bi-weekly schedule. I don't know, maybe it's a placebo, but it seems to work and you get used to it after a while.
 
 #### 📈 My success stories
 
-TODO:
+I think it's important to recognise and remind yourself of the things you do well and are happy with how you handle them. This should provide a positive feedback and reinforce your life choices and decisions. Here are some of the things I think I do well:
 
-TODO:
+Trying my best to be the best dad possible to Anton, working out and generally being very good at maintaining positive habbits, nearly quitting drinking completely (and might literally do so in the very near future), not relapsing back into smoking, being content, juggling work, parenthood and personal life, actually starting to eat a lot of fruit regularly this year, cutting out a lot of sugars from my diet this year, higher protein intake and overall better macros, focusing more on what I WANT, having fun times out and partying, completing my Master's degree.
 
-TODO:
+I'm good at not staring at my phone much and especially in social situations. I don't drink soda or have cravings for it, I nearly quit drinking beer since August. House maintenance - stocking up on food, detergents, things have specific places, shopping lists are easy and clear to do. I've been ordering no food take out since August, and we've gone to no Burger King or McDonalds since.
 
-TODO:
+#### 🏰 London baby!
+
+I loved that whole thing - from casually talking about it and it being a vague idea, to actually making it happen. It was nice to see many of the peeps we've been playing with online and chat and party together. I honestly had a blast!
+Of course it was great to travel and visit London for the first time, I am a fan, definitely enjoyed that, especially at that time just the feeling of being somewhere where English is the main language, not having to constantly think and decypher stuff. It's just such a nice feeling. And despite this being just a 4 day trip, I'm definitely "hungry for more" and want to include more trips next year, destinations to be decided.
+
+#### 🌊 Bulgaria trip
+
+Going into the Bulgarian trip with little to no expectations, catching up with an old friend and literally ending up in quite literally the best party of my life on the first night there, wow...
+
+Then and there I knew that would be very hard to top and who knows when it actually would be topped. I can say now, in the end of the year, after having been at the Helsinki Friends party at the 8 Bit Brewing in Espoo, with that lovely bunch of people I met there, that was fun too, but still didn't top the Bulgarian summer party.
+
+It's simple - so many things clicked perfectly together. I was in my homeland, I was at the beautiful sea, at the beach, the weather was awesome, the vibe was there, the people were friendly and fun, one of my oldest and best friends was there, we had some casual drinks to begin with, there was a bonfire on the beach, the music was this perfect mix between 90s, hip hop, 2000s, r&b, new music - spanish and afrika songs, just freaking awesome.
+
+Had plenty of drinks, relaxed, danced and enjoyed the vibe throughout the whole night on another level.
+
+It was so nice to swim in the sea 💙 too once again. And of course once we got to Plovdiv, spent there a number of days, catching up with more friends and just chilling, or in Bulgarian "ailyak" 😁.
 
 #### 🥑 Health
 
-TODO:
+So after 2 years of not getting the good ol' Covid-19, I finally got it when I left the UK. Started sneezing in the plane on the way home to Helsinki, and sure enough, testing for it after I got home it was positive for the first time. I did have the 3 vaccination shots and my covid was rediculously easy. Literally a bit of muscle craps for 2 days, and I was mostly all fine and dandy soon enough after. It did take almost 10 days to get a negative test, and I did loose my smell sense. I noticed cause when I would open the dishwater tablets bag, which normally smell pretty strongly, I smelled nothing. At some point after the smell sense came back. All in all, pretty easy on me, and I'm very happy for it.
+
+What I'm not happy with is the bald spot on my head at the top so I should explore options what to do about that.
+
+All in all, I've felt very healthy this year and the few times a minor cold would start creeping up on me, eating foods with garlic, onion, ginger, lemon and honey really seem to help out in those early stages, on tops of me already taking supplements like Athletic Greens (which I started in March and continue to this day).
+
+I also lately started taking some extra magnesium every so often and a bit of extra zinc on a less regular basis.
+
+Feeling better physically has manivested in a lot of ways, but especially two come to mind - where previously I used to start breathing a bit heavily after 2 flights of stairs, I noticed a few months into working out I was no longer doing that. Additionally, things like lower back pain etc., completely gone - for example bending over to pick up something and noticing how my body doesn’t hurt. I’ve never had a huge problem with that in the first place, but I can definitely notice the improvement. This is especially important if you work long hours at the computer. I've as always alternated standing and sitting, but still with working out, lower back pain is out of the window.
+
+It was also pretty remarkable to me the few times we had to run some longer distances at the gym as a park of a workout, for example 3 x 800m in between other exercises or during the competition in November the 2.5km run. That alone would have been unthinkable previously, but I'm happy I managed and I did so at a decent pace.
+
+**Might sound a bit like a cliche but it's true - I've never felt better physically in my entire life.**
+
+#### 🧑🏻‍🤝‍🧑🏼 People
+
+I'm happy to have met and connected with the following people this year (listed randomly, in no particular order): Era, Mitko, Kalina, Stenli, July, Random people at the Bulgarian beach party, CrossFit gym people, Charli, Milan, Matt, Mari, Mari the designer from work, Eelis, Roope, Olli, Hannu, Jouni, JP, Annina, Minna, other designer folks from work, Henna, Nathan, Amalia, and other folks from Helsinki Friends, Krasi, Niina, Emily, Liam, Lyudmil, Robert, Ruth, and everyone else from the London meet up, Marine, Frida, Christian. As always this is not about quantity, but quality and it has been awesome to share moments and stories with many of you. Makes me trully happy!
+
+#### 🐉 Adventure and random stuff
+
+Having to do random unplanned and planned stuff is definitely fun and worth mentioning. Some of those that I loved doing this year include:
+
+Signing up Anton for his first sports practice - starting football in April - June. That was a lot of fun, and we did a 2nd round of it in August - September. It was amazing to see him have fun, but also to see him make so much progress - from being able to run less in the beginning to being able to run a lot more and more comfortably later on. Absolutely amazing!
+
+I'm not gonna list all the stuff we've done, but we've tried many things from hanging out on the sunny balcony and painting, to "camping" there, to being out in the snow, being out in the sun, going to the local park and playing, going out to swimming pools in the summer and winter, his swimming classes this autumn, reading tons of encyclopedias, going to play table tennis together, playing some games together like Minecraft and Heroes of Might and Magic 3, watching football matches together.
+
+Deciding to buy a ticket and randomly go to Helsinki Synthcity and to the Helsinki Friends Christmas party was absolutely the right call and a lot of fun and very worth it. Same with the London and Bulgaria trip. And same with meeting Manol and Olya and playing table tennis.
 
 ### 2️⃣0️⃣2️⃣3️⃣
 
-TODO: write the goal setting paragraph for 2023
+So that's all fine and dandy and I'm very grateful for this past year, but what about the future going forward?
+
+Well, somehow, this past week I've ended up in a situation of moving apartments again. It was something I knew I had to do at some point, but it's funny how all of a sudden it became a thing of "ok, now we do this". I hope it works out for the best and smoothly as it's still a work in progress, but the underlying idea is to move closer to my son's future school, so back to "South Hill, city of the elderly" 😂 (lil inside joke tangentially connected with my book). The other main point is to fix my monthly budget. What started as me keeping track on a monthly basis of my financials over the past year, has offered a lot of insight, and long story short, I pay waaaaay too much money for the current apartment which basically means I'm on a roughly -350e per month budget, and while I can support that for a few years, it's very demotivating to think that just living life normally, and despite other very good efforts to not spend money on pointless stuff, you're still on a negative monthly budget. **So, now we're moving.**
+
+Below is the list of major and minor goals for 2023
 
 ### ⬜ Major goals:
 
+- Improve the monthly budget to a neutral or positive state
+- Move to live closer to son's preschool and future school
+- Become full stack - create 6 new projects
+- Join a latin dance class
+- Create / join communities - people to hang out with similar interests, language, hobbies, w/e
+- Embrace discomfort head on
+- Travel to Spain
+- Travel to ?
+
 TODO: WIP
-
-- language and communication - express easily, advanced words, easily understood,
-- Full embrace- dive head first into all things I don’t like and do them anyway
-- Control your emotions (in many aspects, many benefits)
-- Get a tribe - group of people to hang out with, similar interest, language, hobbies
-
-- PILLARS: Money / stability, Social,
-- Become full stack - 12 projects, 1 each month, stream twice a week on Twitch
-- Stream 1-2 times a week on Twitch (social, career development, practice talking)
-- Dance class - once a week for fun / social
-- Language class (swedish, spanish) - once a week for fun / social
-- create / join communities - people to play board games with or ppl to play bball with or ppl to talk english with or ppl to learn spanish with or dancing class or coffee hang out?
 
 #### ◻️ Minor goals:
 
-- TODO:
-- re-organize the living room furniture (make it more cozy, better free time and work PC setup)
-- go to Spain
+- Sign up for a Spanish language class
+- Sign up for a Swedish language class?
+- Finnish citizenship?
+- Stream once a week on Twitch
+- Diversify income streams (platforms build up)
+- Cozy and comfy in the new place
 
-TODO: write the outro
+TODO:
 
 In closing, I'd like to make one final retrospective. Last december I was in the middle of my Master's studies, having just barely picked a potential topic for the thesis, just moved into a new appartment, worrying how my son will trully do with the new changes to our ways of living and schedules, being single for the first time in 10 years (with all its positives and anxieties), had not done any sports in more than 10 years, had been eating ok, but not great, had a bit of a belly and "saggy boobs".
-This december, I feel great, confident, I had long completed my Master's degree, I travelled to London for the first time, had an amazing vacation in Bulgaria, spent time focusing on myself, had been working out doing CrossFit for 9 months and loving it, got involved in 2 awesome communities, met a lot of nice people, reconnected with some old friends, I have no belly and no saggy boobs, I feel great physically, my lower back and shoulders no more randomly hurt, my legs and all my muscles are more fit than ever, I eat great - a lot of fruit, not much sugar, and overall a pretty decent died, including some additional vitamins, pre- and probiotics, I have a great time with my kid - took him to football club lessons, swimming, playing table tennis, playing games at home, playing in the snow, playing outside in the summer on the playground, at an outdoors pool, to the cinema and for icecream by the harbor.
+This december, I feel great, confident, I had long completed my Master's degree, I travelled to London for the first time, had an amazing vacation in Bulgaria, spent time focusing on myself, had been working out doing CrossFit for 9 months and loving it, got involved in 2 awesome communities, met a lot of nice people, reconnected with some old friends, I have no belly and no saggy boobs, and infact I have put on quite a bit of muscle, I feel great physically, my lower back and shoulders no more randomly hurt, my legs and all my muscles are more fit than ever, I eat great - a lot of fruit, not much sugar, and overall a pretty decent died, including some additional vitamins, pre- and probiotics, I have a great time with my kid - took him to football club lessons, swimming, playing table tennis, playing games at home, playing in the snow, playing outside in the summer on the playground, at an outdoors pool, to the cinema and for icecream by the harbor.
+
+All in all if there's one word to describe how I feel about this past year, it's the word **FUN**. There are always some ups and downs in life, but overall, I'd like to leave you with this thought:
 
 **Live your life today such, that when you take a look back a year from now, you'd be happy and proud of everything you did and not feel regret or wish you had done something else.**
 To an awesome 2023!
