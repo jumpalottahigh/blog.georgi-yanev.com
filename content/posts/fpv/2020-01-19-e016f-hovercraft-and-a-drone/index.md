@@ -209,6 +209,6 @@ Controlling it in hovercraft mode, especially on a hardwood floor is pretty good
 [0]: Linkslist
 [1]: https://bit.ly/eachine-e016f
 [2]: https://bit.ly/geprc-hovercraft-frame
-[3]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
+[3]: https://www.youtube.com/@FPVtips
 [4]: https://bit.ly/eachine-vtx-camera-aio
 [5]: https://bit.ly/eachine-e010s

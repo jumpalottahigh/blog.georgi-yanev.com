@@ -294,7 +294,7 @@ Happy Flying!
 [24]: https://bit.ly/emax-hawk-5
 [25]: https://bit.ly/kakute-f4-tekko32
 [26]: https://www.instagram.com/fpvtips/
-[27]: https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q/videos
+[27]: https://www.youtube.com/@GeorgiFPV/videos
 [28]: /fpv/set-up-taranis-x-lite-update-opentx/
 [29]: /fpv/setup-taranis-qx7/
 [30]: /fpv/emax-hawk-5-unboxing-review-and-setup/
@@ -326,7 +326,7 @@ Happy Flying!
 [56]: https://www.getfpv.com/ethix-s3-watermelon-propellers.html
 [57]: https://bit.ly/gemfan-hurricane
 [58]: https://bit.ly/avan-flow
-[59]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
+[59]: https://www.youtube.com/@FPVtips
 [60]: /fpv/runcam-5-review-setup-superview/
 [61]: https://www.youtube.com/watch?v=R_31tQNzBpA
 [62]: https://www.youtube.com/watch?v=FtngCmiQQoE&list=PLLsZew4NRcdcroePNThuW-2bBq8Xoze7S

@@ -115,7 +115,7 @@ const TinyLetterSignup = () => {
     <TinyLetter>
       <div className="tinyletter__heading">
         <a
-          href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+          href="https://www.youtube.com/@FPVtips"
           target="_blank"
           rel="noopener noreferrer"
         >

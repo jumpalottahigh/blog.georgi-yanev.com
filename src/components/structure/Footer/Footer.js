@@ -64,7 +64,7 @@ const Footer = () => {
           <FaTwitch color="#4b367c" size="1.75rem" className="social-icon" />
         </a>
         <a
-          href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+          href="https://www.youtube.com/@FPVtips"
           target="_blank"
           rel="noopener noreferrer"
           title="YouTube"

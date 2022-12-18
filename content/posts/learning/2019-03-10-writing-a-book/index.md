@@ -197,4 +197,4 @@ Coming soon: Nanowrimo updates ...
 [23]: https://www.youtube.com/watch?v=N4ZDBOc2tX8&index=1&list=PLH3mK1NZn9QqOSj3ObrP3xL8tEJQ12-vL
 [24]: https://www.youtube.com/watch?v=mrP9604BEOM
 [25]: /stories/restaurant-job-its-personal/
-[26]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
+[26]: https://www.youtube.com/@FPVtips

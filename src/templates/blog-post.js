@@ -150,7 +150,7 @@ class BlogPostTemplate extends React.Component {
                   <a
                     href={
                       post.frontmatter.category === 'fpv'
-                        ? 'https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg'
+                        ? 'https://www.youtube.com/@FPVtips'
                         : 'https://twitter.com/jumpalottahigh'
                     }
                     target="_blank"

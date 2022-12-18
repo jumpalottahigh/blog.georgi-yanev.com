@@ -61,9 +61,7 @@ const VideoContainer = styled.div`
 const FPVVideos = () => {
   // const { georgiFpv } = useStaticQuery(graphql`
   //   {
-  //     georgiFpv: allYoutubeVideo(
-  //       filter: { channelId: { eq: "UC2gwYMcfb0Oz_fl9W1uTV2Q" } }
-  //     ) {
+  //     georgiFpv: allYoutubeVideo(filter: { channelId: { eq: "@GeorgiFPV" } }) {
   //       nodes {
   //         id
   //         title
@@ -79,7 +77,7 @@ const FPVVideos = () => {
       <Section>
         <h2>
           <a
-            href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q"
+            href="https://www.youtube.com/@GeorgiFPV"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -222,4 +222,4 @@ P.S.: I've linked below the charger, some recommended batteries, and the XT30 ca
 [5]: https://bit.ly/xt30-to-banana-plug
 [6]: https://bit.ly/xt30-to-ph2
 [7]: https://www.youtube.com/watch?v=9ezGB7S_BDM
-[8]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
+[8]: https://www.youtube.com/@FPVtips

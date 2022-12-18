@@ -71,7 +71,7 @@ const Giveaway = () => {
         To enter the giveaway, subscribe to the{' '}
         <Link to="/newsletter">FPVTIPS newsletter</Link> or to the{' '}
         <a
-          href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+          href="https://www.youtube.com/@FPVtips"
           target="_blank"
           rel="noopener noreferrer"
         >

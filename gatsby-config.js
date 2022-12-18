@@ -115,7 +115,7 @@ module.exports = {
     // {
     //   resolve: `gatsby-source-youtube-v3`,
     //   options: {
-    //     channelId: ['UCCh3SK2EktDdOQkEOTDmSCg', 'UC2gwYMcfb0Oz_fl9W1uTV2Q'],
+    //     channelId: ['@FPVtips', '@GeorgiFPV'],
     //     apiKey: process.env.YOUTUBE_API_KEY,
     //     maxVideos: 50, // Defaults to 50
     //   },

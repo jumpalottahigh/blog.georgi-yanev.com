@@ -50,6 +50,6 @@ As always, for even more FPV related stuff, check out:
 
 https://blog.georgi-yanev.com/
 
-https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
+https://www.youtube.com/@FPVtips
 
-https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q
+https://www.youtube.com/@GeorgiFPV

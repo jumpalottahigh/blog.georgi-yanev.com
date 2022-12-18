@@ -333,6 +333,6 @@ P.S.: Here's the [complete playlist of more than 28 (and counting) raw flight fo
 [5]: https://bit.ly/runcam-split-3-nano
 [6]: https://bit.ly/mobula7-hd
 [7]: /newsletter
-[8]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
+[8]: https://www.youtube.com/@FPVtips
 [9]: https://www.youtube.com/watch?v=aCDpAAAzQAM&list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45
 [10]: /fpv/set-up-taranis-x-lite-update-opentx/

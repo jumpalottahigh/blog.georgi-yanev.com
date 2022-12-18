@@ -50,7 +50,7 @@ const FpvtipsYoutubeAnnouncementPage = () => (
               <h4>
                 I'm starting a new YouTube channel called{' '}
                 <a
-                  href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+                  href="https://www.youtube.com/@FPVtips"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -73,7 +73,7 @@ const FpvtipsYoutubeAnnouncementPage = () => (
                 <strong>
                   👉{' '}
                   <a
-                    href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+                    href="https://www.youtube.com/@FPVtips"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

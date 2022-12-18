@@ -17,10 +17,8 @@ const AboutPage = () => (
         </Link>{' '}
         and currently work mostly with JavaScript, React, TypeScript, Electron,
         Node.js. You can find me on{' '}
-        <a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg">
-          YouTube
-        </a>
-        , <a href="https://twitter.com/jumpalottahigh">Twitter</a>,{' '}
+        <a href="https://www.youtube.com/@FPVtips">YouTube</a>,{' '}
+        <a href="https://twitter.com/jumpalottahigh">Twitter</a>,{' '}
         <a href="https://github.com/jumpalottahigh">GitHub</a>,{' '}
         <a href="https://twitch.tv/jumpalottahigh">Twitch</a> and{' '}
         <a href="https://www.linkedin.com/in/yanevgeorgi">LinkedIn</a>
@@ -66,14 +64,9 @@ const AboutPage = () => (
       </p>
       <p>
         I publish FPV related content on YouTube on my{' '}
-        <a href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg">
-          Fpvtips channel
-        </a>{' '}
-        and dump raw unedited flight footage on my{' '}
-        <a href="https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q">
-          Georgi FPV channel
-        </a>
-        .
+        <a href="https://www.youtube.com/@FPVtips">Fpvtips channel</a> and dump
+        raw unedited flight footage on my{' '}
+        <a href="https://www.youtube.com/@GeorgiFPV">Georgi FPV channel</a>.
       </p>
       <p>
         I <strong>love coding</strong> and sometimes stream on Twitch. I gave

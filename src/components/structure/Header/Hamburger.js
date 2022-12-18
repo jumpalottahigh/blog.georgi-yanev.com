@@ -117,7 +117,7 @@ const Hamburger = () => {
     <Menu right>
       <GlobalStyle />
       <a
-        href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+        href="https://www.youtube.com/@FPVtips"
         target="_blank"
         rel="noopener noreferrer"
         title="FPVtips on YouTube"
@@ -130,7 +130,7 @@ const Hamburger = () => {
       </a>
       <Link to="/posts/">🚁 FPV drone reviews</Link>
       <a
-        href="https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg"
+        href="https://www.youtube.com/@FPVtips"
         target="_blank"
         rel="noopener noreferrer"
       >

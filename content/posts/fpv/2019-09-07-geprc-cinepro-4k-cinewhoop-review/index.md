@@ -337,8 +337,8 @@ I'd wrap it up saying that the [GEPRC CinePro 4k][1] is one of the easiest ways 
 [4]: https://bit.ly/emax-avan-2
 [5]: https://bit.ly/xm-plus
 [6]: https://bit.ly/mobula7-hd
-[7]: https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q/playlists
+[7]: https://www.youtube.com/@GeorgiFPV/playlists
 [8]: https://bit.ly/right-angle-micro-usb-adapter
 [9]: https://play.google.com/store/apps/details?id=com.gku.caddxfpv
-[10]: https://www.youtube.com/channel/UC2gwYMcfb0Oz_fl9W1uTV2Q
+[10]: https://www.youtube.com/@GeorgiFPV
 [11]: https://bit.ly/gnb-4s-520mah

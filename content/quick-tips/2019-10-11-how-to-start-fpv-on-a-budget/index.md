@@ -4,7 +4,7 @@ date: '2019-10-11'
 title: 'Any suggestion for starting on FPV on a budget? just a pair of googles, and the drone itself.'
 ---
 
-I'm working on a full length post on this subject as well as a YouTube video on [my channel](https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg), but here's a couple of thoughts on this very complicated subject.
+I'm working on a full length post on this subject as well as a YouTube video on [my channel](https://www.youtube.com/@FPVtips), but here's a couple of thoughts on this very complicated subject.
 
 Regardless if you are on a smaller or a larger budget it **mostly depends on what you want from the hobby**. Are you going to be flying 5" quads? Micros / whoops / toothpick style drones? Cinewhoops? Each category is fairly different.
 

@@ -261,7 +261,8 @@ This december, I feel great, confident, I had long completed my Master's degree,
 
 All in all if there's one word to describe how I feel about this past year, it's the word **FUN**. There are always some ups and downs in life, but overall, I'd like to leave you with this thought:
 
-**Live your life today such, that when you take a look back a year from now, you'd be happy and proud of everything you did and not feel regret or wish you had done something else.**
+> **Live your life today such, that when you take a look back a year from now, you'd be happy and proud of everything you did and not feel regret or wish you had done something else.**
+
 To an awesome 2023!
 
 ![Xmas tree](my-2022-year-in-review-18.jpg)

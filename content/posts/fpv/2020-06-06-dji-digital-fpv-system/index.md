@@ -488,7 +488,7 @@ Happy flying!
 [0]: Linkslist
 [1]: https://bit.ly/dji-digital-fpv
 [2]: https://bit.ly/holybro-kopis-2-hdv
-[3]: https://www.youtube.com/channel/UCCh3SK2EktDdOQkEOTDmSCg
+[3]: https://www.youtube.com/@FPVtips
 [4]: https://bit.ly/cnhl-1300
 [5]: https://bit.ly/gnb-6s-1050
 [6]: https://www.dji.com/fi/fpv/info#downloads
