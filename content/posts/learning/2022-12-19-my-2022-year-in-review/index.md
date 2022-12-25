@@ -240,12 +240,15 @@ Below is the list of major and minor goals for 2023
 
 - 💰 Improve the monthly budget to a neutral or positive state
 - 🏘 Move to live closer to son's preschool and future school
+- ⚽ Sign up Anton for football, swimming or other hobby again
 - 📚 Become full stack - create 6 new projects
-- 🕺 Join a latin dance class
+- 🕺 Join a latin / hip hop dance class
 - 🗣 Create / join communities - people to hang out with similar interests, language, hobbies, w/e
 - 🌵 Embrace discomfort head on
 - 🇪🇸 Travel to Spain
-- 🇪🇺 Travel to ?
+- 🇪🇺 Travel to a random EU country (Adventure 1)
+- 🚙 Rent an RV (Adventure 2)
+- 🛳️ Go on a longer boat cruise (Adventure 3)
 
 #### ◻️ Minor goals:
 
@@ -253,8 +256,9 @@ Below is the list of major and minor goals for 2023
 - 🇸🇪 Sign up for a Swedish language class?
 - 🇫🇮 Finnish citizenship?
 - 📺 Stream once a week on Twitch
-- 💵 Diversify income streams (platforms build up)
-- 🛋 Cozy and comfy in the new place
+- 💵 Diversify income streams (platforms build up, year 2/5)
+- 🛋 Cozy and comfy in the new apartment
+- 🎶 Create 1 hip hop or or techno / EDM song
 
 In closing, I'd like to make one final retrospective. Last december I was in the middle of my Master's studies, having just barely picked a potential topic for the thesis, just moved into a new appartment, worrying how my son will trully do with the new changes to our ways of living and schedules, being single for the first time in 10 years (with all its positives and anxieties), had not done any sports in more than 10 years, had been eating ok, but not great, had a bit of a belly and "saggy boobs".
 This december, I feel great, confident, I had long completed my Master's degree, I travelled to London for the first time, had an amazing vacation in Bulgaria, spent time focusing on myself, had been working out doing CrossFit for 9 months and loving it, got involved in 2 awesome communities, met a lot of nice people, reconnected with some old friends, I have no belly and no saggy boobs, and infact I have put on quite a bit of muscle, I feel great physically, my lower back and shoulders no more randomly hurt, my legs and all my muscles are more fit than ever, I eat great - a lot of fruit, not much sugar, and overall a pretty decent died, including some additional vitamins, pre- and probiotics, I have a great time with my kid - took him to football club lessons, swimming, playing table tennis, playing games at home, playing in the snow, playing outside in the summer on the playground, at an outdoors pool, to the cinema and for icecream by the harbor.
