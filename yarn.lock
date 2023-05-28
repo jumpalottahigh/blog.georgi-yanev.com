@@ -6015,6 +6015,14 @@ gatsby-plugin-google-analytics@^4.4.0:
     minimatch "3.0.4"
     web-vitals "^1.1.2"
 
+gatsby-plugin-google-gtag@4.25.0:
+  version "4.25.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-4.25.0.tgz#cfea9ab34cb9c053440757e76f2863f2aad310bf"
+  integrity sha512-mzhjor5JYct1qQWLKayAHuyOHGHW3TT8Ns5fgdmSlqsmAR0X6dAh7zqSfqbvetGU309PZrRXeOrL92vjmeSIdQ==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    minimatch "^3.1.2"
+
 gatsby-plugin-hotjar@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-hotjar/-/gatsby-plugin-hotjar-1.1.1.tgz#b910209c80fb2a0df9e0dc1b52de7270d9831b31"
@@ -9052,6 +9060,13 @@ minimatch@3.0.4, minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
+  dependencies:
+    brace-expansion "^1.1.7"
+
+minimatch@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
+  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
   dependencies:
     brace-expansion "^1.1.7"
 

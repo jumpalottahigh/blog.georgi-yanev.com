@@ -13,6 +13,7 @@
     "gatsby-plugin-ebook": "^1.0.2",
     "gatsby-plugin-feed": "^4.4.0",
     "gatsby-plugin-google-analytics": "^4.4.0",
+    "gatsby-plugin-google-gtag": "4.25.0",
     "gatsby-plugin-hotjar": "^1.1.1",
     "gatsby-plugin-manifest": "^4.4.0",
     "gatsby-plugin-netlify": "^3.14.0",
