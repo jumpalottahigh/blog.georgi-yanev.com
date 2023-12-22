@@ -145,14 +145,6 @@ I've received a lot of support from coaches in our gym, as well as other members
 
 I can easily say this is the chapter closest to my heart, this year and always. I love being a dad. Sure, sometimes it could be very challenging, but I wouldn't change it for the world. Watching this amazing kid grow up and explore the world, from day one I realized that was a ticket **to be a kid again for me too**. We've done so many, MANY new things together this year, I am really happy about it and most importantly - Anton is too. He's been telling me so many times, now months later, that the Silja line cruise trip to Sweden was his best day ever. Hopefully, we have many more such and even better days coming up in 2024 and beyond.
 
-I think being present and using the time together well is one of the most important things, especially in our case where I went from spending 100% of my time with my kid to 50% of the time for the past couple of years. It's tough and many Sundays are sad when he goes to his mom's place. But it's important for him to have both parents in the picture, even if in such a configuration. For my part, I try my best to spend quality time together being fully present. We've played games, board and computer ones, some really fun co-op games like It Takes Two, Unravel Two, Portal 1 and 2, Minecraft. We did spend a lot of time outside doing some sporty activities, climbing, playing football, playing basketball, took him to ice hockey practice for the past 3 months. We had some very special fun days together like the **bring your dad to school day** when I spent a whole day together with Anton in his school and that was so fun for him and for me 😀. We also had a **bring your kid to work day** at Elisa, so he really enjoyed that as well! We've had some athletic events organized by his school where he ran 40m sprint, that was amazing to watch and I'm so happy I was able to be there in person! We also had of course our Turku and Moomin town midsummer trip, our Silja line cruise trip to Sweden.
-
-And we've also had many various small, little random goof arounds and learning mini projects - from growing avocados from seeds to disassembling and cleaning up and reassembling our computer keyboards, to "computer class" where I teach Anton something small about computers every day for 20 minutes. There are so many fun things, like how we read National Geographic's Little Kid's First Big Book of ... encyclopedias as bedtime stories, and even after re-reading all 16 or so books we have quite a few times at this point, I still couldn't make the case to read some stories or fairy tales for a bit instead 😅. I wonder if Santa's bringing us some new interesting books and child encyclopedias to read this year?
-
-I also bought us two Museum Cards in the summer for 130e for a whole year for both of us and we've been visiting various places like the Natural History Museum and Heurekka.
-
-So all in all, I'm pretty happy with this, and let's see what else is to come in 2024.
-
 <div class="image-grid">
 
 ![fixing keyboard](my-2023-year-in-review-24.jpg)
@@ -173,7 +165,18 @@ So all in all, I'm pretty happy with this, and let's see what else is to come in
 
 </div>
 
-TODO: 1-2 videos of football, rings hanging (april), basketball
+I think being present and using the time together well is one of the most important things, especially in our case where I went from spending 100% of my time with my kid to 50% of the time for the past couple of years. It's tough and many Sundays are sad when he goes to his mom's place. But it's important for him to have both parents in the picture, even if in such a configuration. For my part, I try my best to spend quality time together being fully present. We've played games, board and computer ones, some really fun co-op games like It Takes Two, Unravel Two, Portal 1 and 2, Minecraft. We did spend a lot of time outside doing some sporty activities, climbing, playing football, playing basketball, took him to ice hockey practice for the past 3 months. We had some very special fun days together like the **bring your dad to school day** when I spent a whole day together with Anton in his school and that was so fun for him and for me 😀. We also had a **bring your kid to work day** at Elisa, so he really enjoyed that as well! We've had some athletic events organized by his school where he ran 40m sprint, that was amazing to watch and I'm so happy I was able to be there in person! We also had of course our Turku and Moomin town midsummer trip, our Silja line cruise trip to Sweden.
+
+And we've also had many various small, little random goof arounds and learning mini projects - from growing avocados from seeds to disassembling and cleaning up and reassembling our computer keyboards, to "computer class" where I teach Anton something small about computers every day for 20 minutes. There are so many fun things, like how we read National Geographic's Little Kid's First Big Book of ... encyclopedias as bedtime stories, and even after re-reading all 16 or so books we have quite a few times at this point, I still couldn't make the case to read some stories or fairy tales for a bit instead 😅. I wonder if Santa's bringing us some new interesting books and child encyclopedias to read this year?
+
+I also bought us two Museum Cards in the summer for 130e for a whole year for both of us and we've been visiting various places like the Natural History Museum and Heurekka.
+
+So all in all, I'm pretty happy with this, and let's see what else is to come in 2024.
+
+<video controls>
+  <source src="my-2023-year-in-review-40.webm">
+  Your browser does not support webm videos.
+</video>
 
 #### <span id="running" class="offset-top-nav">🏃‍♂️Embracing running</span>
 
@@ -196,6 +199,8 @@ There were a couple more noteworthy mentions when it comes down to running, firs
 
 #### <span id="tough-viking" class="offset-top-nav">🥈 Helsinki Tough Viking</span>
 
+![Helsinki Tough Viking OCR](my-2023-year-in-review-39.jpg)
+
 It was a lot of fun, and a lot of the challenges were easy to overcome when it came down to climbing onto something, ladders or using upper body strength to muscle up onto a platform, carrying logs, metal tanks, etc. There were a couple of "climber" challenges where you had to hold onto very tiny things, those were tricky for me, and of course, the hard 80kg ball-shaped weight was tricky, if it were a sandbag with that weight, I'd have no problem. I was very concerned with the parts of the race that dip you into the cold water and definitely the ice bath dive and go under in the end. I'm very proud of myself for how I dealt with these, it was very doable, it was a bit cold, but definitely doable, and the weather was favorable with the sun shining on a decently warm day for September. The icebath, when I got to it, together with one other girl, It was nice to have that "pseudo company" for support, but basically, I decided not to think about it, so I just immediately sad on the edge, then just plunged in and dove underneath and popped on the other side and jumped out. I just remember not remembering anything from it, as it all just blacked out, it was very cold, but ok, some deep breaths and it was over, and so was the race. My time? Kinda bad - 1 hour 45 minutes. The main reason - calf cramps like no other from the 8th to the 10th km of the race. This also was the reason for my disappointment in not making that 1 very high platform in the end, cause I could just not run at my full speed and reach it. I'm surprised and happy I attempted it at all given the condition I was in. I kind of hoped the cold water would help with the cramps but it did not, very weird, because I thought I should have been ok, I had loaded up on carbs the night before and had enough electrolytes, maybe I should have had more electrolytes DURING the race, I'll prepare for that next time, but I really wanna run this again without getting the cramps, I'm sure I could do at least 1 hour 15 minutes that way. With some luck maybe even sub 1 hour. Anyway, I'm still happy and proud of this!
 
 ![Finished the Helsinki Tough Viking obstacle course race](my-2023-year-in-review-3.jpg)
@@ -208,8 +213,6 @@ However, this year, for the first time in the at least past 11 years since I've 
 It would have been nice if summer lasted longer and the autumn would have been extra warm too, which sadly was not the case, but I'm not complaining and I'm very happy. **I need a lot more April to be warm, then October**. That's most important for my sanity while living in Finland, because every year the hardest time for me is the March / April period - a time when all my friends living in warmer places start posting pictures wearing t-shirts in a sunny day with flowers and blossoming trees around them and here everything is still frozen solid, and even having temperatures sub zero and occasionally even -15 to -25 on a March day is not unheard of. It's the sad reality of Finish weather. **Unfortunately for me, at that time of the year after 6 months of cold weather and winter, I'm so worn out that I just can't deal with it anymore!** I'm beyond ready for some nice warm weather!
 
 This is all just to provide context on why the weather being so good from early on this year was so important for me. That and the fact that we had moved apartments to live a lot closer to my son's school, enabled some really awesome fun times! Nearly every day I'd pick him up from preschool at the time we would go to play football in the field right next to his school, or climb and do muscle ups, or do dips, or later on also play some basketball. **Such a nice time and a nice feeling - me, my kid, some sporty activity, nice warm weather, so, so good!**
-
-TODO: pic or vid?
 
 #### <span id="sober" class="offset-top-nav">🍸 On being sober for over a year</span>
 
@@ -260,10 +263,26 @@ I also ordered a throwdown t-shirt but they never had them there to be picked up
 
 **I think for me watching the competition live and participating in the throwdowns was the absolute highlight of this 4-5 day trip. Specifically also trying out new things in the throwdowns!**.
 
+<video controls>
+  <source src="my-2023-year-in-review-41.webm">
+  Your browser does not support webm videos.
+</video>
+
 But there were other noteworthy mentions, like visiting a local CrossFit box called CrossFit Werk, which was very nice! Did some bar muscle ups, double unders, and actually my rope snapped lol, some light runs, and something they called "man makers", which was basically like a devil's press plus a thruster all in one. Challenging and a good workout, fun!
 We also had a nice evening out with a buddy of mine - Matt, that was a lot of fun with plenty of interesting chatter about all sorts of life topics, very enjoyable!
 
-TODO: pictures
+<div class="image-grid">
+
+![badstrase](my-2023-year-in-review-42.jpg)
+![cannal](my-2023-year-in-review-43.jpg)
+![crossfit werk](my-2023-year-in-review-44.jpg)
+![tower and moon](my-2023-year-in-review-45.jpg)
+![crossfit semifinals](my-2023-year-in-review-46.jpg)
+![crossfit seminar](my-2023-year-in-review-47.jpg)
+![georgi and matt](my-2023-year-in-review-48.jpg)
+![tree](my-2023-year-in-review-49.jpg)
+
+</div>
 
 #### <span id="spain" class="offset-top-nav">🇪🇸 Trip to Spain</span>
 
@@ -279,7 +298,18 @@ Of course, nothing beats the sea! It was so nice on the beach, I really enjoyed 
 
 I enjoyed a ton of ice creams from the many Eladeria's around town, I enjoyed the nice hot weather, damn, I love hot weather. Swimming, chilling and relaxing. I also dropped into a local CrossFit box, as it started becoming customary now during my travels and I love this new tradition. This time, I went to the CrossFit Playa San Juan, chatted with someone on WhatsApp, went there, and got received very warmly, specifically Ophelia who welcomed me was an absolute legend! What a fun and amazingly friendly person, we clicked from the first few seconds. Another instructor was leading the class in Spanish, and it was so much fun! It was a tough one - 3 x 800m runs outside in the heat of the evening sun around 7 pm and in between 24kg KB American swings and some bear walks. It was a good workout and I'm happy I challenged myself with the Rx weight and it went well, but maaan, am I not used to running in heat nowadays since I live in Finland? It was so different! Reminded me of my childhood spent in the summers on the basketball court in the heat, so in a way, it felt awesome, familiar, and tough at the same time. Either way, very happy I did it and I'm definitely planning on dropping into local CrossFit boxes anywhere I go, it's such a fun thing to do and get a mini glimpse of how the community is at that specific place.
 
-TODO: pictures
+<div class="image-grid">
+
+![flowers](my-2023-year-in-review-50.jpg)
+![mountains](my-2023-year-in-review-51.jpg)
+![beach](my-2023-year-in-review-52.jpg)
+![spanish church](my-2023-year-in-review-53.jpg)
+![flowers 2](my-2023-year-in-review-54.jpg)
+![sea in the distance](my-2023-year-in-review-55.jpg)
+![cool tree](my-2023-year-in-review-56.jpg)
+![georgi](my-2023-year-in-review-57.jpg)
+
+</div>
 
 #### <span id="cruise-to-sweden" class="offset-top-nav">🛳️ Cruise trip to Sweden with Anton</span>
 
@@ -290,7 +320,18 @@ After a good night's sleep, we were in Sweden in the morning. Of course, in hind
 
 Eventually, we had to go back to the ship and so we did and had another fun night full of activities, good food, and relaxation.
 
-TODO: pictures
+<div class="image-grid">
+
+![Georgi and Anton](my-2023-year-in-review-58.jpg)
+![Anton](my-2023-year-in-review-59.jpg)
+![Anton doing quiz](my-2023-year-in-review-60.jpg)
+![Anton and Georgi in computer club](my-2023-year-in-review-61.jpg)
+![Anton at a fountain in Sweden](my-2023-year-in-review-62.jpg)
+![Anton and Georgi and tourist bus in the background](my-2023-year-in-review-63.jpg)
+![Anton and Georgi in the Swedish metro](my-2023-year-in-review-64.jpg)
+![Anton participating in kids event on the Silja line boat](my-2023-year-in-review-65.jpg)
+
+</div>
 
 #### <span id="health" class="offset-top-nav">🥑 Health</span>
 
@@ -300,9 +341,7 @@ For the most part, things have been fine, we've been eating well and healthy wit
 
 We've had to deal with the lice situation from Anton's school and have both our hairs fixed with the solution, although I think neither of us had them, but just in case, when they had the outbreak in school.
 
-Then in October Anton was a bit sick, we had to go check it out at the doctor, and it did turn out to be streptococcus, so antibiotics for 10 days was not the most fun experience, but we made it work and that passed. I also got sick a bit this time around, which again, for the most part, is pretty rare for me nowadays which I'm very thankful for.
-
-TODO: some pic?
+Then in October Anton was a bit sick, we had to go check it out at the doctor, and it did turn out to be streptococcus, so antibiotics for 10 days was not the most fun experience, but we made it work and that was soon over. I also got sick a bit this time around, which again, for the most part, is pretty rare for me nowadays which I'm very thankful for.
 
 #### <span id="work-life" class="offset-top-nav">💻 Work, professional life</span>
 
@@ -310,11 +349,11 @@ Working has been going well, this being my 2nd year at Elisa, a lot of things ha
 
 One of the most interesting things was the **Elisa Camp Hack** in March, where we teamed up with a few people and had a 2-day hackathon exploring various topics and coming up with solutions, leading up to presenting the solution and at the end it even made it to end customers. I'm very proud of that one, as I had a lot to do with the architecture of the solution and the actual implementation. It was a pleasure to work on it with our team and we had a fun time working together and chatting about the project among other things. I'm definitely looking forward to having more, similar events in our company in the future.
 
+![Georgi presenting at Elisa Camp Hack](my-2023-year-in-review-66.jpg)
+
 One "fun little thing" I did was in March I started using and learning VIM keybindings in my VS Code editor. Instead of always wanting to learn and never learning, I decided I'd just learn it. It's been many months of learning and using those and it's been pretty fun, actually quite powerful what you can do with VIM keybindings once you get used to them. This also ended up as one of those things where **when you put a little bit of effort every day, the end result amazes you a few months down the road.**
 
 We've had new team members join the team which is always great, and some unfortunately leave. I also went to a couple of HelsinkiJS events, it's nice to see those reboot, unfortunately, quite a few ended up on weeks I could not attend, but the ones I was able to - I went to and enjoyed a lot being again in my favorite community, listening and syncing with other folks from other companies. It's always a good time.
-
-TODO: just 1 picture or 2
 
 #### <span id="finances" class="offset-top-nav">💰 Finances and budget</span>
 
@@ -367,15 +406,13 @@ And while talking about good stories, two games to be highlighted for this year 
 
 So in conclusion, what are my main success stories of this year? Enjoying life as much as possible and spending it and connecting with people you love and enjoy being around. A huge portion of that time spending goes to my son Anton! Loved all of our adventures together this year!
 
-Moving to the new apartment and closer to his school gave us the freedom to be a bit more relaxed, shift focus, and spend more time outside on the playing fields.
+Moving to the new apartment and closer to his school gave us the freedom to be a bit more relaxed and shift focus on spending more time outside on the playing fields nearby.
 
 I really fell in love with CrossFit this year! I learned so many new skills and improved a lot! I always have an awesome time at the gym, I love the community and the people who train there, going through the workouts together is very motivating and inspirational. So many things excite and impress me from how I went from not being able to string 2 double under together and then managing 15s, to doing 8 unbroken bar muscle ups in workouts in multiple rounds, to doing some decent handstand walking, to doing 3-4 ring muscle ups. I love that hobby and I hope and plan to carry on going and having fun with it!
 
-TODO: continue
+The trips I went on this year worked out well for the most part and were fun experiences. Looking forward to more of that in the future. I'm proud I signed up for and finished the Helsinki Tough Viking event, I wanna do it again and faster without cramps, I'm proud I started long distance running training and wanna do more and am hopeful I can complete an Ironman in the near future.
 
-<div class="image-grid">
-
-</div>
+I'm really happy with all the cool human beings I met this year!
 
 ### <span id="goals" class="offset-top-nav">2️⃣0️⃣2️⃣4️⃣</span>
 
@@ -409,22 +446,11 @@ Ok, so going into 2024 then, what's next? Honestly, the more time I do these, an
 
 One theme there wasn't really a dedicated chapter on above is people and relationships. And although I like being as transparent as I possibly can be in these posts, it feels a bit awkward to write about other people. To name them one by one and risk missing someone out. I will only say, that without these people many of the other things would hold no meaning. I love being a part of every community I'm a part of and I'm really grateful to be able to share stories, chat and laugh with those people. All of you! Thank you, I appreciate you a lot!
 
-All in all, if there's one word to describe how I feel about this past year, it's the word **FUN**. There are always some ups and downs in life, but overall, I'd like to leave you with this thought:
+All in all, if there's one word to describe how I feel about this past year, it's the word **FUN**. There are always some ups and downs in life, but overall, I'd like to finish this with this thought:
 
-> **Focus on yourself, focus on your son, be present, be there really in the moment, smile and joke, so that if I was to go tomorrow, I'd go being happy of how things have been.**
+> **Focus on myself, focus on my son, be present, be there really in the moment, smile and joke, so that if I was to go tomorrow, I'd go being happy of how things have been.**
 
-Enjoy this beautiful adventure called life and remember to be kind to yourself!
-
-To an amazing 2024!
-
-TODO: picture?
-
-TODO: In final edits, after reading the whole thing, go thru all yearly photos and select ones to sprinkle around that make sense and enhance the story.
-
-TODO: tough viking pic from the course from email
-TODO: run thru grammarly ofc
-
-TODO: revise goals
+Enjoy this beautiful adventure called life and remember to be kind to yourself! To an amazing 2024!
 
 [0]: Linkslist
 [1]: https://www.youtube.com/watch?v=GS7M6s2xXfs
