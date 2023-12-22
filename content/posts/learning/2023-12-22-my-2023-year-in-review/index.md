@@ -123,15 +123,17 @@ And it all started with extra work on double unders, cause I was so annoyed I co
 
 Then came handstand walk work around April / May and beyond. Every time after class, when I could, I was practicing. And it worked out! Over months and months, I can now say that something, that was unthinkable to me earlier, I can now walk some meters on my hands. That too still needs work, to be even better and faster at it, but the progress has been huge. Those and strict handstand push-ups have been some of my biggest strengths. Additionally, I learned how to do the kipping version of HSPUs too, which was something I thought I'd never do, but hey here we are.
 
-<video controls>
-  <source src="my-2023-year-in-review-5.webm">
+<video controls preload="metadata">
+  <source src="my-2023-year-in-review-5.webm" type="video/webm">
+  <source src="my-2023-year-in-review-5.mp4" type="video/mp4">
   Your browser does not support webm videos.
 </video>
 
 Finally, in the summer I started getting some ring muscle ups and that was super exciting! I went from nothing to sometimes doing 4 in a row kipping, and many times 2s and 3s. This is something that also needs more work, but I'm happy I'm able to chug a few on a good day after class, it feels great. Just getting some reps in and working on it!
 
-<video controls>
-  <source src="my-2023-year-in-review-6.webm">
+<video controls preload="metadata">
+  <source src="my-2023-year-in-review-6.webm" type="video/webm">
+  <source src="my-2023-year-in-review-6.mp4" type="video/mp4">
   Your browser does not support webm videos.
 </video>
 
@@ -173,8 +175,9 @@ I also bought us two Museum Cards in the summer for 130e for a whole year for bo
 
 So all in all, I'm pretty happy with this, and let's see what else is to come in 2024.
 
-<video controls>
-  <source src="my-2023-year-in-review-40.webm">
+<video controls preload="metadata">
+  <source src="my-2023-year-in-review-40.webm" type="video/webm">
+  <source src="my-2023-year-in-review-40.mp4" type="video/mp4">
   Your browser does not support webm videos.
 </video>
 
@@ -263,8 +266,9 @@ I also ordered a throwdown t-shirt but they never had them there to be picked up
 
 **I think for me watching the competition live and participating in the throwdowns was the absolute highlight of this 4-5 day trip. Specifically also trying out new things in the throwdowns!**.
 
-<video controls>
-  <source src="my-2023-year-in-review-41.webm">
+<video controls preload="metadata">
+  <source src="my-2023-year-in-review-41.webm" type="video/webm">
+  <source src="my-2023-year-in-review-41.mp4" type="video/mp4">
   Your browser does not support webm videos.
 </video>
 
