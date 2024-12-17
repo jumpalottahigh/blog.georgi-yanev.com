@@ -137,7 +137,7 @@ Another big revelation for me was that I used to think that "things will surely 
 
 I've a number of small wins which I'm very proud of. For example going for 30 unbroken butterfly pull ups during the first Jackie test! Doing 20 unbroken bar muscle ups during the pulling test. Getting up to 72kg snatch. Apparently I've noted 50kg for the snatch towards the beginning of the year. And 75kg for the clean & jerk, and now that's at 95kg. Handstand walk progression keeps getting better which is nice! Very happy with all of those!
 
-The training camp in Tenerife was an entire thing of its own, super amazing to train with legends like Jonne Koski and Emilia Leppanen, but more on that in its own section below as it was trully incredible!
+The training camp in Tenerife was an entire thing of its own, super amazing to train with legends like Jonne Koski and Emilia Leppänen, but more on that in its own section below as it was trully incredible!
 
 Some stats as of December 2024:
 
@@ -160,15 +160,29 @@ Some stats as of December 2024:
 
 #### <span id="midnight-run" class="offset-top-nav">🏃‍♂️Helsinki Midnight run</span>
 
-TODO:
+Helsinki Midnight run was my first ever official 10k run and it changed how I look at some Helsinki city streets forever! I remember that evening very clearly and vividly. It was such an amazing experience! Despite it being mid september, the temperature was relatively high and there was no wind, that was absolutely key, because there was however a torrential downpour. Only slightly exaggerated, but all jokes aside, it was proper raining. I have never been more soaked in my entire life, there was quite literally nothing dry on me, yet, thanks to the lack of nasty cold wind and thanks to the relatively warm temperature around 15-19 degrees.
+
+The square was full of people, thousands of, the event was soon about to start, rain was pouring down, yet everyone was hyped up. I remember chatting with my collegue Era, who also signed up and was about to run the event, wishing each other good luck. And soon, we were off to the races. Because of the bottleneck due to the amount on people on the first couple of kilometers I was somewhat forced to start much slower than I normally would, however, I think that was great and it played a huge role in me being able to finish the race the way I wanted, because thanks to that, I was a lot less gassed out by the time I reached the 4th and 5th kilometer. The course was awesome, taking me to a place I like a lot, down to Eira, close to my CrossFit gym, throught parks, past the sea, slowly and steadily moving along with some interesting stalls every 1 kilometer or so. Some checkpoints had a DJ playing music, a couple were aid stations. The vibe was on, people were running and enjoying.
+
+**I became one with the water**. Really lol! Jumping in and out of puddles, water splashing, but it trully and really did not matter, in a weird way it felt so freeing, the only thing that mattered was to just keep running. The pace was nice and pushing, but being able to breathe, good for me for sure. Soon we rolled out past the Silja line boat, then down around Kauppatori and went into Vanha satama and around that island / peninsula. That was somewhat the final stretch. I was able to push and increase the pace the last 2 kilometers too I think, only the last 1km my left knee started to be a bit iffy, so I was hoping it would all be fine until the finish line and thankfully it was! So I finished with a time of `54:08` and was so happy! My secret goal was sub 1 hour, but sub 55min plesantly surprised me even more!
+
+TODO: pic 1 of the strava
+
+TODO: pic 2 of the finish screenshot
+
+TODO: vid 1 of the pre event
+
+TODO: vid 2 of the during and after event, 6s clip
 
 #### <span id="sober" class="offset-top-nav">🍸 Sobreity continues</span>
 
-TODO:
+I'm not sure what to add to this section, just wanna mention that it carries on, and I like it. I've been to a lot of social events, big and small, with a person or many, or with hundreds, and yeah so far this is ok. The weird social understanding that the only way to have fun is to drink alcohol (as ancient as this may be, predating ancient Roman times etc.), that has to go. I've seen it time and time again that it's absolutely unnecessary, luckily, I'm more and more surrounded by very like-minded people and I absolutely LOVE THIS. It feels awesome! So many ways of having fun in life, you don't need to drink in order to hit the dancefloor and dance, to joke around and have fun chatting or anything else in between.
 
 #### <span id="tallinn" class="offset-top-nav">🇪🇪 A couple of days in Tallinn</span>
 
-TODO:
+The first adventure and a mini trip this year was to Tallinn, Estonia. I hadn't gone there since 2012, funnily enough, even if it's so close and just a 2 hour boat ride away. So super randomly, I did go this year. There was a long weekend opportunity around the 1st of May, so I took it and went to Tallinn for a few days. What was funny about the weather this year, was that all the way till the end of April we had snow, and then in May we went instantly into summer, quite literally there was no spring in between, but hey, I appreciate the warm May for sure. So I got good weather in Tallinn as well. The trip was a lot of fun with visiting 2 of the local CrossFit boxes on different days, some stake dinner out in Town, massages, relaxing, tons of walking around 20k steps per day, enjoying the sun and the athmosphere of old town Tallinn among other things. It was funny to see Elisa and Prisma shops in there as well, and despite being there only 2-3 days, this time I got really kind of immersed in it, as much as possible, despite the short trip. Just being out and about, being present, exploring, walking, talking makes all the difference and gives a whole other angle to travelling.
+
+TODO: picture gallery
 
 #### <span id="bulgaria" class="offset-top-nav">🇧🇬 Trip to Bulgaria with Anton</span>
 
@@ -263,6 +277,9 @@ TODO: write
 [0]: Linkslist
 [1]: https://www.youtube.com/watch?v=GS7M6s2xXfs
 
-TODO: Continue selecting pictures and videos from April 2024
+TODO: All photos in D drive
 
 YIR: xfit new people joining from other gym, swim workout, (hang outs in the social section)
+
+TODO: proof read
+TODO: spell check
