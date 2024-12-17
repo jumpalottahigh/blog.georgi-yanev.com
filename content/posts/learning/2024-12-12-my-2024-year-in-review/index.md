@@ -12,7 +12,7 @@ tags:
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'growth mindset, learning, evolving, developing, studying, improvement, goal list, progress, taking a look back, looking ahead, 2017, 2018, 2019, 2020, software development, software engineering, making youtube videos, youtube, fpvtips, starting a youtube channel, electron, nodejs, fpv, fly fpv, google developer challenge scholarship, web dev, blog, passion, grow, twitter, twitch, public speaking, speaking, gatsby, react, GitHub, constant learning, life-long learning, fpvtips.com, community, netlify, nanowrimo, product, ship, launch, brand, branding, education, produce video, youtube tutorial, egghead.io tutorial, breakup, personal growth, mental health, mental wellbeing'
 ogDescription: 'TODO:'
-ogImage: './my-2024-year-in-review-1.png'
+ogImage: './my-2024-year-in-review-1.jpg'
 ---
 
 #### Table of contents
@@ -45,10 +45,30 @@ TODO: write a bit more
 
 <div class="image-grid">
 
-TODO: add image grid from the year
-![a](my-2023-year-in-review-)
-![b](my-2023-year-in-review-)
-![c](my-2023-year-in-review-)
+TODO: pic from screenshot of snatch lifting vid
+
+![a](my-2024-year-in-review-1.jpg)
+![b](my-2024-year-in-review-2.jpg)
+![c](my-2024-year-in-review-3.jpg)
+![c](my-2024-year-in-review-4.jpg)
+![c](my-2024-year-in-review-5.jpg)
+![c](my-2024-year-in-review-6.jpg)
+![c](my-2024-year-in-review-7.jpg)
+![c](my-2024-year-in-review-8.jpg)
+![c](my-2024-year-in-review-9.jpg)
+![c](my-2024-year-in-review-10.jpg)
+![c](my-2024-year-in-review-11.jpg)
+![c](my-2024-year-in-review-12.jpg)
+![c](my-2024-year-in-review-13.jpg)
+![c](my-2024-year-in-review-14.jpg)
+![c](my-2024-year-in-review-15.jpg)
+![c](my-2024-year-in-review-16.jpg)
+![c](my-2024-year-in-review-17.jpg)
+![c](my-2024-year-in-review-18.jpg)
+![c](my-2024-year-in-review-19.jpg)
+![c](my-2024-year-in-review-20.jpg)
+![c](my-2024-year-in-review-21.jpg)
+![c](my-2024-year-in-review-22.jpg)
 
 </div>
 
@@ -103,7 +123,8 @@ TODO:'
 
 - shifting from some friends to others
 - fortnite, making roblox games and updates, recording youtube videos
--
+- reading books together
+- what is the feeling of being a dad
 
 ##### The creativity angle...
 
@@ -151,6 +172,8 @@ Some stats as of December 2024:
 | Jackie        | 6:37                        |          |       |
 | DT            | 8:15 @ 50kg                 |          |       |
 | Bac           | 8:15 @ 50kg                 |          |       |
+
+To top it all off, I was awarded the "most improved athlete" in our gym for 2024, something, that means the world to me! I so, so much appreciate this! It's hard to put it in words how much this means to me!
 
 <video controls preload="metadata" autoplay muted playsinline>
   <source src="my-2023-year-in-review-5.webm" type="video/webm">
@@ -280,6 +303,8 @@ TODO: write
 TODO: All photos in D drive
 
 YIR: xfit new people joining from other gym, swim workout, (hang outs in the social section)
+
+TODO: Fix top nav to have the same sections so we can find the content
 
 TODO: proof read
 TODO: spell check
