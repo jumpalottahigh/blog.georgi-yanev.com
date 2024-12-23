@@ -12,7 +12,7 @@ tags:
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'growth mindset, learning, evolving, developing, studying, improvement, goal list, progress, taking a look back, looking ahead, 2017, 2018, 2019, 2020, software development, software engineering, making youtube videos, youtube, fpvtips, starting a youtube channel, electron, nodejs, fpv, fly fpv, google developer challenge scholarship, web dev, blog, passion, grow, twitter, twitch, public speaking, speaking, gatsby, react, GitHub, constant learning, life-long learning, fpvtips.com, community, netlify, nanowrimo, product, ship, launch, brand, branding, education, produce video, youtube tutorial, egghead.io tutorial, breakup, personal growth, mental health, mental wellbeing'
 ogDescription: 'TODO:'
-ogImage: './my-2024-year-in-review-1.jpg'
+ogImage: './my-2024-year-in-review-14.jpg'
 ---
 
 #### Table of contents
@@ -45,30 +45,31 @@ TODO: write a bit more
 
 <div class="image-grid">
 
-TODO: pic from screenshot of snatch lifting vid
+TODO: pic from screenshot of snatch lifting vid, more mood setting of the year pics
+TODO: most improved athlete pic
 
-![a](my-2024-year-in-review-1.jpg)
-![b](my-2024-year-in-review-2.jpg)
-![c](my-2024-year-in-review-3.jpg)
-![c](my-2024-year-in-review-4.jpg)
-![c](my-2024-year-in-review-5.jpg)
-![c](my-2024-year-in-review-6.jpg)
-![c](my-2024-year-in-review-7.jpg)
-![c](my-2024-year-in-review-8.jpg)
-![c](my-2024-year-in-review-9.jpg)
-![c](my-2024-year-in-review-10.jpg)
-![c](my-2024-year-in-review-11.jpg)
-![c](my-2024-year-in-review-12.jpg)
-![c](my-2024-year-in-review-13.jpg)
-![c](my-2024-year-in-review-14.jpg)
-![c](my-2024-year-in-review-15.jpg)
-![c](my-2024-year-in-review-16.jpg)
-![c](my-2024-year-in-review-17.jpg)
-![c](my-2024-year-in-review-18.jpg)
-![c](my-2024-year-in-review-19.jpg)
-![c](my-2024-year-in-review-20.jpg)
-![c](my-2024-year-in-review-21.jpg)
-![c](my-2024-year-in-review-22.jpg)
+![anton stacking blocks](my-2024-year-in-review-1.jpg)
+![anton in VR](my-2024-year-in-review-2.jpg)
+![anton holding dumbells](my-2024-year-in-review-3.jpg)
+![anton's 8th birthday cake](my-2024-year-in-review-4.jpg)
+![anton and dad and 8th birtday balloon](my-2024-year-in-review-5.jpg)
+![anton lifts fake weight](my-2024-year-in-review-6.jpg)
+![anton plays PC games](my-2024-year-in-review-7.jpg)
+![anton skis](my-2024-year-in-review-8.jpg)
+![anton and dad play chess](my-2024-year-in-review-9.jpg)
+![anton made easter card](my-2024-year-in-review-10.jpg)
+![carrots for easter bunny](my-2024-year-in-review-11.jpg)
+![painting easter eggs](my-2024-year-in-review-12.jpg)
+![anton and dad eating icecream](my-2024-year-in-review-13.jpg)
+![anton and dad with caps](my-2024-year-in-review-14.jpg)
+![anton, dad and grandgrandma Eli](my-2024-year-in-review-15.jpg)
+![anton and dad at the tree in the Plovdiv hill](my-2024-year-in-review-16.jpg)
+![anton, dad and dad's cousins's kids](my-2024-year-in-review-17.jpg)
+![anton and dad in the bus part 1](my-2024-year-in-review-18.jpg)
+![anton and dad in the bus part 2](my-2024-year-in-review-19.jpg)
+![georgi, valia and their mom and dad](my-2024-year-in-review-20.jpg)
+![elisa xmas party](my-2024-year-in-review-21.jpg)
+![north engine crossfit xmas party team](my-2024-year-in-review-22.jpg)
 
 </div>
 
@@ -117,7 +118,9 @@ The playing basketball with Anton, going to museums and creative skills stuff ma
 
 I feel so blessed and grateful for getting to experience what being a dad is. For many reasons, trying to be present and there for my kid when he needs me is super important for me. I remember and cherish so many memories with my dad, and in some ways I do wish he spent more time playing with me when I was little. We did play a lot of board games, he even created our own version of monopoly which turned out really cool. I also remember when he played StarCraft with me (I must have been 15 ish at the time). It was nice to spend some time with my dad this summer in Cyprus, for the first time in quite some time, perhaps 6 or so years.
 
-I'm not sure where to even begin here; there's just quite a few things to cover. But let's break it down into a few main subtopics.
+I'm not sure where to even begin here; there's just quite a few things to cover. And everyday I get to spend with my kid is a gift, and I appreciate it immensely. It sucks to not be able to be there with him every single day, that will always be something that bugs me, but for what it is, I think we're making the best out of the situation we have.
+
+From going to museums, chatting about space, reading books together, playing games together, table tennis, badminton, crossfit together, so many important and cherished moments I could never put into words.
 
 TODO:'
 
@@ -125,6 +128,9 @@ TODO:'
 - fortnite, making roblox games and updates, recording youtube videos
 - reading books together
 - what is the feeling of being a dad
+
+- playing chess
+- upholding traditions (xmas and easter and martenitzas)
 
 ##### The creativity angle...
 
@@ -205,7 +211,21 @@ I'm not sure what to add to this section, just wanna mention that it carries on,
 
 The first adventure and a mini trip this year was to Tallinn, Estonia. I hadn't gone there since 2012, funnily enough, even if it's so close and just a 2 hour boat ride away. So super randomly, I did go this year. There was a long weekend opportunity around the 1st of May, so I took it and went to Tallinn for a few days. What was funny about the weather this year, was that all the way till the end of April we had snow, and then in May we went instantly into summer, quite literally there was no spring in between, but hey, I appreciate the warm May for sure. So I got good weather in Tallinn as well. The trip was a lot of fun with visiting 2 of the local CrossFit boxes on different days, some stake dinner out in Town, massages, relaxing, tons of walking around 20k steps per day, enjoying the sun and the athmosphere of old town Tallinn among other things. It was funny to see Elisa and Prisma shops in there as well, and despite being there only 2-3 days, this time I got really kind of immersed in it, as much as possible, despite the short trip. Just being out and about, being present, exploring, walking, talking makes all the difference and gives a whole other angle to travelling.
 
-TODO: picture gallery
+<div class="image-grid">
+
+![sea](my-2024-year-in-review-23.jpg)
+![tallinn building 1](my-2024-year-in-review-24.jpg)
+![blossoming tree](my-2024-year-in-review-25.jpg)
+![tallinn tower](my-2024-year-in-review-26.jpg)
+![tallinn castle](my-2024-year-in-review-27.jpg)
+![tallinn gate](my-2024-year-in-review-28.jpg)
+![tallinn crossfit](my-2024-year-in-review-29.jpg)
+![tallinn tower 2](my-2024-year-in-review-30.jpg)
+![stake](my-2024-year-in-review-31.jpg)
+![tallinn tower 3](my-2024-year-in-review-32.jpg)
+![tallinn kuubik crossfit](my-2024-year-in-review-33.jpg)
+
+</div>
 
 #### <span id="bulgaria" class="offset-top-nav">🇧🇬 Trip to Bulgaria with Anton</span>
 
@@ -219,13 +239,42 @@ TODO:
 
 #### <span id="cyprus" class="offset-top-nav">🇨🇾 Trip to Cyprus for my sister's wedding</span>
 
+The Cyprus trip and how it worked out, I'm very happy with. On one hand, it was planned very much ahead of time - I had promised my sister I'd go there for her wedding, already in January. On the otherhand, because of hassles with dates and uncertainty, I still didn't even have tickets a few weeks before that. Luckily, I was able to get a flight at a decent date so I was there a day before the wedding, then I stayed in total for a week to catch up and see my family.
+
 TODO:
 
 <div class="image-grid">
 
-![e](my-2023-year-in-review-50.jpg)
+![e](my-2024-year-in-review-34.jpg)
+![e](my-2024-year-in-review-35.jpg)
+![e](my-2024-year-in-review-36.jpg)
+![e](my-2024-year-in-review-37.jpg)
+![e](my-2024-year-in-review-38.jpg)
+![e](my-2024-year-in-review-39.jpg)
+![e](my-2024-year-in-review-40.jpg)
+![e](my-2024-year-in-review-41.jpg)
+![e](my-2024-year-in-review-42.jpg)
+![e](my-2024-year-in-review-43.jpg)
+![e](my-2024-year-in-review-44.jpg)
+![e](my-2024-year-in-review-45.jpg)
+![e](my-2024-year-in-review-46.jpg)
+![e](my-2024-year-in-review-47.jpg)
+![e](my-2024-year-in-review-48.jpg)
+![e](my-2024-year-in-review-49.jpg)
+![e](my-2024-year-in-review-50.jpg)
+![e](my-2024-year-in-review-51.jpg)
+![e](my-2024-year-in-review-52.jpg)
+![e](my-2024-year-in-review-53.jpg)
+![e](my-2024-year-in-review-54.jpg)
+![e](my-2024-year-in-review-55.jpg)
+![e](my-2024-year-in-review-56.jpg)
+![e](my-2024-year-in-review-57.jpg)
+![e](my-2024-year-in-review-58.jpg)
+![e](my-2024-year-in-review-59.jpg)
 
 </div>
+
+https://www.instagram.com/stories/highlights/18043750144812904/
 
 #### <span id="tenerife" class="offset-top-nav">🇪🇸 Trip to Tenerife</span>
 
@@ -252,6 +301,7 @@ It's not been the best year to watch nice movies in a cinema theater, so the lis
 | The Fall Guy                    | 7/10      |
 | Furiousa                        | 8/10      |
 | Deadpool & Wolverine            | 10/10     |
+| The Wild Robot (with Anton)     | 10/10     |
 
 Agent Argylle - funny, ok, The beekeeper - classic Stathem movie, Dune 2 - absolutely amazing and epic, exactly what I'd love to see in the cinema, Kung Fu Panda 4 - nice, entertaining. Godzilla x Kong - i wasn't sure what I had just seen, what was that. Civil War sounded very promising as a title, but the delivery was absolutely underwhelming and the ending was terrible lol. The Fall Guy was some take on a rom com, ok-ish. Furiousa was rather ok. Deadpool pleasantly surprised me by a long shot. Very, very funny movie, pretty nice!
 
@@ -270,6 +320,8 @@ TODO:
 - dates; anette
 - anya in the plane
 - new people in our gym and pizza, sauna
+
+- people it's so easy to talk to and click instantly with (Emilia at work, )
 
 #### <span id="???" class="offset-top-nav">Looking for "My People"</span>
 
