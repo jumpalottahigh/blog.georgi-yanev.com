@@ -1,6 +1,6 @@
 ---
 path: '/learning/my-2024-year-in-review/'
-date: '2024-12-12'
+date: '2024-12-27'
 title: 'My 2024 year in review'
 author: 'Georgi Yanev'
 draft: false
