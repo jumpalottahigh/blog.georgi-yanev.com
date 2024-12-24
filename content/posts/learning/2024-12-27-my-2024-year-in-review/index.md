@@ -229,11 +229,78 @@ The first adventure and a mini trip this year was to Tallinn, Estonia. I hadn't 
 
 #### <span id="bulgaria" class="offset-top-nav">🇧🇬 Trip to Bulgaria with Anton</span>
 
-TODO:
+It was soon going to be time for Anton to go on a well deserved vacation from school, and also it would be time for our Bulgarian trip! I was pretty excited about this one, most of all, because the previous year we had done a couple of shorter trips now, and that really validated and confirmed that Anton ws beyond ready for even bigger adventures. That and the fact we were going to visit the homeland, made it extra exciting, so soon the time came and we left. We had a nice trip, Anton made some friends on the plane, chatted with a boy his age, they played some games on their phones and talked in Swedish and English. I had arranged a transport for us from the Sofia airport to our apartment in Plovdiv and it all went pretty smooth, so around 11 something in the night we were home. We were kind of hungry so we even went to get a delicious kebab before hitting the sack. That first night was so hard for both of us to sleep as we weren't used to the heat just yet and the Plovdiv apartment has no AC. The funny thing is that after a couple of days we got used to it and slept just fine. But mid June temperatures in Bulgaria are not to be underestimated, if you've been living in a cold country like Finland for the past 10 years.
+Another interesting thing was that there had been aparently an earthquake of 4.3 in Plovdiv a bit before we landed in Sofia.
+
+I'm not gonna go over the entire trip, I have those days written in separate private posts, which I may or may not publish someday, but I wanna mention some of the highlights. Perhaps the biggest and most important was to see little man connect with his homeland. He was instantly used to most things, it's hard to describe in words what exactly, but the basic idea is that this is half his herritage and he should be feeling that and exploring that part too. And so we did. It was amazing to catch up with friends and family, awesome to see Anton hanging out and playing with Damian - the son of a friend of mine, but they played very nicely together and had fun! It was nice to see my cousin's kids and hang out with them a bit, they are so big nowadays, and see Anton chat a bit with them too! The future generation, what a great bunch of kids!
+
+We did so much exploring of Plovdiv, ancient roman amphitheater, ancient roman stadium, old town of Plovdiv, city center, central park, the hills, the kids' train in the youth's hill, natural history museum, the artsy Kapana neighbourhood and just wandering about and taking the city in. **Plovdiv has always had that SPECIAL vibe, that AILYAK, that's impossible to describe but makes you relax and chill like nowhere else.** Just being at peace, exploring the city and taking part in various events around the city center, which seem to happen every day of the week in the summer. I always used to say that I don't miss Bulgaria that much, as much as I miss Plovdiv. It is the most special place for me and it will always be so! In the end, it was nice to hear Anton blurt out: "Dad, can't we live in Plovdiv and just go to Finland every once in a while?" while we were saying goodbye to his "2nd cousins". Of course we can son, why not, who knows. We got a bit emotional saying goodbye to the bear in the Central Park, but it was just a goodbye for now.
+
+![ancient roman stadium in Plovdiv](my-2024-year-in-review-97.jpg)
+
+We had been reading the Winnie the Pooh books lately and we liked the characters a lot, so the story about how we got Eeyorie was very special to us. We basically played this claw machine and with 2 coins of 1 lev each (2lv = 1euro) we got 3 plushies out of the machine, which was insane. 3 plushies out of 5 tries, and 1 of those was a super cute Eeyorie!
+
+After a week in Plovdiv the trip continued with a week by the sea side at the Black sea coast, specifically in Melia in Sunny Beach. We had a really nice time there too! It was awesome to go to a sea with nice warm water, splash in the waves, swim, relax on the beach, enjoy good food, chill. I think we both really enjoyed that. Going to the beach twice per day, exploring around in the evenings a bit too, including the beautiful Nessebar near by, making friends with our cat friend in the hotel, taking pictures with parrots, riding double deckers, taking pictures, among other things.
+
+![nessebar ruins](my-2024-year-in-review-123.jpg)
+
+The last part of our adventure tooks us to Sofia for a couple of days, which were also pretty enjoyable. We had a nice airbnb right in the center, not too far off the National Palace of Culture, which gave us easy access to some nice parks close by, as well as the Vitosha boulevard where you could just stroll down the pedestrian street and explore the center of Sofia so to speak. Sofia's a big city, obviously, but still, we managed to walk around quite a bit during the two days there, had some nice classic Bulgarian "mekitzi" for breakfast (deep fried pastry with some topings), took a lot of pictures and saw some of the key points, including the St Alexander Nevski Cathedral.
+
+![St. Alexander Nevski Cathedral in Sofia](my-2024-year-in-review-135.jpg)
+
+Finally, at the airport we had an interesting situation where we found the perfect Pooh plushie too!
+
+![eeyorie and pooh](my-2024-year-in-review-136.jpg)
+
+All in all, two weeks of adventure and fun exploring our other homeland 💙!
 
 <div class="image-grid">
 
-![b](my-2023-year-in-review-42.jpg)
+![BG sunset](my-2024-year-in-review-89.jpg)
+![Earthquake](my-2024-year-in-review-90.jpg)
+![Anton in the Plovdiv apartment](my-2024-year-in-review-91.jpg)
+![khan krum statue](my-2024-year-in-review-92.jpg)
+![breakfast time](my-2024-year-in-review-93.jpg)
+![meeting grand grandma](my-2024-year-in-review-94.jpg)
+![weather](my-2024-year-in-review-95.jpg)
+![Anton and the city park bear](my-2024-year-in-review-96.jpg)
+![wanna buy this minecraft chicken](my-2024-year-in-review-98.jpg)
+![we got eeyorie from a claw machine](my-2024-year-in-review-99.jpg)
+![riding together](my-2024-year-in-review-100.jpg)
+![plovdiv natural history museum](my-2024-year-in-review-101.jpg)
+![again in the museum](my-2024-year-in-review-102.jpg)
+![plovdiv ancient amphitheater](my-2024-year-in-review-103.jpg)
+![plovdiv old town](my-2024-year-in-review-104.jpg)
+![pLOVEdiv](my-2024-year-in-review-105.jpg)
+![lying down for a sec](my-2024-year-in-review-106.jpg)
+![youth hill](my-2024-year-in-review-107.jpg)
+![bear in the park](my-2024-year-in-review-108.jpg)
+![climbing the top of the hill](my-2024-year-in-review-109.jpg)
+![climbing the top of the hill 2](my-2024-year-in-review-110.jpg)
+![car rides](my-2024-year-in-review-111.jpg)
+![playing together](my-2024-year-in-review-112.jpg)
+![kid's train](my-2024-year-in-review-113.jpg)
+![dad's picture](my-2024-year-in-review-114.jpg)
+![bear in the park part 3](my-2024-year-in-review-115.jpg)
+![drinking water](my-2024-year-in-review-116.jpg)
+![our spray painting](my-2024-year-in-review-117.jpg)
+![twilight](my-2024-year-in-review-118.jpg)
+![anton and dad by the tree](my-2024-year-in-review-119.jpg)
+![anton and dad by the seaside](my-2024-year-in-review-120.jpg)
+![parrots](my-2024-year-in-review-121.jpg)
+![Nessebar](my-2024-year-in-review-122.jpg)
+![nessebar old church](my-2024-year-in-review-124.jpg)
+![in the bus near nessebar](my-2024-year-in-review-125.jpg)
+![sun going down](my-2024-year-in-review-126.jpg)
+![chilling at the beach](my-2024-year-in-review-127.jpg)
+![our cat friend](my-2024-year-in-review-128.jpg)
+![ready to travel again](my-2024-year-in-review-129.jpg)
+![sofia national palace of culture](my-2024-year-in-review-130.jpg)
+![sofia playground](my-2024-year-in-review-131.jpg)
+![sofia old church](my-2024-year-in-review-132.jpg)
+![sofia lion statue](my-2024-year-in-review-133.jpg)
+![St. Alexander Nevski](my-2024-year-in-review-134.jpg)
+![Anton and dad ready to go home <3](my-2024-year-in-review-137.jpg)
 
 </div>
 
