@@ -120,27 +120,27 @@ I feel so blessed and grateful for getting to experience what being a dad is. Fo
 
 I'm not sure where to even begin here; there's just quite a few things to cover. And everyday I get to spend with my kid is a gift, and I appreciate it immensely. It sucks to not be able to be there with him every single day, that will always be something that bugs me, but for what it is, I think we're making the best out of the situation we have.
 
-From going to museums, chatting about space, reading books together, playing games together, table tennis, badminton, crossfit together, so many important and cherished moments I could never put into words.
+From going to museums, chatting about space, reading books together, playing games together, table tennis, badminton, crossfit together, so many important and cherished moments I could never put into words. It's interesting watching him grow up, asking more and more interesting questions as he moves through the adventure called life.
 
-TODO:'
+I try my best to "teach creativity" or at least the desire to explore and create stuff in various forms - for example making games, putting things together, building stuff. We do that a lot in Minecraft, this year we also did that via a few Unity game engine tutorials we followed together and we made a couple of small games, one of which is even live on his site - https://antonyanev.com.
 
-- shifting from some friends to others
-- fortnite, making roblox games and updates, recording youtube videos
-- reading books together
-- what is the feeling of being a dad
+As a dad I'd like to show him so many things about life just to create an environment to explore and choose a path forward for himself. However, if there's one thing, well really 3 things, I'd like to tell my son, these are:
 
-- playing chess
-- upholding traditions (xmas and easter and martenitzas)
-
-##### The creativity angle...
-
-##### A trip home...
-
-##### CrossFit together
+**Travel, read books and create meaningful connections with people**
 
 <div class="image-grid">
 
-![f](my-2023-year-in-review-24.jpg)
+![Anton building stuff](my-2024-year-in-review-61.jpg)
+![Anton in VR](my-2024-year-in-review-62.jpg)
+![Anton skiing](my-2024-year-in-review-63.jpg)
+![Awesome Easter card by Anton](my-2024-year-in-review-64.jpg)
+![Anton going to hobby](my-2024-year-in-review-65.jpg)
+![Anton reading outside](my-2024-year-in-review-66.jpg)
+![Anton arrived in Bulgaria](my-2024-year-in-review-67.jpg)
+![Anton relaxing in the morning in Plovdiv](my-2024-year-in-review-68.jpg)
+![Anton and dad](my-2024-year-in-review-69.jpg)
+![Anton in CrossFit](my-2024-year-in-review-70.jpg)
+![Anton and dad with xmas pajamas](my-2024-year-in-review-71.jpg)
 
 </div>
 
@@ -241,54 +241,103 @@ TODO:
 
 The Cyprus trip and how it worked out, I'm very happy with. On one hand, it was planned very much ahead of time - I had promised my sister I'd go there for her wedding, already in January. On the otherhand, because of hassles with dates and uncertainty, I still didn't even have tickets a few weeks before that. Luckily, I was able to get a flight at a decent date so I was there a day before the wedding, then I stayed in total for a week to catch up and see my family.
 
-TODO:
+Landing in Larnaca is always interesting, mainly because it reminds me of the time I lived there, 3 summers in total: 2010, 2011, 2012. I'm not gonna go on a tangent to talk about that time, it had its challenges and ups and downs. But whatever the case, it was an important part of my life and if we consider consequences of actions, perhaps, one of the, if not THE most important time of my life as it would turn out, as that's how back then I met Anton's mom. Anywho, my mom came to pick me up from the airport, which was really nice to see her then, we had a bit of food, relaxed, chatted, and the adventure began. Quickly got a bus for Limassol where soon after we transfered to another bus all the way to Paphos, essentially traversing the entire island east to west within the span of a few hours.
+
+I got soon to see my sister and my dad too and the poodle Erika. Fun times. The weather was great, just how I like it, nice and hot, absolutely love that!
+
+The following day we had the wedding and everything went fine, without major issues. There was some minor hassle around the church ceremony, but luckily everything fell nicely into place and went smoothly. The wedding entourage was a colorful bunch, speaking 4 languages, quite a mixed bag and hell of fun 😅. There were people speaking Bulgarian, Greek, English and French. Really quite the funny mix and we had fun anyway!
+
+The rest of the trip was hanging out with my family, going to the beach to make the most of it - very pleasant to swim in that water, the Mediterranean is nice and warm in the end of August, and very clear so with a pair of swimming goggles, very pleasant to dive and explore a bit too. I did some really nice long-ish freestyle swims and got some tan, gotta love it. A part of me wished I brought Anton with me, but his school had started so that wouldn't have worked out. All in all, in the end it worked out really well, main goal was accomplished of attending the wedding, and as a bonus getting some sun and swimming was a nice touch too.
 
 <div class="image-grid">
 
-![e](my-2024-year-in-review-34.jpg)
-![e](my-2024-year-in-review-35.jpg)
-![e](my-2024-year-in-review-36.jpg)
-![e](my-2024-year-in-review-37.jpg)
-![e](my-2024-year-in-review-38.jpg)
-![e](my-2024-year-in-review-39.jpg)
-![e](my-2024-year-in-review-40.jpg)
-![e](my-2024-year-in-review-41.jpg)
-![e](my-2024-year-in-review-42.jpg)
-![e](my-2024-year-in-review-43.jpg)
-![e](my-2024-year-in-review-44.jpg)
-![e](my-2024-year-in-review-45.jpg)
-![e](my-2024-year-in-review-46.jpg)
-![e](my-2024-year-in-review-47.jpg)
-![e](my-2024-year-in-review-48.jpg)
-![e](my-2024-year-in-review-49.jpg)
-![e](my-2024-year-in-review-50.jpg)
-![e](my-2024-year-in-review-51.jpg)
-![e](my-2024-year-in-review-52.jpg)
-![e](my-2024-year-in-review-53.jpg)
-![e](my-2024-year-in-review-54.jpg)
-![e](my-2024-year-in-review-55.jpg)
-![e](my-2024-year-in-review-56.jpg)
-![e](my-2024-year-in-review-57.jpg)
-![e](my-2024-year-in-review-58.jpg)
-![e](my-2024-year-in-review-59.jpg)
+![Welcome to Cyprus](my-2024-year-in-review-34.jpg)
+![Cyprus weather for the week](my-2024-year-in-review-35.jpg)
+![Georgi and mom](my-2024-year-in-review-36.jpg)
+![Google maps Cyprus](my-2024-year-in-review-37.jpg)
+![Cyprus travelling with a bus](my-2024-year-in-review-38.jpg)
+![Georgi and Erika](my-2024-year-in-review-39.jpg)
+![Erika](my-2024-year-in-review-40.jpg)
+![Georgi, Valya, mom and dad](my-2024-year-in-review-41.jpg)
+![Georgi, Valya, mom and dad at Valya's wedding 1](my-2024-year-in-review-42.jpg)
+![Georgi, Valya, mom and dad at Valya's wedding 2](my-2024-year-in-review-43.jpg)
+![sunset over the sea](my-2024-year-in-review-44.jpg)
+![Georgi and Valya](my-2024-year-in-review-45.jpg)
+![beach](my-2024-year-in-review-46.jpg)
+![Georgi on the beach](my-2024-year-in-review-47.jpg)
+![sunset 1](my-2024-year-in-review-48.jpg)
+![sunset 2](my-2024-year-in-review-49.jpg)
+![CrossFit gym in Paphos West34](my-2024-year-in-review-50.jpg)
+![Georgi ready for CrossFit](my-2024-year-in-review-51.jpg)
+![Paphos castle](my-2024-year-in-review-52.jpg)
+![sea](my-2024-year-in-review-53.jpg)
+![mom and dad](my-2024-year-in-review-54.jpg)
+![sunset over the sea again](my-2024-year-in-review-55.jpg)
+![if you are a bird, i am too](my-2024-year-in-review-56.jpg)
+![paphos church](my-2024-year-in-review-57.jpg)
+![Georgi lying on the beach](my-2024-year-in-review-58.jpg)
+![Georgi, mom and dad by Paphos castle](my-2024-year-in-review-59.jpg)
 
 </div>
 
-https://www.instagram.com/stories/highlights/18043750144812904/
-
-#### <span id="tenerife" class="offset-top-nav">🇪🇸 Trip to Tenerife</span>
-
-TODO:
+[Instagram stories from the trip:](https://www.instagram.com/stories/highlights/18043750144812904/)
 
 <div class="image-grid">
 
-![a](my-2023-year-in-review-58.jpg)
+[![instagram stories thumbnail](my-2024-year-in-review-60.jpg)](https://www.instagram.com/stories/highlights/18043750144812904/)
+
+</div>
+
+#### <span id="tenerife" class="offset-top-nav">🇪🇸 Trip to Tenerife</span>
+
+The Tenerife training camp with Jonne Koski was one of the most amazing things that's happened to me in quite a while. The main reason why was the complete mix of how everything worked out. But first, a sentence on how we got there. It's actually a relatively short story - in March a collegue of mine at work told me about the existence of these "training holidays" and it sounded to me like such a smart and cool idea - you go somewhere on vacation, but in addition to getting the sun, sea and nice food, you also get to focus on training in decent facilities and have fun with like-minded people. I checked a couple of such trips online, but hadn't decided on anything, although there were a couple in May I was eyeing. **And then came the post from either Jonne Koski or Turkutuomiopaivat in Instagram**. I think I booked it instantly when I saw it. Not only was it exactly the same concept as what I had now been searching for, but on top of it all you got to do it alongside CrossFit Games athlete Jonne Koski! Holy moly! I was super excited, so despite the event being all the way in November and therefor meaning I had to wait for 6+ months, I signed up regardless, it sounded like a perfect fit. **And the best part about it is that now, in hindsight, yes, it was a perfect fit and beyond!** This event made me so happy on so many levels!
+
+The trip there was nice, I ended up chatting for nearly the entire flight with this nice Ukranian lady. It's not often you meet people that match you in vibe and energy, so that was really nice actually - we legit talked for almost the full 6 hours. The funny thing is, the whole thing started because we bumped into each other in an R kioski at the airport before boarding, so then when she came to sit next to me, we started chatting. Very friendly and nice person.
+
+The weather in Tenerife was awesome! I had expected it to be warmer, abviously, but I had no idea it would actually be literal summer with temperatures from 22 to 26 and so on. Unbelievable! I had been previously in warm places in October and November, like Cyprus, like Nevada, but well, it's been a while first of all, and second of all, this felt so weird coming from the contrast of Finland into it, and then also going back to Finland after it. Literally my brain felt a bit confused for sure. As if seasons really swapped and what not.
+
+Another element to the trip was of course the people in the camp! Everyone was super nice and friendly, very like-minded, really genuinely super nice people, it's hard for me to describe. It felt like we were there cause we wanted to be there and nowhere else at that point in time. It was amazing. We also got to hang out together quite a bunch, since not only did we train twice per day, but also eating breakfast, lunch and dinner together, playing table tennis, taking saunas. A lovely bunch of folks!
+
+And of course, a super important element was the training itself! I had been very curious if I'd be able to do it - train twice per day. Super happy to report that not only did it work out well, I got 2 new PRs (deadlift and clean), many new awesome tips on lifting, handstand walks and pull ups. So the results were there, the fun was there and the body wasn't too tired either, which I suppose makes sense when you only eat, sleep, train, repeat and have no other responsibilities. It felt absolutely amazing to be honest! The training was very diverse too. Not only did we do our regular CrossFit stuff - snatch, cleans, DUs, rowing, ski erg, assault bike, BMUs, t2b, burpeees, deadlifts, etc., but also we had swimming training, crossfit workout with swimming, running, uphill sprints, and tried even the Flume swimming machine to test and observe swimming technique.
+
+We even went on a hike on the one day off and saw a boomerang banana peel among other things 😂. All in all, insane vibe is probably how I could sum it up as short as possible. **Absolutely insane vibe**! All of our CrossFit athletes were super cool, focused and putting in the work, but also helping each other and giving valuable tips, and of course Jonne Koski and Emilia Leppänen were absolute legends!
+
+TODO: add screenshots from vids if applicable
+TODO: add vids
+TODO: add IG vid? https://www.instagram.com/p/DC4D9dQgnPL/
+
+<div class="image-grid">
+
+![Tenerife hotel](my-2024-year-in-review-72.jpg)
+![Tenerife mount](my-2024-year-in-review-73.jpg)
+![CrossFit box Tenerife](my-2024-year-in-review-74.jpg)
+![Tenerife mountains](my-2024-year-in-review-75.jpg)
+![Rowing](my-2024-year-in-review-76.jpg)
+![Tenerife sunset](my-2024-year-in-review-77.jpg)
+![From the mountain down](my-2024-year-in-review-78.jpg)
+![At the top of the peak](my-2024-year-in-review-79.jpg)
+![Black sand](my-2024-year-in-review-80.jpg)
+![Stone stack](my-2024-year-in-review-81.jpg)
+![The whole CrossFit team](my-2024-year-in-review-82.jpg)
+![deadlift PR](my-2024-year-in-review-83.jpg)
+![Georgi at sunset](my-2024-year-in-review-84.jpg)
+![Beautiful Tenerife sunset](my-2024-year-in-review-85.jpg)
+![DC and ice](my-2024-year-in-review-86.jpg)
+![yet another sunset](my-2024-year-in-review-87.jpg)
+
+</div>
+
+[Instagram stories from the trip:](https://www.instagram.com/stories/highlights/18034943444342636/)
+
+<div class="image-grid">
+
+[![instagram stories thumbnail](my-2024-year-in-review-88.jpg)](https://www.instagram.com/stories/highlights/18034943444342636/)
 
 </div>
 
 #### <span id="movie-review" class="offset-top-nav">🎞️ Movie review</span>
 
-It's not been the best year to watch nice movies in a cinema theater, so the list is MUCH sorter than last year's
+It's not been the best year to watch nice movies in a cinema theater, so the list is MUCH shorter than last year's:
 
 | Movie title                     | My rating |
 | ------------------------------- | --------- |
@@ -303,7 +352,7 @@ It's not been the best year to watch nice movies in a cinema theater, so the lis
 | Deadpool & Wolverine            | 10/10     |
 | The Wild Robot (with Anton)     | 10/10     |
 
-Agent Argylle - funny, ok, The beekeeper - classic Stathem movie, Dune 2 - absolutely amazing and epic, exactly what I'd love to see in the cinema, Kung Fu Panda 4 - nice, entertaining. Godzilla x Kong - i wasn't sure what I had just seen, what was that. Civil War sounded very promising as a title, but the delivery was absolutely underwhelming and the ending was terrible lol. The Fall Guy was some take on a rom com, ok-ish. Furiousa was rather ok. Deadpool pleasantly surprised me by a long shot. Very, very funny movie, pretty nice!
+Agent Argylle - funny, ok, The beekeeper - classic Stathem movie, Dune 2 - absolutely amazing and epic, exactly what I'd love to see in the cinema, Kung Fu Panda 4 - nice, entertaining. Godzilla x Kong - i wasn't sure what I had just seen, what was that. Civil War sounded very promising as a title, but the delivery was absolutely underwhelming and the ending was terrible lol. The Fall Guy was some take on a rom com, ok-ish. Furiousa was rather ok. Deadpool pleasantly surprised me by a long shot. Very, very funny movie, pretty nice! And also The Wild Robot was a really nice movie! We now might buy the books, as apparently there's 3 of them, so that's nice!
 
 I did rewatch some TV series this year, which I hadn't rewatched in a while or in some cases ever. Better Call Saul, Breaking Bad, Game of Thrones, Gotham are some of those.
 
@@ -347,12 +396,16 @@ TODO:
 - 🥯 Continue some of our baking attempts with Anton
 - 😄 Smile and have fun
 
-TODO: write
+TODO: write more here
+
+TODO: sometimes it's ok to leave the past in the past, dont bring it back. interesting thoughts about that, nostalgia, "re-experiencing" the past, or the attempts of it
 
 [0]: Linkslist
 [1]: https://www.youtube.com/watch?v=GS7M6s2xXfs
 
-TODO: All photos in D drive
+TODO: All photos in D drive (delete when done)
+
+New car, new laundry machine
 
 YIR: xfit new people joining from other gym, swim workout, (hang outs in the social section)
 
@@ -360,3 +413,6 @@ TODO: Fix top nav to have the same sections so we can find the content
 
 TODO: proof read
 TODO: spell check
+TODO: fix images to not be skewed
+
+TODO: maybe add IG image to links: <img src="/instagram.png" style="width: 20px; display: inline" />
