@@ -11,7 +11,7 @@ tags:
   - 'story'
 affiliate: 'Links to Banggood or Amazon in this article are affiliate links and would support the blog if used to make a purchase.'
 ogKeywords: 'growth mindset, learning, evolving, developing, studying, improvement, goal list, progress, taking a look back, looking ahead, 2017, 2018, 2019, 2020, software development, software engineering, making youtube videos, youtube, fpvtips, starting a youtube channel, electron, nodejs, fpv, fly fpv, google developer challenge scholarship, web dev, blog, passion, grow, twitter, twitch, public speaking, speaking, gatsby, react, GitHub, constant learning, life-long learning, fpvtips.com, community, netlify, nanowrimo, product, ship, launch, brand, branding, education, produce video, youtube tutorial, egghead.io tutorial, breakup, personal growth, mental health, mental wellbeing'
-ogDescription: 'TODO:'
+ogDescription: "The older I get and the more I keep writing these posts each year, the more I put emphasis on happiness, fun, smiling, `filling your soul` with experiences. I'm pretty sure, years ago the first few of those posts had a heavy focus on skills. What skills were improved this past year? Now it's more about what is the most memorable thing that happened to you this past year. Which person made an impression on you? Did you make an impression on someone? How did you spend time with your son? Did you have fun?"
 ogImage: './my-2024-year-in-review-14.jpg'
 ---
 
@@ -26,27 +26,25 @@ ogImage: './my-2024-year-in-review-14.jpg'
 - [🇧🇬 Trip to Bulgaria with Anton](#bulgaria)
 - [🇨🇾 Trip to Cyprus for my sister's wedding](#cyprus)
 - [🇪🇸 Trip to Tenerife](#tenerife)
-
 - [🎞️ Movie review](#movie-review)
 - [🥰 The moments that filled my soul](#filled-my-soul)
 - [⬜ Goals for 2025](#goals)
 
 ### <span id="overview" class="offset-top-nav">"💙 A heart and soul filling adventure called life!"</span>
 
-The older I get and the more I keep writing these posts each year, the more I put emphasize on happiness, fun, smiling, "filling your soul" with experiences. I'm pretty sure, years ago the first few of those posts had a heavy focus on skills. What skills were improved this past year? Now it's more about what is the most memorable thing that happened to you this past year. Which person made an impression on you? Did you make an impression on someone? How did you spend time with your son? Did you have fun?
+The older I get and the more I keep writing these posts each year, the more I put emphasis on happiness, fun, smiling, "filling your soul" with experiences. I'm pretty sure, years ago the first few of those posts had a heavy focus on skills. What skills were improved this past year? Now it's more about what is the most memorable thing that happened to you this past year. Which person made an impression on you? Did you make an impression on someone? How did you spend time with your son? Did you have fun?
 
 The past few years have genuinely been getting better and better, and I remember clearly thinking to myself in the beginning of this year:
 
-> "I sure hope 2024 will be amazing, and there are already a few things to look forward to, but there's no way in hell it could be better than 2023. 2023 was pretty freaking awesome!"
+> **"I sure hope 2024 will be amazing, and there are already a few things to look forward to, but there's no way in hell it could be better than 2023. 2023 was pretty freaking awesome!"**
 
-Well, I'm happy to report 2024 knocked it out of the park and it was indeed an absolutely amazing year and I'm so grateful for it! Hard to imagine, and I hope 2025 follows the same trend.
+Well, I'm happy to report 2024 knocked it out of the park and it was indeed an absolutely amazing year and I'm so grateful for it! Hard to imagine, yet, I hope 2025 follows the same trend.
 
-TODO: write a bit more
+It's funny how our priorities in life phase and change over time. Sometimes things that seemed most important before no longer feel so, and new desires and ideas come up if we are open to them. I like that.
 
 <div class="image-grid">
 
 TODO: pic from screenshot of snatch lifting vid, more mood setting of the year pics
-TODO: most improved athlete pic
 
 ![anton stacking blocks](my-2024-year-in-review-1.jpg)
 ![anton in VR](my-2024-year-in-review-2.jpg)
@@ -75,7 +73,7 @@ TODO: most improved athlete pic
 
 And since we keep setting these goals, let's take a look at what I thought made sense to be pursued in the end of 2023.
 
-### ⬜ Major goals:
+### ⬜ Major goals for 2024:
 
 - <span class="highlight-warning">🏊‍♂️ Train for Ironman 2025</span>
 - <span class="highlight-success">🏋️‍♂️ CrossFit: 10 unbroken RMU, more Olympic weightlifting focus, HS walk fast and easy</span>
@@ -97,7 +95,7 @@ I also managed to do all 3 CrossFit Open 2024 events, which I'm very happy about
 
 Connecting with people - this is such a big topic, I'll expand on it below but I'm happy I can consider it successful for this year, it was definitely one of the top 3 most important and soul filling things for me! We did 1 amazing, long and super fun trip with Anton that had many aspects to it, one of which was reconnecting with our roots. Great success! I did somewhat reboot writing my book - pleasantly surprised how much I had written (14 chapters about), and how the world building has been coming together. I'd love to continue with that. Even if it's at a slow pace. Meditation - nope. I'd still love to do it, it just never happens, but I'm sure it's gonna be one of those things - when its time comes, I'll do it. And Cyprus and Bulgaria trips both happened, not sure why I'd want them to be solo trips necessarily, they were both family trips - one with Anton and the other visiting my mom, dad and sister. It was great!
 
-#### ◻️ Minor goals:
+#### ◻️ Minor goals for 2024:
 
 - <span class="highlight-warning">🍽️ Learn more about nutrition, track macros, and see where I'm at</span>
 - <span class="highlight-danger">🏫 20 year highschool reunion</span>
@@ -187,6 +185,29 @@ To top it all off, I was awarded the "most improved athlete" in our gym for 2024
   Your browser does not support webm videos.
 </video>
 
+<div class="image-grid">
+
+![CrossFit Open 2024 scores](my-2024-year-in-review-138.jpg)
+![Grocerie shopping](my-2024-year-in-review-140.jpg)
+![The Laundry](my-2024-year-in-review-141.jpg)
+![workout scores](my-2024-year-in-review-142.jpg)
+![ski erg](my-2024-year-in-review-143.jpg)
+![brief](my-2024-year-in-review-144.jpg)
+![tenerife pic](my-2024-year-in-review-146.jpg)
+![most improved athlete of the year](my-2024-year-in-review-147.jpg)
+![swim + KB work](my-2024-year-in-review-139.jpg)
+![snatches](my-2024-year-in-review-145.jpg)
+
+</div>
+
+TODO: screenshots of vids to photo grid
+
+TODO: decide if to add own custom thumbnails and just link TikTok vids, OR to host my own very short ones?
+
+https://www.tiktok.com/@jumpalottahigh/video/7448553633488162070
+
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@jumpalottahigh/video/7448553633488162070" data-video-id="7448553633488162070" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@jumpalottahigh" href="https://www.tiktok.com/@jumpalottahigh?refer=embed">@jumpalottahigh</a> <p>It’s always a good time go for some handstand walk fun</p> <a target="_blank" title="♬ son original - Jbjumpingggg" href="https://www.tiktok.com/music/son-original-7253837630298409755?refer=embed">♬ son original - Jbjumpingggg</a> </section> </blockquote>
+
 #### <span id="midnight-run" class="offset-top-nav">🏃‍♂️Helsinki Midnight run</span>
 
 Helsinki Midnight run was my first ever official 10k run and it changed how I look at some Helsinki city streets forever! I remember that evening very clearly and vividly. It was such an amazing experience! Despite it being mid september, the temperature was relatively high and there was no wind, that was absolutely key, because there was however a torrential downpour. Only slightly exaggerated, but all jokes aside, it was proper raining. I have never been more soaked in my entire life, there was quite literally nothing dry on me, yet, thanks to the lack of nasty cold wind and thanks to the relatively warm temperature around 15-19 degrees.
@@ -194,6 +215,14 @@ Helsinki Midnight run was my first ever official 10k run and it changed how I lo
 The square was full of people, thousands of, the event was soon about to start, rain was pouring down, yet everyone was hyped up. I remember chatting with my collegue Era, who also signed up and was about to run the event, wishing each other good luck. And soon, we were off to the races. Because of the bottleneck due to the amount on people on the first couple of kilometers I was somewhat forced to start much slower than I normally would, however, I think that was great and it played a huge role in me being able to finish the race the way I wanted, because thanks to that, I was a lot less gassed out by the time I reached the 4th and 5th kilometer. The course was awesome, taking me to a place I like a lot, down to Eira, close to my CrossFit gym, throught parks, past the sea, slowly and steadily moving along with some interesting stalls every 1 kilometer or so. Some checkpoints had a DJ playing music, a couple were aid stations. The vibe was on, people were running and enjoying.
 
 **I became one with the water**. Really lol! Jumping in and out of puddles, water splashing, but it trully and really did not matter, in a weird way it felt so freeing, the only thing that mattered was to just keep running. The pace was nice and pushing, but being able to breathe, good for me for sure. Soon we rolled out past the Silja line boat, then down around Kauppatori and went into Vanha satama and around that island / peninsula. That was somewhat the final stretch. I was able to push and increase the pace the last 2 kilometers too I think, only the last 1km my left knee started to be a bit iffy, so I was hoping it would all be fine until the finish line and thankfully it was! So I finished with a time of `54:08` and was so happy! My secret goal was sub 1 hour, but sub 55min plesantly surprised me even more!
+
+<div class="image-grid">
+
+![strava](my-2024-year-in-review-151.jpg)
+![official run stats](my-2024-year-in-review-152.jpg)
+![finisher diploma](my-2024-year-in-review-153.jpg)
+
+</div>
 
 TODO: pic 1 of the strava
 
@@ -301,6 +330,16 @@ All in all, two weeks of adventure and fun exploring our other homeland 💙!
 ![sofia lion statue](my-2024-year-in-review-133.jpg)
 ![St. Alexander Nevski](my-2024-year-in-review-134.jpg)
 ![Anton and dad ready to go home <3](my-2024-year-in-review-137.jpg)
+
+</div>
+
+Instagram stories from the trip (Plovdiv, Sunny Beach, Sofia):
+
+<div class="image-grid">
+
+[![Plovdiv instagram stories thumbnail](my-2024-year-in-review-148.jpg)](https://www.instagram.com/stories/highlights/18329849359193800/)
+[![Sunny Beach instagram stories thumbnail](my-2024-year-in-review-149.jpg)](https://www.instagram.com/stories/highlights/18120398008375465/)
+[![Sofia instagram stories thumbnail](my-2024-year-in-review-150.jpg)](https://www.instagram.com/stories/highlights/18424788139066345/)
 
 </div>
 
@@ -483,3 +522,5 @@ TODO: spell check
 TODO: fix images to not be skewed
 
 TODO: maybe add IG image to links: <img src="/instagram.png" style="width: 20px; display: inline" />
+
+TODO: double check image pictures links work again
