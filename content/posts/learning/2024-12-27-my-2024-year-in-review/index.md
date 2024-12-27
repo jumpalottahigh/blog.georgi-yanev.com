@@ -44,30 +44,48 @@ It's funny how our priorities in life phase and change over time. Sometimes thin
 
 <div class="image-grid">
 
-TODO: pic from screenshot of snatch lifting vid, more mood setting of the year pics
-
 ![anton stacking blocks](my-2024-year-in-review-1.jpg)
 ![anton in VR](my-2024-year-in-review-2.jpg)
 ![anton holding dumbells](my-2024-year-in-review-3.jpg)
 ![anton's 8th birthday cake](my-2024-year-in-review-4.jpg)
 ![anton and dad and 8th birtday balloon](my-2024-year-in-review-5.jpg)
 ![anton lifts fake weight](my-2024-year-in-review-6.jpg)
+![Dune 2 in IMAX](my-2024-year-in-review-154.jpg)
 ![anton plays PC games](my-2024-year-in-review-7.jpg)
+![Karlos Nasar](my-2024-year-in-review-159.jpg)
 ![anton skis](my-2024-year-in-review-8.jpg)
 ![anton and dad play chess](my-2024-year-in-review-9.jpg)
+![Winnie the Pooh and Alice the girl from Earth books](my-2024-year-in-review-155.jpg)
 ![anton made easter card](my-2024-year-in-review-10.jpg)
 ![carrots for easter bunny](my-2024-year-in-review-11.jpg)
 ![painting easter eggs](my-2024-year-in-review-12.jpg)
 ![anton and dad eating icecream](my-2024-year-in-review-13.jpg)
 ![anton and dad with caps](my-2024-year-in-review-14.jpg)
+![Sea](my-2024-year-in-review-156.jpg)
+![Finland Young Professionals](my-2024-year-in-review-157.jpg)
 ![anton, dad and grandgrandma Eli](my-2024-year-in-review-15.jpg)
 ![anton and dad at the tree in the Plovdiv hill](my-2024-year-in-review-16.jpg)
 ![anton, dad and dad's cousins's kids](my-2024-year-in-review-17.jpg)
 ![anton and dad in the bus part 1](my-2024-year-in-review-18.jpg)
 ![anton and dad in the bus part 2](my-2024-year-in-review-19.jpg)
+![Finnish sunset from home](my-2024-year-in-review-158.jpg)
 ![georgi, valia and their mom and dad](my-2024-year-in-review-20.jpg)
+![Growing plants](my-2024-year-in-review-160.jpg)
+![sunset over the sea in Finland](my-2024-year-in-review-161.jpg)
+![sunset in the living room](my-2024-year-in-review-162.jpg)
+![Starship chopsticks successful attempt](my-2024-year-in-review-163.jpg)
+![Anton stole some candy](my-2024-year-in-review-164.jpg)
 ![elisa xmas party](my-2024-year-in-review-21.jpg)
+![Hi <3 on the car](my-2024-year-in-review-165.jpg)
+![fathers day card](my-2024-year-in-review-166.jpg)
+![georgi hsw](my-2024-year-in-review-169.jpg)
+![georgi clean](my-2024-year-in-review-170.jpg)
+![georgi snatch](my-2024-year-in-review-171.jpg)
+![Xmas lights at home vibe](my-2024-year-in-review-167.jpg)
+![baking buns](my-2024-year-in-review-168.jpg)
 ![north engine crossfit xmas party team](my-2024-year-in-review-22.jpg)
+
+![tenerife group pic at the top of the mountain](my-2024-year-in-review-172.jpg)
 
 </div>
 
@@ -106,7 +124,7 @@ Connecting with people - this is such a big topic, I'll expand on it below but I
 - <span class="highlight-success">😄 Smile and have fun</span>
 
 I don't know why these "minor" goals are minor, they are every bit as important as the major ones, I'll probably change the format to only 1 list for next year. The only red item is the 20 year reunion and while yes, the FOMO was rocking me heavily and I would have loved to catch up with the highschool plebs, it wasn't meant to be, I found no suitable flights and quite frankly I chose and prefered to go to Bulgaria with my son a month later than when the reunion would have been.
-I haven't still gotten into tracking macros, and frankly I might never get into that, but I have been paying attention and listening to my body and what it needs, supplementing and trying to fuel properly before more straneus workouts.
+I haven't still gotten into tracking macros, and to be honest I might never get into that, but I have been paying attention and listening to my body and what it needs, supplementing and trying to fuel properly before more straneus workouts.
 
 The playing basketball with Anton, going to museums and creative skills stuff makes me so, so happy and so, so proud of him! We've had so many small moments where we learn about touch typing on the keyboard, how to make games, he's been designing his own in Roblox, me helping out only every so often. He's also gotten much into video editing, we've been using CapCut for that on both his PC and his phone. I love it, that he finds and utilizes these creative outlets. Reminds me a lot of me as a kid writing fan fiction, making maps for games and what not. We did visit a bunch of museums which was fun, we did also "mini participate" in Ludum Dare in April - we made a small Unity game about zombies attacking a tower and the tower shooting at them, kind of like a tower defense type of game. We also did some Unity game making tutorials where we followed steps and learnt about programming among other things. So all in all very satisfied with the accomplished goals for this year!
 
@@ -134,17 +152,18 @@ As a dad I'd like to show him so many things about life just to create an enviro
 ![Awesome Easter card by Anton](my-2024-year-in-review-64.jpg)
 ![Anton going to hobby](my-2024-year-in-review-65.jpg)
 ![Anton reading outside](my-2024-year-in-review-66.jpg)
+![Anton ready to travel](my-2024-year-in-review-173.jpg)
 ![Anton arrived in Bulgaria](my-2024-year-in-review-67.jpg)
 ![Anton relaxing in the morning in Plovdiv](my-2024-year-in-review-68.jpg)
 ![Anton and dad](my-2024-year-in-review-69.jpg)
 ![Anton in CrossFit](my-2024-year-in-review-70.jpg)
 ![Anton and dad with xmas pajamas](my-2024-year-in-review-71.jpg)
+![Anton playing basketball](my-2024-year-in-review-174.jpg)
+![Anton swimming at the Black sea](my-2024-year-in-review-175.jpg)
 
 </div>
 
 #### <span id="crossfit" class="offset-top-nav">🏋️‍♂️ CrossFit progress</span>
-
-TODO: add pics and video
 
 The CrossFit progression this year has been pretty decent I'm sure, and at least it's felt like it. I don't necessarily have the numbers behind everything, but at least going forward, we'll have a comparision of the current state vs the previous year. The first few things that come to my mind are that for the first time ever I started supplementing creatine this year, although a pretty small amount really - 2.5g-3g per day, where the recommended dose is 5g. I can't say how much of the newly gained strength is accredited to it, but I'm sure it's helped a bit.
 
@@ -154,7 +173,11 @@ The CrossFit open has been important to me, I wanted to do all 3 events and I ma
 
 Murph has been also very important to me and this year I did it for the first time with a 9kg vest. Finished with a score of `49:40` with the vest, vs the score from 2023 `44:10` without a vest. Very happy with that result. It was very challenging with the vest but I'm happy I was able to push through and finish it! Running with the vest was tricky, had to hold it for the sides which helped, push ups were so hard, pull ups - pretty easy, squats got a tiny bit heavy too.
 
+![murph score](my-2024-year-in-review-176.jpg)
+
 My training schedule has been on average something along the lines of 6 days on week A and then 3 days on week B. Varying a bit here and there, but mostly something like that. And I kept doing some extra stuff at the gym after classes. I like that. Sure, it's not the most structured well of training, but it's fun for me and I'd like to keep the fun and not optimize the crap out of this hobby, burn out and quit. I'd rather keep showing up. This year one of my biggest focuses was the snatch. A bit less so the clean & jerk, ring muscle ups continue to be something I practice and I can comfily do sets of 3-5 for a few rounds, which I'm happy with, but of course, would love to get to 10 unbroken someday. Snatch has been my biggest love this year. **Super strongly influenced and inspired from watching our very own Bulgarian boys Karlos Nasar and Bozhidar Andreev win a number of international competitions, culminating with gold medal for Nasar at the olympics and a bronze for Andreev**. Super proud of them, and indeed super inspired watching their movement as well as many others on TikTok and Instagram distilling and following every part of the movement. I think I've really come a long way this year, but there's still a ton more to work on.
+
+![georgi snatch](my-2024-year-in-review-171.jpg)
 
 One thing that "dawned on me" around the middle of the year and I started thinking about a lot was what I call "champion mentality" or "athlete mentality". I noticed a couple of times I could push through the discomfort even further and do more. A couple of times I didn't push enough and thought after the workout was finished that I could have pushed more. So it's all about the realisation that **sometimes, no matter how hard it is, you can brace yourself and keep going for a bit longer and sooner rather than later it's all done. That, and "how bad do you want it?"**. That question is fundamental to some of the bigger successes and every time I've been able to do that, I've been very happy after, cause of course it doesn't feel good at the moment, but heck, it feels AWESOME afterwards!
 
@@ -166,24 +189,21 @@ The training camp in Tenerife was an entire thing of its own, super amazing to t
 
 Some stats as of December 2024:
 
-| Movement      | Score                       | Movement | Score |
-| ------------- | --------------------------- | -------- | ----- |
-| Snatch        | 72kg                        | BMU      | 20    |
-| Clean & Jerk  | 95kg                        | RMU      | 5     |
-| Clean         | 108kg                       | Murph    | 49:40 |
-| Backsquat     | 142kg                       |          |       |
-| CrossFit Open | TODO: dig out correct score |          |       |
-| Jackie        | 6:37                        |          |       |
-| DT            | 8:15 @ 50kg                 |          |       |
-| Bac           | 8:15 @ 50kg                 |          |       |
+| Movement       | Score | Movement      | Score             |
+| -------------- | ----- | ------------- | ----------------- |
+| Snatch         | 72kg  | BMU           | 20                |
+| Clean & Jerk   | 95kg  | RMU           | 5                 |
+| Clean          | 108kg | Murph         | 49:40             |
+| Back squat     | 142kg | CrossFit Open | ~ 65th percentile |
+| Front squat    | 125kg | Jackie        | 6:37              |
+| Deadlift       | 155kg | DT            | 8:15 @ 50kg       |
+| Shoulder press | 70kg  |               |                   |
 
 To top it all off, I was awarded the "most improved athlete" in our gym for 2024, something, that means the world to me! I so, so much appreciate this! It's hard to put it in words how much this means to me!
 
-<video controls preload="metadata" autoplay muted playsinline>
-  <source src="my-2023-year-in-review-5.webm" type="video/webm">
-  <source src="my-2023-year-in-review-5.mp4" type="video/mp4">
-  Your browser does not support webm videos.
-</video>
+![most improved athlete of the year](my-2024-year-in-review-147.jpg)
+
+And some more training related pics without which any improvement would not be possible. Special credit to the training clothes laundry and grocery lists 😅
 
 <div class="image-grid">
 
@@ -194,19 +214,30 @@ To top it all off, I was awarded the "most improved athlete" in our gym for 2024
 ![ski erg](my-2024-year-in-review-143.jpg)
 ![brief](my-2024-year-in-review-144.jpg)
 ![tenerife pic](my-2024-year-in-review-146.jpg)
-![most improved athlete of the year](my-2024-year-in-review-147.jpg)
-![swim + KB work](my-2024-year-in-review-139.jpg)
+
+![georgi BMU](my-2024-year-in-review-177.jpg)
+![georgi pushing sled](my-2024-year-in-review-178.jpg)
+![georgi chest to bar pull ups](my-2024-year-in-review-179.jpg)
 ![snatches](my-2024-year-in-review-145.jpg)
+
+![swim + KB work](my-2024-year-in-review-139.jpg)
+![swimming in the Flume](my-2024-year-in-review-180.jpg)
+![HSW at the beach](my-2024-year-in-review-181.jpg)
 
 </div>
 
-TODO: screenshots of vids to photo grid
+<div class="post-social-icon">
+  <img src="/tiktok.svg" alt="TikTok" /> TikTok videos:
+</div>
 
-TODO: decide if to add own custom thumbnails and just link TikTok vids, OR to host my own very short ones?
+<div class="image-grid">
 
-https://www.tiktok.com/@jumpalottahigh/video/7448553633488162070
+[![bmu tiktok video](my-2024-year-in-review-182.jpg)](https://www.tiktok.com/@jumpalottahigh/video/7444818896693054742)
+[![clean tiktok video](my-2024-year-in-review-183.jpg)](https://www.tiktok.com/@jumpalottahigh/video/7443875239051676950)
+[![hsw tiktok video](my-2024-year-in-review-184.jpg)](https://www.tiktok.com/@jumpalottahigh/video/7448553633488162070)
+[![snatch tiktok video](my-2024-year-in-review-185.jpg)](https://www.tiktok.com/@jumpalottahigh/video/7444171666596449558)
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@jumpalottahigh/video/7448553633488162070" data-video-id="7448553633488162070" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@jumpalottahigh" href="https://www.tiktok.com/@jumpalottahigh?refer=embed">@jumpalottahigh</a> <p>It’s always a good time go for some handstand walk fun</p> <a target="_blank" title="♬ son original - Jbjumpingggg" href="https://www.tiktok.com/music/son-original-7253837630298409755?refer=embed">♬ son original - Jbjumpingggg</a> </section> </blockquote>
+</div>
 
 #### <span id="midnight-run" class="offset-top-nav">🏃‍♂️Helsinki Midnight run</span>
 
@@ -223,14 +254,6 @@ The square was full of people, thousands of, the event was soon about to start, 
 ![finisher diploma](my-2024-year-in-review-153.jpg)
 
 </div>
-
-TODO: pic 1 of the strava
-
-TODO: pic 2 of the finish screenshot
-
-TODO: vid 1 of the pre event
-
-TODO: vid 2 of the during and after event, 6s clip
 
 #### <span id="sober" class="offset-top-nav">🍸 Sobreity continues</span>
 
@@ -333,7 +356,9 @@ All in all, two weeks of adventure and fun exploring our other homeland 💙!
 
 </div>
 
-Instagram stories from the trip (Plovdiv, Sunny Beach, Sofia):
+<div class="post-social-icon">
+  <img src="/instagram.svg" alt="Instagram" /> Instagram stories from the trip (Plovdiv, Sunny Beach, Sofia):
+</div>
 
 <div class="image-grid">
 
@@ -386,7 +411,9 @@ The rest of the trip was hanging out with my family, going to the beach to make 
 
 </div>
 
-[Instagram stories from the trip:](https://www.instagram.com/stories/highlights/18043750144812904/)
+<div class="post-social-icon">
+  <img src="/instagram.svg" alt="Instagram" /> Instagram stories from the trip:
+</div>
 
 <div class="image-grid">
 
@@ -407,10 +434,6 @@ Another element to the trip was of course the people in the camp! Everyone was s
 And of course, a super important element was the training itself! I had been very curious if I'd be able to do it - train twice per day. Super happy to report that not only did it work out well, I got 2 new PRs (deadlift and clean), many new awesome tips on lifting, handstand walks and pull ups. So the results were there, the fun was there and the body wasn't too tired either, which I suppose makes sense when you only eat, sleep, train, repeat and have no other responsibilities. It felt absolutely amazing to be honest! The training was very diverse too. Not only did we do our regular CrossFit stuff - snatch, cleans, DUs, rowing, ski erg, assault bike, BMUs, t2b, burpeees, deadlifts, etc., but also we had swimming training, crossfit workout with swimming, running, uphill sprints, and tried even the Flume swimming machine to test and observe swimming technique.
 
 We even went on a hike on the one day off and saw a boomerang banana peel among other things 😂. All in all, insane vibe is probably how I could sum it up as short as possible. **Absolutely insane vibe**! All of our CrossFit athletes were super cool, focused and putting in the work, but also helping each other and giving valuable tips, and of course Jonne Koski and Emilia Leppänen were absolute legends!
-
-TODO: add screenshots from vids if applicable
-TODO: add vids
-TODO: add IG vid? https://www.instagram.com/p/DC4D9dQgnPL/
 
 <div class="image-grid">
 
@@ -433,11 +456,23 @@ TODO: add IG vid? https://www.instagram.com/p/DC4D9dQgnPL/
 
 </div>
 
-[Instagram stories from the trip:](https://www.instagram.com/stories/highlights/18034943444342636/)
+<div class="post-social-icon">
+  <img src="/instagram.svg" alt="Instagram" /> Instagram stories from the trip:
+</div>
 
 <div class="image-grid">
 
 [![instagram stories thumbnail](my-2024-year-in-review-88.jpg)](https://www.instagram.com/stories/highlights/18034943444342636/)
+
+</div>
+
+<div class="post-social-icon">
+  <img src="/tiktok.svg" alt="TikTok" /> TikTok video:
+</div>
+
+<div class="image-grid">
+
+[![TikTok video thumbnail](my-2024-year-in-review-186.jpg)](https://www.tiktok.com/@jumpalottahigh/video/7441951032340417824)
 
 </div>
 
@@ -475,12 +510,17 @@ TODO:
 - dates; anette
 - anya in the plane
 - new people in our gym and pizza, sauna
+- xfit new people joining from other gym, swim workout, (hang outs in the social section)
 
 - people it's so easy to talk to and click instantly with (Emilia at work, )
 
 #### <span id="???" class="offset-top-nav">Looking for "My People"</span>
 
 #### <span id="???" class="offset-top-nav">Dating lol</span>
+
+#### <span id="???" class="offset-top-nav">Random stuff</span>
+
+- New car, new laundry machine
 
 ### <span id="goals" class="offset-top-nav">2️⃣0️⃣2️⃣5️⃣</span>
 
@@ -507,20 +547,13 @@ TODO: write more here
 TODO: sometimes it's ok to leave the past in the past, dont bring it back. interesting thoughts about that, nostalgia, "re-experiencing" the past, or the attempts of it
 
 [0]: Linkslist
-[1]: https://www.youtube.com/watch?v=GS7M6s2xXfs
 
-TODO: All photos in D drive (delete when done)
-
-New car, new laundry machine
-
-YIR: xfit new people joining from other gym, swim workout, (hang outs in the social section)
-
-TODO: Fix top nav to have the same sections so we can find the content
-
+TODO: continue from after Tenerife and wrap it up
 TODO: proof read
 TODO: spell check
 TODO: fix images to not be skewed
+TODO: All photos in D drive (delete when done)
 
-TODO: maybe add IG image to links: <img src="/instagram.png" style="width: 20px; display: inline" />
+TODO: FOR SURE: maybe add IG image to links and also TikTok too: <img src="/instagram.png" style="width: 20px; display: inline" />
 
-TODO: double check image pictures links work again
+TODO: AFTER publishing: 1) improve navigation on desktop and on mobile the side menu, 2) add lightbox for images 3) clean up the FPVtips stuff into its own section 4) maybe helsinki midnight run vid?

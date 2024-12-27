@@ -1340,6 +1340,19 @@ button {
   width: 100%;
 }
 
+.blog-post-content .post-social-icon {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.blog-post-content .post-social-icon img {
+  width: 42px;
+}
+
 .support-section {
   border-top: 1px solid #cecece;
   padding: 1rem 0;
