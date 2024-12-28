@@ -27,7 +27,7 @@ ogImage: './my-2024-year-in-review-14.jpg'
 - [🇨🇾 Trip to Cyprus for my sister's wedding](#cyprus)
 - [🇪🇸 Trip to Tenerife](#tenerife)
 - [🎞️ Movie review](#movie-review)
-- [🥰 The moments that filled my soul](#filled-my-soul)
+- [❓ Other topics](#other-topics)
 - [⬜ Goals for 2025](#goals)
 
 ### <span id="overview" class="offset-top-nav">"💙 A heart and soul filling adventure called life!"</span>
@@ -497,30 +497,18 @@ Agent Argylle - funny, ok, The beekeeper - classic Stathem movie, Dune 2 - absol
 
 I did rewatch some TV series this year, which I hadn't rewatched in a while or in some cases ever. Better Call Saul, Breaking Bad, Game of Thrones, Gotham are some of those.
 
-#### <span id="filled-my-soul" class="offset-top-nav">The moments that filled my soul</span>
+#### <span id="other-topics" class="offset-top-nav">❓ Other topics</span>
 
-- An afternoon in the sun
-- a 6 hour chat :D
-- Some dates?
+I want to mention the deaths and honor the memory of Iohan Guergiev and Lazar Dukic. The first one is a Bulgarian guy living in Canada and travelling with his bike from Alaska to Argentina. I loved and watched his YouTube videos, I was very sad to find out he had taken his life. We need to always remember to be kind to each other, and help or ask for help when we struggle with challenges in life.
+Lazar Dukic was a CrossFit games athlete who sadly passed away during event 1 during the CrossFit Games 2024. This event made me think a lot as well. It's very sad to see a young, awesome and smiley person gone like that. I remember watching that first event live on YouTube, literally stopping the stream to drive with my car to the gym as I had a class, later finding out what had happened. It felt surreal. Disgusting, to be honest. I did not watch any of the rest of the events of the CrossFit Games 2024, and this comes from someone who in the past 3 years watched nearly everything there was to watch about them historically. But this kind of thing is absolutely unaccceptable for events of that caliber, there was to be support, supervision and help for these legendary athletes at all times. RIP amazing people!
 
-TODO:
+**(Online) dating**
 
-#### <span id="???" class="offset-top-nav">Connecting with people</span>
+I've never really been a guy to chase "dates". They usually came to me / happened naturally, however, when I was last single, I was in my mid 20s and quite frankly times were different too. I'm not a big fan of this online dating thing, it's very fake, superficial and especially if you're looking for something more than a random hook up or someone to chat with for 2 hours, it's really not it. Either way, I have to say, for whatever reason, I was more active with it this year, especially around the mid point of the year, and it did lead to some interesting experiences. I'll leave it at that.
 
-- dates; anette
-- anya in the plane
-- new people in our gym and pizza, sauna
-- xfit new people joining from other gym, swim workout, (hang outs in the social section)
+**Connecting with people**
 
-- people it's so easy to talk to and click instantly with (Emilia at work, )
-
-#### <span id="???" class="offset-top-nav">Looking for "My People"</span>
-
-#### <span id="???" class="offset-top-nav">Dating lol</span>
-
-#### <span id="???" class="offset-top-nav">Random stuff</span>
-
-- New car, new laundry machine
+There are quite a few connections this year that trully bring a smile to my face, or like I titled the section in the beginning "fill my soul". I don't know what it is, it's just funny like that how with some people you just click, it feels like you've been friends for 20 years, the smiles and laughter follow soon after. I can think of quite a few such interactions with such people. Absolutely amazing. I'm not gonna list names here, but I will say that if we're hanging out, you mean a lot to me. I'm way past the time of hanging out with people I feel indifferent about. If we've sahred a moment, a joke and a laugh together, or talked for 6 hours straight when we met, or did handstands in the sand, or walked around Helsinki, or ..., - I appreciate you!
 
 ### <span id="goals" class="offset-top-nav">2️⃣0️⃣2️⃣5️⃣</span>
 
@@ -542,18 +530,12 @@ TODO:
 - 🥯 Continue some of our baking attempts with Anton
 - 😄 Smile and have fun
 
-TODO: write more here
+So, that's the list for next year. Will it transform over time? Most certainly, and that's the beauty of it. One final thought from me is about nostalgia. I used to say in my early 20s **"to experience nostalgia of the past means only one thing - you are not creating good enough memories in the present"**. And it's true, I believe it to this day, in fact, perhaps even more so with being present becoming so MUCH MORE important looking at all the "plugged in" people in the Matrix staring at their phones all the time with headphones on. And this comes from a guy who loves technology, yet it's undeniable the effects that these technologies have had on us socially. This year I have another interesting nostalgia related revelation. It's likely most of us have experienced that sometimes going back to something you did 20 years ago feels good and like something long gone had come back, and when that's the case, it feels great. However, sometimes, when you try to force something you no longer feel it doesn't really work, or try to go back and you get the result that you did not expect. **And that's ok, it's ok to leave somethings in the past**. Not everything can be brought back, even if you had the fondest memories of it back then. It's ok to leave it there in the past and feel no guilt, you don't have to try bring it back now, if it no longer fits your life or who you are. You can still cherish and appreciate it, but leave it in the past where it belongs.
 
-TODO: sometimes it's ok to leave the past in the past, dont bring it back. interesting thoughts about that, nostalgia, "re-experiencing" the past, or the attempts of it
+So with that in mind, with the thought of "how bad do you want it", and with the desire to fill my heart and soul with experiences and meaningful connections, I raise a toast to 2025, let's hope it's gonna be a good one, let's smile and have fun and enjoy the wild ride called life! Cheers!
 
 [0]: Linkslist
 
-TODO: continue from after Tenerife and wrap it up
-TODO: proof read
+TODO: proof read & fix skewed images
 TODO: spell check
-TODO: fix images to not be skewed
 TODO: All photos in D drive (delete when done)
-
-TODO: FOR SURE: maybe add IG image to links and also TikTok too: <img src="/instagram.png" style="width: 20px; display: inline" />
-
-TODO: AFTER publishing: 1) improve navigation on desktop and on mobile the side menu, 2) add lightbox for images 3) clean up the FPVtips stuff into its own section 4) maybe helsinki midnight run vid?
