@@ -184,7 +184,9 @@ textarea {
 }
 html {
   box-sizing: border-box;
-  font: 112.5%/1.45em georgia, serif;
+  font:
+    112.5%/1.45em georgia,
+    serif;
   overflow-y: scroll;
 }
 * {
@@ -198,8 +200,18 @@ html {
 }
 body {
   color: #24292e;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
   -moz-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
@@ -221,8 +233,18 @@ img {
 }
 h1 {
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
   font-size: 2.25rem;
   font-weight: bold;
   line-height: 1.1;
@@ -238,8 +260,18 @@ h1 {
 }
 h2 {
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
   font-size: 1.62671rem;
   font-weight: bold;
   line-height: 1.1;
@@ -255,8 +287,18 @@ h2 {
 }
 h3 {
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
   font-size: 1.38316rem;
   font-weight: bold;
   line-height: 1.1;
@@ -272,8 +314,18 @@ h3 {
 }
 h4 {
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
   font-size: 1rem;
   font-weight: bold;
   line-height: 1.1;
@@ -289,8 +341,18 @@ h4 {
 }
 h5 {
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
   font-size: 0.85028rem;
   font-weight: bold;
   line-height: 1.1;
@@ -306,8 +368,18 @@ h5 {
 }
 h6 {
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
   font-size: 0.78405rem;
   font-weight: bold;
   line-height: 1.1;
@@ -745,7 +817,10 @@ pre tt:after {
 
 .nav a:hover {
   color: #0175d8;
-  transition: color 0.1s ease-in-out, opacity 0.2s ease, margin 0.5s ease;
+  transition:
+    color 0.1s ease-in-out,
+    opacity 0.2s ease,
+    margin 0.5s ease;
 }
 
 .social {
@@ -917,7 +992,9 @@ iframe {
 }
 
 .post-preview {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow:
+    0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
   margin-bottom: 1rem !important;
   padding: 1rem;
   transition: 225ms;
@@ -1025,7 +1102,9 @@ iframe {
 
 .category.active {
   box-shadow: inset 0 -2px 0px 0px #000;
-  box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 2px, inset 0 -2px 0px 0px #000;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 1px 1px 6px 2px,
+    inset 0 -2px 0px 0px #000;
   color: #fff;
   transition: all 125ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1061,7 +1140,9 @@ iframe {
 }
 
 .post-preview:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 7px 18px, rgba(0, 0, 0, 0.22) 0px 7px 10px;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 7px 18px,
+    rgba(0, 0, 0, 0.22) 0px 7px 10px;
 }
 
 .post-preview a {
@@ -1257,6 +1338,19 @@ button {
 .blog-post-content .image-grid > p span {
   height: fit-content;
   width: 100%;
+}
+
+.blog-post-content .post-social-icon {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.blog-post-content .post-social-icon img {
+  width: 42px;
 }
 
 .support-section {
