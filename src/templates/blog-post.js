@@ -47,7 +47,10 @@ class BlogPostTemplate extends React.Component {
     const bannerLinkBottom = `https://www.banggood.com/marketing-summer-prime-sale-2020-rc-toys-deals/tid-9608.html?utmid=14039&utm_design=74&${affiliateParam}`
 
     if (post.frontmatter.category === 'fpv') {
-      showBanner = true
+      // Don't show the Banggood banner on Mepsking reviews
+      if (!post.frontmatter.tags.includes('mepsking')) {
+        showBanner = true
+      }
     }
 
     return (
@@ -188,8 +191,13 @@ class BlogPostTemplate extends React.Component {
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
-            <FeaturedGear gearList={post.frontmatter.gearList} />
-            <PromoBanner linkTo={bannerLink} imageName="stripe5" />
+            {post.frontmatter?.gearList?.length > 0 && (
+              <FeaturedGear gearList={post.frontmatter.gearList} />
+            )}
+
+            {showBanner && (
+              <PromoBanner linkTo={bannerLink} imageName="stripe5" />
+            )}
             <FeedbackSection />
             <AskAQuestion />
             <RelatedArticles
