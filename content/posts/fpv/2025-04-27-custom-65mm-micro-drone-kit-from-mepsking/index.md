@@ -32,7 +32,7 @@ After being a few years away from the hobby I'm making a low-key comeback and wa
 
 ### <span id="unboxing" class="offset-top-nav">📦 Unboxing</span>
 
-I received this [micro drone kit][1] from Mepsking. The package arrived in a small box with all the parts wrapped in protective bubble wrap and in their own boxes.
+I received this <a href="https://www.mepsking.shop/65mm-whoop-quadcopter-kits.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">micro drone kit</a> from Mepsking. The package arrived in a small box with all the parts wrapped in protective bubble wrap and in their own boxes.
 
 ![mepsking micro drone box parts](custom-micro-drone-build-from-mepsking-2.jpg)
 
@@ -40,11 +40,11 @@ I received this [micro drone kit][1] from Mepsking. The package arrived in a sma
 
 And here is everything I got inside the box:
 
-[The MEPS SZ F411 1S 7A AIO Flight Controller Analog for Micro Drones 25.5x25.5][2]
+<a href="https://www.mepsking.shop/f411-7a-fpv-aio.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">The MEPS SZ F411 1S 7A AIO Flight Controller Analog for Micro Drones 25.5x25.5</a>
 
 ![MEPS SZ F411 1S 7A AIO Flight Controller Analog for Micro Drones 25.5x25.5](custom-micro-drone-build-from-mepsking-4.jpg)
 
-Four of these [MEPS SZ0802 19000KV micro motors][3]:
+Four of these <a href="https://www.mepsking.shop/fpv-sz0802-brushless-motor-tinywhoop.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">MEPS SZ0802 19000KV micro motors</a>:
 
 ![MEPS SZ0802 Micro FPV Motor for 65-75mm Tinywhoop Drone 19000KV/22000KV](custom-micro-drone-build-from-mepsking-5.jpg)
 
@@ -52,15 +52,15 @@ The micro drone canopy:
 
 ![micro drone canopy](custom-micro-drone-build-from-mepsking-6.jpg)
 
-[The BetaFPV Meteor 65 frame][4]:
+<a href="https://www.mepsking.shop/betafpv-meteor65-air-brushless-whoop-frame.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">The BetaFPV Meteor 65 frame</a>:
 
 ![The BetaFPV Meteor 65 frame](custom-micro-drone-build-from-mepsking-7.jpg)
 
-Four of these [MEPS SZ1218 tinywhoop propellers][5]:
+Four of these <a href="https://www.mepsking.shop/sz1218-fpv-drone-propeller.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">MEPS SZ1218 tinywhoop propellers</a>:
 
 ![MEPS SZ1218 Tinywhoop Propeller](custom-micro-drone-build-from-mepsking-8.jpg)
 
-And last but not least the [Caddx Ant camera][6]:
+And last but not least the <a href="https://www.mepsking.shop/caddx-ant-nano-camera.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">Caddx Ant camera</a>:
 
 ![Caddx Ant 1200TVL Camera WDR Ultra Light Snail Nano FPV Camera](custom-micro-drone-build-from-mepsking-9.jpg)
 
@@ -68,20 +68,20 @@ And last but not least the [Caddx Ant camera][6]:
 
 For an in-depth specs rundown, check the links to the product pages, but here's very briefly some of the most important information.
 
-- [MEPS SZ F411 1S 7A AIO Flight Controller Analog for Micro Drones 25.5x25.5][2]
+- <a href="https://www.mepsking.shop/f411-7a-fpv-aio.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">The MEPS SZ F411 1S 7A AIO Flight Controller Analog for Micro Drones 25.5x25.5</a>
 
 > - It has a built in SPI ELRS receiver and analog VTX
 > - OSD menu
 > - Solder free motor plugs
 > - 2 UARTs
 
-- [Caddx Ant 1200TVL Camera WDR Ultra Light Snail Nano FPV Camera][6]
+- <a href="https://www.mepsking.shop/caddx-ant-nano-camera.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">Caddx Ant 1200TVL Camera WDR Ultra Light Snail Nano FPV Camera</a>
 
 > - 165 degree FOV
 > - OSD menu
 > - 2g weight
 
-- [MEPS SZ0802 Micro FPV Motor for 65-75mm Tinywhoop Drone 19000KV][3]
+- <a href="https://www.mepsking.shop/fpv-sz0802-brushless-motor-tinywhoop.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">MEPS SZ0802 Micro FPV Motor for 65-75mm Tinywhoop Drone 19000KV</a>
 
 > - Stainless steel solid shaft
 > - Rated for 1S lipo
@@ -89,14 +89,14 @@ For an in-depth specs rundown, check the links to the product pages, but here's 
 > - Weight about 1.8g - 2g
 > - Plugs for easy installation
 
-- [BETAFPV Meteor65 Air 65mm Brushless Whoop Frame][4]
+- <a href="https://www.mepsking.shop/betafpv-meteor65-air-brushless-whoop-frame.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">BETAFPV Meteor65 Air 65mm Brushless Whoop Frame</a>
 
 > - Weight about 2.67g
 > - Motor Mounting: 3-M1.4-6.6mm
 > - Flight Control Installation Hole: 26×26mm
 > - Battery Slot Size: 11.6×6.0mm
 
-- [MEPS SZ1218 Tinywhoop Propeller for FPV Micro Drones Lightweight][5]
+- <a href="https://www.mepsking.shop/sz1218-fpv-drone-propeller.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">MEPS SZ1218 Tinywhoop Propeller for FPV Micro Drones Lightweight</a>
 
 > - Size: 1.2 inch
 > - Pitch: 1.8 inch
@@ -167,7 +167,7 @@ The bare minimum of setup required to get up and flying is:
 
 This is a two-part process the first time around, like in my case, and then easier every other time, by only needing to add your ELRS binding phrase to a new drone. However, this time, we need to also set it up on the TX module we'll use.
 
-First, we'll take a look at the [ExpressLRS Configurator][8]. Download the version for your operating system, and connect your module, I'm using the [Jumper AION ELRS 2.4G TX NANO Module][9]. I chose that one as it's a pretty good one and fits my Taranis Xlite NANO module bay. Check carefully what module bay you need for your radio if you're buying an external module, although most radios nowadays come with some internal Express LRS modules.
+First, we'll take a look at the [ExpressLRS Configurator][8]. Download the version for your operating system, and connect your module, I'm using the <a href="https://www.mepsking.shop/jumper-aion-2-4ghz-nano-els-tx-module.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">Jumper AION ELRS 2.4G TX NANO Module</a>. I chose that one as it's a pretty good one and fits my Taranis Xlite NANO module bay. Check carefully what module bay you need for your radio if you're buying an external module, although most radios nowadays come with some internal Express LRS modules.
 
 ![Jumper AION ELRS NANO module for Taranis Xlite](custom-micro-drone-build-from-mepsking-21.jpg)
 
@@ -254,12 +254,5 @@ All in all, I'm pretty happy with how the little fellow flew, even if in my test
 Happy flying!
 
 [0]: Linkslist
-[1]: https://www.mepsking.shop/65mm-whoop-quadcopter-kits.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate
-[2]: https://www.mepsking.shop/f411-7a-fpv-aio.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate
-[3]: https://www.mepsking.shop/fpv-sz0802-brushless-motor-tinywhoop.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate
-[4]: https://www.mepsking.shop/betafpv-meteor65-air-brushless-whoop-frame.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate
-[5]: https://www.mepsking.shop/sz1218-fpv-drone-propeller.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate
-[6]: https://www.mepsking.shop/caddx-ant-nano-camera.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate
 [7]: https://www.youtube.com/@FPVtips
 [8]: https://github.com/ExpressLRS/ExpressLRS-Configurator/releases
-[9]: https://www.mepsking.shop/jumper-aion-2-4ghz-nano-els-tx-module.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate

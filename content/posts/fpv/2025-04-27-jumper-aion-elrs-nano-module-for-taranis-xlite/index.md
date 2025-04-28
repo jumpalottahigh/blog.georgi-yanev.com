@@ -28,7 +28,7 @@ I am really, really simplifying and keeping it short here, but it seems that the
 
 Because I've had my Taranis X-Lite radio for a while and I still like it, I decided to look for a module that fits it and use that to dip my toes into the ExpressLRS world.
 
-So here is the [Jumper AION ELRS nano module][1] I went for:
+So here is the <a href="https://www.mepsking.shop/jumper-aion-2-4ghz-nano-els-tx-module.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">Jumper AION ELRS nano module</a> I went for:
 
 ![Jumper AION ELRS nano module front](jumper-aion-elrs-nano-module-for-taranis-xlite-18.jpg)
 
@@ -105,7 +105,7 @@ And get into Liftoff, setup the controller and play the game.
 
 All in all from what I've seen from this module so far and what I've used it for, which is still not a whole lot, but still, I'm pretty happy. Works as expected and doesn't break the bank at its pretty affordable price point. I'm a fan.
 
-Here's a link if you decide to grab the [Jumper AION ExpressLRS nano module][1].
+Here's a link if you decide to grab the <a href="https://www.mepsking.shop/jumper-aion-2-4ghz-nano-els-tx-module.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">Jumper AION ELRS nano module</a>.
 
 <div style="text-align: center">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/j_qc6SrCIWc?rel=0" frameBorder="0" allowFullScreen title="Mepsking 65mm micro drone kit flight 4"></iframe>
@@ -114,5 +114,4 @@ Here's a link if you decide to grab the [Jumper AION ExpressLRS nano module][1].
 Happy flying!
 
 [0]: Linkslist
-[1]: https://www.mepsking.shop/jumper-aion-2-4ghz-nano-els-tx-module.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate
 [2]: https://github.com/ExpressLRS/ExpressLRS-Configurator/releases
