@@ -116,6 +116,13 @@ const Hamburger = () => {
   return (
     <Menu right>
       <GlobalStyle />
+      <Link to="/posts/">Blog posts</Link>
+      <Link to="/eternal-archives/">Eternal Archives</Link>
+      <hr />
+      <p>Top 10 Tags:</p>
+      <TagPool />
+      <br />
+      <hr />
       <a
         href="https://www.youtube.com/@FPVtips"
         target="_blank"
@@ -159,10 +166,6 @@ const Hamburger = () => {
       </a>
       <Link to="/about/">❔ About</Link>
       <Link to="/support-me/">🙏 Support me</Link>
-      <br />
-      <hr />
-      <p>Top 10 Tags:</p>
-      <TagPool />
       <br />
       <hr />
       <br />

@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { graphql, Link, useStaticQuery } from 'gatsby'
-import Img from 'gatsby-image'
 
 import Hamburger from './Hamburger'
 import SocialIcons from './SocialIcons'
@@ -37,6 +36,32 @@ const AppBarWrapper = styled.nav`
 `
 
 const Header = () => {
+  const allLearningPosts = useStaticQuery(graphql`
+    query {
+      allMarkdownRemark(
+        sort: { order: DESC, fields: [frontmatter___date] }
+        filter: {
+          frontmatter: { draft: { ne: true }, category: { eq: "learning" } }
+          fileAbsolutePath: { regex: "/content/posts/" }
+        }
+        limit: 10
+      ) {
+        edges {
+          node {
+            id
+            excerpt(pruneLength: 140)
+            timeToRead
+            frontmatter {
+              date(formatString: "MMM DD, YYYY")
+              path
+              title
+            }
+          }
+        }
+      }
+    }
+  `)
+
   const activeStyle = {
     color: '#0175d8',
   }
@@ -87,13 +112,31 @@ const Header = () => {
 
         <AppBarWrapper>
           <ul className="nav">
-            <li>
-              <Link exact="true" to="/" activeStyle={activeStyle}>
-                Home
-              </Link>
-            </li>
             <DropDown className="visible-xs">
-              <Link exact="true" to="/posts/" activeStyle={activeStyle}>
+              <Link
+                exact="true"
+                to="/posts/?category=learning"
+                activeStyle={activeStyle}
+              >
+                Personal development
+              </Link>
+              <ul>
+                {allLearningPosts.allMarkdownRemark.edges.map((post) => (
+                  <li key={post.node.id}>
+                    <Link to={post.node.frontmatter.path}>
+                      {post.node.frontmatter.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </DropDown>
+
+            <DropDown className="visible-xs">
+              <Link
+                exact="true"
+                to="/posts/?category=fpv"
+                activeStyle={activeStyle}
+              >
                 FPV Drones
               </Link>
 
@@ -138,7 +181,17 @@ const Header = () => {
                 </li>
               </ul>
             </DropDown>
-            <DropDown className="visible-xs">
+
+            <li className="visible">
+              <Link
+                exact="true"
+                to="/eternal-archives/"
+                activeStyle={activeStyle}
+              >
+                Eternal Archives
+              </Link>
+            </li>
+            <DropDown className="visible">
               <Link to="/quick-tips/" activeStyle={activeStyle}>
                 Misc
               </Link>
@@ -168,13 +221,13 @@ const Header = () => {
                     About
                   </Link>
                 </li>
+                <li>
+                  <Link to="/support-me/" activeStyle={activeStyle}>
+                    Support me
+                  </Link>
+                </li>
               </ul>
             </DropDown>
-            <li>
-              <Link to="/support-me/" activeStyle={activeStyle}>
-                Support me
-              </Link>
-            </li>
           </ul>
           <SocialIcons />
           <Hamburger className="hamburger" />

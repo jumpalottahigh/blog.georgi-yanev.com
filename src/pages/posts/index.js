@@ -5,7 +5,7 @@ import PostsList from '../../components/PostsList'
 import TinyLetterSignup from '../../components/TinyLetterSignUp'
 
 const PostsPage = ({ data }) => (
-  <Layout>
+  <Layout posts={data.allMarkdownRemark.edges}>
     <PostsList
       showChevron="yes"
       showImage="yes"
