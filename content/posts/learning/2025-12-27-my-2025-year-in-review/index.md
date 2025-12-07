@@ -20,17 +20,20 @@ ogImage: './my-2025-year-in-review-1.jpg'
 - [🖼️ Theme of the year and overview of the goals for 2025](#overview)
 - [👨‍👦 Father and son](#father-and-son)
 - [🏋️‍♂️ CrossFit journey](#crossfit)
+- [🇧🇬 One month in Bulgaria](#bg)
 - [❤️ Love, friendships, community](#love-friendships-community)
 - [❓ Random topics](#random-topics)
 - [⬜ Goals for 2026](#goals)
 
-### <span id="overview" class="offset-top-nav">Social, community, love</span>
+### <span id="overview" class="offset-top-nav">Journey > Destination (Community, friends, family. Love)</span>
 
 It's been almost a bit scary writing in these yearly posts how much the current year has been better than the previous one for the past few years. And especially so when the previous year had been so, so good itself. So, I'm "happy" to say in its own weird way to report that won't be the case this year. Not because this year was not great. It was an absolutely amazing year, I'm very happy with it, there were quite a lot of great moments and a bunch of really cool experiences, progress in various ways... Yet this year brought also a lot of challenges, perhaps a bit more so than the past two. Some stress and other less positive vibes were a part of the picture too, perhaps a level slightly above average. Of course, all of this is through my very own, very personal, very subjective prism (attempting to be objective on the look out of the whole past year from the position of the last month of the year is a bit tricky 😅). Let's remember not to take all of this way too seriously; in the end it's all about having fun, having some thoughts laid out, some light and hopefully somewhat entertaining reflection. I should say, much like in all previous cases, I'm of course very grateful to be here, enjoying yet another lap around the sun, all the adventures had and thankful even for the tough times, cause we all know they trully mold us to be who we need to become.
 
 Here's a picture gallery to kick this off and set the mood:
 
 TODO: Pics gallery
+
+TODO: Word on covering the whoel year. Drone review.
 
 These posts started close to 10 years ago now with these simple goal setting lists. I'm not sure this is entire applicable nowadays. Especially with me mentality shift of **"Journey > Destination"**. But, like, fr fr. Six. Seven. (let's mimic the slang of gen Alpha a bit :D). Seriously though, let's look at the list:
 
@@ -58,7 +61,23 @@ TODO: images from book AI generated
 
 I've not done Ironman training and I might do but it won't be for now a part of a list. If I decide to go for it, I will. I still like swimming, I'm still gonna work a bit on running, biking being the bigger bottleneck, but who knows, I might get into it. For now, it's not a big priority for me 😉 Same for the half marathon thing. It's really 100% a thing of "**why not be a person who's finished one, as opposed to a person who's not**". But sometimes, that's not enough of a reason to go for it. And again, who knows; stranger things have happened before, I might still go for it if the moment is right and I feel it. These posts and lists are not intended to completely plan out my life. In fact, I'd like to leave quite a lot of room for random stuff 😀.
 
-CrossFit Open and Murph both went well, but more on that in the CrossFit section below. I've still not participated in a CrossFit comp, but I think I really want to give it a crack.
+CrossFit Open and Murph both went well, but more on that in the CrossFit section below. I've still not participated in a CrossFit comp, but I think I really want to give it a crack. I'm sure I'll jump into something when the time is right and it feels good to do so.
+
+The social aspects of life is something I'll always keep in mind. I've always enjoyed it in its many forms, I let myself forget about it for a while and put it on the back burner for a few years, something I regret. Never again. Community, friends, family. These social relationships are so much more important than many of us may even realise. It's been nice to catch up and spend time with old friends. It's been lovely to make a lot of new acquaintances and friends too. I don't say it lightly when I say that **I do appreciate everyone I connect with**. Trully. I think we'll expand on this topic in various subtopics below.
+
+We did have an amazing vacation in Bulgaria with Anton. It was twice as long as last year, because in his words "last year we were there for 2 weeks, this year we should go for 4 weeks". Also following his logic, it seems we should be there for 6 weeks next year. Hey, I'd love that, I don't oppose it in any way. Eventually, we are gonna be hardcapped by the length of his summer vacation, which is only 2 months 😅. But jokes aside, we'll take whatever time we can get. The important part is to make the time count. I'll expand on the trip in a lot of detail below, but it was a great time!
+
+No training camps and training vacations this year, but something might be coming up next year. No regrets on not having any such camps this year; the choice was simple when it came down to how to spend vacation days this year in the summer - use up all 4 weeks just for Bulgaria with Anton. That was the choice and it was a good one. As opposed to the 4 trips in 2024. Who knows how things will work out next year.
+
+Yoga, meditaion, nope. The problem with life and time is you just can't have time for all the things. Now, sometimes, it's mind-boggling to me that in the entire year I didn't find time to go to 1 yoga class. Or I didn't sit once outside on the terrace in the sun and try to meditate. It's crazy, it seems so easy to do, yet, it just doesn't happen. I still think those are helpful and important practices, maybe I'll get there someday, and at any rate, they are not the biggest priority, just fun little things to try out. I have no shortage of ideas on what to try however.
+
+Anton's continued his CrossFit classes and it's something he enjoys which warms up my heart. We've also gone to the basketball courts plenty in the summer and when the weather has been nice. Table tennis we also went to a few times. We've only not found time for the swimming part, but we'll see how things go next year.
+
+Learning about AI, making a game in Unity, video editing are things we've worked on. Every once in a while, nothing crazy, but it's nice to see how quickly he picks up new skills and how much he can do alone. He's editting his own videos in CapCut on his computer and I post them for him on his YouTube channel. Fun times 😅.
+
+We had a brief baking attempt to make some buns last year, I remember that, and since then, mainly thanks to my friend and the recipe she shared with me for Bulgarian banitza, we've made banitza at home so many times! I'm absolutely hooked, because i love that pastry with feta cheese. It's sooo goood. And I think I'm pretty good at making it now!
+
+Lastly on the list of goals for 2025 is "smile and have fun". Yes, yes, yes! I like being serious and focused into things, but I definitely like laughing and having fun. There are a couple of places / people who really make this so natural. During the easy and during the hard times. In the end, while we are living on this space rock, hurling around the sun in our solar system, being the tiny, little, specks of sand in the grand scheme of the universe, might as well smile and have fun! It's a lot more important than we may think.
 
 ### 2️⃣0️⃣2️⃣5️⃣
 
@@ -89,6 +108,11 @@ TODO: fix and update chart
 TODO: comments on murph and picture
 TODO: comments on CrossFit Open
 
+TODO: "platoing", "journey > destination"
+TODO: "the first boredom and back into it"
+
+#### <span id="bg" class="offset-top-nav">🇧🇬 One month in Bulgaria</span>
+
 #### <span id="love-friendships-community" class="offset-top-nav"> ❤️ Love, friendships, community</span>
 
 - TODO:
@@ -102,6 +126,8 @@ TODO: These could get combined, or separated into their own categories:
 - Going back to my Bulgarian roots; My Bulgarian connection
 - Journey > Destination
 - Georgi's stories (and also social media, posting stuff vs not, to be out there but also that you have to log in every day, social media in general, being presetn etc. )
+- God. (comeback)
+- The Bulgarian roots (comeback)
 -
 
 ### <span id="goals" class="offset-top-nav">2️⃣0️⃣2️⃣6️⃣</span>
@@ -111,8 +137,12 @@ TODO: These could get combined, or separated into their own categories:
 - 📝 Continue slowly writing my book - Born in Space
 - 🏃‍♂️ Run Helsinki Midnight Run for the 3rd time (with prep)
 - 🏃‍♂️ Hyrox
-
-- Goal 1
-- Goal 2
+- 🦺 CrossFit Murph
+- 🏋️‍♂️ CrossFit Competition
+- 🗣️ Community, friends, family
+- 🏋️‍♂️ Training vacation
+- 🏀 CrossFit, basketball, table tennis with Anton
+- 😄 Smile and have fun
+-
 
 [0]: Linkslist
