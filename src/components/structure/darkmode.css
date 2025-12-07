@@ -277,3 +277,16 @@
   color: var(--dark-mode-red);
 }
 
+.dark-mode .bm-item {
+  color: var(--dark-mode-white);
+}
+
+.dark-mode .bm-item:hover {
+  color: var(--dark-mode-blue-hover);
+}
+
+.dark-mode .bm-menu .tag-pool__tag {
+  color: var(--dark-mode-bg-color);
+  background: var(--dark-mode-color) !important;
+}
+
