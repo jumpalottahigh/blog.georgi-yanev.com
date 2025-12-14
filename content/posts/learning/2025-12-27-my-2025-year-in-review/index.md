@@ -35,7 +35,7 @@ TODO: Pics gallery
 
 TODO: Word on covering the whoel year. Drone review.
 
-These posts started close to 10 years ago now with these simple goal setting lists. I'm not sure this is entire applicable nowadays. Especially with me mentality shift of **"Journey > Destination"**. But, like, fr fr. Six. Seven. (let's mimic the slang of gen Alpha a bit :D). Seriously though, let's look at the list:
+These posts started close to 10 years ago now with these simple goal setting lists. I'm not sure this is entirely applicable nowadays. Especially with my mental shift of **"Journey > Destination"**. But, like, fr fr. Six. Seven. (let's mimic the slang of gen Alpha a bit :D). Seriously though, let's look at the list:
 
 ### ⬜ Goals for 2025:
 
@@ -87,8 +87,24 @@ Lastly on the list of goals for 2025 is "smile and have fun". Yes, yes, yes! I l
 
 #### <span id="crossfit" class="offset-top-nav">🏋️‍♂️ CrossFit journey</span>
 
-Let's see, before I even check my notes, from the top of my head, what's been the biggest news in my CrossFit journey this year? The first thing that comes to mind is the first body weight snatch I did in February <3. This is absolutely huge for me and been one of my biggest goals for the past 2 years. I was beyond stoked to do that 78kg snatch (BW: 76kg at the time). And then an 80kg power snatch 2 months later in April. So, so happy about this!
+Let's see, before I even check my notes, from the top of my head, what's been the biggest news in my CrossFit journey this year? The first thing that comes to mind is the **first body weight snatch** I did in February <3. This is absolutely huge for me and been one of my biggest goals for the past 2 years. I was beyond stoked to do that 78kg snatch (BW: 76kg at the time). And then an 80kg power snatch 2 months later in April. So, so happy about this!
 I did do the CrossFit Open and I think I was semi-pleased with my results, however, it's worth noting I had a strep throat and was on antibiotics for a week, which affected my performance for sure, but I'm still happy I was feeling well enough to show up and do it, and of course, Anton was my number one supporter <3.
+
+
+<div class="image-grid">
+
+![Georgi snatching 75kg](my-2025-year-in-review-1.jpg)
+![InBody measurements](my-2025-year-in-review-2.jpg)
+![Score on the floor](my-2025-year-in-review-3.jpg)
+![callus situation](my-2025-year-in-review-4.jpg)
+![Murph done!](my-2025-year-in-review-5.jpg)
+![Murph done score on the floor](my-2025-year-in-review-6.jpg)
+![Goodbye old faithful grips](my-2025-year-in-review-7.jpg)
+![Welcome Frog grips](my-2025-year-in-review-9.jpg)
+![High 5 son at the gym](my-2025-year-in-review-8.jpg)
+
+
+</div>
 
 Some stats as of December 2025:
 
@@ -96,20 +112,36 @@ TODO: fix and update chart
 
 | Movement       | Score          | Movement                | Score             |
 | -------------- | -------------- | ----------------------- | ----------------- |
-| Snatch         | 80kg (+4kg 🆕) | BMU unbroken            | 20 (unchanged )   |
-| xxx            | xxx            | BMU in a single workout | 70                |
-| Clean & Jerk   | 95kg           | RMU                     | 5                 |
-| Clean          | 108kg          | Murph                   | 49:40             |
-| Back squat     | 142kg          | CrossFit Open           | ~ 65th percentile |
-| Front squat    | 125kg          | Jackie                  | 6:37              |
-| Deadlift       | 155kg          | DT                      | 8:15 @ 50kg       |
-| Shoulder press | 70kg           |                         |                   |
+| Snatch         | 80kg (+4kg 🆕) | BMU unbroken            | 20 (unchanged)   |
+| BMU in a single workout | 70 (🆕) |  RMU                     | 5          (unchanged)    |
+| Clean & Jerk   | 95kg (unchanged)           |   Clean               |108kg|
+| Shoulder press          |   70kg (unchanged)        | Murph                   | 46:40 (🆕 -3min)             |
+| Back squat     | 142kg (unchanged)          | CrossFit Open           | ~ 65th percentile |
+| Front squat    | 130kg (🆕 +5kg)          | Jackie                  | 6:37 (unchanged)              |
+| Deadlift       | 155kg          | DT                      | 8:15 @ 50kg (TODO:)       |
+
+I think it starts to be obvious that of course, now that I'm wrapping up the 4th year of training, things are really starting to plato, which only makes sense, it was bound to happen eventually. That being said, we're far from being the best possible shape, or the best results etc. It's just that the jumps in weights for example are starting to be a bit smaller.
+One interesting observation is that for example with snatches, which are still 1 of my most favorite movements and I try to train them as much as possible, I tend to be able to get frequently very close to my PR weight in regular training. For example up to 75kg power snatches, which is just within 5kg of my PR.
+
+TODO: comments on old grips <3 with a pic
 
 TODO: comments on murph and picture
 TODO: comments on CrossFit Open
 
 TODO: "platoing", "journey > destination"
 TODO: "the first boredom and back into it"
+
+#### Helsinki Midnight Run
+
+I did the Helsinki Midnight Run for the 2nd time. This year the weather was even better than last year. No pouring rain, still no wind, pretty nice. The major challenge came from the fact that I didn't prepare for that run AT ALL. At least in 2024 I had done a few 7-8k runs 1 10k run. This time - nada. I suppose I thought I'd roll up and just wing it. The worst part, was that while I left ahead of time from home, in order to be there on time, and I was - more than 50 minutes before the start, I wasted 25 minutes driving in circles trying to park. That was terrible. On top of that, after I finally parked I had to queue for the bathrooms for another nearly 20 minutes which basically left me 3 minutes before the start of the run to "warm up" 😅. Despite all of that, the run went somewhat well, I finished in 56:56, which is a bit slower than the 54:08 from the previous year. To be honest, I'm happy with that score, given things were the way they were. I can definitely do better with some training. In fact, the goal was sub 50, but given the situation, yet again, I'm happy with the result. I had to stop and walk a bit this time betweek 8k and 10k, because of my knee starting to hurt and wanting to prevent potential injury.
+
+<div class="image-grid">
+
+![Georgi at Helsinki Midnight Run 2025](my-2025-year-in-review-20.jpg)
+![Helsinki Midnight Run 2025 results](my-2025-year-in-review-21.png)
+
+</div>
+
 
 #### <span id="bg" class="offset-top-nav">🇧🇬 One month in Bulgaria</span>
 
@@ -134,6 +166,7 @@ TODO: These could get combined, or separated into their own categories:
 
 ### ⬜ Goals for 2026:
 
+- 🇧🇬 Bulgarian vacation with Anton
 - 📝 Continue slowly writing my book - Born in Space
 - 🏃‍♂️ Run Helsinki Midnight Run for the 3rd time (with prep)
 - 🏃‍♂️ Hyrox
