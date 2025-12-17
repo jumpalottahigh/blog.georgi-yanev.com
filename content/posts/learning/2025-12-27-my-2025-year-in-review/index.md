@@ -83,6 +83,44 @@ Lastly on the list of goals for 2025 is "smile and have fun". Yes, yes, yes! I l
 
 #### <span id="father-and-son" class="offset-top-nav">👨‍👦 Father and son</span>
 
+Every year is a special adventure with this kid and this year was no exception. We did a lot of different things. And our bread and butter was good food, some workouts, lots of gaming and socializing with friends, travels, basketball, a few movies, a lot of books, and more Bulgarian dishes like banitza, mousakka.
+
+<div class="image-grid">
+
+![Anton's birthday party](my-2025-year-in-review-30.jpg)
+![Anton tries music museum](my-2025-year-in-review-31.jpg)
+![Anton and dad gaming](my-2025-year-in-review-32.jpg)
+![Anton's new gummy bear pullover](my-2025-year-in-review-33.jpg)
+![Anton and dad in the car](my-2025-year-in-review-34.jpg)
+![Anton's Three Little Piggies book](my-2025-year-in-review-35.jpg)
+![Anton and dad gaming again](my-2025-year-in-review-36.jpg)
+![First harbor ice cream of the season already in March!!](my-2025-year-in-review-37.jpg)
+![Watching the Minecraft movie in the cinema](my-2025-year-in-review-38.jpg)
+![Sunny at the basketball courts](my-2025-year-in-review-39.jpg)
+![Sunny at the basketball courts again](my-2025-year-in-review-40.jpg)
+![Travelling to Bulgaria part 1](my-2025-year-in-review-41.jpg)
+![Travelling to Bulgaria part 2](my-2025-year-in-review-42.jpg)
+![Harry Potter 3rd book done](my-2025-year-in-review-43.jpg)
+![All of Anton's National Geographic encyclopedias ](my-2025-year-in-review-44.jpg)
+![Anton and dad, starting Georgi's stories](my-2025-year-in-review-45.jpg)
+![Anton putting mousakka](my-2025-year-in-review-46.jpg)
+![Anton decorating the xmas tree](my-2025-year-in-review-47.jpg)
+![Anton and dad at the Elisa office part 1](my-2025-year-in-review-48.jpg)
+![Anton and dad at the Elisa office part 2](my-2025-year-in-review-49.jpg)
+![Anton and dad working out part 1](my-2025-year-in-review-50.jpg)
+![Anton and dad working out part 2](my-2025-year-in-review-51.jpg)
+![Anton reading a book](my-2025-year-in-review-52.jpg)
+
+</div>
+
+It's been amazing to see Anton's interest for Bulgarian to peak before, during and after the trip to Bulgaria. He's in fact, pretty good at it. He doesn't know a lot of words, but he's learnt to read the alphabet and comfortably and quickly reads whole words, I was very impressed how quickly he'd picked it up. This year has been a bit about coming back to my Bulgarian roots in various ways, this being one of them.
+
+After reading the Winnie the Pooh books quite a few times, this year we finally started something else and interesting too - the Harry Potter series. Years ago we read the first book together with Anton, but the 2nd book didn't fly, he was too young perhaps and lost interest. This time around, he had very genuine interest for the Harry Potter stories, and it's been great so far. Currently at the end of December we are finishing book 4 very, very soon. If you think about it, we started with book 1 at some point in May, so not too shabby.
+
+Watching together the Minecraft movie was a lot of fun. Especially so because we've played the game together so much so we had a very common context. We spent time on the basketball court and walks in sunny days, Anton really enjoyed the "bring your kid to work day at Elisa". Especially because we missed the one in 2024, but he did join the one in 2023. He was super excited about this year's edition and we had a lot of fun again, checking out the world of the grownups, work, AI, our company dragon plushie among other things 😅.
+
+The Bulgarian trip worked out much better than expected to be honest. I'll expand on that a lot more below, but we had the chance to a little bit "wing it", without any pre-planned and pre-booked hotels, destinations. Ok, maybe 1 pre-organized thing - the get together with my friends in Velingrad. But for the most part, we were able to just travel to different places and kind of did things the way we wanted to and felt like. That was very, very nice.
+
 - TODO:
 
 #### <span id="crossfit" class="offset-top-nav">🏋️‍♂️ CrossFit journey</span>
@@ -95,14 +133,16 @@ I did do the CrossFit Open and I think I was semi-pleased with my results, howev
 
 ![Georgi snatching 75kg](my-2025-year-in-review-1.jpg)
 ![InBody measurements](my-2025-year-in-review-2.jpg)
+![CrossFit Open 25.2](my-2025-year-in-review-10.jpg)
+![CrossFit Open 25.1](my-2025-year-in-review-11.jpg)
 ![Score on the floor](my-2025-year-in-review-3.jpg)
 ![callus situation](my-2025-year-in-review-4.jpg)
 ![Murph done!](my-2025-year-in-review-5.jpg)
 ![Murph done score on the floor](my-2025-year-in-review-6.jpg)
+![Karlos Nasar weightlifting straps](my-2025-year-in-review-12.jpg)
 ![Goodbye old faithful grips](my-2025-year-in-review-7.jpg)
 ![Welcome Frog grips](my-2025-year-in-review-9.jpg)
 ![High 5 son at the gym](my-2025-year-in-review-8.jpg)
-
 
 </div>
 
@@ -123,6 +163,8 @@ TODO: fix and update chart
 I think it starts to be obvious that of course, now that I'm wrapping up the 4th year of training, things are really starting to plato, which only makes sense, it was bound to happen eventually. That being said, we're far from being the best possible shape, or the best results etc. It's just that the jumps in weights for example are starting to be a bit smaller.
 One interesting observation is that for example with snatches, which are still 1 of my most favorite movements and I try to train them as much as possible, I tend to be able to get frequently very close to my PR weight in regular training. For example up to 75kg power snatches, which is just within 5kg of my PR.
 
+
+TODO: add a couple of vids, either in page or TikTok?
 TODO: comments on old grips <3 with a pic
 
 TODO: comments on murph and picture
@@ -145,6 +187,107 @@ I did the Helsinki Midnight Run for the 2nd time. This year the weather was even
 
 #### <span id="bg" class="offset-top-nav">🇧🇬 One month in Bulgaria</span>
 
+<div class="image-grid">
+
+![plushies on the floor](my-2025-year-in-review-60.jpg)
+![pigeon park](my-2025-year-in-review-61.jpg)
+![central park plovdiv bear statue](my-2025-year-in-review-62.jpg)
+![nice sunny weather forecast](my-2025-year-in-review-63.jpg)
+![Anton sitting on central park bear statue](my-2025-year-in-review-64.jpg)
+![Plovediv sign](my-2025-year-in-review-65.jpg)
+![Anton and dad found Tigger and Piglet](my-2025-year-in-review-66.jpg)
+![Anton and dad at the top of the hill](my-2025-year-in-review-67.jpg)
+![Apartment back balcony](my-2025-year-in-review-68.jpg)
+![rowing canal of Plovdiv](my-2025-year-in-review-69.jpg)
+![Playing chest on a huge chess board](my-2025-year-in-review-70.jpg)
+![In the mountains](my-2025-year-in-review-71.jpg)
+![Grilled lunch in the Rila mountains](my-2025-year-in-review-72.jpg)
+![Anton and dad with the bear statue in the mountains](my-2025-year-in-review-73.jpg)
+![Anton and dad riding the mini roller coaster](my-2025-year-in-review-74.jpg)
+
+TODO: continue labelling
+
+![a](my-2025-year-in-review-75.jpg)
+![a](my-2025-year-in-review-76.jpg)
+![a](my-2025-year-in-review-77.jpg)
+![a](my-2025-year-in-review-78.jpg)
+![a](my-2025-year-in-review-79.jpg)
+![a](my-2025-year-in-review-80.jpg)
+![a](my-2025-year-in-review-81.jpg)
+![a](my-2025-year-in-review-82.jpg)
+![a](my-2025-year-in-review-83.jpg)
+![a](my-2025-year-in-review-84.jpg)
+![a](my-2025-year-in-review-85.jpg)
+![a](my-2025-year-in-review-86.jpg)
+![a](my-2025-year-in-review-87.jpg)
+![a](my-2025-year-in-review-88.jpg)
+![a](my-2025-year-in-review-89.jpg)
+![a](my-2025-year-in-review-90.jpg)
+![a](my-2025-year-in-review-91.jpg)
+![a](my-2025-year-in-review-92.jpg)
+![a](my-2025-year-in-review-93.jpg)
+![a](my-2025-year-in-review-94.jpg)
+![a](my-2025-year-in-review-95.jpg)
+![a](my-2025-year-in-review-96.jpg)
+![a](my-2025-year-in-review-97.jpg)
+![a](my-2025-year-in-review-98.jpg)
+![a](my-2025-year-in-review-99.jpg)
+![a](my-2025-year-in-review-100.jpg)
+![a](my-2025-year-in-review-101.jpg)
+![a](my-2025-year-in-review-102.jpg)
+![a](my-2025-year-in-review-103.jpg)
+![a](my-2025-year-in-review-104.jpg)
+![a](my-2025-year-in-review-105.jpg)
+![a](my-2025-year-in-review-106.jpg)
+![a](my-2025-year-in-review-107.jpg)
+![a](my-2025-year-in-review-108.jpg)
+![a](my-2025-year-in-review-109.jpg)
+![a](my-2025-year-in-review-110.jpg)
+![a](my-2025-year-in-review-111.jpg)
+![a](my-2025-year-in-review-112.jpg)
+![a](my-2025-year-in-review-113.jpg)
+![a](my-2025-year-in-review-114.jpg)
+![a](my-2025-year-in-review-115.jpg)
+![a](my-2025-year-in-review-116.jpg)
+![a](my-2025-year-in-review-117.jpg)
+![a](my-2025-year-in-review-118.jpg)
+![a](my-2025-year-in-review-119.jpg)
+![a](my-2025-year-in-review-120.jpg)
+![a](my-2025-year-in-review-121.jpg)
+![a](my-2025-year-in-review-122.jpg)
+![a](my-2025-year-in-review-123.jpg)
+![a](my-2025-year-in-review-124.jpg)
+![a](my-2025-year-in-review-125.jpg)
+![a](my-2025-year-in-review-126.jpg)
+![a](my-2025-year-in-review-127.jpg)
+![a](my-2025-year-in-review-128.jpg)
+
+</div>
+
+TODO: screenshots and videos from the folder
+
+The month in Bulgaria was trully magical. On one hand, that's been our longest trip together to date, on the other hand it felt perfect, didn't feel too long at all. In fact, I'll go on to say that because of the length, it felt a bit less like a holiday trip and more of a **coming to the other home trip**. Which is really kind of the case.
+
+
+
+We were able to see family - my sister was back in Bulgaria now with her husband (they used to live in Cyprus). We also visited my grandma, Anton's grand grandma. It was so nice to see her again <3.
+
+
+We were able to spend time with friends and their kid, whom Anton knows from the year before and they got to play together, while we stayed 3 days at this SPA resort in the Bulgarian mountains in Velingrad. Nice food, plenty of pool time, walking in the mountain town, riding the waterwheels, awesome views of the mountains. We did a mini trip to the close by mountain of Rila too and rode some interesting "mini roller coaster" thingies, had great grilled food.
+
+TODO: continue writing
+
+<div class="post-social-icon">
+  <img src="/instagram.svg" alt="Instagram" /> Instagram stories from the trip (Plovdiv, Sunny Beach, Sofia):
+</div>
+
+<div class="image-grid">
+
+[![BG trip part 1](my-2024-year-in-review-148.jpg)](https://www.instagram.com/stories/highlights/18329849359193800/)
+[![BG trip part 2](my-2024-year-in-review-149.jpg)](https://www.instagram.com/stories/highlights/18120398008375465/)
+
+</div>
+
 #### <span id="love-friendships-community" class="offset-top-nav"> ❤️ Love, friendships, community</span>
 
 - TODO:
@@ -153,6 +296,9 @@ I did the Helsinki Midnight Run for the 2nd time. This year the weather was even
 
 TODO: These could get combined, or separated into their own categories:
 
+- Movie review section?
+
+
 - "Don't worry about it"
 - "I love them both"
 - Going back to my Bulgarian roots; My Bulgarian connection
@@ -160,7 +306,9 @@ TODO: These could get combined, or separated into their own categories:
 - Georgi's stories (and also social media, posting stuff vs not, to be out there but also that you have to log in every day, social media in general, being presetn etc. )
 - God. (comeback)
 - The Bulgarian roots (comeback)
--
+- Work stuff and career?
+- Sobreity continues?
+
 
 ### <span id="goals" class="offset-top-nav">2️⃣0️⃣2️⃣6️⃣</span>
 
