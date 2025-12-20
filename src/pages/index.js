@@ -123,7 +123,7 @@ export default BlogIndex
 export const HomePageQuery = graphql`
   query HomePageQuery {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       limit: 20
       filter: {
         frontmatter: { draft: { ne: true }, category: { ne: "stories" } }

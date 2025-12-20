@@ -93,7 +93,7 @@ export const FunnyWin98BugsPageQuery = graphql`
       filter: {
         relativePath: { regex: "/^eternal-archives/windows-bugs/winbug/" }
       }
-      sort: { fields: name }
+      sort: { name: ASC }
     ) {
       edges {
         node {

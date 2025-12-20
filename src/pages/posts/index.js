@@ -24,7 +24,7 @@ export default PostsPage
 export const PostsPageQuery = graphql`
   query PostsPageQuery {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       filter: {
         frontmatter: { draft: { ne: true } }
         fileAbsolutePath: { regex: "/content/posts/" }

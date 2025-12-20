@@ -13,7 +13,7 @@ exports.createPages = ({ graphql, actions }) => {
         `
           {
             posts: allMarkdownRemark(
-              sort: { order: DESC, fields: [frontmatter___date] }
+              sort: { frontmatter: { date: DESC } }
               filter: {
                 frontmatter: { draft: { ne: true } }
                 fileAbsolutePath: { regex: "/content/posts/" }
@@ -30,7 +30,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
 
             quickTips: allMarkdownRemark(
-              sort: { order: DESC, fields: [frontmatter___date] }
+              sort: { frontmatter: { date: DESC } }
               filter: { fileAbsolutePath: { regex: "/content/quick-tips/" } }
             ) {
               edges {
@@ -44,7 +44,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
 
             allFpvNews: allMarkdownRemark(
-              sort: { order: DESC, fields: [frontmatter___date] }
+              sort: { frontmatter: { date: DESC } }
               filter: { fileAbsolutePath: { regex: "/content/fpv-news/" } }
             ) {
               edges {
