@@ -78,7 +78,14 @@ module.exports = {
               quality: 75,
               // Remove the default behavior of adding a link to each
               // image.
-              linkImagesToOriginal: true,
+              linkImagesToOriginal: false,
+            },
+          },
+          {
+            resolve: `gatsby-remark-images-medium-zoom`,
+            options: {
+              background: 'var(--lightbox-bg)',
+              zIndex: 9999,
             },
           },
           {

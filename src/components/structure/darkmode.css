@@ -21,6 +21,10 @@
   --dark-mode-code-bg: #282c34;
 }
 
+.dark-mode {
+  --lightbox-bg: rgba(40, 44, 52, 0.95);
+}
+
 .dark-mode header,
 .dark-mode .main-wrapper,
 .dark-mode .sidebar-wrapper {
@@ -288,5 +292,12 @@
 .dark-mode .bm-menu .tag-pool__tag {
   color: var(--dark-mode-bg-color);
   background: var(--dark-mode-color) !important;
+}
+
+/* Lightbox UI Hints - Dark Mode */
+.dark-mode .medium-zoom-overlay::after {
+  color: #ddd;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
