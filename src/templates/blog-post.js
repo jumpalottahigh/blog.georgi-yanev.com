@@ -18,7 +18,7 @@ import TinyLetterSignup from '../components/TinyLetterSignUp'
 import YouTubeChannelsPromo from '../components/YouTubeChannelsPromo'
 
 class BlogPostTemplate extends React.Component {
-  render() {
+  render () {
     const { post, readerQuestions } = this.props.data
 
     // If post doesn't have a defined og image, fall back to default defined here
@@ -34,6 +34,8 @@ class BlogPostTemplate extends React.Component {
       identifier: post.id,
       title: post.frontmatter.title,
     }
+
+    const isFPVPost = post.frontmatter.category === 'fpv'
 
     // Affiliate banners
     let showBanner = false
@@ -201,10 +203,13 @@ class BlogPostTemplate extends React.Component {
               shortname={disqusShortname}
               config={disqusConfig}
             />
-            {/* <Giveaway /> */}
-            <YouTubeChannelsPromo text="Need even more FPV in your life? Check out my YouTube channels:" />
-            <TinyLetterSignup />
-            <PromoBanner linkTo={bannerLinkBottom} imageName="bigStripe3" />
+            {isFPVPost && (
+              <>
+                <YouTubeChannelsPromo text="Need even more FPV in your life? Check out my YouTube channels:" />
+                <TinyLetterSignup />
+                <PromoBanner linkTo={bannerLinkBottom} imageName="bigStripe3" />
+              </>
+            )}
           </div>
         </div>
       </Layout>
