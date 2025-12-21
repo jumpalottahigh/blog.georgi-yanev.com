@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, navigate } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import svgRightArrow from '../images/right-arrow.svg'
 
 const ALL_CATEGORIES = ['fpv', 'projects', 'learning', 'stories', 'smarthome']
@@ -48,8 +48,8 @@ const Post = ({
               }`}
             >
               {post.node.frontmatter.ogImage !== null ? (
-                <Img
-                  fluid={post.node.frontmatter.ogImage.childImageSharp.fluid}
+                <GatsbyImage
+                  image={post.node.frontmatter.ogImage.childImageSharp.gatsbyImageData}
                   alt={post.node.frontmatter.title}
                 />
               ) : (

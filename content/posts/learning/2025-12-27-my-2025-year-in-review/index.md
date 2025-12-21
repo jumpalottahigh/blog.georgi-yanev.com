@@ -122,6 +122,10 @@ Watching together the Minecraft movie was a lot of fun. Especially so because we
 The Bulgarian trip worked out much better than expected to be honest. I'll expand on that a lot more below, but we had the chance to a little bit "wing it", without any pre-planned and pre-booked hotels, destinations. Ok, maybe 1 pre-organized thing - the get together with my friends in Velingrad. But for the most part, we were able to just travel to different places and kind of did things the way we wanted to and felt like. That was very, very nice.
 
 - TODO:
+- playing with friends
+- hosting friends
+- walking home alone
+- 
 
 #### <span id="crossfit" class="offset-top-nav">🏋️‍♂️ CrossFit journey</span>
 
@@ -308,6 +312,8 @@ TODO: These could get combined, or separated into their own categories:
 - The Bulgarian roots (comeback)
 - Work stuff and career?
 - Sobreity continues?
+
+- Family
 
 
 ### <span id="goals" class="offset-top-nav">2️⃣0️⃣2️⃣6️⃣</span>

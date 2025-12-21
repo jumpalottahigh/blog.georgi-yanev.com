@@ -9,7 +9,7 @@
     "disqus-react": "^1.1.5",
     "framer-motion": "^11.1.7",
     "gatsby": "^5.14.0",
-    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-image": "^3.14.0",
     "gatsby-plugin-ebook": "^1.0.2",
     "gatsby-plugin-feed": "^5.14.0",
     "gatsby-plugin-google-analytics": "^5.14.0",
@@ -54,7 +54,8 @@
     "prettier": "^3.2.5"
   },
   "resolutions": {
-    "punycode": "^2.3.1"
+    "punycode": "^2.3.1",
+    "sharp": "0.32.6"
   },
   "homepage": "https://github.com/jumpalottahigh/blog.georgi-yanev.com#readme",
   "keywords": [

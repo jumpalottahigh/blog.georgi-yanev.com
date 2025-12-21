@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Announcement from './Announcement'
 import { graphql, useStaticQuery, Link } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import { motion } from 'framer-motion'
 
 const StyledGiveaway = styled.div`
@@ -43,9 +43,7 @@ const Giveaway = () => {
       ) {
         name
         childImageSharp {
-          fluid(maxWidth: 250, quality: 75) {
-            ...GatsbyImageSharpFluid
-          }
+          gatsbyImageData(layout: CONSTRAINED, width: 250, quality: 75, placeholder: BLURRED)
         }
       }
     }
@@ -60,10 +58,10 @@ const Giveaway = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Img
-            fluid={images.fpvtipsTshirt2.childImageSharp.fluid}
+          <GatsbyImage
+            image={images.fpvtipsTshirt2.childImageSharp.gatsbyImageData}
             alt={images.fpvtipsTshirt2.name}
-          ></Img>
+          ></GatsbyImage>
         </a>
       </motion.div>
       <h5>We are excited to announce a t-shirt giveaway!</h5>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import svgReact from '../../static/react.svg'
 import svgJS from '../../static/javascript.svg'
@@ -11,18 +11,14 @@ const AuthorMessage = ({ type = 'fpv', style }) => {
       georgiFpv: file(relativePath: { regex: "/^home/georgi-face.png/" }) {
         name
         childImageSharp {
-          fluid(maxWidth: 100, quality: 75) {
-            ...GatsbyImageSharpFluid
-          }
+          gatsbyImageData(layout: CONSTRAINED, width: 100, quality: 75, placeholder: BLURRED)
         }
       }
 
       georgi: file(relativePath: { regex: "/^home/georgi-face-3.jpg/" }) {
         name
         childImageSharp {
-          fluid(maxWidth: 100, quality: 75) {
-            ...GatsbyImageSharpFluid
-          }
+          gatsbyImageData(layout: CONSTRAINED, width: 100, quality: 75, placeholder: BLURRED)
         }
       }
     }
@@ -40,11 +36,11 @@ const AuthorMessage = ({ type = 'fpv', style }) => {
     >
       <div style={{ width: '20%' }}>
         <div style={{ maxWidth: '100px' }}>
-          <Img
-            fluid={
+          <GatsbyImage
+            image={
               type === 'fpv'
-                ? authorImage.georgiFpv.childImageSharp.fluid
-                : authorImage.georgi.childImageSharp.fluid
+                ? authorImage.georgiFpv.childImageSharp.gatsbyImageData
+                : authorImage.georgi.childImageSharp.gatsbyImageData
             }
             alt="Georgi Yanev portrait"
             style={{ borderRadius: '50%' }}

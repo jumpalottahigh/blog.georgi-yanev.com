@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import { graphql, useStaticQuery } from 'gatsby'
 
 const StyledYouTubeChannelsPromo = styled.div`
@@ -28,9 +28,7 @@ const YouTubeChannelsPromo = ({ text, ...rest }) => {
     {
       youtubeFpvtips: file(relativePath: { regex: "/^home/home-fpvtips/" }) {
         childImageSharp {
-          fluid(maxWidth: 769, quality: 90) {
-            ...GatsbyImageSharpFluid
-          }
+          gatsbyImageData(layout: CONSTRAINED, width: 769, quality: 90, placeholder: BLURRED)
         }
       }
 
@@ -38,9 +36,7 @@ const YouTubeChannelsPromo = ({ text, ...rest }) => {
         relativePath: { regex: "/^home/home-georgifpv/" }
       ) {
         childImageSharp {
-          fluid(maxWidth: 852, quality: 90) {
-            ...GatsbyImageSharpFluid
-          }
+          gatsbyImageData(layout: CONSTRAINED, width: 852, quality: 90, placeholder: BLURRED)
         }
       }
     }
@@ -55,8 +51,8 @@ const YouTubeChannelsPromo = ({ text, ...rest }) => {
           rel="noopener noreferrer"
         >
           FPVtips
-          <Img
-            fluid={images.youtubeFpvtips.childImageSharp.fluid}
+          <GatsbyImage
+            image={images.youtubeFpvtips.childImageSharp.gatsbyImageData}
             alt="FPVTIPS YouTube channel"
           />
         </a>
@@ -69,8 +65,8 @@ const YouTubeChannelsPromo = ({ text, ...rest }) => {
           rel="noopener noreferrer"
         >
           Georgi FPV
-          <Img
-            fluid={images.youtubeGeorgiFpv.childImageSharp.fluid}
+          <GatsbyImage
+            image={images.youtubeGeorgiFpv.childImageSharp.gatsbyImageData}
             alt="GeorgiFPV YouTube channel"
           />
         </a>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import { graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
 
@@ -69,7 +69,7 @@ const FunnyWin98BugsPage = ({ data }) => {
             <div key={img.id} style={{ margin: '1rem', maxWidth: '640px' }}>
               <h4>{img.title}</h4>
               <div>
-                <Img fluid={img.childImageSharp.fluid} alt={img.alt} />
+                <GatsbyImage image={img.childImageSharp.gatsbyImageData} alt={img.alt} />
               </div>
             </div>
           ))}
@@ -100,9 +100,7 @@ export const FunnyWin98BugsPageQuery = graphql`
           id
           name
           childImageSharp {
-            fluid(maxWidth: 640, quality: 75) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(layout: CONSTRAINED, width: 640, quality: 75, placeholder: BLURRED)
           }
         }
       }
