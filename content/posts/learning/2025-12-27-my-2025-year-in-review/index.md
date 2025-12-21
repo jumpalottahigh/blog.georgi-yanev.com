@@ -31,7 +31,15 @@ It's been almost a bit scary writing in these yearly posts how much the current 
 
 Here's a picture gallery to kick this off and set the mood:
 
+<div class="image-grid">
+
+![a](my-2025-year-in-review-84.jpg)
+
+</div>
+
 TODO: Pics gallery
+
+TODO: video acll pic with my mom and dad from YIR extras
 
 TODO: Word on covering the whoel year. Drone review.
 
@@ -106,9 +114,7 @@ Every year is a special adventure with this kid and this year was no exception. 
 ![Anton putting mousakka](my-2025-year-in-review-46.jpg)
 ![Anton decorating the xmas tree](my-2025-year-in-review-47.jpg)
 ![Anton and dad at the Elisa office part 1](my-2025-year-in-review-48.jpg)
-![Anton and dad at the Elisa office part 2](my-2025-year-in-review-49.jpg)
 ![Anton and dad working out part 1](my-2025-year-in-review-50.jpg)
-![Anton and dad working out part 2](my-2025-year-in-review-51.jpg)
 ![Anton reading a book](my-2025-year-in-review-52.jpg)
 
 </div>
@@ -117,15 +123,31 @@ It's been amazing to see Anton's interest for Bulgarian to peak before, during a
 
 After reading the Winnie the Pooh books quite a few times, this year we finally started something else and interesting too - the Harry Potter series. Years ago we read the first book together with Anton, but the 2nd book didn't fly, he was too young perhaps and lost interest. This time around, he had very genuine interest for the Harry Potter stories, and it's been great so far. Currently at the end of December we are finishing book 4 very, very soon. If you think about it, we started with book 1 at some point in May, so not too shabby.
 
-Watching together the Minecraft movie was a lot of fun. Especially so because we've played the game together so much so we had a very common context. We spent time on the basketball court and walks in sunny days, Anton really enjoyed the "bring your kid to work day at Elisa". Especially because we missed the one in 2024, but he did join the one in 2023. He was super excited about this year's edition and we had a lot of fun again, checking out the world of the grownups, work, AI, our company dragon plushie among other things 😅.
+Watching together the Minecraft movie was a lot of fun. Especially so because we've played the game together so much so we had a lot of common context. We spent time on the basketball court and walks in sunny days, Anton really enjoyed the "bring your kid to work day at Elisa". Especially because we missed the one in 2024, but he did join the one in 2023. He was super excited about this year's edition and we had a lot of fun again, checking out the world of the grownups, work, AI, our company dragon plushie among other things 😅.
 
-The Bulgarian trip worked out much better than expected to be honest. I'll expand on that a lot more below, but we had the chance to a little bit "wing it", without any pre-planned and pre-booked hotels, destinations. Ok, maybe 1 pre-organized thing - the get together with my friends in Velingrad. But for the most part, we were able to just travel to different places and kind of did things the way we wanted to and felt like. That was very, very nice.
+![Anton and dad at the Elisa office part 2](my-2025-year-in-review-49.jpg)
+
+The Bulgarian trip worked out much better than expected to be honest. I'll expand on that a lot more below, but we had the chance to a little bit "wing it", without any pre-planned and pre-booked hotels, destinations. Ok, maybe 1 pre-organized thing - the get together with my friends in Velingrad. But for the most part, we were able to just travel to different places and kind of did things the way we wanted to and felt like. That was very, very nice. We visited Velingrad, Sozopol, staying in Plodviv a bunch, went again to the sea side but this time to Kiten.
+
+And after our well-deserved Bulgarian vacation it was time to get back home and enjoy regular life too! We were excited to be back, to touch a computer keyboard for the first time again in a month, to see if our plants had made it while we were away. Anton soon started school and now in the 3rd grade it was time for him to get used to walking there and back by himself. **He absolutely loved it and aced that!** I was quite surprised to be honest, how QUICKLY everything changed. Literally in the span of a week or two it went from always having him dropped off and picked up to... well, him walking there and back on his own. And he enjoyed it too, which was the best part. We live like 7-10 minute walk from the school so it does make for a very pleasant walk.
+
+Another thing that started happening multiple times a week on a weekly basis was Anton hosting his friends over. I'm so happy for him. He also goes to visit his friends too sometimes on other days. They have a very good group of friends and this, I'm so happy for him. Not only do they socialize and play games together while talking on WhatsApp or Discord, as previously, but now also hanging out together, it's very nice to see.
+
+In terms of sports hobbies, he's still had the ball games hobby this year as well as CrossFit. He likes it a lot, it's a ton of fun for him and it's nice, cause (ofc I'm biased), but there's a lot to learn, plenty of different movements and exercises to do. One of my favorites was one open gym we did together with Anton, where he wrote the programming for us <3.
+
+![Anton and dad working out part 2](my-2025-year-in-review-51.jpg)
+
+He's really comfortably now editing videos in CapCut, as he has been for a while. I support him with tips and uploading his videos to his YouTube channel. It's nice to see him working on those creative things. There's also this other game called "Geometry Dash" and he's been making levels for it too, I love that! Reminds me of making maps for games I played back in the day, writing fan fiction and so on. At the same time it's a real life skill to learn video editing which makes it extra cool. We've also been talking about AI a bit. It's interesting and very tricky to talk about it tbh. Explaining the power of it and the change it brings, while at the same time fighting to keep the parts of the creative process still human and full of soul and expression.
+
+Another mini story is about his birthday gift to me.
+
+TODO: pic of birthday hat on floor from YIR extras
+
+He had put these elaborate set of clues I had to follow around the whole house, like 6-7 of them. And the crazy part is he had been home after school perhaps not more than 30-40 mins before me :D What a kid!
 
 - TODO:
-- playing with friends
-- hosting friends
-- walking home alone
-- 
+- 1 final read pass and check thru yearly pics for any missing pics to add
+- extract vid from YIR 2025 extra with BG app
 
 #### <span id="crossfit" class="offset-top-nav">🏋️‍♂️ CrossFit journey</span>
 
@@ -207,79 +229,134 @@ I did the Helsinki Midnight Run for the 2nd time. This year the weather was even
 ![In the mountains](my-2025-year-in-review-71.jpg)
 ![Grilled lunch in the Rila mountains](my-2025-year-in-review-72.jpg)
 ![Anton and dad with the bear statue in the mountains](my-2025-year-in-review-73.jpg)
-![Anton and dad riding the mini roller coaster](my-2025-year-in-review-74.jpg)
 
-TODO: continue labelling
 
-![a](my-2025-year-in-review-75.jpg)
-![a](my-2025-year-in-review-76.jpg)
-![a](my-2025-year-in-review-77.jpg)
-![a](my-2025-year-in-review-78.jpg)
-![a](my-2025-year-in-review-79.jpg)
-![a](my-2025-year-in-review-80.jpg)
-![a](my-2025-year-in-review-81.jpg)
-![a](my-2025-year-in-review-82.jpg)
-![a](my-2025-year-in-review-83.jpg)
-![a](my-2025-year-in-review-84.jpg)
-![a](my-2025-year-in-review-85.jpg)
-![a](my-2025-year-in-review-86.jpg)
-![a](my-2025-year-in-review-87.jpg)
-![a](my-2025-year-in-review-88.jpg)
-![a](my-2025-year-in-review-89.jpg)
-![a](my-2025-year-in-review-90.jpg)
-![a](my-2025-year-in-review-91.jpg)
-![a](my-2025-year-in-review-92.jpg)
-![a](my-2025-year-in-review-93.jpg)
-![a](my-2025-year-in-review-94.jpg)
-![a](my-2025-year-in-review-95.jpg)
-![a](my-2025-year-in-review-96.jpg)
-![a](my-2025-year-in-review-97.jpg)
-![a](my-2025-year-in-review-98.jpg)
-![a](my-2025-year-in-review-99.jpg)
-![a](my-2025-year-in-review-100.jpg)
-![a](my-2025-year-in-review-101.jpg)
-![a](my-2025-year-in-review-102.jpg)
-![a](my-2025-year-in-review-103.jpg)
-![a](my-2025-year-in-review-104.jpg)
-![a](my-2025-year-in-review-105.jpg)
-![a](my-2025-year-in-review-106.jpg)
-![a](my-2025-year-in-review-107.jpg)
-![a](my-2025-year-in-review-108.jpg)
-![a](my-2025-year-in-review-109.jpg)
-![a](my-2025-year-in-review-110.jpg)
-![a](my-2025-year-in-review-111.jpg)
-![a](my-2025-year-in-review-112.jpg)
-![a](my-2025-year-in-review-113.jpg)
-![a](my-2025-year-in-review-114.jpg)
-![a](my-2025-year-in-review-115.jpg)
-![a](my-2025-year-in-review-116.jpg)
-![a](my-2025-year-in-review-117.jpg)
-![a](my-2025-year-in-review-118.jpg)
-![a](my-2025-year-in-review-119.jpg)
-![a](my-2025-year-in-review-120.jpg)
-![a](my-2025-year-in-review-121.jpg)
-![a](my-2025-year-in-review-122.jpg)
-![a](my-2025-year-in-review-123.jpg)
-![a](my-2025-year-in-review-124.jpg)
-![a](my-2025-year-in-review-125.jpg)
-![a](my-2025-year-in-review-126.jpg)
-![a](my-2025-year-in-review-127.jpg)
-![a](my-2025-year-in-review-128.jpg)
+TODO: screenshot of the steps from YIR extra
+
+![ducks in the water](my-2025-year-in-review-75.jpg)
+![velingrad sign](my-2025-year-in-review-76.jpg)
+![hotel elbrus](my-2025-year-in-review-77.jpg)
+![yori phone holder](my-2025-year-in-review-79.jpg)
+![Anton chilling on sunchair](my-2025-year-in-review-80.jpg)
+![Anton and Dami](my-2025-year-in-review-81.jpg)
+![Dinosaur](my-2025-year-in-review-82.jpg)
+![Flintstones car](my-2025-year-in-review-83.jpg)
+![Kapitan Petko Voivoda statue](my-2025-year-in-review-86.jpg)
+![BG money 1](my-2025-year-in-review-87.jpg)
+![Capybara Spa](my-2025-year-in-review-89.jpg)
+![Blue creature stone](my-2025-year-in-review-90.jpg)
+![Anton and Dad in Sozopol](my-2025-year-in-review-91.jpg)
+![tripe soup](my-2025-year-in-review-93.jpg)
+![fresh juice](my-2025-year-in-review-94.jpg)
+![rapana whelk](my-2025-year-in-review-95.jpg)
+![Anton chilling on beach towel](my-2025-year-in-review-96.jpg)
+![Clear blue skies over the sea](my-2025-year-in-review-97.jpg)
+![Walnut hugs Fig](my-2025-year-in-review-99.jpg)
+![River Martiza](my-2025-year-in-review-100.jpg)
+![Anton sitting in Central Park Plovdiv](my-2025-year-in-review-101.jpg)
+![Anton taking a selfie](my-2025-year-in-review-102.jpg)
+![Amphitheatre of Plovdiv](my-2025-year-in-review-103.jpg)
+![Plovdiv's city banner](my-2025-year-in-review-104.jpg)
+![Alfie](my-2025-year-in-review-105.jpg)
+![Family1](my-2025-year-in-review-106.jpg)
+![Kiten sea](my-2025-year-in-review-108.jpg)
+![Anton at the Kiten beach](my-2025-year-in-review-109.jpg)
+![Our cheeky hotel room](my-2025-year-in-review-110.jpg)
+![Fun mirrors](my-2025-year-in-review-111.jpg)
+![Moon](my-2025-year-in-review-112.jpg)
+![](my-2025-year-in-review-113.jpg)
+![Eating lunch](my-2025-year-in-review-115.jpg)
+![The dad kat](my-2025-year-in-review-116.jpg)
+![The mom kat](my-2025-year-in-review-117.jpg)
+![Eating breakfast princesses](my-2025-year-in-review-118.jpg)
+![Breakfast together](my-2025-year-in-review-119.jpg)
+![Sun going down over the sea](my-2025-year-in-review-121.jpg)
+![Coffee on the balcony in Plovdiv](my-2025-year-in-review-123.jpg)
+![Last ice cream in Central Park Plovdiv](my-2025-year-in-review-124.jpg)
+![Flying home to Finland](my-2025-year-in-review-125.jpg)
+![We are back home!](my-2025-year-in-review-126.jpg)
+![In the elevator](my-2025-year-in-review-127.jpg)
 
 </div>
 
 TODO: screenshots and videos from the folder
+TODO: BONUS: make an image map of the Bulgarian trip
 
 The month in Bulgaria was trully magical. On one hand, that's been our longest trip together to date, on the other hand it felt perfect, didn't feel too long at all. In fact, I'll go on to say that because of the length, it felt a bit less like a holiday trip and more of a **coming to the other home trip**. Which is really kind of the case.
 
-
-
 We were able to see family - my sister was back in Bulgaria now with her husband (they used to live in Cyprus). We also visited my grandma, Anton's grand grandma. It was so nice to see her again <3.
 
+**Velingrad**
 
-We were able to spend time with friends and their kid, whom Anton knows from the year before and they got to play together, while we stayed 3 days at this SPA resort in the Bulgarian mountains in Velingrad. Nice food, plenty of pool time, walking in the mountain town, riding the waterwheels, awesome views of the mountains. We did a mini trip to the close by mountain of Rila too and rode some interesting "mini roller coaster" thingies, had great grilled food.
+We were able to spend time with friends and their kid, whom Anton knows from the year before and they got to play together, while we stayed 3 days at this SPA resort in the Bulgarian mountains in Velingrad.
 
-TODO: continue writing
+![a](my-2025-year-in-review-78.jpg)
+
+Nice food, plenty of pool time, walking in the mountain town, riding the waterwheels, awesome views of the mountains. We did a mini trip to the close by mountain of Rila too and rode some interesting "mini roller coaster" thingies, had great grilled food.
+
+![Anton and dad riding the mini roller coaster](my-2025-year-in-review-74.jpg)
+
+While still in the Rila mountains we visited the bear sanctuary where rescued bears live in a natural environment.
+
+TODO: pic of the real bear (YIR extra)
+
+It's hard to describe why the "slowness" of the trip was so special, but because we didn't have anything pre-booked and we had enough time, it was chill in its own way. By the time we were wrapping up the mountain part of the trip, we started looking into where to go to on the sea side for our first of two sea side trips.
+
+**Sozopol**
+
+We went to Sozopol almost straight from Velingrad. Basically only spent 1 night in Plovdiv in between. It was soooo nice to dip in the sea and swim! Always the best way too cool off in the summer heat.
+
+![Building sand castles](my-2025-year-in-review-85.jpg)
+
+Sozopol was very relaxing. We went to the beach twice per day, ate nice food in the local restaurants which were 10 minute walk away from where were staying. At the same time, our little hotel was nice and quiet and SUPER close to the beach. Basically, we went down 2 sets of stairs and were at the beach.
+
+![Sozopol sunset](my-2025-year-in-review-92.jpg)
+
+We found our favorite ice cream place and became regulars there too :). We also went to the Burgas Zoo on one of the days and saw the capybaras! Something we were super excited about! 
+
+![Capybara 1](my-2025-year-in-review-88.jpg)
+
+We were aloud in and to interact with them, to feed them cabbage and carefully pet them. Very interesting creatues and it's been our inside joke for a very long time, so really cool to see capybaras in real life!
+
+And after a lot of swimming and diving with our swimming goggles, hunting for shells, jumping in the waves and playing in the sand, soon the first sea adventure was nearly done and it was time to go back to Plovdiv for a while.
+
+**Plovdiv**
+
+I've always loved this image:
+
+![Plovdiv hills from afar](my-2025-year-in-review-98.jpg)
+
+What it is, is the view of the Plovdiv hills from afar. Usually, in nice clear weather, you can see them from as far as 17km away from the city. But this always makes me feel like I'm **coming home**. I've said it many times before and I'll always say it but while I may not necessarily always miss Bulgaria, **I always miss Plovdiv. It's absolutely one of the most special cities in the world to me.** I should add that we've been moving around with Anton with busses between our trips mostly and it's such a vibe! Very cozy, a bit of nice snacks, chilling in the seats and soon we've reached our destination.
+
+As always, there's a lot to explore in Plovdiv. We were mostly doing about 15-20k steps per day on average. Visiting family, friends and all the cool spots.
+
+- TODO: 20k steps pic
+TODO: finding tigger and piglet
+TODO: a bit more about Plovdiv
+
+**Kiten**
+
+Kiten is a cute little town. To be completely honest I'm not sure if I had ever been here before. And if I have, maybe once at most.  It's even more south than Sozopol along the Black Sea coast.
+
+![Kiten sign](my-2025-year-in-review-107.jpg)
+
+Of course the main activity was being happily at the beach again! Sun and warm water, does it get any better than that? And playing around in the sand. Just genuinely relaxing. Kiten had two beaches and we visited both of them. But we did go more often to the south beach.
+
+![Building in the sea sand](my-2025-year-in-review-120.jpg)
+
+Obviously we hunted a bunch of seashells again...
+
+![Anton playing with seashells](my-2025-year-in-review-114.jpg)
+
+... but the real highlight were the 2 kittens we found. They seem to be siblings and they were so cute and super playful. We actually spent literally hours playing with them over 2-3 different evenings. They really liked to chase a stick Anton and I would drag along the ground. It was absolutely wholesome!
+
+![Playing with the 2 little kittens](my-2025-year-in-review-122.jpg)
+
+Finding adorable kittens in Kiten, how about that 😅.
+
+And soon it was time to go back to Plovdiv, Sofia and then back to Helsinki. Where our plants had survived with the water drippers we had setup and our pepper was now red and not green anymore!
+
+![The plants survived our abscense](my-2025-year-in-review-128.jpg)
 
 <div class="post-social-icon">
   <img src="/instagram.svg" alt="Instagram" /> Instagram stories from the trip (Plovdiv, Sunny Beach, Sofia):
@@ -293,6 +370,11 @@ TODO: continue writing
 </div>
 
 #### <span id="love-friendships-community" class="offset-top-nav"> ❤️ Love, friendships, community</span>
+
+I think I found her...
+
+![Walnut hugs Fig](my-2025-year-in-review-99.jpg)
+_Walnut hugs Fig 💖_
 
 - TODO:
 
@@ -310,7 +392,7 @@ TODO: These could get combined, or separated into their own categories:
 - Georgi's stories (and also social media, posting stuff vs not, to be out there but also that you have to log in every day, social media in general, being presetn etc. )
 - God. (comeback)
 - The Bulgarian roots (comeback)
-- Work stuff and career?
+- Work stuff and career? and AI and the spark to develop again
 - Sobreity continues?
 
 - Family
