@@ -33,7 +33,54 @@ Here's a picture gallery to kick this off and set the mood:
 
 <div class="image-grid">
 
-![a](my-2025-year-in-review-84.jpg)
+![new beginnings](my-2025-year-in-review-140.jpg)
+![hi dad on car](my-2025-year-in-review-141.jpg)
+![i love you on car](my-2025-year-in-review-142.jpg)
+![drone review once again](my-2025-year-in-review-143.jpg)
+![roasted aubergine and peppers](my-2025-year-in-review-144.jpg)
+![Bulgarian kiopoolu](my-2025-year-in-review-145.jpg)
+![Antibiotics](my-2025-year-in-review-146.jpg)
+![Our pepper plant has a baby](my-2025-year-in-review-147.jpg)
+![sunset at home 1](my-2025-year-in-review-148.jpg)
+![Anton's 9th birthday card](my-2025-year-in-review-149.jpg)
+![Early morning start of bday!](my-2025-year-in-review-150.jpg)
+![salmon, avocado, garlic, spinach randomness](my-2025-year-in-review-151.jpg)
+![Bulgarian easter eggs colored](my-2025-year-in-review-153.jpg)
+![sunset at home 2](my-2025-year-in-review-155.jpg)
+![quesadillas](my-2025-year-in-review-156.jpg)
+![Rainbow](my-2025-year-in-review-187.jpg)
+![2nd pepper on the plant](my-2025-year-in-review-157.jpg)
+![nice dinner in a serbian restaurant](my-2025-year-in-review-158.jpg)
+![salmon, broccoli and sweat potato](my-2025-year-in-review-186.jpg)
+![done murph!](my-2025-year-in-review-159.jpg)
+![first body weight snatch](my-2025-year-in-review-160.jpg)
+![bulgarian salad and some omelette with spinach](my-2025-year-in-review-161.jpg)
+![pretty pink tree](my-2025-year-in-review-162.jpg)
+![banitza 1](my-2025-year-in-review-163.jpg)
+![homemade pizza](my-2025-year-in-review-164.jpg)
+![roses](my-2025-year-in-review-165.jpg)
+![travelleing to Bulgaria](my-2025-year-in-review-166.jpg)
+![homemade princesses in Bulgaria](my-2025-year-in-review-167.jpg)
+![plovdiv hot meme](my-2025-year-in-review-168.jpg)
+![beautiful sunset at home in Finland](my-2025-year-in-review-169.jpg)
+![new plant at home](my-2025-year-in-review-170.jpg)
+![workout done](my-2025-year-in-review-171.jpg)
+![the work plant - Queen Sparkles](my-2025-year-in-review-172.jpg)
+![watermelon](my-2025-year-in-review-173.jpg)
+![chicken with rice](my-2025-year-in-review-174.jpg)
+![Bulgarian money 2](my-2025-year-in-review-188.jpg)
+![Anton and dad at the basketball court](my-2025-year-in-review-175.jpg)
+![mousakka](my-2025-year-in-review-176.jpg)
+![sweet potato plant](my-2025-year-in-review-177.jpg)
+![banitza 2](my-2025-year-in-review-178.jpg)
+![training](my-2025-year-in-review-179.jpg)
+![autumn walk](my-2025-year-in-review-180.jpg)
+![old stories](my-2025-year-in-review-181.jpg)
+![legacy badges](my-2025-year-in-review-182.jpg)
+![Calling parents more often](my-2025-year-in-review-134.jpg)
+![Anton's gift to me for my birthday](my-2025-year-in-review-183.jpg)
+![Earth and Jupiter in Anton's room](my-2025-year-in-review-184.jpg)
+![Xmas lights and more at home](my-2025-year-in-review-185.jpg)
 
 </div>
 
@@ -141,19 +188,18 @@ He's really comfortably now editing videos in CapCut, as he has been for a while
 
 Another mini story is about his birthday gift to me.
 
-TODO: pic of birthday hat on floor from YIR extras
+![birthday hat on floor](my-2025-year-in-review-133.jpg)
 
 He had put these elaborate set of clues I had to follow around the whole house, like 6-7 of them. And the crazy part is he had been home after school perhaps not more than 30-40 mins before me :D What a kid!
 
-- TODO:
-- 1 final read pass and check thru yearly pics for any missing pics to add
-- extract vid from YIR 2025 extra with BG app
+TODO: extract vid from YIR 2025 extra with BG app
 
 #### <span id="crossfit" class="offset-top-nav">🏋️‍♂️ CrossFit journey</span>
 
 Let's see, before I even check my notes, from the top of my head, what's been the biggest news in my CrossFit journey this year? The first thing that comes to mind is the **first body weight snatch** I did in February <3. This is absolutely huge for me and been one of my biggest goals for the past 2 years. I was beyond stoked to do that 78kg snatch (BW: 76kg at the time). And then an 80kg power snatch 2 months later in April. So, so happy about this!
 I did do the CrossFit Open and I think I was semi-pleased with my results, however, it's worth noting I had a strep throat and was on antibiotics for a week, which affected my performance for sure, but I'm still happy I was feeling well enough to show up and do it, and of course, Anton was my number one supporter <3.
 
+TODO: bodyweight snatch
 
 <div class="image-grid">
 
@@ -199,6 +245,17 @@ TODO: comments on CrossFit Open
 TODO: "platoing", "journey > destination"
 TODO: "the first boredom and back into it"
 
+<div class="post-social-icon">
+  <img src="/tiktok.svg" alt="TikTok" /> TikTok videos:
+</div>
+
+<div class="image-grid tiktok-videos">
+
+[![rmu and hsw](my-2025-year-in-review-131.jpg)](https://www.tiktok.com/@jumpalottahigh/video/7585219207554419990)
+[![plovdiv workout](my-2025-year-in-review-130.jpg)](https://www.tiktok.com/@jumpalottahigh/video/7517732143095876887)
+
+</div>
+
 #### Helsinki Midnight Run
 
 I did the Helsinki Midnight Run for the 2nd time. This year the weather was even better than last year. No pouring rain, still no wind, pretty nice. The major challenge came from the fact that I didn't prepare for that run AT ALL. At least in 2024 I had done a few 7-8k runs 1 10k run. This time - nada. I suppose I thought I'd roll up and just wing it. The worst part, was that while I left ahead of time from home, in order to be there on time, and I was - more than 50 minutes before the start, I wasted 25 minutes driving in circles trying to park. That was terrible. On top of that, after I finally parked I had to queue for the bathrooms for another nearly 20 minutes which basically left me 3 minutes before the start of the run to "warm up" 😅. Despite all of that, the run went somewhat well, I finished in 56:56, which is a bit slower than the 54:08 from the previous year. To be honest, I'm happy with that score, given things were the way they were. I can definitely do better with some training. In fact, the goal was sub 50, but given the situation, yet again, I'm happy with the result. I had to stop and walk a bit this time betweek 8k and 10k, because of my knee starting to hurt and wanting to prevent potential injury.
@@ -229,10 +286,7 @@ I did the Helsinki Midnight Run for the 2nd time. This year the weather was even
 ![In the mountains](my-2025-year-in-review-71.jpg)
 ![Grilled lunch in the Rila mountains](my-2025-year-in-review-72.jpg)
 ![Anton and dad with the bear statue in the mountains](my-2025-year-in-review-73.jpg)
-
-
-TODO: screenshot of the steps from YIR extra
-
+![doing 18k steps per day](my-2025-year-in-review-132.jpg)
 ![ducks in the water](my-2025-year-in-review-75.jpg)
 ![velingrad sign](my-2025-year-in-review-76.jpg)
 ![hotel elbrus](my-2025-year-in-review-77.jpg)
@@ -298,7 +352,7 @@ Nice food, plenty of pool time, walking in the mountain town, riding the waterwh
 
 While still in the Rila mountains we visited the bear sanctuary where rescued bears live in a natural environment.
 
-TODO: pic of the real bear (YIR extra)
+![Bear in the bear sanctuary](my-2025-year-in-review-135.jpg)
 
 It's hard to describe why the "slowness" of the trip was so special, but because we didn't have anything pre-booked and we had enough time, it was chill in its own way. By the time we were wrapping up the mountain part of the trip, we started looking into where to go to on the sea side for our first of two sea side trips.
 
@@ -330,7 +384,6 @@ What it is, is the view of the Plovdiv hills from afar. Usually, in nice clear w
 
 As always, there's a lot to explore in Plovdiv. We were mostly doing about 15-20k steps per day on average. Visiting family, friends and all the cool spots.
 
-- TODO: 20k steps pic
 TODO: finding tigger and piglet
 TODO: a bit more about Plovdiv
 
@@ -383,6 +436,7 @@ Distilling the thousands of thoughts in my mind to a few simple and short senten
 _(and while I always try to document event here as they are, this topic is very dear to my heart and I'm saving a lot of special moments and details just to myself)_
 
 I'll just say that I'm happy I met you, grateful we shared time together in the way that we did, and whatever the outcome, I'd not have it any other way.
+It's been so nicely challenging to actually use my brain and think in all of our discussions, which have been so interesting, while getting to know each other. 
 
 TODO: on becoming cynical, on healing, on allowing self to be vulnerable again, take chance, risk being hurt...
 
@@ -398,12 +452,18 @@ TODO: many others too
 
 **Family**
 
-TODO: maybe 1 pic if any, if not leave it
+We all forget to call our parents more often, I'm sure. Well, hopefully we can do ever so slightly better and try harder to do it more often. As visiting is not always an option in my case, and at least not frequent visits, video calls serve a purpose. But this is more about the quality of it, rather than the quantity. Think about that and call your parents today and tell them that you love them, it's worth it!
 
-We all forget to call our parents more often, I'm sure. Well, hopefully we can do ever so slightly better and try harder to do it more often. As visiting is not always an option in my case, and at least not frequent visits, video calls serve a purpose. But this is more about the quality of it, rather than the quantity. Think about that and call your parents today and tell them that you love them, it's worth it! Family is always complicated I feel, but it's good to try and appreciate each other as much as possible. It was nice to see my sister and her husband back in Bulgaria this summer, after quite a few years in Cyprus. And my parents going back to Bulgaria too.
+<div class="image-grid">
+
+![Calling parents more often](my-2025-year-in-review-134.jpg)
+
+</div>
+
+Family is always complicated I feel, but it's good to try and appreciate each other as much as possible. It was nice to see my sister and her husband back in Bulgaria this summer, after quite a few years in Cyprus. And my parents going back to Bulgaria too.
 
 
-TODO:
+TODO: write more
 
 **Return to (the Bulgarian) roots**
 
@@ -418,7 +478,7 @@ TODO:
 
 **I love them both**
 
-I do. I decided to stop being thorn by "having to choose" in my mind. "I'll just love them both". Who said I have to choose favorites? I don't wanna. I'm talking about Bulgaria and Finland. I love them both. There's no denying it that both are home to me. For better or worse. And yes I know, I joke around with Finnish weather (actually I don't it's really shit, but you only realise it if you've ever had actual good weather 😅), but I love Finland in her own way. It's the home of my son and his birthplace. Therefore it's my home.
+I do. I decided to stop being thorn by "having to choose" in my mind. "I'll just love them both". Who said I have to choose favorites? I don't wanna. I'm talking about Bulgaria and Finland. I love them both. There's no denying it that both are home to me. For better or worse. And yes I know, I joke around with Finnish weather (actually I don't - it's really shit, but you only realise it if you've ever had actual good weather 😅), but I love Finland in her own way. It's the home of my son and his birthplace. Therefore it's my home.
 
 
 - both BG and FI
@@ -430,22 +490,24 @@ TODO:
 
 TODO:
 
+**Software development and AI**
+
+It's been a bit of time since I last developed side projects this passionately. A huge reason why is Google's Antigravity. Finally an IDE that trully uses AI as a tool to enhance the developer's experience. We're at an interesting time in history. AI for building projects currently reminds me of calculators in school. You don't wanna use it in 1st-4th grade, but once you've brushed up on the basics and can handle the math yourself, it's great to use the calculator to do the number crunching and **focus on what really matters - figuring out the solution to the problem**. Antigravity handles AI as a tool so well. Gone are the times of randomly pasting stuff into ChatGPT back and forth. Antigravity has AI agents you can use to actually go and do the work, literally running your project locally, having their own browser to click around, develop and test solutions. The artifacts that Gemini inside of Antigravity creates are super useful. Both the implementation plan, the walkthrough, with screenshots and videos of the implementation. It's been trully very interesting. So I just accomplish features and work and develop the project further, without having to bog myself down with the details of the implementation. At the same time, I can review the implementation's code, adjust it and of course if I want to - still make manual code changes. I'm curious what happens next, but in this AI world where every company has been trying to utilize AI as much as possible and a lot of it has just seemed like wishful thinking and unnecessary hype, now this, this is something. Antigravity is a game changer and an amazing tool! Let's see what happens next, but it's definitely interesting times ahead.
 
 
-TODO: These could get combined, or separated into their own categories:
+**Making content**
 
-- Movie review section?
+TODO:
+
+**Movie review section**
+
+TODO:
 
 
-- Going back to my Bulgarian roots; My Bulgarian connection
-- Journey > Destination
+
+
 - Georgi's stories (and also social media, posting stuff vs not, to be out there but also that you have to log in every day, social media in general, being presetn etc. )
 - God. (comeback)
-- The Bulgarian roots (comeback)
-- Work stuff and career? and AI and the spark to develop again
-- Sobreity continues?
-
-- Family
 
 
 ### <span id="goals" class="offset-top-nav">2️⃣0️⃣2️⃣6️⃣</span>
@@ -462,6 +524,23 @@ TODO: These could get combined, or separated into their own categories:
 - 🏋️‍♂️ Training vacation
 - 🏀 CrossFit, basketball, table tennis with Anton
 - 😄 Smile and have fun
--
+- TODO: make content
+0
+
+TODO: write Outro
+- Journey > Destination
+
+TODO:
+- create links to all sub sections of other from the table of contents
+- 1 final read pass and check thru yearly pics for any missing pics to add
+- final proofreading
+- final spell check
+
+TODO: Skip topics?:
+- work
+- stress at work
+- Sobreity continues?
+- a small section in Bulgarian?
+
 
 [0]: Linkslist
