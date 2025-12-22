@@ -22,7 +22,7 @@ ogImage: './my-2025-year-in-review-1.jpg'
 - [🏋️‍♂️ CrossFit journey](#crossfit)
 - [🇧🇬 One month in Bulgaria](#bg)
 - [❤️ Love, friendships, community](#love-friendships-community)
-- [❓ Random topics](#random-topics)
+- [❓ Other topics](#other-topics)
 - [⬜ Goals for 2026](#goals)
 
 ### <span id="overview" class="offset-top-nav">Journey > Destination (Community, friends, family. Love)</span>
@@ -376,17 +376,67 @@ I think I found her...
 ![Walnut hugs Fig](my-2025-year-in-review-99.jpg)
 _Walnut hugs Fig 💖_
 
-- TODO:
+The last part of this year has been a very different experience. I don't know what happened. There's been a special someone I've spent very naturally and gradually and progressively more and more hours with. In the setting where time stops. Yeah... I've already written about this in journals at length. I've analyzed and reasoned with it. The pros and cons, the great parts and the objections. But in the end, when you draw the line and "tally the numbers", none of it matters. It still came down to two  things - why time stops when I'm with you and why do I get lost in your eyes when I look at you?
 
-#### <span id="random-topics" class="offset-top-nav">❓ Random topics</span>
+Distilling the thousands of thoughts in my mind to a few simple and short sentences for the sake of this post is very difficult. And the situation is a bit complicated too. But really, very simply put, at the end of the day, none of it matters. You either listen to your heart or you don't. It will either workout or it won't. Whatever the case, I have no regrets. I have given in to it and made my choice already. Because at the end of the day, when I'm there with her and I just AM it's simple. Beautiful, relaxing, blissful, easy, comfortable, enjoyable, pleasant, simple, honest, real, unfiltered, connected, charged. What happens next, time will tell...
+
+_(and while I always try to document event here as they are, this topic is very dear to my heart and I'm saving a lot of special moments and details just to myself)_
+
+I'll just say that I'm happy I met you, grateful we shared time together in the way that we did, and whatever the outcome, I'd not have it any other way.
+
+TODO: on becoming cynical, on healing, on allowing self to be vulnerable again, take chance, risk being hurt...
+
+**Friendships**
+
+I've made a new friend this year, someone who I really value and who I've spent a bunch of time together with this year. Someone I've learnt a lot from and I hope I have enriched her life too. "My Bulgarian connection" 😀. Apart from all other things, thanks to her, I've been talking a lot more in Bulgarian this year, which was very nice in its own way and also connects to my "return to roots" sub theme of this year.
+
+TODO: many others too
+
+#### <span id="other-topics" class="offset-top-nav">❓ Other topics</span>
+
+
+
+**Family**
+
+TODO: maybe 1 pic if any, if not leave it
+
+We all forget to call our parents more often, I'm sure. Well, hopefully we can do ever so slightly better and try harder to do it more often. As visiting is not always an option in my case, and at least not frequent visits, video calls serve a purpose. But this is more about the quality of it, rather than the quantity. Think about that and call your parents today and tell them that you love them, it's worth it! Family is always complicated I feel, but it's good to try and appreciate each other as much as possible. It was nice to see my sister and her husband back in Bulgaria this summer, after quite a few years in Cyprus. And my parents going back to Bulgaria too.
+
+
+TODO:
+
+**Return to (the Bulgarian) roots**
+
+TODO: 1 pic in the middle of this text
+
+I'm not even sure how to word this, but a number of different events and experiences have fallen under this umbrella this year. My Bulgarian connection, the Bulgarian trip, Anton's curiousity towards Bulgarian language and history, just a couple of specific examples. My dad has always done a great job of telling me Bulgarian history while I was growing up. All sorts of stories from all sorts of ages. From 681 to the 1990s. And I've always found it fascinating. In fact, there was a half a year period in 12th grade when I was so interested in Bulgarian history and I was studying that as my way of applying to law school in Bulgaria. In the end I did swap that in favor of pursuing Bulgarian and English language tests as the means of university admission. But, I've been playing my role now. I've been telling stories to Anton, as good as I can. And there's a lot of this "return to the roots" thing that has been happening subconsciously.
+
+For year I thought I'd never want to go back to live in Bulgaria. The reasons are many, worthy of a small post just into this topic. But the gist of it is that last year at the end of our trip with Anton to Bulgaria, the days before we came back to Finland, while in Sofia, I "FELT" a lot of change. I "FELT" my homeland again. It's a nice place. It always has been. It's always just been the nasty corrupted politicians that drive people away. The nature - magical. The ground beneath your feet - ancient and meaningful. Which unironically, super nicely segways to...
+
+TODO:
+
+
+**I love them both**
+
+I do. I decided to stop being thorn by "having to choose" in my mind. "I'll just love them both". Who said I have to choose favorites? I don't wanna. I'm talking about Bulgaria and Finland. I love them both. There's no denying it that both are home to me. For better or worse. And yes I know, I joke around with Finnish weather (actually I don't it's really shit, but you only realise it if you've ever had actual good weather 😅), but I love Finland in her own way. It's the home of my son and his birthplace. Therefore it's my home.
+
+
+- both BG and FI
+- Iines' comments on contradictions which makes me thing of balance and not needing to choose
+
+TODO:
+
+**Don't worry about it**
+
+TODO:
+
+
 
 TODO: These could get combined, or separated into their own categories:
 
 - Movie review section?
 
 
-- "Don't worry about it"
-- "I love them both"
 - Going back to my Bulgarian roots; My Bulgarian connection
 - Journey > Destination
 - Georgi's stories (and also social media, posting stuff vs not, to be out there but also that you have to log in every day, social media in general, being presetn etc. )
