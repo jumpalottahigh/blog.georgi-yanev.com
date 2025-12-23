@@ -196,11 +196,6 @@ TODO: extract vid from YIR 2025 extra with BG app
 
 #### <span id="crossfit" class="offset-top-nav">🏋️‍♂️ CrossFit journey</span>
 
-Let's see, before I even check my notes, from the top of my head, what's been the biggest news in my CrossFit journey this year? The first thing that comes to mind is the **first body weight snatch** I did in February <3. This is absolutely huge for me and been one of my biggest goals for the past 2 years. I was beyond stoked to do that 78kg snatch (BW: 76kg at the time). And then an 80kg power snatch 2 months later in April. So, so happy about this!
-I did do the CrossFit Open and I think I was semi-pleased with my results, however, it's worth noting I had a strep throat and was on antibiotics for a week, which affected my performance for sure, but I'm still happy I was feeling well enough to show up and do it, and of course, Anton was my number one supporter <3.
-
-TODO: bodyweight snatch
-
 <div class="image-grid">
 
 ![Georgi snatching 75kg](my-2025-year-in-review-1.jpg)
@@ -212,38 +207,51 @@ TODO: bodyweight snatch
 ![Murph done!](my-2025-year-in-review-5.jpg)
 ![Murph done score on the floor](my-2025-year-in-review-6.jpg)
 ![Karlos Nasar weightlifting straps](my-2025-year-in-review-12.jpg)
-![Goodbye old faithful grips](my-2025-year-in-review-7.jpg)
-![Welcome Frog grips](my-2025-year-in-review-9.jpg)
 ![High 5 son at the gym](my-2025-year-in-review-8.jpg)
 
 </div>
 
+Let's see, before I even check my notes, from the top of my head, what's been the biggest news in my CrossFit journey this year? The first thing that comes to mind is the **first body weight snatch** I did in February <3. This is absolutely huge for me and been one of my biggest goals for the past 2 years. I was beyond stoked to do that 78kg snatch (BW: 76kg at the time). And then an 80kg power snatch 2 months later in April. So, so happy about this!
+I did do the CrossFit Open and I think I was semi-pleased with my results, however, it's worth noting I had a strep throat and was on antibiotics for a week, which affected my performance for sure, but I'm still happy I was feeling well enough to show up and do it, and of course, Anton was my number one supporter <3.
+
+Honorable mention to my old grips <3
+
+![Goodbye old faithful grips](my-2025-year-in-review-7.jpg)
+
+I've had those for 1.5 years give or take and they have unlocked BMUs for me. I'll always be grateful for them. Easily my most favorite piece of equipment. And to think of it I got them from Australia from a random TikTok advert, but they were really good and worked like a charm. Completely eliminating the grip and regrip struggle and just letting me focus on the movement itself. But in the end the metal bracket snapped (while I was at the top part of a muscle up 😅) and it was all over. I've used the Velites quad pro all terrain whatever they are called grips, and they are good and super sturdy, but they don't have the cushion for the wrist part so you get a lot of wrist skin damage with those in longer sets and workouts. Finally, in August I found something similar to my previous grips - the Frog grips. Well endorsed by games atheletes, once again from Australia, so cost about 100 euroes to get them to Finland with shipping and customs fees. Pricey, but can you put a price on happiness. However! I'd normally recomment and endorse them as well, but in this case I will not! I don't think the quality is up to par. While the grips are sticky, comfy on the wrists, light and nice, I can't believe how much they have worn out in just the past 4 months, it's kind of crazy. In comparison my previous grips didn't get anywhere near such wear and tear in the first year lol. Judge for yourselves.
+
+Frog grips brand new out of the package:
+
+![Welcome Frog grips](my-2025-year-in-review-9.jpg)
+
+Frog grips after 4 months of use:
+
+![Frog grips after 4 months pic 2](my-2025-year-in-review-191.jpg)
+
+![Frog grips after 4 months pic 1](my-2025-year-in-review-190.jpg)
+
+A bit grim 😅. No bueno. I'll be looking for some new grips soon once again.
+
+I'm happy I did Murph again this year. 3min faster than last year and I tried to "carb load" before it, kind of worked out well.
+
+I would say there are a lot untested things this year all in all which is fine, perhaps some nice improvements are coming around the corner in 2026 😉. I'm very happy with my snatch 1RM of 80kg (in fact, just now in the end of the year, a few days before publishing this post I did 80kg squat snatch again and failed 85kg 3 times) which is awesome. But what I like even more about it is how frequently and a "good day" I can roll up and get the weight up to 70-75kg. I like that consistency. Basically close to BW snatch on most days, which is really nice (my current bodyweight at the end of December is 78kg).
+A similiar thing I enjoy when it comes to bar muscle ups. I can comfortably do 40-50-60 in a workout and I like that for volume. My current record for BMU volume is 70 in one workout in 14 rounds of modified "Mindy" (5 BMU, 5 push ups, 10 air squats) and did that in 20 something minutes, which was fine.
+
 Some stats as of December 2025:
 
-TODO: fix and update chart
+| Movement                | Score             | Movement      | Score             |
+| ----------------------- | ----------------- | ------------- | ----------------- |
+| Snatch                  | 80kg (+4kg 🆕)    | BMU unbroken  | 20 (unchanged)    |
+| BMU in a single workout | 70 (🆕)           | RMU           | 5 (unchanged)     |
+| Clean & Jerk            | 95kg (unchanged)  | Clean         | 108kg             |
+| Shoulder press          | 70kg (unchanged)  | Murph         | 46:40 (🆕 -3min)  |
+| Back squat              | 142kg (unchanged) | CrossFit Open | ~ 65th percentile |
+| Front squat             | 130kg (🆕 +5kg)   | Jackie        | 6:37 (unchanged)  |
+| Deadlift                | 155kg             | DT            | 11:53 @ 60kg      |
 
-| Movement       | Score          | Movement                | Score             |
-| -------------- | -------------- | ----------------------- | ----------------- |
-| Snatch         | 80kg (+4kg 🆕) | BMU unbroken            | 20 (unchanged)   |
-| BMU in a single workout | 70 (🆕) |  RMU                     | 5          (unchanged)    |
-| Clean & Jerk   | 95kg (unchanged)           |   Clean               |108kg|
-| Shoulder press          |   70kg (unchanged)        | Murph                   | 46:40 (🆕 -3min)             |
-| Back squat     | 142kg (unchanged)          | CrossFit Open           | ~ 65th percentile |
-| Front squat    | 130kg (🆕 +5kg)          | Jackie                  | 6:37 (unchanged)              |
-| Deadlift       | 155kg          | DT                      | 8:15 @ 50kg (TODO:)       |
+I think it starts to be obvious that of course, now that I'm wrapping up the 4th year of training, things are really starting to plato (_Journey > Destination_), which only makes sense, it was bound to happen eventually. That being said, we're far from being in the best possible shape, or the best results etc. It's just that the jumps in weights for example are starting to be a bit smaller and that's all good.
 
-I think it starts to be obvious that of course, now that I'm wrapping up the 4th year of training, things are really starting to plato, which only makes sense, it was bound to happen eventually. That being said, we're far from being the best possible shape, or the best results etc. It's just that the jumps in weights for example are starting to be a bit smaller.
-One interesting observation is that for example with snatches, which are still 1 of my most favorite movements and I try to train them as much as possible, I tend to be able to get frequently very close to my PR weight in regular training. For example up to 75kg power snatches, which is just within 5kg of my PR.
-
-
-TODO: add a couple of vids, either in page or TikTok?
-TODO: comments on old grips <3 with a pic
-
-TODO: comments on murph and picture
-TODO: comments on CrossFit Open
-
-TODO: "platoing", "journey > destination"
-TODO: "the first boredom and back into it"
+But really, in the end, do you know what really matters? **The awesome vibes at our North Engine CrossFit gym**. The people, the energy, the atmosphere, it's all a vibe. Everyone shows up for their own reasons, but everyone is there to have fun and get better at something, or even just keep moving. I'd like to be able to keep showing up and having fun and playing like a kid with some of the fun movements :D Progress is important, especially to my brain, but fun, smiles and happiness is even more important, and who says you can't have both?
 
 <div class="post-social-icon">
   <img src="/tiktok.svg" alt="TikTok" /> TikTok videos:
@@ -251,6 +259,7 @@ TODO: "the first boredom and back into it"
 
 <div class="image-grid tiktok-videos">
 
+[![power snatches and c&j](my-2025-year-in-review-192.jpg)](https://www.tiktok.com/@jumpalottahigh/video/7587111001863064854)
 [![rmu and hsw](my-2025-year-in-review-131.jpg)](https://www.tiktok.com/@jumpalottahigh/video/7585219207554419990)
 [![plovdiv workout](my-2025-year-in-review-130.jpg)](https://www.tiktok.com/@jumpalottahigh/video/7517732143095876887)
 
@@ -266,7 +275,6 @@ I did the Helsinki Midnight Run for the 2nd time. This year the weather was even
 ![Helsinki Midnight Run 2025 results](my-2025-year-in-review-21.png)
 
 </div>
-
 
 #### <span id="bg" class="offset-top-nav">🇧🇬 One month in Bulgaria</span>
 
@@ -366,7 +374,7 @@ Sozopol was very relaxing. We went to the beach twice per day, ate nice food in 
 
 ![Sozopol sunset](my-2025-year-in-review-92.jpg)
 
-We found our favorite ice cream place and became regulars there too :). We also went to the Burgas Zoo on one of the days and saw the capybaras! Something we were super excited about! 
+We found our favorite ice cream place and became regulars there too :). We also went to the Burgas Zoo on one of the days and saw the capybaras! Something we were super excited about!
 
 ![Capybara 1](my-2025-year-in-review-88.jpg)
 
@@ -389,7 +397,7 @@ TODO: a bit more about Plovdiv
 
 **Kiten**
 
-Kiten is a cute little town. To be completely honest I'm not sure if I had ever been here before. And if I have, maybe once at most.  It's even more south than Sozopol along the Black Sea coast.
+Kiten is a cute little town. To be completely honest I'm not sure if I had ever been here before. And if I have, maybe once at most. It's even more south than Sozopol along the Black Sea coast.
 
 ![Kiten sign](my-2025-year-in-review-107.jpg)
 
@@ -422,33 +430,35 @@ And soon it was time to go back to Plovdiv, Sofia and then back to Helsinki. Whe
 
 </div>
 
-#### <span id="love-friendships-community" class="offset-top-nav"> ❤️ Love, friendships, community</span>
+#### <span id="love-friendships-community" class="offset-top-nav"> ❤️ Love, friendships, family, community</span>
 
 I think I found her...
 
+<div class="image-grid">
+
 ![Walnut hugs Fig](my-2025-year-in-review-99.jpg)
+
+</div>
+
 _Walnut hugs Fig 💖_
 
-The last part of this year has been a very different experience. I don't know what happened. There's been a special someone I've spent very naturally and gradually and progressively more and more hours with. In the setting where time stops. Yeah... I've already written about this in journals at length. I've analyzed and reasoned with it. The pros and cons, the great parts and the objections. But in the end, when you draw the line and "tally the numbers", none of it matters. It still came down to two  things - why time stops when I'm with you and why do I get lost in your eyes when I look at you?
+The last part of this year has been a very different experience. I don't know what happened. There's been a special someone I've spent very naturally and gradually and progressively more and more hours with. In the setting where time stops. Yeah... I've already written about this in journals at length. I've analyzed and reasoned with it. The pros and cons, the great parts and the objections. But in the end, when you draw the line and "tally the numbers", none of it matters. It still comes down to two things - why time stops when I'm with her and why do I get lost in her eyes when I look at her?
 
-Distilling the thousands of thoughts in my mind to a few simple and short sentences for the sake of this post is very difficult. And the situation is a bit complicated too. But really, very simply put, at the end of the day, none of it matters. You either listen to your heart or you don't. It will either workout or it won't. Whatever the case, I have no regrets. I have given in to it and made my choice already. Because at the end of the day, when I'm there with her and I just AM it's simple. Beautiful, relaxing, blissful, easy, comfortable, enjoyable, pleasant, simple, honest, real, unfiltered, connected, charged. What happens next, time will tell...
+Distilling the thousands of thoughts in my mind to a few simple and short sentences for the sake of this post is very difficult. And the situation is a bit complicated too. But really, very simply put, at the end of the day, none of it matters. You either listen to your heart or you don't. It will either workout or it won't. Whatever the case, I have no regrets. I have given in to it and made my choice already. Because at the end of the day, when I'm there with her and I just AM, it's simple. Beautiful, relaxing, blissful, easy, comfortable, enjoyable, pleasant, simple, honest, real, unfiltered, connected, charged. What happens next, time will tell...
 
-_(and while I always try to document event here as they are, this topic is very dear to my heart and I'm saving a lot of special moments and details just to myself)_
+_(and while I always try to document events here as they are, this topic is very dear to my heart and I'm saving a lot of special moments and details just to myself)_
 
 I'll just say that I'm happy I met you, grateful we shared time together in the way that we did, and whatever the outcome, I'd not have it any other way.
-It's been so nicely challenging to actually use my brain and think in all of our discussions, which have been so interesting, while getting to know each other. 
+It's been so nicely challenging to actually use my brain and think in all of our discussions, which have been so interesting, while getting to know each other.
 
 TODO: on becoming cynical, on healing, on allowing self to be vulnerable again, take chance, risk being hurt...
+TODO: on generating and beaming love all around. "im ready to find her" in july, "importance of love" in august.
 
 **Friendships**
 
 I've made a new friend this year, someone who I really value and who I've spent a bunch of time together with this year. Someone I've learnt a lot from and I hope I have enriched her life too. "My Bulgarian connection" 😀. Apart from all other things, thanks to her, I've been talking a lot more in Bulgarian this year, which was very nice in its own way and also connects to my "return to roots" sub theme of this year.
 
 TODO: many others too
-
-#### <span id="other-topics" class="offset-top-nav">❓ Other topics</span>
-
-
 
 **Family**
 
@@ -462,8 +472,16 @@ We all forget to call our parents more often, I'm sure. Well, hopefully we can d
 
 Family is always complicated I feel, but it's good to try and appreciate each other as much as possible. It was nice to see my sister and her husband back in Bulgaria this summer, after quite a few years in Cyprus. And my parents going back to Bulgaria too.
 
-
 TODO: write more
+
+- my family with Anton <3
+
+**Community**
+TODO: importance of 3rd places
+
+- wow, gym, work, randoms, etc.
+
+#### <span id="other-topics" class="offset-top-nav">❓ Other topics</span>
 
 **Return to (the Bulgarian) roots**
 
@@ -475,40 +493,30 @@ For year I thought I'd never want to go back to live in Bulgaria. The reasons ar
 
 TODO:
 
-
 **I love them both**
 
 I do. I decided to stop being thorn by "having to choose" in my mind. "I'll just love them both". Who said I have to choose favorites? I don't wanna. I'm talking about Bulgaria and Finland. I love them both. There's no denying it that both are home to me. For better or worse. And yes I know, I joke around with Finnish weather (actually I don't - it's really shit, but you only realise it if you've ever had actual good weather 😅), but I love Finland in her own way. It's the home of my son and his birthplace. Therefore it's my home.
-
 
 - both BG and FI
 - Iines' comments on contradictions which makes me thing of balance and not needing to choose
 
 TODO:
 
-**Don't worry about it**
-
-TODO:
-
-**Software development and AI**
+**AI and the spark to engineer**
 
 It's been a bit of time since I last developed side projects this passionately. A huge reason why is Google's Antigravity. Finally an IDE that trully uses AI as a tool to enhance the developer's experience. We're at an interesting time in history. AI for building projects currently reminds me of calculators in school. You don't wanna use it in 1st-4th grade, but once you've brushed up on the basics and can handle the math yourself, it's great to use the calculator to do the number crunching and **focus on what really matters - figuring out the solution to the problem**. Antigravity handles AI as a tool so well. Gone are the times of randomly pasting stuff into ChatGPT back and forth. Antigravity has AI agents you can use to actually go and do the work, literally running your project locally, having their own browser to click around, develop and test solutions. The artifacts that Gemini inside of Antigravity creates are super useful. Both the implementation plan, the walkthrough, with screenshots and videos of the implementation. It's been trully very interesting. So I just accomplish features and work and develop the project further, without having to bog myself down with the details of the implementation. At the same time, I can review the implementation's code, adjust it and of course if I want to - still make manual code changes. I'm curious what happens next, but in this AI world where every company has been trying to utilize AI as much as possible and a lot of it has just seemed like wishful thinking and unnecessary hype, now this, this is something. Antigravity is a game changer and an amazing tool! Let's see what happens next, but it's definitely interesting times ahead.
 
+**Content, creativity and inspiration**
 
-**Making content**
+I've always liked making things. Mostly as a hobby, pretty pointless too, in fact, this here blog post is a good example of that. I just enjoy putting it together, organizing my thoughts and experiences into it, trying to paint a nice picture of what happened. I am also (not currently actively) working on a book - "Born in Space". I also write travel blogs that are completely private and unpublished. I have made hip hop songs 20 years ago :) I have written fan fiction. I made my own encyclopedia in a notebook when I was 9 :). So there's something there in it. For a few years now I've been contemplating on starting up a YouTube channel. I wanna make movies again. But this time different. My previous channel [FPVTips](https://www.youtube.com/@FPVTips) was a niche venture and focused of course on FPV racing and freestyle drones. This time around I wanna do something different, but more on this later, if it comes to pass, the idea is not completely settled in my head yet.
+
+- Georgi's stories
 
 TODO:
 
-**Movie review section**
-
-TODO:
-
-
-
-
+- creativity and inspiration
+- just doing
 - Georgi's stories (and also social media, posting stuff vs not, to be out there but also that you have to log in every day, social media in general, being presetn etc. )
-- God. (comeback)
-
 
 ### <span id="goals" class="offset-top-nav">2️⃣0️⃣2️⃣6️⃣</span>
 
@@ -525,22 +533,32 @@ TODO:
 - 🏀 CrossFit, basketball, table tennis with Anton
 - 😄 Smile and have fun
 - TODO: make content
-0
 
 TODO: write Outro
+
 - Journey > Destination
+- beliefs, God, Tangra,
 
 TODO:
+in Intro or Outro - on enjoying journeys(...), importance of love in human lives,
+
+TODO:
+
 - create links to all sub sections of other from the table of contents
 - 1 final read pass and check thru yearly pics for any missing pics to add
 - final proofreading
+- add images in places to pace out
+- add highlight text in places
 - final spell check
 
 TODO: Skip topics?:
+
 - work
 - stress at work
 - Sobreity continues?
 - a small section in Bulgarian?
+- "Don't worry about it"
 
+TODO: add 1-2 songs somehow somewhere in the blog?
 
 [0]: Linkslist
