@@ -25,7 +25,7 @@ ogImage: './my-2025-year-in-review-1.jpg'
 - [❓ Other topics](#other-topics)
 - [⬜ Goals for 2026](#goals)
 
-### <span id="overview" class="offset-top-nav">Journey > Destination (Community, friends, family. Love)</span>
+### <span id="overview" class="offset-top-nav">Journey > Destination. Social animal</span>
 
 It's been almost a bit scary writing in these yearly posts how much the current year has been better than the previous one for the past few years. And especially so when the previous year had been so, so good itself. So, I'm "happy" to say in its own weird way to report that won't be the case this year. Not because this year was not great. It was an absolutely amazing year, I'm very happy with it, there were quite a lot of great moments and a bunch of really cool experiences, progress in various ways... Yet this year brought also a lot of challenges, perhaps a bit more so than the past two. Some stress and other less positive vibes were a part of the picture too, perhaps a level slightly above average. Of course, all of this is through my very own, very personal, very subjective prism (attempting to be objective on the look out of the whole past year from the position of the last month of the year is a bit tricky 😅). Let's remember not to take all of this way too seriously; in the end it's all about having fun, having some thoughts laid out, some light and hopefully somewhat entertaining reflection. I should say, much like in all previous cases, I'm of course very grateful to be here, enjoying yet another lap around the sun, all the adventures had and thankful even for the tough times, cause we all know they trully mold us to be who we need to become.
 
@@ -84,11 +84,11 @@ Here's a picture gallery to kick this off and set the mood:
 
 </div>
 
-TODO: Pics gallery
+In the beginning of the year I had a mini "re-return" to the FPV drone content. I had a company reach out to me for a review on a product, which reminded me of the olden days I did this for what, 3 years, between 2017-2020. I agreed. This was gonna be the last "Hail Marry" and the last test if I were ever gonna go back to making FPV drone related content. I'm happy I did it. But yeah, it wasn't the same. I think at this point we leave FPVTips in the past and all the drone reviews. I'll always be grateful for those, I learnt a lot during that time, but it just doesn't work anymore. I wanna make content again, just not about FPV drones.
 
-TODO: video acll pic with my mom and dad from YIR extras
+There were new acquaintances through the year and some stuck around throughout and I'm happy about that. Being social on all accounts (because that's really me and who I am) has been a thing for a while. In Finland that's a bit trickier than most other places but not impossible. There are people who are such a joy to be around, banter with and just charge you with energy and I try to do the same.
 
-TODO: Word on covering the whoel year. Drone review.
+I had to take some antibiotics for strep throat for the first time in 10+ years, so that was something, but it was a very easy illness, nothing to complain tbh. Training had been good throughout, except the 2 week episode of back pain in October/November, that was not fun. It was self induced out of my own stupidity and moving too fast, something I'll keep working on. **Form > Weight any day of the week**. I've been teaching Anton more Bulgarian as he showed interest and he blew my mind how quickly he started reading with the Bulgarian alphabet. He's an amazing kid, he has surprised me in many ways this year, and it's crazy to see him growing up to be such a big boy nowadays. I've cooked a number of Bulgarian recipies this year and really mastered a few. Especially the Banitza and the Mousakka. And we had an AMAZING and pretty long stay in Bulgaria in the summer.
 
 These posts started close to 10 years ago now with these simple goal setting lists. I'm not sure this is entirely applicable nowadays. Especially with my mental shift of **"Journey > Destination"**. But, like, fr fr. Six. Seven. (let's mimic the slang of gen Alpha a bit :D). Seriously though, let's look at the list:
 
@@ -114,25 +114,25 @@ I didn't do much for my book this year; yet, I'll keep that item on the list for
 
 TODO: images from book AI generated
 
-I've not done Ironman training and I might do but it won't be for now a part of a list. If I decide to go for it, I will. I still like swimming, I'm still gonna work a bit on running, biking being the bigger bottleneck, but who knows, I might get into it. For now, it's not a big priority for me 😉 Same for the half marathon thing. It's really 100% a thing of "**why not be a person who's finished one, as opposed to a person who's not**". But sometimes, that's not enough of a reason to go for it. And again, who knows; stranger things have happened before, I might still go for it if the moment is right and I feel it. These posts and lists are not intended to completely plan out my life. In fact, I'd like to leave quite a lot of room for random stuff 😀.
+I've not done Ironman training this year and I might still do it someday, but it won't be for now a part of a list. If I decide to go for it, I will. I still like swimming, I'm still gonna work a bit on running, biking being the bigger bottleneck, but who knows, I might get into it. For now, it's not a big priority for me 😉 Same for the half marathon thing. It's really 100% a thing of "**why not be a person who's finished one, as opposed to a person who's not**". But sometimes, that's not enough of a reason to go for it. And again, who knows; stranger things have happened before, I might still go for it if the moment is right and I feel it. These posts and lists are not intended to completely plan out my life. **In fact, I'd like to leave quite a lot of room for random stuff 😀**.
 
-CrossFit Open and Murph both went well, but more on that in the CrossFit section below. I've still not participated in a CrossFit comp, but I think I really want to give it a crack. I'm sure I'll jump into something when the time is right and it feels good to do so.
+CrossFit Open and Murph both went well, but more on that in the CrossFit section below. I've still not participated in a CrossFit comp, but I think I really want to give it a crack. I'm sure I'll jump into something when the time is right and it feels good to do so... And now I'm signed up for a competition in February 2026! Let's see how that goes, exciting!
 
-The social aspects of life is something I'll always keep in mind. I've always enjoyed it in its many forms, I let myself forget about it for a while and put it on the back burner for a few years, something I regret. Never again. Community, friends, family. These social relationships are so much more important than many of us may even realise. It's been nice to catch up and spend time with old friends. It's been lovely to make a lot of new acquaintances and friends too. I don't say it lightly when I say that **I do appreciate everyone I connect with**. Trully. I think we'll expand on this topic in various subtopics below.
+The social aspects of life is something I'll always keep in mind. I've always enjoyed it in its many forms. Years ago I let myself forget about it (prioritizing the wrong things) for a while and put it on the back burner for a few years, something I regret. Never again. Community, friends, family. These social relationships are so much more important than many of us may even realise. It's been nice to catch up and spend time with old friends. It's been lovely to make a lot of new acquaintances and friends too. I don't say it lightly when I say that **I do appreciate everyone I connect with**. Trully. I think we'll expand on this topic in various subtopics below.
 
 We did have an amazing vacation in Bulgaria with Anton. It was twice as long as last year, because in his words "last year we were there for 2 weeks, this year we should go for 4 weeks". Also following his logic, it seems we should be there for 6 weeks next year. Hey, I'd love that, I don't oppose it in any way. Eventually, we are gonna be hardcapped by the length of his summer vacation, which is only 2 months 😅. But jokes aside, we'll take whatever time we can get. The important part is to make the time count. I'll expand on the trip in a lot of detail below, but it was a great time!
 
 No training camps and training vacations this year, but something might be coming up next year. No regrets on not having any such camps this year; the choice was simple when it came down to how to spend vacation days this year in the summer - use up all 4 weeks just for Bulgaria with Anton. That was the choice and it was a good one. As opposed to the 4 trips in 2024. Who knows how things will work out next year.
 
-Yoga, meditaion, nope. The problem with life and time is you just can't have time for all the things. Now, sometimes, it's mind-boggling to me that in the entire year I didn't find time to go to 1 yoga class. Or I didn't sit once outside on the terrace in the sun and try to meditate. It's crazy, it seems so easy to do, yet, it just doesn't happen. I still think those are helpful and important practices, maybe I'll get there someday, and at any rate, they are not the biggest priority, just fun little things to try out. I have no shortage of ideas on what to try however.
+Yoga, meditaion, nope. The problem with life and time is you just can't have time for all the things. Now, sometimes, it's mind-boggling to me that in the entire year I didn't find time to go to 1 yoga class. Or I didn't sit once outside on the terrace in the sun and try to meditate. It's crazy, it seems so easy to do, yet, it just doesn't happen. I still think those are helpful and important practices, maybe I'll get there someday, and at any rate, they are not the biggest priority, just fun little things to try out. I have no shortage of ideas on what to try however, and sometimes those compete for resources with each other.
 
 Anton's continued his CrossFit classes and it's something he enjoys which warms up my heart. We've also gone to the basketball courts plenty in the summer and when the weather has been nice. Table tennis we also went to a few times. We've only not found time for the swimming part, but we'll see how things go next year.
 
 Learning about AI, making a game in Unity, video editing are things we've worked on. Every once in a while, nothing crazy, but it's nice to see how quickly he picks up new skills and how much he can do alone. He's editting his own videos in CapCut on his computer and I post them for him on his YouTube channel. Fun times 😅.
 
-We had a brief baking attempt to make some buns last year, I remember that, and since then, mainly thanks to my friend and the recipe she shared with me for Bulgarian banitza, we've made banitza at home so many times! I'm absolutely hooked, because i love that pastry with feta cheese. It's sooo goood. And I think I'm pretty good at making it now!
+We had a brief baking attempt to make some buns last year, I remember that, and since then, mainly thanks to my friend and the recipe she shared with me for Bulgarian banitza, we've made banitza at home so many times! I'm absolutely hooked, because I love that pastry with feta cheese. It's sooo goood. And I think I'm pretty good at making it now!
 
-Lastly on the list of goals for 2025 is "smile and have fun". Yes, yes, yes! I like being serious and focused into things, but I definitely like laughing and having fun. There are a couple of places / people who really make this so natural. During the easy and during the hard times. In the end, while we are living on this space rock, hurling around the sun in our solar system, being the tiny, little, specks of sand in the grand scheme of the universe, might as well smile and have fun! It's a lot more important than we may think.
+Lastly on the list of goals for 2025 is "smile and have fun". Yes, yes, yes! I like being serious and focused into things, but I definitely like laughing and having fun. There are a couple of places / people who really make this so natural. During the easy and during the hard times. In the end, while we are living on this space rock, hurling around the sun in our solar system, being the tiny, little, specks of sand in the grand scheme of the universe, might as well smile and have fun! It's a lot more important than we may think. **And don't get too lost in the details of planning out and dreaming of the future; Be present, enjoy the ride and remember that Journey > Destination**.
 
 ### 2️⃣0️⃣2️⃣5️⃣
 
@@ -180,19 +180,17 @@ And after our well-deserved Bulgarian vacation it was time to get back home and 
 
 Another thing that started happening multiple times a week on a weekly basis was Anton hosting his friends over. I'm so happy for him. He also goes to visit his friends too sometimes on other days. They have a very good group of friends and this, I'm so happy for him. Not only do they socialize and play games together while talking on WhatsApp or Discord, as previously, but now also hanging out together, it's very nice to see.
 
-In terms of sports hobbies, he's still had the ball games hobby this year as well as CrossFit. He likes it a lot, it's a ton of fun for him and it's nice, cause (ofc I'm biased), but there's a lot to learn, plenty of different movements and exercises to do. One of my favorites was one open gym we did together with Anton, where he wrote the programming for us <3.
+In terms of sports hobbies, he's still had the ball games hobby this year as well as CrossFit. He likes it a lot and seems to have a lot of fun, and there's a lot to learn, plenty of different movements and exercises to do. One of my favorites was one open gym we did together with Anton, where he wrote the programming for us <3.
 
 ![Anton and dad working out part 2](my-2025-year-in-review-51.jpg)
 
-He's really comfortably now editing videos in CapCut, as he has been for a while. I support him with tips and uploading his videos to his YouTube channel. It's nice to see him working on those creative things. There's also this other game called "Geometry Dash" and he's been making levels for it too, I love that! Reminds me of making maps for games I played back in the day, writing fan fiction and so on. At the same time it's a real life skill to learn video editing which makes it extra cool. We've also been talking about AI a bit. It's interesting and very tricky to talk about it tbh. Explaining the power of it and the change it brings, while at the same time fighting to keep the parts of the creative process still human and full of soul and expression.
+He's really comfortable with editing videos in CapCut and has been for a while now. I support him with tips and I'm uploading his videos for him to his YouTube channel. It's nice to see him working on those creative things. There's also this other game called "Geometry Dash" and he's been making levels for it too, I love that! Reminds me of making maps for games I played back in the day, writing fan fiction and so on. At the same time it's a real life skill to learn video editing which makes it extra cool. We've also been talking about AI a bit. It's interesting and very tricky to talk about it tbh. Explaining the power of it and the change it brings, while at the same time fighting to keep the parts of the creative process still human and full of soul and expression.
 
 Another mini story is about his birthday gift to me.
 
 ![birthday hat on floor](my-2025-year-in-review-133.jpg)
 
-He had put these elaborate set of clues I had to follow around the whole house, like 6-7 of them. And the crazy part is he had been home after school perhaps not more than 30-40 mins before me :D What a kid!
-
-TODO: extract vid from YIR 2025 extra with BG app
+He had put these elaborate set of clues I had to follow around the whole house, like 6-7 of them. And the crazy part is he had been home after school perhaps not more than 30-40 mins before me :D What a kid! The things he comes up with sometimes blow my mind lol.
 
 #### <span id="crossfit" class="offset-top-nav">🏋️‍♂️ CrossFit journey</span>
 
@@ -218,7 +216,7 @@ Honorable mention to my old grips <3
 
 ![Goodbye old faithful grips](my-2025-year-in-review-7.jpg)
 
-I've had those for 1.5 years give or take and they have unlocked BMUs for me. I'll always be grateful for them. Easily my most favorite piece of equipment. And to think of it I got them from Australia from a random TikTok advert, but they were really good and worked like a charm. Completely eliminating the grip and regrip struggle and just letting me focus on the movement itself. But in the end the metal bracket snapped (while I was at the top part of a muscle up 😅) and it was all over. I've used the Velites quad pro all terrain whatever they are called grips, and they are good and super sturdy, but they don't have the cushion for the wrist part so you get a lot of wrist skin damage with those in longer sets and workouts. Finally, in August I found something similar to my previous grips - the Frog grips. Well endorsed by games atheletes, once again from Australia, so cost about 100 euroes to get them to Finland with shipping and customs fees. Pricey, but can you put a price on happiness. However! I'd normally recomment and endorse them as well, but in this case I will not! I don't think the quality is up to par. While the grips are sticky, comfy on the wrists, light and nice, I can't believe how much they have worn out in just the past 4 months, it's kind of crazy. In comparison my previous grips didn't get anywhere near such wear and tear in the first year lol. Judge for yourselves.
+I've had those for 1.5 years give or take and they have unlocked BMUs for me. I'll always be grateful for them. Easily my most favorite piece of equipment. And to think of it I got them from Australia from a random TikTok advert, but they were really good and worked like a charm. Completely eliminating the grip and regrip struggle and just letting me focus on the movement itself. But in the end the metal bracket snapped (while I was at the top part of a muscle up 😅) and it was all over. I've used the Velites quad pro all terrain whatever they are called grips, and they are good and super sturdy, but they don't have the cushion for the wrist part so you get a lot of wrist skin damage with those in longer sets and workouts. Finally, in August I found something similar to my previous grips - the Frog grips. Well endorsed by games atheletes, once again from Australia, so cost about 100 euroes to get them to Finland with shipping and customs fees. Pricey, but can you put a price on happiness. However! I'd normally recommend and endorse them as well, but in this case I will not! I don't think the quality is up to par. While the grips are sticky, comfy on the wrists, light and nice, I can't believe how much they have worn out in just the past 4 months, it's kind of crazy. In comparison my previous grips didn't get anywhere near such wear and tear in the first year lol. Judge for yourselves.
 
 Frog grips brand new out of the package:
 
@@ -234,7 +232,7 @@ A bit grim 😅. No bueno. I'll be looking for some new grips soon once again.
 
 I'm happy I did Murph again this year. 3min faster than last year and I tried to "carb load" before it, kind of worked out well.
 
-I would say there are a lot untested things this year all in all which is fine, perhaps some nice improvements are coming around the corner in 2026 😉. I'm very happy with my snatch 1RM of 80kg (in fact, just now in the end of the year, a few days before publishing this post I did 80kg squat snatch again and failed 85kg 3 times) which is awesome. But what I like even more about it is how frequently and a "good day" I can roll up and get the weight up to 70-75kg. I like that consistency. Basically close to BW snatch on most days, which is really nice (my current bodyweight at the end of December is 78kg).
+I would say there are a lot untested things this year all in all which is fine, perhaps some nice improvements are coming around the corner in 2026 😉. I'm very happy with my snatch 1RM of 80kg (in fact, just now in the end of the year, a few days before publishing this post I did 80kg squat snatch again and failed 85kg 3 times) which is awesome. But what I like even more about it is how frequently and on a "good day" I can pull up at the gym and get the snatch weight up to 70-75kg. I like that consistency. Basically close to BW snatch on most days, which is really nice (my current bodyweight at the end of December is 78kg).
 A similiar thing I enjoy when it comes to bar muscle ups. I can comfortably do 40-50-60 in a workout and I like that for volume. My current record for BMU volume is 70 in one workout in 14 rounds of modified "Mindy" (5 BMU, 5 push ups, 10 air squats) and did that in 20 something minutes, which was fine.
 
 Some stats as of December 2025:
@@ -251,7 +249,7 @@ Some stats as of December 2025:
 
 I think it starts to be obvious that of course, now that I'm wrapping up the 4th year of training, things are really starting to plato (_Journey > Destination_), which only makes sense, it was bound to happen eventually. That being said, we're far from being in the best possible shape, or the best results etc. It's just that the jumps in weights for example are starting to be a bit smaller and that's all good.
 
-But really, in the end, do you know what really matters? **The awesome vibes at our North Engine CrossFit gym**. The people, the energy, the atmosphere, it's all a vibe. Everyone shows up for their own reasons, but everyone is there to have fun and get better at something, or even just keep moving. I'd like to be able to keep showing up and having fun and playing like a kid with some of the fun movements :D Progress is important, especially to my brain, but fun, smiles and happiness is even more important, and who says you can't have both?
+But really, in the end, do you know what really matters? **The awesome vibes at our North Engine CrossFit gym**. The people, the energy, the atmosphere, it's all a vibe. Everyone shows up for their own reasons, but everyone is there to have fun and get better at something, or even just keep moving. I'd like to be able to keep showing up and having fun and playing like a kid with some of the fun movements :D Progress is important, especially to my brain, but fun, smiles and happiness are even more important, and who says you can't have both?
 
 <div class="post-social-icon">
   <img src="/tiktok.svg" alt="TikTok" /> TikTok videos:
@@ -267,7 +265,7 @@ But really, in the end, do you know what really matters? **The awesome vibes at 
 
 #### Helsinki Midnight Run
 
-I did the Helsinki Midnight Run for the 2nd time. This year the weather was even better than last year. No pouring rain, still no wind, pretty nice. The major challenge came from the fact that I didn't prepare for that run AT ALL. At least in 2024 I had done a few 7-8k runs 1 10k run. This time - nada. I suppose I thought I'd roll up and just wing it. The worst part, was that while I left ahead of time from home, in order to be there on time, and I was - more than 50 minutes before the start, I wasted 25 minutes driving in circles trying to park. That was terrible. On top of that, after I finally parked I had to queue for the bathrooms for another nearly 20 minutes which basically left me 3 minutes before the start of the run to "warm up" 😅. Despite all of that, the run went somewhat well, I finished in 56:56, which is a bit slower than the 54:08 from the previous year. To be honest, I'm happy with that score, given things were the way they were. I can definitely do better with some training. In fact, the goal was sub 50, but given the situation, yet again, I'm happy with the result. I had to stop and walk a bit this time betweek 8k and 10k, because of my knee starting to hurt and wanting to prevent potential injury.
+I did the Helsinki Midnight Run for the 2nd time. This year the weather was even better than last year. No pouring rain, still no wind, pretty nice. The major challenge came from the fact that I didn't prepare for that run AT ALL. At least in 2024 I had done a few 7-8k runs 1 10k run. This time - nada. I suppose I thought I'd roll up and just wing it. The worst part, was that while I left ahead of time from home, in order to be there on time, and I was - more than 50 minutes before the start, I wasted 25 minutes driving in circles trying to park. That was terrible. On top of that, after I finally parked I had to queue for the bathrooms for another nearly 20 minutes which basically left me 3 minutes before the start of the run to "warm up" 😅. Despite all of that, the run went somewhat well, I finished in 56:56, which is a bit slower than the 54:08 from the previous year. To be honest, I'm happy with that score, given things were the way they were. I can definitely do better with some training. In fact, the goal was sub 50, but given the situation, yet again, I'm happy with the result. I had to stop and walk a bit this time betweek 8k and 10k, because of knee pain and I wanted to prevent potential injury.
 
 <div class="image-grid">
 
@@ -286,8 +284,6 @@ I did the Helsinki Midnight Run for the 2nd time. This year the weather was even
 ![nice sunny weather forecast](my-2025-year-in-review-63.jpg)
 ![Anton sitting on central park bear statue](my-2025-year-in-review-64.jpg)
 ![Plovediv sign](my-2025-year-in-review-65.jpg)
-![Anton and dad found Tigger and Piglet](my-2025-year-in-review-66.jpg)
-![Anton and dad at the top of the hill](my-2025-year-in-review-67.jpg)
 ![Apartment back balcony](my-2025-year-in-review-68.jpg)
 ![rowing canal of Plovdiv](my-2025-year-in-review-69.jpg)
 ![Playing chest on a huge chess board](my-2025-year-in-review-70.jpg)
@@ -344,15 +340,15 @@ I did the Helsinki Midnight Run for the 2nd time. This year the weather was even
 TODO: screenshots and videos from the folder
 TODO: BONUS: make an image map of the Bulgarian trip
 
-The month in Bulgaria was trully magical. On one hand, that's been our longest trip together to date, on the other hand it felt perfect, didn't feel too long at all. In fact, I'll go on to say that because of the length, it felt a bit less like a holiday trip and more of a **coming to the other home trip**. Which is really kind of the case.
+The month in Bulgaria was trully magical. On one hand, that was our longest trip together with Anton, on the other hand it felt perfect, didn't feel too long at all. In fact, I'll go on to say that because of the length, it felt a bit less like a holiday trip and more of a **coming to the other home trip**. Which is really kind of the case.
 
 We were able to see family - my sister was back in Bulgaria now with her husband (they used to live in Cyprus). We also visited my grandma, Anton's grand grandma. It was so nice to see her again <3.
 
 **Velingrad**
 
-We were able to spend time with friends and their kid, whom Anton knows from the year before and they got to play together, while we stayed 3 days at this SPA resort in the Bulgarian mountains in Velingrad.
+We were able to spend time with friends and their kids, whom Anton knows from the year before and they got to play together, while we stayed 3 days at this SPA resort in the Bulgarian mountains in Velingrad.
 
-![a](my-2025-year-in-review-78.jpg)
+![Reading Harry Potter book 1](my-2025-year-in-review-78.jpg)
 
 Nice food, plenty of pool time, walking in the mountain town, riding the waterwheels, awesome views of the mountains. We did a mini trip to the close by mountain of Rila too and rode some interesting "mini roller coaster" thingies, had great grilled food.
 
@@ -366,7 +362,7 @@ It's hard to describe why the "slowness" of the trip was so special, but because
 
 **Sozopol**
 
-We went to Sozopol almost straight from Velingrad. Basically only spent 1 night in Plovdiv in between. It was soooo nice to dip in the sea and swim! Always the best way too cool off in the summer heat.
+We went to Sozopol almost straight from Velingrad. Basically only spent 1 night in Plovdiv in between. It was soooo nice to dip in the sea and swim! Always the best way to cool off in the summer heat.
 
 ![Building sand castles](my-2025-year-in-review-85.jpg)
 
@@ -378,9 +374,9 @@ We found our favorite ice cream place and became regulars there too :). We also 
 
 ![Capybara 1](my-2025-year-in-review-88.jpg)
 
-We were aloud in and to interact with them, to feed them cabbage and carefully pet them. Very interesting creatues and it's been our inside joke for a very long time, so really cool to see capybaras in real life!
+We were allowed in and to interact with them, to feed them cabbage and carefully pet them. Very interesting creatues and it's been our inside joke for a very long time, so really cool to see capybaras in real life!
 
-And after a lot of swimming and diving with our swimming goggles, hunting for shells, jumping in the waves and playing in the sand, soon the first sea adventure was nearly done and it was time to go back to Plovdiv for a while.
+And after a lot of swimming and diving with our swimming goggles, "hunting" for shells, jumping in the waves and playing in the sand, soon the first sea adventure was nearly done and it was time to go back to Plovdiv for a while.
 
 **Plovdiv**
 
@@ -388,12 +384,17 @@ I've always loved this image:
 
 ![Plovdiv hills from afar](my-2025-year-in-review-98.jpg)
 
-What it is, is the view of the Plovdiv hills from afar. Usually, in nice clear weather, you can see them from as far as 17km away from the city. But this always makes me feel like I'm **coming home**. I've said it many times before and I'll always say it but while I may not necessarily always miss Bulgaria, **I always miss Plovdiv. It's absolutely one of the most special cities in the world to me.** I should add that we've been moving around with Anton with busses between our trips mostly and it's such a vibe! Very cozy, a bit of nice snacks, chilling in the seats and soon we've reached our destination.
+What it is, is the view of the Plovdiv hills from afar. Usually, in nice clear weather, you can see them from as far as 17km away from the city. But this always makes me feel like I'm **coming home**. I've said it many times before and I'll always say it but while I may not necessarily always miss Bulgaria, **I always miss Plovdiv. It's absolutely one of the most special cities in the world to me.**
+
+![Anton and dad at the top of the hill](my-2025-year-in-review-67.jpg)
+
+I should add that we've been moving around with Anton with busses between our trips mostly and it's such a vibe! Very cozy, a bit of nice snacks, chilling in the seats and soon we've reached our destination.
 
 As always, there's a lot to explore in Plovdiv. We were mostly doing about 15-20k steps per day on average. Visiting family, friends and all the cool spots.
 
-TODO: finding tigger and piglet
-TODO: a bit more about Plovdiv
+And after last year we got Eeyori and Pooh, this year we managed to find Tigger and Piglet, which was one of our major quests!
+
+![Anton and dad found Tigger and Piglet](my-2025-year-in-review-66.jpg)
 
 **Kiten**
 
@@ -423,6 +424,8 @@ And soon it was time to go back to Plovdiv, Sofia and then back to Helsinki. Whe
   <img src="/instagram.svg" alt="Instagram" /> Instagram stories from the trip (Plovdiv, Sunny Beach, Sofia):
 </div>
 
+TODO: fix this
+
 <div class="image-grid">
 
 [![BG trip part 1](my-2024-year-in-review-148.jpg)](https://www.instagram.com/stories/highlights/18329849359193800/)
@@ -449,16 +452,13 @@ Distilling the thousands of thoughts in my mind to a few simple and short senten
 _(and while I always try to document events here as they are, this topic is very dear to my heart and I'm saving a lot of special moments and details just to myself)_
 
 I'll just say that I'm happy I met you, grateful we shared time together in the way that we did, and whatever the outcome, I'd not have it any other way.
-It's been so nicely challenging to actually use my brain and think in all of our discussions, which have been so interesting, while getting to know each other.
+It's been so nicely challenging to participate in our witty discussions, which have been so interesting, all the while getting to know each other.
 
-TODO: on becoming cynical, on healing, on allowing self to be vulnerable again, take chance, risk being hurt...
-TODO: on generating and beaming love all around. "im ready to find her" in july, "importance of love" in august.
+I could write here more on becoming more cynical of love after long relationship break ups, on healing, on trully feeling ready again, on allowing yourself to be vulnerable and be hurt, on taking chances. But I won't :D Perhaps another time we can dive deeper into these topics.
 
 **Friendships**
 
-I've made a new friend this year, someone who I really value and who I've spent a bunch of time together with this year. Someone I've learnt a lot from and I hope I have enriched her life too. "My Bulgarian connection" 😀. Apart from all other things, thanks to her, I've been talking a lot more in Bulgarian this year, which was very nice in its own way and also connects to my "return to roots" sub theme of this year.
-
-TODO: many others too
+I've made a new friend this year, someone who I really value and whom I've spent a bunch of time together with this year. Someone I've learnt a lot from and I hope I have enriched her life too. "My Bulgarian connection" 😀. Apart from all other things, thanks to her, I've been talking a lot more in Bulgarian this year, which was very nice in its own way and also connects to my "return to roots" sub theme of this year. I've interacted more closely with a bunch of other people too and I say it over and over again, but I do genuinely appreciate all of you. Makes life a lot more fun and enjoyable sharing it with others.
 
 **Family**
 
@@ -471,10 +471,6 @@ We all forget to call our parents more often, I'm sure. Well, hopefully we can d
 </div>
 
 Family is always complicated I feel, but it's good to try and appreciate each other as much as possible. It was nice to see my sister and her husband back in Bulgaria this summer, after quite a few years in Cyprus. And my parents going back to Bulgaria too.
-
-TODO: write more
-
-- my family with Anton <3
 
 **Community**
 TODO: importance of 3rd places
@@ -532,6 +528,8 @@ TODO:
 - 🏋️‍♂️ Training vacation
 - 🏀 CrossFit, basketball, table tennis with Anton
 - 😄 Smile and have fun
+- ♠️ Learn a couple of card magic tricks
+
 - TODO: make content
 
 TODO: write Outro
@@ -542,8 +540,10 @@ TODO: write Outro
 TODO:
 in Intro or Outro - on enjoying journeys(...), importance of love in human lives,
 
-TODO:
+TODO: Final Check Ups
 
+- 1. CONTINUE FROM ** COMMUNITY** and finish
+- 2. Go thru all TODO from the Top
 - create links to all sub sections of other from the table of contents
 - 1 final read pass and check thru yearly pics for any missing pics to add
 - final proofreading
