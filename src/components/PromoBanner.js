@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import usePromoBanner from '../hooks/use-promo-banner'
 
@@ -22,7 +22,7 @@ const PromoBanner = ({ linkTo, imageName, ...rest }) => {
   return (
     <StyledBanner {...rest}>
       <a href={linkTo} target="_blank" rel="noopener noreferrer">
-        <Img fluid={data.childImageSharp.fluid} alt="Banggood promo" />
+        <GatsbyImage image={data.childImageSharp.gatsbyImageData} alt="Banggood promo" />
       </a>
     </StyledBanner>
   )

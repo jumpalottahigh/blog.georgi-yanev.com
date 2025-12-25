@@ -1,7 +1,7 @@
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
 import { Link, useStaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import { slide as Menu } from 'react-burger-menu'
 import { FaGithub, FaTwitter, FaLinkedin, FaRss, FaDev } from 'react-icons/fa'
 
@@ -105,9 +105,7 @@ const Hamburger = () => {
       georgi: file(relativePath: { regex: "/^home/georgi-face-3.jpg/" }) {
         name
         childImageSharp {
-          fixed(width: 110, quality: 80) {
-            ...GatsbyImageSharpFixed
-          }
+          gatsbyImageData(layout: FIXED, width: 110, quality: 80, placeholder: BLURRED)
         }
       }
     }
@@ -174,8 +172,8 @@ const Hamburger = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Img
-          fixed={image.georgi.childImageSharp.fixed}
+        <GatsbyImage
+          image={image.georgi.childImageSharp.gatsbyImageData}
           alt="Georgi Yanev"
           style={{ borderRadius: '50%', marginBottom: '1rem' }}
         />

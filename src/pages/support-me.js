@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import styled from 'styled-components'
 import Layout from '../components/structure/layout'
 
@@ -34,9 +34,7 @@ const SupportMePage = () => {
       georgi: file(relativePath: { regex: "/^home/georgi-face-3.jpg/" }) {
         name
         childImageSharp {
-          fixed(width: 110, quality: 80) {
-            ...GatsbyImageSharpFixed
-          }
+          gatsbyImageData(layout: FIXED, width: 110, quality: 80, placeholder: BLURRED)
         }
       }
     }
@@ -179,8 +177,8 @@ const SupportMePage = () => {
       </Section>
       <h2 style={{ textAlign: 'center', marginTop: '2rem' }}>Thank you!</h2>
       <div style={{ display: 'flex' }}>
-        <Img
-          fixed={image.georgi.childImageSharp.fixed}
+        <GatsbyImage
+          image={image.georgi.childImageSharp.gatsbyImageData}
           alt="Georgi Yanev"
           style={{ borderRadius: '50%', margin: '0 auto 3rem auto' }}
         />

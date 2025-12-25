@@ -4,24 +4,21 @@ import { Helmet } from 'react-helmet'
 
 import AskAQuestion from '../components/AskAQuestion'
 import DiscussionEmbed from '../components/Disqus'
-import EditOnGitHub from '../components/Edit'
 import FeaturedGear from '../components/FeaturedGear'
 import FeedbackSection from '../components/FeedbackSection'
 import Layout from '../components/structure/layout'
-import LuckyDraw from '../components/Lucky'
 import ModeSwitch from '../components/Mode'
 import PromoBanner from '../components/PromoBanner'
 import ReaderQuestions from '../components/ReaderQuestions'
 import ReadProgressLine from '../components/ReadProgressLine'
 import RelatedArticles from '../components/RelatedArticles'
 import Share from '../components/Share'
-import SupportMe from '../components/SupportMe'
 import ArticleTags from '../components/ArticleTags'
 import TinyLetterSignup from '../components/TinyLetterSignUp'
 import YouTubeChannelsPromo from '../components/YouTubeChannelsPromo'
 
 class BlogPostTemplate extends React.Component {
-  render() {
+  render () {
     const { post, readerQuestions } = this.props.data
 
     // If post doesn't have a defined og image, fall back to default defined here
@@ -37,6 +34,8 @@ class BlogPostTemplate extends React.Component {
       identifier: post.id,
       title: post.frontmatter.title,
     }
+
+    const isFPVPost = post.frontmatter.category === 'fpv'
 
     // Affiliate banners
     let showBanner = false
@@ -175,12 +174,6 @@ class BlogPostTemplate extends React.Component {
                 )}
               </div>
               <div className="toolbar">
-                <SupportMe>🙏</SupportMe>
-                <LuckyDraw />
-                <EditOnGitHub
-                  path={post.frontmatter.path}
-                  date={post.frontmatter.dateUnformatted}
-                />
                 <ModeSwitch />
               </div>
             </div>
@@ -210,10 +203,13 @@ class BlogPostTemplate extends React.Component {
               shortname={disqusShortname}
               config={disqusConfig}
             />
-            {/* <Giveaway /> */}
-            <YouTubeChannelsPromo text="Need even more FPV in your life? Check out my YouTube channels:" />
-            <TinyLetterSignup />
-            <PromoBanner linkTo={bannerLinkBottom} imageName="bigStripe3" />
+            {isFPVPost && (
+              <>
+                <YouTubeChannelsPromo text="Need even more FPV in your life? Check out my YouTube channels:" />
+                <TinyLetterSignup />
+                <PromoBanner linkTo={bannerLinkBottom} imageName="bigStripe3" />
+              </>
+            )}
           </div>
         </div>
       </Layout>

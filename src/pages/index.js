@@ -123,7 +123,7 @@ export default BlogIndex
 export const HomePageQuery = graphql`
   query HomePageQuery {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       limit: 20
       filter: {
         frontmatter: { draft: { ne: true }, category: { ne: "stories" } }
@@ -145,9 +145,7 @@ export const HomePageQuery = graphql`
             ogImage {
               publicURL
               childImageSharp {
-                fluid(maxWidth: 991) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
+                gatsbyImageData(layout: CONSTRAINED, width: 991, placeholder: BLURRED)
               }
             }
           }
@@ -160,9 +158,7 @@ export const HomePageQuery = graphql`
         node {
           name
           childImageSharp {
-            fluid(maxWidth: 124, quality: 81) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(layout: CONSTRAINED, width: 124, quality: 81, placeholder: BLURRED)
           }
         }
       }

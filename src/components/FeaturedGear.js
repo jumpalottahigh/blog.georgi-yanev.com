@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import useFeaturedGear from '../hooks/use-featured-gear'
 
@@ -67,8 +67,8 @@ const FeaturedGear = ({ gearList }) => {
                 href={allFeaturedGear[item].link}
                 style={{ width: '100%' }}
               >
-                <Img
-                  fluid={allFeaturedGear[item].childImageSharp.fluid}
+                <GatsbyImage
+                  image={allFeaturedGear[item].childImageSharp.gatsbyImageData}
                   alt={allFeaturedGear[item].title}
                 />
               </a>

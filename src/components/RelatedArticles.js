@@ -20,7 +20,7 @@ const RelatedArticles = ({ relatedArticles, currentPagePath }) => {
   const { allMarkdownRemark } = useStaticQuery(graphql`
     query relatedArticlesQuery {
       allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
+        sort: { frontmatter: { date: DESC } }
         filter: { fileAbsolutePath: { regex: "/content/posts/" } }
       ) {
         edges {

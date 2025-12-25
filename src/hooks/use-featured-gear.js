@@ -255,9 +255,7 @@ const useFeaturedGear = () => {
           id
           name
           childImageSharp {
-            fluid(maxWidth: 570, quality: 81) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(layout: CONSTRAINED, width: 570, quality: 81, placeholder: BLURRED)
           }
         }
       }

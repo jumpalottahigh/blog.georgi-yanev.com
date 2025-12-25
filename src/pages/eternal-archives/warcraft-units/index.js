@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import { graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
 
@@ -21,7 +21,7 @@ const WarCraftUnitsPage = ({ data }) => (
       <div>
         {data.warcraft1.edges.map(({ node: img }) => (
           <div key={img.id} style={{ margin: '1rem', maxWidth: '360px' }}>
-            <Img fluid={img.childImageSharp.fluid} alt={img.name} />
+            <GatsbyImage image={img.childImageSharp.gatsbyImageData} alt={img.name} />
           </div>
         ))}
       </div>
@@ -29,7 +29,7 @@ const WarCraftUnitsPage = ({ data }) => (
       <div>
         {data.warcraft2.edges.map(({ node: img }) => (
           <div key={img.id} style={{ margin: '1rem', maxWidth: '360px' }}>
-            <Img fluid={img.childImageSharp.fluid} alt={img.name} />
+            <GatsbyImage image={img.childImageSharp.gatsbyImageData} alt={img.name} />
           </div>
         ))}
       </div>
@@ -51,9 +51,7 @@ export const WarCraftUnitsPageQuery = graphql`
           id
           name
           childImageSharp {
-            fluid(maxWidth: 360, quality: 75) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(layout: CONSTRAINED, width: 360, quality: 75, placeholder: BLURRED)
           }
         }
       }
@@ -68,9 +66,7 @@ export const WarCraftUnitsPageQuery = graphql`
           id
           name
           childImageSharp {
-            fluid(maxWidth: 360, quality: 75) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(layout: CONSTRAINED, width: 360, quality: 75, placeholder: BLURRED)
           }
         }
       }

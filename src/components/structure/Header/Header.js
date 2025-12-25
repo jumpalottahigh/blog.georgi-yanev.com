@@ -39,7 +39,7 @@ const Header = () => {
   const allLearningPosts = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
+        sort: { frontmatter: { date: DESC } }
         filter: {
           frontmatter: { draft: { ne: true }, category: { eq: "learning" } }
           fileAbsolutePath: { regex: "/content/posts/" }

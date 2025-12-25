@@ -9,6 +9,7 @@
   --dark-mode-link-color-hover: #b18c47;
   --dark-mode-white: #fff;
   --dark-mode-green: #98c379;
+  --dark-mode-yellow: #e5c07b;
   --dark-mode-red: #e06c75;
   --dark-mode-orange: #e85b46;
   --dark-mode-blue: #61afef;
@@ -17,6 +18,11 @@
   --dark-mode-black: #212121;
   --dark-mode-blue-2: #56b6c2;
   --dark-mode-blue-2-hover: #50adb9;
+  --dark-mode-code-bg: #282c34;
+}
+
+.dark-mode {
+  --lightbox-bg: rgba(40, 44, 52, 0.95);
 }
 
 .dark-mode header,
@@ -52,7 +58,7 @@
 }
 
 .dark-mode .sidebar-wrapper {
-  background-color: var(--dark-mode-bg-color);
+  background-color: var(--dark-mode-bg-color-lighter);
   color: var(--dark-mode-color);
 }
 
@@ -222,7 +228,7 @@
 
 .dark-mode :not(pre) > code[class*='language-'],
 .dark-mode pre[class*='language-'] {
-  background: var(--dark-mode-bg-color-secondary);
+  background: var(--dark-mode-code-bg);
 }
 
 .dark-mode button.ask-a-question {
@@ -259,3 +265,39 @@
 .dark-mode header nav ul.nav li ul li hr {
   border-color: var(--dark-mode-color);
 }
+
+.dark-mode .blog-post-content .highlight-success {
+  background-color: rgba(152, 195, 121, 0.15);
+  color: var(--dark-mode-green);
+}
+
+.dark-mode .blog-post-content .highlight-warning {
+  background-color: rgba(229, 192, 123, 0.15);
+  color: var(--dark-mode-yellow);
+}
+
+.dark-mode .blog-post-content .highlight-danger {
+  background-color: rgba(224, 108, 117, 0.15);
+  color: var(--dark-mode-red);
+}
+
+.dark-mode .bm-item {
+  color: var(--dark-mode-white);
+}
+
+.dark-mode .bm-item:hover {
+  color: var(--dark-mode-blue-hover);
+}
+
+.dark-mode .bm-menu .tag-pool__tag {
+  color: var(--dark-mode-bg-color);
+  background: var(--dark-mode-color) !important;
+}
+
+/* Lightbox UI Hints - Dark Mode */
+.dark-mode .medium-zoom-overlay::after {
+  color: #ddd;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+

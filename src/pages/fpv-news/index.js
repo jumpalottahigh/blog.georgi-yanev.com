@@ -64,7 +64,7 @@ export default FpvNewsPage
 export const FpvNewsPageQuery = graphql`
   query FpvNewsPageQuery {
     fpvNews: allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       filter: { fileAbsolutePath: { regex: "/content/fpv-news/" } }
     ) {
       edges {

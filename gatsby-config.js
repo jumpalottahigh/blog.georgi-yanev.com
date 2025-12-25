@@ -13,6 +13,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-image`,
     // {
     //   resolve: 'gatsby-plugin-ebook',
     //   options: {
@@ -77,7 +78,15 @@ module.exports = {
               quality: 75,
               // Remove the default behavior of adding a link to each
               // image.
-              linkImagesToOriginal: true,
+              linkImagesToOriginal: false,
+            },
+          },
+          {
+            resolve: `gatsby-remark-images-medium-zoom`,
+            options: {
+              background: 'var(--lightbox-bg)',
+              zIndex: 9999,
+              excludedSelector: '.tiktok-or-ig-videos img'
             },
           },
           {
@@ -145,7 +154,7 @@ module.exports = {
             {
               allMarkdownRemark(
                 limit: 1000,
-                sort: { order: DESC, fields: [frontmatter___date] },
+                sort: { frontmatter: { date: DESC } },
                 filter: {
                   fileAbsolutePath: { regex: "/content/posts/" }
                 }

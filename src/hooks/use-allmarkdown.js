@@ -4,7 +4,7 @@ const useAllMarkdownRemark = () => {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
+        sort: { frontmatter: { date: DESC } }
         filter: {
           frontmatter: { draft: { ne: true } }
           fileAbsolutePath: { regex: "/content/posts/" }

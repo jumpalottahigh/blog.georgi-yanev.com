@@ -24,7 +24,7 @@ export default PostsPage
 export const PostsPageQuery = graphql`
   query PostsPageQuery {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       filter: {
         frontmatter: { draft: { ne: true } }
         fileAbsolutePath: { regex: "/content/posts/" }
@@ -45,9 +45,7 @@ export const PostsPageQuery = graphql`
             ogImage {
               publicURL
               childImageSharp {
-                fluid(maxWidth: 672) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
+                gatsbyImageData(layout: CONSTRAINED, width: 672, placeholder: BLURRED)
               }
             }
           }
