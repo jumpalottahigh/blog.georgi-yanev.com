@@ -1,6 +1,6 @@
 ---
 path: '/learning/my-2025-year-in-review/'
-date: '2025-12-27'
+date: '2025-12-26'
 title: 'My 2025 year in review'
 author: 'Georgi Yanev'
 draft: false
@@ -32,7 +32,7 @@ ogImage: './my-2025-year-in-review-1.jpg'
 
 It's been almost a bit scary writing in these yearly posts how much the current year has been better than the previous one for the past few years. And especially so when the previous year had been so, so good itself. So, I'm "happy" to say in its own weird way that won't be the case this year. Not because this year was not great. It was an absolutely amazing year, I'm very happy with it, there were quite a lot of great moments and a bunch of really cool experiences, progress in various ways... Yet this year also brought a lot of challenges, perhaps a bit more so than the past two. Some stress and other less positive vibes were a part of the picture too, perhaps a level slightly above average. Of course, all of this is through my very own, very personal, very subjective prism (attempting to be objective on the look out of the whole past year from the position of the last month of the year is a bit tricky 😅). Let's remember not to take all of this way too seriously; in the end, it's all about having fun, having some thoughts laid out, some light, and hopefully a somewhat entertaining reflection. I should say, much like in all previous cases, I'm of course very grateful to be here, enjoying yet another lap around the sun, all the adventures had and thankful even for the tough times, cause we all know they truly mold us to be who we need to become.
 
-Here's a picture gallery to kick this off and set the mood:
+Here's a picture gallery to kick things off and set the mood:
 
 <div class="image-grid">
 
@@ -502,15 +502,11 @@ _Walnut hugs Fig 💖_
 
 I'm not even sure how to word this, but a number of different events and experiences have fallen under this umbrella this year. My Bulgarian connection, the Bulgarian trip, and Anton's curiosity towards the Bulgarian language and history are just a couple of specific examples. My dad has always done a great job of telling me Bulgarian history while I was growing up. All sorts of stories from all sorts of ages. From 681 to the 1990s. And I've always found it fascinating. In fact, there was a half-year period in 12th grade when I was so interested in Bulgarian history, and I was studying it as my way of applying to law school in Bulgaria. In the end, I did swap that in favor of pursuing Bulgarian and English language tests as the means of university admission. But I've been playing my role now. I've been telling stories to Anton as well as I can. And there's a lot of this "return to the roots" thing that has been happening subconsciously.
 
-TODO: image
-
 For years, I thought I'd never want to go back to live in Bulgaria. The reasons are many, worthy of a small post just on this topic. But the gist of it is that last year, at the end of our trip with Anton to Bulgaria, the days before we came back to Finland, while in Sofia, I "FELT" a lot of change. I "FELT" my homeland again. It's a nice place. It always has been. It's always just been the nasty, corrupted politicians who drive people away. The nature is magical. The ground beneath your feet - ancient and meaningful. Which, unironically, super nicely segways to...
 
 #### <span id="love-em-both" class="offset-top-nav">💕 I love them both</span>
 
 I do. I decided to stop being tormented by "having to choose" in my mind. "I'll just love them both". Who said I have to choose favorites? I don't wanna. I'm talking about Bulgaria and Finland. I love them both. There's no denying that both are home to me. For better or worse. And yes, I know, I joke around with Finnish weather (actually, I don't - it's really shit, but you only realise it if you've ever had actual good weather 😅), but I love Finland in her own way. It's the home of my son and his birthplace. Therefore, it's my home. Someone special said to me recently something about contradicting herself with different statements. I really liked her expression, and it made me think. Was it contradicting, or was what she was describing basically... **balance**? And isn't that what I'm also trying to describe? But why sometimes do we get stuck in the idea of "having to choose" when it's very much ok to lean into different things in life, have variance in experiences, and just feel how the different things enhance each other as they allow reset and recovery time to the rest. Very abstract, I know. But **being curious, always trying out new things, cause you never know what might stick**, I think that's key.
-
-TODO: image in the above section
 
 #### <span id="ai-engineering" class="offset-top-nav">✨ AI and the spark of engineering</span>
 
@@ -542,7 +538,7 @@ Inspiration. The past 2-3 weeks have made me wanna create and write like nothing
 
 ### ⬜ Goals for 2026:
 
-- 🇧🇬 Bulgarian vacation with Anton
+- 🇧🇬 Bulgarian trip with Anton
 - 📝 Continue slowly writing my book - Born in Space
 - 🏃‍♂️ Run Helsinki Midnight Run for the 3rd time (with prep)
 - 🏃‍♂️ Hyrox
