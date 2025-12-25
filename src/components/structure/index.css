@@ -1361,6 +1361,12 @@ button {
   background-color: #f9a5a5;
 }
 
+.blog-post-content .video-grid {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+}
+
 .blog-post-content .image-grid > p {
   display: grid !important;
   gap: 10px;

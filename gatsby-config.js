@@ -86,7 +86,7 @@ module.exports = {
             options: {
               background: 'var(--lightbox-bg)',
               zIndex: 9999,
-              excludedSelector: '.tiktok-videos img'
+              excludedSelector: '.tiktok-or-ig-videos img'
             },
           },
           {

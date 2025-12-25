@@ -22,7 +22,10 @@ ogImage: './my-2025-year-in-review-1.jpg'
 - [🏋️‍♂️ CrossFit journey](#crossfit)
 - [🇧🇬 One month in Bulgaria](#bg)
 - [❤️ Love, friendships, community](#love-friendships-community)
-- [❓ Other topics](#other-topics)
+- [🌳 Return to (the Bulgarian) roots](#return-to-roots)
+- [💕 I love em both](#love-em-both)
+- [✨ AI and the spark of engineering](#ai-engineering)
+- [✍️ Content, creativity, inspiration](#content-creativity-inspiration)
 - [⬜ Goals for 2026](#goals)
 
 ### <span id="overview" class="offset-top-nav">Journey > Destination. Social animal</span>
@@ -110,9 +113,16 @@ These posts started close to 10 years ago now with these simple goal setting lis
 - <span class="highlight-success">🥯 Continue some of our baking attempts with Anton</span>
 - <span class="highlight-success">😄 Smile and have fun</span>
 
-I didn't do much for my book this year; yet, I'll keep that item on the list for next year too. I'm getting closer and closer to getting back to it I think. I've mentioned many times I like the setting and the plot of it, I still believe in it, years after I came up with the original premise for it, and that is a very good sign. I did play around with generating some AI images based on texts from my book to help with visualizing the main ideas of it, in fact, perhaps I should drop a couple below just to give you an idea.
+I didn't do much for my book this year; yet, I'll keep that item on the list for next year too. I'm getting closer and closer to getting back to it I think. I've mentioned many times I like the setting and the plot of it, I still believe in it, years after I came up with the original premise for it, and that is a very good sign. I did play around with generating some AI images based on texts from my book to help with visualizing the main ideas of it, in fact, perhaps I should drop a couple below just to give you an idea. Those are super crude, I didn't really bother re-generating them until they felt perfect, those are literally the first prompts, just based on content from the book chapters, but I like them as they are decent enough for a storyboard and to visualize the novel roughly.
 
-TODO: images from book AI generated
+<div class="image-grid">
+
+![Atlantis, Moon city](my-2025-year-in-review-203.jpg)
+![South Hill Dome](my-2025-year-in-review-202.jpg)
+![Atlantis gardens](my-2025-year-in-review-204.jpg)
+![Dome 72 on collision course to Earth](my-2025-year-in-review-200.jpg)
+
+</div>
 
 I've not done Ironman training this year and I might still do it someday, but it won't be for now a part of a list. If I decide to go for it, I will. I still like swimming, I'm still gonna work a bit on running, biking being the bigger bottleneck, but who knows, I might get into it. For now, it's not a big priority for me 😉 Same for the half marathon thing. It's really 100% a thing of "**why not be a person who's finished one, as opposed to a person who's not**". But sometimes, that's not enough of a reason to go for it. And again, who knows; stranger things have happened before, I might still go for it if the moment is right and I feel it. These posts and lists are not intended to completely plan out my life. **In fact, I'd like to leave quite a lot of room for random stuff 😀**.
 
@@ -255,7 +265,7 @@ But really, in the end, do you know what really matters? **The awesome vibes at 
   <img src="/tiktok.svg" alt="TikTok" /> TikTok videos:
 </div>
 
-<div class="image-grid tiktok-videos">
+<div class="image-grid tiktok-or-ig-videos">
 
 [![power snatches and c&j](my-2025-year-in-review-192.jpg)](https://www.tiktok.com/@jumpalottahigh/video/7587111001863064854)
 [![rmu and hsw](my-2025-year-in-review-131.jpg)](https://www.tiktok.com/@jumpalottahigh/video/7585219207554419990)
@@ -302,6 +312,7 @@ I did the Helsinki Midnight Run for the 2nd time. This year the weather was even
 ![Kapitan Petko Voivoda statue](my-2025-year-in-review-86.jpg)
 ![BG money 1](my-2025-year-in-review-87.jpg)
 ![Capybara Spa](my-2025-year-in-review-89.jpg)
+![Petting capybara](my-2025-year-in-review-205.jpg)
 ![Blue creature stone](my-2025-year-in-review-90.jpg)
 ![Anton and Dad in Sozopol](my-2025-year-in-review-91.jpg)
 ![tripe soup](my-2025-year-in-review-93.jpg)
@@ -328,7 +339,9 @@ I did the Helsinki Midnight Run for the 2nd time. This year the weather was even
 ![The mom kat](my-2025-year-in-review-117.jpg)
 ![Eating breakfast princesses](my-2025-year-in-review-118.jpg)
 ![Breakfast together](my-2025-year-in-review-119.jpg)
+![Jumping in the sea](my-2025-year-in-review-206.jpg)
 ![Sun going down over the sea](my-2025-year-in-review-121.jpg)
+![Playing with the Kiten kittens](my-2025-year-in-review-207.jpg)
 ![Coffee on the balcony in Plovdiv](my-2025-year-in-review-123.jpg)
 ![Last ice cream in Central Park Plovdiv](my-2025-year-in-review-124.jpg)
 ![Flying home to Finland](my-2025-year-in-review-125.jpg)
@@ -336,9 +349,6 @@ I did the Helsinki Midnight Run for the 2nd time. This year the weather was even
 ![In the elevator](my-2025-year-in-review-127.jpg)
 
 </div>
-
-TODO: screenshots and videos from the folder
-TODO: BONUS: make an image map of the Bulgarian trip
 
 The month in Bulgaria was trully magical. On one hand, that was our longest trip together with Anton, on the other hand it felt perfect, didn't feel too long at all. In fact, I'll go on to say that because of the length, it felt a bit less like a holiday trip and more of a **coming to the other home trip**. Which is really kind of the case.
 
@@ -421,40 +431,17 @@ And soon it was time to go back to Plovdiv, Sofia and then back to Helsinki. Whe
 ![The plants survived our abscense](my-2025-year-in-review-128.jpg)
 
 <div class="post-social-icon">
-  <img src="/instagram.svg" alt="Instagram" /> Instagram stories from the trip (Plovdiv, Sunny Beach, Sofia):
+  <img src="/instagram.svg" alt="Instagram" /> Instagram stories from the Bulgarian trip (Plovdiv, Velingrad, Sozopol, Burgas, Kiten):
 </div>
 
-TODO: fix this
+<div class="image-grid tiktok-or-ig-videos">
 
-<div class="image-grid">
-
-[![BG trip part 1](my-2024-year-in-review-148.jpg)](https://www.instagram.com/stories/highlights/18329849359193800/)
-[![BG trip part 2](my-2024-year-in-review-149.jpg)](https://www.instagram.com/stories/highlights/18120398008375465/)
+[![BG trip part 1](my-2025-year-in-review-208.jpg)](https://www.instagram.com/stories/highlights/17901443097209258/)
+[![BG trip part 2](my-2025-year-in-review-209.jpg)](https://www.instagram.com/stories/highlights/18054077957456257/)
 
 </div>
 
 #### <span id="love-friendships-community" class="offset-top-nav"> ❤️ Love, friendships, family, community</span>
-
-I think I found her...
-
-<div class="image-grid">
-
-![Walnut hugs Fig](my-2025-year-in-review-99.jpg)
-
-</div>
-
-_Walnut hugs Fig 💖_
-
-The last part of this year has been a very different experience. I don't know what happened. There's been a special someone I've spent very naturally and gradually and progressively more and more hours with. In the setting where time stops. Yeah... I've already written about this in journals at length. I've analyzed and reasoned with it. The pros and cons, the great parts and the objections. But in the end, when you draw the line and "tally the numbers", none of it matters. It still comes down to two things - why time stops when I'm with her and why do I get lost in her eyes when I look at her?
-
-Distilling the thousands of thoughts in my mind to a few simple and short sentences for the sake of this post is very difficult. And the situation is a bit complicated too. But really, very simply put, at the end of the day, none of it matters. You either listen to your heart or you don't. It will either workout or it won't. Whatever the case, I have no regrets. I have given in to it and made my choice already. Because at the end of the day, when I'm there with her and I just AM, it's simple. Beautiful, relaxing, blissful, easy, comfortable, enjoyable, pleasant, simple, honest, real, unfiltered, connected, charged. What happens next, time will tell...
-
-_(and while I always try to document events here as they are, this topic is very dear to my heart and I'm saving a lot of special moments and details just to myself)_
-
-I'll just say that I'm happy I met you, grateful we shared time together in the way that we did, and whatever the outcome, I'd not have it any other way.
-It's been so nicely challenging to participate in our witty discussions, which have been so interesting, all the while getting to know each other.
-
-I could write here more on becoming more cynical of love after long relationship break ups, on healing, on trully feeling ready again, on allowing yourself to be vulnerable and be hurt, on taking chances. But I won't :D Perhaps another time we can dive deeper into these topics.
 
 **Friendships**
 
@@ -473,46 +460,83 @@ We all forget to call our parents more often, I'm sure. Well, hopefully we can d
 Family is always complicated I feel, but it's good to try and appreciate each other as much as possible. It was nice to see my sister and her husband back in Bulgaria this summer, after quite a few years in Cyprus. And my parents going back to Bulgaria too.
 
 **Community**
-TODO: importance of 3rd places
 
-- wow, gym, work, randoms, etc.
+What is community anyway? Your local neighbourhood chaps? The people from work in some cases? Workout buddies? Gaming buddies? All of the above? For thousands of years humans have been social creatures and building communities has been a key and profound way of expressing that. Be it necessary for survival way back in the day, or a "nice bonus" in today's world. There's discussions online about the loneliness epidemic and that's not random. There's a lot of challenges in today's world that support a more isolated and detached from other humans lifestyle. And it's not always natural to find the right buddies. This is a huge topic, well worth of diving into some day at length. I'm also passionate about it and have what to share. But for today **I'd just like to suggest and stress the importance of 3rd places**. I'll always remember how in high school I'd come home from school, literally drop off my backpack at home, pick up the basketball and head to the local courts. Meet friends, hang out, play streetball and just chill. That's a 3rd place. I guess nowadays my gym is my 3rd place and I love that. I feel like a kid there too - I can train with the other folk, chat, work out, improve whatever the focus is on for the day, just have fun. But it's a nice, relaxing, social environment where I think people are just being themselves. So, as one way of being a part of some community, I suggest 3rd places. Find a place, a club, a hobby you can participate in happily and just go for it.
 
-#### <span id="other-topics" class="offset-top-nav">❓ Other topics</span>
+**Love**
 
-**Return to (the Bulgarian) roots**
+_I think I found her..._
 
-TODO: 1 pic in the middle of this text
+<div class="video-grid">
+
+<div style="max-width: 560px">
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/CGD27WgtKhI?rel=0" frameBorder="0" allowFullScreen title="Bay City Rollers - I only wanna be with you"></iframe>
+</div>
+
+<div style="max-width: 560px">
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/G4RJboN3q8c?rel=0" frameBorder="0" allowFullScreen title="Bay City Rollers - I only wanna be with you"></iframe>
+</div>
+
+</div>
+
+The last part of this year has been a very different experience. I don't know what happened. There's been a special someone I've spent very naturally and gradually and progressively more and more hours with. In the setting where time stops. Yeah... I've already written about this in journals at length. I've analyzed and reasoned with it. The pros and cons, the great parts and the objections. But in the end, when you draw the line and "tally the numbers", none of it matters. It still comes down to two things - why time stops when I'm with her and why do I get lost in her eyes when I look at her?
+
+Distilling the thousands of thoughts in my mind to a few simple and short sentences for the sake of this post is very difficult. And the situation is a bit complicated too. But really, very simply put, at the end of the day, none of it matters. You either listen to your heart or you don't. It will either workout or it won't. Whatever the case, I have no regrets. I have given in to it and made my choice already. Because at the end of the day, when I'm there with her and I just AM, it's simple. Beautiful, relaxing, blissful, easy, comfortable, enjoyable, pleasant, simple, honest, real, unfiltered, connected, charged. What happens next, time will tell...
+
+_(and while I always try to document events here as they are, this topic is very dear to my heart and I'm saving a lot of special moments and details just for me and her)_
+
+I'll just say that I'm happy I met you, grateful we shared time together in the way that we did, and whatever the outcome, I'd not have it any other way.
+It's been so nicely challenging to participate in our witty discussions, which have been so interesting, all the while getting to know each other.
+
+I could write here more on becoming more cynical of love after long relationship break ups, on healing, on trully feeling ready again, on allowing yourself to be vulnerable and be hurt, on taking chances. But I won't :D Perhaps another time we can dive deeper into these topics. Cliff hanger, I know 😉
+
+<div class="image-grid">
+
+![Walnut hugs Fig](my-2025-year-in-review-99.jpg)
+
+</div>
+
+_Walnut hugs Fig 💖_
+
+#### <span id="return-to-roots" class="offset-top-nav">🌳 Return to (the Bulgarian) roots</span>
 
 I'm not even sure how to word this, but a number of different events and experiences have fallen under this umbrella this year. My Bulgarian connection, the Bulgarian trip, Anton's curiousity towards Bulgarian language and history, just a couple of specific examples. My dad has always done a great job of telling me Bulgarian history while I was growing up. All sorts of stories from all sorts of ages. From 681 to the 1990s. And I've always found it fascinating. In fact, there was a half a year period in 12th grade when I was so interested in Bulgarian history and I was studying that as my way of applying to law school in Bulgaria. In the end I did swap that in favor of pursuing Bulgarian and English language tests as the means of university admission. But, I've been playing my role now. I've been telling stories to Anton, as good as I can. And there's a lot of this "return to the roots" thing that has been happening subconsciously.
 
-For year I thought I'd never want to go back to live in Bulgaria. The reasons are many, worthy of a small post just into this topic. But the gist of it is that last year at the end of our trip with Anton to Bulgaria, the days before we came back to Finland, while in Sofia, I "FELT" a lot of change. I "FELT" my homeland again. It's a nice place. It always has been. It's always just been the nasty corrupted politicians that drive people away. The nature - magical. The ground beneath your feet - ancient and meaningful. Which unironically, super nicely segways to...
+TODO: image
 
-TODO:
+For years I thought I'd never want to go back to live in Bulgaria. The reasons are many, worthy of a small post just into this topic. But the gist of it is that last year at the end of our trip with Anton to Bulgaria, the days before we came back to Finland, while in Sofia, I "FELT" a lot of change. I "FELT" my homeland again. It's a nice place. It always has been. It's always just been the nasty corrupted politicians that drive people away. The nature - magical. The ground beneath your feet - ancient and meaningful. Which unironically, super nicely segways to...
 
-**I love them both**
+#### <span id="love-em-both" class="offset-top-nav">💕 I love them both</span>
 
-I do. I decided to stop being thorn by "having to choose" in my mind. "I'll just love them both". Who said I have to choose favorites? I don't wanna. I'm talking about Bulgaria and Finland. I love them both. There's no denying it that both are home to me. For better or worse. And yes I know, I joke around with Finnish weather (actually I don't - it's really shit, but you only realise it if you've ever had actual good weather 😅), but I love Finland in her own way. It's the home of my son and his birthplace. Therefore it's my home.
+I do. I decided to stop being thorn by "having to choose" in my mind. "I'll just love them both". Who said I have to choose favorites? I don't wanna. I'm talking about Bulgaria and Finland. I love them both. There's no denying it that both are home to me. For better or worse. And yes I know, I joke around with Finnish weather (actually I don't - it's really shit, but you only realise it if you've ever had actual good weather 😅), but I love Finland in her own way. It's the home of my son and his birthplace. Therefore it's my home. Someone special said to me recently something about contradicting herself with different statements. I really liked her expression and it made me think. Was it contradicting, or was what she was describing basically... **balance**? And isn't that what I'm also trying to describe? But why sometimes do we get stuck in the idea of "having to choose" when it's very much ok to lean into different things in life, have variance in experiences, and just feel how the different things enhance each other as they allow reset and recover time to the rest. Very abstract, I know. But **being curious, always trying out new things, cause you never know what might stick**, I think that's key.
 
-- both BG and FI
-- Iines' comments on contradictions which makes me thing of balance and not needing to choose
+TODO: image in above section
 
-TODO:
+#### <span id="ai-engineering" class="offset-top-nav">✨ AI and the spark of engineering</span>
 
-**AI and the spark to engineer**
+It's been a bit of time since I last developed side projects this passionately. A huge reason why this is happening now and again is Google's [Antigravity](https://antigravity.google/). Finally an IDE that trully uses AI as a tool to enhance the developer's experience. We're at an interesting time in history. AI for building projects currently reminds me of calculators in school. You don't wanna use it in 1st-4th grade, but once you've brushed up on the basics and can handle the math yourself, it's great to use the calculator to do the number crunching and **focus on what really matters - figuring out the solution to the problem**. Antigravity handles AI as a tool so well. Gone are the times of randomly pasting stuff into ChatGPT back and forth. Antigravity has AI agents you can use to actually go and do the work, literally running your project locally, having their own browser to click around, develop and test solutions. The artifacts that Gemini inside of Antigravity creates are super useful. Both the implementation plan, the walkthrough, with screenshots and videos of the implementation.
 
-It's been a bit of time since I last developed side projects this passionately. A huge reason why is Google's Antigravity. Finally an IDE that trully uses AI as a tool to enhance the developer's experience. We're at an interesting time in history. AI for building projects currently reminds me of calculators in school. You don't wanna use it in 1st-4th grade, but once you've brushed up on the basics and can handle the math yourself, it's great to use the calculator to do the number crunching and **focus on what really matters - figuring out the solution to the problem**. Antigravity handles AI as a tool so well. Gone are the times of randomly pasting stuff into ChatGPT back and forth. Antigravity has AI agents you can use to actually go and do the work, literally running your project locally, having their own browser to click around, develop and test solutions. The artifacts that Gemini inside of Antigravity creates are super useful. Both the implementation plan, the walkthrough, with screenshots and videos of the implementation. It's been trully very interesting. So I just accomplish features and work and develop the project further, without having to bog myself down with the details of the implementation. At the same time, I can review the implementation's code, adjust it and of course if I want to - still make manual code changes. I'm curious what happens next, but in this AI world where every company has been trying to utilize AI as much as possible and a lot of it has just seemed like wishful thinking and unnecessary hype, now this, this is something. Antigravity is a game changer and an amazing tool! Let's see what happens next, but it's definitely interesting times ahead.
+![Antigravity Walkthrough](my-2025-year-in-review-210.jpg)
 
-**Content, creativity and inspiration**
+It's been trully very interesting. So I just accomplish features and work and develop the project further, without having to bog myself down with the details of the implementation. At the same time, I can review the implementation's code, adjust it and of course if I want to - still make manual code changes. I'm curious what happens next, but in this AI world where every company has been trying to utilize AI as much as possible and a lot of it has just seemed like wishful thinking and unnecessary hype, now this, this is something. Antigravity is a game changer and an amazing tool! Let's see what happens next, but it's definitely interesting times ahead.
 
-I've always liked making things. Mostly as a hobby, pretty pointless too, in fact, this here blog post is a good example of that. I just enjoy putting it together, organizing my thoughts and experiences into it, trying to paint a nice picture of what happened. I am also (not currently actively) working on a book - "Born in Space". I also write travel blogs that are completely private and unpublished. I have made hip hop songs 20 years ago :) I have written fan fiction. I made my own encyclopedia in a notebook when I was 9 :). So there's something there in it. For a few years now I've been contemplating on starting up a YouTube channel. I wanna make movies again. But this time different. My previous channel [FPVTips](https://www.youtube.com/@FPVTips) was a niche venture and focused of course on FPV racing and freestyle drones. This time around I wanna do something different, but more on this later, if it comes to pass, the idea is not completely settled in my head yet.
+#### <span id="content-creativity-inspiration" class="offset-top-nav">✍️ Content, creativity, inspiration</span>
 
-- Georgi's stories
+I've always liked making things. Mostly as a hobby, in a way "pretty pointless", in fact, this here blog post is a good example of that. I just enjoy putting it together, organizing my thoughts and experiences into it, trying to paint a nice picture of what happened. I am also (not currently actively) working on a book - "Born in Space". I also write travel blogs that are completely private and unpublished. I have made [hip hop songs](/eternal-archives/music/) 20 years ago :) I have written [fan fiction](/eternal-archives/). I made my own encyclopedia in a notebook when I was 9 :). So there's something there in it. For a few years now I've been contemplating on starting up a new YouTube channel. I wanna make movies again. But this time different. My previous channel [FPVTips](https://www.youtube.com/@FPVTips) was a niche venture and focused of course on FPV racing and freestyle drones. This time around I wanna do something different, but more on this later, if it comes to pass, the idea is not completely settled in my head yet.
 
-TODO:
+I started a mini series of stories on Instagram called "Georgi's stories" where the idea is super simple - post 365 stories, a year of stories. We're at around 92 at the time of writing this. So time flies :D But it's been an interesting learning opportunity. What I don't like about it is that it forces me to open IG every day, not a big fan of that. I'm not a social media hater, I partake yes, but I believe we all need to be a lot more present and use social media as a tool and not be completely sucked into it and obsessed by it. Anyway, I'm working on accepting that, that for the time being at least I need to log in every day and post something quick, and yes, I know, you can also schedule posts via some third party apps and what not, but I'm not going for any growth tactics on my account or anything. I just wanna have fun with it and I just try to put something up every day. It's not always super creative, in fact, most of my things are just about daily workouts, which I love anyway and is fine by me :) The point is to be real and unfiltered. And I think I'll use this mini project as a stepping stone to possibly going back to making more long form content again in 2026. We'll see.
 
-- creativity and inspiration
-- just doing
-- Georgi's stories (and also social media, posting stuff vs not, to be out there but also that you have to log in every day, social media in general, being presetn etc. )
+<div class="post-social-icon">
+  <img src="/instagram.svg" alt="Instagram" /> Georgi's stories
+</div>
+
+<div class="image-grid tiktok-or-ig-videos">
+
+[![Georgi's stories](my-2025-year-in-review-211.jpg)](https://www.instagram.com/stories/highlights/18389149987130384/)
+
+</div>
+
+Inspiration. The past 2-3 weeks have made me wanna create and write like nothing else before. It's been a long time (if ever) when I last felt like that. It's hard to describe, but also it's very simple to describe. I have a muse. And when you do, things happen. It's such a special feeling, hard or even impossible to reproduce and cue on demand. But when it happens... wow...
 
 ### <span id="goals" class="offset-top-nav">2️⃣0️⃣2️⃣6️⃣</span>
 
@@ -529,36 +553,13 @@ TODO:
 - 🏀 CrossFit, basketball, table tennis with Anton
 - 😄 Smile and have fun
 - ♠️ Learn a couple of card magic tricks
+- 📷 Complete Georgi's Stories on IG
+- 🎥 Make content
 
-- TODO: make content
+So that's the goal list. It is complete, finite and set in stone? Absolutely not. Is it a guiding light with the most important points well covered? Perhaps. I'd like to think so, to some degree. There might be more items I've not put on there. Perhaps, some even pretty important and trully determining the direction of life and development. One thing is for sure - I want to smile, have fun, beam happiness and love to the ones I care about and most anyone else in between. I want to keep doing the things that make me be me, I want to keep finding the moments where I can really just BE. The real moments, where all else dissipates.
 
-TODO: write Outro
+Let's hope for a healthy and nice 2026, full of pleasant challenges, meaningful connections, building things while having fun. Like a little kid in a sandbox. Step by step, scoop by scoop, and then, a year from now, hopefully, we can take a look back and take note of all the progress made in various endevours. The plans are there, the execution will come. But I'd like to end this post with roughly what I started it with: **Journey > Destination**. What good is the end goal, the outcome of all the effort, if in the process you lose yourself, you burn out or you feel miserable. Enjoy the ride, stop to smell the roses ;) Take a break. Take a deep breath. We'll get there eventually, but **HOW WE GET THERE MATTERS**. So many times the journey is the jist of it, it's the true essence of the experience. **Life, happening all around us, right now**. That journey where you still improve and are always hungry for the next step, for the next bite of challenge, the journey where sometimes you don't even notice how much you've improved until later on when you take a look back after some time had passed.
 
-- Journey > Destination
-- beliefs, God, Tangra,
-
-TODO:
-in Intro or Outro - on enjoying journeys(...), importance of love in human lives,
-
-TODO: Final Check Ups
-
-- 1. CONTINUE FROM ** COMMUNITY** and finish
-- 2. Go thru all TODO from the Top
-- create links to all sub sections of other from the table of contents
-- 1 final read pass and check thru yearly pics for any missing pics to add
-- final proofreading
-- add images in places to pace out
-- add highlight text in places
-- final spell check
-
-TODO: Skip topics?:
-
-- work
-- stress at work
-- Sobreity continues?
-- a small section in Bulgarian?
-- "Don't worry about it"
-
-TODO: add 1-2 songs somehow somewhere in the blog?
+So the list above is just a blueprint. How the journey will unfold, and where will it lead me, I can't wait to find out! To a great 2026! Love, Georgi.
 
 [0]: Linkslist
