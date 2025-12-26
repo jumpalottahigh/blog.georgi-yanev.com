@@ -49,7 +49,7 @@ However, the cool thing about the [Mobula7 HD][1] is that it is a micro quad and
 If you prefer watching, check out the full video review:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/FhtL0zSx1AU?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD review on fpvtips on YouTube"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FhtL0zSx1AU?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD review on fpvtips on YouTube" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### 📦 <span id="unboxing">Unboxing</span>
@@ -106,7 +106,7 @@ Here's how the default OSD looks like:
 And here's some example 1080p 60fps footage (and more videos are available at the end of the article):
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/fRrUNozEI_0?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying in Central Park in Plovdiv, Bulgaria"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fRrUNozEI_0?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying in Central Park in Plovdiv, Bulgaria" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### <span id="setup-binding" class="offset-top-nav">⚙ Setup & binding</span>
@@ -167,19 +167,19 @@ Here are a few different videos of flying in very different places in terms of w
 Flying at the top of a hill in Plovdiv, Bulgaria at 272m above sea level, and dealing with some pretty strong winds at the top after gaining another 30 meters altitude.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/OwuMUXXG87A?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying on a hill in Plovdiv, Bulgaria"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/OwuMUXXG87A?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying on a hill in Plovdiv, Bulgaria" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 A smooth flight in a park, with average humidity, no wind and a temperature in the early 20s.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/A0Isy6_wdJQ?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying in Central Park in Plovdiv, Bulgaria"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/A0Isy6_wdJQ?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying in Central Park in Plovdiv, Bulgaria" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 Windy park flight by the Bulgarian seaside.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/jM-l8LQ9B5U?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying in the Sea Garden in Burgas, Bulgaria"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/jM-l8LQ9B5U?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying in the Sea Garden in Burgas, Bulgaria" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 All those flights were carried out on [2S BetaFPV][15] batteries, which naturally brings us to the batteries discussion.
@@ -235,7 +235,7 @@ All of the footage you have seen so far was recorded with the stock props, but j
 And this is how flying with those Gemfan props looks like:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/CLIyXOPPF-Y?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying with Gemfan props"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/CLIyXOPPF-Y?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD flying with Gemfan props" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### ⚡ XT30 with a capacitor

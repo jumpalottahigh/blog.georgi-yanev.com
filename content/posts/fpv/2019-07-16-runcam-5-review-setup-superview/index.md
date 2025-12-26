@@ -42,7 +42,7 @@ Let's find out!
 If you prefer watching, check out the full video review on my YouTube channel:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/fvExmj3n4rU?rel=0" frameBorder="0" allowFullScreen title="RunCam review on FPVtips on YouTube"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fvExmj3n4rU?rel=0" frameBorder="0" allowFullScreen title="RunCam review on FPVtips on YouTube" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### 📦 <span id="unboxing">Unboxing</span>
@@ -183,7 +183,7 @@ I have now played a bunch with the different settings on the RunCam. Here's what
 Here's a comparison video I put together that compares the default settings versus the ones I mentioned above.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/yE98RnLp_Lg?rel=0" frameBorder="0" allowFullScreen title="RunCam 5 comparison of default versus new settings"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/yE98RnLp_Lg?rel=0" frameBorder="0" allowFullScreen title="RunCam 5 comparison of default versus new settings" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 Clicking the three dots at the top right brings up a menu that allows you to restore the default settings or to format the SD card.
@@ -213,7 +213,7 @@ This mount worked pretty well. Attached it with a couple of thicker zip ties and
 Let's go fly! Here's some example flight footage with the default settings, except for being recorded in 1440p 60fps and stretched from its 4:3 ratio to a 16:9.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/RMMOBtqfAi0?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 flying with a RunCam 5 1440p 60fps video"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/RMMOBtqfAi0?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 flying with a RunCam 5 1440p 60fps video" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 Onto more video samples for science!
@@ -231,7 +231,7 @@ So I went ahead and **recorded a sample 1 min clip of me doing the same thing 7 
 Check out all the different samples. To show the playlist click the playlist button at the top right of the video player.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/FtngCmiQQoE?rel=0&list=PLLsZew4NRcdcroePNThuW-2bBq8Xoze7S" frameBorder="0" allowFullScreen title="RunCam 5 sample videos with all different resolutions"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FtngCmiQQoE?rel=0&list=PLLsZew4NRcdcroePNThuW-2bBq8Xoze7S" frameBorder="0" allowFullScreen title="RunCam 5 sample videos with all different resolutions" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 Here's the thing about FPV videos. You are the judge of what you prefer watching and how you would like to express yourself in the videos you make. For instance, to me, it's more important to have the video with buttery smooth 60fps than to have a 4k resolution. In fact, I don't think there even is a need for 4k. 2.7k at 60fps would be awesome, but alas, the RunCam 5 records 2.7k at up to 50fps. It's not the end of the world, but it sure is not 60fps.
@@ -274,7 +274,7 @@ Here are some things to keep in mind:
 - You will see the props and the stand-off or parts of the frame through the fpv camera, and you would not see those through the RunCam 5.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/R_31tQNzBpA?rel=0" frameBorder="0" allowFullScreen title="RunCam 5 vs RunCam Split 2 raw video and audio comparison"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/R_31tQNzBpA?rel=0" frameBorder="0" allowFullScreen title="RunCam 5 vs RunCam Split 2 raw video and audio comparison" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>

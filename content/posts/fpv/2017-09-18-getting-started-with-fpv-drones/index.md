@@ -31,7 +31,7 @@ It is also pretty nice that the kit comes with some spare screws and zip ties. P
 Suffice it to say I am never again (until I get good at flying) flying on anything else but grass.
 Here's quick and dirty mix of the first flight.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oumHGODwJ-s?rel=0" frameBorder="0" allowFullScreen title="first test flight with eachine wizard"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oumHGODwJ-s?rel=0" frameBorder="0" allowFullScreen title="first test flight with eachine wizard" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 You also get this Flysky FS-i6 radio in the kit and from what I have gathered it seems to be a decent radio when you get into the hobby. The [Taranis][3] radio seems to be killing it in terms of popularity among pros, but for our noob needs, the Flysky totally handles things. I assume the Taranis are great radios, they also cost a bit more, but I cannot recommend a specific model, since I haven't gotten my hands on one just yet, so stay tuned. If for whatever reason you only have a quad here's the link to the [Flysky FS-i6][4] radio.
 

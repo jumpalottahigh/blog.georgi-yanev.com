@@ -112,7 +112,7 @@ The article makes for an interesting read and in particular, this table is worth
 Finally, another resource worth checking out is the JAMstack video on the Google Chrome Developers YouTube channel by [Surma][12] and [Jake Archibald][13].
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/QXsWaA3HTHA?rel=0" frameBorder="0" allowFullScreen title="JAMstack with Surma and Jake Archibald from the Google Chrome team"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/QXsWaA3HTHA?rel=0" frameBorder="0" allowFullScreen title="JAMstack with Surma and Jake Archibald from the Google Chrome team" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 <div style="margin-top: 3rem; margin-bottom: 1rem;">

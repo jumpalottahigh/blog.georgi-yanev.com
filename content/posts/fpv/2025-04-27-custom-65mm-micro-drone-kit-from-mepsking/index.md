@@ -236,19 +236,19 @@ We are officially done! Let's go fly!
 All in all, I'm pretty happy with how the little fellow flew, even if in my test flights as you will see was a tiny bit windy on a pretty cold winter day, albeit at least sunny. I'm sure the battery performance tanked a tiny bit as it wasn't warmer than 5-6 degrees Celsius. Check out the test flights, and you can excuse the vibrations from the not-so-perfectly mounted cam. But if we talk flight characteristics, it did pretty well with these motors and props combo and you can see me turn up the speed in the later flights, that's why I'll actually list the test flights below in reverse order - from the 4th to the 1st, just because I got quickly a lot more confident and got used to the craft towards the end and I think that best showcases its capabilities.
 
 <div style="text-align: center">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/j_qc6SrCIWc?rel=0" frameBorder="0" allowFullScreen title="Mepsking 65mm micro drone kit flight 4"></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/j_qc6SrCIWc?rel=0" frameBorder="0" allowFullScreen title="Mepsking 65mm micro drone kit flight 4" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 <div style="text-align: center">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/wy36bztLvYw?rel=0" frameBorder="0" allowFullScreen title="Mepsking 65mm micro drone kit flight 3"></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/wy36bztLvYw?rel=0" frameBorder="0" allowFullScreen title="Mepsking 65mm micro drone kit flight 3" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 <div style="text-align: center">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/vrNqKOxAoMY?rel=0" frameBorder="0" allowFullScreen title="Mepsking 65mm micro drone kit flight 2"></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/vrNqKOxAoMY?rel=0" frameBorder="0" allowFullScreen title="Mepsking 65mm micro drone kit flight 2" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 <div style="text-align: center">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/Xig9gUToFfc?rel=0" frameBorder="0" allowFullScreen title="Mepsking 65mm micro drone kit flight 1"></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/Xig9gUToFfc?rel=0" frameBorder="0" allowFullScreen title="Mepsking 65mm micro drone kit flight 1" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 Happy flying!

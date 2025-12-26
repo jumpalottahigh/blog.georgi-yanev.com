@@ -72,13 +72,13 @@ I went for option number two. It was easiest, and there was enough space to safe
 Here's my first flight after I changed the coaxial cable...
 
 <div style="text-align: center">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/CiIYsMnCeGA?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD first flight after caddx cable repair"></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/CiIYsMnCeGA?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD first flight after caddx cable repair" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ... and here is the full Mobula7 HD review on my FPVtips channel on YouTube:
 
 <div style="text-align: center">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/FhtL0zSx1AU?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD review on the FPVtips YouTube channel"></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/FhtL0zSx1AU?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD review on the FPVtips YouTube channel" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 Happy Flying!

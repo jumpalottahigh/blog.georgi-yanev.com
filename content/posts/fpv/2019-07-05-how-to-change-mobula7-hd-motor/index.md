@@ -95,7 +95,7 @@ Happy flying!
 Here's a playlist of about ~ 66 packs I've flown on the Mobula7 HD to this day and loving it!
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/cRzGT1Ltwq4?rel=0&list=PLt8_2AobQjAd_y_vSbyHq-PQWNGL_RnWT&index=47" frameBorder="0" allowFullScreen title="Georgi FPV Mobula7 HD footage"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cRzGT1Ltwq4?rel=0&list=PLt8_2AobQjAd_y_vSbyHq-PQWNGL_RnWT&index=47" frameBorder="0" allowFullScreen title="Georgi FPV Mobula7 HD footage" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 [0]: Linkslist

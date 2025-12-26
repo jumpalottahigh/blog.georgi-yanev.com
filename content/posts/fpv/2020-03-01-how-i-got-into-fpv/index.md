@@ -25,7 +25,7 @@ ogImage: './how-i-got-into-fpv-1.jpg'
 FPV stands for First Person View and in the context of FPV drones usually refers to flying a drone for freestyle or racing while viewing the feed from a camera mounted on drone as if you were the pilot. This is what it looks like:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Bi6uK1E2tkQ?rel=0" frameBorder="0" allowFullScreen title="Flying the Emax Hawk5"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Bi6uK1E2tkQ?rel=0" frameBorder="0" allowFullScreen title="Flying the Emax Hawk5" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ## 📖 How I got into FPV

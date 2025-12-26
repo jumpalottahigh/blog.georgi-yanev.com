@@ -46,7 +46,7 @@ But while figuring out how to put together my own craft, and while waiting for t
 If you prefer watching, check out the full video review on my YouTube channel:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/W4f8TyaOjBw?rel=0" frameBorder="0" allowFullScreen title="Eachine E016F hvoercraft full review"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/W4f8TyaOjBw?rel=0" frameBorder="0" allowFullScreen title="Eachine E016F hvoercraft full review" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### 📦 <span id="unboxing">Unboxing</span>
@@ -155,7 +155,7 @@ I really do enjoy the hovercraft experience. It's also a fun thing to do togethe
 **Update:**
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/SxZNubzFuwc?rel=0" frameBorder="0" allowFullScreen title="Eachine E016F hovercraft mode in snow and water"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/SxZNubzFuwc?rel=0" frameBorder="0" allowFullScreen title="Eachine E016F hovercraft mode in snow and water" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### <span id="fpv-upgrade" class="offset-top-nav">🔝 FPV upgrade</span>
@@ -197,7 +197,7 @@ That's all there is to it. Here's some sample footage, it was actually surprisin
 ![Eachine E016F with FPV mod](e016f-hovercraft-and-a-drone-29.jpg)
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/OvrQs372rbA?rel=0" frameBorder="0" allowFullScreen title="Eachine E016F FPV mod"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/OvrQs372rbA?rel=0" frameBorder="0" allowFullScreen title="Eachine E016F FPV mod" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### <span id="conclusion" class="offset-top-nav">📑 Conclusion</span>

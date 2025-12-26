@@ -108,7 +108,7 @@ All in all from what I've seen from this module so far and what I've used it for
 Here's a link if you decide to grab the <a href="https://www.mepsking.shop/jumper-aion-2-4ghz-nano-els-tx-module.html?inviterId=1869316794740477954&utm_source=affiliate&utm_medium=affiliate" target="_blank" rel="noopener noreferrer">Jumper AION ELRS nano module</a>.
 
 <div style="text-align: center">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/j_qc6SrCIWc?rel=0" frameBorder="0" allowFullScreen title="Mepsking 65mm micro drone kit flight 4"></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/j_qc6SrCIWc?rel=0" frameBorder="0" allowFullScreen title="Mepsking 65mm micro drone kit flight 4" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 Happy flying!

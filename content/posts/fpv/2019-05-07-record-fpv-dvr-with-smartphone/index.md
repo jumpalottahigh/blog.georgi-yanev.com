@@ -59,7 +59,7 @@ For bonus points, you can set this up so that your Google Photos app picks up th
 Another thing worth mentioning is that this has simplified spotting so much when I go fly with my buddy. We both have android phones, so when the other flies, we just pass the [Eachine ROTG02][1], plug it in and search for the correct channel. Super easy!
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/2dgsjubo-MI?rel=0" frameBorder="0" allowFullScreen title="DVR recorded with the Eachine ROTG02 on Go FPV on Android"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/2dgsjubo-MI?rel=0" frameBorder="0" allowFullScreen title="DVR recorded with the Eachine ROTG02 on Go FPV on Android" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 [0]: Linkslist

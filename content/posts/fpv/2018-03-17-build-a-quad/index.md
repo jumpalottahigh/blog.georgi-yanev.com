@@ -180,7 +180,7 @@ Lastly, I'll upload a video of the maiden flight as soon as I have completed it!
 Here is some 1080p 60fps footage from the maiden flight:
 
 <div id="maiden-flight" style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/398BDc5mvuA?rel=0" frameBorder="0" allowFullScreen title="Custom quad build maiden flight"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/398BDc5mvuA?rel=0" frameBorder="0" allowFullScreen title="Custom quad build maiden flight" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### <span id="update-april-2019" class="offset-top-nav">Update: April 2019</span>
@@ -250,15 +250,15 @@ Here's how the quad looks these days:
 And here is some footage:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/NM_6JpppqZg?rel=0" frameBorder="0" allowFullScreen title="Custom quad build a year later, video 1"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NM_6JpppqZg?rel=0" frameBorder="0" allowFullScreen title="Custom quad build a year later, video 1" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/SPCKjB2XKcI?rel=0" frameBorder="0" allowFullScreen title="Custom quad build a year later, video 2"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/SPCKjB2XKcI?rel=0" frameBorder="0" allowFullScreen title="Custom quad build a year later, video 2" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/PigsOtpozno?rel=0" frameBorder="0" allowFullScreen title="Custom quad build a year later, video 3"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PigsOtpozno?rel=0" frameBorder="0" allowFullScreen title="Custom quad build a year later, video 3" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 [0]: Linkslist

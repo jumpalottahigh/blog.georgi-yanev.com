@@ -39,7 +39,7 @@ I'll try to cover almost all cases and be as objective as possible, while also m
 If you prefer watching, check out the full video review on my YouTube channel:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/8DyISPMRlNk?rel=0" frameBorder="0" allowFullScreen title="Skyzone 02X review and setup"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8DyISPMRlNk?rel=0" frameBorder="0" allowFullScreen title="Skyzone 02X review and setup" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### 📦 <span id="unboxing">Unboxing</span>
@@ -214,13 +214,13 @@ Don't forget to insert and SD card, and then the recording is as simple as press
 Here is some example DVR overlayed in the corner of an HD video.
 
 <div style="text-align: center">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/Bi6uK1E2tkQ?rel=0" frameBorder="0" allowFullScreen title="Skyzone SKY02X DVR overlay"></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/Bi6uK1E2tkQ?rel=0" frameBorder="0" allowFullScreen title="Skyzone SKY02X DVR overlay" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 And here is a FULL DVR only video:
 
 <div style="text-align: center">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/fG4mwlPwN10?rel=0" frameBorder="0" allowFullScreen title="Skyzone SKY02X DVR of Emax Hawk 5"></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/fG4mwlPwN10?rel=0" frameBorder="0" allowFullScreen title="Skyzone SKY02X DVR of Emax Hawk 5" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### 🔝 Other functions

@@ -44,7 +44,7 @@ So the obvious question was **"can we have that performance but also enjoy a 108
 If you prefer watching, check out the full video review on my YouTube channel:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/9jfBoCc-p2w?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD review, complete setup, many test flights"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/9jfBoCc-p2w?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD review, complete setup, many test flights" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### <span id="unboxing" class="offset-top-nav">📦 Unboxing</span>
@@ -247,7 +247,7 @@ With all of this done, we are finally ready to go fly!
 The maiden flight went well. I was blown away at the amount of performance this drone has. This was the **first time I had to consciously put effort to keep my throttle so low**. I think the majority of the flight while getting used to how the [GEPRC Skip3 HD][1] flies I had to do my best to keep the throttle at 30-35%. The reason for that is that if you go slightly above that value, the quad TAKES OFF.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/snYBLDw_sRs?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD maiden on GNB 4S 520mAh battery"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/snYBLDw_sRs?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD maiden on GNB 4S 520mAh battery" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 This genuinely made me wonder about how it would fly on 3S or even a 2S battery. However, there is **no doubt that if you need performance and fly on 4S, the Skip3 HD will deliver**.
@@ -265,7 +265,7 @@ A thing to note is that the manufacturer **EXPLICITLY STATES YOU SHOULD NOT FLY 
 One of the first things I did when testing this drone was to go to the field where I usually only fly my 5-inch drones. It's a pretty big open field and that day was a bit windy too - with wind up to 7-8 m/s. I was curious to test this after seeing that the Skip3 HD was a performance monster and indeed it handled the wind with no issues and it flew around (dare I say it) almost like my 5-inch drones. Very interesting. **Flight time was still around 5 minutes, even though I was pushing it more and it had to combat the wind actively.**
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/jpsO2_jWgLY?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD big open field"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/jpsO2_jWgLY?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD big open field" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### Flight test on a heavier 4S battery - Turnigy 4S 500mAh (149.7g AUW)
@@ -276,7 +276,7 @@ For example, a 4S GNB 650mAh battery would be about **25g** heavier than the 4S 
 I'm not planning on testing that scenario, however, because I'm happy with how it flies on the 520s I have.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/eWuRqClLBZo?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD big open field on a heavy Turnigy 4S 500 mAh battery"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/eWuRqClLBZo?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD big open field on a heavy Turnigy 4S 500 mAh battery" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### Flight test on a 2S GNB 450mAh battery
@@ -286,7 +286,7 @@ Flying on a 2S 450mAh battery **tanks the performance of the quad a bit and you 
 I don't recommend getting 2S batteries if you are buying now, but if you have some lying around it's good to know that you can use them and get a decent flight experience from them.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/0Liu_pogAp0?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD parking lot on 2S 450mAh"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/0Liu_pogAp0?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD parking lot on 2S 450mAh" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### Flight test on a 3S 300mAh battery?
@@ -300,7 +300,7 @@ And when I finally got around to testing it, there were no surprises - it flies 
 On the other hand I caught a very sunny day on that flight and you can get a sense of how the camera performs in such conditions as well.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/JBg2vqF3VPw?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD on a very small 300mAh 3S battery"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JBg2vqF3VPw?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD on a very small 300mAh 3S battery" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### 💀 Flight test on 2S battery with tri-blade Avan Rush 2.5" prop
@@ -312,7 +312,7 @@ However, I was curious and I did it for you, so you don't have to wonder. Even t
 I decided to **fly my favorite Avan Rush 2.5" tri-blade props**. To begin with, I started with a 2S flight and was just cruising around at first, looking at the amps drawn. On average we were going around 4-6 amps, which is pretty decent.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/3VsFE1ps5gw?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD tri-blade props on 2S 450mAh"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/3VsFE1ps5gw?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD tri-blade props on 2S 450mAh" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### 💀 Flight test on 4S battery with tri-blade Avan Rush 2.5" prop
@@ -320,7 +320,7 @@ I decided to **fly my favorite Avan Rush 2.5" tri-blade props**. To begin with, 
 The next flight was on 4S and I have to admit I was a bit worried about how it would go. Luckily it was fine. I peaked up to 9 amps drawn on some tight corner turns and the motors were indeed just a bit warm after the flight.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/-tUqXGnecac?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD tri-blade props on 4S 520mAh"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-tUqXGnecac?rel=0" frameBorder="0" allowFullScreen title="GEPRC Skip3 HD tri-blade props on 4S 520mAh" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 We need to take into account that it was not a very warm day (maybe around 7-8 degrees celsius / 44f - 46f) and there was some cool wind. I mention this just in case it was what made the difference between cooled and burned motors.
@@ -358,7 +358,7 @@ After having flown this quad for a few months I'm still pretty happy with it ove
 With that out of the way, I'd say for now, I'm really, really happy how the drone flies with those props. Just going from 2.5 to 3 inch makes a big difference in terms of raw performance, but at the same time the Gemfan 3016 props handle just as easy as the Avon Rush. Big fan.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/qybXkoGLitw?rel=0" frameBorder="0" allowFullScreen title="GEPRC SkipHD 3 with GEMFAN 3016 tri-blade props"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/qybXkoGLitw?rel=0" frameBorder="0" allowFullScreen title="GEPRC SkipHD 3 with GEMFAN 3016 tri-blade props" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 [0]: Linkslist

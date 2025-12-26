@@ -35,7 +35,7 @@ In this article, I'll walk you through everything you need to know and do to get
 If you prefer watching, check out the full video on the [FPVtips][3] YouTube channel:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/l9exUE6DTso?list=PLLsZew4NRcddaEaRPXDAeGo6YlTXgCjHO&rel=0" frameBorder="0" allowFullScreen title="DJI Digital FPV system - Unboxing and COMPLETE setup with Holybro Kopis 2 HDV /part 2/"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/l9exUE6DTso?list=PLLsZew4NRcddaEaRPXDAeGo6YlTXgCjHO&rel=0" frameBorder="0" allowFullScreen title="DJI Digital FPV system - Unboxing and COMPLETE setup with Holybro Kopis 2 HDV /part 2/" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### <span id="unboxing" class="offset-top-nav">📦 Unboxing</span>
@@ -384,13 +384,13 @@ Do not judge the [Holybro Kopis2 HDV][1]'s flight performance from the maiden fl
 With that out of the way, the quad still flew superbly. As expected from this type of a motor and battery combo, the quad was very timid and super easy to handle, but of course, naturally, it lacked some performance which was due to the 4S batteries used.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/qn7gfNfE5c4?rel=0" frameBorder="0" allowFullScreen title="Maiden with the DJI digital FPV system on Holybro Kopis2 HDV 4S #1 (2020 #60)"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/qn7gfNfE5c4?rel=0" frameBorder="0" allowFullScreen title="Maiden with the DJI digital FPV system on Holybro Kopis2 HDV 4S #1 (2020 #60)" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 I did 2 flights on 4S, and each time I got over 6 minutes of flight time. Admittedly I wasn't in a rush to push it around like crazy or anything, just cruising around taking in the view and enjoying! It was a really fun experience, to be honest. I could start seeing some pixelization from the poor connection as I went towards the far end of the field and with the antennas completely hidden from sight while on 25mW. I attribute this effect to the power output. I am curious to see how it would be with higher power output, even without fixing the antennas position.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/GXepohD4z7o?rel=0" frameBorder="0" allowFullScreen title="Maiden with the DJI digital FPV system on Holybro Kopis2 HDV 4S #2 (2020 #61)"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GXepohD4z7o?rel=0" frameBorder="0" allowFullScreen title="Maiden with the DJI digital FPV system on Holybro Kopis2 HDV 4S #2 (2020 #61)" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### Flight #2: CNHL MiniStar 6S 1000mAh battery, 25mW air unit power output, T-5143S prop (lower pitch), 16:9 aspect ratio
@@ -398,13 +398,13 @@ I did 2 flights on 4S, and each time I got over 6 minutes of flight time. Admitt
 In the second set of flights, I flew the Holybro Kopis2 on 6S batteries and you can tell the quad performed better, as expected. I was punching the throttle more frequently but still mostly cruising around, enjoying the experience of the DJI digital FPV system, discovering things, and getting used to the new controller. The other thing I changed at this point was the camera aspect ratio, so now I fly in 16:9 which I'm much more used to and comfortable with.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/KFx2K9bluWs?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV goggles DVR at 25mW on Holybro Kopis2 HDV 6S 1000mAh Before the Storm #1 (2020 #62)"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/KFx2K9bluWs?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV goggles DVR at 25mW on Holybro Kopis2 HDV 6S 1000mAh Before the Storm #1 (2020 #62)" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 We are still evaluating the flight experience at just 25mW output power on the DJI air unit and the lower pitch props that come with the Holybro Kopis2 HDV (T-5143S). I caught a pretty dramatic looking pre-storm day, where half the sky was clear and light blue and the other half dark gray and navy blue. While I flew there were some pretty strong gusts of wind, so take note of that, but in general, the flight conditions were not very bad.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/eNpZxwqrXj0?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV air unit recording on Holybro Kopis2 HDV 6S 1000mAh Before the Storm #2 (2020 #63)"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/eNpZxwqrXj0?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV air unit recording on Holybro Kopis2 HDV 6S 1000mAh Before the Storm #2 (2020 #63)" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 Flight times were still pretty decent at over 4:00 - 4:30 minutes. The cool thing about 6S batteries is that there's no voltage sag even towards the end of the battery. Overall the power feels more consistent throughout the entire flight.
@@ -416,13 +416,13 @@ In the third set of flight tests, I changed the power output of the DJI ait unit
 I ended up mostly cruising and taking in the view during the first of the flights and got a flight time of about 6 minutes again.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/uMNMWGw_2Bw?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV air unit and goggles DVR at 700mW - Holybro Kopis2 HDV 6S 1000mAh #1 (2020 #64)"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/uMNMWGw_2Bw?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV air unit and goggles DVR at 700mW - Holybro Kopis2 HDV 6S 1000mAh #1 (2020 #64)" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 I also lowered the camera angle to about 35 or so degrees. I should report that I've been getting cut off footage on the air unit. The recording on the goggles is always there and in full. It could be an SD card issue (I have now tested with 2 different SD cards, but will also test with a high-quality brand new one). It could also be that I'm unplugging the quad too soon and I lose a few seconds of footage. However, in some of the flights, the footage is gone after about a minute of flying.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/iHIOLsfNS1A?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV air unit and goggles DVR at 700mW - Holybro Kopis2 HDV 6S 1000mAh #2 (2020 #65)"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iHIOLsfNS1A?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV air unit and goggles DVR at 700mW - Holybro Kopis2 HDV 6S 1000mAh #2 (2020 #65)" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>
@@ -462,7 +462,7 @@ I've only been flying the DJI digital FPV system for about a month at the time o
 I did have one major issue though that I'm currently investigating and have no answer for: I had a failsafe flying over a small island (luckily the drone did not fall in the sea 😅). You can see that at the end of this video.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/EIlwsMblwM4?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV failsafe over an island in the sea - Holybro Kopis2 HDV (2020 #69)"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/EIlwsMblwM4?rel=0" frameBorder="0" allowFullScreen title="DJI digital FPV failsafe over an island in the sea - Holybro Kopis2 HDV (2020 #69)" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 **You probably notice how I did a flip, them the quad goes sideways as it failsafed and then you hear how the flight controller restarted.**

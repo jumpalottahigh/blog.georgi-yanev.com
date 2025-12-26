@@ -35,7 +35,7 @@ We need to figure out the issue and the faulty component. Most times when we end
 In today's example, we're going to be investigating this issue I had with the [GEPRC Phantom][1].
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/9FO9vbivfQw?rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom motor issues demo"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/9FO9vbivfQw?rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom motor issues demo" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 I had a strong reason to believe that I burned the motor, after [my battery fell off during a 4S battery test][4].
@@ -109,11 +109,11 @@ I hope it works out well for you and happy flying!
 ![GEPRC Phantom with new motor and new HQ 65mm props](how-to-replace-a-motor-on-the-geprc-phantom-7.jpg)
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/sDu8JbPATlc?rel=0" frameBorder="0" allowFullScreen title="Georgi FPV GEPRC Phantom back in action after a motor swap - HQ 65mm props"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sDu8JbPATlc?rel=0" frameBorder="0" allowFullScreen title="Georgi FPV GEPRC Phantom back in action after a motor swap - HQ 65mm props" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/b34dhDPSXLk?rel=0" frameBorder="0" allowFullScreen title="Georgi FPV GEPRC Phantom back in action after a motor swap - Avan Rush 2.5 inch props"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/b34dhDPSXLk?rel=0" frameBorder="0" allowFullScreen title="Georgi FPV GEPRC Phantom back in action after a motor swap - Avan Rush 2.5 inch props" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 [0]: Linkslist

@@ -310,7 +310,7 @@ Happy flying!
 - High quality transmitter
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/g-VcWandhRc?rel=0" frameBorder="0" allowFullScreen title="Dalprop Cyclone on Emax Hawk5"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/g-VcWandhRc?rel=0" frameBorder="0" allowFullScreen title="Dalprop Cyclone on Emax Hawk5" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 [0]: Linkslist

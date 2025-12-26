@@ -110,7 +110,7 @@ You can check their direction by sliding up the slider for each motor individual
 That's it! Test arming your drone without any props to verify that the new motor moves in the direction you want it to move. If not, reverse the direction in BLHELI configurator. I hope it all worked out well for you so you can enjoy flying once again!
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/fzmSGztMq0Y?rel=0" frameBorder="0" allowFullScreen title="Chill November flight with the Eachine Wizard x220"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fzmSGztMq0Y?rel=0" frameBorder="0" allowFullScreen title="Chill November flight with the Eachine Wizard x220" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 [0]: Linkslist

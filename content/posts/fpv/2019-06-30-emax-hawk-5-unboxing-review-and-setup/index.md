@@ -40,7 +40,7 @@ Today we are having a look at the [Emax Hawk 5][1] BNF 5 inch quad. Let's get to
 If you prefer watching, check out the full video review on my YouTube channel:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/iwnFSL7SAcQ?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD review on fpvtips on YouTube"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iwnFSL7SAcQ?rel=0" frameBorder="0" allowFullScreen title="Mobula7 HD review on fpvtips on YouTube" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### 📦 <span id="unboxing">Unboxing</span>
@@ -198,11 +198,11 @@ Next, let's jump into Betaflight and set up the switches.
 I mentioned already perfect tune. Like, literally my first flight experience, from the first second, the PID tuning just clicked with me. Every roll, every flip, was spot on axis, very easy to perform. Amazing work there by Emax. In fact, here's the DVR footage from the maiden flight and my first ever time flying this quad.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/yaP5ZEdxjeQ?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 Maiden 1"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/yaP5ZEdxjeQ?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 Maiden 1" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/fJIqgj6Id9U?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 Maiden 2"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fJIqgj6Id9U?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 Maiden 2" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 I am simply in love with that tune. Out of the box with 0 extra tunings. Impressive!
@@ -260,7 +260,7 @@ In my tests, I flew mostly [1300 mah 4S][4] packs, and a few [1500 mah 4S][5]. I
 **Sunny day**
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/htWUFSzpH14?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 very sunny day"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/htWUFSzpH14?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 very sunny day" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 **I think this is hands down the best quad I have flown to date!** My custom build quad doesn't fall too short either, although it cost a bit less to make, I'm not sure about the value comparison if I factor in the time I put in it and all the issues I had to go through. You can [read about my entire experience building it here][11]. I mean building is fun, but if you wanna fly quick, BNF is probably one of the fastest ways to get in the sky. At least before you get good at building if that's your cup of tea.
@@ -268,7 +268,7 @@ In my tests, I flew mostly [1300 mah 4S][4] packs, and a few [1500 mah 4S][5]. I
 **Overcast day**
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/WDDIkdS-HBA?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 overcast"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/WDDIkdS-HBA?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 overcast" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 The PID tune really clicked with me from the first pack, the quad was really snappy and fast. It cuts the corners nicely and simply put is just a joy to fly. It definitely packs a punch and is truly so much fun to fly. Very responsive as well.
@@ -280,7 +280,7 @@ I was curious to what degree that pretty unique flight characteristic was becaus
 **Gemfan Hurricane props and late night Finnish sunny summer day (sun very low on the horizon)**
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/jeIA1IsE5U8?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 with Gemfan Hurricane props on a very sunny day, late night, sun low on the horizon"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/jeIA1IsE5U8?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 with Gemfan Hurricane props on a very sunny day, late night, sun low on the horizon" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 The bottom line? The [Hawk 5][1] still flies nice, but with the same rates, I actually had to noticeably deflect the sticks further to perform the same maneuvers. I feel like the power consumption was lower (haven't measured, so this is just a gut feel, take it for what it is), but also the Hawk lost some of its punch. I will continue testing and experimenting with different props for fun, but **I am convinced that the [Avan Flow][6]'s are probably the best match for this particular craft**.
@@ -304,13 +304,13 @@ I'm currently expecting a [RunCam 5][13] to arrive and definitely planning on te
 **Update:** I got the RunCam 5 and as expected, the Hawk flies flawlessly with it. The RunCam 5 is about 56g and even lighter than a GoPro. Here's some example footage of flying the Emax Hawk 5 with a RunCam 5 on it.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/9x8dLzg8v0w?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 flying with RunCam 5 on it"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/9x8dLzg8v0w?rel=0" frameBorder="0" allowFullScreen title="Emax Hawk 5 flying with RunCam 5 on it" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 And here's the full Emax Hawk 5 playlist on my YouTube channel - [Georgi FPV][17]:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/yaP5ZEdxjeQ?rel=0&list=PLt8_2AobQjAchnnycxVjtuaoVJFIkDjyw" frameBorder="0" allowFullScreen title="Emax Hawk 5 full playlist on Georgi FPV on YouTube"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/yaP5ZEdxjeQ?rel=0&list=PLt8_2AobQjAchnnycxVjtuaoVJFIkDjyw" frameBorder="0" allowFullScreen title="Emax Hawk 5 full playlist on Georgi FPV on YouTube" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 I'm also considering modding the Emax Hawk with a camera that records HD footage, maybe a [RunCam Split Mini 2][14] or a [Caddx Turtle V2][15]. And will make sure to post an update if I do. If you are interested, [subscribe to the newsletter][16] and get notified.

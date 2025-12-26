@@ -47,7 +47,7 @@ That's all just to say that while I do like Happymodel, I will be, as always, te
 If you prefer watching, check out the full video review on my YouTube channel:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/INYdY-2tP9E?rel=0" frameBorder="0" allowFullScreen title="Happymodel Mobula6 - review, binding, complete setup, JESC 48 kHz MOD | BEST WHOOP WINTER 2020"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/INYdY-2tP9E?rel=0" frameBorder="0" allowFullScreen title="Happymodel Mobula6 - review, binding, complete setup, JESC 48 kHz MOD | BEST WHOOP WINTER 2020" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### 📦 <span id="unboxing">Unboxing</span>
@@ -210,7 +210,7 @@ I was very excited and curious to fly the Mobula6 for the first time. **My first
 #### 🏡 Maiden indoor flight, stock 300mah battery 🔋
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/DEBMEWkzK80?rel=0" frameBorder="0" allowFullScreen title="Mobula6 maiden"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/DEBMEWkzK80?rel=0" frameBorder="0" allowFullScreen title="Mobula6 maiden" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 **I always enjoy trying out different battery and prop combinations in my reviews** and this time I had a lot of tests to carry out.
@@ -266,7 +266,7 @@ Since the battery didn't fit into the battery bay I used a rubber band to mount 
 I could feel the extra weight a bit but it wasn't too bad. I assume mainly because my place is a bit small and I don't reach particularly much higher than cruising speeds.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/82ZDLYa6QSQ?rel=0" frameBorder="0" allowFullScreen title="Mobula6 indoor 450mah GNB battery"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/82ZDLYa6QSQ?rel=0" frameBorder="0" allowFullScreen title="Mobula6 indoor 450mah GNB battery" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### 🌄 Maiden outdoor flight, stock 300mah battery 🔋
@@ -274,7 +274,7 @@ I could feel the extra weight a bit but it wasn't too bad. I assume mainly becau
 I was **very impressed how this little guy held up outdoors** and did not expect it to be that good. My house is a bit too small to be able to fly indoors in acro mode, but that was not the case outside. I really **loved flying it in acro mode**! Locked in tune and easy to handle! If you watch one video only, watch the one below.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/wsYHAh6wjLY?rel=0" frameBorder="0" allowFullScreen title="Mobula6 maiden outdoor flight"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wsYHAh6wjLY?rel=0" frameBorder="0" allowFullScreen title="Mobula6 maiden outdoor flight" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### 🌄 Outdoor flight, 450mah GNB battery 🔋
@@ -282,7 +282,7 @@ I was **very impressed how this little guy held up outdoors** and did not expect
 This flight was a bit of a letdown. Unlike the indoor 450mah battery flight, here I got a pretty short flight time of around **2:30m**. It was a pretty calm day with a bit of slight breeze every once in a while. The bigger battery's extra weight seemed to take its toll and was noticeable even when cruising as I had the throttle higher on average.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/cbxoLULju90?rel=0" frameBorder="0" allowFullScreen title="Mobula6 outdoor 450mah battery"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cbxoLULju90?rel=0" frameBorder="0" allowFullScreen title="Mobula6 outdoor 450mah battery" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 So how did things change after I flashed the JESC 48 kHz firmware? Let's compare.
@@ -292,7 +292,7 @@ So how did things change after I flashed the JESC 48 kHz firmware? Let's compare
 On average we gained a flight time increase of **+ 48 seconds**. Not bad at all! Also chances are I'm flying even faster since I've gotten so much more used to the Mobula6 by now.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/FzyjrwdPZFg?rel=0" frameBorder="0" allowFullScreen title="Mobula6 indoor 300mah stock battery after JESC 48 khz firmware"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FzyjrwdPZFg?rel=0" frameBorder="0" allowFullScreen title="Mobula6 indoor 300mah stock battery after JESC 48 khz firmware" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### 🏡 Indoor flight, JESC 48 kHz, 450mah GNB battery 🔋
@@ -300,7 +300,7 @@ On average we gained a flight time increase of **+ 48 seconds**. Not bad at all!
 It would appear that we have lost up to **- 52 seconds** of flight time. Given in the first attempts I was flying much less aggressive and had a few crashes I needed to recover from with turtle mode (which counted as flying time) this could explain the result. **HOWEVER**, I never claimed nor attempted for the highest accuracy scientifically correct experiment, but the point here for me still stands - **at best, there is no improvement in flight time with the heavier battery**.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/sxuJzyF1P1g?rel=0" frameBorder="0" allowFullScreen title="Mobula6 indoor 450mah GNB 1S battery after JESC 48 khz firmware"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sxuJzyF1P1g?rel=0" frameBorder="0" allowFullScreen title="Mobula6 indoor 450mah GNB 1S battery after JESC 48 khz firmware" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### 🌄 Outdoor flight, JESC 48 kHz, 300mah stock battery 🔋
@@ -308,7 +308,7 @@ It would appear that we have lost up to **- 52 seconds** of flight time. Given i
 I've been having plenty of bad weather, but was finally able to try flying the Mobula6 outside after the upgrade. On average I didn't notice a crazy big improvement, although there was an improvement in flight times of about 10 - 15s.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/0o19zMUdpzE?rel=0" frameBorder="0" allowFullScreen title="Mobula6 outdoor 300mah stock 1S battery after JESC 48 khz firmware"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/0o19zMUdpzE?rel=0" frameBorder="0" allowFullScreen title="Mobula6 outdoor 300mah stock 1S battery after JESC 48 khz firmware" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### 🌄 Outdoor flight, JESC 48 kHz, 450mah GNB battery 🔋
@@ -316,7 +316,7 @@ I've been having plenty of bad weather, but was finally able to try flying the M
 I've been having plenty of bad weather, but was finally able to try flying the Mobula6 outside after the upgrade. I've been getting between 3:30 and 4:00 flight times, so there has definitely been an improvement since the ESC firmware upgrade. Bare in mind I conducted those tests at about 0 - 2 degrees Celsius (32 F), so in slightly warmer weather you might get even better results. All in all I'm happy with the results.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/_ge8t2IQdvU?rel=0" frameBorder="0" allowFullScreen title="Mobula6 outdoor 450mah GNB 1S battery after JESC 48 khz firmware"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/_ge8t2IQdvU?rel=0" frameBorder="0" allowFullScreen title="Mobula6 outdoor 450mah GNB 1S battery after JESC 48 khz firmware" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>

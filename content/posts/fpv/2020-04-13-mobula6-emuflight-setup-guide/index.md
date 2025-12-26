@@ -45,7 +45,7 @@ In this example, I'm gonna be using my [Mobula6][1] (Bonus points if you already
 <!-- If you prefer watching, check out the full video review on my YouTube channel:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/INYdY-2tP9E?rel=0" frameBorder="0" allowFullScreen title="Happymodel Mobula6 - review, binding, complete setup, JESC 48 kHz MOD | BEST WHOOP WINTER 2020"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/INYdY-2tP9E?rel=0" frameBorder="0" allowFullScreen title="Happymodel Mobula6 - review, binding, complete setup, JESC 48 kHz MOD | BEST WHOOP WINTER 2020" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div> -->
 
 ### <span id="what-is-emuflight" class="offset-top-nav">❔ What is EmuFlight?</span>
@@ -182,7 +182,7 @@ Put the radio in bind mode, plug in a battery in the Mobula6, press the bind but
 Here's some footage of my first few packs after I flashed the firmware (this is probably battery 2 or 3).
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/PwX5syewmpc?rel=0" frameBorder="0" allowFullScreen title="Mockula6: First flight with EmuFlight and Project Mockingbird on the Mobula6 (2020 #42)"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PwX5syewmpc?rel=0" frameBorder="0" allowFullScreen title="Mockula6: First flight with EmuFlight and Project Mockingbird on the Mobula6 (2020 #42)" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### Indoor flights (angle mode)
@@ -195,7 +195,7 @@ I'll definitely fly a bunch more packs, but I'm kind of torn for now. Not the bi
 I might try flashing Betaflight 4.1 to see how this compares to 3.5.7 and to EmuFlight 0.2.0.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/cg4yQ6in68w?rel=0" frameBorder="0" allowFullScreen title="Getting used to EmuFlight and Project Mockingbird on the Mobula6"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cg4yQ6in68w?rel=0" frameBorder="0" allowFullScreen title="Getting used to EmuFlight and Project Mockingbird on the Mobula6" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### Outdoor flights
@@ -207,7 +207,7 @@ The quad behaves, I flew both acro and angle mode, cause I was curious to see ho
 No perceivable changes to flight times either.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/NJGhFeT4RXA?rel=0" frameBorder="0" allowFullScreen title="Mockula6: First outdoor acro flight with EmuFlight and Project Mockingbird on the Mobula6 (2020 #43)"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NJGhFeT4RXA?rel=0" frameBorder="0" allowFullScreen title="Mockula6: First outdoor acro flight with EmuFlight and Project Mockingbird on the Mobula6 (2020 #43)" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### <span id="conclusion" class="offset-top-nav">📝 Conclusion</span>

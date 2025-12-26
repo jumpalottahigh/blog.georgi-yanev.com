@@ -42,7 +42,7 @@ So stay tuned if you are in the market for one of those. Let's take a deeper loo
 If you prefer watching, check out the full video review on my YouTube channel:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/qMm0v1Va6wg?rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/qMm0v1Va6wg?rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### 📦 <span id="unboxing">Unboxing</span>
@@ -248,7 +248,7 @@ _What could be better?_
 #### Maiden flight, stock 2 x 1S 450mah batteries.
 
 <div style="text-align: center">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=0&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle maiden flight"></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=0&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle maiden flight" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 Immediately during the maiden flight right after I took off **I noticed how much power this thing has and how locked in the tune is**. Great job by Emax there. A big part of how the [Emax Tinyhawk Freestyle][1] handles is thanks to the amazing [Avan Rush 2.5 inch tri-blade props][3]. Those give you really precise handling in turns. At the same time, they don't seem to consume a ton of amps. The Tinyhawk Freestyle is so lightweight and zips around so fast that you really won't be able to believe how fast it goes from the moment you take off as soon as you punch that throttle.
@@ -262,7 +262,7 @@ You just completely lose yourself and enjoy flying around at what seems to you l
 #### Here is the flight footage of the Emax Tinyhawk Freestyle on 1S stock 450mah battery.
 
 <div style="text-align: center">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=1&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle on 1S"></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=1&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle on 1S" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 The battery choice is perhaps one of the biggest upsides of this drone set. Because Emax has opted in to use 2 PH2.0 connectors, it allows you to reuse your batteries, in case you have any of those lying around.
@@ -278,7 +278,7 @@ For lolz and science I even flew it on these Eachine 300mah 1S lipos and **it st
 Pretty decent! This is just to say that if you have some of those batteries lying around you can reuse them with the [Emax Tinyhawk Freestyle][1]. But if you are buying, I still recommend getting the [GNB 450mah 1S batteries][4].
 
 <div style="text-align: center">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=2&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle on 2 x 1S 300mah eachine battery"></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=2&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle on 2 x 1S 300mah eachine battery" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 In terms of flight characteristics, I'm a bit curious to try out some bi-blade props on the [Tinyhawk Freestyle][1], although I also got to admit that it is completely unnecessary, as the stock build, tune, and props already provide an amazing and very enjoyable flight experience.
@@ -288,7 +288,7 @@ And here I have to also mention how easy is to go out flying with this toothpick
 And this is how I enjoy flying this drone nowadays - just throttle up and never let go, pretending I'm a racer 😅. I honestly completely forget this is a micro drone when I'm flying it.
 
 <div style="text-align: center">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=14&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle zipping around before the rain"></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/uaqb8IDhddY?list=PLt8_2AobQjAdaL2fUZM8zd6xzNZdMt0nz&index=14&rel=0" frameBorder="0" allowFullScreen title="Emax Tinyhawk Freestyle zipping around before the rain" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### <span id="upgrades" class="offset-top-nav">🔝 Upgrades</span>

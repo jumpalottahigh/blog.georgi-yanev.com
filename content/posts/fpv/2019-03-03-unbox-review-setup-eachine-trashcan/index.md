@@ -46,7 +46,7 @@ So let's have a look at what's in the box.
 If you prefer watching, check out the full video review:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/OBl8kv0XOkQ?rel=0" frameBorder="0" allowFullScreen title="Eachine Trashcan review on FPVTIPS on YouTube"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/OBl8kv0XOkQ?rel=0" frameBorder="0" allowFullScreen title="Eachine Trashcan review on FPVTIPS on YouTube" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### <span id="unboxing" class="offset-top-nav">📦 Unboxing experience</span>
@@ -190,15 +190,15 @@ P.S.: My poor flying here did not take away from the fun had :)
 - Upgradable and replaceable parts
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/rKG9t7o2xws?rel=0" frameBorder="0" allowFullScreen title="eachine trashcan flight footage 1"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rKG9t7o2xws?rel=0" frameBorder="0" allowFullScreen title="eachine trashcan flight footage 1" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/8Ax4gJNcXnI?rel=0" frameBorder="0" allowFullScreen title="eachine trashcan flight footage 2"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8Ax4gJNcXnI?rel=0" frameBorder="0" allowFullScreen title="eachine trashcan flight footage 2" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/PDUrXlOS5ZA?rel=0" frameBorder="0" allowFullScreen title="eachine trashcan flight footage 3"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PDUrXlOS5ZA?rel=0" frameBorder="0" allowFullScreen title="eachine trashcan flight footage 3" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 [0]: Linkslist

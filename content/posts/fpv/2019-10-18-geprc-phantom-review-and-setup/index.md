@@ -44,7 +44,7 @@ Let's see exactly why!
 If you prefer watching, check out the full video review on my YouTube channel:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/EpG4Ba4xpy4?rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom toothpick"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/EpG4Ba4xpy4?rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom toothpick" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### 📦 <span id="unboxing">Unboxing</span>
@@ -208,7 +208,7 @@ So I have flown it on a 3s 300 mah battery, 2s 350 mah battery and I even tried 
 Here is the 3S 300 mah battery maiden flight.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/aCDpAAAzQAM?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=0&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom maiden flight on 300mah 3S"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/aCDpAAAzQAM?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=0&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom maiden flight on 300mah 3S" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 Immediate impressions from the maiden:
@@ -240,7 +240,7 @@ Well, you could technically get a flight time of 4 minutes even on a Betafpv 2S 
 Flying the [GEPRC Phantom][1] on a 2S 350mah battery, stock bi blade props.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/HjSIa3_1We4?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=9&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom 4 min flight on 2S 350mah"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HjSIa3_1We4?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=9&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom 4 min flight on 2S 350mah" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 **In between of battery testing I also did some prop testing and that was mainly for 2 reasons: improving handling in turns and oscillations from the stock props after the slightest impact.**
@@ -252,7 +252,7 @@ The stock props fly well, but even the smallest bump causes them to oscillate on
 **Update: And here we go!** The HQs fly really nice, no complaints, but I still prefer the (SPOILER ALERT) Avan Rush 2.5 inch tri-blade props 😅.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/sDu8JbPATlc?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=19&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom with HQ 65mm bi-blade props"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sDu8JbPATlc?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=19&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom with HQ 65mm bi-blade props" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### 🌀🌀🌀🌀 Avan 2 inch quad-blade props
@@ -260,7 +260,7 @@ The stock props fly well, but even the smallest bump causes them to oscillate on
 This one was for science and out of curiosity and the conclusion is: **lol, don't do this**. It made no sense, made the quad fly like garbage, drew a lot more amps and didn't feel nice at all. This type of prop is better left to cinewhoops.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ipc7UiDNyIA?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=14&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom with quad blade avan 2 inch props"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ipc7UiDNyIA?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=14&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom with quad blade avan 2 inch props" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### 🌀🌀🌀 Avan Rush 2.5 inch tri-blade props
@@ -268,7 +268,7 @@ This one was for science and out of curiosity and the conclusion is: **lol, don'
 This one, though, was a winner for me! The [Avan Rush 2.5 inch tri-blade props][4] improve the handling in turns and once again give me this "point and go" feeling when flying the [GEPRC Phantom][1]. At the same time, these props did not take away from the speed or ruin the flight characteristics in any way and **even the amp draw (where I thought the biggest trade-off would be) was increased insignificantly**. Jackpot!
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/f5icIS4Mr98?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=15&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom with tri blade avan rush 2.5 inch props"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/f5icIS4Mr98?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=15&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom with tri blade avan rush 2.5 inch props" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 #### 🔋🔋🔋🔋 4S 5️⃣2️⃣0️⃣ mah
@@ -276,7 +276,7 @@ This one, though, was a winner for me! The [Avan Rush 2.5 inch tri-blade props][
 The 4S flight didn't work out so well. Partially because of the battery velcro strap (used stock, although too short). I guess it in a turn the strap snapped off and the battery fell on one side and pulled the quad down as it's quite heavy. Check it out towards the end of the video. This happened a few times, and I think I lost a motor due to it.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/5ai_mL7htww?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=18&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom trying out a 4S 520mah battery"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/5ai_mL7htww?list=PLt8_2AobQjAccJ4BKqNcfsUU6sl37TH45&index=18&rel=0" frameBorder="0" allowFullScreen title="GEPRC Phantom trying out a 4S 520mah battery" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 I'm still carrying out the investigation and will update here with more info as soon as I know more. On Banggood's product page and GEPRC's site, I saw somewhat contradicting information regarding how the quad is rated. I saw the information for both `2S-3S` and `2S-4S`. At this time, **I don't think I burned a motor due to flying on a 4S battery**, rather when the battery fell to the side, maybe the quad went crazy trying to overcompensate with that particular motor? Is that a thing?

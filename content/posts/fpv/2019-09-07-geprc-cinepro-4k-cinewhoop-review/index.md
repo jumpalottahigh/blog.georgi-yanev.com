@@ -42,7 +42,7 @@ Whether you are a cinewhoop veteran, or just considering getting into cinewhoopi
 If you prefer watching, check out the full video review on my YouTube channel:
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/cfssLvuPOO4?rel=0" frameBorder="0" allowFullScreen title="GEPRC CinePro 4K cinewhoop"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cfssLvuPOO4?rel=0" frameBorder="0" allowFullScreen title="GEPRC CinePro 4K cinewhoop" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ### 📦 <span id="unboxing">Unboxing</span>
@@ -269,7 +269,7 @@ Now even if the user experience suffers, I have to point this out - the **Caddx 
 We are finally ready to go fly and here's how the maiden flight turned out. This is the 4K 30fps flight footage. Unfortunately, that flight ended up with a failsafe about less than a hundred meters to my 8 o'clock. I'm not sure what was that about, but the GEPRC records black box data in built-in on-board flash memory and I will investigate this further.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/rpRIFKZXyGQ?list=PLt8_2AobQjAeWqgpphjAtnjsbxNO32tOs&index=0&rel=0" frameBorder="0" allowFullScreen title="GEPRC CinePro maiden flight failsafe"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rpRIFKZXyGQ?list=PLt8_2AobQjAeWqgpphjAtnjsbxNO32tOs&index=0&rel=0" frameBorder="0" allowFullScreen title="GEPRC CinePro maiden flight failsafe" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 I enjoyed flying the CinePro a lot. It was very different than most other quads I had flown to date. I love 5-inch drones and zippy micro quads with brushless motors. But the [GEPRC CinePro][1] is surely different and that's ok because it has a completely different purpose.
@@ -279,7 +279,7 @@ I tried flying it "cinewhoop styled" as much as I could - small camera tilt, slo
 That's also not to say that the CinePro can't pull its weight, it could zip around pretty nice too, even if not at top speeds. Check out the slightly faster paced 2.7k 60fps footage below. You can also get a sense for how the props sound through the camera's microphone (albeit the volume was reduced, but still usable sound quality).
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/nWYBfPPcicQ?list=PLt8_2AobQjAeWqgpphjAtnjsbxNO32tOs&index=3" frameBorder="0" allowFullScreen title="GEPRC CinePro maiden flight failsafe"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/nWYBfPPcicQ?list=PLt8_2AobQjAeWqgpphjAtnjsbxNO32tOs&index=3" frameBorder="0" allowFullScreen title="GEPRC CinePro maiden flight failsafe" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 I mentioned the maiden resulted in a failsafe and although the quad dropped from pretty low, I still lost 1 motor screw and the Caddx Tarsier's wifi antenna. The camera's position also changed due to the impact.
@@ -299,7 +299,7 @@ You could also subscribe to my [Georgi FPV][10] YouTube channel where I drop all
 `UPDATE:` here is the video of the GEPRC CinePro with the Dalprop Cyclone q2035c props. The quad still flies smooth and nice, I do feel that the handling with the Avan Flow props is a bit easier, but they are also more amp hungry. Both prop options work really well with this quad.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/HCHy9sUj7LU?list=PLt8_2AobQjAeWqgpphjAtnjsbxNO32tOs&index=4" frameBorder="0" allowFullScreen title="GEPRC CinePro flight with Dalprop Cyclone q2035c props"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HCHy9sUj7LU?list=PLt8_2AobQjAeWqgpphjAtnjsbxNO32tOs&index=4" frameBorder="0" allowFullScreen title="GEPRC CinePro flight with Dalprop Cyclone q2035c props" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ![GEPRC CinePro with Dalprops on](geprc-cinepro-4k-cinewhoop-review-40.jpg)
