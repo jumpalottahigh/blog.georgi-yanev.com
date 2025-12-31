@@ -3,10 +3,16 @@
 }
 
 html {
+  box-sizing: border-box;
   font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
 }
@@ -130,6 +136,7 @@ select {
 [type='submit'],
 button,
 html [type='button'] {
+  appearance: button;
   -webkit-appearance: button;
 }
 [type='button']::-moz-focus-inner,
@@ -171,6 +178,7 @@ textarea {
   height: auto;
 }
 [type='search'] {
+  appearance: textfield;
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
@@ -502,6 +510,15 @@ table {
   padding-top: 0;
   width: 100%;
 }
+
+@media (max-width: 630px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+}
 fieldset {
   margin-bottom: 1.45rem;
   margin-left: 0;
@@ -792,6 +809,7 @@ pre tt:after {
 
 .main {
   margin: 0 auto;
+  width: 100%;
   max-width: 1080px;
   padding-left: 14rem;
   padding-top: 2rem;
@@ -806,6 +824,7 @@ pre tt:after {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 80%;
 }
 
 /* Lightbox UI Hints */
@@ -978,8 +997,8 @@ div > pre {
 
   .main {
     order: 1;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .sidebar-wrapper {
@@ -992,18 +1011,6 @@ div > pre {
 
   .nav li a {
     font-size: 1rem;
-  }
-}
-
-@media (max-width: 630px) {
-  .gatsby-highlight {
-    max-width: 510px;
-  }
-}
-
-@media (max-width: 500px) {
-  .gatsby-highlight {
-    max-width: 340px;
   }
 }
 
@@ -1364,13 +1371,35 @@ button {
 .blog-post-content .video-grid {
   display: grid;
   gap: 15px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.blog-post-content .video-grid > * {
+  min-width: 0;
+  max-width: 100%;
 }
 
 .blog-post-content .image-grid > p {
   display: grid !important;
   gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+/* Robust Image Grid shrinking */
+.blog-post-content .image-grid > p > * {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.blog-post-content .image-grid .gatsby-resp-image-wrapper,
+.blog-post-content .image-grid .gatsby-resp-image-background-image,
+.blog-post-content .image-grid .gatsby-resp-image-image {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
 }
 
 .blog-post-content .image-grid > p span {
