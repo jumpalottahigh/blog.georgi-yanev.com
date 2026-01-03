@@ -24,6 +24,11 @@ const AppBarWrapper = styled.nav`
     display: none;
   }
 
+  ul li.mode-switch-container {
+    display: flex;
+    margin-right: 60px;
+  }
+
   .visible-xs {
     display: flex;
   }
@@ -31,6 +36,10 @@ const AppBarWrapper = styled.nav`
   @media (min-width: 710px) {
     ul li {
       display: flex;
+    }
+
+    ul li.mode-switch-container {
+      margin-right: 0;
     }
   }
 `
@@ -96,6 +105,7 @@ const Header = () => {
             color: '#0275d8',
             textDecoration: 'none',
             marginRight: '.7rem',
+            minWidth: '48px',
           }}
         >
           <h1
@@ -228,6 +238,7 @@ const Header = () => {
                 </li>
               </ul>
             </DropDown>
+
           </ul>
           <SocialIcons />
           <Hamburger className="hamburger" />

@@ -6,6 +6,7 @@ import { slide as Menu } from 'react-burger-menu'
 import { FaGithub, FaTwitter, FaLinkedin, FaRss, FaDev } from 'react-icons/fa'
 
 import TagPool from '../../TagPool'
+import Mode from '../../Mode'
 
 import fpvtipsLogo from '../../../images/fpvtips-logo-full.svg'
 
@@ -114,6 +115,9 @@ const Hamburger = () => {
   return (
     <Menu right>
       <GlobalStyle />
+      <div style={{ marginBottom: '1rem' }}>
+        <Mode />
+      </div>
       <Link to="/posts/">Blog posts</Link>
       <Link to="/eternal-archives/">Eternal Archives</Link>
       <hr />

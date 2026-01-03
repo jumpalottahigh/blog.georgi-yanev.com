@@ -824,7 +824,13 @@ pre tt:after {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 80%;
+  width: 60%;
+}
+
+@media (min-width: 400px) {
+  .nav {
+    width: 70%;
+  }
 }
 
 /* Lightbox UI Hints */
@@ -881,11 +887,13 @@ pre tt:after {
   margin-bottom: 0;
   margin-left: auto;
   padding: 0;
+  list-style-type: none;
 }
 
 .social li {
   display: flex;
   margin-left: 0.4rem;
+  margin-bottom: 0;
 }
 
 .social li a {
@@ -1570,4 +1578,15 @@ code:before {
 
 .social-icon:hover {
   filter: unset;
+}
+
+.mode-switch-container {
+  display: flex;
+  justify-self: flex-end;
+}
+
+@media (max-width: 400px) {
+  .mode-switch-container {
+    display: none;
+  }
 }

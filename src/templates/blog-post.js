@@ -7,7 +7,6 @@ import DiscussionEmbed from '../components/Disqus'
 import FeaturedGear from '../components/FeaturedGear'
 import FeedbackSection from '../components/FeedbackSection'
 import Layout from '../components/structure/layout'
-import ModeSwitch from '../components/Mode'
 import PromoBanner from '../components/PromoBanner'
 import ReaderQuestions from '../components/ReaderQuestions'
 import ReadProgressLine from '../components/ReadProgressLine'
@@ -172,9 +171,6 @@ class BlogPostTemplate extends React.Component {
                     <em>Last updated: {post.frontmatter.updated}</em>
                   </div>
                 )}
-              </div>
-              <div className="toolbar">
-                <ModeSwitch />
               </div>
             </div>
             {showBanner && (
