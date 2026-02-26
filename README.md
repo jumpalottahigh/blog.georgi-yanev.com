@@ -28,3 +28,10 @@ To run locally in dev mode:
 - [Facebook](https://www.facebook.com/jumpalottahigh/)
 - [Twitter](https://www.twitter.com/jumpalottahigh/)
 - [LinkedIn](https://www.linkedin.com/in/yanevgeorgi/)
+
+## 📜 License
+
+This project is dual-licensed:
+
+- **Code**: All source code is licensed under the [MIT License](LICENSE). Feel free to use it for your own projects!
+- **Content**: © Georgi Yanev. All rights reserved. The articles and images in this repository are my intellectual property. You may not republish them or use them for commercial purposes without my permission.

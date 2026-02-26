@@ -80,7 +80,7 @@ const Footer = () => {
           ❤️
         </span>
         <br />
-        This project is{' '}
+        The code part of this project is{' '}
         <a
           href="https://github.com/jumpalottahigh/blog.georgi-yanev.com"
           target="_blank"
@@ -88,7 +88,8 @@ const Footer = () => {
         >
           open source and available on GitHub
         </a>
-        .
+        {" "}
+        under a MIT license.
       </h5>
     </StyledFooter>
   )
