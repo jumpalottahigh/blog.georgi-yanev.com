@@ -1,5 +1,11 @@
 import React from 'react'
-import { FaGithub, FaTwitter, FaLinkedin, FaRss } from 'react-icons/fa'
+import {
+  FaGithub,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin,
+  FaRss,
+} from 'react-icons/fa'
 import Mode from '../../Mode'
 
 const SocialIcons = () => (
@@ -26,6 +32,16 @@ const SocialIcons = () => (
           title="Twitter"
         >
           <FaTwitter color="#1da1f2" className="social-icon" />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.instagram.com/jumpalottahigh"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Instagram"
+        >
+          <FaInstagram color="#e1306c" className="social-icon" />
         </a>
       </li>
       <li>

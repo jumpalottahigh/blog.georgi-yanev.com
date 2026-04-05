@@ -3,7 +3,14 @@ import { createGlobalStyle } from 'styled-components'
 import { Link, useStaticQuery, graphql } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import { slide as Menu } from 'react-burger-menu'
-import { FaGithub, FaTwitter, FaLinkedin, FaRss, FaDev } from 'react-icons/fa'
+import {
+  FaGithub,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin,
+  FaRss,
+  FaDev,
+} from 'react-icons/fa'
 
 import TagPool from '../../TagPool'
 import Mode from '../../Mode'
@@ -197,6 +204,14 @@ const Hamburger = () => {
       >
         <FaTwitter size="1.75rem" color="#1da1f2" className="social-icon" />
         <span style={{ marginLeft: '0.35rem' }}>Twitter</span>
+      </a>
+      <a
+        href="https://www.instagram.com/jumpalottahigh"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaInstagram size="1.75rem" color="#e1306c" className="social-icon" />
+        <span style={{ marginLeft: '0.35rem' }}>Instagram</span>
       </a>
       <a
         href="https://www.linkedin.com/in/yanevgeorgi/"

@@ -142,33 +142,59 @@ const SupportMePage = () => {
           </p>
         </Task>
         <Task>
-          <h2>6. Follow me on social media on YouTube</h2>
+          <h2>6. Follow me on social media</h2>
           <p>
             I upload video snippets, behind the scenes, random flight footage,
-            gear pictures every so often on:{' '}
-            <a
-              href="https://www.instagram.com/fpvtips"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Instagram
-            </a>
+            gear pictures every so often on{' '}
+            <strong>
+              <a
+                href="https://www.instagram.com/fpvtips"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram (@fpvtips)
+              </a>
+            </strong>
             ,{' '}
-            <a
-              href="https://twitter.com/fpvtips"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Twitter
-            </a>
+            <strong>
+              <a
+                href="https://www.instagram.com/jumpalottahigh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram (@jumpalottahigh)
+              </a>
+            </strong>
             ,{' '}
-            <a
-              href="https://facebook.com/fpvtips"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Facebook
-            </a>
+            <strong>
+              <a
+                href="https://twitter.com/fpvtips"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter (@fpvtips)
+              </a>
+            </strong>
+            ,{' '}
+            <strong>
+              <a
+                href="https://twitter.com/jumpalottahigh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter (@jumpalottahigh)
+              </a>
+            </strong>
+            ,{' '}
+            <strong>
+              <a
+                href="https://facebook.com/fpvtips"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Facebook
+              </a>
+            </strong>
           </p>
         </Task>
         <Task>

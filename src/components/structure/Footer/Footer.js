@@ -1,6 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaGithub, FaTwitter, FaTwitch, FaYoutube } from 'react-icons/fa'
+import {
+  FaGithub,
+  FaTwitter,
+  FaTwitch,
+  FaYoutube,
+  FaInstagram,
+} from 'react-icons/fa'
 
 const StyledFooter = styled.footer`
   order: 2;
@@ -54,6 +60,14 @@ const Footer = () => {
           title="Twitter"
         >
           <FaTwitter color="#1da1f2" size="1.75rem" className="social-icon" />
+        </a>
+        <a
+          href="https://www.instagram.com/jumpalottahigh"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Instagram"
+        >
+          <FaInstagram color="#e1306c" size="1.75rem" className="social-icon" />
         </a>
         <a
           href="https://twitch.tv/jumpalottahigh"

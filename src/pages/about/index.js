@@ -19,6 +19,7 @@ const AboutPage = () => (
         Node.js. You can find me on{' '}
         <a href="https://www.youtube.com/@FPVtips">YouTube</a>,{' '}
         <a href="https://twitter.com/jumpalottahigh">Twitter</a>,{' '}
+        <a href="https://www.instagram.com/jumpalottahigh">Instagram</a>,{' '}
         <a href="https://github.com/jumpalottahigh">GitHub</a>,{' '}
         <a href="https://twitch.tv/jumpalottahigh">Twitch</a> and{' '}
         <a href="https://www.linkedin.com/in/yanevgeorgi">LinkedIn</a>
@@ -75,8 +76,9 @@ const AboutPage = () => (
           JAMstack with Gatsby and Netlify
         </Link>
         . You can also{' '}
-        <a href="https://twitter.com/jumpalottahigh">follow me</a> on twitter.
-        Most of my projects are open source and{' '}
+        <a href="https://twitter.com/jumpalottahigh">follow me</a> on twitter, or{' '}
+        <a href="https://www.instagram.com/jumpalottahigh">instagram</a>. Most
+        of my projects are open source and{' '}
         <a href="https://github.com/jumpalottahigh?tab=repositories">
           available on GitHub
         </a>
